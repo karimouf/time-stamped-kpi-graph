@@ -99,7 +99,7 @@ from kpi_visualization import KPIGraphVisualizer
 
 # Build the graph
 builder = KPIGraphBuilder()
-graph = builder.build_graph_from_tables("data/tables/linked_tables.jsonl")
+graph = builder.build_graph_from_tables("data/tables")
 
 # Get statistics
 stats = builder.get_graph_statistics()
@@ -283,7 +283,7 @@ black *.py
 
 **Missing Data Files**
 ```
-FileNotFoundError: data/tables/linked_tables.jsonl
+FileNotFoundError: No JSONL files found in data/tables
 ```
 Ensure data files are in the correct directory structure.
 
