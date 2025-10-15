@@ -31,7 +31,8 @@ class KPIGraphVisualizer:
             if len(nodes) > max_nodes:
                 nodes = nodes[:max_nodes]
             subgraph = self.graph.subgraph(nodes)
-        
+
+        print(f"Plotting graph with {subgraph} edges")
         plt.figure(figsize=(15, 10))
         
         # Create layout
@@ -48,14 +49,14 @@ class KPIGraphVisualizer:
         
         # Draw nodes
         nx.draw_networkx_nodes(subgraph, pos, node_color=node_colors, 
-                              node_size=300, alpha=0.8)
+                              node_size=1500, alpha=0.8)
         
         # Draw edges
         nx.draw_networkx_edges(subgraph, pos, alpha=0.5, arrows=True, 
-                              arrowsize=10, arrowstyle='->')
+                              arrowsize=20, arrowstyle='->')
         
         # Add labels for key nodes
-        labels = {node_id: f"{data['key'][:10]}\n{data['year']}" 
+        labels = {node_id: f"{data['key'][:10]}\n{data['year']}\n{data['value']}" 
                  for node_id, data in subgraph.nodes(data=True)}
         nx.draw_networkx_labels(subgraph, pos, labels, font_size=8)
         
@@ -67,11 +68,12 @@ class KPIGraphVisualizer:
     def plot_kpi_timeline(self, kpi_name: str, entities: List[str] = None):
         """Plot timeline for specific KPI across entities"""
         # Filter nodes for the specified KPI
-        kpi_nodes = [(node_id, data) for node_id, data in self.graph.nodes(data=True) 
-                    if data['kpi_name'].lower() == kpi_name.lower()]
-        
+        kpi_nodes = []
+        for node_id, data in self.graph.nodes(data=True):
+            if data['kpi_name'].lower() == kpi_name.lower():
+                kpi_nodes.append((node_id, data))
+
         if not kpi_nodes:
-            print(f"No data found for KPI: {kpi_name}")
             return
         
         # Convert to DataFrame
@@ -79,17 +81,12 @@ class KPIGraphVisualizer:
         for node_id, data in kpi_nodes:
             if entities and data['key'] not in entities:
                 continue
+        
             
-            # Try to convert value to numeric
-            try:
-                numeric_value = float(data['value'].replace(',', '').replace(' million', ''))
-            except:
-                continue
-                
             df_data.append({
                 'entity': data['key'],
                 'year': data['year'],
-                'value': numeric_value,
+                'value': data['value'],
                 'kpi': data['kpi_name']
             })
         
@@ -240,7 +237,7 @@ def demonstrate_visualization():
     
     print("Loading and building KPI graph...")
     builder = KPIGraphBuilder()
-    graph = builder.build_graph_from_tables("data/tables/linked_tables.jsonl")
+    graph = builder.build_graph_from_tables("data/tables")
     
     visualizer = KPIGraphVisualizer(graph)
     
