@@ -1,0 +1,75 @@
+You are given a single KPI JSON slot (see "input" below). Your job is to determine whether each field is internally consistent and plausible given the provided metadata. Do NOT fetch external data; base your judgment solely on the content provided and general common-sense knowledge. Return exactly one JSON object (no surrounding prose) matching the "OUTPUT SCHEMA" below.
+
+INPUT:
+{"id": "VW2022_Td85de9_VEHICLE_SALES_2022_Volume_brand_group", "kpi_name": "VEHICLE SALES", "key": "Volume brand group", "units": "Thousand vehicles", "value": 4069000, "year": 2022, "evidence": {"table_id": "VW2022_Td85de9", "doc_id": "VW2022", "page": 4, "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD", "title": "Key Figures by brand and business field", "row_idx": 0, "col_idx": 1}}
+{"id": "VW2022_Td85de9_VEHICLE_SALES_2021_Volume_brand_group", "kpi_name": "VEHICLE SALES", "key": "Volume brand group", "units": "Thousand dollar", "value": 4069, "year": 2022, "evidence": {"table_id": "VW2022_Td85de9", "doc_id": "VW2022", "page": 4, "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD", "title": "Key Figures by brand and business field", "row_idx": 0, "col_idx": 1}}
+
+VALIDATION RULES / WHAT TO CHECK:
+1. Field presence & types
+   - Ensure required fields exist and have sensible types:
+     id (string), kpi_name (string), key (string), units (string), value (number), year (integer), evidence (object).
+   - In `evidence`, table_id/doc_id/title/section should be strings, page/row_idx/col_idx should be integers.
+
+2. Internal consistency
+   - Check for obvious mismatches between `kpi_name`/`key`/`units` and `value`:
+     * Are units compatible with the KPI? (e.g., "Thousand vehicles" with "VEHICLE SALES" is plausible).
+     * If units indicate thousands, note that numeric magnitude may be in thousands (e.g., 4069 = 4,069 thousand = 4,069,000 vehicles).
+   - Check for off-by-factor / scale issues (common: thousand vs unit, percent vs absolute).
+   - Check `year` against the `id` and `evidence.doc_id` if they include a year token (e.g., "2022" in id/doc_id) — flag inconsistencies.
+
+3. Format/metadata plausibility
+   - `id` often encodes table/document and KPI; verify it contains tokens consistent with other fields (e.g., "VW2022" and "2022" in id/doc_id/year).
+   - `table_id` and `doc_id` formats: if `id` or `table_id` include the year or doc prefix, that is supportive.
+   - `row_idx`/`col_idx` are zero-based integers; flag if negative or non-integer.
+
+4. Possible error patterns to surface
+   - OCR/parse issues (characters replaced, commas/periods mis-located).
+   - Off-by-1000 (e.g., value should be 4.069 if thousands vs units).
+   - Wrong sign, misplaced decimal, swapped row/col indices.
+   - Implausible magnitudes given label (flag but do not invent external facts).
+
+5. Confidence and reasoning
+   - Provide a confidence score between 0 and 1 reflecting how certain you are.
+   - If uncertain, explain why and list what additional evidence would help (e.g., original table snippet, header row values, exemplar totals).
+
+OUTPUT SCHEMA (strict — return only this JSON):
+{
+  "valid": boolean,                 // true if the slot looks consistent and plausible
+  "issues": [string],               // list of identified problems (empty if none)
+  "corrected": {                    // best-effort corrected slot; set to null if no correction
+    "value": number | null,
+    "units": string | null,
+    "year": number | null,
+    "explanation": string
+  } | null,
+  "confidence": number,             // 0.0 - 1.0
+  "reasoning": string               // concise explanation of checks performed and conclusion
+}
+
+EXAMPLES
+
+Example 1 — Valid (expected output)
+Input: {"kpi_name":"POPULATION", "units":"Thousands", "value":83, "year":2020, "id":"POP2020_x"}
+Output:
+{
+  "valid": true,
+  "issues": [],
+  "corrected": null,
+  "confidence": 0.9,
+  "reasoning": "Units 'Thousands' match a plausible population magnitude of 83 (i.e., 83,000). id contains 2020 which matches year."
+}
+
+Example 2 — Issue: off-by-factor (expected output)
+Input: {"kpi_name":"VEHICLE SALES", "units":"Thousand vehicles", "value":4069000, "year":2022, "id":"VW2022_x"}
+Output:
+{
+  "valid": false,
+  "issues": ["Value magnitude looks like raw units while units state 'Thousand vehicles' — possible off-by-1000."],
+  "corrected": {"value": 4069, "units": "Thousand vehicles", "year":2022, "explanation":"Divided by 1000 to match stated units."},
+  "confidence": 0.85,
+  "reasoning":"Value 4,069,000 is more consistent with 'units' = 'Thousand vehicles' when expressed as 4069. Likely scale mismatch."
+}
+
+TASK:
+- Run the validation using the INPUT above.
+- Return exactly one JSON object matching the OUTPUT SCHEMA. No extra text.

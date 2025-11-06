@@ -1,0 +1,1804 @@
+[
+  {
+    "id": "VW2022_VolumeBrandGroup_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volume brand group",
+    "units": "Thousand vehicles",
+    "value": 4069,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 0,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_VolumeBrandGroup_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volume brand group",
+    "units": "Thousand vehicles",
+    "value": 4133,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 0,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_VolumeBrandGroup_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Volume brand group",
+    "units": "€ million",
+    "value": 113762,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 0,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_VolumeBrandGroup_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Volume brand group",
+    "units": "€ million",
+    "value": 101858,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 0,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_VolumeBrandGroup_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Volume brand group",
+    "units": "€ million",
+    "value": 4045,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 0,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_VolumeBrandGroup_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Volume brand group",
+    "units": "€ million",
+    "value": 3488,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 0,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenPassengerCars_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volkswagen Passenger Cars",
+    "units": "Thousand vehicles",
+    "value": 2594,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 1,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenPassengerCars_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volkswagen Passenger Cars",
+    "units": "Thousand vehicles",
+    "value": 2719,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 1,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenPassengerCars_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Passenger Cars",
+    "units": "€ million",
+    "value": 73773,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 1,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenPassengerCars_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Passenger Cars",
+    "units": "€ million",
+    "value": 67856,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 1,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenPassengerCars_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Passenger Cars",
+    "units": "€ million",
+    "value": 2647,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 1,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenPassengerCars_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Passenger Cars",
+    "units": "€ million",
+    "value": 2160,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 1,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_SKODA_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "ŠKODA",
+    "units": "Thousand vehicles",
+    "value": 863,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 2,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_SKODA_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "ŠKODA",
+    "units": "Thousand vehicles",
+    "value": 784,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 2,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_SKODA_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "ŠKODA",
+    "units": "€ million",
+    "value": 21026,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 2,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_SKODA_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "ŠKODA",
+    "units": "€ million",
+    "value": 17743,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 2,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_SKODA_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "ŠKODA",
+    "units": "€ million",
+    "value": 628,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 2,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_SKODA_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "ŠKODA",
+    "units": "€ million",
+    "value": 1083,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 2,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_SEAT_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "SEAT",
+    "units": "Thousand vehicles",
+    "value": 468,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 3,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_SEAT_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "SEAT",
+    "units": "Thousand vehicles",
+    "value": 494,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 3,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_SEAT_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "SEAT",
+    "units": "€ million",
+    "value": 10941,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 3,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_SEAT_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "SEAT",
+    "units": "€ million",
+    "value": 9614,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 3,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_SEAT_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "SEAT",
+    "units": "€ million",
+    "value": 33,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 3,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_SEAT_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "SEAT",
+    "units": "€ million",
+    "value": -233,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 3,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenCommercialVehicles_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volkswagen Commercial Vehicles",
+    "units": "Thousand vehicles",
+    "value": 340,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 4,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenCommercialVehicles_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volkswagen Commercial Vehicles",
+    "units": "Thousand vehicles",
+    "value": 326,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 4,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenCommercialVehicles_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Commercial Vehicles",
+    "units": "€ million",
+    "value": 11455,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 4,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenCommercialVehicles_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Commercial Vehicles",
+    "units": "€ million",
+    "value": 9909,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 4,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenCommercialVehicles_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Commercial Vehicles",
+    "units": "€ million",
+    "value": 529,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 4,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenCommercialVehicles_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Commercial Vehicles",
+    "units": "€ million",
+    "value": 73,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 4,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_TechComponents_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Tech. Components",
+    "units": "€ million",
+    "value": 17966,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 5,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_TechComponents_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Tech. Components",
+    "units": "€ million",
+    "value": 16386,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 5,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_TechComponents_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Tech. Components",
+    "units": "€ million",
+    "value": 130,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 5,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_TechComponents_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Tech. Components",
+    "units": "€ million",
+    "value": 329,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 5,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_Audi_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Audi (Premium brand group)",
+    "units": "Thousand vehicles",
+    "value": 1070,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 7,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_Audi_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Audi (Premium brand group)",
+    "units": "Thousand vehicles",
+    "value": 1024,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 7,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_Audi_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Audi (Premium brand group)",
+    "units": "€ million",
+    "value": 61753,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 7,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_Audi_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Audi (Premium brand group)",
+    "units": "€ million",
+    "value": 55914,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 7,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_Audi_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Audi (Premium brand group)",
+    "units": "€ million",
+    "value": 7622,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 7,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_Audi_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Audi (Premium brand group)",
+    "units": "€ million",
+    "value": 5936,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 7,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_Porsche_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Porsche Automotive (Sport & Luxury brand group)",
+    "units": "Thousand vehicles",
+    "value": 314,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 8,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_Porsche_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Porsche Automotive (Sport & Luxury brand group)",
+    "units": "Thousand vehicles",
+    "value": 297,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 8,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_Porsche_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Porsche Automotive (Sport & Luxury brand group)",
+    "units": "€ million",
+    "value": 34591,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 8,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_Porsche_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Porsche Automotive (Sport & Luxury brand group)",
+    "units": "€ million",
+    "value": 30289,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 8,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_Porsche_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Porsche Automotive (Sport & Luxury brand group)",
+    "units": "€ million",
+    "value": 6423,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 8,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_Porsche_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Porsche Automotive (Sport & Luxury brand group)",
+    "units": "€ million",
+    "value": 5006,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 8,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_TRATON_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "TRATON Commercial Vehicles",
+    "units": "Thousand vehicles",
+    "value": 306,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 9,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_TRATON_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "TRATON Commercial Vehicles",
+    "units": "Thousand vehicles",
+    "value": 273,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 9,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_TRATON_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "TRATON Commercial Vehicles",
+    "units": "€ million",
+    "value": 39516,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 9,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_TRATON_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "TRATON Commercial Vehicles",
+    "units": "€ million",
+    "value": 30092,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 9,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_TRATON_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "TRATON Commercial Vehicles",
+    "units": "€ million",
+    "value": 1583,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 9,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_TRATON_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "TRATON Commercial Vehicles",
+    "units": "€ million",
+    "value": 161,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 9,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_EquityChina_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Equity-accounted companies in China",
+    "units": "Thousand vehicles",
+    "value": 3122,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 10,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_EquityChina_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Equity-accounted companies in China",
+    "units": "Thousand vehicles",
+    "value": 3042,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 10,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_MANEnergy_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "MAN Energy Solutions",
+    "units": "€ million",
+    "value": 3565,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 11,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_MANEnergy_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "MAN Energy Solutions",
+    "units": "€ million",
+    "value": 3278,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 11,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_MANEnergy_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "MAN Energy Solutions",
+    "units": "€ million",
+    "value": 284,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 11,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_MANEnergy_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "MAN Energy Solutions",
+    "units": "€ million",
+    "value": 179,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 11,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_CARIAD_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "CARIAD",
+    "units": "€ million",
+    "value": 796,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 12,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_CARIAD_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "CARIAD",
+    "units": "€ million",
+    "value": 518,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 12,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_CARIAD_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "CARIAD",
+    "units": "€ million",
+    "value": -2068,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 12,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_CARIAD_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "CARIAD",
+    "units": "€ million",
+    "value": -1327,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 12,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenFinancialServices_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Financial Services",
+    "units": "€ million",
+    "value": 44155,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 13,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenFinancialServices_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Financial Services",
+    "units": "€ million",
+    "value": 41662,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 13,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenFinancialServices_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Financial Services",
+    "units": "€ million",
+    "value": 5602,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 13,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenFinancialServices_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Financial Services",
+    "units": "€ million",
+    "value": 5672,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 13,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_Other_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Other",
+    "units": "€ million",
+    "value": -18907,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 14,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_Other_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Other",
+    "units": "€ million",
+    "value": -13410,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 14,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_Other_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Other",
+    "units": "€ million",
+    "value": -966,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 14,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_Other_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Other",
+    "units": "€ million",
+    "value": 913,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 14,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroupBeforeSpecialItems_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Group before special items",
+    "units": "€ million",
+    "value": 22523,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 15,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroupBeforeSpecialItems_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Group before special items",
+    "units": "€ million",
+    "value": 20026,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 15,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_SpecialItems_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Special items",
+    "units": "€ million",
+    "value": -399,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 16,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_SpecialItems_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Special items",
+    "units": "€ million",
+    "value": -751,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 16,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroup_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volkswagen Group",
+    "units": "Thousand vehicles",
+    "value": 8481,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 17,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroup_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Volkswagen Group",
+    "units": "Thousand vehicles",
+    "value": 8576,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 17,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroup_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Group",
+    "units": "€ million",
+    "value": 279232,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 17,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroup_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Volkswagen Group",
+    "units": "€ million",
+    "value": 250200,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 17,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroup_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Group",
+    "units": "€ million",
+    "value": 22124,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 17,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_VolkswagenGroup_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Volkswagen Group",
+    "units": "€ million",
+    "value": 19275,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 17,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_AutomotiveDivision_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Automotive Division",
+    "units": "Thousand vehicles",
+    "value": 8481,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 18,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_AutomotiveDivision_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Automotive Division",
+    "units": "Thousand vehicles",
+    "value": 8576,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 18,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_AutomotiveDivision_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 232385,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 18,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_AutomotiveDivision_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 206237,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 18,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_AutomotiveDivision_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 16468,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 18,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_AutomotiveDivision_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 13230,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 18,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_PassengerCarsBusinessArea_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Passenger Cars Business Area",
+    "units": "Thousand vehicles",
+    "value": 8175,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 19,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_PassengerCarsBusinessArea_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Passenger Cars Business Area",
+    "units": "Thousand vehicles",
+    "value": 8303,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 19,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_PassengerCarsBusinessArea_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Passenger Cars Business Area",
+    "units": "€ million",
+    "value": 189304,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 19,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_PassengerCarsBusinessArea_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Passenger Cars Business Area",
+    "units": "€ million",
+    "value": 172868,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 19,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_PassengerCarsBusinessArea_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Passenger Cars Business Area",
+    "units": "€ million",
+    "value": 14600,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 19,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_PassengerCarsBusinessArea_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Passenger Cars Business Area",
+    "units": "€ million",
+    "value": 13051,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 19,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_CommercialVehiclesBusinessArea_VehicleSales_2022",
+    "kpi_name": "Vehicle Sales",
+    "key": "Commercial Vehicles Business Area",
+    "units": "Thousand vehicles",
+    "value": 306,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 20,
+      "col_idx": 1
+    }
+  },
+  {
+    "id": "VW2022_CommercialVehiclesBusinessArea_VehicleSales_2021",
+    "kpi_name": "Vehicle Sales",
+    "key": "Commercial Vehicles Business Area",
+    "units": "Thousand vehicles",
+    "value": 273,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 20,
+      "col_idx": 2
+    }
+  },
+  {
+    "id": "VW2022_CommercialVehiclesBusinessArea_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ million",
+    "value": 39516,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 20,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_CommercialVehiclesBusinessArea_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ million",
+    "value": 30092,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 20,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_CommercialVehiclesBusinessArea_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ million",
+    "value": 1588,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 20,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_CommercialVehiclesBusinessArea_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ million",
+    "value": 134,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 20,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_PowerEngineeringBusinessArea_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Power Engineering Business Area",
+    "units": "€ million",
+    "value": 3565,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 21,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_PowerEngineeringBusinessArea_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Power Engineering Business Area",
+    "units": "€ million",
+    "value": 3278,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 21,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_PowerEngineeringBusinessArea_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Power Engineering Business Area",
+    "units": "€ million",
+    "value": 281,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 21,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_PowerEngineeringBusinessArea_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Power Engineering Business Area",
+    "units": "€ million",
+    "value": 45,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 21,
+      "col_idx": 6
+    }
+  },
+  {
+    "id": "VW2022_FinancialServicesDivision_SalesRevenue_2022",
+    "kpi_name": "Sales Revenue",
+    "key": "Financial Services Division",
+    "units": "€ million",
+    "value": 46847,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 22,
+      "col_idx": 3
+    }
+  },
+  {
+    "id": "VW2022_FinancialServicesDivision_SalesRevenue_2021",
+    "kpi_name": "Sales Revenue",
+    "key": "Financial Services Division",
+    "units": "€ million",
+    "value": 43963,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 22,
+      "col_idx": 4
+    }
+  },
+  {
+    "id": "VW2022_FinancialServicesDivision_OperatingResult_2022",
+    "kpi_name": "Operating Result",
+    "key": "Financial Services Division",
+    "units": "€ million",
+    "value": 5656,
+    "year": 2022,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 22,
+      "col_idx": 5
+    }
+  },
+  {
+    "id": "VW2022_FinancialServicesDivision_OperatingResult_2021",
+    "kpi_name": "Operating Result",
+    "key": "Financial Services Division",
+    "units": "€ million",
+    "value": 6045,
+    "year": 2021,
+    "evidence": {
+      "table_id": "VW2022_Td85de9",
+      "doc_id": "VW2022",
+      "page": 4,
+      "section": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "row_idx": 22,
+      "col_idx": 6
+    }
+  }
+]

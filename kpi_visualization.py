@@ -32,11 +32,10 @@ class KPIGraphVisualizer:
                 nodes = nodes[:max_nodes]
             subgraph = self.graph.subgraph(nodes)
 
-        print(f"Plotting graph with {subgraph} edges")
         plt.figure(figsize=(15, 10))
         
         # Create layout
-        pos = nx.spring_layout(subgraph, k=2, iterations=50)
+        pos = nx.spring_layout(subgraph)
         
         # Color nodes by KPI type
         node_colors = []
@@ -49,11 +48,11 @@ class KPIGraphVisualizer:
         
         # Draw nodes
         nx.draw_networkx_nodes(subgraph, pos, node_color=node_colors, 
-                              node_size=1500, alpha=0.8)
+                              node_size=1800, alpha=0.8)
         
         # Draw edges
-        nx.draw_networkx_edges(subgraph, pos, alpha=0.5, arrows=True, 
-                              arrowsize=20, arrowstyle='->')
+        nx.draw_networkx_edges(subgraph, pos, arrows=True, 
+                              arrowsize=20, arrowstyle='->', edge_color='black')
         
         # Add labels for key nodes
         labels = {node_id: f"{data['key'][:10]}\n{data['year']}\n{data['value']}" 

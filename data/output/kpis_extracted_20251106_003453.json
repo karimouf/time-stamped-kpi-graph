@@ -1,0 +1,1012 @@
+{
+    "table_id": "VW2023_Td85de9",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "section_name": "KEY FIGURES BY BRAND GROUP AND BUSINESS FIELD",
+    "title": "KEY FIGURES BY BRAND GROUP AND BUSINESS FIELD",
+    "extraction_timestamp": "2025-11-06T00:38:13.267546",
+    "models_used": [
+        "llama-3-8b"
+    ],
+    "num_models": 1,
+    "individual_results": {
+        "llama-3-8b": {
+            "kpis": [],
+            "model": "llama-3-8b",
+            "raw_output": "{\n  \"kpis\": [\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"4826\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Core brand group\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"4069\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Core brand group\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"137770\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Core brand group\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"113762\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Core brand group\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"7273\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Core brand group\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"4045\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Core brand group\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"1282\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Progressive brand group\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"1070\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Progressive brand group\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"69865\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Progressive brand group\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"61753\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Progressive brand group\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"6280\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Progressive brand group\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"7622\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Progressive brand group\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"334\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Sport Luxury brand group ^2\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"314\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Sport Luxury brand group ^2\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"37349\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Sport Luxury brand group ^2\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"34599\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Sport Luxury brand group ^2\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"6938\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Sport Luxury brand group ^2\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"6425\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Sport Luxury brand group ^2\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"–\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"CARIAD\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"–\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"CARIAD\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"1078\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"CARIAD\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"796\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"CARIAD\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"-2392\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"CARIAD\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"-2068\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"CARIAD\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"–\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Battery\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"–\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Battery\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"31\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Battery\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"0\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Battery\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"-417\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Battery\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"-121\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Battery\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"339\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"TRATON Commercial Vehicles\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"306\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"TRATON Commercial Vehicles\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"45731\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"TRATON Commercial Vehicles\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"39516\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"TRATON Commercial Vehicles\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"3715\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"TRATON Commercial Vehicles\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"1583\",\n      \"unit\": \"€ million\"\n]}}",
+            "error": "JSON parsing failed: Expecting ',' delimiter: line 287 column 1 (char 7192)"
+        }
+    },
+    "all_kpis": [],
+    "total_kpis_extracted": 0
+}
+{
+    "table_id": "VW2023_Tae872e",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "section_name": "KEY FIGURES OF THE CORE BRAND GROUP",
+    "title": "KEY FIGURES OF THE CORE BRAND GROUP",
+    "extraction_timestamp": "2025-11-06T00:39:43.625564",
+    "models_used": [
+        "llama-3-8b"
+    ],
+    "num_models": 1,
+    "individual_results": {
+        "llama-3-8b": {
+            "kpis": [],
+            "model": "llama-3-8b",
+            "raw_output": "{\n  \"kpis\": [\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"3016\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars vehicle sales\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"2594\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars vehicle sales\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"86382\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Passenger Cars sales revenue\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"73773\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Passenger Cars sales revenue\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"3542\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Passenger Cars operating result\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"2647\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Passenger Cars operating result\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"1056\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Škoda vehicle sales\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"863\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Škoda vehicle sales\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"2653\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Škoda sales revenue\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"2102\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Škoda sales revenue\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"1773\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Škoda operating result\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"628\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Škoda operating result\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"602\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"SEAT vehicle sales\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"468\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"SEAT vehicle sales\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"14333\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"SEAT sales revenue\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"10941\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"SEAT sales revenue\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"625\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"SEAT operating result\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"33\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"SEAT operating result\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"423\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Commercial Vehicles vehicle sales\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"340\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Commercial Vehicles vehicle sales\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"15325\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Commercial Vehicles sales revenue\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"11455\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Commercial Vehicles sales revenue\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"873\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Commercial Vehicles operating result\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"529\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Volkswagen Commercial Vehicles operating result\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"–\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Tech. Components vehicle sales\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"–\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Tech. Components vehicle sales\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"2128\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Tech. Components sales revenue\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"17966\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Tech. Components sales revenue\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"582\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Tech. Components operating result\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"130\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Tech. Components operating result\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"-270\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Consolidation vehicle sales\"\n    },\n    {\n      \"metric_name\": \"VEHICLE SALES\",\n      \"value\": \"-195\",\n      \"unit\": \"thousand vehicles\",\n      \"time_period\": \"2022\",\n      \"category\": \"operational\",\n      \"context\": \"Consolidation vehicle sales\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"-2608\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2023\",\n      \"category\": \"financial\",\n      \"context\": \"Consolidation sales revenue\"\n    },\n    {\n      \"metric_name\": \"SALES REVENUE\",\n      \"value\": \"-2139\",\n      \"unit\": \"€ million\",\n      \"time_period\": \"2022\",\n      \"category\": \"financial\",\n      \"context\": \"Consolidation sales revenue\"\n    },\n    {\n      \"metric_name\": \"OPERATING RESULT\",\n      \"value\": \"-121\"\n]}}",
+            "error": "JSON parsing failed: Expecting ',' delimiter: line 278 column 1 (char 7415)"
+        }
+    },
+    "all_kpis": [],
+    "total_kpis_extracted": 0
+}
+{
+    "table_id": "VW2023_Tab8f8f",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "section_name": "KEY FIGURES BY DIVISION",
+    "title": "KEY FIGURES BY DIVISION",
+    "extraction_timestamp": "2025-11-06T00:41:13.424648",
+    "models_used": [
+        "llama-3-8b"
+    ],
+    "num_models": 1,
+    "individual_results": {
+        "llama-3-8b": {
+            "kpis": [
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "9023",
+                    "unit": "thousand vehicles",
+                    "time_period": "2023",
+                    "category": "operational",
+                    "context": "Passenger Cars Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "8175",
+                    "unit": "thousand vehicles",
+                    "time_period": "2022",
+                    "category": "operational",
+                    "context": "Passenger Cars Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "218380",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Passenger Cars Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "189312",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Passenger Cars Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "14704",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Passenger Cars Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "14603",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Passenger Cars Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "339",
+                    "unit": "thousand vehicles",
+                    "time_period": "2023",
+                    "category": "operational",
+                    "context": "Commercial Vehicles Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "306",
+                    "unit": "thousand vehicles",
+                    "time_period": "2022",
+                    "category": "operational",
+                    "context": "Commercial Vehicles Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "45731",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Commercial Vehicles Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "39516",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Commercial Vehicles Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "3714",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Commercial Vehicles Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "1588",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Commercial Vehicles Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "4044",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Power Engineering Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "3565",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Power Engineering Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "366",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Power Engineering Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "281",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Power Engineering Business Area",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "268156",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Automotive Division ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "232392",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Automotive Division ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "18784",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Automotive Division ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "16471",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Automotive Division ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "54128",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Financial Services Division",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "46657",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Financial Services Division",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "3792",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Financial Services Division",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "5638",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Financial Services Division",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "322284",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Volkswagen Group",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "279050",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Volkswagen Group",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "2257",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Volkswagen Group",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "OPERATING RESULT",
+                    "value": "2210",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Volkswagen Group",
+                    "source_model": "llama-3-8b"
+                }
+            ],
+            "model": "llama-3-8b",
+            "num_kpis": 28
+        }
+    },
+    "all_kpis": [
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "9023",
+            "unit": "thousand vehicles",
+            "time_period": "2023",
+            "category": "operational",
+            "context": "Passenger Cars Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "8175",
+            "unit": "thousand vehicles",
+            "time_period": "2022",
+            "category": "operational",
+            "context": "Passenger Cars Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "218380",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Passenger Cars Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "189312",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Passenger Cars Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "14704",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Passenger Cars Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "14603",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Passenger Cars Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "339",
+            "unit": "thousand vehicles",
+            "time_period": "2023",
+            "category": "operational",
+            "context": "Commercial Vehicles Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "306",
+            "unit": "thousand vehicles",
+            "time_period": "2022",
+            "category": "operational",
+            "context": "Commercial Vehicles Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "45731",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Commercial Vehicles Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "39516",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Commercial Vehicles Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "3714",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Commercial Vehicles Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "1588",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Commercial Vehicles Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "4044",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Power Engineering Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "3565",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Power Engineering Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "366",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Power Engineering Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "281",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Power Engineering Business Area",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "268156",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Automotive Division ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "232392",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Automotive Division ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "18784",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Automotive Division ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "16471",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Automotive Division ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "54128",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Financial Services Division",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "46657",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Financial Services Division",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "3792",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Financial Services Division",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "5638",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Financial Services Division",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "322284",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Volkswagen Group",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "279050",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Volkswagen Group",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "2257",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Volkswagen Group",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "OPERATING RESULT",
+            "value": "2210",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Volkswagen Group",
+            "source_model": "llama-3-8b"
+        }
+    ],
+    "total_kpis_extracted": 28
+}
+{
+    "table_id": "VW2023_T3f91be",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "section_name": "KEY FIGURES BY MARKET",
+    "title": "KEY FIGURES BY MARKET",
+    "extraction_timestamp": "2025-11-06T00:42:41.444097",
+    "models_used": [
+        "llama-3-8b"
+    ],
+    "num_models": 1,
+    "individual_results": {
+        "llama-3-8b": {
+            "kpis": [
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "4169",
+                    "unit": "thousand vehicles",
+                    "time_period": "2023",
+                    "category": "operational",
+                    "context": "Europe/Other Markets",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "3495",
+                    "unit": "thousand vehicles",
+                    "time_period": "2022",
+                    "category": "operational",
+                    "context": "Europe/Other Markets",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "187949",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Europe/Other Markets",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "154514",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Europe/Other Markets",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "1078",
+                    "unit": "thousand vehicles",
+                    "time_period": "2023",
+                    "category": "operational",
+                    "context": "North America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "868",
+                    "unit": "thousand vehicles",
+                    "time_period": "2022",
+                    "category": "operational",
+                    "context": "North America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "67908",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "North America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "59910",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "North America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "513",
+                    "unit": "thousand vehicles",
+                    "time_period": "2023",
+                    "category": "operational",
+                    "context": "South America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "487",
+                    "unit": "thousand vehicles",
+                    "time_period": "2022",
+                    "category": "operational",
+                    "context": "South America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "17139",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "South America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "15476",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "South America",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "3603",
+                    "unit": "thousand vehicles",
+                    "time_period": "2023",
+                    "category": "operational",
+                    "context": "Asia-Pacific ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "3632",
+                    "unit": "thousand vehicles",
+                    "time_period": "2022",
+                    "category": "operational",
+                    "context": "Asia-Pacific ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "50109",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Asia-Pacific ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "51443",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Asia-Pacific ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "Hedges on sales revenue",
+                    "value": "-821",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Hedges on sales revenue",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "Hedges on sales revenue",
+                    "value": "-2294",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Hedges on sales revenue",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "9362",
+                    "unit": "thousand vehicles",
+                    "time_period": "2023",
+                    "category": "operational",
+                    "context": "Volkswagen Group ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "VEHICLE SALES",
+                    "value": "8481",
+                    "unit": "thousand vehicles",
+                    "time_period": "2022",
+                    "category": "operational",
+                    "context": "Volkswagen Group ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "322284",
+                    "unit": "€ million",
+                    "time_period": "2023",
+                    "category": "financial",
+                    "context": "Volkswagen Group ^2",
+                    "source_model": "llama-3-8b"
+                },
+                {
+                    "metric_name": "SALES REVENUE",
+                    "value": "279050",
+                    "unit": "€ million",
+                    "time_period": "2022",
+                    "category": "financial",
+                    "context": "Volkswagen Group ^2",
+                    "source_model": "llama-3-8b"
+                }
+            ],
+            "model": "llama-3-8b",
+            "num_kpis": 22
+        }
+    },
+    "all_kpis": [
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "4169",
+            "unit": "thousand vehicles",
+            "time_period": "2023",
+            "category": "operational",
+            "context": "Europe/Other Markets",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "3495",
+            "unit": "thousand vehicles",
+            "time_period": "2022",
+            "category": "operational",
+            "context": "Europe/Other Markets",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "187949",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Europe/Other Markets",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "154514",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Europe/Other Markets",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "1078",
+            "unit": "thousand vehicles",
+            "time_period": "2023",
+            "category": "operational",
+            "context": "North America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "868",
+            "unit": "thousand vehicles",
+            "time_period": "2022",
+            "category": "operational",
+            "context": "North America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "67908",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "North America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "59910",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "North America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "513",
+            "unit": "thousand vehicles",
+            "time_period": "2023",
+            "category": "operational",
+            "context": "South America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "487",
+            "unit": "thousand vehicles",
+            "time_period": "2022",
+            "category": "operational",
+            "context": "South America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "17139",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "South America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "15476",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "South America",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "3603",
+            "unit": "thousand vehicles",
+            "time_period": "2023",
+            "category": "operational",
+            "context": "Asia-Pacific ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "3632",
+            "unit": "thousand vehicles",
+            "time_period": "2022",
+            "category": "operational",
+            "context": "Asia-Pacific ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "50109",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Asia-Pacific ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "51443",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Asia-Pacific ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "Hedges on sales revenue",
+            "value": "-821",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Hedges on sales revenue",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "Hedges on sales revenue",
+            "value": "-2294",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Hedges on sales revenue",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "9362",
+            "unit": "thousand vehicles",
+            "time_period": "2023",
+            "category": "operational",
+            "context": "Volkswagen Group ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "VEHICLE SALES",
+            "value": "8481",
+            "unit": "thousand vehicles",
+            "time_period": "2022",
+            "category": "operational",
+            "context": "Volkswagen Group ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "322284",
+            "unit": "€ million",
+            "time_period": "2023",
+            "category": "financial",
+            "context": "Volkswagen Group ^2",
+            "source_model": "llama-3-8b"
+        },
+        {
+            "metric_name": "SALES REVENUE",
+            "value": "279050",
+            "unit": "€ million",
+            "time_period": "2022",
+            "category": "financial",
+            "context": "Volkswagen Group ^2",
+            "source_model": "llama-3-8b"
+        }
+    ],
+    "total_kpis_extracted": 22
+}
+{
+    "table_id": "VW2023_T546547",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
+    "title": "VOLKSWAGEN PASSENGER CARS – PRODUCTION",
+    "extraction_timestamp": "2025-11-06T00:44:17.163678",
+    "models_used": [
+        "llama-3-8b"
+    ],
+    "num_models": 1,
+    "individual_results": {
+        "llama-3-8b": {
+            "kpis": [],
+            "model": "llama-3-8b",
+            "raw_output": "{\n  \"kpis\": [\n    {\n      \"metric_name\": \"Tiguan\",\n      \"value\": \"633147\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Polo/Virtus/Nivus/Taigo\",\n      \"value\": \"591668\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Passat/Magotan\",\n      \"value\": \"498369\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Jetta/Sagitar\",\n      \"value\": \"381663\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Golf\",\n      \"value\": \"309414\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"T-Roc\",\n      \"value\": \"289426\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Lavida\",\n      \"value\": \"271309\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"T-Cross/Tacqua/Taigun\",\n      \"value\": \"261519\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Tharu/Taos\",\n      \"value\": \"233756\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Atlas/Teramont\",\n      \"value\": \"229339\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"ID.4, ID.5\",\n      \"value\": \"223425\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"JETTA\",\n      \"value\": \"170521\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Bora\",\n      \"value\": \"149740\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"ID.3\",\n      \"value\": \"142216\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Lamando\",\n      \"value\": \"106023\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Santana\",\n      \"value\": \"90623\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Saveiro\",\n      \"value\": \"68334\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Arteon/CC\",\n      \"value\": \"60467\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"up!\",\n      \"value\": \"38420\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Touareg\",\n      \"value\": \"34577\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Touran\",\n      \"value\": \"33983\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"ID.6\",\n      \"value\": \"15926\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Sharan/Viloran\",\n      \"value\": \"15097\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"ID.7\",\n      \"value\": \"8592\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Gol\",\n      \"value\": \"1386\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Phideon\",\n      \"value\": \"31\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Total\",\n      \"value\": \"4858971\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    }\n  ]\n} \n\n\n\n\n\nPlease note that the provided table is a sample and may not be a real-world financial data. The extracted KPIs are based on the provided table and may not be accurate or relevant in a real-world scenario.assistant\n\nHere is the extracted KPIs in JSON format:\n\n{\n  \"kpis\": [\n    {\n      \"metric_name\": \"Tiguan\",\n      \"value\": \"633147\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Polo/Virtus/Nivus/Taigo\",\n      \"value\": \"591668\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Passat/Magotan\",\n      \"value\": \"498369\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Jetta/Sagitar\",\n      \"value\": \"381663\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"Golf\",\n      \"value\": \"309414\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\": \"Volkswagen Passenger Cars - Production\"\n    },\n    {\n      \"metric_name\": \"T-Roc\",\n      \"value\": \"289426\",\n      \"unit\": \"units\",\n      \"time_period\": \"2023\",\n      \"category\": \"operational\",\n      \"context\":\n]}}",
+            "error": "JSON parsing failed: Extra data: line 226 column 1 (char 5794)"
+        }
+    },
+    "all_kpis": [],
+    "total_kpis_extracted": 0
+}

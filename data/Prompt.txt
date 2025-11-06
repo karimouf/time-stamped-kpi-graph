@@ -1,0 +1,60 @@
+You are an AI data extraction system that identifies **Key Performance Indicators (KPIs)** from financial tables represented in JSON.
+
+You will be given **an array of JSON table objects**, each representing a table extracted from a corporate or financial report.
+Your job is to analyze each table, detect **quantitative or qualitative KPIs**, and output a **flat list of structured KPI JSON objects** — one object per KPI.
+
+---
+
+### 🔍 **Instructions**
+
+For each table in the input array:
+
+1. **Understand the context**
+   Review the table’s metadata (`title`, `section_name`, `bucket`, `doc_id`, `year`, etc.) to understand what business area or division it refers to.
+
+2. **Interpret the structure**
+   Use `headers`, `rows`, and `stub_col` to determine what each column and row represents. Identify metrics such as *sales, production, operating results, equity, assets, vehicle sales, operating margins,* etc.
+
+3. **Extract or infer KPIs**
+
+   * If the table contains numerical values → extract them as KPIs.
+   * If the table contains categorical data (like brand lists) → infer potential KPIs such as “brand performance overview” or “division breakdown.”
+
+4. **Ensure every KPI includes contextual evidence**
+   For each KPI, include the table and document metadata in the `evidence` object.
+
+---
+
+### 📦 **Output JSON Format**
+
+Output **one JSON array** containing all KPI objects extracted from all tables.
+
+Each object **must strictly follow** this schema:
+
+```json
+{
+  "id": "<unique_kpi_identifier>",
+  "kpi_name": "<main metric name>",
+  "key": "<category, brand, or subgroup>",
+  "units": "<measurement units or 'N/A'>",
+  "value": <numeric value or null>,
+  "year": <year>,
+  "evidence": {
+    "table_id": "<table_id>",
+    "doc_id": "<doc_id>",
+    "page": <page_number>,
+    "section": "<section_name>",
+    "title": "<table_title>",
+    "row_idx": <row_index>,
+    "col_idx": <column_index>
+  }
+}
+```
+---
+
+### 📥 **Input Placeholder**
+
+```
+{"table_id": "VW2022_Td85de9", "doc_id": "VW2022", "year": 2022, "page": 4, "bucket": "divisions", "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD", "title": "Key Figures by brand and business field", "headers": [["", "VEHICLE SALES", "VEHICLE SALES", "SALES REVENUE", "SALES REVENUE", "OPERATING RESULT", "OPERATING RESULT"], ["Thousand vehicles/€ million", "2022", "2021", "2022", "2021", "2022", "2021"]], "merged_headers": ["Thousand vehicles/€ million", "VEHICLE SALES 2022", "VEHICLE SALES 2021", "SALES REVENUE 2022", "SALES REVENUE 2021", "OPERATING RESULT 2022", "OPERATING RESULT 2021"], "rows": [["Volume brand group", "4069", "4133", "113762", "101858", "4045", "3488"], ["Volkswagen Passenger Cars", "2594", "2719", "73773", "67856", "2647", "2160"], ["ŠKODA", "863", "784", "2102 ^6", "17743", "628", "1083"], ["SEAT", "468", "494", "10941", "9614", "33", "-233"], ["Volkswagen Commercial Vehicles", "340", "326", "11455", "9909", "529", "73"], ["Tech. Components", "–", "–", "17966", "16386", "130", "329"], ["Consolidation", "-195", "-190", "-2139 ^9", "-19650", "78", "76"], ["Audi (Premium brand group)1", "1070", "1024", "61753", "55914", "7622", "5936"], ["Porsche Automotive (Sport & Luxury brand group)2", "314", "297", "34591", "30289", "6423", "5006"], ["TRATON Commercial Vehicles ^3", "306", "273", "39516", "30092", "1583", "161"], ["Equity-accounted companies in China ^4", "3122", "3042", "–", "–", "–", "–"], ["MAN Energy Solutions", "–", "–", "3565", "3278", "284", "179"], ["CARIAD", "–", "–", "796", "518", "-2068", "-1327"], ["Volkswagen Financial Services", "–", "–", "44155", "41662", "5602", "5672"], ["Other ^5", "-400", "-195", "-18907", "-13410", "-966", "913"], ["Volkswagen Group before special items", "–", "–", "–", "–", "2252 ^3", "2002 ^6"], ["Special items", "–", "–", "–", "–", "-399", "-751"], ["Volkswagen Group", "8481", "8576", "279232", "250200", "2212 ^4", "19275"], ["Automotive Division ^6", "8481", "8576", "232385", "206237", "16468", "13230"], ["of which: Passenger Cars Business Area", "8175", "8303", "189304", "172868", "14600", "13051"], ["Commercial Vehicles Business Area", "306", "273", "39516", "30092", "1588", "134"], ["Power Engineering Business Area", "–", "–", "3565", "3278", "281", "45"], ["Financial Services Division", "–", "–", "46847", "43963", "5656", "6045"]], "stub_col": ["Volume brand group", "Volkswagen Passenger Cars", "ŠKODA", "SEAT", "Volkswagen Commercial Vehicles", "Tech. Components", "Consolidation", "Audi (Premium brand group)1", "Porsche Automotive (Sport & Luxury brand group)2", "TRATON Commercial Vehicles ^3", "Equity-accounted companies in China ^4", "MAN Energy Solutions", "CARIAD", "Volkswagen Financial Services", "Other ^5", "Volkswagen Group before special items", "Special items", "Volkswagen Group", "Automotive Division ^6", "of which: Passenger Cars Business Area", "Commercial Vehicles Business Area", "Power Engineering Business Area", "Financial Services Division"]}
+
+```

@@ -93,10 +93,10 @@ def main():
     graph = build_graph_from_tables(builder, extractor, tables_path)
     visualizer = KPIGraphVisualizer(graph)
     
-    print("\n2. Showing network graph for audi production...")
-    visualizer.plot_network_graph(kpi_filter="audi_production", max_nodes=100)
+    print("\n1. Showing network graph for audi production...")
+    visualizer.plot_network_graph(kpi_filter="audi_production", max_nodes=70)
     
-    print("\n3. Showing timeline for audi production...")
+    print("\n2. Showing timeline for audi production...")
     visualizer.plot_kpi_timeline(kpi_name="audi_production", 
                                 entities=["A1","A4", "A6", "A7", "A8","Q3", "Q5", "Q6", "Q8"])
     
