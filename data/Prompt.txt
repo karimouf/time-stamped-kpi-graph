@@ -33,7 +33,6 @@ Each object **must strictly follow** this schema:
 
 ```json
 {
-  "id": "<unique_kpi_identifier>",
   "kpi_name": "<main metric name>",
   "key": "<category, brand, or subgroup>",
   "units": "<measurement units or 'N/A'>",

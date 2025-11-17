@@ -17,12 +17,15 @@ Date: November 2025
 
 import json
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from typing import Dict, List, Any, Optional
 import argparse
 import logging
 from pathlib import Path
 from datetime import datetime
+
+# Import JSON utilities
+from json_utils import clean_json_response, parse_json_safely
 
 # ============================================================================
 # CONFIGURATION
@@ -44,18 +47,38 @@ MODEL_CONFIGS = {
     # "gemma-3-27b": {
     #     "path": f"{SHARED_MODELS_BASE}/models--google--gemma-3-27b-it",
     #     "includes_prompt_in_output": False,  # Gemma models don't echo prompts
-    #     "description": "Google Gemma 3 27B - Excellent reasoning and instruction following"
+    #     "description": "Google Gemma 3 27B - Excellent reasoning and instruction following",
+    #     "max_new_tokens": 4096  # Generous limit for complete JSON generation
     # },
     # "deepseek-v2.5": {
     #     "path": f"{SHARED_MODELS_BASE}/models-deepseek-ai--DeepSeek-V2.5-1210",
     #     "includes_prompt_in_output": False,  # DeepSeek typically doesn't echo
-    #     "description": "DeepSeek V2.5 - Advanced reasoning and coding capabilities"
+    #     "description": "DeepSeek V2.5 - Advanced reasoning and coding capabilities (4-bit quantized, 2 GPUs + CPU offload)",
+    #     "max_new_tokens": 2048,  # Reduced for memory efficiency
+    #     "quantization": "4bit",  # 4-bit NF4 quantization for 236B MoE model
+    #     "max_memory": {0: "75GB", 1: "75GB", "cpu": "60GB"},  # Distribute across 2 GPUs + CPU offload
+    #     "llm_int8_enable_fp32_cpu_offload": True  # Enable CPU offload for layers that don't fit
     # },
-    "llama-3-8b": {
-        "path": f"{SHARED_MODELS_BASE}/models--llama-3/8B-Instruct",
-        "includes_prompt_in_output": True,   # Llama models echo the full prompt
-        "description": "Meta Llama 3.1 8B Instruct - Strong general-purpose instruction following"
-    }
+    "deepseek-r1-distill-llama-70b": {
+        "path": f"{SHARED_MODELS_BASE}/models--deepseek-ai--DeepSeek-R1-Distill-Llama-70B",
+        "includes_prompt_in_output": True,   # Llama-based models echo the full prompt
+        "description": "DeepSeek R1 Distill Llama 70B - Distilled reasoning model based on Llama architecture",
+        "max_new_tokens": 16384,  # Maximum output tokens for complete KPI extraction
+        "max_memory": {0: "75GB", 1: "75GB"}  # Distribute across 2 GPUs
+    },
+    # "llama-3-70b": {
+    #     "path": f"{SHARED_MODELS_BASE}/models--llama-3/70B-Instruct",
+    #     "includes_prompt_in_output": True,   # Llama models echo the full prompt
+    #     "description": "Meta Llama 3 70B Instruct - Strong general-purpose instruction following",
+    #     "max_new_tokens": 8192,  # Maximum output tokens for complete KPI extraction
+    #     "max_memory": {0: "75GB", 1: "75GB"}  # Distribute across 2 GPUs
+    # },
+    # "llama-3-8b": {
+    #     "path": f"{SHARED_MODELS_BASE}/models--llama-3/8B-Instruct",
+    #     "includes_prompt_in_output": True,   # Llama models echo the full prompt
+    #     "description": "Meta Llama 3 8B Instruct - Strong general-purpose instruction following",
+    #     "max_new_tokens": 8192  # Maximum output tokens for complete KPI extraction
+    # }
 }
 
 # System prompt for KPI extraction
@@ -73,13 +96,14 @@ Guidelines:
 Return ONLY valid JSON in this exact format (no additional text):
 {
   "kpis": [
-    {
-      "metric_name": "Revenue",
-      "value": "322284",
-      "unit": "€ million",
-      "time_period": "2023",
-      "category": "financial",
-      "context": "Volkswagen Group total revenue"
+   {
+    "name": "<main metric name>",
+    "key": "<category, brand, or subgroup>",
+    "units": "<measurement units or 'N/A'>",
+    "value": <numeric value or null>,
+    "year": <year>,
+    "row_idx": <row_index>,
+    "col_idx": <column_index>
     }
   ]
 }"""
@@ -88,105 +112,6 @@ Return ONLY valid JSON in this exact format (no additional text):
 # ============================================================================
 # UTILITY FUNCTIONS
 # ============================================================================
-
-def clean_json_response(text: str, remove_prompt: str = None) -> str:
-    """
-    Clean and extract JSON from model output.
-    
-    Handles:
-    - Markdown code blocks (```json ... ```)
-    - Prompt echoing (removes the original prompt if present)
-    - Extra whitespace and formatting
-    - Truncated JSON (attempts to repair)
-    
-    Args:
-        text: Raw model output
-        remove_prompt: Original prompt to remove if model echoed it
-        
-    Returns:
-        Cleaned JSON string
-    """
-    # If we need to remove the prompt (for models like Llama that echo it)
-    if remove_prompt and remove_prompt in text:
-        text = text.replace(remove_prompt, "", 1).strip()
-    
-    # Extract JSON from markdown code blocks
-    if "```json" in text:
-        text = text.split("```json")[1].split("```")[0].strip()
-    elif "```" in text:
-        # Handle generic code blocks
-        parts = text.split("```")
-        if len(parts) >= 3:
-            text = parts[1].strip()
-    
-    # Remove common prefixes
-    text = text.strip()
-    if text.startswith("json"):
-        text = text[4:].strip()
-    
-    # Attempt to repair truncated JSON
-    text = repair_truncated_json(text)
-    
-    return text
-
-
-def repair_truncated_json(text: str) -> str:
-    """
-    Attempt to repair truncated JSON by closing incomplete structures.
-    
-    Common issues from token limit truncation:
-    - Unterminated strings
-    - Unclosed arrays
-    - Unclosed objects
-    
-    Args:
-        text: Potentially truncated JSON string
-        
-    Returns:
-        Repaired JSON string
-    """
-    if not text:
-        return text
-    
-    # Count opening vs closing brackets/braces
-    open_braces = text.count('{')
-    close_braces = text.count('}')
-    open_brackets = text.count('[')
-    close_brackets = text.count(']')
-    
-    # Check for unterminated string (odd number of quotes on last line)
-    lines = text.split('\n')
-    if lines:
-        last_line = lines[-1]
-        # Count quotes in last line (ignore escaped quotes)
-        quote_count = last_line.count('"') - last_line.count('\\"')
-        if quote_count % 2 == 1:
-            # Odd number of quotes = unterminated string
-            # Remove the incomplete last line
-            text = '\n'.join(lines[:-1])
-            # Recalculate bracket counts after removing last line
-            open_braces = text.count('{')
-            close_braces = text.count('}')
-            open_brackets = text.count('[')
-            close_brackets = text.count(']')
-    
-    # Close any unclosed arrays and objects
-    repairs = []
-    
-    # Close arrays first (innermost structures)
-    for _ in range(open_brackets - close_brackets):
-        repairs.append(']')
-    
-    # Close objects
-    for _ in range(open_braces - close_braces):
-        repairs.append('}')
-    
-    if repairs:
-        logger.info(f"    → JSON repair: closing {len(repairs)} unclosed structures")
-        text = text.rstrip().rstrip(',') + '\n' + ''.join(repairs)
-    
-    return text
-
 
 def validate_kpi_structure(kpi: Dict) -> bool:
     """
@@ -222,29 +147,24 @@ class MultiModelKPIExtractor:
             models_to_use: List of model names to load (default: all 3)
         """
         self.models_to_use = models_to_use or list(MODEL_CONFIGS.keys())
-        self.models = {}
-        self.tokenizers = {}
-        self.model_configs = {}
+        # Don't load models upfront - load them on-demand
+        self.current_model = None
+        self.current_tokenizer = None
+        self.current_model_name = None
         
         logger.info(f"Initializing Multi-Model KPI Extractor with {len(self.models_to_use)} models")
+        logger.info("Models will be loaded sequentially on-demand to save memory")
         logger.info("=" * 70)
-        
-        # Load each model
-        for model_name in self.models_to_use:
-            if model_name not in MODEL_CONFIGS:
-                logger.warning(f"Model '{model_name}' not found in configuration, skipping")
-                continue
-            self._load_model(model_name)
-        
-        logger.info("=" * 70)
-        logger.info(f"Successfully loaded {len(self.models)} models")
     
-    def _load_model(self, model_name: str) -> None:
+    def _load_model(self, model_name: str) -> bool:
         """
         Load a single model and its tokenizer.
         
         Args:
             model_name: Name of the model to load
+            
+        Returns:
+            True if successful, False otherwise
         """
         try:
             config = MODEL_CONFIGS[model_name]
@@ -255,47 +175,118 @@ class MultiModelKPIExtractor:
             logger.info(f"  Description: {config['description']}")
             
             # Load tokenizer
-            self.tokenizers[model_name] = AutoTokenizer.from_pretrained(
+            self.current_tokenizer = AutoTokenizer.from_pretrained(
                 model_path,
                 use_fast=False,
                 legacy=False,
                 padding_side="left",
-                trust_remote_code=False
+                trust_remote_code=True
             )
             
-            # Load model with optimizations (same pattern as Llama-2 example)
-            self.models[model_name] = AutoModelForCausalLM.from_pretrained(
+            # Configure quantization if specified
+            quantization_config = None
+            llm_int8_enable_fp32_cpu_offload = config.get("llm_int8_enable_fp32_cpu_offload", False)
+            
+            if config.get("quantization") == "4bit":
+                logger.info(f"  Using 4-bit NF4 quantization for memory efficiency")
+                quantization_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_quant_type="nf4",              # NormalFloat4 - optimal for LLMs
+                    bnb_4bit_compute_dtype=torch.bfloat16,  # Compute in bfloat16 for speed
+                    bnb_4bit_use_double_quant=True,         # Nested quantization for extra memory savings
+                    llm_int8_enable_fp32_cpu_offload=llm_int8_enable_fp32_cpu_offload  # Enable CPU offload if needed
+                )
+            elif config.get("quantization") == "8bit":
+                logger.info(f"  Using 8-bit quantization for memory efficiency")
+                quantization_config = BitsAndBytesConfig(
+                    load_in_8bit=True,
+                    llm_int8_enable_fp32_cpu_offload=llm_int8_enable_fp32_cpu_offload
+                )
+            
+            # Get max_memory config for multi-GPU distribution
+            max_memory = config.get("max_memory", None)
+            if max_memory:
+                logger.info(f"  Using multi-GPU setup with memory limits: {max_memory}")
+                if llm_int8_enable_fp32_cpu_offload:
+                    logger.info(f"  CPU offload enabled for layers that don't fit in GPU")
+            
+            # Load model with optimizations
+            self.current_model = AutoModelForCausalLM.from_pretrained(
                 model_path,
                 device_map="auto",
-                torch_dtype=torch.bfloat16,
-                trust_remote_code=False
+                max_memory=max_memory,  # Distribute across GPUs + CPU if specified
+                torch_dtype=torch.bfloat16 if quantization_config is None else None,
+                quantization_config=quantization_config,
+                trust_remote_code=True
             )
             
             # Configure padding token if not set (essential for batch tokenizing)
-            if self.tokenizers[model_name].pad_token is None:
-                self.tokenizers[model_name].add_special_tokens({"pad_token": "<pad>"})
-                self.models[model_name].resize_token_embeddings(len(self.tokenizers[model_name]))
-                self.models[model_name].config.pad_token_id = self.tokenizers[model_name].pad_token_id
-                self.models[model_name].generation_config.pad_token_id = self.tokenizers[model_name].pad_token_id
+            if self.current_tokenizer.pad_token is None:
+                self.current_tokenizer.add_special_tokens({"pad_token": "<pad>"})
+                self.current_model.resize_token_embeddings(len(self.current_tokenizer))
+                self.current_model.config.pad_token_id = self.current_tokenizer.pad_token_id
+                self.current_model.generation_config.pad_token_id = self.current_tokenizer.pad_token_id
             
-            # Store config for later use
-            self.model_configs[model_name] = config
+            # Store current model name and config
+            self.current_model_name = model_name
+            
+            # Log GPU memory usage after loading
+            if torch.cuda.is_available():
+                allocated = torch.cuda.memory_allocated(0) / 1e9  # Convert to GB
+                reserved = torch.cuda.memory_reserved(0) / 1e9
+                total = torch.cuda.get_device_properties(0).total_memory / 1e9
+                available = total - allocated
+                logger.info(f"  GPU Memory: {allocated:.2f}GB allocated, {available:.2f}GB available (of {total:.2f}GB total)")
             
             logger.info(f"  ✓ Successfully loaded {model_name}")
+            return True
             
         except Exception as e:
             logger.error(f"  ✗ Failed to load {model_name}: {str(e)}")
-            # Clean up partial loads
-            if model_name in self.models:
-                del self.models[model_name]
-            if model_name in self.tokenizers:
-                del self.tokenizers[model_name]
+            self.current_model = None
+            self.current_tokenizer = None
+            self.current_model_name = None
+            return False
+    
+    def _unload_model(self) -> None:
+        """
+        Unload the current model to free GPU memory.
+        """
+        if self.current_model is not None:
+            logger.info(f"  Unloading {self.current_model_name}...")
+            
+            # Log GPU memory before unloading
+            if torch.cuda.is_available():
+                allocated_before = torch.cuda.memory_allocated(0) / 1e9
+                logger.info(f"  GPU Memory before unload: {allocated_before:.2f}GB allocated")
+            
+            del self.current_model
+            del self.current_tokenizer
+            self.current_model = None
+            self.current_tokenizer = None
+            self.current_model_name = None
+            
+            # Force garbage collection to free memory
+            import gc
+            gc.collect()
+            torch.cuda.empty_cache()
+            
+            # Log GPU memory after unloading
+            if torch.cuda.is_available():
+                allocated_after = torch.cuda.memory_allocated(0) / 1e9
+                reserved = torch.cuda.memory_reserved(0) / 1e9
+                total = torch.cuda.get_device_properties(0).total_memory / 1e9
+                freed = allocated_before - allocated_after
+                available = total - allocated_after
+                logger.info(f"  GPU Memory after unload: {allocated_after:.2f}GB allocated, {available:.2f}GB available")
+                logger.info(f"  ✓ Freed {freed:.2f}GB of GPU memory")
+            else:
+                logger.info(f"  ✓ Model unloaded")
     
     def extract_kpis_single_model(
         self,
         table_data: Dict[str, Any],
         model_name: str,
-        max_new_tokens: int = 2048,
         temperature: float = 0.1
     ) -> Dict[str, Any]:
         """
@@ -304,71 +295,92 @@ class MultiModelKPIExtractor:
         Args:
             table_data: Dictionary containing table information
             model_name: Name of the model to use
-            max_new_tokens: Maximum tokens to generate (default: 2048)
             temperature: Sampling temperature (lower = more deterministic)
             
         Returns:
             Dictionary with extracted KPIs and metadata
         """
-        if model_name not in self.models:
-            logger.warning(f"Model {model_name} not loaded, skipping")
+        # Check if model is available
+        if model_name not in MODEL_CONFIGS:
+            logger.warning(f"Model {model_name} not in configuration, skipping")
             return {
                 "kpis": [],
                 "model": model_name,
-                "error": "Model not available"
+                "error": "Model not in configuration"
             }
+        
+        # Load model if not already loaded or if different model is loaded
+        if self.current_model_name != model_name:
+            # Unload previous model if any
+            if self.current_model is not None:
+                self._unload_model()
+            
+            # Load new model
+            if not self._load_model(model_name):
+                return {
+                    "kpis": [],
+                    "model": model_name,
+                    "error": "Failed to load model"
+                }
         
         try:
             # Prepare the extraction prompt
-            table_json = json.dumps(table_data, indent=2, ensure_ascii=False)
-            prompt = f"{SYSTEM_PROMPT}\n\nTable Data:\n{table_json}\n\nExtracted KPIs (JSON only):"
-            logger.info(f"prompt {prompt}")
+            table_json = json.dumps(table_data, ensure_ascii=False)
+            prompt = f"{SYSTEM_PROMPT}\n\n### 📥 **Input Placeholder**\n\n```\n{table_json}\n```"
+
             
             # Tokenize input
-            inputs = self.tokenizers[model_name](
+            inputs = self.current_tokenizer(
                 prompt,
                 return_tensors="pt",
                 truncation=True,
                 max_length=4096
-            ).to(self.models[model_name].device)
+            ).to(self.current_model.device)
             
             input_length = inputs['input_ids'].shape[1]
             
-            # Generate response
-            logger.info(f"    → Generating {max_new_tokens} tokens (temperature={temperature})...")
+            # Get model-specific max_new_tokens limit
+            config = MODEL_CONFIGS[model_name]
+            max_new_tokens = config.get("max_new_tokens", 2048)
+            
+            # Generate response with model-specific token limit
+            logger.info(f"    → Generating tokens (max: {max_new_tokens}, temperature={temperature})...")
             with torch.inference_mode():
-                outputs = self.models[model_name].generate(
+                outputs = self.current_model.generate(
                     **inputs,
                     max_new_tokens=max_new_tokens,
                     temperature=temperature,
                     do_sample=temperature > 0,
                     top_p=0.95 if temperature > 0 else None,
-                    pad_token_id=self.tokenizers[model_name].pad_token_id,
-                    eos_token_id=self.tokenizers[model_name].eos_token_id
+                    pad_token_id=self.current_tokenizer.pad_token_id,
+                    eos_token_id=self.current_tokenizer.eos_token_id
                 )
             logger.info(f"    → Generation complete. Decoding output...")
             
             # Decode response
             # Only decode the newly generated tokens (skip input prompt)
             generated_ids = outputs[0][input_length:]
-            generated_text = self.tokenizers[model_name].decode(
+            generated_text = self.current_tokenizer.decode(
                 generated_ids,
                 skip_special_tokens=True
             )
             
+            # Save raw output to file before cleaning
+            # table_id = table_data.get('table_id', 'unknown')
+           
+
             # Clean response (remove prompt if model echoed it)
-            if self.model_configs[model_name]["includes_prompt_in_output"]:
-                generated_text = clean_json_response(generated_text, remove_prompt=prompt)
+            config = MODEL_CONFIGS[model_name]
+            if config["includes_prompt_in_output"]:
+                cleaned_text = clean_json_response(generated_text, remove_prompt=prompt)
             else:
-                generated_text = clean_json_response(generated_text)
-            
-            logger.info(f"    → Cleaned response length: {len(generated_text)} characters")
-            
+                cleaned_text = clean_json_response(generated_text)
+
             # Parse JSON
             logger.info(f"    → Parsing JSON response...")
             try:
-                result = json.loads(generated_text)
-                
+                result = json.loads(cleaned_text)
+
                 # Validate structure
                 if "kpis" in result and isinstance(result["kpis"], list):
                     # Add source model to each KPI
@@ -376,13 +388,12 @@ class MultiModelKPIExtractor:
                         kpi["source_model"] = model_name
                     
                     # Filter out invalid KPIs
-                    valid_kpis = [kpi for kpi in result["kpis"] if validate_kpi_structure(kpi)]
                     
-                    result["kpis"] = valid_kpis
+                    result["kpis"]
                     result["model"] = model_name
-                    result["num_kpis"] = len(valid_kpis)
-                    
-                    logger.info(f"    ✓ Extracted {len(valid_kpis)} KPIs from {model_name}")
+                    result["num_kpis"] = len(result["kpis"])
+
+                    logger.info(f"    ✓ Extracted {len(result['kpis'])} KPIs from {model_name}")
                     return result
                 else:
                     logger.warning(f"  Invalid JSON structure from {model_name}")
@@ -393,9 +404,30 @@ class MultiModelKPIExtractor:
                     }
                     
             except json.JSONDecodeError as e:
+                # Save raw and cleaned output for debugging when JSON parsing fails
+                table_id = table_data.get('table_id', 'unknown')
                 logger.warning(f"  JSON parsing failed for {model_name}: {str(e)}")
-                logger.warning(f"  Raw output (last 500 chars): ...{generated_text[-500:]}")
-                logger.warning(f"  Total output length: {len(generated_text)} characters")
+                logger.warning(f"  Saving raw/cleaned output for debugging...")
+                
+                raw_output_path = f"/ukp-storage-1/ouf/kpi_extraction_project/data/output/raw_cleaned_{model_name}_{table_id}.txt"
+                with open(raw_output_path, "w", encoding="utf-8") as f:
+                    f.write(f"Model: {model_name}\n")
+                    f.write(f"Table: {table_id}\n")
+                    f.write(f"\n{'=' * 50}\n")
+                    f.write(f"RAW OUTPUT\n")
+                    f.write(f"{'=' * 50}\n\n")
+                    f.write(generated_text)
+                    f.write(f"\n{'=' * 50}\n")
+                    f.write(f"CLEANED OUTPUT\n")
+                    f.write(f"{'=' * 50}\n\n")
+                    f.write(cleaned_text)
+                    f.write(f"\n{'=' * 50}\n")
+                    f.write(f"ERROR\n")
+                    f.write(f"{'=' * 50}\n\n")
+                    f.write(f"JSON parsing error: {str(e)}\n")
+                
+                logger.warning(f"  Debug file saved: {raw_output_path}")
+                
                 return {
                     "kpis": [],
                     "model": model_name,
@@ -410,148 +442,313 @@ class MultiModelKPIExtractor:
                 "model": model_name,
                 "error": str(e)
             }
+        finally:
+            # Clean up GPU memory after each extraction to prevent buildup
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
     
-    def extract_kpis_ensemble(
+    def process_tables_with_model(
         self,
-        table_data: Dict[str, Any],
-        max_new_tokens: int = 2048,
+        tables: List[Dict[str, Any]],
+        model_name: str,
         temperature: float = 0.1
-    ) -> Dict[str, Any]:
+    ) -> List[Dict[str, Any]]:
         """
-        Extract KPIs using all loaded models and combine results.
-        
-        Uses ensemble approach where each model contributes its extractions.
+        Process all tables with a single model (load once, process all, unload).
         
         Args:
-            table_data: Dictionary containing table information
-            max_new_tokens: Maximum tokens to generate per model (default: 2048)
+            tables: List of table data dictionaries
+            model_name: Name of the model to use
             temperature: Sampling temperature
             
         Returns:
-            Dictionary with combined results from all models
+            List of extraction results, one per table
         """
-        table_id = table_data.get('table_id', 'unknown')
-        logger.info(f"Processing table: {table_id}")
+        logger.info(f"=" * 70)
+        logger.info(f"Processing {len(tables)} tables with {model_name}")
+        logger.info(f"=" * 70)
         
-        # Run each model
-        all_results = {}
-        all_kpis = []
+        # Load the model once
+        if not self._load_model(model_name):
+            logger.error(f"Failed to load {model_name}, skipping all tables for this model")
+            # Return empty results for all tables with error message
+            return [{
+                "table_id": table.get("table_id"),
+                "doc_id": table.get("doc_id"),
+                "year": table.get("year"),
+                "model": model_name,
+                "error": "Failed to load model - possibly out of memory",
+                "extraction_timestamp": datetime.now().isoformat()
+            } for table in tables]
         
-        for model_name in self.models.keys():
-            logger.info(f"  Running {model_name}...")
-            result = self.extract_kpis_single_model(
-                table_data,
-                model_name,
-                max_new_tokens,
-                temperature
-            )
-            all_results[model_name] = result
+        results = []
+        
+        # Process all tables with this model
+        for idx, table_data in enumerate(tables, 1):
+            table_id = table_data.get('table_id', 'unknown')
+            logger.info(f"[{idx}/{len(tables)}] Processing table: {table_id}")
             
-            # Collect KPIs from this model
-            if "kpis" in result and isinstance(result["kpis"], list):
-                all_kpis.extend(result["kpis"])
+            try:
+                result = self.extract_kpis_single_model(
+                    table_data,
+                    model_name,
+                    temperature
+                )
+                
+                # Add table metadata to result
+                result_with_metadata = {
+                    "table_id": table_data.get("table_id"),
+                    "doc_id": table_data.get("doc_id"),
+                    "year": table_data.get("year"),
+                    "section_name": table_data.get("section_name"),
+                    "title": table_data.get("title"),
+                    "extraction_timestamp": datetime.now().isoformat(),
+                    "model": model_name,
+                    "extraction_result": result
+                }
+                
+                results.append(result_with_metadata)
+                
+                # Progress update
+                if idx % 5 == 0:
+                    logger.info(f"  Progress: {idx}/{len(tables)} tables processed with {model_name}")
+                    
+            except torch.cuda.OutOfMemoryError as e:
+                logger.error(f"  CUDA OOM error on table {table_id} with {model_name}: {str(e)}")
+                logger.error(f"  Stopping processing for {model_name} due to memory constraints")
+                # Add error for this table
+                results.append({
+                    "table_id": table_data.get("table_id"),
+                    "model": model_name,
+                    "error": f"CUDA out of memory: {str(e)}"
+                })
+                # Stop processing remaining tables with this model
+                break
+                    
+            except Exception as e:
+                logger.error(f"  Error processing table {table_id} with {model_name}: {str(e)}")
+                results.append({
+                    "table_id": table_data.get("table_id"),
+                    "model": model_name,
+                    "error": str(e)
+                })
         
-        # Compile ensemble result
-        ensemble_result = {
-            "table_id": table_data.get("table_id"),
-            "doc_id": table_data.get("doc_id"),
-            "year": table_data.get("year"),
-            "section_name": table_data.get("section_name"),
-            "title": table_data.get("title"),
-            "extraction_timestamp": datetime.now().isoformat(),
-            "models_used": list(self.models.keys()),
-            "num_models": len(self.models),
-            "individual_results": all_results,
-            "all_kpis": all_kpis,
-            "total_kpis_extracted": len(all_kpis)
-        }
+        # Unload model after processing all tables
+        logger.info(f"Completed {len(results)}/{len(tables)} tables with {model_name}")
+        self._unload_model()
         
-        logger.info(f"  ✓ Extracted {len(all_kpis)} total KPIs from {len(self.models)} models")
-        
-        return ensemble_result
+        return results
     
-    def process_jsonl_file(
+    def process_jsonl_files(
         self,
-        input_file: str,
-        output_file: str,
+        input_files: List[str],
+        output_dir: str,
         max_tables: Optional[int] = None,
-        max_new_tokens: int = 2048,
-        temperature: float = 0.1
+        temperature: float = 0.1,
+        job_id: Optional[str] = None
     ) -> None:
         """
-        Process a JSONL file containing tables.
+        Process multiple JSONL files containing tables.
         
-        Reads tables line-by-line, extracts KPIs, and writes results.
+        For each model:
+        1. Load the model once
+        2. Process all tables from all input files with that model
+        3. Save results to separate JSON files (one per input file per model)
+        4. Unload model and move to next
         
         Args:
-            input_file: Path to input JSONL file
-            output_file: Path to output JSONL file
-            max_tables: Maximum number of tables to process (None = all)
-            max_new_tokens: Maximum tokens to generate per model (default: 2048)
+            input_files: List of paths to input JSONL files
+            output_dir: Directory for output files
+            max_tables: Maximum number of tables to process per file (None = all)
             temperature: Sampling temperature (default: 0.1)
+            job_id: Optional SLURM job ID for filename
         """
-        input_path = Path(input_file)
-        output_path = Path(output_file)
+        output_path = Path(output_dir)
         
-        if not input_path.exists():
-            logger.error(f"Input file not found: {input_file}")
+        # Validate all input files exist
+        valid_files = []
+        for input_file in input_files:
+            input_path = Path(input_file)
+            if not input_path.exists():
+                logger.error(f"Input file not found: {input_file}")
+            else:
+                valid_files.append(input_file)
+        
+        if not valid_files:
+            logger.error("No valid input files to process!")
             return
         
         # Create output directory if needed
-        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.mkdir(parents=True, exist_ok=True)
         
         logger.info("=" * 70)
-        logger.info(f"Processing file: {input_file}")
-        logger.info(f"Output file: {output_file}")
-        logger.info(f"Max tables: {max_tables if max_tables else 'All'}")
+        logger.info(f"Multi-Model KPI Extraction Pipeline")
+        logger.info(f"Input files: {len(valid_files)}")
+        for f in valid_files:
+            logger.info(f"  - {Path(f).name}")
+        logger.info(f"Output directory: {output_dir}")
+        logger.info(f"Models: {', '.join(self.models_to_use)}")
+        logger.info(f"Max tables per file: {max_tables if max_tables else 'All'}")
+        logger.info(f"Temperature: {temperature}")
         logger.info("=" * 70)
         
-        processed = 0
-        errors = 0
+        # Load all tables from all JSONL files
+        logger.info("Loading tables from input files...")
+        all_file_tables = []  # List of (input_file, tables) tuples
         
-        with open(input_file, 'r', encoding='utf-8') as f_in, \
-             open(output_file, 'w', encoding='utf-8') as f_out:
+        for input_file in valid_files:
+            logger.info(f"  Loading: {Path(input_file).name}")
+            tables = []
+            errors = 0
             
-            for line_num, line in enumerate(f_in, 1):
-                # Check if we've hit the limit
-                if max_tables and processed >= max_tables:
-                    logger.info(f"Reached maximum table limit ({max_tables})")
-                    break
+            with open(input_file, 'r', encoding='utf-8') as f_in:
+                for line_num, line in enumerate(f_in, 1):
+                    # Check if we've hit the limit
+                    if max_tables and len(tables) >= max_tables:
+                        logger.info(f"    Reached maximum table limit ({max_tables})")
+                        break
+                    
+                    try:
+                        table_data = json.loads(line)
+                        tables.append(table_data)
+                    except json.JSONDecodeError as e:
+                        logger.error(f"    Invalid JSON on line {line_num}: {str(e)}")
+                        errors += 1
+            
+            logger.info(f"    Loaded {len(tables)} tables (errors: {errors})")
+            
+            if tables:
+                all_file_tables.append((input_file, tables))
+        
+        total_tables = sum(len(tables) for _, tables in all_file_tables)
+        logger.info(f"Total tables loaded: {total_tables} from {len(all_file_tables)} files")
+        
+        if not all_file_tables:
+            logger.error("No tables to process!")
+            return
+        
+        # Process each model separately
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        for model_name in self.models_to_use:
+            logger.info("")
+            logger.info("#" * 70)
+            logger.info(f"Starting extraction with model: {model_name}")
+            logger.info("#" * 70)
+            
+            # Load model once for all files
+            if not self._load_model(model_name):
+                logger.error(f"Failed to load {model_name}, skipping all files for this model")
+                continue
+            
+            # Process each input file with this model (model stays loaded)
+            for file_idx, (input_file, tables) in enumerate(all_file_tables, 1):
+                input_filename = Path(input_file).stem  # e.g., "linked_tables(2023)"
+                logger.info("")
+                logger.info(f"Processing file {file_idx}/{len(all_file_tables)}: {Path(input_file).name}")
+                logger.info(f"  Tables in this file: {len(tables)}")
                 
-                try:
-                    # Parse table data
-                    table_data = json.loads(line)
+                # Process all tables from this file
+                model_results = []
+                for idx, table_data in enumerate(tables, 1):
+                    table_id = table_data.get('table_id', 'unknown')
+                    logger.info(f"  [{idx}/{len(tables)}] Processing table: {table_id}")
                     
-                    # Extract KPIs
-                    result = self.extract_kpis_ensemble(
-                        table_data,
-                        max_new_tokens=max_new_tokens,
-                        temperature=temperature
-                    )
-                    
-                    # Write result
-                    f_out.write(json.dumps(result, ensure_ascii=False) + '\n')
-                    f_out.flush()  # Ensure write in case of crash
-                    
-                    processed += 1
-                    
-                    # Progress update every 5 tables
-                    if processed % 5 == 0:
-                        logger.info(f"Progress: {processed} tables processed")
-                    
-                except json.JSONDecodeError as e:
-                    logger.error(f"Invalid JSON on line {line_num}: {str(e)}")
-                    errors += 1
-                except Exception as e:
-                    logger.error(f"Error processing line {line_num}: {str(e)}")
-                    errors += 1
+                    try:
+                        result = self.extract_kpis_single_model(
+                            table_data,
+                            model_name,
+                            temperature
+                        )
+                        
+                        # Add table metadata to result
+                        result_with_metadata = {
+                            "table_id": table_data.get("table_id"),
+                            "doc_id": table_data.get("doc_id"),
+                            "year": table_data.get("year"),
+                            "section_name": table_data.get("section_name"),
+                            "title": table_data.get("title"),
+                            "extraction_timestamp": datetime.now().isoformat(),
+                            "model": model_name,
+                            "extraction_result": result
+                        }
+                        
+                        model_results.append(result_with_metadata)
+                        
+                    except torch.cuda.OutOfMemoryError as e:
+                        logger.error(f"    CUDA OOM error on table {table_id}: {str(e)}")
+                        logger.error(f"    Stopping processing for {model_name} on this file")
+                        model_results.append({
+                            "table_id": table_data.get("table_id"),
+                            "model": model_name,
+                            "error": f"CUDA out of memory: {str(e)}"
+                        })
+                        break
+                        
+                    except Exception as e:
+                        logger.error(f"    Error processing table {table_id}: {str(e)}")
+                        model_results.append({
+                            "table_id": table_data.get("table_id"),
+                            "model": model_name,
+                            "error": str(e)
+                        })
+                
+                # Create filename for this input file + model combination
+                if job_id:
+                    output_filename = f"{job_id}_{timestamp}_{model_name}_{input_filename}.json"
+                else:
+                    output_filename = f"kpis_{timestamp}_{model_name}_{input_filename}.json"
+                
+                output_file = output_path / output_filename
+                
+                # Write results to JSON file
+                logger.info(f"  Writing results to: {output_filename}")
+                
+                output_data = {
+                    "metadata": {
+                        "model": model_name,
+                        "input_file": str(input_file),
+                        "extraction_timestamp": datetime.now().isoformat(),
+                        "num_tables_processed": len(model_results),
+                        "temperature": temperature,
+                        "job_id": job_id
+                    },
+                    "tables": model_results
+                }
+                
+                with open(output_file, 'w', encoding='utf-8') as f_out:
+                    json.dump(output_data, f_out, ensure_ascii=False, indent=2)
+                
+                # Calculate statistics for this file
+                total_kpis = 0
+                successful = 0
+                failed = 0
+                
+                for result in model_results:
+                    if "error" in result:
+                        failed += 1
+                    else:
+                        successful += 1
+                        extraction_result = result.get("extraction_result", {})
+                        if "kpis" in extraction_result:
+                            total_kpis += len(extraction_result.get("kpis", []))
+                
+                logger.info(f"  ✓ Completed {Path(input_file).name}:")
+                logger.info(f"    - Tables: {len(model_results)}, Successful: {successful}, Failed: {failed}")
+                logger.info(f"    - KPIs extracted: {total_kpis}")
+            
+            # Unload model after processing all files
+            logger.info(f"\n✓ {model_name} completed all {len(all_file_tables)} files")
+            self._unload_model()
         
         # Final summary
+        logger.info("")
         logger.info("=" * 70)
-        logger.info(f"Processing complete!")
-        logger.info(f"  Tables processed: {processed}")
-        logger.info(f"  Errors: {errors}")
-        logger.info(f"  Output saved to: {output_file}")
+        logger.info(f"All models completed!")
+        logger.info(f"  Total input files: {len(all_file_tables)}")
+        logger.info(f"  Total tables processed: {total_tables}")
+        logger.info(f"  Models used: {len(self.models_to_use)}")
+        logger.info(f"  Output directory: {output_dir}")
         logger.info("=" * 70)
 
 
@@ -567,28 +764,32 @@ def main():
         epilog="""
 Examples:
   # Process all tables with all 3 models
-  python extract_kpis_multi_model.py --input tables.jsonl --output results.jsonl
+  python extract_kpis_multi_model.py --input tables.jsonl --output-dir ./output
   
   # Process first 10 tables only
-  python extract_kpis_multi_model.py --input tables.jsonl --output results.jsonl --max-tables 10
+  python extract_kpis_multi_model.py --input tables.jsonl --output-dir ./output --max-tables 10
   
   # Use only specific models
-  python extract_kpis_multi_model.py --input tables.jsonl --output results.jsonl --models llama-3-8b gemma-3-27b
+  python extract_kpis_multi_model.py --input tables.jsonl --output-dir ./output --models llama-3-8b gemma-3-27b
+  
+  # With SLURM job ID for filename
+  python extract_kpis_multi_model.py --input tables.jsonl --output-dir ./output --job-id $SLURM_JOB_ID
         """
     )
     
     parser.add_argument(
         "--input",
         type=str,
+        nargs="+",
         required=True,
-        help="Path to input JSONL file containing tables"
+        help="Path(s) to input JSONL file(s) containing tables (can specify multiple files)"
     )
     
     parser.add_argument(
-        "--output",
+        "--output-dir",
         type=str,
         required=True,
-        help="Path to output JSONL file for extracted KPIs"
+        help="Directory for output JSON files (one per model)"
     )
     
     parser.add_argument(
@@ -608,17 +809,17 @@ Examples:
     )
     
     parser.add_argument(
-        "--max-tokens",
-        type=int,
-        default=2048,
-        help="Maximum tokens to generate per model (default: 2048)"
-    )
-    
-    parser.add_argument(
         "--temperature",
         type=float,
         default=0.1,
         help="Sampling temperature (default: 0.1, range: 0.0-1.0)"
+    )
+    
+    parser.add_argument(
+        "--job-id",
+        type=str,
+        default=None,
+        help="SLURM job ID for output filename (optional)"
     )
     
     parser.add_argument(
@@ -636,19 +837,14 @@ Examples:
     # Initialize extractor
     extractor = MultiModelKPIExtractor(models_to_use=args.models)
     
-    # Check if any models were loaded
-    if not extractor.models:
-        logger.error("No models were successfully loaded. Exiting.")
-        return 1
-    
-    # Process the file
+    # Process the files
     try:
-        extractor.process_jsonl_file(
+        extractor.process_jsonl_files(
             args.input,
-            args.output,
+            args.output_dir,
             args.max_tables,
-            max_new_tokens=args.max_tokens,
-            temperature=args.temperature
+            temperature=args.temperature,
+            job_id=args.job_id
         )
         return 0
     except Exception as e:
