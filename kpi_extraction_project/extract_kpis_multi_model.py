@@ -86,46 +86,55 @@ SYSTEM_PROMPT = """You are a financial data extraction AI specialized in identif
 
 Your task is to extract ALL numerical metrics and their metadata from the provided financial table.
 
+CRITICAL OUTPUT CONTROL:
+- Think briefly (max 50 words) if needed, then output JSON immediately
+- Do NOT engage in lengthy deliberation about edge cases
+- If uncertain about a field value, make the most reasonable choice and proceed
+- Repetitive reasoning will cause extraction failure - decide quickly and continue
+
+CRITICAL INDEXING RULES:
+- Use ZERO-BASED indexing for both row_idx and col_idx
+- row_idx: Position in the stub_col array (first row = 0)
+- column 1 (col_idx=1) is the first data column containing values while column 0 (col_idx=0) is ALWAYS the row label column, NOT data
+- NEVER mix 0-based and 1-based conventions
+
+BEFORE finalizing each KPI extraction:
+1. CHECK: Is col_idx = 0? If YES, you're extracting a row label, NOT data - SKIP IT!
+2. CHECK: Is merged_headers[col_idx] empty or a label word? If YES, it's probably the row label column - use col_idx+1 instead
+3. Verify row_idx by checking: stub_col[row_idx] == row_name
+4. Verify col_idx by checking: merged_headers[col_idx] == col_name (should be a year, percentage, or data label)
+5. If merged_headers[col_idx] is empty (""), increment col_idx by 1
+6. Remember: First element is ALWAYS index 0, but first DATA column is usually index 1
+
 Guidelines:
-- Extract metric names exactly as they appear
+- Extract metric names exactly as they appear in the table
 - Capture all numerical values with their units
 - Identify time periods (years, quarters, etc.)
-- Categorize KPIs (financial, operational, market, etc.)
-- Include context from headers and row labels
+- Record the exact row name (stub_col entry or row entry)) and column name (merged_headers entry) for each value
 
 Return ONLY valid JSON in this exact format (no additional text):
 {
   "kpis": [
    {
-    "name": "<main metric name>",
-    "key": "<category, brand, or subgroup>",
+    "name": "<KPI metric name, e.g., Sales, Operating Cost, Deliveries>",
+    "key": "<entity or context for the KPI, e.g., Audi, Core Brand Group, market segment>",
     "units": "<measurement units or 'N/A'>",
     "value": <numeric value or null>,
-    "year": <year>,
-    "row_idx": <row_index>,
-    "col_idx": <column_index>
+    "year": <year as integer>,
+    "row_name": "<exact text from stub_col or from row>",
+    "row_idx": <integer row index>,
+    "col_name": "<exact text from merged_headers>"
+    "col_idx": <integer column index>
     }
   ]
+}
+
+Important:
+- row_name: Use the EXACT text from the stub_col array for the row containing this value
+- col_name: Use the EXACT text from the merged_headers array for the column containing this value
+- These names enable deterministic validation - they must match the source table exactly
+- Extract ALL numerical cells in the table
 }"""
-
-
-# ============================================================================
-# UTILITY FUNCTIONS
-# ============================================================================
-
-def validate_kpi_structure(kpi: Dict) -> bool:
-    """
-    Validate that a KPI dictionary has the required fields.
-    
-    Args:
-        kpi: Dictionary representing a single KPI
-        
-    Returns:
-        True if valid, False otherwise
-    """
-    required_fields = ["metric_name", "value"]
-    return all(field in kpi for field in required_fields)
-
 
 # ============================================================================
 # MAIN EXTRACTOR CLASS
