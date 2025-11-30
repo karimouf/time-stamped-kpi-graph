@@ -1,0 +1,136 @@
+{
+  "source_file": "320891_20251129_010926_deepseek-r1-distill-llama-70b_linked_tables(2015).json",
+  "year": "2015",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 4,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2015_T19a389",
+      "kpi": {
+        "name": "OPERATING PROFIT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2015,
+        "row_idx": 10,
+        "col_idx": 7,
+        "row_name": "Other",
+        "col_name": "OPERATING PROFIT 2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "✓ row_name verified: 'Other'",
+          "✓ col_name verified: 'OPERATING PROFIT 2015'",
+          "Large diff: extracted=-24374, source=-2.4374, diff=24371.56"
+        ],
+        "source_cell_value": -2.4374,
+        "source_cell_text": "−2,4374",
+        "extracted_value": -24374,
+        "row_idx": 10,
+        "col_idx": 7,
+        "row_name_match": "Other",
+        "col_name_match": "OPERATING PROFIT 2015"
+      }
+    },
+    {
+      "table_id": "VW2015_T19a389",
+      "kpi": {
+        "name": "OPERATING PROFIT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2014,
+        "row_idx": 10,
+        "col_idx": 8,
+        "row_name": "Other",
+        "col_name": "2014"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "✓ row_name verified: 'Other'",
+          "✓ col_name verified: '2014'",
+          "Large diff: extracted=-20524, source=-2.0524, diff=20521.95"
+        ],
+        "source_cell_value": -2.0524,
+        "source_cell_text": "−2,0524",
+        "extracted_value": -20524,
+        "row_idx": 10,
+        "col_idx": 8,
+        "row_name_match": "Other",
+        "col_name_match": "2014"
+      }
+    },
+    {
+      "table_id": "VW2015_T79d8d7",
+      "kpi": {
+        "name": "Lamborghini",
+        "key": "Lamborghini",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 15,
+        "col_idx": 1,
+        "row_name": "Lamborghini",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Lamborghini'",
+          "✓ col_name verified: '2015.0'",
+          "Source null but extracted= (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": "",
+        "row_idx": 15,
+        "col_idx": 1,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2015_T79d8d7",
+      "kpi": {
+        "name": "Lamborghini",
+        "key": "Lamborghini",
+        "units": "Units",
+        "year": 2014,
+        "row_idx": 15,
+        "col_idx": 2,
+        "row_name": "Lamborghini",
+        "col_name": "2014"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Lamborghini'",
+          "✓ col_name verified: '2014'",
+          "Source null but extracted= (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": "",
+        "row_idx": 15,
+        "col_idx": 2,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2014"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 555,
+    "valid_kpis": 551,
+    "invalid_kpis": 4,
+    "tables_processed": 24,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 535,
+    "col_name_verified": 555,
+    "name_mismatches": 0,
+    "accuracy": 99.27927927927928
+  }
+}

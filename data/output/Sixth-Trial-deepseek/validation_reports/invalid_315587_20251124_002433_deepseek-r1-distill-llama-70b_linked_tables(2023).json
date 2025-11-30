@@ -1,0 +1,894 @@
+{
+  "source_file": "315587_20251124_002433_deepseek-r1-distill-llama-70b_linked_tables(2023).json",
+  "tables_file": "linked_tables(2023).jsonl",
+  "total_invalid_kpis": 38,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2023_T546547",
+      "kpi": {
+        "name": "Units",
+        "key": "Touran",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Touran",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2740, source=33983.0, diff=31243.00"
+        ],
+        "source_cell_value": 33983.0,
+        "source_cell_text": "33983",
+        "extracted_value": 2740,
+        "row_idx": 20,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_T546547",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 4858971,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_T546547",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 4810640,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tcf247f",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 888050,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tcf247f",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 764837,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 286859,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 249459,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "Leon",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Leon",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=62103, source=40862.0, diff=21241.00"
+        ],
+        "source_cell_value": 40862.0,
+        "source_cell_text": "40862",
+        "extracted_value": 62103,
+        "row_idx": 4,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "Leon",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Leon",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2007, source=36247.0, diff=34240.00"
+        ],
+        "source_cell_value": 36247.0,
+        "source_cell_text": "36247",
+        "extracted_value": 2007,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "Ateca",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Ateca",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=14228, source=69486.0, diff=55258.00"
+        ],
+        "source_cell_value": 69486.0,
+        "source_cell_text": "69486",
+        "extracted_value": 14228,
+        "row_idx": 3,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "Ateca",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Ateca",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=8841, source=49316.0, diff=40475.00"
+        ],
+        "source_cell_value": 49316.0,
+        "source_cell_text": "49316",
+        "extracted_value": 8841,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 246749,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_T64a728",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 170632,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tfb06fd",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 398346,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tfb06fd",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 351203,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tc509cc",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1933641,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tc509cc",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1688280,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tfd0815",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 12941,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tfd0815",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 16365,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tfd0815",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 9766,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tfd0815",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 9855,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_T9eb828",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 335386,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_T9eb828",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 337523,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Trucks",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Trucks",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=84695, source=97065.0, diff=12370.00"
+        ],
+        "source_cell_value": 97065.0,
+        "source_cell_text": "97065",
+        "extracted_value": 84695,
+        "row_idx": 1,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Trucks",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Trucks",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=62009, source=82827.0, diff=20818.00"
+        ],
+        "source_cell_value": 82827.0,
+        "source_cell_text": "82827",
+        "extracted_value": 62009,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Buses",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Buses",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=5780, source=5218.0, diff=562.00"
+        ],
+        "source_cell_value": 5218.0,
+        "source_cell_text": "5218",
+        "extracted_value": 5780,
+        "row_idx": 2,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Buses",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Buses",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=4675, source=5315.0, diff=640.00"
+        ],
+        "source_cell_value": 5315.0,
+        "source_cell_text": "5315",
+        "extracted_value": 4675,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Trucks",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Trucks",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=73317, source=97065.0, diff=23748.00"
+        ],
+        "source_cell_value": 97065.0,
+        "source_cell_text": "97065",
+        "extracted_value": 73317,
+        "row_idx": 1,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Trucks",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Trucks",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=69488, source=82827.0, diff=13339.00"
+        ],
+        "source_cell_value": 82827.0,
+        "source_cell_text": "82827",
+        "extracted_value": 69488,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Buses",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Buses",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=13423, source=5218.0, diff=8205.00"
+        ],
+        "source_cell_value": 5218.0,
+        "source_cell_text": "5218",
+        "extracted_value": 13423,
+        "row_idx": 2,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Buses",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Buses",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=12583, source=5315.0, diff=7268.00"
+        ],
+        "source_cell_value": 5315.0,
+        "source_cell_text": "5315",
+        "extracted_value": 12583,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Trucks",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Trucks",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2816, source=97065.0, diff=94249.00"
+        ],
+        "source_cell_value": 97065.0,
+        "source_cell_text": "97065",
+        "extracted_value": 2816,
+        "row_idx": 1,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Trucks",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Trucks",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=50075, source=82827.0, diff=32752.00"
+        ],
+        "source_cell_value": 82827.0,
+        "source_cell_text": "82827",
+        "extracted_value": 50075,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Buses",
+        "units": "Units",
+        "year": 2023,
+        "row_name": "Buses",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=4354, source=5218.0, diff=864.00"
+        ],
+        "source_cell_value": 5218.0,
+        "source_cell_text": "5218",
+        "extracted_value": 4354,
+        "row_idx": 2,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2023_Tb4d396",
+      "kpi": {
+        "name": "Units",
+        "key": "Buses",
+        "units": "Units",
+        "year": 2022,
+        "row_name": "Buses",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=8572, source=5315.0, diff=3257.00"
+        ],
+        "source_cell_value": 5315.0,
+        "source_cell_text": "5315",
+        "extracted_value": 8572,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_T05c746",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "Customer financing",
+        "units": "€ million",
+        "year": 2023,
+        "row_name": "Customer financing",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=69292, source=5299.0, diff=63993.00"
+        ],
+        "source_cell_value": 5299.0,
+        "source_cell_text": "5299",
+        "extracted_value": 69292,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2023_T05c746",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "Customer financing",
+        "units": "€ million",
+        "year": 2022,
+        "row_name": "Customer financing",
+        "col_name": "2022 ^1"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=70266, source=5557.0, diff=64709.00"
+        ],
+        "source_cell_value": 5557.0,
+        "source_cell_text": "5557",
+        "extracted_value": 70266,
+        "row_idx": 1,
+        "col_idx": 3
+      }
+    },
+    {
+      "table_id": "VW2023_T05c746",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "Customer financing",
+        "units": "N/A",
+        "year": null,
+        "row_name": "Customer financing",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-1.4, source=-4.6, diff=3.20"
+        ],
+        "source_cell_value": -4.6,
+        "source_cell_text": "-4.6",
+        "extracted_value": -1.4,
+        "row_idx": 1,
+        "col_idx": 4
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 599,
+    "valid_kpis": 561,
+    "invalid_kpis": 38,
+    "tables_processed": 23,
+    "tables_with_errors": 38,
+    "avg_confidence": 0.9397328881469115,
+    "error_types": {
+      "Large difference": 20,
+      "Missing row_name in KPI": 18
+    },
+    "accuracy_rate": 93.65609348914859
+  }
+}

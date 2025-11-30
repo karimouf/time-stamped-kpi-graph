@@ -1,0 +1,1572 @@
+{
+  "source_file": "314809_20251122_173403_deepseek-r1-distill-llama-70b_linked_tables(2019).json",
+  "tables_file": "linked_tables(2019).jsonl",
+  "total_invalid_kpis": 67,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Passenger Cars",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Passenger Cars",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=84585, source=3715.0, diff=80870.00"
+        ],
+        "source_cell_value": 3715.0,
+        "source_cell_text": "3715",
+        "extracted_value": 84585,
+        "row_idx": 0,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Passenger Cars",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Passenger Cars",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=3239, source=3715.0, diff=476.00"
+        ],
+        "source_cell_value": 3715.0,
+        "source_cell_text": "3715",
+        "extracted_value": 3239,
+        "row_idx": 0,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Audi ^1",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Audi ^1",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=59248, source=1467.0, diff=57781.00"
+        ],
+        "source_cell_value": 1467.0,
+        "source_cell_text": "1467",
+        "extracted_value": 59248,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Audi ^1",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Audi ^1",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=4705, source=1467.0, diff=3238.00"
+        ],
+        "source_cell_value": 1467.0,
+        "source_cell_text": "1467",
+        "extracted_value": 4705,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "ŠKODA1",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "ŠKODA1",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=17293, source=957.0, diff=16336.00"
+        ],
+        "source_cell_value": 957.0,
+        "source_cell_text": "957",
+        "extracted_value": 17293,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "ŠKODA1",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "ŠKODA1",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=1377, source=957.0, diff=420.00"
+        ],
+        "source_cell_value": 957.0,
+        "source_cell_text": "957",
+        "extracted_value": 1377,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "SEAT",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "SEAT",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=10202, source=608.0, diff=9594.00"
+        ],
+        "source_cell_value": 608.0,
+        "source_cell_text": "608",
+        "extracted_value": 10202,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "SEAT",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "SEAT",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=254, source=608.0, diff=354.00"
+        ],
+        "source_cell_value": 608.0,
+        "source_cell_text": "608",
+        "extracted_value": 254,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Bentley",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Bentley",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=1548, source=10.0, diff=1538.00"
+        ],
+        "source_cell_value": 10.0,
+        "source_cell_text": "10",
+        "extracted_value": 1548,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Bentley",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Bentley",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-288, source=10.0, diff=298.00"
+        ],
+        "source_cell_value": 10.0,
+        "source_cell_text": "10",
+        "extracted_value": -288,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Porsche Automotive ^2",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Porsche Automotive ^2",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2366, source=253.0, diff=2113.00"
+        ],
+        "source_cell_value": 253.0,
+        "source_cell_text": "253",
+        "extracted_value": 2366,
+        "row_idx": 5,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Porsche Automotive ^2",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Porsche Automotive ^2",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=4110, source=253.0, diff=3857.00"
+        ],
+        "source_cell_value": 253.0,
+        "source_cell_text": "253",
+        "extracted_value": 4110,
+        "row_idx": 5,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Commercial Vehicles",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Commercial Vehicles",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=11875, source=469.0, diff=11406.00"
+        ],
+        "source_cell_value": 469.0,
+        "source_cell_text": "469",
+        "extracted_value": 11875,
+        "row_idx": 6,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Commercial Vehicles",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Commercial Vehicles",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=780, source=469.0, diff=311.00"
+        ],
+        "source_cell_value": 469.0,
+        "source_cell_text": "469",
+        "extracted_value": 780,
+        "row_idx": 6,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Scania Vehicles and Services ^3",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Scania Vehicles and Services ^3",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=12981, source=97.0, diff=12884.00"
+        ],
+        "source_cell_value": 97.0,
+        "source_cell_text": "97",
+        "extracted_value": 12981,
+        "row_idx": 7,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Scania Vehicles and Services ^3",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Scania Vehicles and Services ^3",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=1207, source=97.0, diff=1110.00"
+        ],
+        "source_cell_value": 97.0,
+        "source_cell_text": "97",
+        "extracted_value": 1207,
+        "row_idx": 7,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "MAN Commercial Vehicles",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "MAN Commercial Vehicles",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=12104, source=137.0, diff=11967.00"
+        ],
+        "source_cell_value": 137.0,
+        "source_cell_text": "137",
+        "extracted_value": 12104,
+        "row_idx": 8,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "MAN Commercial Vehicles",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "MAN Commercial Vehicles",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=332, source=137.0, diff=195.00"
+        ],
+        "source_cell_value": 137.0,
+        "source_cell_text": "137",
+        "extracted_value": 332,
+        "row_idx": 8,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Power Engineering",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Power Engineering",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 3608 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 3608,
+        "row_idx": 9,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Power Engineering",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Power Engineering",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 193 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 193,
+        "row_idx": 9,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "VW China ^4",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "VW China ^4",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted null but source has value 4101.0 (cell: '4101')"
+        ],
+        "source_cell_value": 4101.0,
+        "source_cell_text": "4101",
+        "extracted_value": null,
+        "row_idx": 10,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "VW China ^4",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "VW China ^4",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted null but source has value 4101.0 (cell: '4101')"
+        ],
+        "source_cell_value": 4101.0,
+        "source_cell_text": "4101",
+        "extracted_value": null,
+        "row_idx": 10,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Other ^5",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Other ^5",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-34029, source=-912.0, diff=33117.00"
+        ],
+        "source_cell_value": -912.0,
+        "source_cell_text": "-912",
+        "extracted_value": -34029,
+        "row_idx": 11,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Other ^5",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Other ^5",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-1418, source=-912.0, diff=506.00"
+        ],
+        "source_cell_value": -912.0,
+        "source_cell_text": "-912",
+        "extracted_value": -1418,
+        "row_idx": 11,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Financial Services",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Financial Services",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 32764 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 32764,
+        "row_idx": 12,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Financial Services",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Financial Services",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 2612 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 2612,
+        "row_idx": 12,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Group before special items",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Group before special items",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 17104 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 17104,
+        "row_idx": 13,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Special items",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Special items",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted -3184 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": -3184,
+        "row_idx": 14,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Group",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Group",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=235849, source=10900.0, diff=224949.00"
+        ],
+        "source_cell_value": 10900.0,
+        "source_cell_text": "10900",
+        "extracted_value": 235849,
+        "row_idx": 15,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Group",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Volkswagen Group",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=13920, source=10900.0, diff=3020.00"
+        ],
+        "source_cell_value": 10900.0,
+        "source_cell_text": "10900",
+        "extracted_value": 13920,
+        "row_idx": 15,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Automotive Division ^6",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Automotive Division ^6",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=201067, source=10900.0, diff=190167.00"
+        ],
+        "source_cell_value": 10900.0,
+        "source_cell_text": "10900",
+        "extracted_value": 201067,
+        "row_idx": 16,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Automotive Division ^6",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Automotive Division ^6",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "Moderate difference: extracted=11127, source=10900.0, diff=227.00"
+        ],
+        "source_cell_value": 10900.0,
+        "source_cell_text": "10900",
+        "extracted_value": 11127,
+        "row_idx": 16,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "of which: Passenger Cars Business Area ^7",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "of which: Passenger Cars Business Area ^7",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=172678, source=10666.0, diff=162012.00"
+        ],
+        "source_cell_value": 10666.0,
+        "source_cell_text": "10666",
+        "extracted_value": 172678,
+        "row_idx": 17,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "of which: Passenger Cars Business Area ^7",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "of which: Passenger Cars Business Area ^7",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=10000, source=10666.0, diff=666.00"
+        ],
+        "source_cell_value": 10666.0,
+        "source_cell_text": "10666",
+        "extracted_value": 10000,
+        "row_idx": 17,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Commercial Vehicles Business Area ^7",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Commercial Vehicles Business Area ^7",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2478, source=234.0, diff=2244.00"
+        ],
+        "source_cell_value": 234.0,
+        "source_cell_text": "234",
+        "extracted_value": 2478,
+        "row_idx": 18,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Commercial Vehicles Business Area ^7",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Commercial Vehicles Business Area ^7",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=1191, source=234.0, diff=957.00"
+        ],
+        "source_cell_value": 234.0,
+        "source_cell_text": "234",
+        "extracted_value": 1191,
+        "row_idx": 18,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Power Engineering Business Area",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Power Engineering Business Area",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 3608 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 3608,
+        "row_idx": 19,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Power Engineering Business Area",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Power Engineering Business Area",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted -64 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": -64,
+        "row_idx": 19,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Financial Services Division",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Financial Services Division",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 34782 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 34782,
+        "row_idx": 20,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Financial Services Division",
+        "units": "€ million",
+        "year": 2018,
+        "row_name": "Financial Services Division",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 2793 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 2793,
+        "row_idx": 20,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T09e057",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 6184146,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T09e057",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 6297110,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1793021.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1864813.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 8664.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 6571.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T321e09",
+      "kpi": {
+        "name": "Production",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1243066,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T321e09",
+      "kpi": {
+        "name": "Production",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1285088,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Tb40d92",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 591809.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Tb40d92",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 528029.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T370dd7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 12430.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T370dd7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 9115.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T704982",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 274463.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T704982",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 268451,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Tb49406",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 477280.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Tb49406",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 518947.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T46a605",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 238405.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T46a605",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 239419.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Tf791b0",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 242221.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Tf791b0",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 232994.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Ta8e5fa",
+      "kpi": {
+        "name": "Units",
+        "key": "2019.0",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 96995.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_Ta8e5fa",
+      "kpi": {
+        "name": "Units",
+        "key": "2018.0",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 101375.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T0c2e70",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2019,
+        "row_name": "",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 141410.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T0c2e70",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2018,
+        "row_name": "",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 138044.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2019_T43218a",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "2019.0",
+        "units": "N/A",
+        "year": 2019,
+        "row_name": "Customer financing",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=68517, source=6585.0, diff=61932.00"
+        ],
+        "source_cell_value": 6585.0,
+        "source_cell_text": "6585.0",
+        "extracted_value": 68517,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2019_T43218a",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "2018.0",
+        "units": "N/A",
+        "year": 2018,
+        "row_name": "Customer financing",
+        "col_name": "2018.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=63690, source=6387.0, diff=57303.00"
+        ],
+        "source_cell_value": 6387.0,
+        "source_cell_text": "6387.0",
+        "extracted_value": 63690,
+        "row_idx": 1,
+        "col_idx": 3
+      }
+    },
+    {
+      "table_id": "VW2019_T43218a",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "%",
+        "units": "N/A",
+        "year": 2019,
+        "row_name": "Customer financing",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=7.6, source=3.1, diff=4.50"
+        ],
+        "source_cell_value": 3.1,
+        "source_cell_text": "3.1",
+        "extracted_value": 7.6,
+        "row_idx": 1,
+        "col_idx": 4
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 578,
+    "valid_kpis": 511,
+    "invalid_kpis": 67,
+    "tables_processed": 25,
+    "tables_with_errors": 67,
+    "avg_confidence": 0.8994809688581314,
+    "error_types": {
+      "Large difference": 30,
+      "Extracted 3608 but source cell is null/empty (cell": 2,
+      "Extracted 193 but source cell is null/empty (cell": 1,
+      "Extracted null but source has value 4101.0 (cell": 2,
+      "Extracted 32764 but source cell is null/empty (cell": 1,
+      "Extracted 2612 but source cell is null/empty (cell": 1,
+      "Extracted 17104 but source cell is null/empty (cell": 1,
+      "Extracted -3184 but source cell is null/empty (cell": 1,
+      "Moderate difference": 1,
+      "Extracted -64 but source cell is null/empty (cell": 1,
+      "Extracted 34782 but source cell is null/empty (cell": 1,
+      "Extracted 2793 but source cell is null/empty (cell": 1,
+      "Missing row_name in KPI": 24
+    },
+    "accuracy_rate": 88.4083044982699
+  }
+}

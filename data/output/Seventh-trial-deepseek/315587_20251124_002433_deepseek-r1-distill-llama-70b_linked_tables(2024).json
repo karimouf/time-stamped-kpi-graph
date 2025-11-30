@@ -1,0 +1,1752 @@
+{
+  "metadata": {
+    "model": "deepseek-r1-distill-llama-70b",
+    "input_file": "/ukp-storage-1/ouf/kpi_extraction_project/data/tables/linked_tables(2024).jsonl",
+    "extraction_timestamp": "2025-11-24T06:40:51.563044",
+    "num_tables_processed": 4,
+    "temperature": 0.1,
+    "job_id": "315587"
+  },
+  "tables": [
+    {
+      "table_id": "VW2024_Td85de9",
+      "doc_id": "VW2024",
+      "year": 2024,
+      "section_name": "KEY FIGURES BY BRAND GROUP AND BUSINESS FIELD",
+      "title": "KEY FIGURES BY BRAND GROUP AND BUSINESS FIELD",
+      "extraction_timestamp": "2025-11-24T06:18:52.206399",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "value": 4960,
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "value": 4826,
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 140004,
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 137770,
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 6961,
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 7242,
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Progressive brand group",
+            "units": "Thousand vehicles",
+            "value": 1123,
+            "year": 2024,
+            "row_name": "Progressive brand group",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Progressive brand group",
+            "units": "Thousand vehicles",
+            "value": 1282,
+            "year": 2023,
+            "row_name": "Progressive brand group",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "value": 64532,
+            "year": 2024,
+            "row_name": "Progressive brand group",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "value": 69865,
+            "year": 2023,
+            "row_name": "Progressive brand group",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "value": 3903,
+            "year": 2024,
+            "row_name": "Progressive brand group",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "value": 6280,
+            "year": 2023,
+            "row_name": "Progressive brand group",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Sport Luxury brand group ^2",
+            "units": "Thousand vehicles",
+            "value": 313,
+            "year": 2024,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Sport Luxury brand group ^2",
+            "units": "Thousand vehicles",
+            "value": 334,
+            "year": 2023,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "value": 36438,
+            "year": 2024,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "value": 37349,
+            "year": 2023,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "value": 5286,
+            "year": 2024,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "value": 6938,
+            "year": 2023,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "CARIAD",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "CARIAD",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "CARIAD",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "CARIAD",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "CARIAD",
+            "units": "€ million",
+            "value": 1327,
+            "year": 2024,
+            "row_name": "CARIAD",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "CARIAD",
+            "units": "€ million",
+            "value": 1078,
+            "year": 2023,
+            "row_name": "CARIAD",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "CARIAD",
+            "units": "€ million",
+            "value": -2431,
+            "year": 2024,
+            "row_name": "CARIAD",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "CARIAD",
+            "units": "€ million",
+            "value": -2392,
+            "year": 2023,
+            "row_name": "CARIAD",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Battery",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "Battery",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Battery",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "Battery",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Battery",
+            "units": "€ million",
+            "value": 8,
+            "year": 2024,
+            "row_name": "Battery",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Battery",
+            "units": "€ million",
+            "value": 31,
+            "year": 2023,
+            "row_name": "Battery",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Battery",
+            "units": "€ million",
+            "value": -1053,
+            "year": 2024,
+            "row_name": "Battery",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Battery",
+            "units": "€ million",
+            "value": -417,
+            "year": 2023,
+            "row_name": "Battery",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "TRATON Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 335,
+            "year": 2024,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "TRATON Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 339,
+            "year": 2023,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "value": 46183,
+            "year": 2024,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "value": 45731,
+            "year": 2023,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "value": 4204,
+            "year": 2024,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "value": 3715,
+            "year": 2023,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "Thousand vehicles",
+            "value": 2742,
+            "year": 2024,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "Thousand vehicles",
+            "value": 3065,
+            "year": 2023,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2024,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2023,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2024,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2023,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "MAN Energy Solutions",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "MAN Energy Solutions",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "value": 4333,
+            "year": 2024,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "value": 4044,
+            "year": 2023,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "value": 337,
+            "year": 2024,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "value": 369,
+            "year": 2023,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group Mobility",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group Mobility",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "value": 54806,
+            "year": 2024,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "value": 50765,
+            "year": 2023,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "value": 3000,
+            "year": 2024,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "value": 3248,
+            "year": 2023,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Other ^4",
+            "units": "Thousand vehicles",
+            "value": -435,
+            "year": 2024,
+            "row_name": "Other ^4",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Other ^4",
+            "units": "Thousand vehicles",
+            "value": -484,
+            "year": 2023,
+            "row_name": "Other ^4",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Other ^4",
+            "units": "€ million",
+            "value": -2297,
+            "year": 2024,
+            "row_name": "Other ^4",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Other ^4",
+            "units": "€ million",
+            "value": -2435,
+            "year": 2023,
+            "row_name": "Other ^4",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Other ^4",
+            "units": "€ million",
+            "value": -1147,
+            "year": 2024,
+            "row_name": "Other ^4",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Other ^4",
+            "units": "€ million",
+            "value": -2456,
+            "year": 2023,
+            "row_name": "Other ^4",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 9037,
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 9362,
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 324656,
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 322284,
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 19060,
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 2252,
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2023 ^8",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 66
+      }
+    },
+    {
+      "table_id": "VW2024_Tae872e",
+      "doc_id": "VW2024",
+      "year": 2024,
+      "section_name": "KEY FIGURES FOR THE CORE BRAND GROUP",
+      "title": "KEY FIGURES FOR THE CORE BRAND GROUP",
+      "extraction_timestamp": "2025-11-24T06:28:07.392990",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "value": 3109,
+            "year": 2024,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "value": 3016,
+            "year": 2023,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 88262,
+            "year": 2024,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 86382,
+            "year": 2023,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 2587,
+            "year": 2024,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 3514,
+            "year": 2023,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Škoda",
+            "units": "Thousand vehicles",
+            "value": 1090,
+            "year": 2024,
+            "row_name": "Škoda",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Škoda",
+            "units": "Thousand vehicles",
+            "value": 1056,
+            "year": 2023,
+            "row_name": "Škoda",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Škoda",
+            "units": "€ million",
+            "value": 2778,
+            "year": 2024,
+            "row_name": "Škoda",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Škoda",
+            "units": "€ million",
+            "value": 2653,
+            "year": 2023,
+            "row_name": "Škoda",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Škoda",
+            "units": "€ million",
+            "value": 2305,
+            "year": 2024,
+            "row_name": "Škoda",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Škoda",
+            "units": "€ million",
+            "value": 1773,
+            "year": 2023,
+            "row_name": "Škoda",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "SEAT/CUPRA",
+            "units": "Thousand vehicles",
+            "value": 637,
+            "year": 2024,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "SEAT/CUPRA",
+            "units": "Thousand vehicles",
+            "value": 602,
+            "year": 2023,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "value": 14530,
+            "year": 2024,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "value": 14333,
+            "year": 2023,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "value": 633,
+            "year": 2024,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "value": 625,
+            "year": 2023,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 404,
+            "year": 2024,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 423,
+            "year": 2023,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 15124,
+            "year": 2024,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 15325,
+            "year": 2023,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 743,
+            "year": 2024,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 869,
+            "year": 2023,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Tech. Components",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "Tech. Components",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Tech. Components",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "Tech. Components",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "value": 2064,
+            "year": 2024,
+            "row_name": "Tech. Components",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "value": 2128,
+            "year": 2023,
+            "row_name": "Tech. Components",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "value": 703,
+            "year": 2024,
+            "row_name": "Tech. Components",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "value": 583,
+            "year": 2023,
+            "row_name": "Tech. Components",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Consolidation",
+            "units": "Thousand vehicles",
+            "value": -281,
+            "year": 2024,
+            "row_name": "Consolidation",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Consolidation",
+            "units": "Thousand vehicles",
+            "value": -270,
+            "year": 2023,
+            "row_name": "Consolidation",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Consolidation",
+            "units": "€ million",
+            "value": -2634,
+            "year": 2024,
+            "row_name": "Consolidation",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Consolidation",
+            "units": "€ million",
+            "value": -2608,
+            "year": 2023,
+            "row_name": "Consolidation",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Consolidation",
+            "units": "€ million",
+            "value": -11,
+            "year": 2024,
+            "row_name": "Consolidation",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Consolidation",
+            "units": "€ million",
+            "value": -121,
+            "year": 2023,
+            "row_name": "Consolidation",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "value": 4960,
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "value": 4826,
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 140004,
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 137770,
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 6961,
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "value": 7242,
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 42
+      }
+    },
+    {
+      "table_id": "VW2024_Tab8f8f",
+      "doc_id": "VW2024",
+      "year": 2024,
+      "section_name": "KEY FIGURES BY DIVISION",
+      "title": "KEY FIGURES BY DIVISION",
+      "extraction_timestamp": "2025-11-24T06:36:07.943778",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES",
+            "key": "Passenger Cars Business Area",
+            "units": "Thousand vehicles",
+            "value": 8702,
+            "year": 2024,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Passenger Cars Business Area",
+            "units": "Thousand vehicles",
+            "value": 9023,
+            "year": 2023,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 215371,
+            "year": 2024,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 218380,
+            "year": 2023,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 11389,
+            "year": 2024,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 14663,
+            "year": 2023,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Commercial Vehicles Business Area",
+            "units": "Thousand vehicles",
+            "value": 335,
+            "year": 2024,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Commercial Vehicles Business Area",
+            "units": "Thousand vehicles",
+            "value": 339,
+            "year": 2023,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "value": 46183,
+            "year": 2024,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "value": 45731,
+            "year": 2023,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "value": 4218,
+            "year": 2024,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "value": 3714,
+            "year": 2023,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": 4333,
+            "year": 2024,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": 4044,
+            "year": 2023,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": 335,
+            "year": 2024,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": 366,
+            "year": 2023,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Automotive Division ^2",
+            "units": "Thousand vehicles",
+            "value": 9037,
+            "year": 2024,
+            "row_name": "Automotive Division ^2",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Automotive Division ^2",
+            "units": "Thousand vehicles",
+            "value": 9362,
+            "year": 2023,
+            "row_name": "Automotive Division ^2",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "value": 265887,
+            "year": 2024,
+            "row_name": "Automotive Division ^2",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "value": 268156,
+            "year": 2023,
+            "row_name": "Automotive Division ^2",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "value": 15941,
+            "year": 2024,
+            "row_name": "Automotive Division ^2",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "value": 18742,
+            "year": 2023,
+            "row_name": "Automotive Division ^2",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "Financial Services Division",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "Financial Services Division",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 58769,
+            "year": 2024,
+            "row_name": "Financial Services Division",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 54128,
+            "year": 2023,
+            "row_name": "Financial Services Division",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 3119,
+            "year": 2024,
+            "row_name": "Financial Services Division",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 3786,
+            "year": 2023,
+            "row_name": "Financial Services Division",
+            "col_name": "OPERATING RESULT 2023 ^1",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 9037,
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 9362,
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 324656,
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 322284,
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 19060,
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 2252,
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2023 ^8",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 36
+      }
+    },
+    {
+      "table_id": "VW2024_T3f91be",
+      "doc_id": "VW2024",
+      "year": 2024,
+      "section_name": "KEY FIGURES BY MARKET",
+      "title": "KEY FIGURES BY MARKET",
+      "extraction_timestamp": "2025-11-24T06:40:51.561265",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other Markets",
+            "units": "Thousand vehicles",
+            "value": 4204,
+            "year": 2024,
+            "row_name": "Europe/Other Markets",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other Markets",
+            "units": "Thousand vehicles",
+            "value": 4169,
+            "year": 2023,
+            "row_name": "Europe/Other Markets",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other Markets",
+            "units": "€ million",
+            "value": 194145,
+            "year": 2024,
+            "row_name": "Europe/Other Markets",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other Markets",
+            "units": "€ million",
+            "value": 187949,
+            "year": 2023,
+            "row_name": "Europe/Other Markets",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "value": 1080,
+            "year": 2024,
+            "row_name": "North America",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "value": 1078,
+            "year": 2023,
+            "row_name": "North America",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "value": 67712,
+            "year": 2024,
+            "row_name": "North America",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "value": 67908,
+            "year": 2023,
+            "row_name": "North America",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "value": 606,
+            "year": 2024,
+            "row_name": "South America",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "value": 513,
+            "year": 2023,
+            "row_name": "South America",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "value": 18962,
+            "year": 2024,
+            "row_name": "South America",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "value": 17139,
+            "year": 2023,
+            "row_name": "South America",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific ^1",
+            "units": "Thousand vehicles",
+            "value": 3147,
+            "year": 2024,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific ^1",
+            "units": "Thousand vehicles",
+            "value": 3603,
+            "year": 2023,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific ^1",
+            "units": "€ million",
+            "value": 44057,
+            "year": 2024,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific ^1",
+            "units": "€ million",
+            "value": 50109,
+            "year": 2023,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Hedges on sales revenue",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2024,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Hedges on sales revenue",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2023,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Hedges on sales revenue",
+            "units": "€ million",
+            "value": -219,
+            "year": 2024,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Hedges on sales revenue",
+            "units": "€ million",
+            "value": -821,
+            "year": 2023,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group ^1",
+            "units": "Thousand vehicles",
+            "value": 9037,
+            "year": 2024,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "VEHICLE SALES 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group ^1",
+            "units": "Thousand vehicles",
+            "value": 9362,
+            "year": 2023,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "VEHICLE SALES 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group ^1",
+            "units": "€ million",
+            "value": 324656,
+            "year": 2024,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "SALES REVENUE 2024",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group ^1",
+            "units": "€ million",
+            "value": 322284,
+            "year": 2023,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "SALES REVENUE 2023",
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 24
+      }
+    }
+  ]
+}

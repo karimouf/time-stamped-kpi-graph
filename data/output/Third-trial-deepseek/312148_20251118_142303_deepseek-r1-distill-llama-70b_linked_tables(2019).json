@@ -1,0 +1,5396 @@
+{
+  "metadata": {
+    "model": "deepseek-r1-distill-llama-70b",
+    "input_file": "/ukp-storage-1/ouf/kpi_extraction_project/data/tables/linked_tables(2019).jsonl",
+    "extraction_timestamp": "2025-11-18T22:51:09.294459",
+    "num_tables_processed": 27,
+    "temperature": 0.1,
+    "job_id": "312148"
+  },
+  "tables": [
+    {
+      "table_id": "VW2019_T4e9153",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "GROUP STRUCTURE",
+      "title": "Volkswagen Group reporting structure",
+      "extraction_timestamp": "2025-11-18T21:14:02.935848",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 0
+      }
+    },
+    {
+      "table_id": "VW2019_T19a389",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+      "title": "Key Figures by brand and business field",
+      "extraction_timestamp": "2025-11-18T21:35:29.214533",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "value": 3677,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "value": 3715,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 88407,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 84585,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 3785,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 3239,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Audi ^1",
+            "units": "Thousand vehicles",
+            "value": 1200,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Audi ^1",
+            "units": "Thousand vehicles",
+            "value": 1467,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Audi ^1",
+            "units": "€ million",
+            "value": 55680,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Audi ^1",
+            "units": "€ million",
+            "value": 59248,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Audi ^1",
+            "units": "€ million",
+            "value": 4509,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Audi ^1",
+            "units": "€ million",
+            "value": 4705,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "ŠKODA1",
+            "units": "Thousand vehicles",
+            "value": 1062,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "ŠKODA1",
+            "units": "Thousand vehicles",
+            "value": 957,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "ŠKODA1",
+            "units": "€ million",
+            "value": 19806,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "ŠKODA1",
+            "units": "€ million",
+            "value": 17293,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "ŠKODA1",
+            "units": "€ million",
+            "value": 1660,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "ŠKODA1",
+            "units": "€ million",
+            "value": 1377,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "SEAT",
+            "units": "Thousand vehicles",
+            "value": 667,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "SEAT",
+            "units": "Thousand vehicles",
+            "value": 608,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 11496,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 10202,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 445,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 254,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Bentley",
+            "units": "Thousand vehicles",
+            "value": 12,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Bentley",
+            "units": "Thousand vehicles",
+            "value": 10,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 2092,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1548,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 65,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": -288,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Porsche Automotive ^2",
+            "units": "Thousand vehicles",
+            "value": 277,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Porsche Automotive ^2",
+            "units": "Thousand vehicles",
+            "value": 253,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Porsche Automotive ^2",
+            "units": "€ million",
+            "value": 2606,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Porsche Automotive ^2",
+            "units": "€ million",
+            "value": 2366,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Porsche Automotive ^2",
+            "units": "€ million",
+            "value": 4210,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Porsche Automotive ^2",
+            "units": "€ million",
+            "value": 4110,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 456,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 469,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 11473,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 11875,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 510,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 780,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Scania Vehicles and Services ^3",
+            "units": "Thousand vehicles",
+            "value": 101,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Scania Vehicles and Services ^3",
+            "units": "Thousand vehicles",
+            "value": 97,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Scania Vehicles and Services ^3",
+            "units": "€ million",
+            "value": 13934,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Scania Vehicles and Services ^3",
+            "units": "€ million",
+            "value": 12981,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Scania Vehicles and Services ^3",
+            "units": "€ million",
+            "value": 1506,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Scania Vehicles and Services ^3",
+            "units": "€ million",
+            "value": 1207,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "MAN Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 143,
+            "year": 2019,
+            "row_idx": 8,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "MAN Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 137,
+            "year": 2018,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "MAN Commercial Vehicles",
+            "units": "€ million",
+            "value": 12663,
+            "year": 2019,
+            "row_idx": 8,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "MAN Commercial Vehicles",
+            "units": "€ million",
+            "value": 12104,
+            "year": 2018,
+            "row_idx": 8,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "MAN Commercial Vehicles",
+            "units": "€ million",
+            "value": 402,
+            "year": 2019,
+            "row_idx": 8,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "MAN Commercial Vehicles",
+            "units": "€ million",
+            "value": 332,
+            "year": 2018,
+            "row_idx": 8,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Power Engineering",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2019,
+            "row_idx": 9,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Power Engineering",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2018,
+            "row_idx": 9,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Power Engineering",
+            "units": "€ million",
+            "value": 3997,
+            "year": 2019,
+            "row_idx": 9,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Power Engineering",
+            "units": "€ million",
+            "value": 3608,
+            "year": 2018,
+            "row_idx": 9,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Power Engineering",
+            "units": "€ million",
+            "value": 159,
+            "year": 2019,
+            "row_idx": 9,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Power Engineering",
+            "units": "€ million",
+            "value": 193,
+            "year": 2018,
+            "row_idx": 9,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "VW China ^4",
+            "units": "Thousand vehicles",
+            "value": 4048,
+            "year": 2019,
+            "row_idx": 10,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "VW China ^4",
+            "units": "Thousand vehicles",
+            "value": 4101,
+            "year": 2018,
+            "row_idx": 10,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "VW China ^4",
+            "units": "€ million",
+            "value": null,
+            "year": 2019,
+            "row_idx": 10,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "VW China ^4",
+            "units": "€ million",
+            "value": null,
+            "year": 2018,
+            "row_idx": 10,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "VW China ^4",
+            "units": "€ million",
+            "value": null,
+            "year": 2019,
+            "row_idx": 10,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "VW China ^4",
+            "units": "€ million",
+            "value": null,
+            "year": 2018,
+            "row_idx": 10,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Other ^5",
+            "units": "Thousand vehicles",
+            "value": -685,
+            "year": 2019,
+            "row_idx": 11,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Other ^5",
+            "units": "Thousand vehicles",
+            "value": -912,
+            "year": 2018,
+            "row_idx": 11,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Other ^5",
+            "units": "€ million",
+            "value": -30931,
+            "year": 2019,
+            "row_idx": 11,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Other ^5",
+            "units": "€ million",
+            "value": -34029,
+            "year": 2018,
+            "row_idx": 11,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Other ^5",
+            "units": "€ million",
+            "value": -917,
+            "year": 2019,
+            "row_idx": 11,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Other ^5",
+            "units": "€ million",
+            "value": -1418,
+            "year": 2018,
+            "row_idx": 11,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Volkswagen Financial Services",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2019,
+            "row_idx": 12,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Volkswagen Financial Services",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2018,
+            "row_idx": 12,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 37957,
+            "year": 2019,
+            "row_idx": 12,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 32764,
+            "year": 2018,
+            "row_idx": 12,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 2960,
+            "year": 2019,
+            "row_idx": 12,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 2612,
+            "year": 2018,
+            "row_idx": 12,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Volkswagen Group before special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2019,
+            "row_idx": 13,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Volkswagen Group before special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2018,
+            "row_idx": 13,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2019,
+            "row_idx": 13,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2018,
+            "row_idx": 13,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": 19296,
+            "year": 2019,
+            "row_idx": 13,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": 17104,
+            "year": 2018,
+            "row_idx": 13,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2019,
+            "row_idx": 14,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2018,
+            "row_idx": 14,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2019,
+            "row_idx": 14,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2018,
+            "row_idx": 14,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Special items",
+            "units": "€ million",
+            "value": -2336,
+            "year": 2019,
+            "row_idx": 14,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Special items",
+            "units": "€ million",
+            "value": -3184,
+            "year": 2018,
+            "row_idx": 14,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 10956,
+            "year": 2019,
+            "row_idx": 15,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 10900,
+            "year": 2018,
+            "row_idx": 15,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 252632,
+            "year": 2019,
+            "row_idx": 15,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 235849,
+            "year": 2018,
+            "row_idx": 15,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 16960,
+            "year": 2019,
+            "row_idx": 15,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 13920,
+            "year": 2018,
+            "row_idx": 15,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Automotive Division ^6",
+            "units": "Thousand vehicles",
+            "value": 10956,
+            "year": 2019,
+            "row_idx": 16,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Automotive Division ^6",
+            "units": "Thousand vehicles",
+            "value": 10900,
+            "year": 2018,
+            "row_idx": 16,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Automotive Division ^6",
+            "units": "€ million",
+            "value": 212473,
+            "year": 2019,
+            "row_idx": 16,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Automotive Division ^6",
+            "units": "€ million",
+            "value": 201067,
+            "year": 2018,
+            "row_idx": 16,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Automotive Division ^6",
+            "units": "€ million",
+            "value": 13748,
+            "year": 2019,
+            "row_idx": 16,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Automotive Division ^6",
+            "units": "€ million",
+            "value": 11127,
+            "year": 2018,
+            "row_idx": 16,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "of which: Passenger Cars Business Area ^7",
+            "units": "Thousand vehicles",
+            "value": 10713,
+            "year": 2019,
+            "row_idx": 17,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "of which: Passenger Cars Business Area ^7",
+            "units": "Thousand vehicles",
+            "value": 10666,
+            "year": 2018,
+            "row_idx": 17,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "of which: Passenger Cars Business Area ^7",
+            "units": "€ million",
+            "value": 182031,
+            "year": 2019,
+            "row_idx": 17,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "of which: Passenger Cars Business Area ^7",
+            "units": "€ million",
+            "value": 172678,
+            "year": 2018,
+            "row_idx": 17,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "of which: Passenger Cars Business Area ^7",
+            "units": "€ million",
+            "value": 12188,
+            "year": 2019,
+            "row_idx": 17,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "of which: Passenger Cars Business Area ^7",
+            "units": "€ million",
+            "value": 10000,
+            "year": 2018,
+            "row_idx": 17,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Commercial Vehicles Business Area ^7",
+            "units": "Thousand vehicles",
+            "value": 243,
+            "year": 2019,
+            "row_idx": 18,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Commercial Vehicles Business Area ^7",
+            "units": "Thousand vehicles",
+            "value": 234,
+            "year": 2018,
+            "row_idx": 18,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Commercial Vehicles Business Area ^7",
+            "units": "€ million",
+            "value": 2644,
+            "year": 2019,
+            "row_idx": 18,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Commercial Vehicles Business Area ^7",
+            "units": "€ million",
+            "value": 2478,
+            "year": 2018,
+            "row_idx": 18,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Commercial Vehicles Business Area ^7",
+            "units": "€ million",
+            "value": 1653,
+            "year": 2019,
+            "row_idx": 18,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Commercial Vehicles Business Area ^7",
+            "units": "€ million",
+            "value": 1191,
+            "year": 2018,
+            "row_idx": 18,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2019,
+            "row_idx": 19,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2018,
+            "row_idx": 19,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": 3997,
+            "year": 2019,
+            "row_idx": 19,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": 3608,
+            "year": 2018,
+            "row_idx": 19,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": -93,
+            "year": 2019,
+            "row_idx": 19,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "value": -64,
+            "year": 2018,
+            "row_idx": 19,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2019",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2019,
+            "row_idx": 20,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES 2018",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2018,
+            "row_idx": 20,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2019",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 40160,
+            "year": 2019,
+            "row_idx": 20,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE 2018",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 34782,
+            "year": 2018,
+            "row_idx": 20,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2019",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 3212,
+            "year": 2019,
+            "row_idx": 20,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING RESULT 2018",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 2793,
+            "year": 2018,
+            "row_idx": 20,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 126
+      }
+    },
+    {
+      "table_id": "VW2019_Taf759f",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "KEY FIGURES BY MARKET",
+      "title": "Key Figures by market",
+      "extraction_timestamp": "2025-11-18T21:40:27.725102",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other markets",
+            "units": "Thousand vehicles",
+            "value": 4856,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other markets",
+            "units": "Thousand vehicles",
+            "value": 4739,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other markets",
+            "units": "€ million",
+            "value": 153999,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other markets",
+            "units": "€ million",
+            "value": 143089.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "value": 956,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "value": 925,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "value": 43351,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "value": 37656.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "value": 607,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "value": 596,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "value": 11297,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "value": 10405.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific ^1",
+            "units": "Thousand vehicles",
+            "value": 4538,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific ^1",
+            "units": "Thousand vehicles",
+            "value": 4640,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific ^1",
+            "units": "€ million",
+            "value": 43974,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific ^1",
+            "units": "€ million",
+            "value": 43166.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Hedges on sales revenue",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Hedges on sales revenue",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Hedges on sales revenue",
+            "units": "€ million",
+            "value": 11,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Hedges on sales revenue",
+            "units": "€ million",
+            "value": 1535.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group ^1",
+            "units": "Thousand vehicles",
+            "value": 10956,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group ^1",
+            "units": "Thousand vehicles",
+            "value": 10900,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group ^1",
+            "units": "€ million",
+            "value": 252632,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group ^1",
+            "units": "€ million",
+            "value": 235849.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 24
+      }
+    },
+    {
+      "table_id": "VW2019_T09e057",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "Volkswagen Passenger Cars – Production",
+      "extraction_timestamp": "2025-11-18T21:47:45.310262",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Tiguan",
+            "key": "Production",
+            "units": "Units",
+            "value": 910926.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Tiguan",
+            "key": "Production",
+            "units": "Units",
+            "value": 861331,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Polo/Virtus",
+            "key": "Production",
+            "units": "Units",
+            "value": 706052.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Polo/Virtus",
+            "key": "Production",
+            "units": "Units",
+            "value": 855179,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Golf",
+            "key": "Production",
+            "units": "Units",
+            "value": 679351.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Golf",
+            "key": "Production",
+            "units": "Units",
+            "value": 805752,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Jetta/Sagitar",
+            "key": "Production",
+            "units": "Units",
+            "value": 610327.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Jetta/Sagitar",
+            "key": "Production",
+            "units": "Units",
+            "value": 770447,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Passat/Magotan",
+            "key": "Production",
+            "units": "Units",
+            "value": 543706.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Passat/Magotan",
+            "key": "Production",
+            "units": "Units",
+            "value": 656249,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lavida",
+            "key": "Production",
+            "units": "Units",
+            "value": 514698.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lavida",
+            "key": "Production",
+            "units": "Units",
+            "value": 513556,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Bora",
+            "key": "Production",
+            "units": "Units",
+            "value": 345077.0,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Bora",
+            "key": "Production",
+            "units": "Units",
+            "value": 269390,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "T-Roc",
+            "key": "Production",
+            "units": "Units",
+            "value": 328069.0,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "T-Roc",
+            "key": "Production",
+            "units": "Units",
+            "value": 236977,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "T-Cross",
+            "key": "Production",
+            "units": "Units",
+            "value": 274071.0,
+            "year": 2019,
+            "row_idx": 8,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "T-Cross",
+            "key": "Production",
+            "units": "Units",
+            "value": null,
+            "year": 2018,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Santana",
+            "key": "Production",
+            "units": "Units",
+            "value": 244132.0,
+            "year": 2019,
+            "row_idx": 9,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Santana",
+            "key": "Production",
+            "units": "Units",
+            "value": 272080,
+            "year": 2018,
+            "row_idx": 9,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Atlas/Teramont",
+            "key": "Production",
+            "units": "Units",
+            "value": 183648.0,
+            "year": 2019,
+            "row_idx": 10,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Atlas/Teramont",
+            "key": "Production",
+            "units": "Units",
+            "value": 166034,
+            "year": 2018,
+            "row_idx": 10,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Gol",
+            "key": "Production",
+            "units": "Units",
+            "value": 151241.0,
+            "year": 2019,
+            "row_idx": 11,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Gol",
+            "key": "Production",
+            "units": "Units",
+            "value": 156410,
+            "year": 2018,
+            "row_idx": 11,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Tharu",
+            "key": "Production",
+            "units": "Units",
+            "value": 136899.0,
+            "year": 2019,
+            "row_idx": 12,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Tharu",
+            "key": "Production",
+            "units": "Units",
+            "value": 2698,
+            "year": 2018,
+            "row_idx": 12,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "up!",
+            "key": "Production",
+            "units": "Units",
+            "value": 108676.0,
+            "year": 2019,
+            "row_idx": 13,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "up!",
+            "key": "Production",
+            "units": "Units",
+            "value": 136512,
+            "year": 2018,
+            "row_idx": 13,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamando",
+            "key": "Production",
+            "units": "Units",
+            "value": 92903.0,
+            "year": 2019,
+            "row_idx": 14,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamando",
+            "key": "Production",
+            "units": "Units",
+            "value": 141076,
+            "year": 2018,
+            "row_idx": 14,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Touran",
+            "key": "Production",
+            "units": "Units",
+            "value": 90366.0,
+            "year": 2019,
+            "row_idx": 15,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Touran",
+            "key": "Production",
+            "units": "Units",
+            "value": 130417,
+            "year": 2018,
+            "row_idx": 15,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Saveiro",
+            "key": "Production",
+            "units": "Units",
+            "value": 54941.0,
+            "year": 2019,
+            "row_idx": 16,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Saveiro",
+            "key": "Production",
+            "units": "Units",
+            "value": 59233,
+            "year": 2018,
+            "row_idx": 16,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Touareg",
+            "key": "Production",
+            "units": "Units",
+            "value": 52859.0,
+            "year": 2019,
+            "row_idx": 17,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Touareg",
+            "key": "Production",
+            "units": "Units",
+            "value": 40387,
+            "year": 2018,
+            "row_idx": 17,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Arteon/CC",
+            "key": "Production",
+            "units": "Units",
+            "value": 51868.0,
+            "year": 2019,
+            "row_idx": 18,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Arteon/CC",
+            "key": "Production",
+            "units": "Units",
+            "value": 49735,
+            "year": 2018,
+            "row_idx": 18,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Fox",
+            "key": "Production",
+            "units": "Units",
+            "value": 43675.0,
+            "year": 2019,
+            "row_idx": 19,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Fox",
+            "key": "Production",
+            "units": "Units",
+            "value": 40596,
+            "year": 2018,
+            "row_idx": 19,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sharan",
+            "key": "Production",
+            "units": "Units",
+            "value": 2568.0,
+            "year": 2019,
+            "row_idx": 20,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sharan",
+            "key": "Production",
+            "units": "Units",
+            "value": 30459,
+            "year": 2018,
+            "row_idx": 20,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Beetle",
+            "key": "Production",
+            "units": "Units",
+            "value": 2058.0,
+            "year": 2019,
+            "row_idx": 21,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Beetle",
+            "key": "Production",
+            "units": "Units",
+            "value": 37846,
+            "year": 2018,
+            "row_idx": 21,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Phideon",
+            "key": "Production",
+            "units": "Units",
+            "value": 13750.0,
+            "year": 2019,
+            "row_idx": 22,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Phideon",
+            "key": "Production",
+            "units": "Units",
+            "value": 2410,
+            "year": 2018,
+            "row_idx": 22,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Suran",
+            "key": "Production",
+            "units": "Units",
+            "value": 600.0,
+            "year": 2019,
+            "row_idx": 23,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Suran",
+            "key": "Production",
+            "units": "Units",
+            "value": 16356,
+            "year": 2018,
+            "row_idx": 23,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "ID.3",
+            "key": "Production",
+            "units": "Units",
+            "value": 50.0,
+            "year": 2019,
+            "row_idx": 24,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "ID.3",
+            "key": "Production",
+            "units": "Units",
+            "value": null,
+            "year": 2018,
+            "row_idx": 24,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "",
+            "key": "Production",
+            "units": "Units",
+            "value": 6184146.0,
+            "year": 2019,
+            "row_idx": 25,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "",
+            "key": "Production",
+            "units": "Units",
+            "value": 6297110,
+            "year": 2018,
+            "row_idx": 25,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 52
+      }
+    },
+    {
+      "table_id": "VW2019_T219190",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
+      "title": "Volkswagen Passenger Cars – Key Figures",
+      "extraction_timestamp": "2025-11-18T21:50:10.639511",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Volkswagen Passenger Cars",
+            "units": "thousand units",
+            "value": 6278.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Volkswagen Passenger Cars",
+            "units": "thousand units",
+            "value": 6245.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 3677.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 3715.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 6184.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 6297.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 88407.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 84585.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 3785.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 3239.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Volkswagen Passenger Cars",
+            "units": "%",
+            "value": 4.3,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Volkswagen Passenger Cars",
+            "units": "%",
+            "value": 3.8,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2019_T79d8d7",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "AUDI PRODUCTION",
+      "title": "Audi – Production",
+      "extraction_timestamp": "2025-11-18T21:57:11.256024",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "A4",
+            "key": "Audi",
+            "units": "Units",
+            "value": 323387.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A4",
+            "key": "Audi",
+            "units": "Units",
+            "value": 344623.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q5",
+            "key": "Audi",
+            "units": "Units",
+            "value": 286365.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q5",
+            "key": "Audi",
+            "units": "Units",
+            "value": 298645.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A3",
+            "key": "Audi",
+            "units": "Units",
+            "value": 240795.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A3",
+            "key": "Audi",
+            "units": "Units",
+            "value": 304903.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A6",
+            "key": "Audi",
+            "units": "Units",
+            "value": 232569.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A6",
+            "key": "Audi",
+            "units": "Units",
+            "value": 254705.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q3",
+            "key": "Audi",
+            "units": "Units",
+            "value": 195566.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q3",
+            "key": "Audi",
+            "units": "Units",
+            "value": 167707.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q2",
+            "key": "Audi",
+            "units": "Units",
+            "value": 130225.0,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q2",
+            "key": "Audi",
+            "units": "Units",
+            "value": 108386.0,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A5",
+            "key": "Audi",
+            "units": "Units",
+            "value": 93077.0,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A5",
+            "key": "Audi",
+            "units": "Units",
+            "value": 111544.0,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A1",
+            "key": "Audi",
+            "units": "Units",
+            "value": 81287.0,
+            "year": 2019,
+            "row_idx": 8,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A1",
+            "key": "Audi",
+            "units": "Units",
+            "value": 80387.0,
+            "year": 2018,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q7",
+            "key": "Audi",
+            "units": "Units",
+            "value": 63633.0,
+            "year": 2019,
+            "row_idx": 9,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q7",
+            "key": "Audi",
+            "units": "Units",
+            "value": 110593.0,
+            "year": 2018,
+            "row_idx": 9,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q8",
+            "key": "Audi",
+            "units": "Units",
+            "value": 44727.0,
+            "year": 2019,
+            "row_idx": 10,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q8",
+            "key": "Audi",
+            "units": "Units",
+            "value": 2241.0,
+            "year": 2018,
+            "row_idx": 10,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "e-tron",
+            "key": "Audi",
+            "units": "Units",
+            "value": 43376.0,
+            "year": 2019,
+            "row_idx": 11,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "e-tron",
+            "key": "Audi",
+            "units": "Units",
+            "value": 2425.0,
+            "year": 2018,
+            "row_idx": 11,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A8",
+            "key": "Audi",
+            "units": "Units",
+            "value": 2382.0,
+            "year": 2019,
+            "row_idx": 12,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A8",
+            "key": "Audi",
+            "units": "Units",
+            "value": 2454.0,
+            "year": 2018,
+            "row_idx": 12,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A7",
+            "key": "Audi",
+            "units": "Units",
+            "value": 17068.0,
+            "year": 2019,
+            "row_idx": 13,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A7",
+            "key": "Audi",
+            "units": "Units",
+            "value": 2005.0,
+            "year": 2018,
+            "row_idx": 13,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "TT",
+            "key": "Audi",
+            "units": "Units",
+            "value": 14999.0,
+            "year": 2019,
+            "row_idx": 14,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "TT",
+            "key": "Audi",
+            "units": "Units",
+            "value": 12118.0,
+            "year": 2018,
+            "row_idx": 14,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "R8",
+            "key": "Audi",
+            "units": "Units",
+            "value": 2121.0,
+            "year": 2019,
+            "row_idx": 15,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "R8",
+            "key": "Audi",
+            "units": "Units",
+            "value": 1764.0,
+            "year": 2018,
+            "row_idx": 15,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Audi",
+            "units": "Units",
+            "value": 1793021.0,
+            "year": 2019,
+            "row_idx": 16,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Audi",
+            "units": "Units",
+            "value": 1864813.0,
+            "year": 2018,
+            "row_idx": 16,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Urus",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 5233.0,
+            "year": 2019,
+            "row_idx": 18,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Urus",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 2565.0,
+            "year": 2018,
+            "row_idx": 18,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Coupé",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 1495.0,
+            "year": 2019,
+            "row_idx": 19,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Coupé",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 1669.0,
+            "year": 2018,
+            "row_idx": 19,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Spyder",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 931.0,
+            "year": 2019,
+            "row_idx": 20,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Spyder",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 1121.0,
+            "year": 2018,
+            "row_idx": 20,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Coupé",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 786.0,
+            "year": 2019,
+            "row_idx": 21,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Coupé",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 578.0,
+            "year": 2018,
+            "row_idx": 21,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Roadster",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 219.0,
+            "year": 2019,
+            "row_idx": 22,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Roadster",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 638.0,
+            "year": 2018,
+            "row_idx": 22,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 8664.0,
+            "year": 2019,
+            "row_idx": 23,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 6571.0,
+            "year": 2018,
+            "row_idx": 23,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi brand",
+            "key": "Audi",
+            "units": "Units",
+            "value": 1801685.0,
+            "year": 2019,
+            "row_idx": 24,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi brand",
+            "key": "Audi",
+            "units": "Units",
+            "value": 1871384.0,
+            "year": 2018,
+            "row_idx": 24,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Ducati, motorcycles",
+            "key": "Ducati",
+            "units": "Units",
+            "value": 51723.0,
+            "year": 2019,
+            "row_idx": 25,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Ducati, motorcycles",
+            "key": "Ducati",
+            "units": "Units",
+            "value": 53320.0,
+            "year": 2018,
+            "row_idx": 25,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 48
+      }
+    },
+    {
+      "table_id": "VW2019_Tdd9d71",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "AUDI BRAND",
+      "title": "Audi – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:01:22.759692",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Total",
+            "units": "thousand units",
+            "value": 1854.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Total",
+            "units": "thousand units",
+            "value": 1818.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Total",
+            "units": "N/A",
+            "value": 2,
+            "year": "N/A",
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi",
+            "key": "Audi",
+            "units": "thousand units",
+            "value": 1846.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi",
+            "key": "Audi",
+            "units": "thousand units",
+            "value": 1812.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi",
+            "key": "Audi",
+            "units": "N/A",
+            "value": 1.8,
+            "year": "N/A",
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamborghini",
+            "key": "Lamborghini",
+            "units": "units",
+            "value": 8.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamborghini",
+            "key": "Lamborghini",
+            "units": "units",
+            "value": 6.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamborghini",
+            "key": "Lamborghini",
+            "units": "N/A",
+            "value": 42.7,
+            "year": "N/A",
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Total",
+            "units": "units",
+            "value": 1200.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Total",
+            "units": "units",
+            "value": 1467.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Total",
+            "units": "N/A",
+            "value": -18.2,
+            "year": "N/A",
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "units",
+            "value": 1802.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "units",
+            "value": 1871.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "N/A",
+            "value": -3.7,
+            "year": "N/A",
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Total",
+            "units": "€ million",
+            "value": 55680.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Total",
+            "units": "€ million",
+            "value": 59248.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Total",
+            "units": "N/A",
+            "value": -6,
+            "year": "N/A",
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Total",
+            "units": "€ million",
+            "value": 4509.0,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Total",
+            "units": "€ million",
+            "value": 4705.0,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Total",
+            "units": "N/A",
+            "value": -4.2,
+            "year": "N/A",
+            "row_idx": 6,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Total",
+            "units": "%",
+            "value": 8.1,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Total",
+            "units": "%",
+            "value": 7.9,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Total",
+            "units": "N/A",
+            "value": null,
+            "year": "N/A",
+            "row_idx": 7,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 24
+      }
+    },
+    {
+      "table_id": "VW2019_T321e09",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "Škoda – Production",
+      "extraction_timestamp": "2025-11-18T22:04:27.448971",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Octavia",
+            "units": "Units",
+            "value": 358356.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Octavia",
+            "units": "Units",
+            "value": 400210.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Rapid/Scala",
+            "units": "Units",
+            "value": 207724.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Rapid/Scala",
+            "units": "Units",
+            "value": 195270.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Karoq/Kamiq/Yeti",
+            "units": "Units",
+            "value": 203688.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Karoq/Kamiq/Yeti",
+            "units": "Units",
+            "value": 173816.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Kodiaq",
+            "units": "Units",
+            "value": 177163.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Kodiaq",
+            "units": "Units",
+            "value": 155499.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Fabia",
+            "units": "Units",
+            "value": 166237.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Fabia",
+            "units": "Units",
+            "value": 186213.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Superb",
+            "units": "Units",
+            "value": 102592.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Superb",
+            "units": "Units",
+            "value": 136985.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Citigo",
+            "units": "Units",
+            "value": 2730.0,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Citigo",
+            "units": "Units",
+            "value": 37095.0,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 1243066.0,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 1285088.0,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 16
+      }
+    },
+    {
+      "table_id": "VW2019_Tea5293",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "ŠKODA BRAND",
+      "title": "Škoda – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:08:53.221765",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Škoda Brand",
+            "units": "thousand units",
+            "value": 1243.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Škoda Brand",
+            "units": "thousand units",
+            "value": 1254.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Škoda Brand",
+            "units": "units",
+            "value": 1062.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Škoda Brand",
+            "units": "units",
+            "value": 957.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Škoda Brand",
+            "units": "units",
+            "value": 1243.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Škoda Brand",
+            "units": "units",
+            "value": 1285.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Škoda Brand",
+            "units": "€ million",
+            "value": 19806.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Škoda Brand",
+            "units": "€ million",
+            "value": 17293.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Škoda Brand",
+            "units": "€ million",
+            "value": 1660.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Škoda Brand",
+            "units": "€ million",
+            "value": 1377.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Škoda Brand",
+            "units": "%",
+            "value": 8.4,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Škoda Brand",
+            "units": "%",
+            "value": 8.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2019_Tb40d92",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "SEAT – Production",
+      "extraction_timestamp": "2025-11-18T22:11:53.717899",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Leon",
+            "units": "Units",
+            "value": 153837.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Leon",
+            "units": "Units",
+            "value": 159486.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Arona",
+            "units": "Units",
+            "value": 134611.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Arona",
+            "units": "Units",
+            "value": 110926.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Ibiza",
+            "units": "Units",
+            "value": 130243.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Ibiza",
+            "units": "Units",
+            "value": 120287.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Ateca",
+            "units": "Units",
+            "value": 98397.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Ateca",
+            "units": "Units",
+            "value": 90824.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Tarraco",
+            "units": "Units",
+            "value": 38721.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Tarraco",
+            "units": "Units",
+            "value": 2398.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Alhambra",
+            "units": "Units",
+            "value": 2301.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Alhambra",
+            "units": "Units",
+            "value": 19588.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Mii",
+            "units": "Units",
+            "value": 11479.0,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Mii",
+            "units": "Units",
+            "value": 14369.0,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Toledo",
+            "units": "Units",
+            "value": 1506.0,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Toledo",
+            "units": "Units",
+            "value": 10151.0,
+            "year": 2018,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 591809.0,
+            "year": 2019,
+            "row_idx": 8,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 528029.0,
+            "year": 2018,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 18
+      }
+    },
+    {
+      "table_id": "VW2019_T25ff48",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "SEAT BRAND",
+      "title": "SEAT – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:13:11.492096",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries",
+            "key": "Deliveries (thousand units)",
+            "units": "thousand units",
+            "value": 574.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Vehicle sales",
+            "units": "N/A",
+            "value": 667.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Production",
+            "units": "N/A",
+            "value": 592.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "Sales revenue (€ million)",
+            "units": "€ million",
+            "value": 11496.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Operating result",
+            "units": "N/A",
+            "value": 445.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales",
+            "key": "Operating return on sales (%)",
+            "units": "%",
+            "value": 3.9,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2019_T370dd7",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "Bentley – Production",
+      "extraction_timestamp": "2025-11-18T22:15:19.113191",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Bentayga",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 5232.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Continental GT Coupé",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 3903.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Mulsanne",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 443.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Flying Spur",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 102.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Continental GT Convertible",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 2750.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 12430.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Bentayga",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 4072.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Continental GT Coupé",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 2841.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Mulsanne",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 547.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Flying Spur",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 1627.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Continental GT Convertible",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 28.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Bentley",
+            "units": "Units",
+            "value": 9115.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2019_T7b0ff5",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "BENTLEY BRAND",
+      "title": "Bentley – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:17:48.232792",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (units)",
+            "key": "Bentley",
+            "units": "units",
+            "value": 11006.0,
+            "year": 2019.0,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (units)",
+            "key": "Bentley",
+            "units": "units",
+            "value": 10494.0,
+            "year": 2018.0,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Bentley",
+            "units": "units",
+            "value": 11631.0,
+            "year": 2019.0,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Bentley",
+            "units": "units",
+            "value": 9559.0,
+            "year": 2018.0,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Bentley",
+            "units": "units",
+            "value": 12430.0,
+            "year": 2019.0,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Bentley",
+            "units": "units",
+            "value": 9115.0,
+            "year": 2018.0,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 2092.0,
+            "year": 2019.0,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1548.0,
+            "year": 2018.0,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 65.0,
+            "year": 2019.0,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": -288.0,
+            "year": 2018.0,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Bentley",
+            "units": "%",
+            "value": 3.1,
+            "year": 2019.0,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Bentley",
+            "units": "%",
+            "value": -18.6,
+            "year": 2018.0,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2019_T704982",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "Porsche – Production",
+      "extraction_timestamp": "2025-11-18T22:19:41.826409",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Cayenne",
+            "units": "Units",
+            "value": 95293.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Cayenne",
+            "units": "Units",
+            "value": 79111,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Macan",
+            "units": "Units",
+            "value": 89744.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Macan",
+            "units": "Units",
+            "value": 93953,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Panamera",
+            "units": "Units",
+            "value": 31192.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Panamera",
+            "units": "Units",
+            "value": 35493,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Taycan",
+            "units": "Units",
+            "value": 1386.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Taycan",
+            "units": "Units",
+            "value": null,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 274463.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 268451,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 10
+      }
+    },
+    {
+      "table_id": "VW2019_Ta58de3",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PORSCHE AUTOMOTIVE 1",
+      "title": "Porsche ^1 – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:22:44.135938",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries",
+            "key": "thousand units",
+            "units": "thousand units",
+            "value": 281.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "thousand units",
+            "units": "thousand units",
+            "value": 256.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "thousand units",
+            "units": "%",
+            "value": 9.6,
+            "year": null,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "units",
+            "units": "units",
+            "value": 277.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "units",
+            "units": "units",
+            "value": 253.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "units",
+            "units": "%",
+            "value": 9.6,
+            "year": null,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "units",
+            "units": "units",
+            "value": 274.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "units",
+            "units": "units",
+            "value": 268.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "units",
+            "units": "%",
+            "value": 2.2,
+            "year": null,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 2606.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 2366.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "%",
+            "value": 10.1,
+            "year": null,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 4210.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 4110.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "€ million",
+            "units": "%",
+            "value": 2.4,
+            "year": null,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales",
+            "key": "%",
+            "units": "%",
+            "value": 16.2,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales",
+            "key": "%",
+            "units": "%",
+            "value": 17.4,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales",
+            "key": "%",
+            "units": "%",
+            "value": null,
+            "year": null,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 18
+      }
+    },
+    {
+      "table_id": "VW2019_Tb49406",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "Volkswagen Commercial Vehicles – Production",
+      "extraction_timestamp": "2025-11-18T22:25:09.576914",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Caravelle/Multivan, Kombi",
+            "units": "Units",
+            "value": 96533.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caravelle/Multivan, Kombi",
+            "units": "Units",
+            "value": 115525.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Transporter",
+            "units": "Units",
+            "value": 91585.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Transporter",
+            "units": "Units",
+            "value": 86286.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy Kombi",
+            "units": "Units",
+            "value": 81466.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy Kombi",
+            "units": "Units",
+            "value": 89154.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Crafter",
+            "units": "Units",
+            "value": 72906.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Crafter",
+            "units": "Units",
+            "value": 67151.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Amarok",
+            "units": "Units",
+            "value": 68010.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Amarok",
+            "units": "Units",
+            "value": 88950.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy",
+            "units": "Units",
+            "value": 66780.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy",
+            "units": "Units",
+            "value": 71881.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 477280.0,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 518947.0,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 14
+      }
+    },
+    {
+      "table_id": "VW2019_Tb99596",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
+      "title": "Volkswagen Commercial Vehicles – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:26:55.329396",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Deliveries",
+            "units": "thousand units",
+            "value": 492.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Vehicle sales",
+            "units": "thousand units",
+            "value": 456.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Production",
+            "units": "thousand units",
+            "value": 477.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Sales revenue",
+            "units": "€ million",
+            "value": 11473.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Operating result",
+            "units": "€ million",
+            "value": 510.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Operating return on sales",
+            "units": "%",
+            "value": 4.4,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2019_T46a605",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "TRATON – Production",
+      "extraction_timestamp": "2025-11-18T22:28:29.771082",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Trucks",
+            "key": "Production",
+            "units": "Units",
+            "value": 201115.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Trucks",
+            "key": "Production",
+            "units": "Units",
+            "value": 207235.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Production",
+            "units": "Units",
+            "value": 2138.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Production",
+            "units": "Units",
+            "value": 2314.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Light Commercial Vehicles",
+            "key": "Production",
+            "units": "Units",
+            "value": 15903.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Light Commercial Vehicles",
+            "key": "Production",
+            "units": "Units",
+            "value": 9043.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Production",
+            "units": "Units",
+            "value": 238405.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Production",
+            "units": "Units",
+            "value": 239419.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 8
+      }
+    },
+    {
+      "table_id": "VW2019_Tf791b0",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "DELIVERIES",
+      "title": "TRATON – Deliveries",
+      "extraction_timestamp": "2025-11-18T22:30:10.073142",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Trucks",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 205936.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Trucks",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 202494.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 2149.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 2262.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Light Commercial Vehicles",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 14789.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Light Commercial Vehicles",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 7871.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Deliveries",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 242221.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Deliveries",
+            "key": "TRATON",
+            "units": "Units",
+            "value": 232994.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 8
+      }
+    },
+    {
+      "table_id": "VW2019_Ta8e5fa",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "PRODUCTION",
+      "title": "Scania – Production",
+      "extraction_timestamp": "2025-11-18T22:31:39.293809",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Trucks",
+            "units": "Units",
+            "value": 89276.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Trucks",
+            "units": "Units",
+            "value": 92679.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Buses",
+            "units": "Units",
+            "value": 7719.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Buses",
+            "units": "Units",
+            "value": 8696.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 96995.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 101375.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2019_T407d3b",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "SCANIA VEHICLES AND SERVICES 1",
+      "title": "Scania ^1 – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:34:59.680953",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Orders received (thousand units)",
+            "key": "Scania",
+            "units": "thousand units",
+            "value": 89.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Orders received (thousand units)",
+            "key": "Scania",
+            "units": "thousand units",
+            "value": 97.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Orders received (thousand units)",
+            "key": "Scania",
+            "units": "%",
+            "value": -8.2,
+            "year": null,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "Scania",
+            "units": "units",
+            "value": 99.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "Scania",
+            "units": "units",
+            "value": 96.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "Scania",
+            "units": "%",
+            "value": 3.1,
+            "year": null,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Scania",
+            "units": "units",
+            "value": 101.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Scania",
+            "units": "units",
+            "value": 97.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Scania",
+            "units": "%",
+            "value": 3.2,
+            "year": null,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Scania",
+            "units": "units",
+            "value": 97.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Scania",
+            "units": "units",
+            "value": 101.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Scania",
+            "units": "%",
+            "value": -4.3,
+            "year": null,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Scania",
+            "units": "€ million",
+            "value": 13934.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Scania",
+            "units": "€ million",
+            "value": 12981.0,
+            "year": 2018,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Scania",
+            "units": "%",
+            "value": 7.3,
+            "year": null,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Scania",
+            "units": "€ million",
+            "value": 1506.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Scania",
+            "units": "€ million",
+            "value": 1207.0,
+            "year": 2018,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Scania",
+            "units": "%",
+            "value": 24.8,
+            "year": null,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Scania",
+            "units": "%",
+            "value": 10.8,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Scania",
+            "units": "%",
+            "value": 9.3,
+            "year": 2018,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales (%)",
+            "key": "Scania",
+            "units": "%",
+            "value": null,
+            "year": null,
+            "row_idx": 6,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 21
+      }
+    },
+    {
+      "table_id": "VW2019_T0c2e70",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "MAN PRODUCTION",
+      "title": "MAN – Production",
+      "extraction_timestamp": "2025-11-18T22:36:48.407151",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Trucks",
+            "key": "Trucks",
+            "units": "Units",
+            "value": 111839.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Trucks",
+            "key": "Trucks",
+            "units": "Units",
+            "value": 114556.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Buses",
+            "units": "Units",
+            "value": 13668.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Buses",
+            "units": "Units",
+            "value": 14445.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Light Commercial Vehicles",
+            "key": "Light Commercial Vehicles",
+            "units": "Units",
+            "value": 15903.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Light Commercial Vehicles",
+            "key": "Light Commercial Vehicles",
+            "units": "Units",
+            "value": 9043.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Total",
+            "units": "Units",
+            "value": 141410.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total",
+            "key": "Total",
+            "units": "Units",
+            "value": 138044.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 8
+      }
+    },
+    {
+      "table_id": "VW2019_T8054e8",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "MAN COMMERCIAL VEHICLES",
+      "title": "MAN – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:38:17.010469",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Orders received",
+            "key": "MAN Commercial Vehicles",
+            "units": "thousand units",
+            "value": 139.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "MAN Commercial Vehicles",
+            "units": "units",
+            "value": 143.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "MAN Commercial Vehicles",
+            "units": "units",
+            "value": 143.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "MAN Commercial Vehicles",
+            "units": "units",
+            "value": 141.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "MAN Commercial Vehicles",
+            "units": "€ million",
+            "value": 12663.0,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "MAN Commercial Vehicles",
+            "units": "€ million",
+            "value": 402.0,
+            "year": 2019,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating return on sales",
+            "key": "MAN Commercial Vehicles",
+            "units": "%",
+            "value": 3.2,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 7
+      }
+    },
+    {
+      "table_id": "VW2019_T3472c2",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "Deliveries",
+      "title": "Volkswagen Group in China – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:43:25.369941",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [],
+        "model": "deepseek-r1-distill-llama-70b",
+        "raw_output": " \nOkay, so I need to extract KPIs from this financial table. Let me look at the input provided. The table is about Volkswagen Group in China, specifically deliveries and related metrics for 2019 and 2018. \n\nFirst, I'll examine the headers. They are \"Thousand units\", \"2019.0\", \"2018.0\", and \"%\". So each row will have a metric name, followed by values for 2019, 2018, and the percentage change. \n\nLooking at the rows, there are three main metrics: Deliveries, Vehicle sales, and Production. Each of these has values for both years and a percentage. \n\nI need to create a JSON object with each KPI as an entry. Each entry should include the name, key (which seems to be the category or subgroup), units, value, year, row index, and column index. \n\nWait, the units are given in the first header as \"Thousand units\", so that's the unit for all numerical values. The years are 2019 and 2018, but the main year of the document is 2019, so I'll use that for the \"year\" field. \n\nFor each row, I'll extract the metric name, then for each subsequent column, assign the value and the appropriate column index. The row index starts at 0 for the first row. \n\nSo, for the first row, Deliveries: 4234.0 in 2019, 4207.0 in 2018, and 0.6% change. I'll create entries for each of these, but wait, the task says to extract all numerical metrics. So each value in the table is a separate KPI? Or is each row a KPI with multiple values?\n\nLooking back at the guidelines, it says to extract all numerical metrics and their metadata. So each numerical value in the table should be its own KPI entry. \n\nSo for Deliveries, I'll have three entries: 4234.0 for 2019, 4207.0 for 2018, and 0.6 for the percentage. But wait, the percentage doesn't have a unit of \"Thousand units\". Hmm, maybe the percentage is unitless, so units would be N/A for that. \n\nWait, the headers are [\"Thousand units\", \"2019.0\", \"2018.0\", \"%\"], so each column after the first is either a year or a percentage. So the first column is the metric name, then the next columns are 2019 value, 2018 value, and percentage change. \n\nSo each row has four elements: metric name, 2019 value, 2018 value, and % change. \n\nTherefore, for each row, I'll create three KPIs: one for 2019, one for 2018, and one for the percentage. \n\nBut looking at the sample output, it seems each row is treated as a single KPI with multiple values. Wait, no, the sample output isn't provided, but the user's example shows each row as separate KPIs. \n\nWait, in the user's example, the output includes each value as a separate KPI. For example, Deliveries in 2019 is one KPI, Deliveries in 2018 is another, and Deliveries percentage is another. \n\nSo I need to loop through each row, and for each value in the row (excluding the first element, which is the metric name), create a KPI entry. \n\nSo for the first row, Deliveries: \n\n- 4234.0 in 2019: units are Thousand units, value is 4234.0, year is 2019, column index is 1.\n- 4207.0 in 2018: units are Thousand units, value is 4207.0, year is 2018, column index is 2.\n- 0.6: units are N/A (since it's a percentage), value is 0.6, year is N/A (since it's a percentage change between years), column index is 3.\n\nSimilarly for the other rows. \n\nSo each row will generate three KPI entries. \n\nNow, the \"key\" field: looking at the sample output, it's using the metric name as the key. Wait, no, in the sample, the key is the category or subgroup. Wait, in the user's example, the key is \"Deliveries\", \"Vehicle sales ^1\", etc. So the key is the metric name. \n\nWait, the sample output provided by the user is:\n\n{\n  \"kpis\": [\n    {\n      \"name\": \"Deliveries\",\n      \"key\": \"Deliveries\",\n      \"units\": \"Thousand units\",\n      \"value\": 4234.0,\n      \"year\": 2019,\n      \"row_idx\": 0,\n      \"col_idx\": 1\n    },\n    ...\n  ]\n}\n\nSo each KPI's \"name\" is the main metric name, which is the same as the key. Wait, no, in the sample, the name is \"Deliveries\" and the key is also \"Deliveries\". So perhaps the key is redundant, but I'll follow the structure. \n\nWait, perhaps the key is the category, but in this case, all metrics are under \"Deliveries\", so maybe the key is the same as the name. \n\nAlternatively, perhaps the key is the specific aspect, like \"Deliveries 2019\", but that might complicate. \n\nI think the key should be the metric name as it appears, so for each value, the key remains the same as the metric name. \n\nSo for each value in the row, the key is the metric name, and the name is also the metric name. \n\nWait, but in the sample output, the name is \"Deliveries\" and the key is \"Deliveries\" as well. So perhaps the key is just the same as the name. \n\nAlternatively, perhaps the key is the specific category, but in this case, all are under \"Deliveries\", so it's acceptable. \n\nSo moving forward, each KPI will have the name as the metric name, key as the metric name, units as \"Thousand units\" except for the percentage column, which is N/A. \n\nThe year is taken from the column header. For the percentage column, the year is not applicable, so perhaps set it to null or N/A. \n\nWait, the column headers are \"2019.0\", \"2018.0\", and \"%\". So for the first data column (index 1), the year is 2019, for index 2, it's 2018, and for index 3, it's the percentage, so year is N/A. \n\nSo for each KPI:\n\n- name: the metric name (e.g., Deliveries)\n- key: same as name\n- units: \"Thousand units\" for columns 1 and 2, \"N/A\" for column 3\n- value: the numerical value\n- year: 2019 for column 1, 2018 for column 2, null for column 3\n- row_idx: the row index (0, 1, 2)\n- col_idx: the column index (1, 2, 3)\n\nSo for the first row (row_idx 0):\n\n- col_idx 1: Deliveries, 4234.0, 2019, Thousand units\n- col_idx 2: Deliveries, 4207.0, 2018, Thousand units\n- col_idx 3: Deliveries, 0.6, null, N/A\n\nSimilarly for the other rows. \n\nNow, the second row is \"Vehicle sales ^1\". So the metric name is \"Vehicle sales ^1\". The values are 4048.0, 4101.0, and -1.3. \n\nSo three KPIs:\n\n- 4048.0 in 2019\n- 4101.0 in 2018\n- -1.3 percentage\n\nThird row: Production, 3948.0, 4116.0, -4.1. \n\nSo same approach. \n\nNow, compiling all these into the JSON structure. \n\nEach KPI is an object in the \"kpis\" array. \n\nSo the final JSON will have 3 rows * 3 columns = 9 KPIs. \n\nWait, but the headers have four columns, but the first is the metric name, so each row has three data points. \n\nYes, so 3 rows * 3 data points = 9 KPIs. \n\nI need to make sure that each KPI has the correct units and year. \n\nFor the percentage column, units are N/A and year is null. \n\nNow, let's structure this. \n\nFirst KPI:\n\n{\n  \"name\": \"Deliveries\",\n  \"key\": \"Deliveries\",\n  \"units\": \"Thousand units\",\n  \"value\": 4234.0,\n  \"year\": 2019,\n  \"row_idx\": 0,\n  \"col_idx\": 1\n}\n\nSecond KPI:\n\n{\n  \"name\": \"Deliveries\",\n  \"key\": \"Deliveries\",\n  \"units\": \"Thousand units\",\n  \"value\": 4207.0,\n  \"year\": 2018,\n  \"row_idx\": 0,\n  \"col_idx\": 2\n}\n\nThird KPI:\n\n{\n  \"name\": \"Deliveries\",\n  \"key\": \"Deliveries\",\n  \"units\": \"N/A\",\n  \"value\": 0.6,\n  \"year\": null,\n  \"row_idx\": 0,\n  \"col_idx\": 3\n}\n\nAnd so on for the other rows. \n\nI think that's the correct approach. Now, I'll format this into the required JSON structure without any additional text. \n</think>\n\n{\n  \"kpis\": [\n    {\n      \"name\": \"Deliveries\",\n      \"key\": \"Deliveries\",\n      \"units\": \"Thousand units\",\n      \"value\": 4234.0,\n      \"year\": 2019,\n      \"row_idx\": 0,\n      \"col_idx\": 1\n    },\n    {\n      \"name\": \"Deliveries\",\n      \"key\": \"Deliveries\",\n      \"units\": \"Thousand units\",\n      \"value\": 4207.0,\n      \"year\": 2018,\n      \"row_idx\": 0,\n      \"col_idx\": 2\n    },\n    {\n      \"name\": \"Deliveries\",\n      \"key\": \"Deliveries\",\n      \"units\": \"N/A\",\n      \"value\": 0.6,\n      \"year\": null,\n      \"row_idx\": 0,\n      \"col_idx\": 3\n    },\n    {\n      \"name\": \"Vehicle sales ^1\",\n      \"key\": \"Vehicle sales ^1\",\n      \"units\": \"Thousand units\",\n      \"value\": 4048.0,\n      \"year\": 2019,\n      \"row_idx\": 1,\n      \"col_idx\": 1\n    },\n    {\n      \"name\": \"Vehicle sales ^1\",\n      \"key\": \"Vehicle sales ^1\",\n      \"units\": \"Thousand units\",\n      \"value\": 4101.0,\n      \"year\": 2018,\n      \"row_idx\": 1,\n      \"col_idx\": 2\n    },\n    {\n      \"name\": \"Vehicle sales ^1\",\n      \"key\": \"Vehicle sales ^1\",\n      \"units\": \"N/A\",\n      \"value\": -1.3,\n      \"year\": null,\n      \"row_idx\": 1,\n      \"col_idx\": 3\n    },\n    {\n      \"name\": \"Production\",\n      \"key\": \"Production\",\n      \"units\": \"Thousand units\",\n      \"value\": 3948.0,\n      \"year\": 2019,\n      \"row_idx\": 2,\n      \"col_idx\": 1\n    },\n    {\n      \"name\": \"Production\",\n      \"key\": \"Production\",\n      \"units\": \"Thousand units\",\n      \"value\": 4116.0,\n      \"year\": 2018,\n      \"row_idx\": 2,\n      \"col_idx\": 2\n    },\n    {\n      \"name\": \"Production\",\n      \"key\": \"Production\",\n      \"units\": \"N/A\",\n      \"value\": -4.1,\n      \"year\": null,\n      \"row_idx\": 2,\n      \"col_idx\": 3\n    }\n  ]\n}",
+        "error": "JSON parsing failed: Expecting value: line 12 column 5 (char 201)"
+      }
+    },
+    {
+      "table_id": "VW2019_T9a207c",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "EARNINGS",
+      "title": "Volkswagen Group in China – Earnings",
+      "extraction_timestamp": "2025-11-18T22:44:46.376039",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Operating result (100%)",
+            "key": "financial",
+            "units": "€ million",
+            "value": 11110.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result (100%)",
+            "key": "financial",
+            "units": "€ million",
+            "value": 11427.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result (proportionate)",
+            "key": "financial",
+            "units": "€ million",
+            "value": 4425.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result (proportionate)",
+            "key": "financial",
+            "units": "€ million",
+            "value": 4627.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 4
+      }
+    },
+    {
+      "table_id": "VW2019_Te58374",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "LOCAL PRODUCTION",
+      "title": "Volkswagen Group in China – Local Production",
+      "extraction_timestamp": "2025-11-18T22:47:17.790512",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Units",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 3066807.0,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 3145141.0,
+            "year": 2018,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Audi",
+            "units": "units",
+            "value": 614753.0,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Audi",
+            "units": "units",
+            "value": 617472.0,
+            "year": 2018,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "ŠKODA",
+            "units": "units",
+            "value": 266377.0,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "ŠKODA",
+            "units": "units",
+            "value": 353829.0,
+            "year": 2018,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Total",
+            "units": "units",
+            "value": 3947937.0,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Total",
+            "units": "units",
+            "value": 4116442.0,
+            "year": 2018,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 8
+      }
+    },
+    {
+      "table_id": "VW2019_T43218a",
+      "doc_id": "VW2019",
+      "year": 2019,
+      "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
+      "title": "Volkswagen Financial Services – Key Figures",
+      "extraction_timestamp": "2025-11-18T22:51:09.292429",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Number of contracts ^1",
+            "key": "Number of contracts",
+            "units": "thousands",
+            "value": 2149,
+            "year": 2019,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Customer financing",
+            "key": "Customer financing",
+            "units": "N/A",
+            "value": 6585,
+            "year": 2019,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Leasing",
+            "key": "Leasing",
+            "units": "N/A",
+            "value": 4616,
+            "year": 2019,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Service/Insurance",
+            "key": "Service/Insurance",
+            "units": "N/A",
+            "value": 10297,
+            "year": 2019,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lease assets",
+            "key": "Lease assets",
+            "units": "€ million",
+            "value": 47222,
+            "year": 2019,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Customer financing",
+            "key": "Customer financing",
+            "units": "N/A",
+            "value": 68517,
+            "year": 2019,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Dealer financing",
+            "key": "Dealer financing",
+            "units": "N/A",
+            "value": 2309,
+            "year": 2019,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Leasing agreements ^1",
+            "key": "Leasing agreements",
+            "units": "N/A",
+            "value": 46276,
+            "year": 2019,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Direct banking deposits",
+            "key": "Direct banking deposits",
+            "units": "€ million",
+            "value": 31330,
+            "year": 2019,
+            "row_idx": 9,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total assets",
+            "key": "Total assets",
+            "units": "€ million",
+            "value": 223536,
+            "year": 2019,
+            "row_idx": 10,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Equity",
+            "key": "Equity",
+            "units": "€ million",
+            "value": 2842,
+            "year": 2019,
+            "row_idx": 11,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Liabilities ^2",
+            "key": "Liabilities",
+            "units": "€ million",
+            "value": 187092,
+            "year": 2019,
+            "row_idx": 12,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Equity ratio",
+            "key": "Equity ratio",
+            "units": "%",
+            "value": 12.7,
+            "year": 2019,
+            "row_idx": 13,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Return on equity before tax3",
+            "key": "Return on equity before tax",
+            "units": "%",
+            "value": 10.8,
+            "year": 2019,
+            "row_idx": 14,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Leverage ^4",
+            "key": "Leverage",
+            "units": "N/A",
+            "value": 6.6,
+            "year": 2019,
+            "row_idx": 15,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Operating result",
+            "units": "€ million",
+            "value": 2960,
+            "year": 2019,
+            "row_idx": 16,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Earnings before tax",
+            "key": "Earnings before tax",
+            "units": "€ million",
+            "value": 2968,
+            "year": 2019,
+            "row_idx": 17,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Employees at Dec. 31",
+            "key": "Employees",
+            "units": "N/A",
+            "value": 14394,
+            "year": 2019,
+            "row_idx": 18,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 18
+      }
+    }
+  ]
+}

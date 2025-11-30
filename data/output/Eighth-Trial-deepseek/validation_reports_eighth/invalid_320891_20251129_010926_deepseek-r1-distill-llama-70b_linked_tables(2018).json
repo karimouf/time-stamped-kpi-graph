@@ -1,0 +1,78 @@
+{
+  "source_file": "320891_20251129_010926_deepseek-r1-distill-llama-70b_linked_tables(2018).json",
+  "year": "2018",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 2,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Bentley",
+        "units": "€ million",
+        "year": 2018,
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name": "Bentley",
+        "col_name": "SALES REVENUE 2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Bentley'",
+          "✓ col_name verified: 'SALES REVENUE 2018'",
+          "Extracted null but source=1548.0 (cell: '1548')"
+        ],
+        "source_cell_value": 1548.0,
+        "source_cell_text": "1548",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name_match": "Bentley",
+        "col_name_match": "SALES REVENUE 2018"
+      }
+    },
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Bentley",
+        "units": "€ million",
+        "year": 2017,
+        "row_idx": 4,
+        "col_idx": 4,
+        "row_name": "Bentley",
+        "col_name": "2017 ^1"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Bentley'",
+          "✓ col_name verified: '2017 ^1'",
+          "Extracted null but source=1843.0 (cell: '1843')"
+        ],
+        "source_cell_value": 1843.0,
+        "source_cell_text": "1843",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 4,
+        "row_name_match": "Bentley",
+        "col_name_match": "2017 ^1"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 597,
+    "valid_kpis": 595,
+    "invalid_kpis": 2,
+    "tables_processed": 26,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 577,
+    "col_name_verified": 597,
+    "name_mismatches": 0,
+    "accuracy": 99.66499162479062
+  }
+}

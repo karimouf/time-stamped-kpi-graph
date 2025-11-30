@@ -1,0 +1,244 @@
+{
+  "source_file": "315306_20251123_171450_deepseek-r1-distill-llama-70b_linked_tables(2015).json",
+  "year": "2015",
+  "total_invalid": 10,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2015_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Europe/Other markets",
+        "units": "€ million",
+        "year": 2014,
+        "row_name": "Europe/Other markets",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=122858.0, source=4430.0, diff=118428.00"
+        ],
+        "source_cell_value": 4430.0,
+        "source_cell_text": "4430.0",
+        "extracted_value": 122858.0,
+        "row_idx": 0,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2015_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "North America",
+        "units": "€ million",
+        "year": 2014,
+        "row_name": "North America",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=2761, source=879.0, diff=1882.00"
+        ],
+        "source_cell_value": 879.0,
+        "source_cell_text": "879.0",
+        "extracted_value": 2761,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2015_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "South America",
+        "units": "€ million",
+        "year": 2014,
+        "row_name": "South America",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=13868.0, source=794.0, diff=13074.00"
+        ],
+        "source_cell_value": 794.0,
+        "source_cell_text": "794.0",
+        "extracted_value": 13868.0,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2015_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Asia-Pacific ^2",
+        "units": "€ million",
+        "year": 2014,
+        "row_name": "Asia-Pacific ^2",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=38113.0, source=4114.0, diff=33999.00"
+        ],
+        "source_cell_value": 4114.0,
+        "source_cell_text": "4114.0",
+        "extracted_value": 38113.0,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2015_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Group ^2",
+        "units": "€ million",
+        "year": 2014,
+        "row_name": "Volkswagen Group ^2",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=202458.0, source=10217.0, diff=192241.00"
+        ],
+        "source_cell_value": 10217.0,
+        "source_cell_text": "10217.0",
+        "extracted_value": 202458.0,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2015_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=3707.0, source=1827795.0, diff=1824088.00"
+        ],
+        "source_cell_value": 1827795.0,
+        "source_cell_text": "1827795.0",
+        "extracted_value": 3707.0,
+        "row_idx": 14,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2015_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2014,
+        "row_name": "",
+        "col_name": "2014"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=2650.0, source=1800624.0, diff=1797974.00"
+        ],
+        "source_cell_value": 1800624.0,
+        "source_cell_text": "1800624",
+        "extracted_value": 2650.0,
+        "row_idx": 14,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "2015.0",
+        "units": "N/A",
+        "year": 2015,
+        "row_name": "Customer financing",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=64020.0, source=5833.0, diff=58187.00"
+        ],
+        "source_cell_value": 5833.0,
+        "source_cell_text": "5833.0",
+        "extracted_value": 64020.0,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "2014.0",
+        "units": "N/A",
+        "year": 2014,
+        "row_name": "Customer financing",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=59719.0, source=5560.0, diff=54159.00"
+        ],
+        "source_cell_value": 5560.0,
+        "source_cell_text": "5560.0",
+        "extracted_value": 59719.0,
+        "row_idx": 1,
+        "col_idx": 3
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "%",
+        "units": "%",
+        "year": 2015,
+        "row_name": "Customer financing",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large diff: extracted=7.2, source=4.9, diff=2.30"
+        ],
+        "source_cell_value": 4.9,
+        "source_cell_text": "4.9",
+        "extracted_value": 7.2,
+        "row_idx": 1,
+        "col_idx": 4
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 430,
+    "valid_kpis": 420,
+    "invalid_kpis": 10,
+    "tables_processed": 23,
+    "accuracy": 97.67441860465115
+  }
+}

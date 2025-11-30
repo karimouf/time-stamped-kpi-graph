@@ -1,0 +1,426 @@
+{
+  "source_file": "316656_20251125_014602_deepseek-r1-distill-llama-70b_linked_tables(2022).json",
+  "year": "2022",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 14,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "thousand units",
+        "units": "thousand units",
+        "year": 2022,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name": "Deliveries (thousand units)",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Deliveries (thousand units)'",
+          "❌ col_name MISMATCH: KPI='2022', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=386.0"
+        ],
+        "source_cell_value": 386.0,
+        "source_cell_text": "386",
+        "extracted_value": 386,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name_match": "Deliveries (thousand units)",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Vehicle sales",
+        "key": "",
+        "units": "N/A",
+        "year": 2022,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name": "Vehicle sales",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Vehicle sales'",
+          "❌ col_name MISMATCH: KPI='2022', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=468.0"
+        ],
+        "source_cell_value": 468.0,
+        "source_cell_text": "468",
+        "extracted_value": 468,
+        "row_idx": 1,
+        "col_idx": 1,
+        "row_name_match": "Vehicle sales",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Production",
+        "key": "units",
+        "units": "N/A",
+        "year": 2022,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name": "Production",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Production'",
+          "❌ col_name MISMATCH: KPI='2022', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=420.0"
+        ],
+        "source_cell_value": 420.0,
+        "source_cell_text": "420",
+        "extracted_value": 420,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name_match": "Production",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Production",
+        "key": "units",
+        "units": "N/A",
+        "year": 2021,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name": "Production",
+        "col_name": "2021"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.49,
+        "errors": [
+          "✓ row_name verified: 'Production'",
+          "❌ col_name MISMATCH: KPI='2021', merged_headers[1]='2022'",
+          "Small diff: 4.000000"
+        ],
+        "source_cell_value": 420.0,
+        "source_cell_text": "420",
+        "extracted_value": 424,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name_match": "Production",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2022,
+        "row_idx": 3,
+        "col_idx": 0,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Sales revenue (€ million)'",
+          "❌ col_name MISMATCH: KPI='2022', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=10941.0"
+        ],
+        "source_cell_value": 10941.0,
+        "source_cell_text": "10941",
+        "extracted_value": 10941,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name_match": "Sales revenue (€ million)",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Operating result",
+        "key": "N/A",
+        "units": "N/A",
+        "year": 2022,
+        "row_idx": 4,
+        "col_idx": 0,
+        "row_name": "Operating result",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Operating result'",
+          "❌ col_name MISMATCH: KPI='2022', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=33.0"
+        ],
+        "source_cell_value": 33.0,
+        "source_cell_text": "33",
+        "extracted_value": 33,
+        "row_idx": 4,
+        "col_idx": 1,
+        "row_name_match": "Operating result",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Operating result",
+        "key": "N/A",
+        "units": "%",
+        "year": null,
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name": "Operating result",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Operating result'",
+          "❌ col_name MISMATCH: KPI='%', merged_headers[2]='2021'",
+          "Extracted null but source=-233.0 (cell: '-233')"
+        ],
+        "source_cell_value": -233.0,
+        "source_cell_text": "-233",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name_match": "Operating result",
+        "col_name_match": "2021"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Operating return on sales",
+        "key": "%",
+        "units": "%",
+        "year": 2022,
+        "row_idx": 5,
+        "col_idx": 0,
+        "row_name": "Operating return on sales (%)",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Operating return on sales (%)'",
+          "❌ col_name MISMATCH: KPI='2022', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=0.3"
+        ],
+        "source_cell_value": 0.3,
+        "source_cell_text": "0.3",
+        "extracted_value": 0.3,
+        "row_idx": 5,
+        "col_idx": 1,
+        "row_name_match": "Operating return on sales (%)",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_Tab01ef",
+      "kpi": {
+        "name": "Operating return on sales",
+        "key": "%",
+        "units": "%",
+        "year": null,
+        "row_idx": 5,
+        "col_idx": 2,
+        "row_name": "Operating return on sales (%)",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Operating return on sales (%)'",
+          "❌ col_name MISMATCH: KPI='%', merged_headers[2]='2021'",
+          "Extracted null but source=-2.4 (cell: '-2.4')"
+        ],
+        "source_cell_value": -2.4,
+        "source_cell_text": "-2.4",
+        "extracted_value": null,
+        "row_idx": 5,
+        "col_idx": 2,
+        "row_name_match": "Operating return on sales (%)",
+        "col_name_match": "2021"
+      }
+    },
+    {
+      "table_id": "VW2022_Te10619",
+      "kpi": {
+        "name": "Q4 e-tron",
+        "key": "N/A",
+        "units": "N/A",
+        "year": 2021,
+        "row_idx": 8,
+        "col_idx": 2,
+        "row_name": "Q4 e-tron",
+        "col_name": "2021"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Q4 e-tron'",
+          "✓ col_name verified: '2021'",
+          "Type conversion error: extracted=2751 ^9 (type=str), source=2751.0 (type=float)"
+        ],
+        "source_cell_value": 2751.0,
+        "source_cell_text": "2751 ^9",
+        "extracted_value": "2751 ^9",
+        "row_idx": 8,
+        "col_idx": 2,
+        "row_name_match": "Q4 e-tron",
+        "col_name_match": "2021"
+      }
+    },
+    {
+      "table_id": "VW2022_Te10619",
+      "kpi": {
+        "name": "A8",
+        "key": "N/A",
+        "units": "N/A",
+        "year": 2021,
+        "row_idx": 12,
+        "col_idx": 2,
+        "row_name": "A8",
+        "col_name": "2021"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'A8'",
+          "✓ col_name verified: '2021'",
+          "Type conversion error: extracted=2228 ^5 (type=str), source=2228.0 (type=float)"
+        ],
+        "source_cell_value": 2228.0,
+        "source_cell_text": "2228 ^5",
+        "extracted_value": "2228 ^5",
+        "row_idx": 12,
+        "col_idx": 2,
+        "row_name_match": "A8",
+        "col_name_match": "2021"
+      }
+    },
+    {
+      "table_id": "VW2022_T7b6ec3",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "N/A",
+        "units": "Thousand units",
+        "year": 2022,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name": "Deliveries",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Deliveries'",
+          "✓ col_name verified: 'Thousand units'",
+          "Source null but extracted=3185 (cell: 'Deliveries')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Deliveries",
+        "extracted_value": 3185,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name_match": "Deliveries",
+        "col_name_match": "Thousand units"
+      }
+    },
+    {
+      "table_id": "VW2022_T7b6ec3",
+      "kpi": {
+        "name": "Vehicle sales ^1",
+        "key": "N/A",
+        "units": "Thousand units",
+        "year": 2022,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name": "Vehicle sales ^1",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Vehicle sales ^1'",
+          "✓ col_name verified: 'Thousand units'",
+          "Source null but extracted=3122 (cell: 'Vehicle sales ^1')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Vehicle sales ^1",
+        "extracted_value": 3122,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name_match": "Vehicle sales ^1",
+        "col_name_match": "Thousand units"
+      }
+    },
+    {
+      "table_id": "VW2022_T7b6ec3",
+      "kpi": {
+        "name": "Production",
+        "key": "N/A",
+        "units": "Thousand units",
+        "year": 2022,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name": "Production",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Production'",
+          "✓ col_name verified: 'Thousand units'",
+          "Source null but extracted=3160 (cell: 'Production')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Production",
+        "extracted_value": 3160,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name_match": "Production",
+        "col_name_match": "Thousand units"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 579,
+    "valid_kpis": 565,
+    "invalid_kpis": 14,
+    "tables_processed": 21,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 565,
+    "col_name_verified": 561,
+    "name_mismatches": 0,
+    "accuracy": 97.58203799654576
+  }
+}

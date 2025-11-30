@@ -1,0 +1,78 @@
+{
+  "source_file": "316656_20251125_014602_deepseek-r1-distill-llama-70b_linked_tables(2023).json",
+  "year": "2023",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 2,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2023_T546547",
+      "kpi": {
+        "name": "Touran",
+        "key": "2023",
+        "units": "Units",
+        "year": 2023,
+        "row_idx": 20,
+        "col_idx": 1,
+        "row_name": "Touran",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Touran'",
+          "✓ col_name verified: '2023'",
+          "Extracted null but source=33983.0 (cell: '33983')"
+        ],
+        "source_cell_value": 33983.0,
+        "source_cell_text": "33983",
+        "extracted_value": null,
+        "row_idx": 20,
+        "col_idx": 1,
+        "row_name_match": "Touran",
+        "col_name_match": "2023"
+      }
+    },
+    {
+      "table_id": "VW2023_Tc509cc",
+      "kpi": {
+        "name": "A8",
+        "key": "N/A",
+        "units": "Units",
+        "year": 2023,
+        "row_idx": 13,
+        "col_idx": 1,
+        "row_name": "A8",
+        "col_name": "2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'A8'",
+          "✓ col_name verified: '2023'",
+          "Extracted null but source=2044.0 (cell: '2044 ^2')"
+        ],
+        "source_cell_value": 2044.0,
+        "source_cell_text": "2044 ^2",
+        "extracted_value": null,
+        "row_idx": 13,
+        "col_idx": 1,
+        "row_name_match": "A8",
+        "col_name_match": "2023"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 579,
+    "valid_kpis": 577,
+    "invalid_kpis": 2,
+    "tables_processed": 23,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 561,
+    "col_name_verified": 579,
+    "name_mismatches": 0,
+    "accuracy": 99.65457685664938
+  }
+}

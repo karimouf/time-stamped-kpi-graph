@@ -1,0 +1,106 @@
+{
+  "source_file": "320891_20251129_010926_deepseek-r1-distill-llama-70b_linked_tables(2024).json",
+  "year": "2024",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 3,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2024_Tab8f8f",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Group",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 5,
+        "col_idx": 6,
+        "row_name": "Volkswagen Group",
+        "col_name": "OPERATING RESULT 2023 ^8"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.5,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group'",
+          "❌ col_name MISMATCH: KPI='OPERATING RESULT 2023 ^8', merged_headers[6]='OPERATING RESULT 2023 ^1'"
+        ],
+        "source_cell_value": 2252.0,
+        "source_cell_text": "2252 ^8",
+        "extracted_value": 2252,
+        "row_idx": 5,
+        "col_idx": 6,
+        "row_name_match": "Volkswagen Group",
+        "col_name_match": "OPERATING RESULT 2023 ^1"
+      }
+    },
+    {
+      "table_id": "VW2024_T3f91be",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Hedges on sales revenue",
+        "units": "€ million",
+        "year": 2024,
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name": "Hedges on sales revenue",
+        "col_name": "SALES REVENUE 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Hedges on sales revenue'",
+          "✓ col_name verified: 'SALES REVENUE 2024'",
+          "Extracted null but source=-219.0 (cell: '-219')"
+        ],
+        "source_cell_value": -219.0,
+        "source_cell_text": "-219",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name_match": "Hedges on sales revenue",
+        "col_name_match": "SALES REVENUE 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_T3f91be",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Hedges on sales revenue",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 4,
+        "col_idx": 4,
+        "row_name": "Hedges on sales revenue",
+        "col_name": "SALES REVENUE 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Hedges on sales revenue'",
+          "✓ col_name verified: 'SALES REVENUE 2023'",
+          "Extracted null but source=-821.0 (cell: '-821')"
+        ],
+        "source_cell_value": -821.0,
+        "source_cell_text": "-821",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 4,
+        "row_name_match": "Hedges on sales revenue",
+        "col_name_match": "SALES REVENUE 2023"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 166,
+    "valid_kpis": 163,
+    "invalid_kpis": 3,
+    "tables_processed": 4,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 166,
+    "col_name_verified": 165,
+    "name_mismatches": 0,
+    "accuracy": 98.19277108433735
+  }
+}

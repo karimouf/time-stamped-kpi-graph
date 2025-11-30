@@ -1,0 +1,107 @@
+{
+  "source_file": "320891_20251129_010926_deepseek-r1-distill-llama-70b_linked_tables(2022).json",
+  "year": "2022",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 3,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2022_Tb5c632",
+      "kpi": {
+        "name": "Tarraco",
+        "key": "Tarraco",
+        "units": "Units",
+        "year": 2021,
+        "row_idx": 5,
+        "col_idx": 2,
+        "row_name": "Tarraco",
+        "col_name": "2021"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Tarraco'",
+          "✓ col_name verified: '2021'",
+          "Type conversion error: extracted=2243 ^7 (type=str), source=2243.0 (type=float)"
+        ],
+        "source_cell_value": 2243.0,
+        "source_cell_text": "2243 ^7",
+        "extracted_value": "2243 ^7",
+        "row_idx": 5,
+        "col_idx": 2,
+        "row_name_match": "Tarraco",
+        "col_name_match": "2021"
+      }
+    },
+    {
+      "table_id": "VW2022_Tb5c632",
+      "kpi": {
+        "name": "Leon",
+        "key": "Leon",
+        "units": "Units",
+        "year": 2022,
+        "row_idx": 12,
+        "col_idx": 1,
+        "row_name": "Leon",
+        "col_name": "2022"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Leon'",
+          "✓ col_name verified: '2022'",
+          "Type conversion error: extracted=2007 ^0 (type=str), source=2007.0 (type=float)"
+        ],
+        "source_cell_value": 2007.0,
+        "source_cell_text": "2007 ^0",
+        "extracted_value": "2007 ^0",
+        "row_idx": 12,
+        "col_idx": 1,
+        "row_name_match": "Leon",
+        "col_name_match": "2022"
+      }
+    },
+    {
+      "table_id": "VW2022_T2ddec5",
+      "kpi": {
+        "name": "Operating result",
+        "key": "TRATON GROUP",
+        "units": "%",
+        "year": null,
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name": "Operating result",
+        "col_name": "x"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Operating result'",
+          "❌ col_name MISMATCH: KPI='x', merged_headers[3]='%'",
+          "Both null (cell: 'x')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "x",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name_match": "Operating result",
+        "col_name_match": "%"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 560,
+    "valid_kpis": 557,
+    "invalid_kpis": 3,
+    "tables_processed": 21,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 546,
+    "col_name_verified": 558,
+    "name_mismatches": 0,
+    "accuracy": 99.46428571428572
+  }
+}

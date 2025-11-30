@@ -1,0 +1,2360 @@
+{
+  "source_file": "314809_20251122_173403_deepseek-r1-distill-llama-70b_linked_tables(2016).json",
+  "tables_file": "linked_tables(2016).jsonl",
+  "total_invalid_kpis": 101,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Passenger Cars",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Passenger Cars",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=106240, source=4424.0, diff=101816.00"
+        ],
+        "source_cell_value": 4424.0,
+        "source_cell_text": "4424",
+        "extracted_value": 106240,
+        "row_idx": 0,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Volkswagen Passenger Cars",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Passenger Cars",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=70939, source=4424.0, diff=66515.00"
+        ],
+        "source_cell_value": 4424.0,
+        "source_cell_text": "4424",
+        "extracted_value": 70939,
+        "row_idx": 0,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Passenger Cars",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Passenger Cars",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2102, source=4424.0, diff=2322.00"
+        ],
+        "source_cell_value": 4424.0,
+        "source_cell_text": "4424",
+        "extracted_value": 2102,
+        "row_idx": 0,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Audi",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Audi",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=58420, source=1529.0, diff=56891.00"
+        ],
+        "source_cell_value": 1529.0,
+        "source_cell_text": "1529",
+        "extracted_value": 58420,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Audi",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Audi",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=37605, source=1529.0, diff=36076.00"
+        ],
+        "source_cell_value": 1529.0,
+        "source_cell_text": "1529",
+        "extracted_value": 37605,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Audi",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Audi",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=5134, source=1529.0, diff=3605.00"
+        ],
+        "source_cell_value": 1529.0,
+        "source_cell_text": "1529",
+        "extracted_value": 5134,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "ŠKODA",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "ŠKODA",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=12486, source=800.0, diff=11686.00"
+        ],
+        "source_cell_value": 800.0,
+        "source_cell_text": "800",
+        "extracted_value": 12486,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "ŠKODA",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "ŠKODA",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=6128, source=800.0, diff=5328.00"
+        ],
+        "source_cell_value": 800.0,
+        "source_cell_text": "800",
+        "extracted_value": 6128,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "ŠKODA",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "ŠKODA",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=915, source=800.0, diff=115.00"
+        ],
+        "source_cell_value": 800.0,
+        "source_cell_text": "800",
+        "extracted_value": 915,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "SEAT",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "SEAT",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=8572, source=544.0, diff=8028.00"
+        ],
+        "source_cell_value": 544.0,
+        "source_cell_text": "544",
+        "extracted_value": 8572,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "SEAT",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "SEAT",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=3570, source=544.0, diff=3026.00"
+        ],
+        "source_cell_value": 544.0,
+        "source_cell_text": "544",
+        "extracted_value": 3570,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "SEAT",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "SEAT",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-10, source=544.0, diff=554.00"
+        ],
+        "source_cell_value": 544.0,
+        "source_cell_text": "544",
+        "extracted_value": -10,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Bentley",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Bentley",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=1936, source=11.0, diff=1925.00"
+        ],
+        "source_cell_value": 11.0,
+        "source_cell_text": "11",
+        "extracted_value": 1936,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Bentley",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Bentley",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=1379, source=11.0, diff=1368.00"
+        ],
+        "source_cell_value": 11.0,
+        "source_cell_text": "11",
+        "extracted_value": 1379,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Bentley",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Bentley",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=110, source=11.0, diff=99.00"
+        ],
+        "source_cell_value": 11.0,
+        "source_cell_text": "11",
+        "extracted_value": 110,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Porsche ^2",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Porsche ^2",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2153, source=219.0, diff=1934.00"
+        ],
+        "source_cell_value": 219.0,
+        "source_cell_text": "219",
+        "extracted_value": 2153,
+        "row_idx": 5,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Porsche ^2",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Porsche ^2",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=19663, source=219.0, diff=19444.00"
+        ],
+        "source_cell_value": 219.0,
+        "source_cell_text": "219",
+        "extracted_value": 19663,
+        "row_idx": 5,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Porsche ^2",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Porsche ^2",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=3404, source=219.0, diff=3185.00"
+        ],
+        "source_cell_value": 219.0,
+        "source_cell_text": "219",
+        "extracted_value": 3404,
+        "row_idx": 5,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Commercial Vehicles",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Commercial Vehicles",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=10341, source=456.0, diff=9885.00"
+        ],
+        "source_cell_value": 456.0,
+        "source_cell_text": "456",
+        "extracted_value": 10341,
+        "row_idx": 6,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Volkswagen Commercial Vehicles",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Commercial Vehicles",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=4813, source=456.0, diff=4357.00"
+        ],
+        "source_cell_value": 456.0,
+        "source_cell_text": "456",
+        "extracted_value": 4813,
+        "row_idx": 6,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Commercial Vehicles",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Commercial Vehicles",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=382, source=456.0, diff=74.00"
+        ],
+        "source_cell_value": 456.0,
+        "source_cell_text": "456",
+        "extracted_value": 382,
+        "row_idx": 6,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Scania ^2",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Scania ^2",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=10479, source=78.0, diff=10401.00"
+        ],
+        "source_cell_value": 78.0,
+        "source_cell_text": "78",
+        "extracted_value": 10479,
+        "row_idx": 7,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Scania ^2",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Scania ^2",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=10479, source=78.0, diff=10401.00"
+        ],
+        "source_cell_value": 78.0,
+        "source_cell_text": "78",
+        "extracted_value": 10479,
+        "row_idx": 7,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Scania ^2",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Scania ^2",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=1027, source=78.0, diff=949.00"
+        ],
+        "source_cell_value": 78.0,
+        "source_cell_text": "78",
+        "extracted_value": 1027,
+        "row_idx": 7,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "MAN Commercial Vehicles",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "MAN Commercial Vehicles",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=9958, source=102.0, diff=9856.00"
+        ],
+        "source_cell_value": 102.0,
+        "source_cell_text": "102",
+        "extracted_value": 9958,
+        "row_idx": 8,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "MAN Commercial Vehicles",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "MAN Commercial Vehicles",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=9700, source=102.0, diff=9598.00"
+        ],
+        "source_cell_value": 102.0,
+        "source_cell_text": "102",
+        "extracted_value": 9700,
+        "row_idx": 8,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "MAN Commercial Vehicles",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "MAN Commercial Vehicles",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-4, source=102.0, diff=106.00"
+        ],
+        "source_cell_value": 102.0,
+        "source_cell_text": "102",
+        "extracted_value": -4,
+        "row_idx": 8,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "MAN Power Engineering",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "MAN Power Engineering",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 3775 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 3775,
+        "row_idx": 9,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "MAN Power Engineering",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "MAN Power Engineering",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 3769 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 3769,
+        "row_idx": 9,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "MAN Power Engineering",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "MAN Power Engineering",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 283 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 283,
+        "row_idx": 9,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "VW China ^3",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "VW China ^3",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted null but source has value 3456.0 (cell: '3456')"
+        ],
+        "source_cell_value": 3456.0,
+        "source_cell_text": "3456",
+        "extracted_value": null,
+        "row_idx": 10,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "VW China ^3",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "VW China ^3",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted null but source has value 3456.0 (cell: '3456')"
+        ],
+        "source_cell_value": 3456.0,
+        "source_cell_text": "3456",
+        "extracted_value": null,
+        "row_idx": 10,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "VW China ^3",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "VW China ^3",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted null but source has value 3456.0 (cell: '3456')"
+        ],
+        "source_cell_value": 3456.0,
+        "source_cell_text": "3456",
+        "extracted_value": null,
+        "row_idx": 10,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Other",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-56349, source=-1608.0, diff=54741.00"
+        ],
+        "source_cell_value": -1608.0,
+        "source_cell_text": "-1608",
+        "extracted_value": -56349,
+        "row_idx": 11,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Other",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2192, source=-1608.0, diff=3800.00"
+        ],
+        "source_cell_value": -1608.0,
+        "source_cell_text": "-1608",
+        "extracted_value": 2192,
+        "row_idx": 11,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2016,
+        "row_name": "Other",
+        "col_name": "OPERATING RESULT 2016"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted -14864 but source cell is null/empty (cell: '−1,4864')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "−1,4864",
+        "extracted_value": -14864,
+        "row_idx": 11,
+        "col_idx": 7
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Other",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-24404, source=-1608.0, diff=22796.00"
+        ],
+        "source_cell_value": -1608.0,
+        "source_cell_text": "-1608",
+        "extracted_value": -24404,
+        "row_idx": 11,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Financial Services",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Financial Services",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 2590 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 2590,
+        "row_idx": 12,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Volkswagen Financial Services",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Financial Services",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 2332 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 2332,
+        "row_idx": 12,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Financial Services",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Financial Services",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 1921 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 1921,
+        "row_idx": 12,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Group before special items",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Group before special items",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 12824 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 12824,
+        "row_idx": 13,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Special items",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Special items",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted -16893 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": -16893,
+        "row_idx": 14,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Group",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Group",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=213292, source=10010.0, diff=203282.00"
+        ],
+        "source_cell_value": 10010.0,
+        "source_cell_text": "10010",
+        "extracted_value": 213292,
+        "row_idx": 15,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Volkswagen Group",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Group",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=213292, source=10010.0, diff=203282.00"
+        ],
+        "source_cell_value": 10010.0,
+        "source_cell_text": "10010",
+        "extracted_value": 213292,
+        "row_idx": 15,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Volkswagen Group",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Group",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-4069, source=10010.0, diff=14079.00"
+        ],
+        "source_cell_value": 10010.0,
+        "source_cell_text": "10010",
+        "extracted_value": -4069,
+        "row_idx": 15,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Automotive Division ^5",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Automotive Division ^5",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=183936, source=10010.0, diff=173926.00"
+        ],
+        "source_cell_value": 10010.0,
+        "source_cell_text": "10010",
+        "extracted_value": 183936,
+        "row_idx": 16,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Automotive Division ^5",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Automotive Division ^5",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=186869, source=10010.0, diff=176859.00"
+        ],
+        "source_cell_value": 10010.0,
+        "source_cell_text": "10010",
+        "extracted_value": 186869,
+        "row_idx": 16,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Automotive Division ^5",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Automotive Division ^5",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-6305, source=10010.0, diff=16315.00"
+        ],
+        "source_cell_value": 10010.0,
+        "source_cell_text": "10010",
+        "extracted_value": -6305,
+        "row_idx": 16,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "of which: Passenger Cars Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "of which: Passenger Cars Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=149716, source=9374.0, diff=140342.00"
+        ],
+        "source_cell_value": 9374.0,
+        "source_cell_text": "9374",
+        "extracted_value": 149716,
+        "row_idx": 17,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "of which: Passenger Cars Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "of which: Passenger Cars Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=158716, source=9374.0, diff=149342.00"
+        ],
+        "source_cell_value": 9374.0,
+        "source_cell_text": "9374",
+        "extracted_value": 158716,
+        "row_idx": 17,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "of which: Passenger Cars Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "of which: Passenger Cars Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-7013, source=9374.0, diff=16387.00"
+        ],
+        "source_cell_value": 9374.0,
+        "source_cell_text": "9374",
+        "extracted_value": -7013,
+        "row_idx": 17,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Commercial Vehicles Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Commercial Vehicles Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=30445, source=636.0, diff=29809.00"
+        ],
+        "source_cell_value": 636.0,
+        "source_cell_text": "636",
+        "extracted_value": 30445,
+        "row_idx": 18,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Commercial Vehicles Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Commercial Vehicles Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=2438, source=636.0, diff=1802.00"
+        ],
+        "source_cell_value": 636.0,
+        "source_cell_text": "636",
+        "extracted_value": 2438,
+        "row_idx": 18,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Commercial Vehicles Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Commercial Vehicles Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=586, source=636.0, diff=50.00"
+        ],
+        "source_cell_value": 636.0,
+        "source_cell_text": "636",
+        "extracted_value": 586,
+        "row_idx": 18,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Power Engineering Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Power Engineering Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 3775 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 3775,
+        "row_idx": 19,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Power Engineering Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Power Engineering Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 3769 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 3769,
+        "row_idx": 19,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Power Engineering Business Area",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Power Engineering Business Area",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 123 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 123,
+        "row_idx": 19,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Financial Services Division",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Financial Services Division",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 2935 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 2935,
+        "row_idx": 20,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "SALES TO THIRD PARTIES",
+        "key": "Financial Services Division",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Financial Services Division",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 2642 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 2642,
+        "row_idx": 20,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Financial Services Division",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Financial Services Division",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted 2236 but source cell is null/empty (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 2236,
+        "row_idx": 20,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "2015.0",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Europe/Other markets",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=132535.0, source=4524.0, diff=128011.00"
+        ],
+        "source_cell_value": 4524.0,
+        "source_cell_text": "4524.0",
+        "extracted_value": 132535.0,
+        "row_idx": 0,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "2015.0",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "North America",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=35384.0, source=941.0, diff=34443.00"
+        ],
+        "source_cell_value": 941.0,
+        "source_cell_text": "941.0",
+        "extracted_value": 35384.0,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "2015.0",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "South America",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=10148.0, source=540.0, diff=9608.00"
+        ],
+        "source_cell_value": 540.0,
+        "source_cell_text": "540.0",
+        "extracted_value": 10148.0,
+        "row_idx": 2,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "2015.0",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Asia-Pacific ^2",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=35225.0, source=4005.0, diff=31220.00"
+        ],
+        "source_cell_value": 4005.0,
+        "source_cell_text": "4005.0",
+        "extracted_value": 35225.0,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_Taf759f",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "2015.0",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Volkswagen Group ^2",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=213292.0, source=10010.0, diff=203282.00"
+        ],
+        "source_cell_value": 10010.0,
+        "source_cell_text": "10010.0",
+        "extracted_value": 213292.0,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T09e057",
+      "kpi": {
+        "name": "",
+        "key": "2016",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 6073310,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T09e057",
+      "kpi": {
+        "name": "",
+        "key": "2015",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 5897783,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1899588.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1827795.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 3579.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 3707.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T321e09",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1152037,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T321e09",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 1037051,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Tb40d92",
+      "kpi": {
+        "name": "Production",
+        "key": "Alhambra",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "Alhambra",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted null but source has value 2792.0 (cell: '2792 ^5')"
+        ],
+        "source_cell_value": 2792.0,
+        "source_cell_text": "2792 ^5",
+        "extracted_value": null,
+        "row_idx": 3,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_Tb40d92",
+      "kpi": {
+        "name": "Production",
+        "key": "Mii",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "Mii",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted null but source has value 2451.0 (cell: '2451 ^6')"
+        ],
+        "source_cell_value": 2451.0,
+        "source_cell_text": "2451 ^6",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_Tb40d92",
+      "kpi": {
+        "name": "Production",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 417012.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Tb40d92",
+      "kpi": {
+        "name": "Production",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 415076,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T370dd7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "N/A",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 11817.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T370dd7",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "N/A",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 10888.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T704982",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 239618,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T704982",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 234497.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Tb49406",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 422047.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Tb49406",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 410219,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Tacc6db",
+      "kpi": {
+        "name": "",
+        "key": "Total",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 186067,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Tacc6db",
+      "kpi": {
+        "name": "",
+        "key": "Total",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 180171,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Te8d0cf",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "N/A",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 183581,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Te8d0cf",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "N/A",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 179035,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Ta8e5fa",
+      "kpi": {
+        "name": "Production",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 83940.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_Ta8e5fa",
+      "kpi": {
+        "name": "Production",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 79346.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T0c2e70",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2016,
+        "row_name": "",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 102127.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T0c2e70",
+      "kpi": {
+        "name": "Units",
+        "key": "",
+        "units": "Units",
+        "year": 2015,
+        "row_name": "",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "Missing row_name in KPI"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": null,
+        "extracted_value": 100825.0,
+        "row_idx": null,
+        "col_idx": null
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2016,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=3593.0, source=10005.0, diff=6412.00"
+        ],
+        "source_cell_value": 10005.0,
+        "source_cell_text": "10005.0",
+        "extracted_value": 3593.0,
+        "row_idx": 5,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=3775.0, source=9958.0, diff=6183.00"
+        ],
+        "source_cell_value": 9958.0,
+        "source_cell_text": "9958.0",
+        "extracted_value": 3775.0,
+        "row_idx": 5,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "%",
+        "year": null,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=-4.8, source=0.5, diff=5.30"
+        ],
+        "source_cell_value": 0.5,
+        "source_cell_text": "0.5",
+        "extracted_value": -4.8,
+        "row_idx": 5,
+        "col_idx": 3
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "Operating result before special items",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2016,
+        "row_name": "Operating result before special items",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=194.0, source=230.0, diff=36.00"
+        ],
+        "source_cell_value": 230.0,
+        "source_cell_text": "230.0",
+        "extracted_value": 194.0,
+        "row_idx": 6,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "Operating result before special items",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2015,
+        "row_name": "Operating result before special items",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=283.0, source=-4.0, diff=287.00"
+        ],
+        "source_cell_value": -4.0,
+        "source_cell_text": "-4.0",
+        "extracted_value": 283.0,
+        "row_idx": 6,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "Operating result before special items",
+        "key": "€ million",
+        "units": "%",
+        "year": null,
+        "row_name": "Operating result before special items",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Extracted -31.4 but source cell is null/empty (cell: 'x')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "x",
+        "extracted_value": -31.4,
+        "row_idx": 6,
+        "col_idx": 3
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "as % of sales revenue",
+        "key": "%",
+        "units": "%",
+        "year": 2016,
+        "row_name": "as % of sales revenue",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=5.4, source=2.3, diff=3.10"
+        ],
+        "source_cell_value": 2.3,
+        "source_cell_text": "2.3",
+        "extracted_value": 5.4,
+        "row_idx": 7,
+        "col_idx": 1
+      }
+    },
+    {
+      "table_id": "VW2016_T8054e8",
+      "kpi": {
+        "name": "as % of sales revenue",
+        "key": "%",
+        "units": "%",
+        "year": 2015,
+        "row_name": "as % of sales revenue",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=7.5, source=0.0, diff=7.50"
+        ],
+        "source_cell_value": 0.0,
+        "source_cell_text": "0.0",
+        "extracted_value": 7.5,
+        "row_idx": 7,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T43218a",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "",
+        "units": "N/A",
+        "year": 2016,
+        "row_name": "Customer financing",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=67545.0, source=6155.0, diff=61390.00"
+        ],
+        "source_cell_value": 6155.0,
+        "source_cell_text": "6155.0",
+        "extracted_value": 67545.0,
+        "row_idx": 1,
+        "col_idx": 2
+      }
+    },
+    {
+      "table_id": "VW2016_T43218a",
+      "kpi": {
+        "name": "Customer financing",
+        "key": "",
+        "units": "N/A",
+        "year": 2015,
+        "row_name": "Customer financing",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "Large difference: extracted=64020.0, source=5833.0, diff=58187.00"
+        ],
+        "source_cell_value": 5833.0,
+        "source_cell_text": "5833.0",
+        "extracted_value": 64020.0,
+        "row_idx": 1,
+        "col_idx": 3
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 628,
+    "valid_kpis": 527,
+    "invalid_kpis": 101,
+    "tables_processed": 26,
+    "tables_with_errors": 101,
+    "avg_confidence": 0.8654458598726115,
+    "error_types": {
+      "Large difference": 56,
+      "Extracted 3775 but source cell is null/empty (cell": 2,
+      "Extracted 3769 but source cell is null/empty (cell": 2,
+      "Extracted 283 but source cell is null/empty (cell": 1,
+      "Extracted null but source has value 3456.0 (cell": 3,
+      "Extracted -14864 but source cell is null/empty (cell": 1,
+      "Extracted 2590 but source cell is null/empty (cell": 1,
+      "Extracted 2332 but source cell is null/empty (cell": 1,
+      "Extracted 1921 but source cell is null/empty (cell": 1,
+      "Extracted 12824 but source cell is null/empty (cell": 1,
+      "Extracted -16893 but source cell is null/empty (cell": 1,
+      "Extracted 123 but source cell is null/empty (cell": 1,
+      "Extracted 2935 but source cell is null/empty (cell": 1,
+      "Extracted 2642 but source cell is null/empty (cell": 1,
+      "Extracted 2236 but source cell is null/empty (cell": 1,
+      "Missing row_name in KPI": 24,
+      "Extracted null but source has value 2792.0 (cell": 1,
+      "Extracted null but source has value 2451.0 (cell": 1,
+      "Extracted -31.4 but source cell is null/empty (cell": 1
+    },
+    "accuracy_rate": 83.9171974522293
+  }
+}

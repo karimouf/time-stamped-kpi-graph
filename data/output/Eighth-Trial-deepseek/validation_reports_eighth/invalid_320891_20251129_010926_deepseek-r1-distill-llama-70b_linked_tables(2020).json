@@ -1,0 +1,136 @@
+{
+  "source_file": "320891_20251129_010926_deepseek-r1-distill-llama-70b_linked_tables(2020).json",
+  "year": "2020",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 4,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2020_T531fa0",
+      "kpi": {
+        "name": "Production",
+        "key": "Sharan/Viloran",
+        "units": "Units",
+        "year": 2019,
+        "row_idx": 21,
+        "col_idx": 2,
+        "row_name": "Sharan/Viloran",
+        "col_name": "2019"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Sharan/Viloran'",
+          "✓ col_name verified: '2019'",
+          "Extracted null but source=2568.0 (cell: '2568 ^1')"
+        ],
+        "source_cell_value": 2568.0,
+        "source_cell_text": "2568 ^1",
+        "extracted_value": null,
+        "row_idx": 21,
+        "col_idx": 2,
+        "row_name_match": "Sharan/Viloran",
+        "col_name_match": "2019"
+      }
+    },
+    {
+      "table_id": "VW2020_T05cf9a",
+      "kpi": {
+        "name": "Lamborghini",
+        "key": "Lamborghini",
+        "units": "Units",
+        "year": 2020,
+        "row_idx": 17,
+        "col_idx": 1,
+        "row_name": "Lamborghini",
+        "col_name": "2020.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Lamborghini'",
+          "✓ col_name verified: '2020.0'",
+          "Source null but extracted= (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": "",
+        "row_idx": 17,
+        "col_idx": 1,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T05cf9a",
+      "kpi": {
+        "name": "Lamborghini",
+        "key": "Lamborghini",
+        "units": "Units",
+        "year": 2019,
+        "row_idx": 17,
+        "col_idx": 2,
+        "row_name": "Lamborghini",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Lamborghini'",
+          "✓ col_name verified: '2019.0'",
+          "Source null but extracted= (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": "",
+        "row_idx": 17,
+        "col_idx": 2,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T01cd55",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "Buses",
+        "units": "Units",
+        "year": 2019,
+        "row_idx": 1,
+        "col_idx": 2,
+        "row_name": "Buses",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "✓ row_name verified: 'Buses'",
+          "✓ col_name verified: '2019.0'",
+          "Large diff: extracted=21496.0, source=2149.0, diff=19347.00"
+        ],
+        "source_cell_value": 2149.0,
+        "source_cell_text": "2149 ^6.0",
+        "extracted_value": 21496.0,
+        "row_idx": 1,
+        "col_idx": 2,
+        "row_name_match": "Buses",
+        "col_name_match": "2019.0"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 599,
+    "valid_kpis": 595,
+    "invalid_kpis": 4,
+    "tables_processed": 26,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 581,
+    "col_name_verified": 599,
+    "name_mismatches": 0,
+    "accuracy": 99.33222036727881
+  }
+}

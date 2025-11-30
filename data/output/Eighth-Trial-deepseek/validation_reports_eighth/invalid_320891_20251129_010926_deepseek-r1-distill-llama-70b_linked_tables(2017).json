@@ -1,0 +1,136 @@
+{
+  "source_file": "320891_20251129_010926_deepseek-r1-distill-llama-70b_linked_tables(2017).json",
+  "year": "2017",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 4,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2017_T79d8d7",
+      "kpi": {
+        "name": "Audi brand",
+        "key": "Audi brand",
+        "units": "Units",
+        "year": 2017,
+        "row_idx": 18,
+        "col_idx": 1,
+        "row_name": "Audi brand",
+        "col_name": "2017.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Audi brand', stub_col[18]='Aventador Coupé'",
+          "✓ col_name verified: '2017.0'",
+          "Large diff: extracted=1879409.0, source=1008.0, diff=1878401.00"
+        ],
+        "source_cell_value": 1008.0,
+        "source_cell_text": "1008.0",
+        "extracted_value": 1879409.0,
+        "row_idx": 18,
+        "col_idx": 1,
+        "row_name_match": "Aventador Coupé",
+        "col_name_match": "2017.0"
+      }
+    },
+    {
+      "table_id": "VW2017_T79d8d7",
+      "kpi": {
+        "name": "Audi brand",
+        "key": "Audi brand",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 18,
+        "col_idx": 2,
+        "row_name": "Audi brand",
+        "col_name": "2016"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Audi brand', stub_col[18]='Aventador Coupé'",
+          "✓ col_name verified: '2016'",
+          "Large diff: extracted=1903167.0, source=587.0, diff=1902580.00"
+        ],
+        "source_cell_value": 587.0,
+        "source_cell_text": "587",
+        "extracted_value": 1903167.0,
+        "row_idx": 18,
+        "col_idx": 2,
+        "row_name_match": "Aventador Coupé",
+        "col_name_match": "2016"
+      }
+    },
+    {
+      "table_id": "VW2017_T79d8d7",
+      "kpi": {
+        "name": "Ducati, motorcycles",
+        "key": "Ducati, motorcycles",
+        "units": "Units",
+        "year": 2017,
+        "row_idx": 20,
+        "col_idx": 1,
+        "row_name": "Ducati, motorcycles",
+        "col_name": "2017.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Ducati, motorcycles', stub_col[20]='Aventador Roadster'",
+          "✓ col_name verified: '2017.0'",
+          "Large diff: extracted=56743.0, source=278.0, diff=56465.00"
+        ],
+        "source_cell_value": 278.0,
+        "source_cell_text": "278.0",
+        "extracted_value": 56743.0,
+        "row_idx": 20,
+        "col_idx": 1,
+        "row_name_match": "Aventador Roadster",
+        "col_name_match": "2017.0"
+      }
+    },
+    {
+      "table_id": "VW2017_T79d8d7",
+      "kpi": {
+        "name": "Ducati, motorcycles",
+        "key": "Ducati, motorcycles",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 20,
+        "col_idx": 2,
+        "row_name": "Ducati, motorcycles",
+        "col_name": "2016"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Ducati, motorcycles', stub_col[20]='Aventador Roadster'",
+          "✓ col_name verified: '2016'",
+          "Large diff: extracted=56978.0, source=573.0, diff=56405.00"
+        ],
+        "source_cell_value": 573.0,
+        "source_cell_text": "573",
+        "extracted_value": 56978.0,
+        "row_idx": 20,
+        "col_idx": 2,
+        "row_name_match": "Aventador Roadster",
+        "col_name_match": "2016"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 449,
+    "valid_kpis": 445,
+    "invalid_kpis": 4,
+    "tables_processed": 25,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 423,
+    "col_name_verified": 449,
+    "name_mismatches": 0,
+    "accuracy": 99.10913140311804
+  }
+}

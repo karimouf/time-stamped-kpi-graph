@@ -1,0 +1,90 @@
+{
+  "validation_run": {
+    "extraction_folder": "D:\\Users\\DELL\\Masters Thesis\\time-stamped-kpi-graph\\data\\output\\Sixth-Trial-deepseek",
+    "tables_folder": "D:\\Users\\DELL\\Masters Thesis\\time-stamped-kpi-graph\\data\\tables",
+    "output_folder": "D:\\Users\\DELL\\Masters Thesis\\time-stamped-kpi-graph\\data\\output\\Sixth-Trial-deepseek\\validation_reports"
+  },
+  "statistics": {
+    "files_processed": 11,
+    "files_failed": 1,
+    "total_kpis": 5792,
+    "total_valid": 5188,
+    "total_invalid": 604,
+    "total_tables": 249,
+    "by_year": {
+      "2015": {
+        "files": 2,
+        "kpis": 1007,
+        "valid": 883,
+        "invalid": 124,
+        "tables": 47,
+        "accuracy": 87.68619662363456
+      },
+      "2016": {
+        "files": 2,
+        "kpis": 1086,
+        "valid": 946,
+        "invalid": 140,
+        "tables": 51,
+        "accuracy": 87.10865561694291
+      },
+      "2017": {
+        "files": 1,
+        "kpis": 587,
+        "valid": 509,
+        "invalid": 78,
+        "tables": 26,
+        "accuracy": 86.71209540034071
+      },
+      "2018": {
+        "files": 1,
+        "kpis": 597,
+        "valid": 541,
+        "invalid": 56,
+        "tables": 26,
+        "accuracy": 90.61976549413735
+      },
+      "2019": {
+        "files": 1,
+        "kpis": 578,
+        "valid": 511,
+        "invalid": 67,
+        "tables": 25,
+        "accuracy": 88.4083044982699
+      },
+      "2020": {
+        "files": 1,
+        "kpis": 583,
+        "valid": 517,
+        "invalid": 66,
+        "tables": 26,
+        "accuracy": 88.67924528301887
+      },
+      "2022": {
+        "files": 1,
+        "kpis": 587,
+        "valid": 552,
+        "invalid": 35,
+        "tables": 21,
+        "accuracy": 94.03747870528109
+      },
+      "2023": {
+        "files": 1,
+        "kpis": 599,
+        "valid": 561,
+        "invalid": 38,
+        "tables": 23,
+        "accuracy": 93.65609348914859
+      },
+      "2024": {
+        "files": 1,
+        "kpis": 168,
+        "valid": 168,
+        "invalid": 0,
+        "tables": 4,
+        "accuracy": 100.0
+      }
+    },
+    "overall_accuracy": 89.57182320441989
+  }
+}

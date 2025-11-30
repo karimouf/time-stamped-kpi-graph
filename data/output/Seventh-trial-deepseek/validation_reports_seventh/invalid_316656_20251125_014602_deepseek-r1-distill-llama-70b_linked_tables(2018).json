@@ -1,0 +1,230 @@
+{
+  "source_file": "316656_20251125_014602_deepseek-r1-distill-llama-70b_linked_tables(2018).json",
+  "year": "2018",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 7,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "MAN Power Engineering",
+        "units": "Thousand vehicles",
+        "year": 2017,
+        "row_idx": 9,
+        "col_idx": 2,
+        "row_name": "MAN Power Engineering",
+        "col_name": "2017"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'MAN Power Engineering'",
+          "✓ col_name verified: '2017'",
+          "⚠ Using col_idx+1: col_idx=2 had '–', col_idx+1=3 has '3608'",
+          "Extracted null but source=3608.0 (cell: '–')"
+        ],
+        "source_cell_value": 3608.0,
+        "source_cell_text": "3608",
+        "extracted_value": null,
+        "row_idx": 9,
+        "col_idx": 3,
+        "row_name_match": "MAN Power Engineering",
+        "col_name_match": "2017"
+      }
+    },
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Volkswagen Financial Services",
+        "units": "Thousand vehicles",
+        "year": 2017,
+        "row_idx": 12,
+        "col_idx": 2,
+        "row_name": "Volkswagen Financial Services",
+        "col_name": "2017"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Financial Services'",
+          "✓ col_name verified: '2017'",
+          "⚠ Using col_idx+1: col_idx=2 had '–', col_idx+1=3 has '32764'",
+          "Extracted null but source=32764.0 (cell: '–')"
+        ],
+        "source_cell_value": 32764.0,
+        "source_cell_text": "32764",
+        "extracted_value": null,
+        "row_idx": 12,
+        "col_idx": 3,
+        "row_name_match": "Volkswagen Financial Services",
+        "col_name_match": "2017"
+      }
+    },
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Group before special items",
+        "units": "€ million",
+        "year": 2017,
+        "row_idx": 13,
+        "col_idx": 4,
+        "row_name": "Volkswagen Group before special items",
+        "col_name": "2017 ^1"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group before special items'",
+          "✓ col_name verified: '2017 ^1'",
+          "⚠ Using col_idx+1: col_idx=4 had '–', col_idx+1=5 has '17104'",
+          "Extracted null but source=17104.0 (cell: '–')"
+        ],
+        "source_cell_value": 17104.0,
+        "source_cell_text": "17104",
+        "extracted_value": null,
+        "row_idx": 13,
+        "col_idx": 5,
+        "row_name_match": "Volkswagen Group before special items",
+        "col_name_match": "2017 ^1"
+      }
+    },
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Special items",
+        "units": "€ million",
+        "year": 2017,
+        "row_idx": 14,
+        "col_idx": 4,
+        "row_name": "Special items",
+        "col_name": "2017 ^1"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Special items'",
+          "✓ col_name verified: '2017 ^1'",
+          "⚠ Using col_idx+1: col_idx=4 had '–', col_idx+1=5 has '-3184'",
+          "Extracted null but source=-3184.0 (cell: '–')"
+        ],
+        "source_cell_value": -3184.0,
+        "source_cell_text": "-3184",
+        "extracted_value": null,
+        "row_idx": 14,
+        "col_idx": 5,
+        "row_name_match": "Special items",
+        "col_name_match": "2017 ^1"
+      }
+    },
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Power Engineering Business Area",
+        "units": "Thousand vehicles",
+        "year": 2017,
+        "row_idx": 19,
+        "col_idx": 2,
+        "row_name": "Power Engineering Business Area",
+        "col_name": "2017"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Power Engineering Business Area'",
+          "✓ col_name verified: '2017'",
+          "⚠ Using col_idx+1: col_idx=2 had '–', col_idx+1=3 has '3608'",
+          "Extracted null but source=3608.0 (cell: '–')"
+        ],
+        "source_cell_value": 3608.0,
+        "source_cell_text": "3608",
+        "extracted_value": null,
+        "row_idx": 19,
+        "col_idx": 3,
+        "row_name_match": "Power Engineering Business Area",
+        "col_name_match": "2017"
+      }
+    },
+    {
+      "table_id": "VW2018_T19a389",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Financial Services Division",
+        "units": "Thousand vehicles",
+        "year": 2017,
+        "row_idx": 20,
+        "col_idx": 2,
+        "row_name": "Financial Services Division",
+        "col_name": "2017"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Financial Services Division'",
+          "✓ col_name verified: '2017'",
+          "⚠ Using col_idx+1: col_idx=2 had '–', col_idx+1=3 has '34782'",
+          "Extracted null but source=34782.0 (cell: '–')"
+        ],
+        "source_cell_value": 34782.0,
+        "source_cell_text": "34782",
+        "extracted_value": null,
+        "row_idx": 20,
+        "col_idx": 3,
+        "row_name_match": "Financial Services Division",
+        "col_name_match": "2017"
+      }
+    },
+    {
+      "table_id": "VW2018_T09e057",
+      "kpi": {
+        "name": "Units",
+        "key": "Scirocco",
+        "units": "Units",
+        "year": 2018,
+        "row_idx": 23,
+        "col_idx": 1,
+        "row_name": "Scirocco",
+        "col_name": "2018"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Scirocco'",
+          "✓ col_name verified: '2018'",
+          "⚠ Using col_idx+1: col_idx=1 had '–', col_idx+1=2 has '8199'",
+          "Extracted null but source=8199.0 (cell: '–')"
+        ],
+        "source_cell_value": 8199.0,
+        "source_cell_text": "8199",
+        "extracted_value": null,
+        "row_idx": 23,
+        "col_idx": 2,
+        "row_name_match": "Scirocco",
+        "col_name_match": "2018"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 600,
+    "valid_kpis": 593,
+    "invalid_kpis": 7,
+    "tables_processed": 26,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 580,
+    "col_name_verified": 600,
+    "name_mismatches": 0,
+    "accuracy": 98.83333333333333
+  }
+}

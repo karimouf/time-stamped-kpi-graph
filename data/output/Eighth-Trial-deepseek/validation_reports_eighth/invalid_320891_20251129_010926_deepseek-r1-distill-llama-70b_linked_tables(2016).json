@@ -1,0 +1,426 @@
+{
+  "source_file": "320891_20251129_010926_deepseek-r1-distill-llama-70b_linked_tables(2016).json",
+  "year": "2016",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 14,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2016,
+        "row_idx": 11,
+        "col_idx": 7,
+        "row_name": "Other",
+        "col_name": "OPERATING RESULT 2016"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "✓ row_name verified: 'Other'",
+          "✓ col_name verified: 'OPERATING RESULT 2016'",
+          "Large diff: extracted=-14864, source=-1.4864, diff=14862.51"
+        ],
+        "source_cell_value": -1.4864,
+        "source_cell_text": "−1,4864",
+        "extracted_value": -14864,
+        "row_idx": 11,
+        "col_idx": 7,
+        "row_name_match": "Other",
+        "col_name_match": "OPERATING RESULT 2016"
+      }
+    },
+    {
+      "table_id": "VW2016_T19a389",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2015,
+        "row_idx": 11,
+        "col_idx": 8,
+        "row_name": "Other",
+        "col_name": "2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "✓ row_name verified: 'Other'",
+          "✓ col_name verified: '2015'",
+          "Large diff: extracted=-24404, source=-2.4404, diff=24401.56"
+        ],
+        "source_cell_value": -2.4404,
+        "source_cell_text": "−2,4404",
+        "extracted_value": -24404,
+        "row_idx": 11,
+        "col_idx": 8,
+        "row_name_match": "Other",
+        "col_name_match": "2015"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Huracán Coupé",
+        "key": "Huracán Coupé",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 15,
+        "col_idx": 1,
+        "row_name": "Huracán Coupé",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Huracán Coupé', stub_col[15]='Lamborghini'",
+          "✓ col_name verified: '2016.0'",
+          "Source null but extracted=1315.0 (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": 1315.0,
+        "row_idx": 15,
+        "col_idx": 1,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Huracán Coupé",
+        "key": "Huracán Coupé",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 15,
+        "col_idx": 2,
+        "row_name": "Huracán Coupé",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Huracán Coupé', stub_col[15]='Lamborghini'",
+          "✓ col_name verified: '2015.0'",
+          "Source null but extracted=2559.0 (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": 2559.0,
+        "row_idx": 15,
+        "col_idx": 2,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Huracán Spyder",
+        "key": "Huracán Spyder",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 16,
+        "col_idx": 1,
+        "row_name": "Huracán Spyder",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Huracán Spyder', stub_col[16]='Huracán Coupé'",
+          "✓ col_name verified: '2016.0'",
+          "Large diff: extracted=1104.0, source=1315.0, diff=211.00"
+        ],
+        "source_cell_value": 1315.0,
+        "source_cell_text": "1315.0",
+        "extracted_value": 1104.0,
+        "row_idx": 16,
+        "col_idx": 1,
+        "row_name_match": "Huracán Coupé",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Huracán Spyder",
+        "key": "Huracán Spyder",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 16,
+        "col_idx": 2,
+        "row_name": "Huracán Spyder",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Huracán Spyder', stub_col[16]='Huracán Coupé'",
+          "✓ col_name verified: '2015.0'",
+          "Large diff: extracted=69.0, source=2559.0, diff=2490.00"
+        ],
+        "source_cell_value": 2559.0,
+        "source_cell_text": "2559.0",
+        "extracted_value": 69.0,
+        "row_idx": 16,
+        "col_idx": 2,
+        "row_name_match": "Huracán Coupé",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Aventador Coupé",
+        "key": "Aventador Coupé",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 17,
+        "col_idx": 1,
+        "row_name": "Aventador Coupé",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Aventador Coupé', stub_col[17]='Huracán Spyder'",
+          "✓ col_name verified: '2016.0'",
+          "Large diff: extracted=587.0, source=1104.0, diff=517.00"
+        ],
+        "source_cell_value": 1104.0,
+        "source_cell_text": "1104.0",
+        "extracted_value": 587.0,
+        "row_idx": 17,
+        "col_idx": 1,
+        "row_name_match": "Huracán Spyder",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Aventador Coupé",
+        "key": "Aventador Coupé",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 17,
+        "col_idx": 2,
+        "row_name": "Aventador Coupé",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Aventador Coupé', stub_col[17]='Huracán Spyder'",
+          "✓ col_name verified: '2015.0'",
+          "Large diff: extracted=666.0, source=69.0, diff=597.00"
+        ],
+        "source_cell_value": 69.0,
+        "source_cell_text": "69.0",
+        "extracted_value": 666.0,
+        "row_idx": 17,
+        "col_idx": 2,
+        "row_name_match": "Huracán Spyder",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Aventador Roadster",
+        "key": "Aventador Roadster",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 18,
+        "col_idx": 1,
+        "row_name": "Aventador Roadster",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Aventador Roadster', stub_col[18]='Aventador Coupé'",
+          "✓ col_name verified: '2016.0'",
+          "Moderate diff: extracted=573.0, source=587.0, diff=14.00"
+        ],
+        "source_cell_value": 587.0,
+        "source_cell_text": "587.0",
+        "extracted_value": 573.0,
+        "row_idx": 18,
+        "col_idx": 1,
+        "row_name_match": "Aventador Coupé",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Aventador Roadster",
+        "key": "Aventador Roadster",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 18,
+        "col_idx": 2,
+        "row_name": "Aventador Roadster",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Aventador Roadster', stub_col[18]='Aventador Coupé'",
+          "✓ col_name verified: '2015.0'",
+          "Large diff: extracted=413.0, source=666.0, diff=253.00"
+        ],
+        "source_cell_value": 666.0,
+        "source_cell_text": "666.0",
+        "extracted_value": 413.0,
+        "row_idx": 18,
+        "col_idx": 2,
+        "row_name_match": "Aventador Coupé",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Audi brand",
+        "key": "Audi brand",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 19,
+        "col_idx": 1,
+        "row_name": "Audi brand",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Audi brand', stub_col[19]='Aventador Roadster'",
+          "✓ col_name verified: '2016.0'",
+          "Large diff: extracted=1903167.0, source=573.0, diff=1902594.00"
+        ],
+        "source_cell_value": 573.0,
+        "source_cell_text": "573.0",
+        "extracted_value": 1903167.0,
+        "row_idx": 19,
+        "col_idx": 1,
+        "row_name_match": "Aventador Roadster",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Audi brand",
+        "key": "Audi brand",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 19,
+        "col_idx": 2,
+        "row_name": "Audi brand",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Audi brand', stub_col[19]='Aventador Roadster'",
+          "✓ col_name verified: '2015.0'",
+          "Large diff: extracted=1831502.0, source=413.0, diff=1831089.00"
+        ],
+        "source_cell_value": 413.0,
+        "source_cell_text": "413.0",
+        "extracted_value": 1831502.0,
+        "row_idx": 19,
+        "col_idx": 2,
+        "row_name_match": "Aventador Roadster",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Ducati, motorcycles",
+        "key": "Ducati, motorcycles",
+        "units": "Units",
+        "year": 2016,
+        "row_idx": 20,
+        "col_idx": 1,
+        "row_name": "Ducati, motorcycles",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Ducati, motorcycles', stub_col[20]=''",
+          "✓ col_name verified: '2016.0'",
+          "Large diff: extracted=56978.0, source=3579.0, diff=53399.00"
+        ],
+        "source_cell_value": 3579.0,
+        "source_cell_text": "3579.0",
+        "extracted_value": 56978.0,
+        "row_idx": 20,
+        "col_idx": 1,
+        "row_name_match": "",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T79d8d7",
+      "kpi": {
+        "name": "Ducati, motorcycles",
+        "key": "Ducati, motorcycles",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 20,
+        "col_idx": 2,
+        "row_name": "Ducati, motorcycles",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "❌ row_name MISMATCH: KPI='Ducati, motorcycles', stub_col[20]=''",
+          "✓ col_name verified: '2015.0'",
+          "Large diff: extracted=55551.0, source=3707.0, diff=51844.00"
+        ],
+        "source_cell_value": 3707.0,
+        "source_cell_text": "3707.0",
+        "extracted_value": 55551.0,
+        "row_idx": 20,
+        "col_idx": 2,
+        "row_name_match": "",
+        "col_name_match": "2015.0"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 626,
+    "valid_kpis": 612,
+    "invalid_kpis": 14,
+    "tables_processed": 26,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 594,
+    "col_name_verified": 626,
+    "name_mismatches": 0,
+    "accuracy": 97.76357827476039
+  }
+}

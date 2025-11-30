@@ -1,0 +1,948 @@
+{
+  "source_file": "316656_20251125_014602_deepseek-r1-distill-llama-70b_linked_tables(2024).json",
+  "year": "2024",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 32,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Core brand group",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name": "Core brand group",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Core brand group'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=4960.0"
+        ],
+        "source_cell_value": 4960.0,
+        "source_cell_text": "4960",
+        "extracted_value": 4960,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name_match": "Core brand group",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Core brand group",
+        "units": "Thousand vehicles",
+        "year": 2023,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name": "Core brand group",
+        "col_name": "VEHICLE SALES 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'Core brand group'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2023', merged_headers[1]='VEHICLE SALES 2024'",
+          "Moderate diff: extracted=4826, source=4960.0, diff=134.00"
+        ],
+        "source_cell_value": 4960.0,
+        "source_cell_text": "4960",
+        "extracted_value": 4826,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name_match": "Core brand group",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Core brand group",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 0,
+        "col_idx": 3,
+        "row_name": "Core brand group",
+        "col_name": "SALES REVENUE 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'Core brand group'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2023', merged_headers[3]='SALES REVENUE 2024'",
+          "Moderate diff: extracted=137770, source=140004.0, diff=2234.00"
+        ],
+        "source_cell_value": 140004.0,
+        "source_cell_text": "140004",
+        "extracted_value": 137770,
+        "row_idx": 0,
+        "col_idx": 3,
+        "row_name_match": "Core brand group",
+        "col_name_match": "SALES REVENUE 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Core brand group",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 0,
+        "col_idx": 5,
+        "row_name": "Core brand group",
+        "col_name": "OPERATING RESULT 2023 ^1"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'Core brand group'",
+          "❌ col_name MISMATCH: KPI='OPERATING RESULT 2023 ^1', merged_headers[5]='OPERATING RESULT 2024'",
+          "Moderate diff: extracted=7242, source=6961.0, diff=281.00"
+        ],
+        "source_cell_value": 6961.0,
+        "source_cell_text": "6961",
+        "extracted_value": 7242,
+        "row_idx": 0,
+        "col_idx": 5,
+        "row_name_match": "Core brand group",
+        "col_name_match": "OPERATING RESULT 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Progressive brand group",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name": "Progressive brand group",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Progressive brand group'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=1123.0"
+        ],
+        "source_cell_value": 1123.0,
+        "source_cell_text": "1123",
+        "extracted_value": 1123,
+        "row_idx": 1,
+        "col_idx": 1,
+        "row_name_match": "Progressive brand group",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Sport Luxury brand group ^2",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name": "Sport Luxury brand group ^2",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Sport Luxury brand group ^2'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=313.0"
+        ],
+        "source_cell_value": 313.0,
+        "source_cell_text": "313",
+        "extracted_value": 313,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name_match": "Sport Luxury brand group ^2",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Sport Luxury brand group ^2",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 2,
+        "col_idx": 3,
+        "row_name": "Sport Luxury brand group ^2",
+        "col_name": "SALES REVENUE 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'Sport Luxury brand group ^2'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2023', merged_headers[3]='SALES REVENUE 2024'",
+          "Moderate diff: extracted=37349, source=36438.0, diff=911.00"
+        ],
+        "source_cell_value": 36438.0,
+        "source_cell_text": "36438",
+        "extracted_value": 37349,
+        "row_idx": 2,
+        "col_idx": 3,
+        "row_name_match": "Sport Luxury brand group ^2",
+        "col_name_match": "SALES REVENUE 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "CARIAD",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 3,
+        "col_idx": 0,
+        "row_name": "CARIAD",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'CARIAD'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "Both null (cell: 'CARIAD')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "CARIAD",
+        "extracted_value": null,
+        "row_idx": 3,
+        "col_idx": 0,
+        "row_name_match": "CARIAD",
+        "col_name_match": "Thousand vehicles/€ million"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "CARIAD",
+        "units": "Thousand vehicles",
+        "year": 2023,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name": "CARIAD",
+        "col_name": "VEHICLE SALES 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'CARIAD'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2023', merged_headers[1]='VEHICLE SALES 2024'",
+          "Both null (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": null,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name_match": "CARIAD",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "CARIAD",
+        "units": "€ million",
+        "year": 2024,
+        "row_idx": 3,
+        "col_idx": 2,
+        "row_name": "CARIAD",
+        "col_name": "SALES REVENUE 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'CARIAD'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2024', merged_headers[2]='VEHICLE SALES 2023'",
+          "Source null but extracted=1327 (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 1327,
+        "row_idx": 3,
+        "col_idx": 2,
+        "row_name_match": "CARIAD",
+        "col_name_match": "VEHICLE SALES 2023"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "CARIAD",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 3,
+        "col_idx": 5,
+        "row_name": "CARIAD",
+        "col_name": "OPERATING RESULT 2023 ^1"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'CARIAD'",
+          "❌ col_name MISMATCH: KPI='OPERATING RESULT 2023 ^1', merged_headers[5]='OPERATING RESULT 2024'",
+          "Moderate diff: extracted=-2392, source=-2431.0, diff=39.00"
+        ],
+        "source_cell_value": -2431.0,
+        "source_cell_text": "-2431",
+        "extracted_value": -2392,
+        "row_idx": 3,
+        "col_idx": 5,
+        "row_name_match": "CARIAD",
+        "col_name_match": "OPERATING RESULT 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Battery",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 4,
+        "col_idx": 0,
+        "row_name": "Battery",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Battery'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "Both null (cell: 'Battery')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Battery",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 0,
+        "row_name_match": "Battery",
+        "col_name_match": "Thousand vehicles/€ million"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Battery",
+        "units": "Thousand vehicles",
+        "year": 2023,
+        "row_idx": 4,
+        "col_idx": 1,
+        "row_name": "Battery",
+        "col_name": "VEHICLE SALES 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Battery'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2023', merged_headers[1]='VEHICLE SALES 2024'",
+          "Both null (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": null,
+        "row_idx": 4,
+        "col_idx": 1,
+        "row_name_match": "Battery",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Battery",
+        "units": "€ million",
+        "year": 2024,
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name": "Battery",
+        "col_name": "SALES REVENUE 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Battery'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2024', merged_headers[2]='VEHICLE SALES 2023'",
+          "Source null but extracted=8 (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 8,
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name_match": "Battery",
+        "col_name_match": "VEHICLE SALES 2023"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "TRATON Commercial Vehicles",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 5,
+        "col_idx": 0,
+        "row_name": "TRATON Commercial Vehicles",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'TRATON Commercial Vehicles'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=335.0"
+        ],
+        "source_cell_value": 335.0,
+        "source_cell_text": "335",
+        "extracted_value": 335,
+        "row_idx": 5,
+        "col_idx": 1,
+        "row_name_match": "TRATON Commercial Vehicles",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "TRATON Commercial Vehicles",
+        "units": "Thousand vehicles",
+        "year": 2023,
+        "row_idx": 5,
+        "col_idx": 1,
+        "row_name": "TRATON Commercial Vehicles",
+        "col_name": "VEHICLE SALES 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'TRATON Commercial Vehicles'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2023', merged_headers[1]='VEHICLE SALES 2024'",
+          "Moderate diff: extracted=339, source=335.0, diff=4.00"
+        ],
+        "source_cell_value": 335.0,
+        "source_cell_text": "335",
+        "extracted_value": 339,
+        "row_idx": 5,
+        "col_idx": 1,
+        "row_name_match": "TRATON Commercial Vehicles",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "TRATON Commercial Vehicles",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 5,
+        "col_idx": 3,
+        "row_name": "TRATON Commercial Vehicles",
+        "col_name": "SALES REVENUE 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.49,
+        "errors": [
+          "✓ row_name verified: 'TRATON Commercial Vehicles'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2023', merged_headers[3]='SALES REVENUE 2024'",
+          "Small diff: 452.000000"
+        ],
+        "source_cell_value": 46183.0,
+        "source_cell_text": "46183",
+        "extracted_value": 45731,
+        "row_idx": 5,
+        "col_idx": 3,
+        "row_name_match": "TRATON Commercial Vehicles",
+        "col_name_match": "SALES REVENUE 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Equity-accounted companies in China ^3",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 6,
+        "col_idx": 0,
+        "row_name": "Equity-accounted companies in China ^3",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Equity-accounted companies in China ^3'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=2742.0"
+        ],
+        "source_cell_value": 2742.0,
+        "source_cell_text": "2742",
+        "extracted_value": 2742,
+        "row_idx": 6,
+        "col_idx": 1,
+        "row_name_match": "Equity-accounted companies in China ^3",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Equity-accounted companies in China ^3",
+        "units": "€ million",
+        "year": 2024,
+        "row_idx": 6,
+        "col_idx": 2,
+        "row_name": "Equity-accounted companies in China ^3",
+        "col_name": "SALES REVENUE 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Equity-accounted companies in China ^3'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2024', merged_headers[2]='VEHICLE SALES 2023'",
+          "Extracted null but source=3065.0 (cell: '3065')"
+        ],
+        "source_cell_value": 3065.0,
+        "source_cell_text": "3065",
+        "extracted_value": null,
+        "row_idx": 6,
+        "col_idx": 2,
+        "row_name_match": "Equity-accounted companies in China ^3",
+        "col_name_match": "VEHICLE SALES 2023"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Equity-accounted companies in China ^3",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 6,
+        "col_idx": 3,
+        "row_name": "Equity-accounted companies in China ^3",
+        "col_name": "SALES REVENUE 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Equity-accounted companies in China ^3'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2023', merged_headers[3]='SALES REVENUE 2024'",
+          "Both null (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": null,
+        "row_idx": 6,
+        "col_idx": 3,
+        "row_name_match": "Equity-accounted companies in China ^3",
+        "col_name_match": "SALES REVENUE 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Equity-accounted companies in China ^3",
+        "units": "€ million",
+        "year": 2024,
+        "row_idx": 6,
+        "col_idx": 4,
+        "row_name": "Equity-accounted companies in China ^3",
+        "col_name": "OPERATING RESULT 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Equity-accounted companies in China ^3'",
+          "❌ col_name MISMATCH: KPI='OPERATING RESULT 2024', merged_headers[4]='SALES REVENUE 2023'",
+          "Both null (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": null,
+        "row_idx": 6,
+        "col_idx": 4,
+        "row_name_match": "Equity-accounted companies in China ^3",
+        "col_name_match": "SALES REVENUE 2023"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "OPERATING RESULT",
+        "key": "Equity-accounted companies in China ^3",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 6,
+        "col_idx": 5,
+        "row_name": "Equity-accounted companies in China ^3",
+        "col_name": "OPERATING RESULT 2023 ^1"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Equity-accounted companies in China ^3'",
+          "❌ col_name MISMATCH: KPI='OPERATING RESULT 2023 ^1', merged_headers[5]='OPERATING RESULT 2024'",
+          "Both null (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": null,
+        "row_idx": 6,
+        "col_idx": 5,
+        "row_name_match": "Equity-accounted companies in China ^3",
+        "col_name_match": "OPERATING RESULT 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "MAN Energy Solutions",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 7,
+        "col_idx": 0,
+        "row_name": "MAN Energy Solutions",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'MAN Energy Solutions'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "Both null (cell: 'MAN Energy Solutions')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "MAN Energy Solutions",
+        "extracted_value": null,
+        "row_idx": 7,
+        "col_idx": 0,
+        "row_name_match": "MAN Energy Solutions",
+        "col_name_match": "Thousand vehicles/€ million"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "MAN Energy Solutions",
+        "units": "Thousand vehicles",
+        "year": 2023,
+        "row_idx": 7,
+        "col_idx": 1,
+        "row_name": "MAN Energy Solutions",
+        "col_name": "VEHICLE SALES 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'MAN Energy Solutions'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2023', merged_headers[1]='VEHICLE SALES 2024'",
+          "Both null (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": null,
+        "row_idx": 7,
+        "col_idx": 1,
+        "row_name_match": "MAN Energy Solutions",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "MAN Energy Solutions",
+        "units": "€ million",
+        "year": 2024,
+        "row_idx": 7,
+        "col_idx": 2,
+        "row_name": "MAN Energy Solutions",
+        "col_name": "SALES REVENUE 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'MAN Energy Solutions'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2024', merged_headers[2]='VEHICLE SALES 2023'",
+          "Source null but extracted=4333 (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 4333,
+        "row_idx": 7,
+        "col_idx": 2,
+        "row_name_match": "MAN Energy Solutions",
+        "col_name_match": "VEHICLE SALES 2023"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Volkswagen Group Mobility",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 8,
+        "col_idx": 0,
+        "row_name": "Volkswagen Group Mobility",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group Mobility'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "Both null (cell: 'Volkswagen Group Mobility')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Volkswagen Group Mobility",
+        "extracted_value": null,
+        "row_idx": 8,
+        "col_idx": 0,
+        "row_name_match": "Volkswagen Group Mobility",
+        "col_name_match": "Thousand vehicles/€ million"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Volkswagen Group Mobility",
+        "units": "Thousand vehicles",
+        "year": 2023,
+        "row_idx": 8,
+        "col_idx": 1,
+        "row_name": "Volkswagen Group Mobility",
+        "col_name": "VEHICLE SALES 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group Mobility'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2023', merged_headers[1]='VEHICLE SALES 2024'",
+          "Both null (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": null,
+        "row_idx": 8,
+        "col_idx": 1,
+        "row_name_match": "Volkswagen Group Mobility",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Group Mobility",
+        "units": "€ million",
+        "year": 2024,
+        "row_idx": 8,
+        "col_idx": 2,
+        "row_name": "Volkswagen Group Mobility",
+        "col_name": "SALES REVENUE 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group Mobility'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2024', merged_headers[2]='VEHICLE SALES 2023'",
+          "Source null but extracted=54806 (cell: '–')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "–",
+        "extracted_value": 54806,
+        "row_idx": 8,
+        "col_idx": 2,
+        "row_name_match": "Volkswagen Group Mobility",
+        "col_name_match": "VEHICLE SALES 2023"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Other ^4",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 9,
+        "col_idx": 0,
+        "row_name": "Other ^4",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Other ^4'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=-435.0"
+        ],
+        "source_cell_value": -435.0,
+        "source_cell_text": "-435",
+        "extracted_value": -435,
+        "row_idx": 9,
+        "col_idx": 1,
+        "row_name_match": "Other ^4",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Volkswagen Group",
+        "units": "Thousand vehicles",
+        "year": 2024,
+        "row_idx": 10,
+        "col_idx": 0,
+        "row_name": "Volkswagen Group",
+        "col_name": "VEHICLE SALES 2024"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2024', merged_headers[0]='Thousand vehicles/€ million'",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=9037.0"
+        ],
+        "source_cell_value": 9037.0,
+        "source_cell_text": "9037",
+        "extracted_value": 9037,
+        "row_idx": 10,
+        "col_idx": 1,
+        "row_name_match": "Volkswagen Group",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "VEHICLE SALES",
+        "key": "Volkswagen Group",
+        "units": "Thousand vehicles",
+        "year": 2023,
+        "row_idx": 10,
+        "col_idx": 1,
+        "row_name": "Volkswagen Group",
+        "col_name": "VEHICLE SALES 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group'",
+          "❌ col_name MISMATCH: KPI='VEHICLE SALES 2023', merged_headers[1]='VEHICLE SALES 2024'",
+          "Moderate diff: extracted=9362, source=9037.0, diff=325.00"
+        ],
+        "source_cell_value": 9037.0,
+        "source_cell_text": "9037",
+        "extracted_value": 9362,
+        "row_idx": 10,
+        "col_idx": 1,
+        "row_name_match": "Volkswagen Group",
+        "col_name_match": "VEHICLE SALES 2024"
+      }
+    },
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpi": {
+        "name": "SALES REVENUE",
+        "key": "Volkswagen Group",
+        "units": "€ million",
+        "year": 2023,
+        "row_idx": 10,
+        "col_idx": 3,
+        "row_name": "Volkswagen Group",
+        "col_name": "SALES REVENUE 2023"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.49,
+        "errors": [
+          "✓ row_name verified: 'Volkswagen Group'",
+          "❌ col_name MISMATCH: KPI='SALES REVENUE 2023', merged_headers[3]='SALES REVENUE 2024'",
+          "Small diff: 2372.000000"
+        ],
+        "source_cell_value": 324656.0,
+        "source_cell_text": "324656",
+        "extracted_value": 322284,
+        "row_idx": 10,
+        "col_idx": 3,
+        "row_name_match": "Volkswagen Group",
+        "col_name_match": "SALES REVENUE 2024"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 168,
+    "valid_kpis": 136,
+    "invalid_kpis": 32,
+    "tables_processed": 4,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 168,
+    "col_name_verified": 102,
+    "name_mismatches": 0,
+    "accuracy": 80.95238095238095
+  }
+}

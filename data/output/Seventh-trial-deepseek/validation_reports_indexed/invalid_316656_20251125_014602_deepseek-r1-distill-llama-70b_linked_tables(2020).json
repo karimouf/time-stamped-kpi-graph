@@ -1,0 +1,769 @@
+{
+  "source_file": "316656_20251125_014602_deepseek-r1-distill-llama-70b_linked_tables(2020).json",
+  "year": "2020",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 27,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "thousand units",
+        "units": "thousand units",
+        "year": 2020,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name": "Deliveries (thousand units)",
+        "col_name": "2020.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "col_name mismatch: KPI='2020.0', merged_headers[0]=''",
+          "Source null but extracted=1005.0 (cell: 'Deliveries (thousand units)')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Deliveries (thousand units)",
+        "extracted_value": 1005.0,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name_match": "Deliveries (thousand units)",
+        "col_name_match": ""
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "thousand units",
+        "units": "thousand units",
+        "year": 2019,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name": "Deliveries (thousand units)",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='2019.0', merged_headers[1]='2020.0'",
+          "Large diff: extracted=1243.0, source=1005.0, diff=238.00"
+        ],
+        "source_cell_value": 1005.0,
+        "source_cell_text": "1005.0",
+        "extracted_value": 1243.0,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name_match": "Deliveries (thousand units)",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "thousand units",
+        "units": "%",
+        "year": null,
+        "row_idx": 0,
+        "col_idx": 2,
+        "row_name": "Deliveries (thousand units)",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-19.1, source=1243.0, diff=1262.10"
+        ],
+        "source_cell_value": 1243.0,
+        "source_cell_text": "1243.0",
+        "extracted_value": -19.1,
+        "row_idx": 0,
+        "col_idx": 2,
+        "row_name_match": "Deliveries (thousand units)",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Vehicle sales",
+        "key": null,
+        "units": null,
+        "year": 2020,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name": "Vehicle sales",
+        "col_name": "2020.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "col_name mismatch: KPI='2020.0', merged_headers[0]=''",
+          "Source null but extracted=849.0 (cell: 'Vehicle sales')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Vehicle sales",
+        "extracted_value": 849.0,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name_match": "Vehicle sales",
+        "col_name_match": ""
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Vehicle sales",
+        "key": null,
+        "units": null,
+        "year": 2019,
+        "row_idx": 1,
+        "col_idx": 1,
+        "row_name": "Vehicle sales",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='2019.0', merged_headers[1]='2020.0'",
+          "Large diff: extracted=1062.0, source=849.0, diff=213.00"
+        ],
+        "source_cell_value": 849.0,
+        "source_cell_text": "849.0",
+        "extracted_value": 1062.0,
+        "row_idx": 1,
+        "col_idx": 1,
+        "row_name_match": "Vehicle sales",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Vehicle sales",
+        "key": null,
+        "units": "%",
+        "year": null,
+        "row_idx": 1,
+        "col_idx": 2,
+        "row_name": "Vehicle sales",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-20.0, source=1062.0, diff=1082.00"
+        ],
+        "source_cell_value": 1062.0,
+        "source_cell_text": "1062.0",
+        "extracted_value": -20.0,
+        "row_idx": 1,
+        "col_idx": 2,
+        "row_name_match": "Vehicle sales",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Production",
+        "key": "units",
+        "units": "units",
+        "year": 2020,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name": "Production",
+        "col_name": "2020.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "col_name mismatch: KPI='2020.0', merged_headers[0]=''",
+          "Source null but extracted=941.0 (cell: 'Production')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Production",
+        "extracted_value": 941.0,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name_match": "Production",
+        "col_name_match": ""
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Production",
+        "key": "units",
+        "units": "units",
+        "year": 2019,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name": "Production",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='2019.0', merged_headers[1]='2020.0'",
+          "Large diff: extracted=1243.0, source=941.0, diff=302.00"
+        ],
+        "source_cell_value": 941.0,
+        "source_cell_text": "941.0",
+        "extracted_value": 1243.0,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name_match": "Production",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Production",
+        "key": "units",
+        "units": "%",
+        "year": null,
+        "row_idx": 2,
+        "col_idx": 2,
+        "row_name": "Production",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-24.3, source=1243.0, diff=1267.30"
+        ],
+        "source_cell_value": 1243.0,
+        "source_cell_text": "1243.0",
+        "extracted_value": -24.3,
+        "row_idx": 2,
+        "col_idx": 2,
+        "row_name_match": "Production",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2020,
+        "row_idx": 3,
+        "col_idx": 0,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "2020.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "col_name mismatch: KPI='2020.0', merged_headers[0]=''",
+          "Source null but extracted=17081.0 (cell: 'Sales revenue (€ million)')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Sales revenue (€ million)",
+        "extracted_value": 17081.0,
+        "row_idx": 3,
+        "col_idx": 0,
+        "row_name_match": "Sales revenue (€ million)",
+        "col_name_match": ""
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2019,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='2019.0', merged_headers[1]='2020.0'",
+          "Large diff: extracted=19806.0, source=17081.0, diff=2725.00"
+        ],
+        "source_cell_value": 17081.0,
+        "source_cell_text": "17081.0",
+        "extracted_value": 19806.0,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name_match": "Sales revenue (€ million)",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "%",
+        "year": null,
+        "row_idx": 3,
+        "col_idx": 2,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-13.8, source=19806.0, diff=19819.80"
+        ],
+        "source_cell_value": 19806.0,
+        "source_cell_text": "19806.0",
+        "extracted_value": -13.8,
+        "row_idx": 3,
+        "col_idx": 2,
+        "row_name_match": "Sales revenue (€ million)",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Operating result",
+        "key": null,
+        "units": null,
+        "year": 2020,
+        "row_idx": 4,
+        "col_idx": 0,
+        "row_name": "Operating result",
+        "col_name": "2020.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "col_name mismatch: KPI='2020.0', merged_headers[0]=''",
+          "Source null but extracted=756.0 (cell: 'Operating result')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Operating result",
+        "extracted_value": 756.0,
+        "row_idx": 4,
+        "col_idx": 0,
+        "row_name_match": "Operating result",
+        "col_name_match": ""
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Operating result",
+        "key": null,
+        "units": null,
+        "year": 2019,
+        "row_idx": 4,
+        "col_idx": 1,
+        "row_name": "Operating result",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='2019.0', merged_headers[1]='2020.0'",
+          "Large diff: extracted=1660.0, source=756.0, diff=904.00"
+        ],
+        "source_cell_value": 756.0,
+        "source_cell_text": "756.0",
+        "extracted_value": 1660.0,
+        "row_idx": 4,
+        "col_idx": 1,
+        "row_name_match": "Operating result",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Operating result",
+        "key": null,
+        "units": "%",
+        "year": null,
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name": "Operating result",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-54.4, source=1660.0, diff=1714.40"
+        ],
+        "source_cell_value": 1660.0,
+        "source_cell_text": "1660.0",
+        "extracted_value": -54.4,
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name_match": "Operating result",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Operating return on sales",
+        "key": "%",
+        "units": "%",
+        "year": 2020,
+        "row_idx": 5,
+        "col_idx": 0,
+        "row_name": "Operating return on sales (%)",
+        "col_name": "2020.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "col_name mismatch: KPI='2020.0', merged_headers[0]=''",
+          "Source null but extracted=4.4 (cell: 'Operating return on sales (%)')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Operating return on sales (%)",
+        "extracted_value": 4.4,
+        "row_idx": 5,
+        "col_idx": 0,
+        "row_name_match": "Operating return on sales (%)",
+        "col_name_match": ""
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Operating return on sales",
+        "key": "%",
+        "units": "%",
+        "year": 2019,
+        "row_idx": 5,
+        "col_idx": 1,
+        "row_name": "Operating return on sales (%)",
+        "col_name": "2019.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='2019.0', merged_headers[1]='2020.0'",
+          "Large diff: extracted=8.4, source=4.4, diff=4.00"
+        ],
+        "source_cell_value": 4.4,
+        "source_cell_text": "4.4",
+        "extracted_value": 8.4,
+        "row_idx": 5,
+        "col_idx": 1,
+        "row_name_match": "Operating return on sales (%)",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T5eadb3",
+      "kpi": {
+        "name": "Operating return on sales",
+        "key": "%",
+        "units": "N/A",
+        "year": null,
+        "row_idx": 5,
+        "col_idx": 2,
+        "row_name": "Operating return on sales (%)",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Extracted null but source=8.4 (cell: '8.4')"
+        ],
+        "source_cell_value": 8.4,
+        "source_cell_text": "8.4",
+        "extracted_value": null,
+        "row_idx": 5,
+        "col_idx": 2,
+        "row_name_match": "Operating return on sales (%)",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Deliveries",
+        "key": null,
+        "units": "Thousand units",
+        "year": 2020,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name": "Deliveries",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Source null but extracted=3849.0 (cell: 'Deliveries')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Deliveries",
+        "extracted_value": 3849.0,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name_match": "Deliveries",
+        "col_name_match": "Thousand units"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Deliveries",
+        "key": null,
+        "units": "Thousand units",
+        "year": 2019,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name": "Deliveries",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='Thousand units', merged_headers[1]='2020.0'",
+          "Large diff: extracted=4234.0, source=3849.0, diff=385.00"
+        ],
+        "source_cell_value": 3849.0,
+        "source_cell_text": "3849.0",
+        "extracted_value": 4234.0,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name_match": "Deliveries",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Deliveries",
+        "key": null,
+        "units": "N/A",
+        "year": null,
+        "row_idx": 0,
+        "col_idx": 2,
+        "row_name": "Deliveries",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-9.1, source=4234.0, diff=4243.10"
+        ],
+        "source_cell_value": 4234.0,
+        "source_cell_text": "4234.0",
+        "extracted_value": -9.1,
+        "row_idx": 0,
+        "col_idx": 2,
+        "row_name_match": "Deliveries",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Vehicle sales ^1",
+        "key": null,
+        "units": "Thousand units",
+        "year": 2020,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name": "Vehicle sales ^1",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Source null but extracted=3577.0 (cell: 'Vehicle sales ^1')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Vehicle sales ^1",
+        "extracted_value": 3577.0,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name_match": "Vehicle sales ^1",
+        "col_name_match": "Thousand units"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Vehicle sales ^1",
+        "key": null,
+        "units": "Thousand units",
+        "year": 2019,
+        "row_idx": 1,
+        "col_idx": 1,
+        "row_name": "Vehicle sales ^1",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='Thousand units', merged_headers[1]='2020.0'",
+          "Large diff: extracted=4048.0, source=3577.0, diff=471.00"
+        ],
+        "source_cell_value": 3577.0,
+        "source_cell_text": "3577.0",
+        "extracted_value": 4048.0,
+        "row_idx": 1,
+        "col_idx": 1,
+        "row_name_match": "Vehicle sales ^1",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Vehicle sales ^1",
+        "key": null,
+        "units": "N/A",
+        "year": null,
+        "row_idx": 1,
+        "col_idx": 2,
+        "row_name": "Vehicle sales ^1",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-11.6, source=4048.0, diff=4059.60"
+        ],
+        "source_cell_value": 4048.0,
+        "source_cell_text": "4048.0",
+        "extracted_value": -11.6,
+        "row_idx": 1,
+        "col_idx": 2,
+        "row_name_match": "Vehicle sales ^1",
+        "col_name_match": "2019.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Production",
+        "key": null,
+        "units": "Thousand units",
+        "year": 2020,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name": "Production",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "Source null but extracted=3575.0 (cell: 'Production')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Production",
+        "extracted_value": 3575.0,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name_match": "Production",
+        "col_name_match": "Thousand units"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Production",
+        "key": null,
+        "units": "Thousand units",
+        "year": 2019,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name": "Production",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='Thousand units', merged_headers[1]='2020.0'",
+          "Large diff: extracted=3948.0, source=3575.0, diff=373.00"
+        ],
+        "source_cell_value": 3575.0,
+        "source_cell_text": "3575.0",
+        "extracted_value": 3948.0,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name_match": "Production",
+        "col_name_match": "2020.0"
+      }
+    },
+    {
+      "table_id": "VW2020_T879ad1",
+      "kpi": {
+        "name": "Production",
+        "key": null,
+        "units": "N/A",
+        "year": null,
+        "row_idx": 2,
+        "col_idx": 2,
+        "row_name": "Production",
+        "col_name": "%"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "col_name mismatch: KPI='%', merged_headers[2]='2019.0'",
+          "Large diff: extracted=-9.5, source=3948.0, diff=3957.50"
+        ],
+        "source_cell_value": 3948.0,
+        "source_cell_text": "3948.0",
+        "extracted_value": -9.5,
+        "row_idx": 2,
+        "col_idx": 2,
+        "row_name_match": "Production",
+        "col_name_match": "2019.0"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 589,
+    "valid_kpis": 562,
+    "invalid_kpis": 27,
+    "tables_processed": 26,
+    "name_mismatches": 24,
+    "accuracy": 95.41595925297113
+  }
+}

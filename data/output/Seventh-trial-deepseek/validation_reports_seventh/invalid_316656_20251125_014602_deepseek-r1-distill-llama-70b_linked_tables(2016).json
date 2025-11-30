@@ -1,0 +1,339 @@
+{
+  "source_file": "316656_20251125_014602_deepseek-r1-distill-llama-70b_linked_tables(2016).json",
+  "year": "2016",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 11,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "thousand units",
+        "units": "thousand units",
+        "year": 2016,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name": "Deliveries (thousand units)",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Deliveries (thousand units)'",
+          "❌ col_name MISMATCH: KPI='2016.0', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=238.0"
+        ],
+        "source_cell_value": 238.0,
+        "source_cell_text": "238.0",
+        "extracted_value": 238.0,
+        "row_idx": 0,
+        "col_idx": 1,
+        "row_name_match": "Deliveries (thousand units)",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "Vehicle sales",
+        "key": null,
+        "units": null,
+        "year": 2016,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name": "Vehicle sales",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Vehicle sales'",
+          "❌ col_name MISMATCH: KPI='2016.0', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=239.0"
+        ],
+        "source_cell_value": 239.0,
+        "source_cell_text": "239.0",
+        "extracted_value": 239.0,
+        "row_idx": 1,
+        "col_idx": 1,
+        "row_name_match": "Vehicle sales",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "Production",
+        "key": null,
+        "units": null,
+        "year": 2016,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name": "Production",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Production'",
+          "❌ col_name MISMATCH: KPI='2016.0', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=240.0"
+        ],
+        "source_cell_value": 240.0,
+        "source_cell_text": "240.0",
+        "extracted_value": 240.0,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name_match": "Production",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "Production",
+        "key": null,
+        "units": null,
+        "year": 2015,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name": "Production",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'Production'",
+          "❌ col_name MISMATCH: KPI='2015.0', merged_headers[1]='2016.0'",
+          "Moderate diff: extracted=234.0, source=240.0, diff=6.00"
+        ],
+        "source_cell_value": 240.0,
+        "source_cell_text": "240.0",
+        "extracted_value": 234.0,
+        "row_idx": 2,
+        "col_idx": 1,
+        "row_name_match": "Production",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2016,
+        "row_idx": 3,
+        "col_idx": 0,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Sales revenue (€ million)'",
+          "❌ col_name MISMATCH: KPI='2016.0', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=2231.0"
+        ],
+        "source_cell_value": 2231.0,
+        "source_cell_text": "2231 ^8.0",
+        "extracted_value": 2231.0,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name_match": "Sales revenue (€ million)",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "Sales revenue",
+        "key": "€ million",
+        "units": "€ million",
+        "year": 2015,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name": "Sales revenue (€ million)",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.7,
+        "errors": [
+          "✓ row_name verified: 'Sales revenue (€ million)'",
+          "❌ col_name MISMATCH: KPI='2015.0', merged_headers[1]='2016.0'",
+          "Moderate diff: extracted=2153.0, source=2231.0, diff=78.00"
+        ],
+        "source_cell_value": 2231.0,
+        "source_cell_text": "2231 ^8.0",
+        "extracted_value": 2153.0,
+        "row_idx": 3,
+        "col_idx": 1,
+        "row_name_match": "Sales revenue (€ million)",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "Operating result",
+        "key": null,
+        "units": null,
+        "year": 2016,
+        "row_idx": 4,
+        "col_idx": 0,
+        "row_name": "Operating result",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'Operating result'",
+          "❌ col_name MISMATCH: KPI='2016.0', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=3877.0"
+        ],
+        "source_cell_value": 3877.0,
+        "source_cell_text": "3877.0",
+        "extracted_value": 3877.0,
+        "row_idx": 4,
+        "col_idx": 1,
+        "row_name_match": "Operating result",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_Ta58de3",
+      "kpi": {
+        "name": "as % of sales revenue",
+        "key": null,
+        "units": "%",
+        "year": 2016,
+        "row_idx": 5,
+        "col_idx": 0,
+        "row_name": "as % of sales revenue",
+        "col_name": "2016.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.475,
+        "errors": [
+          "✓ row_name verified: 'as % of sales revenue'",
+          "❌ col_name MISMATCH: KPI='2016.0', merged_headers[0]=''",
+          "⚠ Auto-corrected: col_idx=0 (row label) → col_idx=1, found value=17.4"
+        ],
+        "source_cell_value": 17.4,
+        "source_cell_text": "17.4",
+        "extracted_value": 17.4,
+        "row_idx": 5,
+        "col_idx": 1,
+        "row_name_match": "as % of sales revenue",
+        "col_name_match": "2016.0"
+      }
+    },
+    {
+      "table_id": "VW2016_T3472c2",
+      "kpi": {
+        "name": "Deliveries",
+        "key": "N/A",
+        "units": "Thousand units",
+        "year": 2016,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name": "Deliveries",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Deliveries'",
+          "✓ col_name verified: 'Thousand units'",
+          "Source null but extracted=3982.0 (cell: 'Deliveries')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Deliveries",
+        "extracted_value": 3982.0,
+        "row_idx": 0,
+        "col_idx": 0,
+        "row_name_match": "Deliveries",
+        "col_name_match": "Thousand units"
+      }
+    },
+    {
+      "table_id": "VW2016_T3472c2",
+      "kpi": {
+        "name": "Vehicle sales ^1",
+        "key": "N/A",
+        "units": "Thousand units",
+        "year": 2016,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name": "Vehicle sales ^1",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Vehicle sales ^1'",
+          "✓ col_name verified: 'Thousand units'",
+          "Source null but extracted=3873.0 (cell: 'Vehicle sales ^1')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Vehicle sales ^1",
+        "extracted_value": 3873.0,
+        "row_idx": 1,
+        "col_idx": 0,
+        "row_name_match": "Vehicle sales ^1",
+        "col_name_match": "Thousand units"
+      }
+    },
+    {
+      "table_id": "VW2016_T3472c2",
+      "kpi": {
+        "name": "Production",
+        "key": "N/A",
+        "units": "Thousand units",
+        "year": 2016,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name": "Production",
+        "col_name": "Thousand units"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Production'",
+          "✓ col_name verified: 'Thousand units'",
+          "Source null but extracted=3896.0 (cell: 'Production')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "Production",
+        "extracted_value": 3896.0,
+        "row_idx": 2,
+        "col_idx": 0,
+        "row_name_match": "Production",
+        "col_name_match": "Thousand units"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 443,
+    "valid_kpis": 432,
+    "invalid_kpis": 11,
+    "tables_processed": 25,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 381,
+    "col_name_verified": 378,
+    "name_mismatches": 0,
+    "accuracy": 97.51693002257336
+  }
+}

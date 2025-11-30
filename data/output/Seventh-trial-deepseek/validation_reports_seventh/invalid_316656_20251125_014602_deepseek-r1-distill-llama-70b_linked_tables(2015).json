@@ -1,0 +1,281 @@
+{
+  "source_file": "316656_20251125_014602_deepseek-r1-distill-llama-70b_linked_tables(2015).json",
+  "year": "2015",
+  "validation_method": "index-based (row_idx, col_idx)",
+  "total_invalid": 9,
+  "invalid_kpis": [
+    {
+      "table_id": "VW2015_T19a389",
+      "kpi": {
+        "name": "OPERATING PROFIT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2015,
+        "row_idx": 10,
+        "col_idx": 7,
+        "row_name": "Other",
+        "col_name": "OPERATING PROFIT 2015"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "✓ row_name verified: 'Other'",
+          "✓ col_name verified: 'OPERATING PROFIT 2015'",
+          "Large diff: extracted=-24374, source=-2.4374, diff=24371.56"
+        ],
+        "source_cell_value": -2.4374,
+        "source_cell_text": "−2,4374",
+        "extracted_value": -24374,
+        "row_idx": 10,
+        "col_idx": 7,
+        "row_name_match": "Other",
+        "col_name_match": "OPERATING PROFIT 2015"
+      }
+    },
+    {
+      "table_id": "VW2015_T19a389",
+      "kpi": {
+        "name": "OPERATING PROFIT",
+        "key": "Other",
+        "units": "€ million",
+        "year": 2014,
+        "row_idx": 10,
+        "col_idx": 8,
+        "row_name": "Other",
+        "col_name": "2014"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.3,
+        "errors": [
+          "✓ row_name verified: 'Other'",
+          "✓ col_name verified: '2014'",
+          "Large diff: extracted=-20524, source=-2.0524, diff=20521.95"
+        ],
+        "source_cell_value": -2.0524,
+        "source_cell_text": "−2,0524",
+        "extracted_value": -20524,
+        "row_idx": 10,
+        "col_idx": 8,
+        "row_name_match": "Other",
+        "col_name_match": "2014"
+      }
+    },
+    {
+      "table_id": "VW2015_T79d8d7",
+      "kpi": {
+        "name": "Lamborghini",
+        "key": "N/A",
+        "units": "Units",
+        "year": 2015,
+        "row_idx": 15,
+        "col_idx": 1,
+        "row_name": "Lamborghini",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Lamborghini'",
+          "✓ col_name verified: '2015.0'",
+          "Source null but extracted= (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": "",
+        "row_idx": 15,
+        "col_idx": 1,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2015_T79d8d7",
+      "kpi": {
+        "name": "Lamborghini",
+        "key": "N/A",
+        "units": "Units",
+        "year": 2014,
+        "row_idx": 15,
+        "col_idx": 2,
+        "row_name": "Lamborghini",
+        "col_name": "2014"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.2,
+        "errors": [
+          "✓ row_name verified: 'Lamborghini'",
+          "✓ col_name verified: '2014'",
+          "Source null but extracted= (cell: '')"
+        ],
+        "source_cell_value": null,
+        "source_cell_text": "",
+        "extracted_value": "",
+        "row_idx": 15,
+        "col_idx": 2,
+        "row_name_match": "Lamborghini",
+        "col_name_match": "2014"
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Lease assets",
+        "key": "2015.0",
+        "units": "€ million",
+        "year": 2015,
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name": "Lease assets",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Lease assets'",
+          "✓ col_name verified: '2015.0'",
+          "Type conversion error: extracted=2777 ^7.0 (type=str), source=2777.0 (type=float)"
+        ],
+        "source_cell_value": 2777.0,
+        "source_cell_text": "2777 ^7.0",
+        "extracted_value": "2777 ^7.0",
+        "row_idx": 4,
+        "col_idx": 2,
+        "row_name_match": "Lease assets",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Lease assets",
+        "key": "2014.0",
+        "units": "€ million",
+        "year": 2014,
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name": "Lease assets",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Lease assets'",
+          "✓ col_name verified: '2014.0'",
+          "Type conversion error: extracted=2294 ^2.0 (type=str), source=2294.0 (type=float)"
+        ],
+        "source_cell_value": 2294.0,
+        "source_cell_text": "2294 ^2.0",
+        "extracted_value": "2294 ^2.0",
+        "row_idx": 4,
+        "col_idx": 3,
+        "row_name_match": "Lease assets",
+        "col_name_match": "2014.0"
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Leasing agreements",
+        "key": "2015.0",
+        "units": "N/A",
+        "year": 2015,
+        "row_idx": 8,
+        "col_idx": 2,
+        "row_name": "Leasing agreements",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Leasing agreements'",
+          "✓ col_name verified: '2015.0'",
+          "Type conversion error: extracted=2046 ^1.0 (type=str), source=2046.0 (type=float)"
+        ],
+        "source_cell_value": 2046.0,
+        "source_cell_text": "2046 ^1.0",
+        "extracted_value": "2046 ^1.0",
+        "row_idx": 8,
+        "col_idx": 2,
+        "row_name_match": "Leasing agreements",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Direct banking deposits",
+        "key": "2015.0",
+        "units": "€ million",
+        "year": 2015,
+        "row_idx": 9,
+        "col_idx": 2,
+        "row_name": "Direct banking deposits",
+        "col_name": "2015.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Direct banking deposits'",
+          "✓ col_name verified: '2015.0'",
+          "Type conversion error: extracted=2545 ^0.0 (type=str), source=2545.0 (type=float)"
+        ],
+        "source_cell_value": 2545.0,
+        "source_cell_text": "2545 ^0.0",
+        "extracted_value": "2545 ^0.0",
+        "row_idx": 9,
+        "col_idx": 2,
+        "row_name_match": "Direct banking deposits",
+        "col_name_match": "2015.0"
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "kpi": {
+        "name": "Direct banking deposits",
+        "key": "2014.0",
+        "units": "€ million",
+        "year": 2014,
+        "row_idx": 9,
+        "col_idx": 3,
+        "row_name": "Direct banking deposits",
+        "col_name": "2014.0"
+      },
+      "validation": {
+        "is_valid": false,
+        "confidence": 0.0,
+        "errors": [
+          "✓ row_name verified: 'Direct banking deposits'",
+          "✓ col_name verified: '2014.0'",
+          "Type conversion error: extracted=2377 ^4.0 (type=str), source=2377.0 (type=float)"
+        ],
+        "source_cell_value": 2377.0,
+        "source_cell_text": "2377 ^4.0",
+        "extracted_value": "2377 ^4.0",
+        "row_idx": 9,
+        "col_idx": 3,
+        "row_name_match": "Direct banking deposits",
+        "col_name_match": "2014.0"
+      }
+    }
+  ],
+  "statistics": {
+    "total_kpis": 589,
+    "valid_kpis": 580,
+    "invalid_kpis": 9,
+    "tables_processed": 24,
+    "row_name_mismatches": 0,
+    "col_name_mismatches": 0,
+    "row_name_verified": 569,
+    "col_name_verified": 589,
+    "name_mismatches": 0,
+    "accuracy": 98.47198641765704
+  }
+}

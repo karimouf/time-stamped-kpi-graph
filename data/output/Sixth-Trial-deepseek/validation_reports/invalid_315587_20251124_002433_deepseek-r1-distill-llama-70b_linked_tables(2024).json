@@ -1,0 +1,16 @@
+{
+  "source_file": "315587_20251124_002433_deepseek-r1-distill-llama-70b_linked_tables(2024).json",
+  "tables_file": "linked_tables(2024).jsonl",
+  "total_invalid_kpis": 0,
+  "invalid_kpis": [],
+  "statistics": {
+    "total_kpis": 168,
+    "valid_kpis": 168,
+    "invalid_kpis": 0,
+    "tables_processed": 4,
+    "tables_with_errors": 0,
+    "avg_confidence": 0.9880952380952381,
+    "error_types": {},
+    "accuracy_rate": 100.0
+  }
+}

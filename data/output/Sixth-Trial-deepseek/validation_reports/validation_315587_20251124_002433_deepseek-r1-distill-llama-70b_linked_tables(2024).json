@@ -1,0 +1,3460 @@
+{
+  "extraction_file": "D:\\Users\\DELL\\Masters Thesis\\time-stamped-kpi-graph\\data\\output\\Sixth-Trial-deepseek\\315587_20251124_002433_deepseek-r1-distill-llama-70b_linked_tables(2024).json",
+  "tables_file": "D:\\Users\\DELL\\Masters Thesis\\time-stamped-kpi-graph\\data\\tables\\linked_tables(2024).jsonl",
+  "statistics": {
+    "total_kpis": 168,
+    "valid_kpis": 168,
+    "invalid_kpis": 0,
+    "tables_processed": 4,
+    "tables_with_errors": 0,
+    "avg_confidence": 0.9880952380952381,
+    "error_types": {},
+    "accuracy_rate": 100.0
+  },
+  "validation_results": [
+    {
+      "table_id": "VW2024_Td85de9",
+      "kpis_validated": [
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4960.0,
+            "source_cell_text": "4960",
+            "extracted_value": 4960,
+            "row_idx": 0,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4826.0,
+            "source_cell_text": "4826",
+            "extracted_value": 4826,
+            "row_idx": 0,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 140004.0,
+            "source_cell_text": "140004",
+            "extracted_value": 140004,
+            "row_idx": 0,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 137770.0,
+            "source_cell_text": "137770",
+            "extracted_value": 137770,
+            "row_idx": 0,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 6961.0,
+            "source_cell_text": "6961",
+            "extracted_value": 6961,
+            "row_idx": 0,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 7242.0,
+            "source_cell_text": "7242",
+            "extracted_value": 7242,
+            "row_idx": 0,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Progressive brand group",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Progressive brand group",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1123.0,
+            "source_cell_text": "1123",
+            "extracted_value": 1123,
+            "row_idx": 1,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Progressive brand group",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Progressive brand group",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1282.0,
+            "source_cell_text": "1282",
+            "extracted_value": 1282,
+            "row_idx": 1,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Progressive brand group",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 64532.0,
+            "source_cell_text": "64532",
+            "extracted_value": 64532,
+            "row_idx": 1,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Progressive brand group",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 69865.0,
+            "source_cell_text": "69865",
+            "extracted_value": 69865,
+            "row_idx": 1,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Progressive brand group",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3903.0,
+            "source_cell_text": "3903",
+            "extracted_value": 3903,
+            "row_idx": 1,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Progressive brand group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Progressive brand group",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 6280.0,
+            "source_cell_text": "6280",
+            "extracted_value": 6280,
+            "row_idx": 1,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Sport Luxury brand group ^2",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 313.0,
+            "source_cell_text": "313",
+            "extracted_value": 313,
+            "row_idx": 2,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Sport Luxury brand group ^2",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 334.0,
+            "source_cell_text": "334",
+            "extracted_value": 334,
+            "row_idx": 2,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 36438.0,
+            "source_cell_text": "36438",
+            "extracted_value": 36438,
+            "row_idx": 2,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 37349.0,
+            "source_cell_text": "37349",
+            "extracted_value": 37349,
+            "row_idx": 2,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 5286.0,
+            "source_cell_text": "5286",
+            "extracted_value": 5286,
+            "row_idx": 2,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Sport Luxury brand group ^2",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Sport Luxury brand group ^2",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 6938.0,
+            "source_cell_text": "6938",
+            "extracted_value": 6938,
+            "row_idx": 2,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "CARIAD",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "CARIAD",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 3,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "CARIAD",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "CARIAD",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 3,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "CARIAD",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "CARIAD",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1327.0,
+            "source_cell_text": "1327",
+            "extracted_value": 1327,
+            "row_idx": 3,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "CARIAD",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "CARIAD",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1078.0,
+            "source_cell_text": "1078",
+            "extracted_value": 1078,
+            "row_idx": 3,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "CARIAD",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "CARIAD",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -2431.0,
+            "source_cell_text": "-2431",
+            "extracted_value": -2431,
+            "row_idx": 3,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "CARIAD",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "CARIAD",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -2392.0,
+            "source_cell_text": "-2392",
+            "extracted_value": -2392,
+            "row_idx": 3,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Battery",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Battery",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Battery",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Battery",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Battery",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Battery",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 8.0,
+            "source_cell_text": "8",
+            "extracted_value": 8,
+            "row_idx": 4,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Battery",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Battery",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 31.0,
+            "source_cell_text": "31",
+            "extracted_value": 31,
+            "row_idx": 4,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Battery",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Battery",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -1053.0,
+            "source_cell_text": "-1053",
+            "extracted_value": -1053,
+            "row_idx": 4,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Battery",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Battery",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -417.0,
+            "source_cell_text": "-417",
+            "extracted_value": -417,
+            "row_idx": 4,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "TRATON Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 335.0,
+            "source_cell_text": "335",
+            "extracted_value": 335,
+            "row_idx": 5,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "TRATON Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 339.0,
+            "source_cell_text": "339",
+            "extracted_value": 339,
+            "row_idx": 5,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 46183.0,
+            "source_cell_text": "46183",
+            "extracted_value": 46183,
+            "row_idx": 5,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 45731.0,
+            "source_cell_text": "45731",
+            "extracted_value": 45731,
+            "row_idx": 5,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4204.0,
+            "source_cell_text": "4204",
+            "extracted_value": 4204,
+            "row_idx": 5,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "TRATON Commercial Vehicles",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "TRATON Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3715.0,
+            "source_cell_text": "3715",
+            "extracted_value": 3715,
+            "row_idx": 5,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2742.0,
+            "source_cell_text": "2742",
+            "extracted_value": 2742,
+            "row_idx": 6,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3065.0,
+            "source_cell_text": "3065",
+            "extracted_value": 3065,
+            "row_idx": 6,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 6,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 6,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 6,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Equity-accounted companies in China ^3",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Equity-accounted companies in China ^3",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 6,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "MAN Energy Solutions",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 7,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "MAN Energy Solutions",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 7,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4333.0,
+            "source_cell_text": "4333",
+            "extracted_value": 4333,
+            "row_idx": 7,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4044.0,
+            "source_cell_text": "4044",
+            "extracted_value": 4044,
+            "row_idx": 7,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 337.0,
+            "source_cell_text": "337",
+            "extracted_value": 337,
+            "row_idx": 7,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "MAN Energy Solutions",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "MAN Energy Solutions",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 369.0,
+            "source_cell_text": "369",
+            "extracted_value": 369,
+            "row_idx": 7,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group Mobility",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 8,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group Mobility",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 8,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 54806.0,
+            "source_cell_text": "54806",
+            "extracted_value": 54806,
+            "row_idx": 8,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 50765.0,
+            "source_cell_text": "50765",
+            "extracted_value": 50765,
+            "row_idx": 8,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3000.0,
+            "source_cell_text": "3000",
+            "extracted_value": 3000,
+            "row_idx": 8,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group Mobility",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Group Mobility",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3248.0,
+            "source_cell_text": "3248",
+            "extracted_value": 3248,
+            "row_idx": 8,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Other ^4",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Other ^4",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -435.0,
+            "source_cell_text": "-435",
+            "extracted_value": -435,
+            "row_idx": 9,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Other ^4",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Other ^4",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -484.0,
+            "source_cell_text": "-484",
+            "extracted_value": -484,
+            "row_idx": 9,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Other ^4",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Other ^4",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -2297.0,
+            "source_cell_text": "-2297 ^6",
+            "extracted_value": -2297,
+            "row_idx": 9,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Other ^4",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Other ^4",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -2435.0,
+            "source_cell_text": "-2435 ^0",
+            "extracted_value": -2435,
+            "row_idx": 9,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Other ^4",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Other ^4",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -1147.0,
+            "source_cell_text": "-1147",
+            "extracted_value": -1147,
+            "row_idx": 9,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Other ^4",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Other ^4",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -2456.0,
+            "source_cell_text": "-2456",
+            "extracted_value": -2456,
+            "row_idx": 9,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9037.0,
+            "source_cell_text": "9037",
+            "extracted_value": 9037,
+            "row_idx": 10,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9362.0,
+            "source_cell_text": "9362",
+            "extracted_value": 9362,
+            "row_idx": 10,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 324656.0,
+            "source_cell_text": "324656",
+            "extracted_value": 324656,
+            "row_idx": 10,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 322284.0,
+            "source_cell_text": "322284",
+            "extracted_value": 322284,
+            "row_idx": 10,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 19060.0,
+            "source_cell_text": "19060",
+            "extracted_value": 19060,
+            "row_idx": 10,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2023 ^8"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2252.0,
+            "source_cell_text": "2252 ^8",
+            "extracted_value": 2252,
+            "row_idx": 10,
+            "col_idx": 6
+          }
+        }
+      ],
+      "summary": {
+        "total": 66,
+        "valid": 66,
+        "invalid": 0,
+        "avg_confidence": 0.9818181818181818
+      }
+    },
+    {
+      "table_id": "VW2024_Tae872e",
+      "kpis_validated": [
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3109.0,
+            "source_cell_text": "3109",
+            "extracted_value": 3109,
+            "row_idx": 0,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3016.0,
+            "source_cell_text": "3016",
+            "extracted_value": 3016,
+            "row_idx": 0,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 88262.0,
+            "source_cell_text": "88262",
+            "extracted_value": 88262,
+            "row_idx": 0,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 86382.0,
+            "source_cell_text": "86382",
+            "extracted_value": 86382,
+            "row_idx": 0,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2587.0,
+            "source_cell_text": "2587",
+            "extracted_value": 2587,
+            "row_idx": 0,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Passenger Cars",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3514.0,
+            "source_cell_text": "3514",
+            "extracted_value": 3514,
+            "row_idx": 0,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Škoda",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Škoda",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1090.0,
+            "source_cell_text": "1090",
+            "extracted_value": 1090,
+            "row_idx": 1,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Škoda",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Škoda",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1056.0,
+            "source_cell_text": "1056",
+            "extracted_value": 1056,
+            "row_idx": 1,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Škoda",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Škoda",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2778.0,
+            "source_cell_text": "2778 ^7",
+            "extracted_value": 2778,
+            "row_idx": 1,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Škoda",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Škoda",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2653.0,
+            "source_cell_text": "2653 ^6",
+            "extracted_value": 2653,
+            "row_idx": 1,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Škoda",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Škoda",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2305.0,
+            "source_cell_text": "2305",
+            "extracted_value": 2305,
+            "row_idx": 1,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Škoda",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Škoda",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1773.0,
+            "source_cell_text": "1773",
+            "extracted_value": 1773,
+            "row_idx": 1,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "SEAT/CUPRA",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 637.0,
+            "source_cell_text": "637",
+            "extracted_value": 637,
+            "row_idx": 2,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "SEAT/CUPRA",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 602.0,
+            "source_cell_text": "602",
+            "extracted_value": 602,
+            "row_idx": 2,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 14530.0,
+            "source_cell_text": "14530",
+            "extracted_value": 14530,
+            "row_idx": 2,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 14333.0,
+            "source_cell_text": "14333",
+            "extracted_value": 14333,
+            "row_idx": 2,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 633.0,
+            "source_cell_text": "633",
+            "extracted_value": 633,
+            "row_idx": 2,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "SEAT/CUPRA",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "SEAT/CUPRA",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 625.0,
+            "source_cell_text": "625",
+            "extracted_value": 625,
+            "row_idx": 2,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 404.0,
+            "source_cell_text": "404",
+            "extracted_value": 404,
+            "row_idx": 3,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 423.0,
+            "source_cell_text": "423",
+            "extracted_value": 423,
+            "row_idx": 3,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 15124.0,
+            "source_cell_text": "15124",
+            "extracted_value": 15124,
+            "row_idx": 3,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 15325.0,
+            "source_cell_text": "15325",
+            "extracted_value": 15325,
+            "row_idx": 3,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 743.0,
+            "source_cell_text": "743",
+            "extracted_value": 743,
+            "row_idx": 3,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Commercial Vehicles",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 869.0,
+            "source_cell_text": "869",
+            "extracted_value": 869,
+            "row_idx": 3,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Tech. Components",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Tech. Components",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Tech. Components",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Tech. Components",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Tech. Components",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2064.0,
+            "source_cell_text": "2064 ^5",
+            "extracted_value": 2064,
+            "row_idx": 4,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Tech. Components",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2128.0,
+            "source_cell_text": "2128 ^2",
+            "extracted_value": 2128,
+            "row_idx": 4,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Tech. Components",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 703.0,
+            "source_cell_text": "703",
+            "extracted_value": 703,
+            "row_idx": 4,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Tech. Components",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Tech. Components",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 583.0,
+            "source_cell_text": "583",
+            "extracted_value": 583,
+            "row_idx": 4,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Consolidation",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Consolidation",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -281.0,
+            "source_cell_text": "-281",
+            "extracted_value": -281,
+            "row_idx": 5,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Consolidation",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Consolidation",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -270.0,
+            "source_cell_text": "-270",
+            "extracted_value": -270,
+            "row_idx": 5,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Consolidation",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Consolidation",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -2634.0,
+            "source_cell_text": "-2634 ^5",
+            "extracted_value": -2634,
+            "row_idx": 5,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Consolidation",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Consolidation",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -2608.0,
+            "source_cell_text": "-2608 ^8",
+            "extracted_value": -2608,
+            "row_idx": 5,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Consolidation",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Consolidation",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -11.0,
+            "source_cell_text": "-11",
+            "extracted_value": -11,
+            "row_idx": 5,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Consolidation",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Consolidation",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -121.0,
+            "source_cell_text": "-121",
+            "extracted_value": -121,
+            "row_idx": 5,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4960.0,
+            "source_cell_text": "4960",
+            "extracted_value": 4960,
+            "row_idx": 6,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Core brand group",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4826.0,
+            "source_cell_text": "4826",
+            "extracted_value": 4826,
+            "row_idx": 6,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 140004.0,
+            "source_cell_text": "140004",
+            "extracted_value": 140004,
+            "row_idx": 6,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 137770.0,
+            "source_cell_text": "137770",
+            "extracted_value": 137770,
+            "row_idx": 6,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 6961.0,
+            "source_cell_text": "6961",
+            "extracted_value": 6961,
+            "row_idx": 6,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Core brand group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Core brand group",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 7242.0,
+            "source_cell_text": "7242",
+            "extracted_value": 7242,
+            "row_idx": 6,
+            "col_idx": 6
+          }
+        }
+      ],
+      "summary": {
+        "total": 42,
+        "valid": 42,
+        "invalid": 0,
+        "avg_confidence": 0.9952380952380951
+      }
+    },
+    {
+      "table_id": "VW2024_Tab8f8f",
+      "kpis_validated": [
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Passenger Cars Business Area",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 8702.0,
+            "source_cell_text": "8702",
+            "extracted_value": 8702,
+            "row_idx": 0,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Passenger Cars Business Area",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9023.0,
+            "source_cell_text": "9023",
+            "extracted_value": 9023,
+            "row_idx": 0,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 215371.0,
+            "source_cell_text": "215371",
+            "extracted_value": 215371,
+            "row_idx": 0,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 218380.0,
+            "source_cell_text": "218380",
+            "extracted_value": 218380,
+            "row_idx": 0,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 11389.0,
+            "source_cell_text": "11389",
+            "extracted_value": 11389,
+            "row_idx": 0,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Passenger Cars Business Area",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Passenger Cars Business Area",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 14663.0,
+            "source_cell_text": "14663",
+            "extracted_value": 14663,
+            "row_idx": 0,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Commercial Vehicles Business Area",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 335.0,
+            "source_cell_text": "335",
+            "extracted_value": 335,
+            "row_idx": 1,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Commercial Vehicles Business Area",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 339.0,
+            "source_cell_text": "339",
+            "extracted_value": 339,
+            "row_idx": 1,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 46183.0,
+            "source_cell_text": "46183",
+            "extracted_value": 46183,
+            "row_idx": 1,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 45731.0,
+            "source_cell_text": "45731",
+            "extracted_value": 45731,
+            "row_idx": 1,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4218.0,
+            "source_cell_text": "4218",
+            "extracted_value": 4218,
+            "row_idx": 1,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Commercial Vehicles Business Area",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Commercial Vehicles Business Area",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3714.0,
+            "source_cell_text": "3714",
+            "extracted_value": 3714,
+            "row_idx": 1,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 2,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 2,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4333.0,
+            "source_cell_text": "4333",
+            "extracted_value": 4333,
+            "row_idx": 2,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4044.0,
+            "source_cell_text": "4044",
+            "extracted_value": 4044,
+            "row_idx": 2,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 335.0,
+            "source_cell_text": "335",
+            "extracted_value": 335,
+            "row_idx": 2,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Power Engineering Business Area",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Power Engineering Business Area",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 366.0,
+            "source_cell_text": "366",
+            "extracted_value": 366,
+            "row_idx": 2,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Automotive Division ^2",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Automotive Division ^2",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9037.0,
+            "source_cell_text": "9037",
+            "extracted_value": 9037,
+            "row_idx": 3,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Automotive Division ^2",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Automotive Division ^2",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9362.0,
+            "source_cell_text": "9362",
+            "extracted_value": 9362,
+            "row_idx": 3,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Automotive Division ^2",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 265887.0,
+            "source_cell_text": "265887",
+            "extracted_value": 265887,
+            "row_idx": 3,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Automotive Division ^2",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 268156.0,
+            "source_cell_text": "268156",
+            "extracted_value": 268156,
+            "row_idx": 3,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Automotive Division ^2",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 15941.0,
+            "source_cell_text": "15941",
+            "extracted_value": 15941,
+            "row_idx": 3,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Automotive Division ^2",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Automotive Division ^2",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 18742.0,
+            "source_cell_text": "18742",
+            "extracted_value": 18742,
+            "row_idx": 3,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Financial Services Division",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Financial Services Division",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Financial Services Division",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 58769.0,
+            "source_cell_text": "58769",
+            "extracted_value": 58769,
+            "row_idx": 4,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Financial Services Division",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 54128.0,
+            "source_cell_text": "54128",
+            "extracted_value": 54128,
+            "row_idx": 4,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Financial Services Division",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3119.0,
+            "source_cell_text": "3119",
+            "extracted_value": 3119,
+            "row_idx": 4,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Financial Services Division",
+            "col_name": "OPERATING RESULT 2023 ^1"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3786.0,
+            "source_cell_text": "3786",
+            "extracted_value": 3786,
+            "row_idx": 4,
+            "col_idx": 6
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9037.0,
+            "source_cell_text": "9037",
+            "extracted_value": 9037,
+            "row_idx": 5,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9362.0,
+            "source_cell_text": "9362",
+            "extracted_value": 9362,
+            "row_idx": 5,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 324656.0,
+            "source_cell_text": "324656",
+            "extracted_value": 324656,
+            "row_idx": 5,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 322284.0,
+            "source_cell_text": "322284",
+            "extracted_value": 322284,
+            "row_idx": 5,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 19060.0,
+            "source_cell_text": "19060",
+            "extracted_value": 19060,
+            "row_idx": 5,
+            "col_idx": 5
+          }
+        },
+        {
+          "kpi": {
+            "name": "OPERATING RESULT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Group",
+            "col_name": "OPERATING RESULT 2023 ^8"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 2252.0,
+            "source_cell_text": "2252 ^8",
+            "extracted_value": 2252,
+            "row_idx": 5,
+            "col_idx": 6
+          }
+        }
+      ],
+      "summary": {
+        "total": 36,
+        "valid": 36,
+        "invalid": 0,
+        "avg_confidence": 0.9888888888888889
+      }
+    },
+    {
+      "table_id": "VW2024_T3f91be",
+      "kpis_validated": [
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other Markets",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Europe/Other Markets",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4204.0,
+            "source_cell_text": "4204",
+            "extracted_value": 4204,
+            "row_idx": 0,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other Markets",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Europe/Other Markets",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 4169.0,
+            "source_cell_text": "4169",
+            "extracted_value": 4169,
+            "row_idx": 0,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other Markets",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Europe/Other Markets",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 194145.0,
+            "source_cell_text": "194145",
+            "extracted_value": 194145,
+            "row_idx": 0,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other Markets",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Europe/Other Markets",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 187949.0,
+            "source_cell_text": "187949",
+            "extracted_value": 187949,
+            "row_idx": 0,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "North America",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1080.0,
+            "source_cell_text": "1080",
+            "extracted_value": 1080,
+            "row_idx": 1,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "North America",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 1078.0,
+            "source_cell_text": "1078",
+            "extracted_value": 1078,
+            "row_idx": 1,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "North America",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 67712.0,
+            "source_cell_text": "67712",
+            "extracted_value": 67712,
+            "row_idx": 1,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "North America",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 67908.0,
+            "source_cell_text": "67908",
+            "extracted_value": 67908,
+            "row_idx": 1,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "South America",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 606.0,
+            "source_cell_text": "606",
+            "extracted_value": 606,
+            "row_idx": 2,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "South America",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 513.0,
+            "source_cell_text": "513",
+            "extracted_value": 513,
+            "row_idx": 2,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "South America",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 18962.0,
+            "source_cell_text": "18962",
+            "extracted_value": 18962,
+            "row_idx": 2,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "South America",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 17139.0,
+            "source_cell_text": "17139",
+            "extracted_value": 17139,
+            "row_idx": 2,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific ^1",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3147.0,
+            "source_cell_text": "3147",
+            "extracted_value": 3147,
+            "row_idx": 3,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific ^1",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 3603.0,
+            "source_cell_text": "3603",
+            "extracted_value": 3603,
+            "row_idx": 3,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific ^1",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 44057.0,
+            "source_cell_text": "44057",
+            "extracted_value": 44057,
+            "row_idx": 3,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific ^1",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Asia-Pacific ^1",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 50109.0,
+            "source_cell_text": "50109",
+            "extracted_value": 50109,
+            "row_idx": 3,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Hedges on sales revenue",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Hedges on sales revenue",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 0.9,
+            "errors": [
+              "Both values are null (cell text: '–')"
+            ],
+            "source_cell_value": null,
+            "source_cell_text": "–",
+            "extracted_value": null,
+            "row_idx": 4,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Hedges on sales revenue",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -219.0,
+            "source_cell_text": "-219",
+            "extracted_value": -219,
+            "row_idx": 4,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Hedges on sales revenue",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Hedges on sales revenue",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": -821.0,
+            "source_cell_text": "-821",
+            "extracted_value": -821,
+            "row_idx": 4,
+            "col_idx": 4
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group ^1",
+            "units": "Thousand vehicles",
+            "year": 2024,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "VEHICLE SALES 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9037.0,
+            "source_cell_text": "9037",
+            "extracted_value": 9037,
+            "row_idx": 5,
+            "col_idx": 1
+          }
+        },
+        {
+          "kpi": {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group ^1",
+            "units": "Thousand vehicles",
+            "year": 2023,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "VEHICLE SALES 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 9362.0,
+            "source_cell_text": "9362",
+            "extracted_value": 9362,
+            "row_idx": 5,
+            "col_idx": 2
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group ^1",
+            "units": "€ million",
+            "year": 2024,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "SALES REVENUE 2024"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 324656.0,
+            "source_cell_text": "324656",
+            "extracted_value": 324656,
+            "row_idx": 5,
+            "col_idx": 3
+          }
+        },
+        {
+          "kpi": {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group ^1",
+            "units": "€ million",
+            "year": 2023,
+            "row_name": "Volkswagen Group ^1",
+            "col_name": "SALES REVENUE 2023"
+          },
+          "validation": {
+            "is_valid": true,
+            "confidence": 1.0,
+            "errors": [],
+            "source_cell_value": 322284.0,
+            "source_cell_text": "322284",
+            "extracted_value": 322284,
+            "row_idx": 5,
+            "col_idx": 4
+          }
+        }
+      ],
+      "summary": {
+        "total": 24,
+        "valid": 24,
+        "invalid": 0,
+        "avg_confidence": 0.9916666666666667
+      }
+    }
+  ]
+}

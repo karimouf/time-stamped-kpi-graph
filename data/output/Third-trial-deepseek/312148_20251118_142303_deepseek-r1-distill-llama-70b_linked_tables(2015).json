@@ -1,0 +1,5466 @@
+{
+  "metadata": {
+    "model": "deepseek-r1-distill-llama-70b",
+    "input_file": "/ukp-storage-1/ouf/kpi_extraction_project/data/tables/linked_tables(2015).jsonl",
+    "extraction_timestamp": "2025-11-18T16:02:48.347981",
+    "num_tables_processed": 25,
+    "temperature": 0.1,
+    "job_id": "312148"
+  },
+  "tables": [
+    {
+      "table_id": "VW2015_T4e9153",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "Divisions",
+      "title": "Volkswagen Group",
+      "extraction_timestamp": "2025-11-18T14:33:31.780814",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 0
+      }
+    },
+    {
+      "table_id": "VW2015_T19a389",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "VOLKSWAGEN GROUP",
+      "title": "Key Figures by brand and business field ^1",
+      "extraction_timestamp": "2025-11-18T14:59:13.225938",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "value": 4424,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Thousand vehicles",
+            "value": 4583,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 106240,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 99764,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 70939,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 68396,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 2102,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 2476,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Audi",
+            "units": "Thousand vehicles",
+            "value": 1529,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Audi",
+            "units": "Thousand vehicles",
+            "value": 1444,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Audi",
+            "units": "€ million",
+            "value": 58420,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Audi",
+            "units": "€ million",
+            "value": 53787,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Audi",
+            "units": "€ million",
+            "value": 37605,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Audi",
+            "units": "€ million",
+            "value": 36105,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Audi",
+            "units": "€ million",
+            "value": 5134,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Audi",
+            "units": "€ million",
+            "value": 5150,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "ŠKODA",
+            "units": "Thousand vehicles",
+            "value": 800,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "ŠKODA",
+            "units": "Thousand vehicles",
+            "value": 796,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 12486,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 11758,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 6128,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 6144,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 915,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 817,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "SEAT",
+            "units": "Thousand vehicles",
+            "value": 544,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "SEAT",
+            "units": "Thousand vehicles",
+            "value": 501,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 8572,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 7699,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 3570,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 3412,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": -10,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": -127,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Bentley",
+            "units": "Thousand vehicles",
+            "value": 11,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Bentley",
+            "units": "Thousand vehicles",
+            "value": 11,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1936,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1746,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1379,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1175,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 110,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 170,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Porsche ^2",
+            "units": "Thousand vehicles",
+            "value": 219,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Porsche ^2",
+            "units": "Thousand vehicles",
+            "value": 187,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Porsche ^2",
+            "units": "€ million",
+            "value": 2153,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Porsche ^2",
+            "units": "€ million",
+            "value": 17205,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Porsche ^2",
+            "units": "€ million",
+            "value": 19663,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Porsche ^2",
+            "units": "€ million",
+            "value": 15727,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Porsche ^2",
+            "units": "€ million",
+            "value": 3404,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Porsche ^2",
+            "units": "€ million",
+            "value": 2718,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 456,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "Thousand vehicles",
+            "value": 442,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 10341,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 9577,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 4813,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 4826,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 382,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 504,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Scania ^2",
+            "units": "Thousand vehicles",
+            "value": 78,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Scania ^2",
+            "units": "Thousand vehicles",
+            "value": 80,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Scania ^2",
+            "units": "€ million",
+            "value": 10479,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Scania ^2",
+            "units": "€ million",
+            "value": 10381,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Scania ^2",
+            "units": "€ million",
+            "value": 10479,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Scania ^2",
+            "units": "€ million",
+            "value": 10381,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Scania ^2",
+            "units": "€ million",
+            "value": 1027,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Scania ^2",
+            "units": "€ million",
+            "value": 955,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "MAN",
+            "units": "Thousand vehicles",
+            "value": 102,
+            "year": 2015,
+            "row_idx": 8,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "MAN",
+            "units": "Thousand vehicles",
+            "value": 120,
+            "year": 2014,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 13702,
+            "year": 2015,
+            "row_idx": 8,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 14286,
+            "year": 2014,
+            "row_idx": 8,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 13468,
+            "year": 2015,
+            "row_idx": 8,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 14092,
+            "year": 2014,
+            "row_idx": 8,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 277,
+            "year": 2015,
+            "row_idx": 8,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 384,
+            "year": 2014,
+            "row_idx": 8,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "VW China ^3",
+            "units": "Thousand vehicles",
+            "value": 3456,
+            "year": 2015,
+            "row_idx": 9,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "VW China ^3",
+            "units": "Thousand vehicles",
+            "value": 3506,
+            "year": 2014,
+            "row_idx": 9,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "VW China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2015,
+            "row_idx": 9,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "VW China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 9,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "VW China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2015,
+            "row_idx": 9,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "VW China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 9,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "VW China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2015,
+            "row_idx": 9,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "VW China ^3",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 9,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Other",
+            "units": "Thousand vehicles",
+            "value": -1608,
+            "year": 2015,
+            "row_idx": 10,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Other",
+            "units": "Thousand vehicles",
+            "value": -1454,
+            "year": 2014,
+            "row_idx": 10,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Other",
+            "units": "€ million",
+            "value": -56318,
+            "year": 2015,
+            "row_idx": 10,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Other",
+            "units": "€ million",
+            "value": -45885,
+            "year": 2014,
+            "row_idx": 10,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Other",
+            "units": "€ million",
+            "value": 2192,
+            "year": 2015,
+            "row_idx": 10,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Other",
+            "units": "€ million",
+            "value": 2212,
+            "year": 2014,
+            "row_idx": 10,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Other",
+            "units": "€ million",
+            "value": -24374,
+            "year": 2015,
+            "row_idx": 10,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Other",
+            "units": "€ million",
+            "value": -20524,
+            "year": 2014,
+            "row_idx": 10,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Financial Services",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2015,
+            "row_idx": 11,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Financial Services",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2014,
+            "row_idx": 11,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 2590,
+            "year": 2015,
+            "row_idx": 11,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 2213,
+            "year": 2014,
+            "row_idx": 11,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 2332,
+            "year": 2015,
+            "row_idx": 11,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 2007,
+            "year": 2014,
+            "row_idx": 11,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 1921,
+            "year": 2015,
+            "row_idx": 11,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Financial Services",
+            "units": "€ million",
+            "value": 1702,
+            "year": 2014,
+            "row_idx": 11,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group before special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2015,
+            "row_idx": 12,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group before special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2014,
+            "row_idx": 12,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2015,
+            "row_idx": 12,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 12,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2015,
+            "row_idx": 12,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 12,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": 12824,
+            "year": 2015,
+            "row_idx": 12,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Group before special items",
+            "units": "€ million",
+            "value": 12697,
+            "year": 2014,
+            "row_idx": 12,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2015,
+            "row_idx": 13,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Special items",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2014,
+            "row_idx": 13,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2015,
+            "row_idx": 13,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 13,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2015,
+            "row_idx": 13,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 13,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Special items",
+            "units": "€ million",
+            "value": -16893,
+            "year": 2015,
+            "row_idx": 13,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Special items",
+            "units": "€ million",
+            "value": null,
+            "year": 2014,
+            "row_idx": 13,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 10010,
+            "year": 2015,
+            "row_idx": 14,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 10217,
+            "year": 2014,
+            "row_idx": 14,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 213292,
+            "year": 2015,
+            "row_idx": 14,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 202458,
+            "year": 2014,
+            "row_idx": 14,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 213292,
+            "year": 2015,
+            "row_idx": 14,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 202458,
+            "year": 2014,
+            "row_idx": 14,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": -4069,
+            "year": 2015,
+            "row_idx": 14,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 12697,
+            "year": 2014,
+            "row_idx": 14,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Automotive Division ^5",
+            "units": "Thousand vehicles",
+            "value": 10010,
+            "year": 2015,
+            "row_idx": 15,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Automotive Division ^5",
+            "units": "Thousand vehicles",
+            "value": 10217,
+            "year": 2014,
+            "row_idx": 15,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Automotive Division ^5",
+            "units": "€ million",
+            "value": 183936,
+            "year": 2015,
+            "row_idx": 15,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Automotive Division ^5",
+            "units": "€ million",
+            "value": 177538,
+            "year": 2014,
+            "row_idx": 15,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Automotive Division ^5",
+            "units": "€ million",
+            "value": 186869,
+            "year": 2015,
+            "row_idx": 15,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Automotive Division ^5",
+            "units": "€ million",
+            "value": 179864,
+            "year": 2014,
+            "row_idx": 15,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Automotive Division ^5",
+            "units": "€ million",
+            "value": -6305,
+            "year": 2015,
+            "row_idx": 15,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Automotive Division ^5",
+            "units": "€ million",
+            "value": 10780,
+            "year": 2014,
+            "row_idx": 15,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "Thousand vehicles",
+            "value": 9374,
+            "year": 2015,
+            "row_idx": 16,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "Thousand vehicles",
+            "value": 9575,
+            "year": 2014,
+            "row_idx": 16,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 149716,
+            "year": 2015,
+            "row_idx": 16,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 143601,
+            "year": 2014,
+            "row_idx": 16,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 158716,
+            "year": 2015,
+            "row_idx": 16,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 151138,
+            "year": 2014,
+            "row_idx": 16,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "€ million",
+            "value": -7013,
+            "year": 2015,
+            "row_idx": 16,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "of which: Passenger Cars Business Area",
+            "units": "€ million",
+            "value": 9835,
+            "year": 2014,
+            "row_idx": 16,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "value": 636,
+            "year": 2015,
+            "row_idx": 17,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "Thousand vehicles",
+            "value": 642,
+            "year": 2014,
+            "row_idx": 17,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "€ million",
+            "value": 34220,
+            "year": 2015,
+            "row_idx": 17,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "€ million",
+            "value": 33937,
+            "year": 2014,
+            "row_idx": 17,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "€ million",
+            "value": 2815,
+            "year": 2015,
+            "row_idx": 17,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "€ million",
+            "value": 2872,
+            "year": 2014,
+            "row_idx": 17,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "€ million",
+            "value": 709,
+            "year": 2015,
+            "row_idx": 17,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Commercial Vehicles/ Power Engineering Business Area",
+            "units": "€ million",
+            "value": 945,
+            "year": 2014,
+            "row_idx": 17,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2015,
+            "row_idx": 18,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Financial Services Division",
+            "units": "Thousand vehicles",
+            "value": null,
+            "year": 2014,
+            "row_idx": 18,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 2935,
+            "year": 2015,
+            "row_idx": 18,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 2492,
+            "year": 2014,
+            "row_idx": 18,
+            "col_idx": 4,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 2642,
+            "year": 2015,
+            "row_idx": 18,
+            "col_idx": 5,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES TO THIRD PARTIES",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 2259,
+            "year": 2014,
+            "row_idx": 18,
+            "col_idx": 6,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 2236,
+            "year": 2015,
+            "row_idx": 18,
+            "col_idx": 7,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "OPERATING PROFIT",
+            "key": "Financial Services Division",
+            "units": "€ million",
+            "value": 1917,
+            "year": 2014,
+            "row_idx": 18,
+            "col_idx": 8,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 152
+      }
+    },
+    {
+      "table_id": "VW2015_Taf759f",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "KEY FIGURES BY MARKET 1",
+      "title": "Key Figures by market ^1",
+      "extraction_timestamp": "2025-11-18T15:02:29.692065",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other markets",
+            "units": "Thousand vehicles",
+            "value": 4524,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Europe/Other markets",
+            "units": "Thousand vehicles",
+            "value": 4430.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other markets",
+            "units": "€ million",
+            "value": 132535,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Europe/Other markets",
+            "units": "€ million",
+            "value": 122858.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "value": 941,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "North America",
+            "units": "Thousand vehicles",
+            "value": 879.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "value": 35384,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "North America",
+            "units": "€ million",
+            "value": 2761,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "value": 540,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "South America",
+            "units": "Thousand vehicles",
+            "value": 794.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "value": 10148,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "South America",
+            "units": "€ million",
+            "value": 13868.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific",
+            "units": "Thousand vehicles",
+            "value": 4005,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Asia-Pacific",
+            "units": "Thousand vehicles",
+            "value": 4114.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific",
+            "units": "€ million",
+            "value": 35225,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Asia-Pacific",
+            "units": "€ million",
+            "value": 38113.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 10010,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "VEHICLE SALES",
+            "key": "Volkswagen Group",
+            "units": "Thousand vehicles",
+            "value": 10217.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 213292,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "SALES REVENUE",
+            "key": "Volkswagen Group",
+            "units": "€ million",
+            "value": 202458.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 20
+      }
+    },
+    {
+      "table_id": "VW2015_T09e057",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND",
+      "title": "Volkswagen Passenger Cars – Production",
+      "extraction_timestamp": "2025-11-18T15:09:11.020969",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Golf",
+            "units": "Units",
+            "value": 1095553.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Golf",
+            "units": "Units",
+            "value": 1011124.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Jetta/Sagitar",
+            "units": "Units",
+            "value": 844907.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Jetta/Sagitar",
+            "units": "Units",
+            "value": 926277.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Polo",
+            "units": "Units",
+            "value": 754546.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Polo",
+            "units": "Units",
+            "value": 753754.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Passat/Magotan",
+            "units": "Units",
+            "value": 724018.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Passat/Magotan",
+            "units": "Units",
+            "value": 747583.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Tiguan",
+            "units": "Units",
+            "value": 501712.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Tiguan",
+            "units": "Units",
+            "value": 515349.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Lavida",
+            "units": "Units",
+            "value": 462748.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Lavida",
+            "units": "Units",
+            "value": 481740.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Santana",
+            "units": "Units",
+            "value": 279583.0,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Santana",
+            "units": "Units",
+            "value": 295485.0,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Bora",
+            "units": "Units",
+            "value": 202964.0,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Bora",
+            "units": "Units",
+            "value": 226006.0,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Gol",
+            "units": "Units",
+            "value": 192841.0,
+            "year": 2015,
+            "row_idx": 8,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Gol",
+            "units": "Units",
+            "value": 300629.0,
+            "year": 2014,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "up!",
+            "units": "Units",
+            "value": 172345.0,
+            "year": 2015,
+            "row_idx": 9,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "up!",
+            "units": "Units",
+            "value": 217278.0,
+            "year": 2014,
+            "row_idx": 9,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Touran",
+            "units": "Units",
+            "value": 120507.0,
+            "year": 2015,
+            "row_idx": 10,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Touran",
+            "units": "Units",
+            "value": 126567.0,
+            "year": 2014,
+            "row_idx": 10,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Lamando",
+            "units": "Units",
+            "value": 103573.0,
+            "year": 2015,
+            "row_idx": 11,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Lamando",
+            "units": "Units",
+            "value": 3080.0,
+            "year": 2014,
+            "row_idx": 11,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Fox",
+            "units": "Units",
+            "value": 85161.0,
+            "year": 2015,
+            "row_idx": 12,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Fox",
+            "units": "Units",
+            "value": 106991.0,
+            "year": 2014,
+            "row_idx": 12,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Saveiro",
+            "units": "Units",
+            "value": 75397.0,
+            "year": 2015,
+            "row_idx": 13,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Saveiro",
+            "units": "Units",
+            "value": 96420.0,
+            "year": 2014,
+            "row_idx": 13,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Beetle",
+            "units": "Units",
+            "value": 64035.0,
+            "year": 2015,
+            "row_idx": 14,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Beetle",
+            "units": "Units",
+            "value": 91464.0,
+            "year": 2014,
+            "row_idx": 14,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Touareg",
+            "units": "Units",
+            "value": 59190.0,
+            "year": 2015,
+            "row_idx": 15,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Touareg",
+            "units": "Units",
+            "value": 63741.0,
+            "year": 2014,
+            "row_idx": 15,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "CC",
+            "units": "Units",
+            "value": 56796.0,
+            "year": 2015,
+            "row_idx": 16,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "CC",
+            "units": "Units",
+            "value": 85591.0,
+            "year": 2014,
+            "row_idx": 16,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Sharan",
+            "units": "Units",
+            "value": 53423.0,
+            "year": 2015,
+            "row_idx": 17,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Sharan",
+            "units": "Units",
+            "value": 49498.0,
+            "year": 2014,
+            "row_idx": 17,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Suran",
+            "units": "Units",
+            "value": 2469.0,
+            "year": 2015,
+            "row_idx": 18,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Suran",
+            "units": "Units",
+            "value": 2333.0,
+            "year": 2014,
+            "row_idx": 18,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Scirocco",
+            "units": "Units",
+            "value": 16251.0,
+            "year": 2015,
+            "row_idx": 19,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Scirocco",
+            "units": "Units",
+            "value": 2357.0,
+            "year": 2014,
+            "row_idx": 19,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Eos",
+            "units": "Units",
+            "value": 4559.0,
+            "year": 2015,
+            "row_idx": 20,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Eos",
+            "units": "Units",
+            "value": 6567.0,
+            "year": 2014,
+            "row_idx": 20,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Phaeton",
+            "units": "Units",
+            "value": 2924.0,
+            "year": 2015,
+            "row_idx": 21,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Phaeton",
+            "units": "Units",
+            "value": 4061.0,
+            "year": 2014,
+            "row_idx": 21,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "XL1",
+            "units": "Units",
+            "value": 59.0,
+            "year": 2015,
+            "row_idx": 22,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "XL1",
+            "units": "Units",
+            "value": 106.0,
+            "year": 2014,
+            "row_idx": 22,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total Production",
+            "units": "Units",
+            "value": 5897783.0,
+            "year": 2015,
+            "row_idx": 23,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total Production",
+            "units": "Units",
+            "value": 6156216.0,
+            "year": 2014,
+            "row_idx": 23,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 48
+      }
+    },
+    {
+      "table_id": "VW2015_T219190",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND VOLKSWAGEN PASSENGER CARS BRAND",
+      "title": "Volkswagen Passenger Cars – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:10:53.549874",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Volkswagen Passenger Cars",
+            "units": "thousand units",
+            "value": 5823.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 4424.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Volkswagen Passenger Cars",
+            "units": "units",
+            "value": 5898.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 106240.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Volkswagen Passenger Cars",
+            "units": "€ million",
+            "value": 2102.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "Volkswagen Passenger Cars",
+            "units": "%",
+            "value": null,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2015_T79d8d7",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "AUDI BRAND AUDI BRAND AUDI BRAND AUDI BRAND",
+      "title": "Audi – Production",
+      "extraction_timestamp": "2025-11-18T15:17:21.024023",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "A3",
+            "key": "A3 - Audi",
+            "units": "Units",
+            "value": 370144.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A3",
+            "key": "A3 - Audi",
+            "units": "Units",
+            "value": 351526.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A4",
+            "key": "A4 - Audi",
+            "units": "Units",
+            "value": 318788.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A4",
+            "key": "A4 - Audi",
+            "units": "Units",
+            "value": 328465.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A6",
+            "key": "A6 - Audi",
+            "units": "Units",
+            "value": 293960.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A6",
+            "key": "A6 - Audi",
+            "units": "Units",
+            "value": 307693.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q5",
+            "key": "Q5 - Audi",
+            "units": "Units",
+            "value": 267861.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q5",
+            "key": "Q5 - Audi",
+            "units": "Units",
+            "value": 260853.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q3",
+            "key": "Q3 - Audi",
+            "units": "Units",
+            "value": 205445.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q3",
+            "key": "Q3 - Audi",
+            "units": "Units",
+            "value": 200097.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A1",
+            "key": "A1 - Audi",
+            "units": "Units",
+            "value": 116250.0,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A1",
+            "key": "A1 - Audi",
+            "units": "Units",
+            "value": 115377.0,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q7",
+            "key": "Q7 - Audi",
+            "units": "Units",
+            "value": 82340.0,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q7",
+            "key": "Q7 - Audi",
+            "units": "Units",
+            "value": 61012.0,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A5",
+            "key": "A5 - Audi",
+            "units": "Units",
+            "value": 79133.0,
+            "year": 2015,
+            "row_idx": 8,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A5",
+            "key": "A5 - Audi",
+            "units": "Units",
+            "value": 88545.0,
+            "year": 2014,
+            "row_idx": 8,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "TT",
+            "key": "TT - Audi",
+            "units": "Units",
+            "value": 35510.0,
+            "year": 2015,
+            "row_idx": 9,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "TT",
+            "key": "TT - Audi",
+            "units": "Units",
+            "value": 17621.0,
+            "year": 2014,
+            "row_idx": 9,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A7",
+            "key": "A7 - Audi",
+            "units": "Units",
+            "value": 2915.0,
+            "year": 2015,
+            "row_idx": 10,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A7",
+            "key": "A7 - Audi",
+            "units": "Units",
+            "value": 2770.0,
+            "year": 2014,
+            "row_idx": 10,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A8",
+            "key": "A8 - Audi",
+            "units": "Units",
+            "value": 2706.0,
+            "year": 2015,
+            "row_idx": 11,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "A8",
+            "key": "A8 - Audi",
+            "units": "Units",
+            "value": 39557.0,
+            "year": 2014,
+            "row_idx": 11,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "R8",
+            "key": "R8 - Audi",
+            "units": "Units",
+            "value": 2074.0,
+            "year": 2015,
+            "row_idx": 12,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "R8",
+            "key": "R8 - Audi",
+            "units": "Units",
+            "value": 2169.0,
+            "year": 2014,
+            "row_idx": 12,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q2",
+            "key": "Q2 - Audi",
+            "units": "Units",
+            "value": 67.0,
+            "year": 2015,
+            "row_idx": 13,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Q2",
+            "key": "Q2 - Audi",
+            "units": "Units",
+            "value": null,
+            "year": 2014,
+            "row_idx": 13,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Audi Production",
+            "key": "Audi",
+            "units": "Units",
+            "value": 1827795.0,
+            "year": 2015,
+            "row_idx": 14,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Audi Production",
+            "key": "Audi",
+            "units": "Units",
+            "value": 1800624.0,
+            "year": 2014,
+            "row_idx": 14,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Coupé",
+            "key": "Huracán Coupé - Lamborghini",
+            "units": "Units",
+            "value": 2559.0,
+            "year": 2015,
+            "row_idx": 16,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Coupé",
+            "key": "Huracán Coupé - Lamborghini",
+            "units": "Units",
+            "value": 1540.0,
+            "year": 2014,
+            "row_idx": 16,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Coupé",
+            "key": "Aventador Coupé - Lamborghini",
+            "units": "Units",
+            "value": 666.0,
+            "year": 2015,
+            "row_idx": 17,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Coupé",
+            "key": "Aventador Coupé - Lamborghini",
+            "units": "Units",
+            "value": 456.0,
+            "year": 2014,
+            "row_idx": 17,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Roadster",
+            "key": "Aventador Roadster - Lamborghini",
+            "units": "Units",
+            "value": 413.0,
+            "year": 2015,
+            "row_idx": 18,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Aventador Roadster",
+            "key": "Aventador Roadster - Lamborghini",
+            "units": "Units",
+            "value": 654.0,
+            "year": 2014,
+            "row_idx": 18,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Roadster",
+            "key": "Huracán Roadster - Lamborghini",
+            "units": "Units",
+            "value": 69.0,
+            "year": 2015,
+            "row_idx": 19,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Huracán Roadster",
+            "key": "Huracán Roadster - Lamborghini",
+            "units": "Units",
+            "value": null,
+            "year": 2014,
+            "row_idx": 19,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Lamborghini Production",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 3707.0,
+            "year": 2015,
+            "row_idx": 20,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Lamborghini Production",
+            "key": "Lamborghini",
+            "units": "Units",
+            "value": 2650.0,
+            "year": 2014,
+            "row_idx": 20,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi Brand Total",
+            "key": "Audi brand",
+            "units": "Units",
+            "value": 1831502.0,
+            "year": 2015,
+            "row_idx": 21,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi Brand Total",
+            "key": "Audi brand",
+            "units": "Units",
+            "value": 1803274.0,
+            "year": 2014,
+            "row_idx": 21,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Ducati Motorcycles",
+            "key": "Ducati, motorcycles",
+            "units": "Units",
+            "value": 55551.0,
+            "year": 2015,
+            "row_idx": 22,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Ducati Motorcycles",
+            "key": "Ducati, motorcycles",
+            "units": "Units",
+            "value": 45339.0,
+            "year": 2014,
+            "row_idx": 22,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 42
+      }
+    },
+    {
+      "table_id": "VW2015_Tdd9d71",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "AUDI BRAND AUDI BRAND AUDI BRAND AUDI BRAND",
+      "title": "Audi – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:21:11.375983",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Audi Brand",
+            "units": "thousand units",
+            "value": 1806.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Audi Brand",
+            "units": "thousand units",
+            "value": 1744.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Audi Brand",
+            "units": "%",
+            "value": 3.6,
+            "year": null,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi",
+            "key": "Deliveries",
+            "units": "thousand units",
+            "value": 1803.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi",
+            "key": "Deliveries",
+            "units": "thousand units",
+            "value": 1741.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Audi",
+            "key": "Deliveries",
+            "units": "%",
+            "value": 3.6,
+            "year": null,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamborghini",
+            "key": "Deliveries",
+            "units": "thousand units",
+            "value": 3.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamborghini",
+            "key": "Deliveries",
+            "units": "thousand units",
+            "value": 3.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lamborghini",
+            "key": "Deliveries",
+            "units": "%",
+            "value": 28.3,
+            "year": null,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Audi Brand",
+            "units": "thousand units",
+            "value": 1529.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Audi Brand",
+            "units": "thousand units",
+            "value": 1444.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Audi Brand",
+            "units": "%",
+            "value": 5.9,
+            "year": null,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Audi Brand",
+            "units": "thousand units",
+            "value": 1832.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Audi Brand",
+            "units": "thousand units",
+            "value": 1803.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Audi Brand",
+            "units": "%",
+            "value": 1.6,
+            "year": null,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Audi Brand",
+            "units": "€ million",
+            "value": 58420.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Audi Brand",
+            "units": "€ million",
+            "value": 53787.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Audi Brand",
+            "units": "%",
+            "value": 8.6,
+            "year": null,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Audi Brand",
+            "units": "€ million",
+            "value": 5134.0,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Audi Brand",
+            "units": "€ million",
+            "value": 5150.0,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Audi Brand",
+            "units": "%",
+            "value": -0.3,
+            "year": null,
+            "row_idx": 6,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "Audi Brand",
+            "units": "%",
+            "value": 8.8,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "Audi Brand",
+            "units": "%",
+            "value": 9.6,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "Audi Brand",
+            "units": "",
+            "value": null,
+            "year": null,
+            "row_idx": 7,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 24
+      }
+    },
+    {
+      "table_id": "VW2015_T321e09",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "ŠKODA BRAND ŠKODA BRAND",
+      "title": "Škoda – Production",
+      "extraction_timestamp": "2025-11-18T15:23:37.712587",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Octavia",
+            "units": "Units",
+            "value": 425629.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Fabia",
+            "units": "Units",
+            "value": 195349.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Rapid",
+            "units": "Units",
+            "value": 189187.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Yeti",
+            "units": "Units",
+            "value": 89890.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Superb",
+            "units": "Units",
+            "value": 84550.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Citigo",
+            "units": "Units",
+            "value": 41280.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Roomster",
+            "units": "Units",
+            "value": 11166.0,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 1037051.0,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Octavia",
+            "units": "Units",
+            "value": 397433.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Fabia",
+            "units": "Units",
+            "value": 162954.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Rapid",
+            "units": "Units",
+            "value": 228175.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Yeti",
+            "units": "Units",
+            "value": 107084.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Superb",
+            "units": "Units",
+            "value": 82079.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Citigo",
+            "units": "Units",
+            "value": 41974.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Roomster",
+            "units": "Units",
+            "value": 2998.0,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 1049682.0,
+            "year": 2014,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 16
+      }
+    },
+    {
+      "table_id": "VW2015_Tea5293",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "ŠKODA BRAND ŠKODA BRAND",
+      "title": "Škoda – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:25:24.391867",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries",
+            "key": "ŠKODA",
+            "units": "thousand units",
+            "value": 1056.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "ŠKODA",
+            "units": "N/A",
+            "value": 800.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "ŠKODA",
+            "units": "thousand units",
+            "value": 1037.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 12486.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "ŠKODA",
+            "units": "€ million",
+            "value": 915.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "ŠKODA",
+            "units": "%",
+            "value": 7.3,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2015_Tb40d92",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "SEAT BRAND SEAT BRAND",
+      "title": "SEAT – Production",
+      "extraction_timestamp": "2025-11-18T15:27:23.386314",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Leon",
+            "units": "Units",
+            "value": 169455.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Leon",
+            "units": "Units",
+            "value": 157087.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Ibiza",
+            "units": "Units",
+            "value": 160451.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Ibiza",
+            "units": "Units",
+            "value": 153633.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Altea/Toledo",
+            "units": "Units",
+            "value": 32729.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Altea/Toledo",
+            "units": "Units",
+            "value": 35683.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Alhambra",
+            "units": "Units",
+            "value": 2792.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Alhambra",
+            "units": "Units",
+            "value": 2261.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Mii",
+            "units": "Units",
+            "value": 2451.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Mii",
+            "units": "Units",
+            "value": 2584.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 415076.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 394860.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2015_T25ff48",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "SEAT BRAND SEAT BRAND",
+      "title": "SEAT – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:30:26.997944",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "SEAT",
+            "units": "thousand units",
+            "value": 400.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "SEAT",
+            "units": "thousand units",
+            "value": 391.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "SEAT",
+            "units": "%",
+            "value": 2.4,
+            "year": null,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 544.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 501.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "SEAT",
+            "units": "%",
+            "value": 8.4,
+            "year": null,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "SEAT",
+            "units": "thousand units",
+            "value": 415.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "SEAT",
+            "units": "thousand units",
+            "value": 395.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "SEAT",
+            "units": "%",
+            "value": 5.1,
+            "year": null,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 8572.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": 7699.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "SEAT",
+            "units": "%",
+            "value": 11.3,
+            "year": null,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": -10.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "SEAT",
+            "units": "€ million",
+            "value": -127.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "SEAT",
+            "units": "%",
+            "value": 92,
+            "year": null,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "SEAT",
+            "units": "%",
+            "value": -0.1,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "SEAT",
+            "units": "%",
+            "value": -1.6,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "SEAT",
+            "units": "%",
+            "value": null,
+            "year": null,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 18
+      }
+    },
+    {
+      "table_id": "VW2015_T370dd7",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "BENTLEY BRAND BENTLEY BRAND",
+      "title": "Bentley – Production",
+      "extraction_timestamp": "2025-11-18T15:32:27.252264",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 3997.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 3442,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 3660.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 4556,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 2216.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 2151,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 919.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 884,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 96.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": null,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 10888.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units",
+            "key": "Bentley",
+            "units": "N/A",
+            "value": 11033,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2015_T7b0ff5",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "BENTLEY BRAND BENTLEY BRAND",
+      "title": "Bentley – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:34:42.713274",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (units)",
+            "key": "Bentley",
+            "units": "units",
+            "value": 10100.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries (units)",
+            "key": "Bentley",
+            "units": "units",
+            "value": 11020.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Bentley",
+            "units": "units",
+            "value": 10616.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Bentley",
+            "units": "units",
+            "value": 10930.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Bentley",
+            "units": "units",
+            "value": 10888.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Bentley",
+            "units": "units",
+            "value": 11033.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1936.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 1746.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 110.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Bentley",
+            "units": "€ million",
+            "value": 170.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "Bentley",
+            "units": "%",
+            "value": 5.7,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "Bentley",
+            "units": "%",
+            "value": 9.7,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2015_T704982",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "PORSCHE BRAND PORSCHE BRAND",
+      "title": "Porsche – Production",
+      "extraction_timestamp": "2025-11-18T15:36:55.993261",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Macan",
+            "units": "Units",
+            "value": 86016.0,
+            "year": 2015.0,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Macan",
+            "units": "Units",
+            "value": 59363.0,
+            "year": 2014.0,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Cayenne",
+            "units": "Units",
+            "value": 79700.0,
+            "year": 2015.0,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Cayenne",
+            "units": "Units",
+            "value": 66005.0,
+            "year": 2014.0,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Boxster/Cayman",
+            "units": "Units",
+            "value": 2197.0,
+            "year": 2015.0,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Boxster/Cayman",
+            "units": "Units",
+            "value": 2321.0,
+            "year": 2014.0,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Panamera",
+            "units": "Units",
+            "value": 15055.0,
+            "year": 2015.0,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Panamera",
+            "units": "Units",
+            "value": 2238.0,
+            "year": 2014.0,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 234497.0,
+            "year": 2015.0,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "",
+            "units": "Units",
+            "value": 203097.0,
+            "year": 2014.0,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 10
+      }
+    },
+    {
+      "table_id": "VW2015_Ta58de3",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "PORSCHE BRAND PORSCHE BRAND",
+      "title": "Porsche – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:39:50.510126",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries",
+            "key": "thousand units",
+            "units": "thousand units",
+            "value": 225.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "thousand units",
+            "units": "thousand units",
+            "value": 190.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "thousand units",
+            "units": "%",
+            "value": 18.6,
+            "year": null,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": null,
+            "units": null,
+            "value": 219.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": null,
+            "units": null,
+            "value": 187.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": null,
+            "units": "%",
+            "value": 17,
+            "year": null,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": null,
+            "units": null,
+            "value": 234.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": null,
+            "units": null,
+            "value": 203.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": null,
+            "units": "%",
+            "value": 15.5,
+            "year": null,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 2153.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 17205.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "%",
+            "value": 25.2,
+            "year": null,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": null,
+            "units": null,
+            "value": 3404.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": null,
+            "units": null,
+            "value": 2718.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": null,
+            "units": "%",
+            "value": 25.2,
+            "year": null,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": null,
+            "units": "%",
+            "value": 15.8,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": null,
+            "units": "%",
+            "value": 15.8,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": null,
+            "units": "",
+            "value": null,
+            "year": null,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 18
+      }
+    },
+    {
+      "table_id": "VW2015_Tb49406",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
+      "title": "Volkswagen Commercial Vehicles – Production",
+      "extraction_timestamp": "2025-11-18T15:41:55.641086",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Production",
+            "key": "Caravelle/Multivan, Kombi",
+            "units": "Units",
+            "value": 96341.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caravelle/Multivan, Kombi",
+            "units": "Units",
+            "value": 94336.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Transporter",
+            "units": "Units",
+            "value": 82509.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Transporter",
+            "units": "Units",
+            "value": 83947.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Amarok",
+            "units": "Units",
+            "value": 81019.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Amarok",
+            "units": "Units",
+            "value": 69695.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy",
+            "units": "Units",
+            "value": 76048.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy",
+            "units": "Units",
+            "value": 71535.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy Kombi",
+            "units": "Units",
+            "value": 74302.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Caddy Kombi",
+            "units": "Units",
+            "value": 76564.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 410219.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Total",
+            "units": "Units",
+            "value": 396077.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 12
+      }
+    },
+    {
+      "table_id": "VW2015_Tb99596",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
+      "title": "Volkswagen Commercial Vehicles – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:43:30.469684",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries (thousand units)",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "thousand units",
+            "value": 431.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "units",
+            "value": 456.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "thousand units",
+            "value": 410.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 10341.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "€ million",
+            "value": 382.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "Volkswagen Commercial Vehicles",
+            "units": "N/A",
+            "value": 3.7,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2015_Tb1224f",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "SCANIA BRAND SCANIA BRAND",
+      "title": "Scania – Production",
+      "extraction_timestamp": "2025-11-18T15:45:08.079689",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Trucks",
+            "key": "Production",
+            "units": "Units",
+            "value": 72382.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Trucks",
+            "key": "Production",
+            "units": "Units",
+            "value": 75287.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Production",
+            "units": "Units",
+            "value": 6964.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Production",
+            "units": "Units",
+            "value": 6921.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Production",
+            "key": "Production",
+            "units": "Units",
+            "value": 79346.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Production",
+            "key": "Production",
+            "units": "Units",
+            "value": 82208.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2015_Te9a16c",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "SCANIA BRAND SCANIA BRAND",
+      "title": "Scania – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:48:22.736357",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Orders received",
+            "key": "thousand units",
+            "units": "thousand units",
+            "value": 77.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Orders received",
+            "key": "thousand units",
+            "units": "thousand units",
+            "value": 83.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Orders received",
+            "key": "%",
+            "units": "N/A",
+            "value": -7.1,
+            "year": null,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "units",
+            "units": "units",
+            "value": 77.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "units",
+            "units": "units",
+            "value": 80.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "%",
+            "units": "N/A",
+            "value": -4.0,
+            "year": null,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "units",
+            "units": "units",
+            "value": 78.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "units",
+            "units": "units",
+            "value": 80.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "%",
+            "units": "N/A",
+            "value": -2.7,
+            "year": null,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "units",
+            "units": "units",
+            "value": 79.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "units",
+            "units": "units",
+            "value": 82.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "%",
+            "units": "N/A",
+            "value": -3.5,
+            "year": null,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 10479.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "€ million",
+            "units": "€ million",
+            "value": 10381.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue",
+            "key": "%",
+            "units": "N/A",
+            "value": 0.9,
+            "year": null,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "units",
+            "units": "units",
+            "value": 1027.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "units",
+            "units": "units",
+            "value": 955.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "%",
+            "units": "N/A",
+            "value": 7.5,
+            "year": null,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "%",
+            "units": "N/A",
+            "value": 9.8,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "%",
+            "units": "N/A",
+            "value": 9.2,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "%",
+            "units": "N/A",
+            "value": null,
+            "year": null,
+            "row_idx": 6,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 21
+      }
+    },
+    {
+      "table_id": "VW2015_T9330cf",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "MAN BRAND MAN BRAND",
+      "title": "MAN – Production",
+      "extraction_timestamp": "2025-11-18T15:49:55.944374",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Trucks",
+            "key": "Trucks_2015",
+            "units": "Units",
+            "value": 90581.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Trucks",
+            "key": "Trucks_2014",
+            "units": "Units",
+            "value": 104412.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Buses_2015",
+            "units": "Units",
+            "value": 10244.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Buses",
+            "key": "Buses_2014",
+            "units": "Units",
+            "value": 11660.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Units",
+            "key": "Total_2015",
+            "units": "Units",
+            "value": 100825.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total Units",
+            "key": "Total_2014",
+            "units": "Units",
+            "value": 116072.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 6
+      }
+    },
+    {
+      "table_id": "VW2015_Tdb039f",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "MAN BRAND MAN BRAND",
+      "title": "MAN – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:53:26.155282",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Orders received (thousand units)",
+            "key": "MAN",
+            "units": "thousand units",
+            "value": 108.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Orders received (thousand units)",
+            "key": "MAN",
+            "units": "thousand units",
+            "value": 122.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Orders received (thousand units)",
+            "key": "MAN",
+            "units": "%",
+            "value": -11.7,
+            "year": null,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "MAN",
+            "units": "units",
+            "value": 102.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "MAN",
+            "units": "units",
+            "value": 120.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "MAN",
+            "units": "%",
+            "value": -14.7,
+            "year": null,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "MAN",
+            "units": "units",
+            "value": 102.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "MAN",
+            "units": "units",
+            "value": 120.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales",
+            "key": "MAN",
+            "units": "%",
+            "value": -14.7,
+            "year": null,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "MAN",
+            "units": "units",
+            "value": 101.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "MAN",
+            "units": "units",
+            "value": 116.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "MAN",
+            "units": "%",
+            "value": -13.1,
+            "year": null,
+            "row_idx": 3,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 13702.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 14286.0,
+            "year": 2014,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Sales revenue (€ million)",
+            "key": "MAN",
+            "units": "%",
+            "value": -4.1,
+            "year": null,
+            "row_idx": 4,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 277.0,
+            "year": 2015,
+            "row_idx": 5,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "MAN",
+            "units": "€ million",
+            "value": 384.0,
+            "year": 2014,
+            "row_idx": 5,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result before special items",
+            "key": "MAN",
+            "units": "%",
+            "value": -27.9,
+            "year": null,
+            "row_idx": 5,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "MAN",
+            "units": "%",
+            "value": 2.0,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "MAN",
+            "units": "%",
+            "value": 2.7,
+            "year": 2014,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "as % of sales revenue",
+            "key": "MAN",
+            "units": "%",
+            "value": null,
+            "year": null,
+            "row_idx": 6,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 21
+      }
+    },
+    {
+      "table_id": "VW2015_T9327b6",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "EARNINGS EARNINGS EARNINGS EARNINGS",
+      "title": "Volkswagen Group in China – Local Production",
+      "extraction_timestamp": "2025-11-18T15:55:19.855483",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Deliveries",
+            "key": "Deliveries_2015",
+            "units": "Thousand units",
+            "value": 3549.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "Deliveries_2014",
+            "units": "Thousand units",
+            "value": 3675.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Deliveries",
+            "key": "Deliveries_%",
+            "units": "%",
+            "value": -3.4,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales*",
+            "key": "Vehicle_sales_2015",
+            "units": "Thousand units",
+            "value": 3456.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales*",
+            "key": "Vehicle_sales_2014",
+            "units": "Thousand units",
+            "value": 3506.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Vehicle sales*",
+            "key": "Vehicle_sales_%",
+            "units": "%",
+            "value": -1.4,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Production_2015",
+            "units": "Thousand units",
+            "value": 3420.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Production_2014",
+            "units": "Thousand units",
+            "value": 3528.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Production",
+            "key": "Production_%",
+            "units": "%",
+            "value": -3.1,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 3,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "* Produced locally.",
+            "key": "Produced_locally",
+            "units": "N/A",
+            "value": null,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 0,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 10
+      }
+    },
+    {
+      "table_id": "VW2015_T737670",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "EARNINGS EARNINGS EARNINGS EARNINGS",
+      "title": "Volkswagen Group in China – Key Figures",
+      "extraction_timestamp": "2025-11-18T15:57:08.397438",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Units Sold",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Units",
+            "value": 2661562.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units Sold",
+            "key": "Volkswagen Passenger Cars",
+            "units": "Units",
+            "value": 2721805.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units Sold",
+            "key": "Audi",
+            "units": "Units",
+            "value": 490260.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units Sold",
+            "key": "Audi",
+            "units": "Units",
+            "value": 529205.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units Sold",
+            "key": "ŠKODA",
+            "units": "Units",
+            "value": 268116.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units Sold",
+            "key": "ŠKODA",
+            "units": "Units",
+            "value": 277138.0,
+            "year": 2014,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units Sold",
+            "key": "Total",
+            "units": "Units",
+            "value": 3419938.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Units Sold",
+            "key": "Total",
+            "units": "Units",
+            "value": 3528148.0,
+            "year": 2014,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 8
+      }
+    },
+    {
+      "table_id": "VW2015_T71eee3",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "LOCAL PRODUCTION LOCAL PRODUCTION LOCAL",
+      "title": "Volkswagen Group in China – Earnings",
+      "extraction_timestamp": "2025-11-18T15:58:46.639568",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Operating result (100%)",
+            "key": "Operating result (100%)",
+            "units": "€ million",
+            "value": 11937.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result (100%)",
+            "key": "Operating result (100%)",
+            "units": "€ million",
+            "value": 12077.0,
+            "year": 2014,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result (proportionate)",
+            "key": "Operating result (proportionate)",
+            "units": "€ million",
+            "value": 5214.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 1,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result (proportionate)",
+            "key": "Operating result (proportionate)",
+            "units": "€ million",
+            "value": 5182.0,
+            "year": 2014,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 4
+      }
+    },
+    {
+      "table_id": "VW2015_Tac1626",
+      "doc_id": "VW2015",
+      "year": 2015,
+      "section_name": "VOLKSWAGEN FINANCIAL SERVICES VOLKSWAGEN FINANCIAL SERVICES",
+      "title": "Volkswagen Financial Services – Key Figures",
+      "extraction_timestamp": "2025-11-18T16:02:48.345849",
+      "model": "deepseek-r1-distill-llama-70b",
+      "extraction_result": {
+        "kpis": [
+          {
+            "name": "Number of contracts",
+            "key": "Number of contracts",
+            "units": "thousands",
+            "value": 13230.0,
+            "year": 2015,
+            "row_idx": 0,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Customer financing",
+            "key": "Customer financing",
+            "units": "N/A",
+            "value": 5833.0,
+            "year": 2015,
+            "row_idx": 1,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Leasing",
+            "key": "Leasing",
+            "units": "N/A",
+            "value": 2518.0,
+            "year": 2015,
+            "row_idx": 2,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Service/Insurance",
+            "key": "Service/Insurance",
+            "units": "N/A",
+            "value": 4879.0,
+            "year": 2015,
+            "row_idx": 3,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Lease assets",
+            "key": "Lease assets",
+            "units": "€ million",
+            "value": 2777.0,
+            "year": 2015,
+            "row_idx": 4,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Customer financing",
+            "key": "Customer financing",
+            "units": "N/A",
+            "value": 64020.0,
+            "year": 2015,
+            "row_idx": 6,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Dealer financing",
+            "key": "Dealer financing",
+            "units": "N/A",
+            "value": 16846.0,
+            "year": 2015,
+            "row_idx": 7,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Leasing agreements",
+            "key": "Leasing agreements",
+            "units": "N/A",
+            "value": 2046.0,
+            "year": 2015,
+            "row_idx": 8,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Direct banking deposits",
+            "key": "Direct banking deposits",
+            "units": "€ million",
+            "value": 2545.0,
+            "year": 2015,
+            "row_idx": 9,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Total assets",
+            "key": "Total assets",
+            "units": "€ million",
+            "value": 157855.0,
+            "year": 2015,
+            "row_idx": 10,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Equity",
+            "key": "Equity",
+            "units": "€ million",
+            "value": 18607.0,
+            "year": 2015,
+            "row_idx": 11,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Liabilities ^1",
+            "key": "Liabilities ^1",
+            "units": "€ million",
+            "value": 133237.0,
+            "year": 2015,
+            "row_idx": 12,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Equity ratio",
+            "key": "Equity ratio",
+            "units": "%",
+            "value": null,
+            "year": 2015,
+            "row_idx": 13,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Return on equity before tax2",
+            "key": "Return on equity before tax2",
+            "units": "%",
+            "value": null,
+            "year": 2015,
+            "row_idx": 14,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Leverage ^3",
+            "key": "Leverage ^3",
+            "units": "N/A",
+            "value": 7.2,
+            "year": 2015,
+            "row_idx": 15,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Operating result",
+            "key": "Operating result",
+            "units": "€ million",
+            "value": 1921.0,
+            "year": 2015,
+            "row_idx": 16,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Earnings before tax",
+            "key": "Earnings before tax",
+            "units": "€ million",
+            "value": 2015.0,
+            "year": 2015,
+            "row_idx": 17,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          },
+          {
+            "name": "Employees at Dec. 31",
+            "key": "Employees at Dec. 31",
+            "units": "N/A",
+            "value": 13329.0,
+            "year": 2015,
+            "row_idx": 18,
+            "col_idx": 2,
+            "source_model": "deepseek-r1-distill-llama-70b"
+          }
+        ],
+        "model": "deepseek-r1-distill-llama-70b",
+        "num_kpis": 18
+      }
+    }
+  ]
+}
