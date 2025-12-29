@@ -1,0 +1,5653 @@
+[
+  {
+    "table_id": "VW2020_T59f33c",
+    "section_name": "Group reporting structure",
+    "title": "Volkswagen Group reporting structure",
+    "headers": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "AUTOMOTIVE DIVISION",
+        "",
+        "",
+        "FINANCIAL SERVICES DIVISION"
+      ],
+      [
+        "Passenger Cars Business Area Volkswagen Passenger Cars Audi ŠKODA SEAT Bentley Porsche Automotive Volkswagen Commercial Vehicles Other",
+        "Commercial Vehicles Business Area Scania Vehicles and Services MAN Commercial Vehicles",
+        "Power Engineering Business Area Power Engineering",
+        "Dealer and customer financing Leasing Direct bank Insurance Fleet management Mobility offerings"
+      ]
+    ],
+    "stub_col": [
+      "AUTOMOTIVE DIVISION",
+      "Passenger Cars Business Area Volkswagen Passenger Cars Audi ŠKODA SEAT Bentley Porsche Automotive Volkswagen Commercial Vehicles Other"
+    ]
+  },
+  {
+    "table_id": "VW2020_T2de216",
+    "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
+    "title": "Key Figures by brand and business field",
+    "headers": [
+      [
+        "",
+        "VEHICLE SALES",
+        "",
+        "SALES REVENUE",
+        "",
+        "OPERATING RESULT",
+        ""
+      ],
+      [
+        "Thousand vehicles/€ million",
+        "2020",
+        "2019",
+        "2020",
+        "2019",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Thousand vehicles/€ million",
+      "VEHICLE SALES 2020",
+      "2019",
+      "SALES REVENUE 2020",
+      "2019",
+      "OPERATING RESULT 2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Volkswagen Passenger Cars",
+        "2835",
+        "3677",
+        "71076",
+        "88407",
+        "454",
+        "3785"
+      ],
+      [
+        "Audi",
+        "1017",
+        "1200",
+        "49973",
+        "55680",
+        "2739",
+        "4509"
+      ],
+      [
+        "ŠKODA",
+        "849",
+        "1062",
+        "17081",
+        "19806",
+        "756",
+        "1660"
+      ],
+      [
+        "SEAT",
+        "484",
+        "667",
+        "9198",
+        "11496",
+        "-339",
+        "445"
+      ],
+      [
+        "Bentley",
+        "11",
+        "12",
+        "2049",
+        "2092",
+        "20",
+        "65"
+      ],
+      [
+        "Porsche Automotive1",
+        "265",
+        "277",
+        "26086",
+        "26060",
+        "4021",
+        "4210"
+      ],
+      [
+        "Volkswagen Commercial Vehicles",
+        "345",
+        "456",
+        "9358",
+        "11473",
+        "-454",
+        "510"
+      ],
+      [
+        "Scania Vehicles and Services2",
+        "73",
+        "101",
+        "11521",
+        "13934",
+        "748",
+        "1506"
+      ],
+      [
+        "MAN Commercial Vehicles",
+        "118",
+        "143",
+        "10838",
+        "12663",
+        "-631",
+        "402"
+      ],
+      [
+        "Power Engineering",
+        "–",
+        "–",
+        "3640",
+        "3997",
+        "-268",
+        "159"
+      ],
+      [
+        "VW China3",
+        "3577",
+        "4048",
+        "–",
+        "–",
+        "–",
+        "–"
+      ],
+      [
+        "Other4",
+        "-418",
+        "-685",
+        "-26573",
+        "-30931",
+        "759",
+        "-917"
+      ],
+      [
+        "Volkswagen Financial Services",
+        "–",
+        "–",
+        "38637",
+        "37957",
+        "2803",
+        "2960"
+      ],
+      [
+        "Volkswagen Group before special items",
+        "–",
+        "–",
+        "–",
+        "–",
+        "10607",
+        "19296"
+      ],
+      [
+        "Special items",
+        "–",
+        "–",
+        "–",
+        "–",
+        "-931",
+        "-2336"
+      ],
+      [
+        "Volkswagen Group",
+        "9157",
+        "10956",
+        "222884",
+        "252632",
+        "9675",
+        "16960"
+      ],
+      [
+        "Automotive Division5",
+        "9157",
+        "10956",
+        "182106",
+        "212473",
+        "6664",
+        "13748"
+      ],
+      [
+        "of which: Passenger Cars Business Area",
+        "8965",
+        "10713",
+        "156311",
+        "182031",
+        "7224",
+        "12188"
+      ],
+      [
+        "Commercial Vehicles Business Area",
+        "191",
+        "243",
+        "22156",
+        "26444",
+        "-79",
+        "1653"
+      ],
+      [
+        "Power Engineering Business Area",
+        "–",
+        "–",
+        "3640",
+        "3997",
+        "-482",
+        "-93"
+      ],
+      [
+        "Financial Services Division",
+        "–",
+        "–",
+        "40778",
+        "40160",
+        "3012",
+        "3212"
+      ]
+    ],
+    "stub_col": [
+      "Volkswagen Passenger Cars",
+      "Audi",
+      "ŠKODA",
+      "SEAT",
+      "Bentley",
+      "Porsche Automotive ^1",
+      "Volkswagen Commercial Vehicles",
+      "Scania Vehicles and Services ^2",
+      "MAN Commercial Vehicles",
+      "Power Engineering",
+      "VW China ^3",
+      "Other ^4",
+      "Volkswagen Financial Services",
+      "Volkswagen Group before special items",
+      "Special items",
+      "Volkswagen Group",
+      "Automotive Division ^5",
+      "of which: Passenger Cars Business Area",
+      "Commercial Vehicles Business Area",
+      "Power Engineering Business Area",
+      "Financial Services Division"
+    ]
+  },
+  {
+    "table_id": "VW2020_T61e41c",
+    "section_name": "KEY FIGURES BY MARKET",
+    "title": "Key Figures by market",
+    "headers": [
+      [
+        "",
+        "VEHICLE SALES",
+        "",
+        "SALES REVENUE",
+        ""
+      ],
+      [
+        "Thousand vehicles/€ million",
+        "2020",
+        "2019",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Thousand vehicles/€ million",
+      "VEHICLE SALES 2020",
+      "2019",
+      "SALES REVENUE 2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Europe/Other markets",
+        "3929",
+        "4856",
+        "133499",
+        "153999.0"
+      ],
+      [
+        "North America",
+        "744",
+        "956",
+        "36810",
+        "43351.0"
+      ],
+      [
+        "South America",
+        "471",
+        "607",
+        "8632",
+        "11297.0"
+      ],
+      [
+        "Asia-Pacific1",
+        "4012",
+        "4538",
+        "44288",
+        "43974.0"
+      ],
+      [
+        "Hedges on sales revenue",
+        "–",
+        "–",
+        "-345",
+        "11.0"
+      ],
+      [
+        "Volkswagen Group1",
+        "9157",
+        "10956",
+        "222884",
+        "252632.0"
+      ]
+    ],
+    "stub_col": [
+      "Europe/Other markets",
+      "North America",
+      "South America",
+      "Asia-Pacific ^1",
+      "Hedges on sales revenue",
+      "Volkswagen Group ^1"
+    ]
+  },
+  {
+    "table_id": "VW2020_T531fa0",
+    "section_name": "VOLKSWAGEN PASSENGER CARS BRAND PRODUCTION",
+    "title": "Volkswagen Passenger Cars – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Tiguan",
+        "754276",
+        "910926"
+      ],
+      [
+        "Passat/Magotan",
+        "477892",
+        "543706"
+      ],
+      [
+        "Polo/Virtus",
+        "467765",
+        "706052"
+      ],
+      [
+        "Jetta/Sagitar",
+        "422908",
+        "541715"
+      ],
+      [
+        "Lavida",
+        "416209",
+        "514698"
+      ],
+      [
+        "Golf",
+        "408528",
+        "679351"
+      ],
+      [
+        "Bora",
+        "329263",
+        "345077"
+      ],
+      [
+        "T-Cross",
+        "285824",
+        "274071"
+      ],
+      [
+        "T-Roc",
+        "285299",
+        "328069"
+      ],
+      [
+        "Atlas/Teramont",
+        "178954",
+        "183648"
+      ],
+      [
+        "Santana",
+        "174966",
+        "244132"
+      ],
+      [
+        "JETTA",
+        "165681",
+        "68612"
+      ],
+      [
+        "Tharu/Taos",
+        "149781",
+        "136899"
+      ],
+      [
+        "Gol",
+        "117471",
+        "151241"
+      ],
+      [
+        "Lamando",
+        "65730",
+        "92903"
+      ],
+      [
+        "ID.3",
+        "64259",
+        "50"
+      ],
+      [
+        "up!",
+        "59786",
+        "108676"
+      ],
+      [
+        "Touran",
+        "56833",
+        "90366"
+      ],
+      [
+        "Arteon/CC",
+        "55899",
+        "51868"
+      ],
+      [
+        "Saveiro",
+        "41146",
+        "54941"
+      ],
+      [
+        "Touareg",
+        "41136",
+        "52859"
+      ],
+      [
+        "Sharan/Viloran",
+        "32142",
+        "25681"
+      ],
+      [
+        "Fox/Suran",
+        "12184",
+        "44275"
+      ],
+      [
+        "Phideon",
+        "10344",
+        "13750"
+      ],
+      [
+        "ID.4",
+        "6487",
+        "–"
+      ],
+      [
+        "Beetle",
+        "–",
+        "20580"
+      ],
+      [
+        "",
+        "5080763",
+        "6184146"
+      ]
+    ],
+    "stub_col": [
+      "Tiguan",
+      "Passat/Magotan",
+      "Polo/Virtus",
+      "Jetta/Sagitar",
+      "Lavida",
+      "Golf",
+      "Bora",
+      "T-Cross",
+      "T-Roc",
+      "Atlas/Teramont",
+      "Santana",
+      "JETTA",
+      "Tharu/Taos",
+      "Gol",
+      "Lamando",
+      "ID.3",
+      "up!",
+      "Touran",
+      "Arteon/CC",
+      "Saveiro",
+      "Touareg",
+      "Sharan/Viloran",
+      "Fox/Suran",
+      "Phideon",
+      "ID.4",
+      "Beetle",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T62dfc3",
+    "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
+    "title": "Volkswagen Passenger Cars – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "5328.0",
+        "6279.0",
+        "-15.1"
+      ],
+      [
+        "Vehicle sales",
+        "2835.0",
+        "3677.0",
+        "-22.9"
+      ],
+      [
+        "Production",
+        "5081.0",
+        "6184.0",
+        "-17.8"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "71076.0",
+        "88407.0",
+        "-19.6"
+      ],
+      [
+        "Operating result before special items",
+        "454.0",
+        "3785.0",
+        "-88"
+      ],
+      [
+        "Operating return on sales (%)",
+        "0.6",
+        "4.3",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result before special items",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T05cf9a",
+    "section_name": "AUDI BRAND PRODUCTION",
+    "title": "Audi – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Audi",
+        "",
+        ""
+      ],
+      [
+        "A4",
+        "243566.0",
+        "323387.0"
+      ],
+      [
+        "Q5",
+        "275888.0",
+        "286365.0"
+      ],
+      [
+        "A3",
+        "206482.0",
+        "240795.0"
+      ],
+      [
+        "A6",
+        "271679.0",
+        "232569.0"
+      ],
+      [
+        "Q3",
+        "219662.0",
+        "195566.0"
+      ],
+      [
+        "Q2",
+        "124346.0",
+        "130225.0"
+      ],
+      [
+        "Q7",
+        "65574.0",
+        "63633.0"
+      ],
+      [
+        "A1",
+        "62099.0",
+        "81287.0"
+      ],
+      [
+        "A5",
+        "56786.0",
+        "93077.0"
+      ],
+      [
+        "e-tron",
+        "43157.0",
+        "43376.0"
+      ],
+      [
+        "Q8",
+        "37845.0",
+        "44727.0"
+      ],
+      [
+        "A8",
+        "20591.0",
+        "23826.0"
+      ],
+      [
+        "A7",
+        "18083.0",
+        "17068.0"
+      ],
+      [
+        "TT",
+        "8646.0",
+        "14999.0"
+      ],
+      [
+        "R8",
+        "1517.0",
+        "2121.0"
+      ],
+      [
+        "",
+        "1655921.0",
+        "1793021.0"
+      ],
+      [
+        "Lamborghini",
+        "",
+        ""
+      ],
+      [
+        "Urus",
+        "4364.0",
+        "5233.0"
+      ],
+      [
+        "Huracán Coupé",
+        "1258.0",
+        "1495.0"
+      ],
+      [
+        "Huracán Spyder",
+        "752.0",
+        "931.0"
+      ],
+      [
+        "Aventador Roadster",
+        "595.0",
+        "219.0"
+      ],
+      [
+        "Aventador Coupé",
+        "281.0",
+        "786.0"
+      ],
+      [
+        "",
+        "7250.0",
+        "8664.0"
+      ],
+      [
+        "Audi brand",
+        "1663171.0",
+        "1801685.0"
+      ],
+      [
+        "Ducati, motorcycles",
+        "44827.0",
+        "51723.0"
+      ]
+    ],
+    "stub_col": [
+      "Audi",
+      "A4",
+      "Q5",
+      "A3",
+      "A6",
+      "Q3",
+      "Q2",
+      "Q7",
+      "A1",
+      "A5",
+      "e-tron",
+      "Q8",
+      "A8",
+      "A7",
+      "TT",
+      "R8",
+      "",
+      "Lamborghini",
+      "Urus",
+      "Huracán Coupé",
+      "Huracán Spyder",
+      "Aventador Roadster",
+      "Aventador Coupé",
+      "",
+      "Audi brand",
+      "Ducati, motorcycles"
+    ]
+  },
+  {
+    "table_id": "VW2020_T371eeb",
+    "section_name": "AUDI BRAND",
+    "title": "Audi – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "1700.0",
+        "1854.0",
+        "-8.3"
+      ],
+      [
+        "Audi",
+        "1693.0",
+        "1846.0",
+        "-8.3"
+      ],
+      [
+        "Lamborghini",
+        "7.0",
+        "8.0",
+        "-9.4"
+      ],
+      [
+        "Vehicle sales",
+        "1017.0",
+        "1200.0",
+        "-15.2"
+      ],
+      [
+        "Production",
+        "1663.0",
+        "1802.0",
+        "-7.7"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "49973.0",
+        "55680.0",
+        "-10.2"
+      ],
+      [
+        "Operating result before special items",
+        "2739.0",
+        "4509.0",
+        "-39.3"
+      ],
+      [
+        "Operating return on sales (%)",
+        "5.5",
+        "8.1",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Audi",
+      "Lamborghini",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result before special items",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T4b0a7d",
+    "section_name": "ŠKODA BRAND PRODUCTION",
+    "title": "Škoda – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Octavia",
+        "233902.0",
+        "358356"
+      ],
+      [
+        "Rapid/Scala",
+        "219401.0",
+        "207724"
+      ],
+      [
+        "Karoq/Kamiq/Yeti",
+        "172999.0",
+        "203688"
+      ],
+      [
+        "Kodiaq",
+        "117825.0",
+        "177163"
+      ],
+      [
+        "Fabia",
+        "100425.0",
+        "166237"
+      ],
+      [
+        "Superb",
+        "80880.0",
+        "102592"
+      ],
+      [
+        "Citigo",
+        "14482.0",
+        "27306"
+      ],
+      [
+        "Enyaq iV",
+        "939.0",
+        "–"
+      ],
+      [
+        "",
+        "940853.0",
+        "1243066"
+      ]
+    ],
+    "stub_col": [
+      "Octavia",
+      "Rapid/Scala",
+      "Karoq/Kamiq/Yeti",
+      "Kodiaq",
+      "Fabia",
+      "Superb",
+      "Citigo",
+      "Enyaq iV",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T5eadb3",
+    "section_name": "ŠKODA BRAND",
+    "title": "Škoda – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "1005.0",
+        "1243.0",
+        "-19.1"
+      ],
+      [
+        "Vehicle sales",
+        "849.0",
+        "1062.0",
+        "-20"
+      ],
+      [
+        "Production",
+        "941.0",
+        "1243.0",
+        "-24.3"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "17081.0",
+        "19806.0",
+        "-13.8"
+      ],
+      [
+        "Operating result",
+        "756.0",
+        "1660.0",
+        "-54.4"
+      ],
+      [
+        "Operating return on sales (%)",
+        "4.4",
+        "8.4",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tae6228",
+    "section_name": "SEAT PRODUCTION",
+    "title": "SEAT – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Leon",
+        "124323",
+        "153837"
+      ],
+      [
+        "Arona",
+        "78823",
+        "134611"
+      ],
+      [
+        "Ateca",
+        "76710",
+        "98397"
+      ],
+      [
+        "Ibiza",
+        "74564",
+        "130243"
+      ],
+      [
+        "Tarraco",
+        "18726",
+        "38721"
+      ],
+      [
+        "Alhambra",
+        "14672",
+        "23015"
+      ],
+      [
+        "CUPRA Formentor",
+        "11041",
+        "–"
+      ],
+      [
+        "Mii",
+        "7593",
+        "11479"
+      ],
+      [
+        "Toledo",
+        "–",
+        "1506"
+      ],
+      [
+        "",
+        "406452",
+        "591809"
+      ]
+    ],
+    "stub_col": [
+      "Leon",
+      "Arona",
+      "Ateca",
+      "Ibiza",
+      "Tarraco",
+      "Alhambra",
+      "CUPRA Formentor",
+      "Mii",
+      "Toledo",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_Tc11074",
+    "section_name": "SEAT",
+    "title": "SEAT – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "427.0",
+        "574.0",
+        "-25.6"
+      ],
+      [
+        "Vehicle sales",
+        "484.0",
+        "667.0",
+        "-27.5"
+      ],
+      [
+        "Production",
+        "406.0",
+        "592.0",
+        "-31.3"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "9198.0",
+        "11496.0",
+        "-20"
+      ],
+      [
+        "Operating result",
+        "-339.0",
+        "445.0",
+        "x"
+      ],
+      [
+        "Operating return on sales (%)",
+        "-3.7",
+        "3.9",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T64063c",
+    "section_name": "BENTLEY BRAND PRODUCTION",
+    "title": "Bentley – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Bentayga",
+        "3946.0",
+        "5232.0"
+      ],
+      [
+        "Flying Spur",
+        "3381.0",
+        "102.0"
+      ],
+      [
+        "Continental GT Coupé",
+        "1995.0",
+        "3903.0"
+      ],
+      [
+        "Continental GT Convertible",
+        "1244.0",
+        "2750.0"
+      ],
+      [
+        "Mulsanne",
+        "127.0",
+        "443.0"
+      ],
+      [
+        "",
+        "10693.0",
+        "12430.0"
+      ]
+    ],
+    "stub_col": [
+      "Bentayga",
+      "Flying Spur",
+      "Continental GT Coupé",
+      "Continental GT Convertible",
+      "Mulsanne",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T20dd27",
+    "section_name": "BENTLEY BRAND",
+    "title": "Bentley – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (units)",
+        "11206.0",
+        "11006.0",
+        "1.8"
+      ],
+      [
+        "Vehicle sales",
+        "11296.0",
+        "11631.0",
+        "-2.9"
+      ],
+      [
+        "Production",
+        "10693.0",
+        "12430.0",
+        "-14"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "2049.0",
+        "2092.0",
+        "-2.1"
+      ],
+      [
+        "Operating result",
+        "20.0",
+        "65.0",
+        "-70.1"
+      ],
+      [
+        "Operating return on sales (%)",
+        "1.0",
+        "3.1",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T727164",
+    "section_name": "PORSCHE AUTOMOTIVE PRODUCTION",
+    "title": "Porsche – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Cayenne",
+        "82137.0",
+        "95293.0"
+      ],
+      [
+        "Macan",
+        "78490.0",
+        "89744.0"
+      ],
+      [
+        "Taycan",
+        "29450.0",
+        "1386.0"
+      ],
+      [
+        "Panamera",
+        "21832.0",
+        "31192.0"
+      ],
+      [
+        "",
+        "263236.0",
+        "274463.0"
+      ]
+    ],
+    "stub_col": [
+      "Cayenne",
+      "Macan",
+      "Taycan",
+      "Panamera",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T0373b3",
+    "section_name": "PORSCHE AUTOMOTIVE 1",
+    "title": "Porsche1 – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "272.0",
+        "281.0",
+        "-3.1"
+      ],
+      [
+        "Vehicle sales",
+        "265.0",
+        "277.0",
+        "-4.2"
+      ],
+      [
+        "Production",
+        "263.0",
+        "274.0",
+        "-4.1"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "26086.0",
+        "26060.0",
+        "0.1"
+      ],
+      [
+        "Operating result before special items",
+        "4021.0",
+        "4210.0",
+        "-4.5"
+      ],
+      [
+        "Operating return on sales (%)",
+        "15.4",
+        "16.2",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result before special items",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_Ta7673e",
+    "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND PRODUCTION",
+    "title": "Volkswagen Commercial Vehicles – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Caravelle/Multivan, Kombi",
+        "71813.0",
+        "96533.0"
+      ],
+      [
+        "Transporter",
+        "66357.0",
+        "91585.0"
+      ],
+      [
+        "Caddy Kombi",
+        "61998.0",
+        "81466.0"
+      ],
+      [
+        "Crafter",
+        "58235.0",
+        "72906.0"
+      ],
+      [
+        "Caddy",
+        "48799.0",
+        "66780.0"
+      ],
+      [
+        "Amarok",
+        "36343.0",
+        "68010.0"
+      ],
+      [
+        "",
+        "343545.0",
+        "477280.0"
+      ]
+    ],
+    "stub_col": [
+      "Caravelle/Multivan, Kombi",
+      "Transporter",
+      "Caddy Kombi",
+      "Crafter",
+      "Caddy",
+      "Amarok",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_Tee3c5a",
+    "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
+    "title": "Volkswagen Commercial Vehicles – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "372.0",
+        "492.0",
+        "-24.4"
+      ],
+      [
+        "Vehicle sales",
+        "345.0",
+        "456.0",
+        "-24.3"
+      ],
+      [
+        "Production",
+        "344.0",
+        "477.0",
+        "-28"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "9358.0",
+        "11473.0",
+        "-18.4"
+      ],
+      [
+        "Operating result",
+        "-454.0",
+        "510.0",
+        "x"
+      ],
+      [
+        "Operating return on sales (%)",
+        "-4.9",
+        "4.4",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tb4d396",
+    "section_name": "PRODUCTION",
+    "title": "TRATON – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "156297.0",
+        "201115.0"
+      ],
+      [
+        "Buses",
+        "16729.0",
+        "21387.0"
+      ],
+      [
+        "Light Commercial Vehicles",
+        "18340.0",
+        "15903.0"
+      ],
+      [
+        "",
+        "191366.0",
+        "238405.0"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      "Light Commercial Vehicles",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T01cd55",
+    "section_name": "DELIVERIES",
+    "title": "TRATON – Deliveries",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "156378.0",
+        "205936.0"
+      ],
+      [
+        "Buses",
+        "16174.0",
+        "21496.0"
+      ],
+      [
+        "Light Commercial Vehicles",
+        "17635.0",
+        "14789.0"
+      ],
+      [
+        "",
+        "190187.0",
+        "242221.0"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      "Light Commercial Vehicles",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T4e1445",
+    "section_name": "SCANIA PRODUCTION",
+    "title": "Scania – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "67106.0",
+        "89276.0"
+      ],
+      [
+        "Buses",
+        "5430.0",
+        "7719.0"
+      ],
+      [
+        "",
+        "72536.0",
+        "96995.0"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T6164fc",
+    "section_name": "SCANIA VEHICLES AND SERVICES 1",
+    "title": "Scania1 – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Orders received (thousand units)",
+        "93.0",
+        "89.0",
+        "4.7"
+      ],
+      [
+        "Deliveries",
+        "72.0",
+        "99.0",
+        "-27.5"
+      ],
+      [
+        "Vehicle sales",
+        "73.0",
+        "101.0",
+        "-27.1"
+      ],
+      [
+        "Production",
+        "73.0",
+        "97.0",
+        "-25.2"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "11521.0",
+        "13934.0",
+        "-17.3"
+      ],
+      [
+        "Operating result",
+        "748.0",
+        "1506.0",
+        "-50.3"
+      ],
+      [
+        "Operating return on sales (%)",
+        "6.5",
+        "10.8",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Orders received (thousand units)",
+      "Deliveries",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T3999c8",
+    "section_name": "MAN COMMERCIAL VEHICLES PRODUCTION",
+    "title": "MAN – Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "89191.0",
+        "111839.0"
+      ],
+      [
+        "Buses",
+        "11299.0",
+        "13668.0"
+      ],
+      [
+        "Light Commercial Vehicles",
+        "18340.0",
+        "15903.0"
+      ],
+      [
+        "",
+        "118830.0",
+        "141410.0"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      "Light Commercial Vehicles",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_Tc06374",
+    "section_name": "MAN COMMERCIAL VEHICLES",
+    "title": "MAN – Key Figures",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Orders received (thousand units)",
+        "123.0",
+        "139.0",
+        "-11"
+      ],
+      [
+        "Deliveries",
+        "118.0",
+        "143.0",
+        "-17.3"
+      ],
+      [
+        "Vehicle sales",
+        "118.0",
+        "143.0",
+        "-17.3"
+      ],
+      [
+        "Production",
+        "119.0",
+        "141.0",
+        "-16"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "10838.0",
+        "12663.0",
+        "-14.4"
+      ],
+      [
+        "Operating result",
+        "-631.0",
+        "402.0",
+        "x"
+      ],
+      [
+        "Operating return on sales (%)",
+        "-5.8",
+        "3.2",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Orders received (thousand units)",
+      "Deliveries",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T879ad1",
+    "section_name": "PRODUCTION",
+    "title": "Volkswagen Group in China – Key Figures",
+    "headers": [
+      [
+        "Thousand units",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "Thousand units",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries",
+        "3849.0",
+        "4234.0",
+        "-9.1"
+      ],
+      [
+        "Vehicle sales1",
+        "3577.0",
+        "4048.0",
+        "-11.6"
+      ],
+      [
+        "Production",
+        "3575.0",
+        "3948.0",
+        "-9.5"
+      ]
+    ],
+    "stub_col": [
+      "Deliveries",
+      "Vehicle sales ^1",
+      "Production"
+    ]
+  },
+  {
+    "table_id": "VW2020_T8bf2bb",
+    "section_name": "EARNINGS",
+    "title": "Volkswagen Group in China – Earnings",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Operating result (100%)",
+        "9744.0",
+        "11110.0"
+      ],
+      [
+        "Operating result (proportionate)",
+        "3602.0",
+        "4425.0"
+      ]
+    ],
+    "stub_col": [
+      "Operating result (100%)",
+      "Operating result (proportionate)"
+    ]
+  },
+  {
+    "table_id": "VW2020_Ta31c16",
+    "section_name": "LOCAL PRODUCTION",
+    "title": "Volkswagen Group in China – Local Production",
+    "headers": [
+      [
+        "Units",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Volkswagen Passenger Cars",
+        "2751717.0",
+        "3066807.0"
+      ],
+      [
+        "Audi",
+        "671659.0",
+        "614753.0"
+      ],
+      [
+        "ŠKODA",
+        "151245.0",
+        "266377.0"
+      ],
+      [
+        "Total",
+        "3574621.0",
+        "3947937.0"
+      ]
+    ],
+    "stub_col": [
+      "Volkswagen Passenger Cars",
+      "Audi",
+      "ŠKODA",
+      "Total"
+    ]
+  },
+  {
+    "table_id": "VW2020_Td9372d",
+    "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
+    "title": "Volkswagen Financial Services – Key Figures",
+    "headers": [
+      [
+        "",
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Number of contracts",
+        "thousands",
+        "21907.0",
+        "21498.0",
+        "1.9"
+      ],
+      [
+        "Customer financing",
+        "",
+        "6635.0",
+        "6585.0",
+        "0.8"
+      ],
+      [
+        "Leasing",
+        "",
+        "4692.0",
+        "4616.0",
+        "1.6"
+      ],
+      [
+        "Service/Insurance",
+        "",
+        "10580.0",
+        "10297.0",
+        "2.7"
+      ],
+      [
+        "Lease assets",
+        "€ million",
+        "49653.0",
+        "47222.0",
+        "5.1"
+      ],
+      [
+        "Receivables from",
+        "€ million",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Customer financing",
+        "",
+        "69380.0",
+        "68517.0",
+        "1.3"
+      ],
+      [
+        "Dealer financing",
+        "",
+        "18448.0",
+        "23093.0",
+        "-20.1"
+      ],
+      [
+        "Leasing agreements",
+        "",
+        "45379.0",
+        "46276.0",
+        "-1.9"
+      ],
+      [
+        "Direct banking deposits",
+        "€ million",
+        "27734.0",
+        "31330.0",
+        "-11.5"
+      ],
+      [
+        "Total assets",
+        "€ million",
+        "225608.0",
+        "223536.0",
+        "0.9"
+      ],
+      [
+        "Equity",
+        "€ million",
+        "29406.0",
+        "28428.0",
+        "3.4"
+      ],
+      [
+        "Liabilities1",
+        "€ million",
+        "187545.0",
+        "187092.0",
+        "0.2"
+      ],
+      [
+        "Equity ratio",
+        "%",
+        "13.0",
+        "12.7",
+        "2.6"
+      ],
+      [
+        "Return on equity before tax2",
+        "%",
+        "8.9",
+        "10.8",
+        "-17.5"
+      ],
+      [
+        "Leverage3",
+        "",
+        "6.4",
+        "6.6",
+        "-3.4"
+      ],
+      [
+        "Operating result",
+        "€ million",
+        "2803.0",
+        "2960.0",
+        "-5.3"
+      ],
+      [
+        "Earnings before tax",
+        "€ million",
+        "2577.0",
+        "2968.0",
+        "-13.2"
+      ],
+      [
+        "Employees at Dec. 31",
+        "",
+        "14560.0",
+        "14394.0",
+        "1.2"
+      ]
+    ],
+    "stub_col": [
+      "Number of contracts",
+      "Customer financing",
+      "Leasing",
+      "Service/Insurance",
+      "Lease assets",
+      "Receivables from",
+      "Customer financing",
+      "Dealer financing",
+      "Leasing agreements",
+      "Direct banking deposits",
+      "Total assets",
+      "Equity",
+      "Liabilities ^1",
+      "Equity ratio",
+      "Return on equity before tax2",
+      "Leverage ^3",
+      "Operating result",
+      "Earnings before tax",
+      "Employees at Dec. 31"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tff3514",
+    "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
+    "title": "Strategic KPIs – Competitive Profitability",
+    "headers": [
+      [
+        "",
+        "2015",
+        "2025"
+      ]
+    ],
+    "merged_headers": [
+      [
+        "",
+        "2015",
+        "2025"
+      ]
+    ],
+    "rows": [
+      [
+        "Operating return on sales",
+        "0.06",
+        "7 to 8%"
+      ],
+      [
+        "Research and development ratio (R&D ratio) in the Automotive Division",
+        "0.07400000000000001",
+        "~6%"
+      ],
+      [
+        "Capex/sales revenue in the Automotive Division",
+        "0.069",
+        "~6%"
+      ],
+      [
+        "Net cash flow in the Automotive Division",
+        "€8,887 million",
+        ">€10 billion"
+      ],
+      [
+        "Payout ratio",
+        "negative",
+        "≥ 30%"
+      ],
+      [
+        "Net liquidity in the Automotive Division",
+        "€24,522 million, 11.5%",
+        "~10% of consolidated sales revenue"
+      ],
+      [
+        "Return on investment (ROI) in the Automotive Division",
+        "-0.002",
+        ">14%"
+      ]
+    ],
+    "stub_col": [
+      "Operating return on sales",
+      "Research and development ratio (R&D ratio) in the Automotive Division",
+      "Capex/sales revenue in the Automotive Division",
+      "Net cash flow in the Automotive Division",
+      "Payout ratio",
+      "Net liquidity in the Automotive Division",
+      "Return on investment (ROI) in the Automotive Division"
+    ]
+  },
+  {
+    "table_id": "VW2020_T2242ae",
+    "section_name": "VOLKSWAGEN GROUP DELIVERIES 1",
+    "title": "Volkswagen Group deliveries1",
+    "headers": [
+      [
+        "",
+        "2020",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2020",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Passenger Cars",
+        "9115185.0",
+        "10733077.0",
+        "-15.1"
+      ],
+      [
+        "Commercial Vehicles",
+        "190187.0",
+        "242220.0",
+        "-21.5"
+      ],
+      [
+        "Total",
+        "9305372.0",
+        "10975297.0",
+        "-15.2"
+      ]
+    ],
+    "stub_col": [
+      "Passenger Cars",
+      "Commercial Vehicles",
+      "Total"
+    ]
+  },
+  {
+    "table_id": "VW2020_T357d68",
+    "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET 1",
+    "title": "Passenger car deliveries to customers by market1",
+    "headers": [
+      [
+        "",
+        "DELIVERIES (UNITS)",
+        "",
+        "CHANGE"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "DELIVERIES (UNITS)",
+      "",
+      "CHANGE"
+    ],
+    "rows": [
+      [
+        "",
+        "2020",
+        "2019.0",
+        "(%)"
+      ],
+      [
+        "Europe/Other Markets",
+        "3779778",
+        "4712746.0",
+        "-19.8"
+      ],
+      [
+        "Western Europe",
+        "2848861",
+        "3628314.0",
+        "-21.5"
+      ],
+      [
+        "of which: Germany",
+        "1065811",
+        "1324942.0",
+        "-19.6"
+      ],
+      [
+        "France",
+        "222522",
+        "307847.0",
+        "-27.7"
+      ],
+      [
+        "United Kingdom",
+        "409064",
+        "544117.0",
+        "-24.8"
+      ],
+      [
+        "Italy",
+        "239167",
+        "310944.0",
+        "-23.1"
+      ],
+      [
+        "Spain",
+        "213700",
+        "305494.0",
+        "-30"
+      ],
+      [
+        "Central and Eastern Europe",
+        "652813",
+        "766810.0",
+        "-14.9"
+      ],
+      [
+        "of which: Czech Republic",
+        "112589",
+        "136377.0",
+        "-17.4"
+      ],
+      [
+        "Russia",
+        "221811",
+        "223454.0",
+        "-0.7"
+      ],
+      [
+        "Poland",
+        "126883",
+        "165530.0",
+        "-23.3"
+      ],
+      [
+        "Other Markets",
+        "278104",
+        "317622.0",
+        "-12.4"
+      ],
+      [
+        "of which: Turkey",
+        "121129",
+        "78251.0",
+        "54.8"
+      ],
+      [
+        "South Africa",
+        "64693",
+        "90968.0",
+        "-28.9"
+      ],
+      [
+        "North America",
+        "784299",
+        "948275.0",
+        "-17.3"
+      ],
+      [
+        "of which: USA",
+        "574822",
+        "654118.0",
+        "-12.1"
+      ],
+      [
+        "Canada",
+        "83531",
+        "112247.0",
+        "-25.6"
+      ],
+      [
+        "Mexico",
+        "125946",
+        "181910.0",
+        "-30.8"
+      ],
+      [
+        "South America",
+        "440326",
+        "551734.0",
+        "-20.2"
+      ],
+      [
+        "of which: Brazil",
+        "336773",
+        "420880.0",
+        "-20"
+      ],
+      [
+        "Argentina",
+        "57555",
+        "70496.0",
+        "-18.4"
+      ],
+      [
+        "Asia-Pacific",
+        "4110782",
+        "4520322.0",
+        "-9.1"
+      ],
+      [
+        "of which: China",
+        "3844679",
+        "4228841.0",
+        "-9.1"
+      ],
+      [
+        "India",
+        "28423",
+        "51541.0",
+        "-44.9"
+      ],
+      [
+        "Japan",
+        "66935",
+        "79268.0",
+        "-15.6"
+      ],
+      [
+        "Worldwide",
+        "9115185",
+        "10733077.0",
+        "-15.1"
+      ],
+      [
+        "Volkswagen Passenger Cars",
+        "5328029",
+        "6279007.0",
+        "-15.1"
+      ],
+      [
+        "Audi",
+        "1692773",
+        "1845573.0",
+        "-8.3"
+      ],
+      [
+        "ŠKODA",
+        "1004816",
+        "1242767.0",
+        "-19.1"
+      ],
+      [
+        "SEAT",
+        "427035",
+        "574078.0",
+        "-25.6"
+      ],
+      [
+        "Bentley",
+        "11206",
+        "11006.0",
+        "1.8"
+      ],
+      [
+        "Lamborghini",
+        "7430",
+        "8205.0",
+        "-9.4"
+      ],
+      [
+        "Porsche",
+        "272162",
+        "280800.0",
+        "-3.1"
+      ],
+      [
+        "Bugatti",
+        "77",
+        "82.0",
+        "-6.1"
+      ],
+      [
+        "Volkswagen Commercial Vehicles",
+        "371657",
+        "491559.0",
+        "-24.4"
+      ]
+    ],
+    "stub_col": [
+      "",
+      "Europe/Other Markets",
+      "Western Europe",
+      "of which: Germany",
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Spain",
+      "Central and Eastern Europe",
+      "of which: Czech Republic",
+      "Russia",
+      "Poland",
+      "Other Markets",
+      "of which: Turkey",
+      "South Africa",
+      "North America",
+      "of which: USA",
+      "Canada",
+      "Mexico",
+      "South America",
+      "of which: Brazil",
+      "Argentina",
+      "Asia-Pacific",
+      "of which: China",
+      "India",
+      "Japan",
+      "Worldwide",
+      "Volkswagen Passenger Cars",
+      "Audi",
+      "ŠKODA",
+      "SEAT",
+      "Bentley",
+      "Lamborghini",
+      "Porsche",
+      "Bugatti",
+      "Volkswagen Commercial Vehicles"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tc0b558",
+    "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+    "title": "Commercial vehicle deliveries to customers by market1",
+    "headers": [
+      [
+        "",
+        "DELIVERIES (UNITS)",
+        "",
+        "CHANGE"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "DELIVERIES (UNITS)",
+      "",
+      "CHANGE"
+    ],
+    "rows": [
+      [
+        "",
+        "2020",
+        "2019.0",
+        "(%)"
+      ],
+      [
+        "Europe/Other Markets",
+        "127893",
+        "168831.0",
+        "-24.2"
+      ],
+      [
+        "of which: EU27+3",
+        "105131",
+        "142058.0",
+        "-26"
+      ],
+      [
+        "of which: Germany",
+        "31859",
+        "39059.0",
+        "-18.4"
+      ],
+      [
+        "Russia",
+        "8486",
+        "10123.0",
+        "-16.2"
+      ],
+      [
+        "Turkey",
+        "2681",
+        "707.0",
+        "x"
+      ],
+      [
+        "South Africa",
+        "3111",
+        "4455.0",
+        "-30.2"
+      ],
+      [
+        "North America",
+        "1502",
+        "3219.0",
+        "-53.3"
+      ],
+      [
+        "of which: Mexico",
+        "1498",
+        "3218.0",
+        "-53.4"
+      ],
+      [
+        "South America",
+        "49372",
+        "56826.0",
+        "-13.1"
+      ],
+      [
+        "of which: Brazil",
+        "40855",
+        "49551.0",
+        "-17.5"
+      ],
+      [
+        "Asia-Pacific",
+        "11420",
+        "13344.0",
+        "-14.4"
+      ],
+      [
+        "Worldwide",
+        "190187",
+        "242220.0",
+        "-21.5"
+      ],
+      [
+        "Scania",
+        "72085",
+        "99457.0",
+        "-27.5"
+      ],
+      [
+        "MAN",
+        "118102",
+        "142763.0",
+        "-17.3"
+      ]
+    ],
+    "stub_col": [
+      "",
+      "Europe/Other Markets",
+      "of which: EU27+3",
+      "of which: Germany",
+      "Russia",
+      "Turkey",
+      "South Africa",
+      "North America",
+      "of which: Mexico",
+      "South America",
+      "of which: Brazil",
+      "Asia-Pacific",
+      "Worldwide",
+      "Scania",
+      "MAN"
+    ]
+  },
+  {
+    "table_id": "VW2020_Te4a733",
+    "section_name": "VOLKSWAGEN SHARE KEY FIGURES AND MARKET INDICES FROM JANUARY 1 TO DECEMBER 31, 2020",
+    "title": "Volkswagen share key figures and market indices from January 1 to December 31, 2020",
+    "headers": [
+      [
+        "",
+        "",
+        "High",
+        "Low",
+        "Closing"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "",
+      "High",
+      "Low",
+      "Closing"
+    ],
+    "rows": [
+      [
+        "Ordinary share",
+        "Price (€)",
+        "183.1",
+        "101.5",
+        "170.1"
+      ],
+      [
+        "",
+        "Date",
+        "Jan. 10",
+        "Mar. 18",
+        "Dec. 30"
+      ],
+      [
+        "Preferred share",
+        "Price (€)",
+        "185.52",
+        "87.2",
+        "152.42"
+      ],
+      [
+        "",
+        "Date",
+        "Jan. 10",
+        "Mar. 18",
+        "Dec. 30"
+      ],
+      [
+        "DAX",
+        "Price",
+        "13790",
+        "8442",
+        "13719"
+      ],
+      [
+        "",
+        "Date",
+        "Dec. 28",
+        "Mar. 18",
+        "Dec. 30"
+      ],
+      [
+        "ESTX Auto & Parts",
+        "Price",
+        "509",
+        "255",
+        "505"
+      ],
+      [
+        "",
+        "Date",
+        "Dec. 28",
+        "Mar. 18",
+        "Dec. 30"
+      ]
+    ],
+    "stub_col": [
+      "Ordinary share",
+      "",
+      "Preferred share",
+      "",
+      "DAX",
+      "",
+      "ESTX Auto & Parts",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2020_T47c5dc",
+    "section_name": "VOLKSWAGEN SHARE DATA",
+    "title": "Volkswagen share data",
+    "headers": [
+      [
+        "",
+        "Ordinary shares",
+        "Preferred shares"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "Ordinary shares",
+      "Preferred shares"
+    ],
+    "rows": [
+      [
+        "ISIN",
+        "DE0007664005",
+        "DE0007664039"
+      ],
+      [
+        "WKN",
+        "766400",
+        "766403"
+      ],
+      [
+        "Deutsche Börse/Bloomberg",
+        "VOW",
+        "VOW3"
+      ],
+      [
+        "Reuters",
+        "VOWG.DE",
+        "VOWG_p.DE"
+      ],
+      [
+        "Primary market indices",
+        "CDAX, Prime All Share, MSCI Euro, S&P Global 100 Index",
+        "DAX, CDAX, EURO STOXX, EURO STOXX 50, EURO STOXX Automobiles & Parts, Prime All Share, MSCI Euro"
+      ],
+      [
+        "Exchanges",
+        "Berlin, Dusseldorf, Frankfurt, Hamburg, Hanover, Munich, Stuttgart, Xetra",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "ISIN",
+      "WKN",
+      "Deutsche Börse/Bloomberg",
+      "Reuters",
+      "Primary market indices",
+      "Exchanges"
+    ]
+  },
+  {
+    "table_id": "VW2020_T148b34",
+    "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
+    "title": "Volkswagen share Key Figures",
+    "headers": [
+      [
+        "Ordinary shares",
+        "thousands",
+        "295090",
+        "295090",
+        "295090",
+        "295090",
+        "295090"
+      ],
+      [
+        "Preferred shares",
+        "thousands",
+        "206205",
+        "206205",
+        "206205",
+        "206205",
+        "206205"
+      ]
+    ],
+    "merged_headers": [
+      "Ordinary shares Preferred shares",
+      "thousands",
+      "295090 206205",
+      "295090 206205",
+      "295090 206205",
+      "295090 206205",
+      "295090 206205"
+    ],
+    "rows": [
+      [
+        "Dividend1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "per ordinary share",
+        "€",
+        "4.8",
+        "4.8",
+        "4.8",
+        "3.9",
+        "2.0"
+      ],
+      [
+        "per preferred share",
+        "€",
+        "4.86",
+        "4.86",
+        "4.86",
+        "3.96",
+        "2.06"
+      ],
+      [
+        "Dividend paid1",
+        "€ million",
+        "2419.0",
+        "2419.0",
+        "2419.0",
+        "1967.0",
+        "1015.0"
+      ],
+      [
+        "on ordinary shares",
+        "€ million",
+        "1416.0",
+        "1416.0",
+        "1416.0",
+        "1151.0",
+        "590.0"
+      ],
+      [
+        "on preferred shares",
+        "€ million",
+        "1002.0",
+        "1002.0",
+        "1002.0",
+        "817.0",
+        "425.0"
+      ],
+      [
+        "Share price development2",
+        "",
+        "2020.0",
+        "2019.0",
+        "2018.0",
+        "2017.0",
+        "2016.0"
+      ],
+      [
+        "Ordinary share",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Closing",
+        "€",
+        "170.1",
+        "173.25",
+        "139.1",
+        "168.7",
+        "136.75"
+      ],
+      [
+        "Price performance",
+        "%",
+        "-1.8",
+        "24.6",
+        "-17.5",
+        "23.4",
+        "-3.9"
+      ],
+      [
+        "Annual high",
+        "€",
+        "183.1",
+        "182.5",
+        "188.0",
+        "173.95",
+        "144.2"
+      ],
+      [
+        "Annual low",
+        "€",
+        "101.5",
+        "135.6",
+        "131.1",
+        "128.7",
+        "108.95"
+      ],
+      [
+        "Preferred share",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Closing",
+        "€",
+        "152.42",
+        "176.24",
+        "138.92",
+        "166.45",
+        "133.35"
+      ],
+      [
+        "Price performance",
+        "%",
+        "-13.5",
+        "26.9",
+        "-16.5",
+        "24.8",
+        "-0.3"
+      ],
+      [
+        "Annual high",
+        "€",
+        "185.52",
+        "184.24",
+        "188.5",
+        "178.1",
+        "138.8"
+      ],
+      [
+        "Annual low",
+        "€",
+        "87.2",
+        "134.76",
+        "133.7",
+        "125.35",
+        "94.0"
+      ],
+      [
+        "Beta factor3",
+        "factor",
+        "1.26",
+        "1.17",
+        "1.17",
+        "1.12",
+        "1.22"
+      ],
+      [
+        "Market capitalization at Dec. 31",
+        "€ billion",
+        "81.6",
+        "87.5",
+        "69.7",
+        "84.1",
+        "67.9"
+      ],
+      [
+        "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+        "€ billion",
+        "127.0",
+        "121.8",
+        "117.1",
+        "108.8",
+        "92.7"
+      ],
+      [
+        "Ratio of market capitalization to equity",
+        "factor",
+        "0.64",
+        "0.72",
+        "0.6",
+        "0.77",
+        "0.73"
+      ],
+      [
+        "Key figures per share",
+        "",
+        "2020.0",
+        "2019.0",
+        "2018.0",
+        "2017.0",
+        "2016.0"
+      ],
+      [
+        "Earnings per ordinary share4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "basic",
+        "€",
+        "16.6",
+        "26.6",
+        "23.57",
+        "22.28",
+        "10.24"
+      ],
+      [
+        "diluted",
+        "€",
+        "16.6",
+        "26.6",
+        "23.57",
+        "22.28",
+        "10.24"
+      ],
+      [
+        "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+        "€",
+        "253.44",
+        "242.93",
+        "233.63",
+        "217.13",
+        "184.9"
+      ],
+      [
+        "Price/earnings ratio5",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Ordinary share",
+        "factor",
+        "10.2",
+        "6.5",
+        "5.9",
+        "7.5",
+        "13.4"
+      ],
+      [
+        "Preferred share",
+        "factor",
+        "9.1",
+        "6.6",
+        "5.9",
+        "7.3",
+        "13.0"
+      ],
+      [
+        "Dividend yield6",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Ordinary share",
+        "%",
+        "2.8",
+        "2.8",
+        "3.5",
+        "2.3",
+        "1.5"
+      ],
+      [
+        "Preferred share",
+        "%",
+        "3.2",
+        "2.8",
+        "3.5",
+        "2.4",
+        "1.5"
+      ],
+      [
+        "Stock exchange turnover7",
+        "",
+        "2020.0",
+        "2019.0",
+        "2018.0",
+        "2017.0",
+        "2016.0"
+      ],
+      [
+        "Turnover of Volkswagen ordinary shares",
+        "€ billion",
+        "3.1",
+        "3.3",
+        "4.3",
+        "3.5",
+        "3.3"
+      ],
+      [
+        "",
+        "million shares",
+        "21.6",
+        "20.9",
+        "28.0",
+        "23.6",
+        "25.4"
+      ],
+      [
+        "Turnover of Volkswagen preferred shares",
+        "€ billion",
+        "49.8",
+        "41.0",
+        "54.1",
+        "45.1",
+        "41.1"
+      ],
+      [
+        "",
+        "million shares",
+        "361.2",
+        "266.0",
+        "346.6",
+        "312.3",
+        "347.0"
+      ],
+      [
+        "Volkswagen share of total DAX turnover",
+        "%",
+        "4.7",
+        "4.6",
+        "5.4",
+        "5.4",
+        "5.0"
+      ]
+    ],
+    "stub_col": [
+      "Dividend ^1",
+      "per ordinary share",
+      "per preferred share",
+      "Dividend paid ^1",
+      "on ordinary shares",
+      "on preferred shares",
+      "Share price development ^2",
+      "Ordinary share",
+      "Closing",
+      "Price performance",
+      "Annual high",
+      "Annual low",
+      "Preferred share",
+      "Closing",
+      "Price performance",
+      "Annual high",
+      "Annual low",
+      "Beta factor ^3",
+      "Market capitalization at Dec. 31",
+      "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "Ratio of market capitalization to equity",
+      "Key figures per share",
+      "Earnings per ordinary share ^4",
+      "basic",
+      "diluted",
+      "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "Price/earnings ratio ^5",
+      "Ordinary share",
+      "Preferred share",
+      "Dividend yield ^6",
+      "Ordinary share",
+      "Preferred share",
+      "Stock exchange turnover ^7",
+      "Turnover of Volkswagen ordinary shares",
+      "",
+      "Turnover of Volkswagen preferred shares",
+      "",
+      "Volkswagen share of total DAX turnover"
+    ]
+  },
+  {
+    "table_id": "VW2020_Td3fba5",
+    "section_name": "REFINANCING",
+    "title": "Utilization of the money and capital market programs",
+    "headers": [
+      [
+        "Programs",
+        "Authorized volume € billion",
+        "Amount utilized on Dec. 31, 2020 € billion"
+      ]
+    ],
+    "merged_headers": [
+      "Programs",
+      "Authorized volume € billion",
+      "Amount utilized on Dec. 31, 2020 € billion"
+    ],
+    "rows": [
+      [
+        "Commercial paper",
+        "43.8",
+        "8.2"
+      ],
+      [
+        "Bonds",
+        "164.3",
+        "94.7"
+      ],
+      [
+        "of which hybrid issues",
+        "",
+        "15.5"
+      ],
+      [
+        "Asset-backed securities",
+        "92",
+        "41.1"
+      ]
+    ],
+    "stub_col": [
+      "Commercial paper",
+      "Bonds",
+      "of which hybrid issues",
+      "Asset-backed securities"
+    ]
+  },
+  {
+    "table_id": "VW2020_T9a0b3b",
+    "section_name": "RATINGS",
+    "title": "Ratings",
+    "headers": [
+      [
+        "",
+        "VOLKSWAGEN AG",
+        "",
+        "",
+        "VOLKSWAGEN FINANCIAL SERVICES AG",
+        "",
+        "",
+        "VOLKSWAGEN BANK GMBH",
+        "",
+        ""
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "VOLKSWAGEN AG",
+      "",
+      "",
+      "VOLKSWAGEN FINANCIAL SERVICES AG",
+      "",
+      "",
+      "VOLKSWAGEN BANK GMBH",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        "2020",
+        "2019",
+        "2018",
+        "2020",
+        "2019",
+        "2018",
+        "2020",
+        "2019",
+        "2018"
+      ],
+      [
+        "Standard & Poor’s",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "short-term",
+        "A −2",
+        "A −2",
+        "A −2",
+        "A −2",
+        "A −2",
+        "A −2",
+        "A −2",
+        "A −2",
+        "A −2"
+      ],
+      [
+        "long-term",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "A –",
+        "A –",
+        "A –"
+      ],
+      [
+        "outlook",
+        "negative",
+        "stable",
+        "stable",
+        "negative",
+        "stable",
+        "stable",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      [
+        "Moody’s Investors Service",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "short-term",
+        "P −2",
+        "P −2",
+        "P −2",
+        "P −2",
+        "P −2",
+        "P −2",
+        "P −1",
+        "P −1",
+        "P −1"
+      ],
+      [
+        "long-term",
+        "A3",
+        "A3",
+        "A3",
+        "A3",
+        "A3",
+        "A3",
+        "A1",
+        "A1",
+        "A1"
+      ],
+      [
+        "outlook",
+        "negative",
+        "stable",
+        "stable",
+        "negative",
+        "stable",
+        "stable",
+        "negative",
+        "stable",
+        "stable"
+      ]
+    ],
+    "stub_col": [
+      "",
+      "Standard & Poor’s",
+      "short-term",
+      "long-term",
+      "outlook",
+      "Moody’s Investors Service",
+      "short-term",
+      "long-term",
+      "outlook"
+    ]
+  },
+  {
+    "table_id": "VW2020_T69060a",
+    "section_name": "CONTRIBUTION OF AUTONOMOUS INTELLIGENT DRIVING",
+    "title": "Key figures for 2020 by segment",
+    "headers": [
+      [
+        "€ million",
+        "Passenger Cars and Light Commercial Vehicles",
+        "Commercial Vehicles",
+        "Power Engineering",
+        "Financial Services",
+        "Total segments",
+        "Reconciliation",
+        "Volkswagen Group"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Passenger Cars and Light Commercial Vehicles",
+      "Commercial Vehicles",
+      "Power Engineering",
+      "Financial Services",
+      "Total segments",
+      "Reconciliation",
+      "Volkswagen Group"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "175984",
+        "22156",
+        "3640",
+        "40778",
+        "242557",
+        "-19673",
+        "222884"
+      ],
+      [
+        "Segment profit or loss (operating result)",
+        "8381",
+        "-79",
+        "-482",
+        "3012",
+        "10832",
+        "-1157",
+        "9675"
+      ],
+      [
+        "as a percentage of sales revenue",
+        "4.8",
+        "-0.4",
+        "-13.2",
+        "7.4",
+        "",
+        "",
+        "4.3"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Segment profit or loss (operating result)",
+      "as a percentage of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2020_T7db571",
+    "section_name": "CAPITAL INCREASE AT QUANTUMSCAPE CORPORATION",
+    "title": "Income statement by division",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019",
+        "2020",
+        "2019",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019",
+      "2020",
+      "2019",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "222884",
+        "252632.0",
+        "182106",
+        "212473.0",
+        "40778",
+        "40160"
+      ],
+      [
+        "Cost of sales",
+        "-183937",
+        "-203490.0",
+        "-150507",
+        "-170477.0",
+        "-33430",
+        "-33014"
+      ],
+      [
+        "Gross profit",
+        "38947",
+        "49142.0",
+        "31599",
+        "41996.0",
+        "7348",
+        "7146"
+      ],
+      [
+        "Distribution expenses",
+        "-18407",
+        "-20978.0",
+        "-17267",
+        "-19712.0",
+        "-1140",
+        "-1266"
+      ],
+      [
+        "Administrative expenses",
+        "-9399",
+        "-9767.0",
+        "-7147",
+        "-7522.0",
+        "-2252",
+        "-2245"
+      ],
+      [
+        "Net other operating result",
+        "-1466",
+        "-1437.0",
+        "-522",
+        "-1014.0",
+        "-944",
+        "-423"
+      ],
+      [
+        "Operating result",
+        "9675",
+        "16960.0",
+        "6664",
+        "13748.0",
+        "3012",
+        "3212"
+      ],
+      [
+        "Operating return on sales (%)",
+        "4.3",
+        "6.7",
+        "3.7",
+        "6.5",
+        "7.4",
+        "8"
+      ],
+      [
+        "Share of profits and losses of equity-accounted investments",
+        "2756",
+        "3349.0",
+        "2697",
+        "3278.0",
+        "60",
+        "71"
+      ],
+      [
+        "Interest result and Other financial result",
+        "-765",
+        "-1953.0",
+        "-469",
+        "-1889.0",
+        "-296",
+        "-64"
+      ],
+      [
+        "Financial result",
+        "1991",
+        "1396.0",
+        "2227",
+        "1389.0",
+        "-236",
+        "7"
+      ],
+      [
+        "Earnings before tax",
+        "11667",
+        "18356.0",
+        "8891",
+        "15137.0",
+        "2776",
+        "3219"
+      ],
+      [
+        "Income tax expense",
+        "-2843",
+        "-4326.0",
+        "-2228",
+        "-3491.0",
+        "-615",
+        "-836"
+      ],
+      [
+        "Earnings after tax",
+        "8824",
+        "14029.0",
+        "6663",
+        "11646.0",
+        "2161",
+        "2383"
+      ],
+      [
+        "Noncontrolling interests",
+        "-43",
+        "143.0",
+        "-98",
+        "79.0",
+        "55",
+        "64"
+      ],
+      [
+        "Earnings attributable to Volkswagen AG hybrid capital investors",
+        "533",
+        "540.0",
+        "533",
+        "540.0",
+        "–",
+        "–"
+      ],
+      [
+        "Earnings attributable to Volkswagen AG shareholders",
+        "8334",
+        "13346.0",
+        "6227",
+        "11027.0",
+        "2106",
+        "2319"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Cost of sales",
+      "Gross profit",
+      "Distribution expenses",
+      "Administrative expenses",
+      "Net other operating result",
+      "Operating result",
+      "Operating return on sales (%)",
+      "Share of profits and losses of equity-accounted investments",
+      "Interest result and Other financial result",
+      "Financial result",
+      "Earnings before tax",
+      "Income tax expense",
+      "Earnings after tax",
+      "Noncontrolling interests",
+      "Earnings attributable to Volkswagen AG hybrid capital investors",
+      "Earnings attributable to Volkswagen AG shareholders"
+    ]
+  },
+  {
+    "table_id": "VW2020_T4d27d6",
+    "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA",
+    "title": "Results of operations in the Passenger Cars Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "156311.0",
+        "182031.0"
+      ],
+      [
+        "Operating result",
+        "7224.0",
+        "12188.0"
+      ],
+      [
+        "Operating return on sales (%)",
+        "4.6",
+        "6.7"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T1a9edb",
+    "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+    "title": "Results of operations in the Commercial Vehicles Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "22156.0",
+        "26444.0"
+      ],
+      [
+        "Operating result",
+        "-79.0",
+        "1653.0"
+      ],
+      [
+        "Operating return on sales (%)",
+        "-0.4",
+        "6.3"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_T4a1c4a",
+    "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
+    "title": "Results of operations in the Power Engineering Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "3640.0",
+        "3997.0"
+      ],
+      [
+        "Operating result",
+        "-482.0",
+        "-93.0"
+      ],
+      [
+        "Operating return on sales (%)",
+        "-13.2",
+        "-2.3"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2020_Taf1010",
+    "section_name": "CASH FLOW STATEMENT BY DIVISION",
+    "title": "Cash flow statement by division",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019",
+        "2020",
+        "2019",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019",
+      "2020",
+      "2019",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Cash and cash equivalents at beginning of period",
+        "24329",
+        "28113",
+        "18098",
+        "23354.0",
+        "6231",
+        "4759"
+      ],
+      [
+        "Earnings before tax",
+        "11667",
+        "18356",
+        "8891",
+        "15137.0",
+        "2776",
+        "3219"
+      ],
+      [
+        "Income taxes paid",
+        "-2646",
+        "-2914",
+        "-2009",
+        "-2187.0",
+        "-637",
+        "-726"
+      ],
+      [
+        "Depreciation and amortization expense2",
+        "27069",
+        "24439",
+        "17798",
+        "15958.0",
+        "9272",
+        "8480"
+      ],
+      [
+        "Change in pension provisions",
+        "806",
+        "342",
+        "767",
+        "320.0",
+        "39",
+        "23"
+      ],
+      [
+        "Share of the result of equity-accounted investments",
+        "536",
+        "460",
+        "584",
+        "520.0",
+        "-48",
+        "-59"
+      ],
+      [
+        "Other noncash income/expense and reclassifications3",
+        "-2461",
+        "-734",
+        "-2388",
+        "-651.0",
+        "-73",
+        "-83"
+      ],
+      [
+        "Gross cash flow",
+        "34971",
+        "39950",
+        "23642",
+        "29097.0",
+        "11329",
+        "10853"
+      ],
+      [
+        "Change in working capital",
+        "-10070",
+        "-21966",
+        "1079",
+        "1636.0",
+        "-11148",
+        "-23603"
+      ],
+      [
+        "Change in inventories",
+        "1334",
+        "-674",
+        "1406",
+        "-345.0",
+        "-72",
+        "-329"
+      ],
+      [
+        "Change in receivables",
+        "712",
+        "-893",
+        "45",
+        "-1176.0",
+        "668",
+        "283"
+      ],
+      [
+        "Change in liabilities",
+        "540",
+        "2297",
+        "-138",
+        "1564.0",
+        "678",
+        "733"
+      ],
+      [
+        "Change in other provisions",
+        "-2",
+        "1304",
+        "-214",
+        "1400.0",
+        "211",
+        "-96"
+      ],
+      [
+        "Change in financial services receivables",
+        "260",
+        "-10796",
+        "-72",
+        "303.0",
+        "332",
+        "-11099"
+      ],
+      [
+        "Cash flows from operating activities",
+        "24901",
+        "17983",
+        "24721",
+        "30733.0",
+        "180",
+        "-12750"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-18372",
+        "-20076",
+        "-18364",
+        "-19898.0",
+        "-8",
+        "-178"
+      ],
+      [
+        "capitalized development costs",
+        "-6473",
+        "-5171",
+        "-6473",
+        "-5171.0",
+        "–",
+        "–"
+      ],
+      [
+        "acquisition and disposal of equity investments",
+        "-1037",
+        "-913",
+        "-1188",
+        "-716.0",
+        "151",
+        "-196"
+      ],
+      [
+        "Net cash flow4",
+        "6529",
+        "-2093",
+        "6357",
+        "10835.0",
+        "172",
+        "-12928"
+      ],
+      [
+        "Change in investments in securities, loans and time deposits",
+        "-4319",
+        "-1069",
+        "-3015",
+        "-5018.0",
+        "-1304",
+        "3949"
+      ],
+      [
+        "Cash flows from investing activities",
+        "-22690",
+        "-21146",
+        "-21379",
+        "-24916.0",
+        "-1312",
+        "3771"
+      ],
+      [
+        "Cash flows from financing activities",
+        "7637",
+        "-865",
+        "2938",
+        "-11278.0",
+        "4699",
+        "10413"
+      ],
+      [
+        "of which: capital transactions with noncontrolling interests",
+        "-238",
+        "1368",
+        "-238",
+        "1368.0",
+        "–",
+        "–"
+      ],
+      [
+        "capital contributions/capital redemptions",
+        "2984",
+        "–",
+        "2952",
+        "-970.0",
+        "33",
+        "970"
+      ],
+      [
+        "MAN noncontrolling interest shareholders: compensation payments and acquisition of shares tendered",
+        "2",
+        "-1109",
+        "2",
+        "-1109.0",
+        "–",
+        "–"
+      ],
+      [
+        "Effect of exchange rate changes on cash and cash equivalents",
+        "-745",
+        "243",
+        "-619",
+        "205.0",
+        "-125",
+        "38"
+      ],
+      [
+        "Change of loss allowance within cash & cash equivalents",
+        "0",
+        "1",
+        "0",
+        "1.0",
+        "0",
+        "0"
+      ],
+      [
+        "Net change in cash and cash equivalents",
+        "9103",
+        "-3784",
+        "5660",
+        "-5256.0",
+        "3443",
+        "1472"
+      ],
+      [
+        "Cash and cash equivalents at Dec. 315",
+        "33432",
+        "24329",
+        "23758",
+        "18098.0",
+        "9674",
+        "6231"
+      ],
+      [
+        "Securities, loans and time deposits",
+        "32645",
+        "29099",
+        "15868",
+        "13458.0",
+        "16777",
+        "15641"
+      ],
+      [
+        "Gross liquidity",
+        "66078",
+        "53428",
+        "39626",
+        "31556.0",
+        "26451",
+        "21872"
+      ],
+      [
+        "Total third-party borrowings",
+        "-203457",
+        "-201468",
+        "-12830",
+        "-10280.0",
+        "-190627",
+        "-191189"
+      ],
+      [
+        "Net liquidity6",
+        "-137380",
+        "-148040",
+        "26796",
+        "21276.0",
+        "-164176",
+        "-169316"
+      ]
+    ],
+    "stub_col": [
+      "Cash and cash equivalents at beginning of period",
+      "Earnings before tax",
+      "Income taxes paid",
+      "Depreciation and amortization expense ^2",
+      "Change in pension provisions",
+      "Share of the result of equity-accounted investments",
+      "Other noncash income/expense and reclassifications ^3",
+      "Gross cash flow",
+      "Change in working capital",
+      "Change in inventories",
+      "Change in receivables",
+      "Change in liabilities",
+      "Change in other provisions",
+      "Change in financial services receivables",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "capitalized development costs",
+      "acquisition and disposal of equity investments",
+      "Net cash flow ^4",
+      "Change in investments in securities, loans and time deposits",
+      "Cash flows from investing activities",
+      "Cash flows from financing activities",
+      "of which: capital transactions with noncontrolling interests",
+      "capital contributions/capital redemptions",
+      "MAN noncontrolling interest shareholders: compensation payments and acquisition of shares tendered",
+      "Effect of exchange rate changes on cash and cash equivalents",
+      "Change of loss allowance within cash & cash equivalents",
+      "Net change in cash and cash equivalents",
+      "Cash and cash equivalents at Dec. 315",
+      "Securities, loans and time deposits",
+      "Gross liquidity",
+      "Total third-party borrowings",
+      "Net liquidity ^6"
+    ]
+  },
+  {
+    "table_id": "VW2020_T049392",
+    "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA",
+    "title": "Financial Position in the Passenger Cars Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Gross cash flow",
+        "21823.0",
+        "25474.0"
+      ],
+      [
+        "Change in working capital",
+        "331.0",
+        "3053.0"
+      ],
+      [
+        "Cash flows from operating activities",
+        "22154.0",
+        "28528.0"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-16762.0",
+        "-20254.0"
+      ],
+      [
+        "Net cash flow",
+        "5392.0",
+        "8273.0"
+      ]
+    ],
+    "stub_col": [
+      "Gross cash flow",
+      "Change in working capital",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "Net cash flow"
+    ]
+  },
+  {
+    "table_id": "VW2020_T4d5d9f",
+    "section_name": "F INANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+    "title": "Financial Position in the Commercial Vehicles Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Gross cash flow",
+        "1845.0",
+        "3357.0"
+      ],
+      [
+        "Change in working capital",
+        "159.0",
+        "-1249.0"
+      ],
+      [
+        "Cash flows from operating activities",
+        "2004.0",
+        "2108.0"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-1328.0",
+        "603.0"
+      ],
+      [
+        "Net cash flow",
+        "676.0",
+        "2711.0"
+      ]
+    ],
+    "stub_col": [
+      "Gross cash flow",
+      "Change in working capital",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "Net cash flow"
+    ]
+  },
+  {
+    "table_id": "VW2020_T94b269",
+    "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
+    "title": "Financial Position in the Power Engineering Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Gross cash flow",
+        "-25.0",
+        "265.0"
+      ],
+      [
+        "Change in working capital",
+        "588.0",
+        "-168.0"
+      ],
+      [
+        "Cash flows from operating activities",
+        "562.0",
+        "98.0"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-274.0",
+        "-247.0"
+      ],
+      [
+        "Net cash flow",
+        "289.0",
+        "-150.0"
+      ]
+    ],
+    "stub_col": [
+      "Gross cash flow",
+      "Change in working capital",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "Net cash flow"
+    ]
+  },
+  {
+    "table_id": "VW2020_T64ab6b",
+    "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019",
+        "2020",
+        "2019",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019",
+      "2020",
+      "2019",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Assets",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Noncurrent assets",
+        "302170",
+        "300608.0",
+        "156861",
+        "153736.0",
+        "145309",
+        "146873"
+      ],
+      [
+        "Intangible assets",
+        "67968",
+        "66214.0",
+        "67781",
+        "66010.0",
+        "187",
+        "204"
+      ],
+      [
+        "Property, plant and equipment",
+        "63884",
+        "66152.0",
+        "62807",
+        "65043.0",
+        "1077",
+        "1110"
+      ],
+      [
+        "Lease assets",
+        "50686",
+        "48938.0",
+        "1512",
+        "2084.0",
+        "49174",
+        "46853"
+      ],
+      [
+        "Financial services receivables",
+        "82565",
+        "86973.0",
+        "-377",
+        "-390.0",
+        "82942",
+        "87363"
+      ],
+      [
+        "Investments, equity-accounted investments and other equity investments, other receivables and financial assets",
+        "37067",
+        "32331.0",
+        "25137",
+        "20989.0",
+        "11930",
+        "11342"
+      ],
+      [
+        "Current assets",
+        "194944",
+        "187463.0",
+        "97236",
+        "93081.0",
+        "97708",
+        "94382"
+      ],
+      [
+        "Inventories",
+        "43823",
+        "46742.0",
+        "39055",
+        "41898.0",
+        "4768",
+        "4844"
+      ],
+      [
+        "Financial services receivables",
+        "58006",
+        "58615.0",
+        "-557",
+        "-640.0",
+        "58562",
+        "59255"
+      ],
+      [
+        "Other receivables and financial assets",
+        "38044",
+        "38620.0",
+        "17012",
+        "17803.0",
+        "21033",
+        "20817"
+      ],
+      [
+        "Marketable securities",
+        "21162",
+        "16769.0",
+        "17503",
+        "13546.0",
+        "3658",
+        "3223"
+      ],
+      [
+        "Cash, cash equivalents and time deposits",
+        "33909",
+        "25923.0",
+        "24222",
+        "19679.0",
+        "9687",
+        "6243"
+      ],
+      [
+        "Assets held for sale",
+        "–",
+        "795.0",
+        "–",
+        "795.0",
+        "–",
+        "–"
+      ],
+      [
+        "Total assets",
+        "497114",
+        "488071.0",
+        "254097",
+        "246816.0",
+        "243017",
+        "241255"
+      ],
+      [
+        "Equity and liabilities",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Equity",
+        "128783",
+        "123651.0",
+        "96733",
+        "92774.0",
+        "32050",
+        "30877"
+      ],
+      [
+        "Equity attributable to Volkswagen AG shareholders",
+        "111336",
+        "109117.0",
+        "79913",
+        "78872.0",
+        "31423",
+        "30246"
+      ],
+      [
+        "Equity attributable to Volkswagen AG hybrid capital investors",
+        "15713",
+        "12663.0",
+        "15713",
+        "12663.0",
+        "–",
+        "–"
+      ],
+      [
+        "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+        "127049",
+        "121781.0",
+        "95626",
+        "91535.0",
+        "31423",
+        "30246"
+      ],
+      [
+        "Noncontrolling interests",
+        "1734",
+        "1870.0",
+        "1107",
+        "1239.0",
+        "627",
+        "631"
+      ],
+      [
+        "Noncurrent liabilities",
+        "202921",
+        "196497.0",
+        "93523",
+        "90822.0",
+        "109398",
+        "105675"
+      ],
+      [
+        "Financial liabilities",
+        "114809",
+        "113556.0",
+        "15637",
+        "17592.0",
+        "99173",
+        "95965"
+      ],
+      [
+        "Provisions for pensions",
+        "45081",
+        "41389.0",
+        "44207",
+        "40631.0",
+        "874",
+        "759"
+      ],
+      [
+        "Other liabilities",
+        "43031",
+        "41551.0",
+        "33680",
+        "32600.0",
+        "9352",
+        "8951"
+      ],
+      [
+        "Current liabilities",
+        "165410",
+        "167924.0",
+        "63840",
+        "63220.0",
+        "101569",
+        "104703"
+      ],
+      [
+        "Financial liabilities",
+        "88648",
+        "87912.0",
+        "-2806",
+        "-7312.0",
+        "91454",
+        "95224"
+      ],
+      [
+        "Trade payables",
+        "22677",
+        "22745.0",
+        "19539",
+        "19603.0",
+        "3137",
+        "3142"
+      ],
+      [
+        "Other liabilities",
+        "54085",
+        "56896.0",
+        "47107",
+        "50559.0",
+        "6978",
+        "6337"
+      ],
+      [
+        "Liabilities associated with assets held for sale",
+        "–",
+        "370.0",
+        "–",
+        "370.0",
+        "–",
+        "–"
+      ],
+      [
+        "Total equity and liabilities",
+        "497114",
+        "488071.0",
+        "254097",
+        "246816.0",
+        "243017",
+        "241255"
+      ]
+    ],
+    "stub_col": [
+      "Assets",
+      "Noncurrent assets",
+      "Intangible assets",
+      "Property, plant and equipment",
+      "Lease assets",
+      "Financial services receivables",
+      "Investments, equity-accounted investments and other equity investments, other receivables and financial assets",
+      "Current assets",
+      "Inventories",
+      "Financial services receivables",
+      "Other receivables and financial assets",
+      "Marketable securities",
+      "Cash, cash equivalents and time deposits",
+      "Assets held for sale",
+      "Total assets",
+      "Equity and liabilities",
+      "Equity",
+      "Equity attributable to Volkswagen AG shareholders",
+      "Equity attributable to Volkswagen AG hybrid capital investors",
+      "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "Noncontrolling interests",
+      "Noncurrent liabilities",
+      "Financial liabilities",
+      "Provisions for pensions",
+      "Other liabilities",
+      "Current liabilities",
+      "Financial liabilities",
+      "Trade payables",
+      "Other liabilities",
+      "Liabilities associated with assets held for sale",
+      "Total equity and liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2020_T9b333b",
+    "section_name": "PASSENGER CARS BUSINESS AREA BALANCE SHEET STRUCTURE",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "Dec. 31, 2020",
+        "Dec. 31, 2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Dec. 31, 2020",
+      "Dec. 31, 2019"
+    ],
+    "rows": [
+      [
+        "Noncurrent assets",
+        "130237",
+        "126387"
+      ],
+      [
+        "Current assets",
+        "83180",
+        "75459"
+      ],
+      [
+        "Total assets",
+        "213417",
+        "201846"
+      ],
+      [
+        "Equity",
+        "81423",
+        "75773"
+      ],
+      [
+        "Noncurrent liabilities",
+        "82263",
+        "78679"
+      ],
+      [
+        "Current liabilities",
+        "49731",
+        "47394"
+      ]
+    ],
+    "stub_col": [
+      "Noncurrent assets",
+      "Current assets",
+      "Total assets",
+      "Equity",
+      "Noncurrent liabilities",
+      "Current liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2020_T29ef72",
+    "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "Dec. 31, 2020",
+        "Dec. 31, 2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Dec. 31, 2020",
+      "Dec. 31, 2019"
+    ],
+    "rows": [
+      [
+        "Noncurrent assets",
+        "24777",
+        "25143"
+      ],
+      [
+        "Current assets",
+        "11256",
+        "13420"
+      ],
+      [
+        "Total assets",
+        "36033",
+        "38563"
+      ],
+      [
+        "Equity",
+        "13389",
+        "14115"
+      ],
+      [
+        "Noncurrent liabilities",
+        "10592",
+        "11367"
+      ],
+      [
+        "Current liabilities",
+        "12052",
+        "13081"
+      ]
+    ],
+    "stub_col": [
+      "Noncurrent assets",
+      "Current assets",
+      "Total assets",
+      "Equity",
+      "Noncurrent liabilities",
+      "Current liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2020_T1963ad",
+    "section_name": "The Power Engineering Business Area's AREA BALANCE SHEET STRUCTURE",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "Dec. 31, 2020",
+        "Dec. 31, 2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Dec. 31, 2020",
+      "Dec. 31, 2019"
+    ],
+    "rows": [
+      [
+        "Noncurrent assets",
+        "1847",
+        "2206"
+      ],
+      [
+        "Current assets",
+        "2800",
+        "4202"
+      ],
+      [
+        "Total assets",
+        "4647",
+        "6408"
+      ],
+      [
+        "Equity",
+        "1922",
+        "2885"
+      ],
+      [
+        "Noncurrent liabilities",
+        "668",
+        "777"
+      ],
+      [
+        "Current liabilities",
+        "2057",
+        "2746"
+      ]
+    ],
+    "stub_col": [
+      "Noncurrent assets",
+      "Current assets",
+      "Total assets",
+      "Equity",
+      "Noncurrent liabilities",
+      "Current liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2020_T68511f",
+    "section_name": "COST OF CAPITAL AFTER TAX IN THE AUTOMOTIVE DIVISION",
+    "title": "Cost of capital after tax automotive division",
+    "headers": [
+      [
+        "%",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "%",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Risk-free rate",
+        "-0.2",
+        "0.0"
+      ],
+      [
+        "Market risk premium",
+        "7.5",
+        "7.5"
+      ],
+      [
+        "Volkswagen-specific risk premium",
+        "2.0",
+        "1.3"
+      ],
+      [
+        "(Volkswagen beta factor)",
+        "-1.26",
+        "-1.17"
+      ],
+      [
+        "Cost of equity after tax",
+        "9.3",
+        "8.8"
+      ],
+      [
+        "Cost of debt",
+        "1.4",
+        "1.9"
+      ],
+      [
+        "Tax",
+        "-0.4",
+        "-0.6"
+      ],
+      [
+        "Cost of debt after tax",
+        "1.0",
+        "1.3"
+      ],
+      [
+        "Proportion of equity",
+        "66.7",
+        "66.7"
+      ],
+      [
+        "Proportion of debt",
+        "33.3",
+        "33.3"
+      ],
+      [
+        "Cost of capital after tax",
+        "6.5",
+        "6.3"
+      ]
+    ],
+    "stub_col": [
+      "Risk-free rate",
+      "Market risk premium",
+      "Volkswagen-specific risk premium",
+      "(Volkswagen beta factor)",
+      "Cost of equity after tax",
+      "Cost of debt",
+      "Tax",
+      "Cost of debt after tax",
+      "Proportion of equity",
+      "Proportion of debt",
+      "Cost of capital after tax"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tca1a57",
+    "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
+    "title": "Return on Investment (ROI) and Value Contribution in the Automotive Division1",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Operating result after tax",
+        "7450.0",
+        "13019.0"
+      ],
+      [
+        "Invested capital (average)",
+        "114907.0",
+        "116016.0"
+      ],
+      [
+        "Return on investment (ROI) in %",
+        "6.5",
+        "11.2"
+      ],
+      [
+        "Cost of capital in %",
+        "6.5",
+        "6.3"
+      ],
+      [
+        "Opportunity cost of invested capital",
+        "7504.0",
+        "7328.0"
+      ],
+      [
+        "Value contribution",
+        "-54.0",
+        "5691.0"
+      ]
+    ],
+    "stub_col": [
+      "Operating result after tax",
+      "Invested capital (average)",
+      "Return on investment (ROI) in %",
+      "Cost of capital in %",
+      "Opportunity cost of invested capital",
+      "Value contribution"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tbeaf3a",
+    "section_name": "FORECAST VERSUS ACTUAL FIGURES",
+    "title": "Forecast versus actual figures",
+    "headers": [
+      [
+        "Deliveries to customers (units)",
+        "11.0 million",
+        "around the prior-year level",
+        "considerable decline",
+        "9.3 million"
+      ]
+    ],
+    "merged_headers": [
+      "Deliveries to customers (units)",
+      "11.0 million",
+      "around the prior-year level",
+      "considerable decline",
+      "9.3 million"
+    ],
+    "rows": [
+      [
+        "Volkswagen Group",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€252.6 billion",
+        "increase of up to 4%",
+        "considerable decline",
+        "€222.9 billion"
+      ],
+      [
+        "Operating return on sales before special items",
+        "0.076",
+        "6.5–7.5%",
+        "positive, <6.5%",
+        "0.048"
+      ],
+      [
+        "Operating return on sales",
+        "0.067",
+        "6.5–7.5%",
+        "positive, <6.5%",
+        "0.043"
+      ],
+      [
+        "Operating result before special items",
+        "€19.3 billion",
+        "in forecast range",
+        "severe decline, positive",
+        "€10.6 billion"
+      ],
+      [
+        "Operating result",
+        "€17.0 billion",
+        "in forecast range",
+        "severe decline, positive",
+        "€9.7 billion"
+      ],
+      [
+        "Passenger Cars Business Area",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€182.0 billion",
+        "moderate increase",
+        "considerable decline",
+        "€156.3 billion"
+      ],
+      [
+        "Operating return on sales before special items",
+        "0.08",
+        "6.5–7.5%",
+        "in forecast range, <6.5%",
+        "0.052000000000000005"
+      ],
+      [
+        "Operating return on sales",
+        "0.067",
+        "6.5–7.5%",
+        "in forecast range, <6.5%",
+        "0.046"
+      ],
+      [
+        "Operating result before special items",
+        "€14.5 billion",
+        "in forecast range",
+        "severe decline",
+        "€8.2 billion"
+      ],
+      [
+        "Operating result",
+        "€12.2 billion",
+        "in forecast range",
+        "severe decline",
+        "€7.2 billion"
+      ],
+      [
+        "Commercial Vehicles Business Area",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€26.4 billion",
+        "moderate decline",
+        "considerable decline",
+        "€22.2 billion"
+      ],
+      [
+        "Operating return on sales",
+        "0.063",
+        "4.0–5.0%",
+        "in forecast range, <4.0%",
+        "-0.004"
+      ],
+      [
+        "Operating result",
+        "€1.7 billion",
+        "in forecast range",
+        "severe decline",
+        "€−79 million"
+      ],
+      [
+        "Power Engineering Business Area",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€4.0 billion",
+        "at prior-year level",
+        "considerable decline",
+        "€3.6 billion"
+      ],
+      [
+        "Operating result",
+        "€−93 million",
+        "smaller loss",
+        "considerably higher loss",
+        "€−482 million"
+      ],
+      [
+        "Financial Services Division",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€40.2 billion",
+        "around the prior-year level",
+        "at prior-year level",
+        "€40.8 billion"
+      ],
+      [
+        "Operating result",
+        "€3.2 billion",
+        "around the prior-year level",
+        "considerable decline",
+        "€3.0 billion"
+      ],
+      [
+        "R&D ratio in the Automotive Division",
+        "0.067",
+        "6.0–6.5%",
+        "increase, >6.5%",
+        "0.076"
+      ],
+      [
+        "Capex/sales revenue in the Automotive Division",
+        "0.066",
+        "6.0–6.5%",
+        "at prior-year level",
+        "0.061"
+      ],
+      [
+        "Net cash flow in the Automotive Division",
+        "€10.8 billion",
+        "noticeable decline, clearly positive",
+        "considerable decline, positive",
+        "€6.4 billion"
+      ],
+      [
+        "Net liquidity in the Automotive Division",
+        "€21.3 billion",
+        "distinct increase",
+        "around the prior-year level",
+        "€26.8 billion"
+      ],
+      [
+        "Return on investment (ROI) in the Automotive Division",
+        "0.11199999999999999",
+        "slight increase, >9%",
+        "decline, positive, <9%",
+        "0.065"
+      ]
+    ],
+    "stub_col": [
+      "Volkswagen Group",
+      "Sales revenue",
+      "Operating return on sales before special items",
+      "Operating return on sales",
+      "Operating result before special items",
+      "Operating result",
+      "Passenger Cars Business Area",
+      "Sales revenue",
+      "Operating return on sales before special items",
+      "Operating return on sales",
+      "Operating result before special items",
+      "Operating result",
+      "Commercial Vehicles Business Area",
+      "Sales revenue",
+      "Operating return on sales",
+      "Operating result",
+      "Power Engineering Business Area",
+      "Sales revenue",
+      "Operating result",
+      "Financial Services Division",
+      "Sales revenue",
+      "Operating result",
+      "R&D ratio in the Automotive Division",
+      "Capex/sales revenue in the Automotive Division",
+      "Net cash flow in the Automotive Division",
+      "Net liquidity in the Automotive Division",
+      "Return on investment (ROI) in the Automotive Division"
+    ]
+  },
+  {
+    "table_id": "VW2020_T66dde5",
+    "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+    "title": "Income statement of Volkswagen AG",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Sales",
+        "67535.0",
+        "80621.0"
+      ],
+      [
+        "Cost of sales",
+        "-63418.0",
+        "-74700.0"
+      ],
+      [
+        "Gross profit on sales",
+        "4117.0",
+        "5921.0"
+      ],
+      [
+        "Distribution, general and administrative expenses",
+        "-7269.0",
+        "-7948.0"
+      ],
+      [
+        "Net other operating result",
+        "398.0",
+        "-914.0"
+      ],
+      [
+        "Financial result1",
+        "9787.0",
+        "9115.0"
+      ],
+      [
+        "Taxes on income",
+        "-693.0",
+        "-1215.0"
+      ],
+      [
+        "Earnings after tax",
+        "6338.0",
+        "4958.0"
+      ],
+      [
+        "Net income for the fiscal year",
+        "6338.0",
+        "4958.0"
+      ],
+      [
+        "Retained profits brought forward",
+        "855.0",
+        "0.0"
+      ],
+      [
+        "Appropriations to revenue reserves",
+        "-3165.0",
+        "-1685.0"
+      ],
+      [
+        "Net retained profits",
+        "4028.0",
+        "3273.0"
+      ]
+    ],
+    "stub_col": [
+      "Sales",
+      "Cost of sales",
+      "Gross profit on sales",
+      "Distribution, general and administrative expenses",
+      "Net other operating result",
+      "Financial result ^1",
+      "Taxes on income",
+      "Earnings after tax",
+      "Net income for the fiscal year",
+      "Retained profits brought forward",
+      "Appropriations to revenue reserves",
+      "Net retained profits"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tfe02c6",
+    "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Fixed assets",
+        "130377.0",
+        "120823.0"
+      ],
+      [
+        "Inventories",
+        "6542.0",
+        "5554.0"
+      ],
+      [
+        "Receivables1",
+        "38766.0",
+        "35856.0"
+      ],
+      [
+        "Cash-in-hand and bank balances",
+        "8803.0",
+        "5639.0"
+      ],
+      [
+        "Total assets",
+        "184488.0",
+        "167872.0"
+      ],
+      [
+        "Equity",
+        "39549.0",
+        "35629.0"
+      ],
+      [
+        "Special tax-allowable reserves",
+        "18.0",
+        "18.0"
+      ],
+      [
+        "Long-term debt",
+        "43086.0",
+        "39206.0"
+      ],
+      [
+        "Medium-term debt",
+        "36348.0",
+        "35983.0"
+      ],
+      [
+        "Short-term debt",
+        "65487.0",
+        "57036.0"
+      ]
+    ],
+    "stub_col": [
+      "Fixed assets",
+      "Inventories",
+      "Receivables ^1",
+      "Cash-in-hand and bank balances",
+      "Total assets",
+      "Equity",
+      "Special tax-allowable reserves",
+      "Long-term debt",
+      "Medium-term debt",
+      "Short-term debt"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tb5576b",
+    "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
+    "title": "Proposal on the appropriation of net profit",
+    "headers": [
+      [
+        "Dividend payout on subscribed capital (€1,283 million)",
+        "",
+        "2418589589.1"
+      ]
+    ],
+    "merged_headers": [
+      "Dividend payout on subscribed capital (€1,283 million)",
+      "",
+      "2418589589.1"
+    ],
+    "rows": [
+      [
+        "of which on:",
+        "ordinary shares",
+        "1416431126.4"
+      ],
+      [
+        "",
+        "preferred shares",
+        "1002158462.7"
+      ],
+      [
+        "Balance (carried forward to new account)",
+        "",
+        "1609493827.8"
+      ],
+      [
+        "Net retained profits",
+        "",
+        "4028083416.9"
+      ]
+    ],
+    "stub_col": [
+      "of which on:",
+      "",
+      "Balance (carried forward to new account)",
+      "Net retained profits"
+    ]
+  },
+  {
+    "table_id": "VW2020_T04cd95",
+    "section_name": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
+    "title": "Employee pay and benefits at Volkswagen AG",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "%",
+        "2019",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "%",
+      "2019",
+      "%"
+    ],
+    "rows": [
+      [
+        "Social security contributions",
+        "1379.0",
+        "13",
+        "1502.0",
+        "12.6"
+      ],
+      [
+        "Compensated absence",
+        "1099.0",
+        "10.4",
+        "1310.0",
+        "11"
+      ],
+      [
+        "Retirement benefits",
+        "634.0",
+        "6",
+        "682.0",
+        "5.7"
+      ],
+      [
+        "Total expense",
+        "10588.0",
+        "100",
+        "11916.0",
+        "100"
+      ]
+    ],
+    "stub_col": [
+      "Social security contributions",
+      "Compensated absence",
+      "Retirement benefits",
+      "Total expense"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tadccaa",
+    "section_name": "VOLKSWAGEN AG EXPENDITURE ON ENVIRONMENTAL PROTECTION",
+    "title": "Volkswagen AG expenditure on environmental protection",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019",
+      "2018",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Investments",
+        "4.0",
+        "9.0",
+        "13.0",
+        "17.0",
+        "11.0"
+      ],
+      [
+        "Operating costs",
+        "225.0",
+        "233.0",
+        "230.0",
+        "227.0",
+        "223.0"
+      ]
+    ],
+    "stub_col": [
+      "Investments",
+      "Operating costs"
+    ]
+  },
+  {
+    "table_id": "VW2020_T16565e",
+    "section_name": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
+    "title": "Research and development costs in the automotive division",
+    "headers": [
+      [
+        "€ million",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Total research and development costs",
+        "13885.0",
+        "14306.0"
+      ],
+      [
+        "of which capitalized development costs",
+        "6473.0",
+        "5171.0"
+      ],
+      [
+        "Capitalization ratio in %",
+        "46.6",
+        "36.1"
+      ],
+      [
+        "Amortization of capitalized development costs",
+        "4644.0",
+        "4064.0"
+      ],
+      [
+        "Research and development costs recognized in profit or loss",
+        "12056.0",
+        "13199.0"
+      ],
+      [
+        "Sales revenue",
+        "182106.0",
+        "212473.0"
+      ],
+      [
+        "Total research and development costs",
+        "13885.0",
+        "14306.0"
+      ],
+      [
+        "R&D ratio",
+        "7.6",
+        "6.7"
+      ]
+    ],
+    "stub_col": [
+      "Total research and development costs",
+      "of which capitalized development costs",
+      "Capitalization ratio in %",
+      "Amortization of capitalized development costs",
+      "Research and development costs recognized in profit or loss",
+      "Sales revenue",
+      "Total research and development costs",
+      "R&D ratio"
+    ]
+  },
+  {
+    "table_id": "VW2020_Tc2cf94",
+    "section_name": "PROPORTION OF WOMEN  as of December 31",
+    "title": "Proportion of women as of December 31",
+    "headers": [
+      [
+        "%",
+        "2020",
+        "2019"
+      ]
+    ],
+    "merged_headers": [
+      "%",
+      "2020",
+      "2019"
+    ],
+    "rows": [
+      [
+        "Employees",
+        "17.0",
+        "16.8"
+      ],
+      [
+        "Vocational trainees1",
+        "20.5",
+        "21.4"
+      ],
+      [
+        "Graduate recruits2",
+        "32.5",
+        "31.7"
+      ],
+      [
+        "Total management",
+        "15.1",
+        "14.2"
+      ],
+      [
+        "Management",
+        "17.3",
+        "16.2"
+      ],
+      [
+        "Senior management",
+        "11.6",
+        "10.8"
+      ],
+      [
+        "Top management",
+        "7.0",
+        "6.8"
+      ]
+    ],
+    "stub_col": [
+      "Employees",
+      "Vocational trainees ^1",
+      "Graduate recruits ^2",
+      "Total management",
+      "Management",
+      "Senior management",
+      "Top management"
+    ]
+  }
+]

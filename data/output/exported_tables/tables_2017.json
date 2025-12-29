@@ -1,0 +1,5724 @@
+[
+  {
+    "table_id": "VW2017_T4e9153",
+    "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+    "title": "Volkswagen Group",
+    "headers": [
+      [
+        "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "merged_headers": [
+      "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "AUTOMOTIVE DIVISION",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Passenger Cars Business Area Volkswagen Passenger Cars Audi ŠKODA SEAT Bentley Porsche Others",
+        "",
+        "Commercial Vehicles Business Area Volkswagen Commercial Vehicles Scania Vehicles and Services MAN Commercial Vehicles",
+        "",
+        "Powert Engineering Business Area MAN Power Engineering",
+        ""
+      ],
+      [
+        "FINANCIAL SERVICES DIVISION",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Dealer and customer financing Leasing Direct bank Insurance Fleet management Mobility offerings",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "AUTOMOTIVE DIVISION",
+      "Passenger Cars Business Area Volkswagen Passenger Cars Audi ŠKODA SEAT Bentley Porsche Others",
+      "FINANCIAL SERVICES DIVISION",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_T19a389",
+    "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD1",
+    "title": "Key Figures by brand and business field",
+    "headers": [
+      [
+        "",
+        "VEHICLE SALES",
+        "",
+        "SALES REVENUE",
+        "",
+        "OPERATING RESULT",
+        ""
+      ],
+      [
+        "Thousand vehicles/€ million",
+        "2017",
+        "2016",
+        "2017",
+        "2016",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Thousand vehicles/€ million",
+      "VEHICLE SALES 2017",
+      "2016",
+      "SALES REVENUE 2017",
+      "2016",
+      "OPERATING RESULT 2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Volkswagen Passenger Cars2",
+        "3573",
+        "4347",
+        "79979",
+        "105651",
+        "3301",
+        "1869"
+      ],
+      [
+        "Audi",
+        "1530",
+        "1534",
+        "60128",
+        "59317",
+        "5058",
+        "4846"
+      ],
+      [
+        "ŠKODA",
+        "937",
+        "814",
+        "16559",
+        "13705",
+        "1611",
+        "1197"
+      ],
+      [
+        "SEAT",
+        "595",
+        "548",
+        "9892",
+        "8894",
+        "191",
+        "153"
+      ],
+      [
+        "Bentley",
+        "11",
+        "11",
+        "1843",
+        "2031",
+        "55",
+        "112"
+      ],
+      [
+        "Porsche Automotive3",
+        "248",
+        "239",
+        "21674",
+        "20710",
+        "4003",
+        "3733"
+      ],
+      [
+        "Volkswagen Commercial Vehicles",
+        "498",
+        "478",
+        "11909",
+        "11120",
+        "853",
+        "455"
+      ],
+      [
+        "Scania4",
+        "92",
+        "83",
+        "12789",
+        "11303",
+        "1289",
+        "1072"
+      ],
+      [
+        "MAN Commercial Vehicles",
+        "114",
+        "102",
+        "11087",
+        "10005",
+        "362",
+        "230"
+      ],
+      [
+        "MAN Power Engineering",
+        "–",
+        "–",
+        "3283",
+        "3593",
+        "193",
+        "194"
+      ],
+      [
+        "VW China5",
+        "4020",
+        "3873",
+        "–",
+        "–",
+        "–",
+        "–"
+      ],
+      [
+        "Other6",
+        "-840",
+        "-1638",
+        "-30288",
+        "-56617",
+        "-2335",
+        "-1343"
+      ],
+      [
+        "Volkswagen Financial Services7",
+        "",
+        "–",
+        "31826",
+        "27554",
+        "2460",
+        "2105"
+      ],
+      [
+        "Volkswagen Group before special items",
+        "–",
+        "–",
+        "–",
+        "–",
+        "17041",
+        "14623"
+      ],
+      [
+        "Special items",
+        "–",
+        "–",
+        "–",
+        "–",
+        "-3222",
+        "-7520"
+      ],
+      [
+        "Volkswagen Group",
+        "10777",
+        "10391",
+        "230682",
+        "217267",
+        "13818",
+        "7103"
+      ],
+      [
+        "Automotive Division8",
+        "10777",
+        "10391",
+        "196949",
+        "186016",
+        "11146",
+        "4668"
+      ],
+      [
+        "of which: Passenger Cars Business Area",
+        "10077",
+        "9729",
+        "158466",
+        "150343",
+        "9309",
+        "4167"
+      ],
+      [
+        "Commercial Vehicles Business Area",
+        "700",
+        "662",
+        "35200",
+        "32080",
+        "1892",
+        "718"
+      ],
+      [
+        "Power Engineering Business Area",
+        "–",
+        "–",
+        "3283",
+        "3593",
+        "-55",
+        "-217"
+      ],
+      [
+        "Financial Services Division",
+        "–",
+        "–",
+        "33733",
+        "31251",
+        "2673",
+        "2435"
+      ]
+    ],
+    "stub_col": [
+      "Volkswagen Passenger Cars ^2",
+      "Audi",
+      "ŠKODA",
+      "SEAT",
+      "Bentley",
+      "Porsche Automotive ^3",
+      "Volkswagen Commercial Vehicles",
+      "Scania ^4",
+      "MAN Commercial Vehicles",
+      "MAN Power Engineering",
+      "VW China ^5",
+      "Other ^6",
+      "Volkswagen Financial Services ^7",
+      "Volkswagen Group before special items",
+      "Special items",
+      "Volkswagen Group",
+      "Automotive Division ^8",
+      "of which: Passenger Cars Business Area",
+      "Commercial Vehicles Business Area",
+      "Power Engineering Business Area",
+      "Financial Services Division"
+    ]
+  },
+  {
+    "table_id": "VW2017_Taf759f",
+    "section_name": "KEY FIGURES BY MARKET 1",
+    "title": "Key Figures by market",
+    "headers": [
+      [
+        "",
+        "VEHICLE SALES",
+        "",
+        "SALES REVENUE",
+        ""
+      ],
+      [
+        "Thousand vehicles/€ million",
+        "2017",
+        "2016",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Thousand vehicles/€ million",
+      "VEHICLE SALES 2017",
+      "2016",
+      "SALES REVENUE 2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Europe/Other markets",
+        "4731",
+        "4635.0",
+        "142753",
+        "138079.0"
+      ],
+      [
+        "North America",
+        "992",
+        "968.0",
+        "38818",
+        "35454.0"
+      ],
+      [
+        "South America",
+        "526",
+        "421.0",
+        "9988",
+        "7973.0"
+      ],
+      [
+        "Asia-Pacific2",
+        "4527",
+        "4367.0",
+        "39123",
+        "35761.0"
+      ],
+      [
+        "Volkswagen Group2",
+        "10777",
+        "10391.0",
+        "230682",
+        "217267.0"
+      ]
+    ],
+    "stub_col": [
+      "Europe/Other markets",
+      "North America",
+      "South America",
+      "Asia-Pacific ^2",
+      "Volkswagen Group ^2"
+    ]
+  },
+  {
+    "table_id": "VW2017_T09e057",
+    "section_name": "SALES REVENUE AND EARNINGS",
+    "title": "Volkswagen Passenger Cars – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Golf",
+        "968284",
+        "982495"
+      ],
+      [
+        "Jetta/Sagitar",
+        "883346",
+        "968135"
+      ],
+      [
+        "Tiguan",
+        "769870",
+        "548687"
+      ],
+      [
+        "Polo",
+        "755506",
+        "794388"
+      ],
+      [
+        "Passat/Magotan",
+        "660996",
+        "711878"
+      ],
+      [
+        "Lavida",
+        "507574",
+        "547187"
+      ],
+      [
+        "Bora",
+        "334900",
+        "236427"
+      ],
+      [
+        "Santana",
+        "293313",
+        "312177"
+      ],
+      [
+        "Gol",
+        "203148",
+        "160130"
+      ],
+      [
+        "up!",
+        "158795",
+        "169970"
+      ],
+      [
+        "Touran",
+        "144676",
+        "164248"
+      ],
+      [
+        "Lamando",
+        "138943",
+        "146285"
+      ],
+      [
+        "Atlas/Teramont",
+        "129724",
+        "386"
+      ],
+      [
+        "Saveiro",
+        "66431",
+        "47460"
+      ],
+      [
+        "Beetle",
+        "59483",
+        "61940"
+      ],
+      [
+        "Fox",
+        "50739",
+        "50273"
+      ],
+      [
+        "Sharan",
+        "45695",
+        "41949"
+      ],
+      [
+        "Touareg",
+        "42407",
+        "47495"
+      ],
+      [
+        "Arteon/CC",
+        "37972",
+        "44091"
+      ],
+      [
+        "T-Roc",
+        "22724",
+        "–"
+      ],
+      [
+        "Suran",
+        "21093",
+        "20163"
+      ],
+      [
+        "Phideon",
+        "13014",
+        "5131"
+      ],
+      [
+        "Scirocco",
+        "8199",
+        "11963"
+      ],
+      [
+        "Phaeton",
+        "–",
+        "452"
+      ],
+      [
+        "",
+        "6316832",
+        "6073310"
+      ]
+    ],
+    "stub_col": [
+      "Golf",
+      "Jetta/Sagitar",
+      "Tiguan",
+      "Polo",
+      "Passat/Magotan",
+      "Lavida",
+      "Bora",
+      "Santana",
+      "Gol",
+      "up!",
+      "Touran",
+      "Lamando",
+      "Atlas/Teramont",
+      "Saveiro",
+      "Beetle",
+      "Fox",
+      "Sharan",
+      "Touareg",
+      "Arteon/CC",
+      "T-Roc",
+      "Suran",
+      "Phideon",
+      "Scirocco",
+      "Phaeton",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_T219190",
+    "section_name": "VOLKSWAGEN PASSENGER CARS BRAND1",
+    "title": "Volkswagen Passenger Cars – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "6230.0",
+        "5980.0",
+        "4.2"
+      ],
+      [
+        "Vehicle sales",
+        "3573.0",
+        "4347.0",
+        "-17.8"
+      ],
+      [
+        "Production",
+        "6317.0",
+        "6073.0",
+        "4"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "79979.0",
+        "105651.0",
+        "-24.3"
+      ],
+      [
+        "Operating result before special items",
+        "3301.0",
+        "1869.0",
+        "76.6"
+      ],
+      [
+        "as % of sales revenue",
+        "4.1",
+        "1.8",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result before special items",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_T79d8d7",
+    "section_name": "AUDI BRAND",
+    "title": "Audi – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Audi",
+        "",
+        ""
+      ],
+      [
+        "A4",
+        "325307.0",
+        "357999"
+      ],
+      [
+        "A3",
+        "313380.0",
+        "361983"
+      ],
+      [
+        "Q5",
+        "289959.0",
+        "297750"
+      ],
+      [
+        "A6",
+        "259618.0",
+        "276211"
+      ],
+      [
+        "Q3",
+        "205006.0",
+        "231452"
+      ],
+      [
+        "A5",
+        "119595.0",
+        "65117"
+      ],
+      [
+        "Q7",
+        "106515.0",
+        "103344"
+      ],
+      [
+        "Q2",
+        "102084.0",
+        "19419"
+      ],
+      [
+        "A1",
+        "95346.0",
+        "105252"
+      ],
+      [
+        "TT",
+        "22174.0",
+        "26886"
+      ],
+      [
+        "A7",
+        "16968.0",
+        "26308"
+      ],
+      [
+        "A8",
+        "15854.0",
+        "24179"
+      ],
+      [
+        "R8",
+        "3179.0",
+        "3688"
+      ],
+      [
+        "Q8/e-tron",
+        "368.0",
+        "–"
+      ],
+      [
+        "",
+        "1875353.0",
+        "1899588"
+      ],
+      [
+        "Lamborghini",
+        "",
+        ""
+      ],
+      [
+        "Huracán Coupé",
+        "1822.0",
+        "1315"
+      ],
+      [
+        "Aventador Coupé",
+        "1008.0",
+        "587"
+      ],
+      [
+        "Huracán Spyder",
+        "827.0",
+        "1104"
+      ],
+      [
+        "Aventador Roadster",
+        "278.0",
+        "573"
+      ],
+      [
+        "Urus",
+        "121.0",
+        "–"
+      ],
+      [
+        "",
+        "4056.0",
+        "3579"
+      ],
+      [
+        "Audi brand",
+        "1879409.0",
+        "1903167"
+      ],
+      [
+        "Ducati, motorcycles",
+        "56743.0",
+        "56978"
+      ]
+    ],
+    "stub_col": [
+      "Audi",
+      "A4",
+      "A3",
+      "Q5",
+      "A6",
+      "Q3",
+      "A5",
+      "Q7",
+      "Q2",
+      "A1",
+      "TT",
+      "A7",
+      "A8",
+      "R8",
+      "Q8/e-tron",
+      "",
+      "Lamborghini",
+      "Huracán Coupé",
+      "Aventador Coupé",
+      "Huracán Spyder",
+      "Aventador Roadster",
+      "Urus",
+      "",
+      "Audi brand",
+      "Ducati, motorcycles"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tdd9d71",
+    "section_name": "DELIVERIES BY MARKET",
+    "title": "Audi – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "1882.0",
+        "1871.0",
+        "0.6"
+      ],
+      [
+        "Audi",
+        "1878.0",
+        "1868.0",
+        "0.6"
+      ],
+      [
+        "Lamborghini",
+        "4.0",
+        "3.0",
+        "10.4"
+      ],
+      [
+        "Vehicle sales",
+        "1530.0",
+        "1534.0",
+        "-0.3"
+      ],
+      [
+        "Production",
+        "1879.0",
+        "1903.0",
+        "-1.2"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "60128.0",
+        "59317.0",
+        "1.4"
+      ],
+      [
+        "Operating result before special items",
+        "5058.0",
+        "4846.0",
+        "4.4"
+      ],
+      [
+        "as % of sales revenue",
+        "8.4",
+        "8.2",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Audi",
+      "Lamborghini",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result before special items",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_T321e09",
+    "section_name": "ŠKODA BRAND",
+    "title": "Škoda – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Octavia",
+        "420802.0",
+        "445415.0"
+      ],
+      [
+        "Rapid",
+        "210002.0",
+        "216603.0"
+      ],
+      [
+        "Fabia",
+        "209471.0",
+        "203308.0"
+      ],
+      [
+        "Superb",
+        "147103.0",
+        "148880.0"
+      ],
+      [
+        "Kodiaq",
+        "123982.0",
+        "1167.0"
+      ],
+      [
+        "Karoq/Yeti",
+        "81963.0",
+        "95417.0"
+      ],
+      [
+        "Citigo",
+        "38749.0",
+        "41247.0"
+      ],
+      [
+        "",
+        "1232072.0",
+        "1152037.0"
+      ]
+    ],
+    "stub_col": [
+      "Octavia",
+      "Rapid",
+      "Fabia",
+      "Superb",
+      "Kodiaq",
+      "Karoq/Yeti",
+      "Citigo",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_Tea5293",
+    "section_name": "DELIVERIES BY MARKET",
+    "title": "Škoda – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "1201.0",
+        "1126.0",
+        "6.6"
+      ],
+      [
+        "Vehicle sales",
+        "937.0",
+        "814.0",
+        "15.2"
+      ],
+      [
+        "Production",
+        "1232.0",
+        "1152.0",
+        "6.9"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "16559.0",
+        "13705.0",
+        "20.8"
+      ],
+      [
+        "Operating result",
+        "1611.0",
+        "1197.0",
+        "34.6"
+      ],
+      [
+        "as % of sales revenue",
+        "9.7",
+        "8.7",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tb40d92",
+    "section_name": "SEAT BRAND",
+    "title": "SEAT – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Leon",
+        "163306.0",
+        "163228"
+      ],
+      [
+        "Ibiza",
+        "160377.0",
+        "149988"
+      ],
+      [
+        "Ateca",
+        "77483.0",
+        "35833"
+      ],
+      [
+        "Alhambra",
+        "33638.0",
+        "31214"
+      ],
+      [
+        "Arona",
+        "17527.0",
+        "–"
+      ],
+      [
+        "Mii",
+        "13825.0",
+        "18720"
+      ],
+      [
+        "Toledo",
+        "13146.0",
+        "18029"
+      ],
+      [
+        "",
+        "479302.0",
+        "417012"
+      ]
+    ],
+    "stub_col": [
+      "Leon",
+      "Ibiza",
+      "Ateca",
+      "Alhambra",
+      "Arona",
+      "Mii",
+      "Toledo",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_T25ff48",
+    "section_name": "DELIVERIES BY MARKET",
+    "title": "SEAT – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "468.0",
+        "409.0",
+        "14.6"
+      ],
+      [
+        "Vehicle sales",
+        "595.0",
+        "548.0",
+        "8.5"
+      ],
+      [
+        "Production",
+        "479.0",
+        "417.0",
+        "14.9"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "9892.0",
+        "8894.0",
+        "11.2"
+      ],
+      [
+        "Operating result",
+        "191.0",
+        "153.0",
+        "24.8"
+      ],
+      [
+        "as % of sales revenue",
+        "1.9",
+        "1.7",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_T370dd7",
+    "section_name": "BENTLEY BRAND",
+    "title": "Bentley – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Bentayga",
+        "4849.0",
+        "5586.0"
+      ],
+      [
+        "Flying Spur",
+        "2295.0",
+        "1731.0"
+      ],
+      [
+        "Continental GT Convertible",
+        "1468.0",
+        "1600.0"
+      ],
+      [
+        "Continental GT Coupé",
+        "1345.0",
+        "2272.0"
+      ],
+      [
+        "Mulsanne",
+        "595.0",
+        "628.0"
+      ],
+      [
+        "",
+        "10552.0",
+        "11817.0"
+      ]
+    ],
+    "stub_col": [
+      "Bentayga",
+      "Flying Spur",
+      "Continental GT Convertible",
+      "Continental GT Coupé",
+      "Mulsanne",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_T7b0ff5",
+    "section_name": "DELIVERIES BY MARKET",
+    "title": "Bentley – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (units)",
+        "11089.0",
+        "11023.0",
+        "0.6"
+      ],
+      [
+        "Vehicle sales",
+        "10566.0",
+        "11298.0",
+        "-6.5"
+      ],
+      [
+        "Production",
+        "10552.0",
+        "11817.0",
+        "-10.7"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "1843.0",
+        "2031.0",
+        "-9.2"
+      ],
+      [
+        "Operating result",
+        "55.0",
+        "112.0",
+        "-50.8"
+      ],
+      [
+        "as % of sales revenue",
+        "3.0",
+        "5.5",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_T704982",
+    "section_name": "PORSCHE AUTOMOTIVE 1",
+    "title": "Porsche – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Macan",
+        "98763.0",
+        "97177.0"
+      ],
+      [
+        "Cayenne",
+        "59068.0",
+        "71693.0"
+      ],
+      [
+        "Panamera",
+        "37605.0",
+        "14218.0"
+      ],
+      [
+        "",
+        "255683.0",
+        "239618.0"
+      ]
+    ],
+    "stub_col": [
+      "Macan",
+      "Cayenne",
+      "Panamera",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_Ta58de3",
+    "section_name": "DELIVERIES BY MARKET",
+    "title": "Porsche – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "246.0",
+        "238.0",
+        "3.6"
+      ],
+      [
+        "Vehicle sales",
+        "248.0",
+        "239.0",
+        "3.7"
+      ],
+      [
+        "Production",
+        "256.0",
+        "240.0",
+        "6.7"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "21674.0",
+        "20710.0",
+        "4.7"
+      ],
+      [
+        "Operating result",
+        "4003.0",
+        "3733.0",
+        "7.2"
+      ],
+      [
+        "as % of sales revenue",
+        "18.5",
+        "18.0",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tb49406",
+    "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
+    "title": "Volkswagen Commercial Vehicles – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Caravelle/Multivan, Kombi",
+        "115553.0",
+        "117554.0"
+      ],
+      [
+        "Caddy Kombi",
+        "93167.0",
+        "86841.0"
+      ],
+      [
+        "Transporter",
+        "92876.0",
+        "81932.0"
+      ],
+      [
+        "Amarok",
+        "80328.0",
+        "63367.0"
+      ],
+      [
+        "Caddy",
+        "71501.0",
+        "71757.0"
+      ],
+      [
+        "Crafter",
+        "36313.0",
+        "596.0"
+      ],
+      [
+        "",
+        "489738.0",
+        "422047.0"
+      ]
+    ],
+    "stub_col": [
+      "Caravelle/Multivan, Kombi",
+      "Caddy Kombi",
+      "Transporter",
+      "Amarok",
+      "Caddy",
+      "Crafter",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_Tb99596",
+    "section_name": "DELIVERIES BY MARKET",
+    "title": "Volkswagen Commercial Vehicles – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries (thousand units)",
+        "498.0",
+        "478.0",
+        "4.2"
+      ],
+      [
+        "Vehicle sales",
+        "498.0",
+        "478.0",
+        "4.1"
+      ],
+      [
+        "Production",
+        "490.0",
+        "422.0",
+        "16"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "11909.0",
+        "11120.0",
+        "7.1"
+      ],
+      [
+        "Operating result",
+        "853.0",
+        "455.0",
+        "87.6"
+      ],
+      [
+        "as % of sales revenue",
+        "7.2",
+        "4.1",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Deliveries (thousand units)",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tacc6db",
+    "section_name": "PRODUCTION",
+    "title": "Volkswagen Truck & Bus – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "188234.0",
+        "167354"
+      ],
+      [
+        "Buses",
+        "19217.0",
+        "18713"
+      ],
+      [
+        "Light Commercial Vehicles",
+        "3891.0",
+        "–"
+      ],
+      [
+        "",
+        "211342.0",
+        "186067"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      "Light Commercial Vehicles",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_Te8d0cf",
+    "section_name": "DELIVERIES",
+    "title": "Volkswagen Truck & Bus – Deliveries",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "183481.0",
+        "165806"
+      ],
+      [
+        "Buses",
+        "19218.0",
+        "17775"
+      ],
+      [
+        "Light Commercial Vehicles",
+        "2212.0",
+        "–"
+      ],
+      [
+        "",
+        "204911.0",
+        "183581"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      "Light Commercial Vehicles",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_Ta8e5fa",
+    "section_name": "PRODUCTION",
+    "title": "Scania – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "87454.0",
+        "75452.0"
+      ],
+      [
+        "Buses",
+        "8327.0",
+        "8488.0"
+      ],
+      [
+        "",
+        "95781.0",
+        "83940.0"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_T407d3b",
+    "section_name": "SCANIA BRAND",
+    "title": "Scania – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Orders received (thousand units)",
+        "109.0",
+        "86.0",
+        "27.9"
+      ],
+      [
+        "Deliveries",
+        "91.0",
+        "81.0",
+        "11.6"
+      ],
+      [
+        "Vehicle sales",
+        "92.0",
+        "83.0",
+        "11.3"
+      ],
+      [
+        "Production",
+        "96.0",
+        "84.0",
+        "14.1"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "12789.0",
+        "11303.0",
+        "13.1"
+      ],
+      [
+        "Operating result1",
+        "1289.0",
+        "1072.0",
+        "20.3"
+      ],
+      [
+        "as % of sales revenue",
+        "10.1",
+        "9.5",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Orders received (thousand units)",
+      "Deliveries",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result ^1",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_T0c2e70",
+    "section_name": "PRODUCTION",
+    "title": "MAN – Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Trucks",
+        "100780.0",
+        "91902"
+      ],
+      [
+        "Buses",
+        "10890.0",
+        "10225"
+      ],
+      [
+        "Light Commercial Vehicles",
+        "3891.0",
+        "–"
+      ],
+      [
+        "",
+        "115561.0",
+        "102127"
+      ]
+    ],
+    "stub_col": [
+      "Trucks",
+      "Buses",
+      "Light Commercial Vehicles",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_T8054e8",
+    "section_name": "MAN",
+    "title": "MAN – Key Figures",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Commercial Vehicles",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Orders received (thousand units)",
+        "120.0",
+        "105.0",
+        "13.9"
+      ],
+      [
+        "Deliveries",
+        "114.0",
+        "102.0",
+        "11.6"
+      ],
+      [
+        "Vehicle sales",
+        "114.0",
+        "102.0",
+        "11.6"
+      ],
+      [
+        "Production",
+        "116.0",
+        "102.0",
+        "13.2"
+      ],
+      [
+        "Sales revenue (€ million)",
+        "11087.0",
+        "10005.0",
+        "10.8"
+      ],
+      [
+        "Operating result1",
+        "362.0",
+        "230.0",
+        "57.6"
+      ],
+      [
+        "as % of sales revenue",
+        "3.3",
+        "2.3",
+        ""
+      ],
+      [
+        "Power Engineering",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue (€ million)",
+        "3283.0",
+        "3593.0",
+        "-8.6"
+      ],
+      [
+        "Operating result1",
+        "193.0",
+        "194.0",
+        "-0.9"
+      ],
+      [
+        "as % of sales revenue",
+        "5.9",
+        "5.4",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Commercial Vehicles",
+      "Orders received (thousand units)",
+      "Deliveries",
+      "Vehicle sales",
+      "Production",
+      "Sales revenue (€ million)",
+      "Operating result ^1",
+      "as % of sales revenue",
+      "Power Engineering",
+      "Sales revenue (€ million)",
+      "Operating result ^1",
+      "as % of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_T3472c2",
+    "section_name": "PRODUCTION",
+    "title": "Volkswagen Group in China – Key Figures",
+    "headers": [
+      [
+        "Thousand units",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "Thousand units",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Deliveries",
+        "4184.0",
+        "3982.0",
+        "5.1"
+      ],
+      [
+        "Vehicle sales1",
+        "4020.0",
+        "3873.0",
+        "3.8"
+      ],
+      [
+        "Production",
+        "4041.0",
+        "3896.0",
+        "3.7"
+      ]
+    ],
+    "stub_col": [
+      "Deliveries",
+      "Vehicle sales ^1",
+      "Production"
+    ]
+  },
+  {
+    "table_id": "VW2017_T59ce2c",
+    "section_name": "EARNINGS",
+    "title": "Volkswagen Group in China – Local Production",
+    "headers": [
+      [
+        "Units",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "Units",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Volkswagen Passenger Cars",
+        "3156352.0",
+        "3012664.0"
+      ],
+      [
+        "Audi",
+        "552744.0",
+        "555777.0"
+      ],
+      [
+        "ŠKODA",
+        "332168.0",
+        "327858.0"
+      ],
+      [
+        "",
+        "4041264.0",
+        "3896299.0"
+      ]
+    ],
+    "stub_col": [
+      "Volkswagen Passenger Cars",
+      "Audi",
+      "ŠKODA",
+      ""
+    ]
+  },
+  {
+    "table_id": "VW2017_T1489e0",
+    "section_name": "LOCAL PRODUCTION",
+    "title": "Volkswagen Group in China – Earnings",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Operating profit (100%)",
+        "11191.0",
+        "11094.0"
+      ],
+      [
+        "Operating profit (proportionate)",
+        "4746.0",
+        "4956.0"
+      ]
+    ],
+    "stub_col": [
+      "Operating profit (100%)",
+      "Operating profit (proportionate)"
+    ]
+  },
+  {
+    "table_id": "VW2017_T43218a",
+    "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
+    "title": "Volkswagen Financial Services – Key Figures",
+    "headers": [
+      [
+        "",
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Number of contracts",
+        "thousands",
+        "17234.0",
+        "16133.0",
+        "6.8"
+      ],
+      [
+        "Customer financing1",
+        "",
+        "5672.0",
+        "5421.0",
+        "4.6"
+      ],
+      [
+        "Leasing1",
+        "",
+        "3921.0",
+        "3494.0",
+        "12.2"
+      ],
+      [
+        "Service/Insurance",
+        "",
+        "7641.0",
+        "7218.0",
+        "5.9"
+      ],
+      [
+        "Lease assets",
+        "€ million",
+        "36422.0",
+        "31593.0",
+        "15.3"
+      ],
+      [
+        "Receivables from",
+        "€ million",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Customer financing1",
+        "",
+        "58125.0",
+        "55298.0",
+        "5.1"
+      ],
+      [
+        "Dealer financing",
+        "",
+        "19614.0",
+        "17921.0",
+        "9.4"
+      ],
+      [
+        "Leasing agreements1",
+        "",
+        "39553.0",
+        "34902.0",
+        "13.3"
+      ],
+      [
+        "Direct banking deposits",
+        "€ million",
+        "30408.0",
+        "32412.0",
+        "-6.2"
+      ],
+      [
+        "Total assets",
+        "€ million",
+        "186917.0",
+        "170070.0",
+        "9.9"
+      ],
+      [
+        "Equity",
+        "€ million",
+        "25634.0",
+        "21178.0",
+        "21"
+      ],
+      [
+        "Liabilities2",
+        "€ million",
+        "154410.0",
+        "141830.0",
+        "8.9"
+      ],
+      [
+        "Equity ratio",
+        "%",
+        "13.7",
+        "12.5",
+        ""
+      ],
+      [
+        "Return on equity before tax3",
+        "%",
+        "9.8",
+        "10.4",
+        ""
+      ],
+      [
+        "Leverage4",
+        "",
+        "6.0",
+        "6.7",
+        ""
+      ],
+      [
+        "Operating result",
+        "€ million",
+        "2460.0",
+        "2105.0",
+        "16.9"
+      ],
+      [
+        "Earnings before tax",
+        "€ million",
+        "2299.0",
+        "2073.0",
+        "10.9"
+      ],
+      [
+        "Employees at Dec. 31",
+        "",
+        "13955.0",
+        "13406.0",
+        "4.1"
+      ]
+    ],
+    "stub_col": [
+      "Number of contracts",
+      "Customer financing ^1",
+      "Leasing ^1",
+      "Service/Insurance",
+      "Lease assets",
+      "Receivables from",
+      "Customer financing ^1",
+      "Dealer financing",
+      "Leasing agreements ^1",
+      "Direct banking deposits",
+      "Total assets",
+      "Equity",
+      "Liabilities ^2",
+      "Equity ratio",
+      "Return on equity before tax3",
+      "Leverage ^4",
+      "Operating result",
+      "Earnings before tax",
+      "Employees at Dec. 31"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tc7190f",
+    "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
+    "title": "Strategic KPIS – Competitive profitability",
+    "headers": [
+      [
+        "Operating return on sales ^1",
+        "0.06",
+        "7 to 8%"
+      ]
+    ],
+    "merged_headers": [
+      "Operating return on sales ^1",
+      "0.06",
+      "7 to 8%"
+    ],
+    "rows": [
+      [
+        "Research and development ratio (R&D ratio) in the Automotive Division",
+        "0.07400000000000001",
+        "~6%"
+      ],
+      [
+        "Capex/sales revenue in the Automotive Division",
+        "0.069",
+        "~6%"
+      ],
+      [
+        "Net cash flow in the Automotive Division",
+        "€8,887 million",
+        "Positive, to allow a distribution ratio of 30%"
+      ],
+      [
+        "Net liquidity in the Automotive Division",
+        "€24,522 million, 11.5%",
+        "~10% of consolidated sales revenue"
+      ],
+      [
+        "Return on investment (ROI) in the Automotive Division",
+        "-0.002",
+        ">15%"
+      ]
+    ],
+    "stub_col": [
+      "Research and development ratio (R&D ratio) in the Automotive Division",
+      "Capex/sales revenue in the Automotive Division",
+      "Net cash flow in the Automotive Division",
+      "Net liquidity in the Automotive Division",
+      "Return on investment (ROI) in the Automotive Division"
+    ]
+  },
+  {
+    "table_id": "VW2017_T014fee",
+    "section_name": "VOLKSWAGEN GROUP DELIVERIES 1",
+    "title": "Volkswagen Group deliveries",
+    "headers": [
+      [
+        "",
+        "2017",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "2017",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Passenger Cars",
+        "10038650.0",
+        "9635486.0",
+        "4.2"
+      ],
+      [
+        "Commercial Vehicles",
+        "702805.0",
+        "661555.0",
+        "6.2"
+      ],
+      [
+        "Total",
+        "10741455.0",
+        "10297041.0",
+        "4.3"
+      ]
+    ],
+    "stub_col": [
+      "Passenger Cars",
+      "Commercial Vehicles",
+      "Total"
+    ]
+  },
+  {
+    "table_id": "VW2017_Teeab2a",
+    "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET 1",
+    "title": "Passenger car deliveries to customers by market",
+    "headers": [
+      [
+        "",
+        "DELIVERIES (UNITS)",
+        "",
+        "CHANGE"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "DELIVERIES (UNITS)",
+      "",
+      "CHANGE"
+    ],
+    "rows": [
+      [
+        "",
+        "2017",
+        "2016.0",
+        "(%)"
+      ],
+      [
+        "Europe/Other markets",
+        "4167647",
+        "4062454.0",
+        "2.6"
+      ],
+      [
+        "Western Europe",
+        "3157107",
+        "3114032.0",
+        "1.4"
+      ],
+      [
+        "of which: Germany",
+        "1131414",
+        "1136971.0",
+        "-0.5"
+      ],
+      [
+        "United Kingdom",
+        "531592",
+        "523111.0",
+        "1.6"
+      ],
+      [
+        "Spain",
+        "270645",
+        "244990.0",
+        "10.5"
+      ],
+      [
+        "Italy",
+        "259920",
+        "238537.0",
+        "9"
+      ],
+      [
+        "France",
+        "256712",
+        "249146.0",
+        "3"
+      ],
+      [
+        "Central and Eastern Europe",
+        "668522",
+        "592275.0",
+        "12.9"
+      ],
+      [
+        "of which: Russia",
+        "173384",
+        "155672.0",
+        "11.4"
+      ],
+      [
+        "Poland",
+        "145024",
+        "122622.0",
+        "18.3"
+      ],
+      [
+        "Czech Republic",
+        "142842",
+        "134926.0",
+        "5.9"
+      ],
+      [
+        "Other markets",
+        "342018",
+        "356147.0",
+        "-4"
+      ],
+      [
+        "of which: Turkey",
+        "158523",
+        "173965.0",
+        "-8.9"
+      ],
+      [
+        "South Africa",
+        "79968",
+        "78897.0",
+        "1.4"
+      ],
+      [
+        "North America",
+        "962980",
+        "928033.0",
+        "3.8"
+      ],
+      [
+        "of which: USA",
+        "625128",
+        "591063.0",
+        "5.8"
+      ],
+      [
+        "Mexico",
+        "223548",
+        "238946.0",
+        "-6.4"
+      ],
+      [
+        "Canada",
+        "114304",
+        "98024.0",
+        "16.6"
+      ],
+      [
+        "South America",
+        "445636",
+        "362343.0",
+        "23"
+      ],
+      [
+        "of which: Brazil",
+        "272231",
+        "231196.0",
+        "17.7"
+      ],
+      [
+        "Argentina",
+        "125153",
+        "92257.0",
+        "35.7"
+      ],
+      [
+        "Asia-Pacific",
+        "4462387",
+        "4282656.0",
+        "4.2"
+      ],
+      [
+        "of which: China",
+        "4173834",
+        "3975071.0",
+        "5"
+      ],
+      [
+        "Japan",
+        "84827",
+        "83109.0",
+        "2.1"
+      ],
+      [
+        "India",
+        "72467",
+        "66046.0",
+        "9.7"
+      ],
+      [
+        "Worldwide",
+        "10038650",
+        "9635486.0",
+        "4.2"
+      ],
+      [
+        "Volkswagen Passenger Cars",
+        "6230229",
+        "5980309.0",
+        "4.2"
+      ],
+      [
+        "Audi",
+        "1878105",
+        "1867738.0",
+        "0.6"
+      ],
+      [
+        "ŠKODA",
+        "1200535",
+        "1126477.0",
+        "6.6"
+      ],
+      [
+        "SEAT",
+        "468431",
+        "408703.0",
+        "14.6"
+      ],
+      [
+        "Bentley",
+        "11089",
+        "11023.0",
+        "0.6"
+      ],
+      [
+        "Lamborghini",
+        "3815",
+        "3457.0",
+        "10.4"
+      ],
+      [
+        "Porsche",
+        "246375",
+        "237778.0",
+        "3.6"
+      ],
+      [
+        "Bugatti",
+        "71",
+        "1.0",
+        "x"
+      ]
+    ],
+    "stub_col": [
+      "",
+      "Europe/Other markets",
+      "Western Europe",
+      "of which: Germany",
+      "United Kingdom",
+      "Spain",
+      "Italy",
+      "France",
+      "Central and Eastern Europe",
+      "of which: Russia",
+      "Poland",
+      "Czech Republic",
+      "Other markets",
+      "of which: Turkey",
+      "South Africa",
+      "North America",
+      "of which: USA",
+      "Mexico",
+      "Canada",
+      "South America",
+      "of which: Brazil",
+      "Argentina",
+      "Asia-Pacific",
+      "of which: China",
+      "Japan",
+      "India",
+      "Worldwide",
+      "Volkswagen Passenger Cars",
+      "Audi",
+      "ŠKODA",
+      "SEAT",
+      "Bentley",
+      "Lamborghini",
+      "Porsche",
+      "Bugatti"
+    ]
+  },
+  {
+    "table_id": "VW2017_T3fbe25",
+    "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+    "title": "Commercial vehicle deliveries to customers by market",
+    "headers": [
+      [
+        "",
+        "DELIVERIES (UNITS)",
+        "",
+        "CHANGE"
+      ]
+    ],
+    "merged_headers": [
+      "",
+      "DELIVERIES (UNITS)",
+      "",
+      "CHANGE"
+    ],
+    "rows": [
+      [
+        "",
+        "2017",
+        "2016.0",
+        "(%)"
+      ],
+      [
+        "Europe/Other markets",
+        "569983",
+        "555255.0",
+        "2.7"
+      ],
+      [
+        "Western Europe",
+        "426774",
+        "418931.0",
+        "1.9"
+      ],
+      [
+        "Central and Eastern Europe",
+        "76054",
+        "65396.0",
+        "16.3"
+      ],
+      [
+        "Other markets",
+        "67155",
+        "70928.0",
+        "-5.3"
+      ],
+      [
+        "North America",
+        "13416",
+        "11140.0",
+        "20.4"
+      ],
+      [
+        "South America",
+        "75949",
+        "59196.0",
+        "28.3"
+      ],
+      [
+        "of which: Brazil",
+        "35781",
+        "26532.0",
+        "34.9"
+      ],
+      [
+        "Asia-Pacific",
+        "43457",
+        "35964.0",
+        "20.8"
+      ],
+      [
+        "of which: China",
+        "10408",
+        "7071.0",
+        "47.2"
+      ],
+      [
+        "Worldwide",
+        "702805",
+        "661555.0",
+        "6.2"
+      ],
+      [
+        "Volkswagen Commercial Vehicles",
+        "497894",
+        "477974.0",
+        "4.2"
+      ],
+      [
+        "Scania",
+        "90777",
+        "81346.0",
+        "11.6"
+      ],
+      [
+        "MAN",
+        "114134",
+        "102235.0",
+        "11.6"
+      ]
+    ],
+    "stub_col": [
+      "",
+      "Europe/Other markets",
+      "Western Europe",
+      "Central and Eastern Europe",
+      "Other markets",
+      "North America",
+      "South America",
+      "of which: Brazil",
+      "Asia-Pacific",
+      "of which: China",
+      "Worldwide",
+      "Volkswagen Commercial Vehicles",
+      "Scania",
+      "MAN"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tcf0d0c",
+    "section_name": "OUR INVESTOR RELATIONS TEAM IS AVAILABLE FOR QUERIES AND COMMENTS AT ALL TIMES:",
+    "title": "Volkswagen share data",
+    "headers": [
+      [
+        "VOLKSWAGEN SHARE DATA",
+        "",
+        ""
+      ]
+    ],
+    "merged_headers": [
+      "VOLKSWAGEN SHARE DATA",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        "Ordinary shares",
+        "Preferred shares"
+      ],
+      [
+        "ISIN",
+        "DE0007664005",
+        "DE0007664039"
+      ],
+      [
+        "WKN",
+        "766400",
+        "766403"
+      ],
+      [
+        "Deutsche Börse/Bloomberg",
+        "VOW",
+        "VOW3"
+      ],
+      [
+        "Reuters",
+        "VOWG.DE",
+        "VOWG_p.DE"
+      ],
+      [
+        "Primary market indices",
+        "CDAX, Prime All Share, MSCI Euro, S&P Global 100 Index",
+        "DAX, CDAX, EURO STOXX, EURO STOXX 50, EURO STOXX Automobiles & Parts, Prime All Share, MSCI Euro"
+      ],
+      [
+        "Exchanges",
+        "Berlin, Düsseldorf, Frankfurt, Hamburg, Hanover, Munich, Stuttgart, Xetra, Luxembourg, New York1, SIX Swiss Exchange",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "",
+      "ISIN",
+      "WKN",
+      "Deutsche Börse/Bloomberg",
+      "Reuters",
+      "Primary market indices",
+      "Exchanges"
+    ]
+  },
+  {
+    "table_id": "VW2017_T1ab354",
+    "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
+    "title": "Volkswagen share Key Figures",
+    "headers": [
+      [
+        "VOLKSWAGEN SHARE KEY FIGURES",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "merged_headers": [
+      "VOLKSWAGEN SHARE KEY FIGURES",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "DIVIDEND DEVELOPMENT",
+        "",
+        "2017.0",
+        "2016.0",
+        "2015",
+        "2014.0",
+        "2013.0"
+      ],
+      [
+        "Number of no-par value shares at Dec. 31",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Ordinary shares",
+        "thousands",
+        "295090.0",
+        "295090.0",
+        "295090",
+        "295090.0",
+        "295090.0"
+      ],
+      [
+        "Preferred shares",
+        "thousands",
+        "206205.0",
+        "206205.0",
+        "206205",
+        "180641.0",
+        "170148.0"
+      ],
+      [
+        "Dividend1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "per ordinary share",
+        "€",
+        "3.9",
+        "2.0",
+        "0.11",
+        "4.8",
+        "4.0"
+      ],
+      [
+        "per preferred share",
+        "€",
+        "3.96",
+        "2.06",
+        "0.17",
+        "4.86",
+        "4.06"
+      ],
+      [
+        "Dividend paid1",
+        "€ million",
+        "1967.0",
+        "1015.0",
+        "68",
+        "2294.0",
+        "1871.0"
+      ],
+      [
+        "on ordinary shares",
+        "€ million",
+        "1151.0",
+        "590.0",
+        "32",
+        "1416.0",
+        "1180.0"
+      ],
+      [
+        "on preferred shares",
+        "€ million",
+        "817.0",
+        "425.0",
+        "35",
+        "878.0",
+        "691.0"
+      ],
+      [
+        "SHARE PRICE DEVELOPMENT2",
+        "",
+        "2017.0",
+        "2016.0",
+        "2015",
+        "2014.0",
+        "2013.0"
+      ],
+      [
+        "Ordinary share",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Closing",
+        "€",
+        "168.7",
+        "136.75",
+        "142.3",
+        "180.1",
+        "196.9"
+      ],
+      [
+        "Price performance",
+        "%",
+        "23.4",
+        "-3.9",
+        "-21",
+        "-8.5",
+        "21.0"
+      ],
+      [
+        "Annual high",
+        "€",
+        "173.95",
+        "144.2",
+        "247.55",
+        "197.35",
+        "196.9"
+      ],
+      [
+        "Annual low",
+        "€",
+        "128.7",
+        "108.95",
+        "101.15",
+        "150.7",
+        "132.6"
+      ],
+      [
+        "Preferred share",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Closing",
+        "€",
+        "166.45",
+        "133.35",
+        "133.75",
+        "184.65",
+        "204.15"
+      ],
+      [
+        "Price performance",
+        "%",
+        "24.8",
+        "-0.3",
+        "-27.6",
+        "-9.6",
+        "18.6"
+      ],
+      [
+        "Annual high",
+        "€",
+        "178.1",
+        "138.8",
+        "255.2",
+        "203.35",
+        "204.15"
+      ],
+      [
+        "Annual low",
+        "€",
+        "125.35",
+        "94.0",
+        "92.36",
+        "150.25",
+        "138.5"
+      ],
+      [
+        "Beta factor3",
+        "factor",
+        "1.12",
+        "1.22",
+        "1.28",
+        "1.38",
+        "1.32"
+      ],
+      [
+        "Market capitalization at Dec. 31",
+        "€ billion",
+        "84.1",
+        "67.9",
+        "69.6",
+        "86.5",
+        "92.8"
+      ],
+      [
+        "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+        "€ billion",
+        "108.8",
+        "92.7",
+        "88.1",
+        "90.0",
+        "87.7"
+      ],
+      [
+        "Ratio of market capitalization to equity",
+        "factor",
+        "0.77",
+        "0.73",
+        "0.79",
+        "0.96",
+        "1.06"
+      ],
+      [
+        "KEY FIGURES PER SHARE",
+        "",
+        "2017.0",
+        "2016.0",
+        "2015",
+        "2014.0",
+        "2013.0"
+      ],
+      [
+        "Earnings per ordinary share4",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "basic",
+        "€",
+        "22.63",
+        "10.24",
+        "-3.2",
+        "21.82",
+        "18.61"
+      ],
+      [
+        "diluted",
+        "€",
+        "22.63",
+        "10.24",
+        "-3.2",
+        "21.82",
+        "18.61"
+      ],
+      [
+        "Equity5",
+        "€",
+        "217.13",
+        "184.9",
+        "175.67",
+        "189.16",
+        "188.58"
+      ],
+      [
+        "Price/earnings ratio6",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Ordinary share",
+        "factor",
+        "7.5",
+        "13.4",
+        "x",
+        "8.2",
+        "10.6"
+      ],
+      [
+        "Preferred share",
+        "factor",
+        "7.3",
+        "13.0",
+        "x",
+        "8.4",
+        "10.9"
+      ],
+      [
+        "Dividend yield7",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Ordinary share",
+        "%",
+        "2.3",
+        "1.5",
+        "0.1",
+        "2.7",
+        "2.0"
+      ],
+      [
+        "Preferred share",
+        "%",
+        "2.4",
+        "1.5",
+        "0.1",
+        "2.6",
+        "2.0"
+      ],
+      [
+        "STOCK EXCHANGE TURNOVER8",
+        "",
+        "2017.0",
+        "2016.0",
+        "2015",
+        "2014.0",
+        "2013.0"
+      ],
+      [
+        "Turnover of Volkswagen ordinary shares",
+        "€ billion",
+        "3.5",
+        "3.3",
+        "6.9",
+        "3.2",
+        "3.5"
+      ],
+      [
+        "",
+        "million shares",
+        "23.6",
+        "25.4",
+        "45.4",
+        "17.8",
+        "21.4"
+      ],
+      [
+        "Turnover of Volkswagen preferred shares",
+        "€ billion",
+        "45.1",
+        "41.1",
+        "72.4",
+        "45.1",
+        "43.0"
+      ],
+      [
+        "",
+        "million shares",
+        "312.3",
+        "347.0",
+        "444.4",
+        "248.3",
+        "252.8"
+      ],
+      [
+        "Volkswagen share of total DAX turnover",
+        "%",
+        "5.4",
+        "5.0",
+        "7.1",
+        "5.4",
+        "5.7"
+      ]
+    ],
+    "stub_col": [
+      "DIVIDEND DEVELOPMENT",
+      "Number of no-par value shares at Dec. 31",
+      "Ordinary shares",
+      "Preferred shares",
+      "Dividend ^1",
+      "per ordinary share",
+      "per preferred share",
+      "Dividend paid ^1",
+      "on ordinary shares",
+      "on preferred shares",
+      "SHARE PRICE DEVELOPMENT ^2",
+      "Ordinary share",
+      "Closing",
+      "Price performance",
+      "Annual high",
+      "Annual low",
+      "Preferred share",
+      "Closing",
+      "Price performance",
+      "Annual high",
+      "Annual low",
+      "Beta factor ^3",
+      "Market capitalization at Dec. 31",
+      "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "Ratio of market capitalization to equity",
+      "KEY FIGURES PER SHARE",
+      "Earnings per ordinary share ^4",
+      "basic",
+      "diluted",
+      "Equity ^5",
+      "Price/earnings ratio ^6",
+      "Ordinary share",
+      "Preferred share",
+      "Dividend yield ^7",
+      "Ordinary share",
+      "Preferred share",
+      "STOCK EXCHANGE TURNOVER ^8",
+      "Turnover of Volkswagen ordinary shares",
+      "",
+      "Turnover of Volkswagen preferred shares",
+      "",
+      "Volkswagen share of total DAX turnover"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tc2357c",
+    "section_name": "REFINANCING",
+    "title": "Utilization of the money and capital market programs",
+    "headers": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "PROGRAMS",
+        "Authorized volume € billion",
+        "Amount utilized on Dec. 31, 2017 € billion"
+      ]
+    ],
+    "merged_headers": [
+      "PROGRAMS",
+      "Authorized volume € billion",
+      "Amount utilized on Dec. 31, 2017 € billion"
+    ],
+    "rows": [
+      [
+        "Commercial Paper",
+        "36.3",
+        "15"
+      ],
+      [
+        "Bonds",
+        "127.6",
+        "58.1"
+      ],
+      [
+        "of which hybrid issues",
+        "–",
+        "11"
+      ],
+      [
+        "Asset-backed securities",
+        "71.2",
+        "34.9"
+      ]
+    ],
+    "stub_col": [
+      "Commercial Paper",
+      "Bonds",
+      "of which hybrid issues",
+      "Asset-backed securities"
+    ]
+  },
+  {
+    "table_id": "VW2017_T198fe2",
+    "section_name": "RATINGS",
+    "title": "Ratings",
+    "headers": [
+      [
+        "RATINGS",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "merged_headers": [
+      "RATINGS",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "",
+        "VOLKSWAGEN AG",
+        "",
+        "",
+        "VOLKSWAGEN FINANCIAL SERVICES AG",
+        "",
+        "",
+        "VOLKSWAGEN BANK GMBH",
+        "",
+        ""
+      ],
+      [
+        "",
+        "2017",
+        "2016",
+        "2015",
+        "2017",
+        "2016",
+        "2015",
+        "2017",
+        "2016",
+        "2015"
+      ],
+      [
+        "Standard & Poor’s",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "short-term",
+        "A–2",
+        "A–2",
+        "A–2",
+        "A–2",
+        "A–2",
+        "A–2",
+        "A–2",
+        "A–2",
+        "A–2"
+      ],
+      [
+        "long-term",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "BBB+",
+        "A–",
+        "A–",
+        "A–"
+      ],
+      [
+        "outlook",
+        "stable",
+        "negative",
+        "negative",
+        "stable",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      [
+        "Moody’s Investors Service",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "short-term",
+        "P–2",
+        "P–2",
+        "P–2",
+        "P–2",
+        "P–1",
+        "P–1",
+        "P–1",
+        "P–1",
+        "P–1"
+      ],
+      [
+        "long-term",
+        "A3",
+        "A3",
+        "A3",
+        "A3",
+        "A2",
+        "A1",
+        "A3",
+        "Aa3",
+        "A1"
+      ],
+      [
+        "outlook",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative",
+        "negative"
+      ]
+    ],
+    "stub_col": [
+      "",
+      "",
+      "Standard & Poor’s",
+      "short-term",
+      "long-term",
+      "outlook",
+      "Moody’s Investors Service",
+      "short-term",
+      "long-term",
+      "outlook"
+    ]
+  },
+  {
+    "table_id": "VW2017_Te2fbc1",
+    "section_name": "SALE OF THIRD-PARTY-BRAND DEALERSHIPS OF PORSCHE HOLDING SALZBURG",
+    "title": "Key figures for 2017 by segment",
+    "headers": [
+      [
+        "€ million",
+        "Passenger Cars",
+        "Commercial Vehicles",
+        "Power Engineering",
+        "Financial Services",
+        "Total segments",
+        "Reconciliation",
+        "Volkswagen Group"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Passenger Cars",
+      "Commercial Vehicles",
+      "Power Engineering",
+      "Financial Services",
+      "Total segments",
+      "Reconciliation",
+      "Volkswagen Group"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "188405",
+        "35200",
+        "3283",
+        "33733",
+        "260621",
+        "-29939",
+        "230682"
+      ],
+      [
+        "Segment result (operating result)",
+        "12644",
+        "1892",
+        "-55",
+        "2673",
+        "17153",
+        "-3335",
+        "13818"
+      ],
+      [
+        "as a percentage of sales revenue",
+        "6.7",
+        "5.4",
+        "-1.7",
+        "7.9",
+        "",
+        "",
+        "6"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Segment result (operating result)",
+      "as a percentage of sales revenue"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tab1e2d",
+    "section_name": "Results of operations of the Group",
+    "title": "Income statement by division",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016",
+        "2017",
+        "2016",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016",
+      "2017",
+      "2016",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "230682",
+        "217267.0",
+        "196949",
+        "186016.0",
+        "33733",
+        "31251"
+      ],
+      [
+        "Cost of sales",
+        "-188140",
+        "-176270.0",
+        "-160614",
+        "-150860.0",
+        "-27526",
+        "-25410"
+      ],
+      [
+        "Gross profit",
+        "42542",
+        "40997.0",
+        "36335",
+        "35156.0",
+        "6207",
+        "5841"
+      ],
+      [
+        "Distribution expenses",
+        "-22710",
+        "-22700.0",
+        "-21353",
+        "-21453.0",
+        "-1357",
+        "-1248"
+      ],
+      [
+        "Administrative expenses",
+        "-8254",
+        "-7336.0",
+        "-6554",
+        "-5730.0",
+        "-1700",
+        "-1606"
+      ],
+      [
+        "Net other operating result",
+        "2240",
+        "-3858.0",
+        "2717",
+        "-3306.0",
+        "-477",
+        "-552"
+      ],
+      [
+        "Operating result",
+        "13818",
+        "7103.0",
+        "11146",
+        "4668.0",
+        "2673",
+        "2435"
+      ],
+      [
+        "Operating return on sales (%)",
+        "6",
+        "3.3",
+        "5.7",
+        "2.5",
+        "7.9",
+        "7.8"
+      ],
+      [
+        "Share of the result of equity-accounted investments",
+        "3482",
+        "3497.0",
+        "3473",
+        "3433.0",
+        "9",
+        "64"
+      ],
+      [
+        "Interest result and Other financial result",
+        "-3388",
+        "-3308.0",
+        "-3209",
+        "-3217.0",
+        "-180",
+        "-91"
+      ],
+      [
+        "Financial result",
+        "94",
+        "189.0",
+        "265",
+        "216.0",
+        "-171",
+        "-27"
+      ],
+      [
+        "Earnings before tax",
+        "13913",
+        "7292.0",
+        "11411",
+        "4884.0",
+        "2502",
+        "2408"
+      ],
+      [
+        "Income tax expense",
+        "-2275",
+        "-1912.0",
+        "-3295",
+        "-1149.0",
+        "1020",
+        "-763"
+      ],
+      [
+        "Earnings after tax",
+        "11638",
+        "5379.0",
+        "8116",
+        "3735.0",
+        "3522",
+        "1645"
+      ],
+      [
+        "Noncontrolling interests",
+        "10",
+        "10.0",
+        "-257",
+        "-81.0",
+        "267",
+        "91"
+      ],
+      [
+        "Earnings attributable to Volkswagen AG hybrid capital investors",
+        "274",
+        "225.0",
+        "274",
+        "225.0",
+        "–",
+        "–"
+      ],
+      [
+        "Earnings attributable to Volkswagen AG shareholders",
+        "11354",
+        "5144.0",
+        "8099",
+        "3591.0",
+        "3255",
+        "1553"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Cost of sales",
+      "Gross profit",
+      "Distribution expenses",
+      "Administrative expenses",
+      "Net other operating result",
+      "Operating result",
+      "Operating return on sales (%)",
+      "Share of the result of equity-accounted investments",
+      "Interest result and Other financial result",
+      "Financial result",
+      "Earnings before tax",
+      "Income tax expense",
+      "Earnings after tax",
+      "Noncontrolling interests",
+      "Earnings attributable to Volkswagen AG hybrid capital investors",
+      "Earnings attributable to Volkswagen AG shareholders"
+    ]
+  },
+  {
+    "table_id": "VW2017_T7f7d12",
+    "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA",
+    "title": "Results of operations in the Passenger Cars Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "158466.0",
+        "150343.0"
+      ],
+      [
+        "Operating result",
+        "9309.0",
+        "4167.0"
+      ],
+      [
+        "Operating return on sales (%)",
+        "5.9",
+        "2.8"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2017_T69fe99",
+    "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+    "title": "Results of operations in the Commercial Vehicles Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "35200.0",
+        "32080.0"
+      ],
+      [
+        "Operating result",
+        "1892.0",
+        "718.0"
+      ],
+      [
+        "Operating return on sales (%)",
+        "5.4",
+        "2.2"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tbaea5e",
+    "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
+    "title": "Results of operations in the Power Engineering Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "3283.0",
+        "3593.0"
+      ],
+      [
+        "Operating result",
+        "-55.0",
+        "-217.0"
+      ],
+      [
+        "Operating return on sales (%)",
+        "-1.7",
+        "-6.0"
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Operating result",
+      "Operating return on sales (%)"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tdbcd2f",
+    "section_name": "CASH FLOW STATEMENT BY DIVISION",
+    "title": "Cash flow statement by division",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016",
+        "2017",
+        "2016",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016",
+      "2017",
+      "2016",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Cash and cash equivalents at beginning of period",
+        "18833",
+        "20462",
+        "14125",
+        "15294.0",
+        "4709",
+        "5168"
+      ],
+      [
+        "Earnings before tax",
+        "13913",
+        "7292",
+        "11411",
+        "4884.0",
+        "2502",
+        "2408"
+      ],
+      [
+        "Income taxes paid",
+        "-3664",
+        "-3315",
+        "-3514",
+        "-3526.0",
+        "-149",
+        "211"
+      ],
+      [
+        "Depreciation and amortization expense2",
+        "22165",
+        "20924",
+        "14948",
+        "14331.0",
+        "7218",
+        "6593"
+      ],
+      [
+        "Change in pension provisions",
+        "468",
+        "235",
+        "452",
+        "224.0",
+        "15",
+        "11"
+      ],
+      [
+        "Other noncash income/expense and reclassifications3",
+        "-231",
+        "871",
+        "121",
+        "556.0",
+        "-352",
+        "316"
+      ],
+      [
+        "Gross cash flow",
+        "32651",
+        "26007",
+        "23418",
+        "16468.0",
+        "9233",
+        "9539"
+      ],
+      [
+        "Change in working capital",
+        "-33836",
+        "-16576",
+        "-11732",
+        "3803.0",
+        "-22104",
+        "-20379"
+      ],
+      [
+        "Change in inventories",
+        "-4198",
+        "-3637",
+        "-3784",
+        "-3313.0",
+        "-414",
+        "-324"
+      ],
+      [
+        "Change in receivables",
+        "-1660",
+        "-2155",
+        "-937",
+        "-1876.0",
+        "-724",
+        "-280"
+      ],
+      [
+        "Change in liabilities",
+        "5302",
+        "5048",
+        "4168",
+        "4474.0",
+        "1134",
+        "574"
+      ],
+      [
+        "Change in other provisions",
+        "-9910",
+        "5732",
+        "-10079",
+        "5616.0",
+        "169",
+        "116"
+      ],
+      [
+        "Change in financial services receivables",
+        "-11891",
+        "-9490",
+        "15",
+        "58.0",
+        "-11906",
+        "-9547"
+      ],
+      [
+        "Cash flows from operating activities",
+        "-1185",
+        "9430",
+        "11686",
+        "20271.0",
+        "-12871",
+        "-10840"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-18218",
+        "-16797",
+        "-17636",
+        "-15941.0",
+        "-583",
+        "-856"
+      ],
+      [
+        "capitalized development costs",
+        "-5260",
+        "-5750",
+        "-5260",
+        "-5750.0",
+        "–",
+        "–"
+      ],
+      [
+        "acquisition and disposal of equity investments",
+        "-317",
+        "1754",
+        "-124",
+        "2283.0",
+        "-193",
+        "-528"
+      ],
+      [
+        "Net cash flow4",
+        "-19404",
+        "-7367",
+        "-5950",
+        "4330.0",
+        "-13454",
+        "-11696"
+      ],
+      [
+        "Change in investments in securities, loans and time deposits",
+        "1710",
+        "-3882",
+        "2333",
+        "-3125.0",
+        "-622",
+        "-757"
+      ],
+      [
+        "Cash flows from investing activities",
+        "-16508",
+        "-20679",
+        "-15303",
+        "-19066.0",
+        "-1205",
+        "-1613"
+      ],
+      [
+        "Cash flows from financing activities",
+        "17625",
+        "9712",
+        "3562",
+        "-2298.0",
+        "14063",
+        "12009"
+      ],
+      [
+        "of which: capital transactions with noncontrolling interests",
+        "–",
+        "-3",
+        "–",
+        "-3.0",
+        "–",
+        "–"
+      ],
+      [
+        "Capital contributions/capital redemptions",
+        "3473",
+        "–",
+        "2400",
+        "-1454.0",
+        "1073",
+        "1454"
+      ],
+      [
+        "Effect of exchange rate changes on cash and cash equivalents",
+        "-727",
+        "-91",
+        "-641",
+        "-76.0",
+        "-86",
+        "-15"
+      ],
+      [
+        "Net change in cash and cash equivalents",
+        "-796",
+        "-1628",
+        "-696",
+        "-1169.0",
+        "-99",
+        "-460"
+      ],
+      [
+        "Cash and cash equivalents at Dec. 315",
+        "18038",
+        "18833",
+        "13428",
+        "14125.0",
+        "4609",
+        "4709"
+      ],
+      [
+        "Securities, loans and time deposits",
+        "26291",
+        "28036",
+        "15201",
+        "17911.0",
+        "11090",
+        "10125"
+      ],
+      [
+        "Gross liquidity",
+        "44329",
+        "46869",
+        "28630",
+        "32036.0",
+        "15699",
+        "14833"
+      ],
+      [
+        "Total third-party borrowings",
+        "-163472",
+        "-154819",
+        "-6251",
+        "-4856.0",
+        "-157221",
+        "-149963"
+      ],
+      [
+        "Net liquidity6",
+        "-119143",
+        "-107950",
+        "22378",
+        "27180.0",
+        "-141522",
+        "-135130"
+      ]
+    ],
+    "stub_col": [
+      "Cash and cash equivalents at beginning of period",
+      "Earnings before tax",
+      "Income taxes paid",
+      "Depreciation and amortization expense ^2",
+      "Change in pension provisions",
+      "Other noncash income/expense and reclassifications ^3",
+      "Gross cash flow",
+      "Change in working capital",
+      "Change in inventories",
+      "Change in receivables",
+      "Change in liabilities",
+      "Change in other provisions",
+      "Change in financial services receivables",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "capitalized development costs",
+      "acquisition and disposal of equity investments",
+      "Net cash flow ^4",
+      "Change in investments in securities, loans and time deposits",
+      "Cash flows from investing activities",
+      "Cash flows from financing activities",
+      "of which: capital transactions with noncontrolling interests",
+      "Capital contributions/capital redemptions",
+      "Effect of exchange rate changes on cash and cash equivalents",
+      "Net change in cash and cash equivalents",
+      "Cash and cash equivalents at Dec. 315",
+      "Securities, loans and time deposits",
+      "Gross liquidity",
+      "Total third-party borrowings",
+      "Net liquidity ^6"
+    ]
+  },
+  {
+    "table_id": "VW2017_T36fdb3",
+    "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA",
+    "title": "Financial position in the Passenger Cars Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Gross cash flow",
+        "19410.0",
+        "13920.0"
+      ],
+      [
+        "Change in working capital",
+        "-10122.0",
+        "3454.0"
+      ],
+      [
+        "Cash flows from operating activities",
+        "9289.0",
+        "17374.0"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-15337.0",
+        "-13353.0"
+      ],
+      [
+        "Net cash flow",
+        "-6048.0",
+        "4021.0"
+      ]
+    ],
+    "stub_col": [
+      "Gross cash flow",
+      "Change in working capital",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "Net cash flow"
+    ]
+  },
+  {
+    "table_id": "VW2017_T661326",
+    "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+    "title": "Financial Position in the Commercial Vehicles Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Gross cash flow",
+        "3739.0",
+        "2496.0"
+      ],
+      [
+        "Change in working capital",
+        "-1320.0",
+        "238.0"
+      ],
+      [
+        "Cash flows from operating activities",
+        "2419.0",
+        "2734.0"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-2122.0",
+        "-2407.0"
+      ],
+      [
+        "Net cash flow",
+        "297.0",
+        "327.0"
+      ]
+    ],
+    "stub_col": [
+      "Gross cash flow",
+      "Change in working capital",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "Net cash flow"
+    ]
+  },
+  {
+    "table_id": "VW2017_T86fe8c",
+    "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
+    "title": "Financial Position in the Power Engineering Business Area",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Gross cash flow",
+        "268.0",
+        "52.0"
+      ],
+      [
+        "Change in working capital",
+        "-290.0",
+        "111.0"
+      ],
+      [
+        "Cash flows from operating activities",
+        "-22.0",
+        "163.0"
+      ],
+      [
+        "Cash flows from investing activities attributable to operating activities",
+        "-177.0",
+        "-182.0"
+      ],
+      [
+        "Net cash flow",
+        "-199.0",
+        "-19.0"
+      ]
+    ],
+    "stub_col": [
+      "Gross cash flow",
+      "Change in working capital",
+      "Cash flows from operating activities",
+      "Cash flows from investing activities attributable to operating activities",
+      "Net cash flow"
+    ]
+  },
+  {
+    "table_id": "VW2017_T976a7e",
+    "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016",
+        "2017",
+        "2016",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016",
+      "2017",
+      "2016",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Assets",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Noncurrent assets",
+        "262081",
+        "254010",
+        "140912",
+        "139003",
+        "121169",
+        "115007"
+      ],
+      [
+        "Intangible assets",
+        "63419",
+        "62599",
+        "63211",
+        "62372",
+        "208",
+        "227"
+      ],
+      [
+        "Property, plant and equipment",
+        "55243",
+        "54033",
+        "52503",
+        "51415",
+        "2739",
+        "2619"
+      ],
+      [
+        "Lease assets",
+        "39254",
+        "38439",
+        "3140",
+        "3385",
+        "36114",
+        "35054"
+      ],
+      [
+        "Financial services receivables",
+        "73249",
+        "68402",
+        "-7",
+        "9",
+        "73256",
+        "68393"
+      ],
+      [
+        "Investments, equity-accounted investments and other equity investments, other receivables and financial assets",
+        "30916",
+        "30537",
+        "22065",
+        "21822",
+        "8851",
+        "8715"
+      ],
+      [
+        "Current assets",
+        "160112",
+        "155722",
+        "80210",
+        "81083",
+        "79902",
+        "74640"
+      ],
+      [
+        "Inventories",
+        "40415",
+        "38978",
+        "36113",
+        "34947",
+        "4302",
+        "4031"
+      ],
+      [
+        "Financial services receivables",
+        "53145",
+        "49673",
+        "-686",
+        "-660",
+        "53832",
+        "50333"
+      ],
+      [
+        "Other receivables and financial assets",
+        "32040",
+        "30286",
+        "17354",
+        "17561",
+        "14686",
+        "12726"
+      ],
+      [
+        "Marketable securities",
+        "15939",
+        "17520",
+        "13512",
+        "14703",
+        "2427",
+        "2817"
+      ],
+      [
+        "Cash, cash equivalents and time deposits",
+        "18457",
+        "19265",
+        "13826",
+        "14532",
+        "4632",
+        "4733"
+      ],
+      [
+        "Assets held for sale",
+        "115",
+        "–",
+        "90",
+        "–",
+        "24",
+        "–"
+      ],
+      [
+        "Total assets",
+        "422193",
+        "409732",
+        "221121",
+        "220085",
+        "201071",
+        "189647"
+      ],
+      [
+        "Equity and liabilities",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Equity",
+        "109077",
+        "92910",
+        "81605",
+        "69130",
+        "27472",
+        "23780"
+      ],
+      [
+        "Equity attributable to Volkswagen AG shareholders",
+        "97761",
+        "85122",
+        "70857",
+        "61714",
+        "26904",
+        "23408"
+      ],
+      [
+        "Equity attributable to Volkswagen AG hybrid capital investors",
+        "11088",
+        "7567",
+        "11088",
+        "7567",
+        "–",
+        "–"
+      ],
+      [
+        "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+        "108849",
+        "92689",
+        "81945",
+        "69281",
+        "26904",
+        "23408"
+      ],
+      [
+        "Noncontrolling interests",
+        "229",
+        "221",
+        "-339",
+        "-151",
+        "568",
+        "373"
+      ],
+      [
+        "Noncurrent liabilities",
+        "152726",
+        "139306",
+        "69805",
+        "69982",
+        "82921",
+        "69324"
+      ],
+      [
+        "Financial liabilities",
+        "81628",
+        "66358",
+        "6709",
+        "5876",
+        "74919",
+        "60483"
+      ],
+      [
+        "Provisions for pensions",
+        "32730",
+        "33012",
+        "32189",
+        "32464",
+        "540",
+        "549"
+      ],
+      [
+        "Other liabilities",
+        "38368",
+        "39936",
+        "30906",
+        "31643",
+        "7462",
+        "8293"
+      ],
+      [
+        "Current liabilities",
+        "160389",
+        "177515",
+        "69711",
+        "80973",
+        "90678",
+        "96542"
+      ],
+      [
+        "Put options and compensation rights granted to noncontrolling interest shareholders",
+        "3795",
+        "3849",
+        "3795",
+        "3849",
+        "–",
+        "–"
+      ],
+      [
+        "Financial liabilities",
+        "81844",
+        "88461",
+        "-458",
+        "-1019",
+        "82302",
+        "89481"
+      ],
+      [
+        "Trade payables",
+        "23046",
+        "22794",
+        "20497",
+        "20753",
+        "2548",
+        "2041"
+      ],
+      [
+        "Other liabilities",
+        "51705",
+        "62411",
+        "45877",
+        "57391",
+        "5828",
+        "5021"
+      ],
+      [
+        "Total equity and liabilities",
+        "422193",
+        "409732",
+        "221121",
+        "220085",
+        "201071",
+        "189647"
+      ]
+    ],
+    "stub_col": [
+      "Assets",
+      "Noncurrent assets",
+      "Intangible assets",
+      "Property, plant and equipment",
+      "Lease assets",
+      "Financial services receivables",
+      "Investments, equity-accounted investments and other equity investments, other receivables and financial assets",
+      "Current assets",
+      "Inventories",
+      "Financial services receivables",
+      "Other receivables and financial assets",
+      "Marketable securities",
+      "Cash, cash equivalents and time deposits",
+      "Assets held for sale",
+      "Total assets",
+      "Equity and liabilities",
+      "Equity",
+      "Equity attributable to Volkswagen AG shareholders",
+      "Equity attributable to Volkswagen AG hybrid capital investors",
+      "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "Noncontrolling interests",
+      "Noncurrent liabilities",
+      "Financial liabilities",
+      "Provisions for pensions",
+      "Other liabilities",
+      "Current liabilities",
+      "Put options and compensation rights granted to noncontrolling interest shareholders",
+      "Financial liabilities",
+      "Trade payables",
+      "Other liabilities",
+      "Total equity and liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2017_Te0fe8a",
+    "section_name": "PASSENGER CARS BUSINESS AREA BALANCE SHEET STRUCTURE",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "Dec. 31, 2017",
+        "Dec. 31, 2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Dec. 31, 2017",
+      "Dec. 31, 2016"
+    ],
+    "rows": [
+      [
+        "Noncurrent assets",
+        "111277",
+        "109918"
+      ],
+      [
+        "Current assets",
+        "60052",
+        "61600"
+      ],
+      [
+        "Total assets",
+        "171329",
+        "171518"
+      ],
+      [
+        "Equity",
+        "66449",
+        "54789"
+      ],
+      [
+        "Noncurrent liabilities",
+        "55118",
+        "56703"
+      ],
+      [
+        "Current liabilities",
+        "49762",
+        "60026"
+      ]
+    ],
+    "stub_col": [
+      "Noncurrent assets",
+      "Current assets",
+      "Total assets",
+      "Equity",
+      "Noncurrent liabilities",
+      "Current liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tb7cad2",
+    "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "Dec. 31, 2017",
+        "Dec. 31, 2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Dec. 31, 2017",
+      "Dec. 31, 2016"
+    ],
+    "rows": [
+      [
+        "Noncurrent assets",
+        "27005",
+        "26206"
+      ],
+      [
+        "Current assets",
+        "16908",
+        "16197"
+      ],
+      [
+        "Total assets",
+        "43913",
+        "42403"
+      ],
+      [
+        "Equity",
+        "12194",
+        "11185"
+      ],
+      [
+        "Noncurrent liabilities",
+        "13975",
+        "12531"
+      ],
+      [
+        "Current liabilities",
+        "17744",
+        "18687"
+      ]
+    ],
+    "stub_col": [
+      "Noncurrent assets",
+      "Current assets",
+      "Total assets",
+      "Equity",
+      "Noncurrent liabilities",
+      "Current liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2017_T7e6872",
+    "section_name": "POWER ENGINEERING BUSINESS AREA BALANCE SHEET STRUCTURE",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "Dec. 31, 2017",
+        "Dec. 31, 2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "Dec. 31, 2017",
+      "Dec. 31, 2016"
+    ],
+    "rows": [
+      [
+        "Noncurrent assets",
+        "2629",
+        "2879"
+      ],
+      [
+        "Current assets",
+        "3250",
+        "3285"
+      ],
+      [
+        "Total assets",
+        "5879",
+        "6165"
+      ],
+      [
+        "Equity",
+        "2963",
+        "3157"
+      ],
+      [
+        "Noncurrent liabilities",
+        "711",
+        "748"
+      ],
+      [
+        "Current liabilities",
+        "2205",
+        "2260"
+      ]
+    ],
+    "stub_col": [
+      "Noncurrent assets",
+      "Current assets",
+      "Total assets",
+      "Equity",
+      "Noncurrent liabilities",
+      "Current liabilities"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tcb1b72",
+    "section_name": "VALUE ADDED GENERATED BY THE VOLKSWAGEN GROUP",
+    "title": "Value added generated by the Volkswagen Group – Source of funds",
+    "headers": [
+      [
+        "Source of funds in € million",
+        "2017",
+        "",
+        "2016",
+        ""
+      ]
+    ],
+    "merged_headers": [
+      "Source of funds in € million",
+      "2017",
+      "",
+      "2016",
+      ""
+    ],
+    "rows": [
+      [
+        "Sales revenue",
+        "230682.0",
+        "",
+        "217267.0",
+        ""
+      ],
+      [
+        "Other income",
+        "18912.0",
+        "",
+        "17907.0",
+        ""
+      ],
+      [
+        "Cost of materials",
+        "-151449.0",
+        "",
+        "-140307.0",
+        ""
+      ],
+      [
+        "Depreciation and amortization",
+        "-22165.0",
+        "",
+        "-20924.0",
+        ""
+      ],
+      [
+        "Other upfront expenditures",
+        "-17615.0",
+        "",
+        "-23990.0",
+        ""
+      ],
+      [
+        "Value added",
+        "58364.0",
+        "",
+        "49953.0",
+        ""
+      ]
+    ],
+    "stub_col": [
+      "Sales revenue",
+      "Other income",
+      "Cost of materials",
+      "Depreciation and amortization",
+      "Other upfront expenditures",
+      "Value added"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tae3775",
+    "section_name": "VALUE ADDED GENERATED BY THE VOLKSWAGEN GROUP",
+    "title": "Value added generated by the Volkswagen Group – Appropriation of funds",
+    "headers": [
+      [
+        "Appropriation of funds in € million",
+        "2017",
+        "%",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "Appropriation of funds in € million",
+      "2017",
+      "%",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "to Volkswagen AG shareholders (dividend, 2017 dividend proposal)",
+        "1967.0",
+        "3.4",
+        "1015.0",
+        "2"
+      ],
+      [
+        "to employees (wages, salaries, benefits)",
+        "38950.0",
+        "66.7",
+        "37017.0",
+        "74.1"
+      ],
+      [
+        "to the state (taxes, duties)",
+        "3433.0",
+        "5.9",
+        "3486.0",
+        "7"
+      ],
+      [
+        "to creditors (interest expense)",
+        "4344.0",
+        "7.4",
+        "4070.0",
+        "8.1"
+      ],
+      [
+        "to the Company (reserves)",
+        "9671.0",
+        "16.6",
+        "4365.0",
+        "8.7"
+      ],
+      [
+        "Value added",
+        "58364.0",
+        "100",
+        "49953.0",
+        "100"
+      ]
+    ],
+    "stub_col": [
+      "to Volkswagen AG shareholders (dividend, 2017 dividend proposal)",
+      "to employees (wages, salaries, benefits)",
+      "to the state (taxes, duties)",
+      "to creditors (interest expense)",
+      "to the Company (reserves)",
+      "Value added"
+    ]
+  },
+  {
+    "table_id": "VW2017_T14f25f",
+    "section_name": "COST OF CAPITAL AFTER TAX AUTOMOTIVE DIVISION",
+    "title": "Cost of capital after tax automotive division",
+    "headers": [
+      [
+        "%",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "%",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Risk-free rate",
+        "1.0",
+        "0.7"
+      ],
+      [
+        "MSCI World Index market risk premium",
+        "6.5",
+        "6.5"
+      ],
+      [
+        "Volkswagen-specific risk premium",
+        "0.8",
+        "1.5"
+      ],
+      [
+        "(Volkswagen beta factor)",
+        "-1.12",
+        "-1.22"
+      ],
+      [
+        "Cost of equity after tax",
+        "8.3",
+        "8.7"
+      ],
+      [
+        "Cost of debt",
+        "1.8",
+        "1.7"
+      ],
+      [
+        "Tax",
+        "-0.6",
+        "-0.5"
+      ],
+      [
+        "Cost of debt after tax",
+        "1.3",
+        "1.2"
+      ],
+      [
+        "Proportion of equity",
+        "66.7",
+        "66.7"
+      ],
+      [
+        "Proportion of debt",
+        "33.3",
+        "33.3"
+      ],
+      [
+        "Cost of capital after tax",
+        "6.0",
+        "6.2"
+      ]
+    ],
+    "stub_col": [
+      "Risk-free rate",
+      "MSCI World Index market risk premium",
+      "Volkswagen-specific risk premium",
+      "(Volkswagen beta factor)",
+      "Cost of equity after tax",
+      "Cost of debt",
+      "Tax",
+      "Cost of debt after tax",
+      "Proportion of equity",
+      "Proportion of debt",
+      "Cost of capital after tax"
+    ]
+  },
+  {
+    "table_id": "VW2017_T39f65d",
+    "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
+    "title": "Return on Investment (ROI) and Value Contribution in the Automotive Division",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Operating result after tax",
+        "11756.0",
+        "7419.0"
+      ],
+      [
+        "Invested capital (average)",
+        "97021.0",
+        "91020.0"
+      ],
+      [
+        "Return on investment (ROI) in %",
+        "12.1",
+        "8.2"
+      ],
+      [
+        "Cost of capital in %",
+        "6.0",
+        "6.2"
+      ],
+      [
+        "Cost of invested capital",
+        "5821.0",
+        "5643.0"
+      ],
+      [
+        "Value contribution",
+        "5935.0",
+        "1775.0"
+      ]
+    ],
+    "stub_col": [
+      "Operating result after tax",
+      "Invested capital (average)",
+      "Return on investment (ROI) in %",
+      "Cost of capital in %",
+      "Cost of invested capital",
+      "Value contribution"
+    ]
+  },
+  {
+    "table_id": "VW2017_T2acd97",
+    "section_name": "FORECAST VERSUS ACTUAL FIGURES",
+    "title": "Forecast versus actual figures",
+    "headers": [
+      [
+        "Deliveries to customers",
+        "10.3 million",
+        "moderate increase",
+        "moderate increase",
+        "10.7 million"
+      ]
+    ],
+    "merged_headers": [
+      "Deliveries to customers",
+      "10.3 million",
+      "moderate increase",
+      "moderate increase",
+      "10.7 million"
+    ],
+    "rows": [
+      [
+        "Volkswagen Group",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€217.3 billion",
+        "increase of up to 4%",
+        ">4%",
+        "€230.7 billion"
+      ],
+      [
+        "Operating return on sales before special items",
+        "0.067",
+        "6.0–7.0%",
+        "moderately above 7.0%",
+        "0.07400000000000001"
+      ],
+      [
+        "Operating return on sales",
+        "0.033",
+        "6.0–7.0%",
+        "~6.0%",
+        "0.06"
+      ],
+      [
+        "Operating result before special items",
+        "€14.6 billion",
+        "within the forecast range",
+        "within the forecast range",
+        "€17.0 billion"
+      ],
+      [
+        "Operating result",
+        "€7.1 billion",
+        "within the forecast range",
+        "within the forecast range",
+        "€13.8 billion"
+      ],
+      [
+        "Passenger Cars Business Area",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€150.3 billion",
+        "increase of up to 4%",
+        ">4%",
+        "€158.5 billion"
+      ],
+      [
+        "Operating return on sales before special items",
+        "0.07400000000000001",
+        "6.5–7.5%",
+        "moderately above 7.5%",
+        "0.079"
+      ],
+      [
+        "Operating return on sales",
+        "0.027999999999999997",
+        "6.5–7.5%",
+        "slightly below 6.5%",
+        "0.059000000000000004"
+      ],
+      [
+        "Operating result before special items",
+        "€11.1 billion",
+        "within the forecast range",
+        "within the forecast range",
+        "€12.5 billion"
+      ],
+      [
+        "Operating result",
+        "€4.2 billion",
+        "within the forecast range",
+        "within the forecast range",
+        "€9.3 billion"
+      ],
+      [
+        "Commercial Vehicles Business Area",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€32.1 billion",
+        "increase of up to 4%",
+        ">4%",
+        "€35.2 billion"
+      ],
+      [
+        "Operating return on sales",
+        "0.022000000000000002",
+        "3.0–5.0%",
+        "moderately above 5.0%",
+        "0.054000000000000006"
+      ],
+      [
+        "Operating result",
+        "€0.7 billion",
+        "within the forecast range",
+        "within the forecast range",
+        "€1.9 billion"
+      ],
+      [
+        "Power Engineering Business Area",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€3.6 billion",
+        "significant decline",
+        "significant decline",
+        "€3.3 billion"
+      ],
+      [
+        "Operating result",
+        "€−0.2 billion",
+        "lower loss",
+        "lower loss",
+        "€−0.1 billion"
+      ],
+      [
+        "Financial Services Division",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sales revenue",
+        "€31.3 billion",
+        "at prior-year level",
+        "noticeable increase",
+        "€33.7 billion"
+      ],
+      [
+        "Operating result",
+        "€2.4 billion",
+        "at prior-year level",
+        "noticeable increase",
+        "€2.7 billion"
+      ],
+      [
+        "R&D ratio in the Automotive Division",
+        "0.073",
+        "6.0–7.0%",
+        "6.0–7.0%",
+        "0.067"
+      ],
+      [
+        "Capex/sales revenue in the Automotive Division",
+        "0.069",
+        "6.0–7.0%",
+        "6.0–7.0%",
+        "0.064"
+      ],
+      [
+        "Net cash flow in the Automotive Division",
+        "€4.3 billion",
+        "significant decline, negative",
+        "significant decline, negative",
+        "€−6.0 billion"
+      ],
+      [
+        "Net liquidity in the Automotive Division",
+        "€27.2 billion",
+        "significant decline",
+        "significant decline",
+        "€22.4 billion"
+      ],
+      [
+        "Return on investment (ROI) in the Automotive Division",
+        "0.08199999999999999",
+        "noticeable increase, > 9%",
+        "noticeable increase, > 9%",
+        "0.121"
+      ]
+    ],
+    "stub_col": [
+      "Volkswagen Group",
+      "Sales revenue",
+      "Operating return on sales before special items",
+      "Operating return on sales",
+      "Operating result before special items",
+      "Operating result",
+      "Passenger Cars Business Area",
+      "Sales revenue",
+      "Operating return on sales before special items",
+      "Operating return on sales",
+      "Operating result before special items",
+      "Operating result",
+      "Commercial Vehicles Business Area",
+      "Sales revenue",
+      "Operating return on sales",
+      "Operating result",
+      "Power Engineering Business Area",
+      "Sales revenue",
+      "Operating result",
+      "Financial Services Division",
+      "Sales revenue",
+      "Operating result",
+      "R&D ratio in the Automotive Division",
+      "Capex/sales revenue in the Automotive Division",
+      "Net cash flow in the Automotive Division",
+      "Net liquidity in the Automotive Division",
+      "Return on investment (ROI) in the Automotive Division"
+    ]
+  },
+  {
+    "table_id": "VW2017_T03717c",
+    "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+    "title": "Income statement of Volkswagen AG",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Sales",
+        "76729.0",
+        "75310.0"
+      ],
+      [
+        "Cost of sales",
+        "-73355.0",
+        "-70180.0"
+      ],
+      [
+        "Gross profit on sales",
+        "3375.0",
+        "5131.0"
+      ],
+      [
+        "Selling, general and administrative expenses",
+        "-7104.0",
+        "-8352.0"
+      ],
+      [
+        "Net other operating result",
+        "-154.0",
+        "-2035.0"
+      ],
+      [
+        "Financial result1",
+        "8644.0",
+        "8725.0"
+      ],
+      [
+        "Taxes on income",
+        "-409.0",
+        "-670.0"
+      ],
+      [
+        "Earnings after tax",
+        "4353.0",
+        "2799.0"
+      ],
+      [
+        "Net income for the fiscal year",
+        "4353.0",
+        "2799.0"
+      ],
+      [
+        "Retained profits brought forward",
+        "2.0",
+        "2.0"
+      ],
+      [
+        "Appropriations to revenue reserves",
+        "-2174.0",
+        "-1399.0"
+      ],
+      [
+        "Net retained profits",
+        "2181.0",
+        "1402.0"
+      ]
+    ],
+    "stub_col": [
+      "Sales",
+      "Cost of sales",
+      "Gross profit on sales",
+      "Selling, general and administrative expenses",
+      "Net other operating result",
+      "Financial result ^1",
+      "Taxes on income",
+      "Earnings after tax",
+      "Net income for the fiscal year",
+      "Retained profits brought forward",
+      "Appropriations to revenue reserves",
+      "Net retained profits"
+    ]
+  },
+  {
+    "table_id": "VW2017_Ta35029",
+    "section_name": "BALANCE SHEET OF VOLKSWAGEN AG AS OF DECEMBER 31",
+    "title": "unknown title",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Fixed assets",
+        "113703.0",
+        "101973.0"
+      ],
+      [
+        "Inventories",
+        "4889.0",
+        "4387.0"
+      ],
+      [
+        "Receivables1",
+        "32303.0",
+        "26386.0"
+      ],
+      [
+        "Cash-in-hand and bank balances",
+        "5798.0",
+        "9117.0"
+      ],
+      [
+        "Total assets",
+        "156693.0",
+        "141863.0"
+      ],
+      [
+        "Equity",
+        "30438.0",
+        "27100.0"
+      ],
+      [
+        "Special tax-allowable reserves",
+        "21.0",
+        "23.0"
+      ],
+      [
+        "Long-term debt",
+        "33060.0",
+        "26457.0"
+      ],
+      [
+        "Medium-term debt",
+        "33415.0",
+        "30082.0"
+      ],
+      [
+        "Short-term debt",
+        "59759.0",
+        "58200.0"
+      ]
+    ],
+    "stub_col": [
+      "Fixed assets",
+      "Inventories",
+      "Receivables ^1",
+      "Cash-in-hand and bank balances",
+      "Total assets",
+      "Equity",
+      "Special tax-allowable reserves",
+      "Long-term debt",
+      "Medium-term debt",
+      "Short-term debt"
+    ]
+  },
+  {
+    "table_id": "VW2017_Ta89551",
+    "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
+    "title": "Proposal on the appropriation of net profit",
+    "headers": [
+      [
+        "Dividend distribution on subscribed capital (€1,283 million)",
+        "",
+        "1967423852.4"
+      ]
+    ],
+    "merged_headers": [
+      "Dividend distribution on subscribed capital (€1,283 million)",
+      "",
+      "1967423852.4"
+    ],
+    "rows": [
+      [
+        "of which on:",
+        "ordinary shares",
+        "1150850290.2"
+      ],
+      [
+        "",
+        "preferred shares",
+        "816573562.2"
+      ],
+      [
+        "Appropriation to other revenue reserves",
+        "",
+        "210000000.0"
+      ],
+      [
+        "Balance (carried forward to new account)",
+        "",
+        "3299970.81"
+      ],
+      [
+        "Net retained profits",
+        "",
+        "2180723823.21"
+      ]
+    ],
+    "stub_col": [
+      "of which on:",
+      "",
+      "Appropriation to other revenue reserves",
+      "Balance (carried forward to new account)",
+      "Net retained profits"
+    ]
+  },
+  {
+    "table_id": "VW2017_T896b8e",
+    "section_name": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
+    "title": "Employee pay and benefits at Volkswagen AG",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "%",
+        "2016",
+        "%"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "%",
+      "2016",
+      "%"
+    ],
+    "rows": [
+      [
+        "Social security contributions",
+        "1361.0",
+        "12.6",
+        "1337.0",
+        "13.3"
+      ],
+      [
+        "Compensated absence",
+        "1161.0",
+        "10.7",
+        "1099.0",
+        "11"
+      ],
+      [
+        "Retirement benefits",
+        "640.0",
+        "5.9",
+        "456.0",
+        "4.6"
+      ],
+      [
+        "Total expense",
+        "10799.0",
+        "100",
+        "10030.0",
+        "100"
+      ]
+    ],
+    "stub_col": [
+      "Social security contributions",
+      "Compensated absence",
+      "Retirement benefits",
+      "Total expense"
+    ]
+  },
+  {
+    "table_id": "VW2017_T4629af",
+    "section_name": "VOLKSWAGEN AG EXPENDITURE ON ENVIRONMENTAL PROTECTION",
+    "title": "Volkswagen AG expenditure on environmental protection",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016",
+      "2015",
+      "2014",
+      "2013"
+    ],
+    "rows": [
+      [
+        "Investments",
+        "17.0",
+        "11.0",
+        "21.0",
+        "19.0",
+        "14.0"
+      ],
+      [
+        "Operating costs",
+        "227.0",
+        "223.0",
+        "244.0",
+        "226.0",
+        "224.0"
+      ]
+    ],
+    "stub_col": [
+      "Investments",
+      "Operating costs"
+    ]
+  },
+  {
+    "table_id": "VW2017_T98362e",
+    "section_name": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
+    "title": "Research and development costs in the automotive division",
+    "headers": [
+      [
+        "€ million",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "€ million",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Total research and development costs",
+        "13135.0",
+        "13672.0"
+      ],
+      [
+        "of which capitalized development costs",
+        "5260.0",
+        "5750.0"
+      ],
+      [
+        "Capitalization ratio in %",
+        "40.0",
+        "42.1"
+      ],
+      [
+        "Amortization of capitalized development costs",
+        "3734.0",
+        "3587.0"
+      ],
+      [
+        "Research and development costs recognized in profit or loss",
+        "11609.0",
+        "11509.0"
+      ],
+      [
+        "Sales revenue",
+        "196949.0",
+        "186016.0"
+      ],
+      [
+        "Total research and development costs",
+        "13135.0",
+        "13672.0"
+      ],
+      [
+        "R&D ratio",
+        "6.7",
+        "7.3"
+      ]
+    ],
+    "stub_col": [
+      "Total research and development costs",
+      "of which capitalized development costs",
+      "Capitalization ratio in %",
+      "Amortization of capitalized development costs",
+      "Research and development costs recognized in profit or loss",
+      "Sales revenue",
+      "Total research and development costs",
+      "R&D ratio"
+    ]
+  },
+  {
+    "table_id": "VW2017_Tac88d1",
+    "section_name": "PROPORTION OF WOMEN  as of December 31",
+    "title": "Proportion of women Volkswagen Group in Germany",
+    "headers": [
+      [
+        "%",
+        "2017",
+        "2016"
+      ]
+    ],
+    "merged_headers": [
+      "%",
+      "2017",
+      "2016"
+    ],
+    "rows": [
+      [
+        "Female employees",
+        "16.3",
+        "16.0"
+      ],
+      [
+        "Female vocational trainees1",
+        "28.8",
+        "29.5"
+      ],
+      [
+        "Female graduate recruits2",
+        "30.3",
+        "26.0"
+      ],
+      [
+        "Total management1",
+        "11.4",
+        "11.0"
+      ],
+      [
+        "Management1",
+        "13.2",
+        "12.8"
+      ],
+      [
+        "Senior management1",
+        "9.2",
+        "8.7"
+      ],
+      [
+        "Top-Management1",
+        "6.5",
+        "4.7"
+      ]
+    ],
+    "stub_col": [
+      "Female employees",
+      "Female vocational trainees ^1",
+      "Female graduate recruits ^2",
+      "Total management ^1",
+      "Management ^1",
+      "Senior management ^1",
+      "Top-Management ^1"
+    ]
+  }
+]
