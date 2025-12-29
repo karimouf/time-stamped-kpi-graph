@@ -4,18 +4,19 @@
 #SBATCH --output=kpi_extraction_%j.log
 #SBATCH --mail-user=karim.ouf@stud.tu-darmstadt.de
 #SBATCH --mail-type=ALL
+#SBATCH --partition=yolo
+#SBATCH --qos=yolo
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=150GB
 #SBATCH --gres=gpu:a180:2
-#SBATCH --time=30:00:00
+#SBATCH --time=40:00:00
 
 ################################################################################
 # Multi-Model KPI Extraction Job
 # 
 # This script runs the KPI extraction pipeline using:
-# - DeepSeek V2.5 (4-bit quantized, 2x A100 80GB GPUs with model parallelism)
-# - Llama 3 8B Instruct (single GPU)
+# - Deepseek distilled Llama 3 70B 
 #
 # GPU Configuration:
 # - 2x A100 80GB GPUs requested
@@ -134,46 +135,61 @@ echo ""
 
 echo "[3/5] Configuration..."
 
-# Input/Output paths - using relative paths from script directory
-INPUT_DIR="$SCRIPT_DIR/data/tables"
+# Database and Output paths - using relative paths from script directory
+DB_PATH="$SCRIPT_DIR/data/pack_context.db"
 OUTPUT_DIR="$SCRIPT_DIR/data/output"
 
 # Processing options
-MAX_TABLES=""          # Leave empty to process all tables, or set a number like "5"
-TEMPERATURE=0.1         # Sampling temperature (0.1 = mostly deterministic)
+YEAR_FILTER=""          # Leave empty to process all years, or set a year like "2019"
+MAX_TABLES=""           # Leave empty to process all tables, or set a number like "5"
+TEMPERATURE=0.0         # Sampling temperature (0.0 = deterministic)
+NO_RESUME=""            # Leave empty to resume from checkpoint, set to "--no-resume" to start fresh
 
 # Model selection (leave empty to use all models)
-# Options: llama-3-8b
-MODELS=""               # Empty = use all models (just Llama 3 8B)
+# Options: deepseek-r1-distill-llama-70b, deepseek-v2.5, llama-3-8b, gemma-3-pt-27b
+MODELS=""               # Empty = use all models
 
-echo "  Input directory: $INPUT_DIR"
+echo "  Database: $DB_PATH"
 echo "  Output directory: $OUTPUT_DIR"
+echo "  Year filter: ${YEAR_FILTER:-All years}"
 echo "  Max tables: ${MAX_TABLES:-All}"
 echo "  Temperature: $TEMPERATURE"
-echo "  Models: ${MODELS:-Llama 3 8B}"
+echo "  Resume from checkpoint: ${NO_RESUME:+No (starting fresh)}"
+echo "  Resume from checkpoint: ${NO_RESUME:-Yes (if checkpoint exists)}"
+echo "  Models: ${MODELS:-All available models}"
 echo "  Job ID: $SLURM_JOB_ID"
 echo "  Note: Model processes all tables once (load → process all → unload)"
 echo ""
 
-# Check if input directory exists
-if [ ! -d "$INPUT_DIR" ]; then
-    echo "ERROR: Input directory not found: $INPUT_DIR"
+# Check if database exists
+if [ ! -f "$DB_PATH" ]; then
+    echo "ERROR: Database not found: $DB_PATH"
     exit 1
 fi
 
-# Find all .jsonl files in the input directory
-INPUT_FILES=("$INPUT_DIR"/*.jsonl)
-NUM_INPUT_FILES=${#INPUT_FILES[@]}
+# Get table count from database
+echo "  Checking database contents..."
+python - <<EOF
+import sqlite3
+db_path = "$DB_PATH"
+conn = sqlite3.connect(db_path)
+cursor = conn.cursor()
 
-if [ $NUM_INPUT_FILES -eq 0 ]; then
-    echo "ERROR: No .jsonl files found in $INPUT_DIR"
-    exit 1
-fi
+# Total tables
+cursor.execute("SELECT COUNT(*) FROM context_packs")
+total = cursor.fetchone()[0]
+print(f"    Total tables in database: {total}")
 
-echo "  Found $NUM_INPUT_FILES input files:"
-for file in "${INPUT_FILES[@]}"; do
-    echo "    - $(basename "$file")"
-done
+# Tables by year
+if "$YEAR_FILTER":
+    year_filter = "$YEAR_FILTER"
+    cursor.execute("SELECT COUNT(*) FROM context_packs WHERE substr(table_id, 3, 4) = ?", (year_filter,))
+    year_count = cursor.fetchone()[0]
+    print(f"    Tables for year {year_filter}: {year_count}")
+
+conn.close()
+EOF
+
 echo ""
 
 # Create output directory if it doesn't exist
@@ -186,21 +202,18 @@ mkdir -p "$SCRIPT_DIR/data/output"
 echo "[4/5] Running KPI extraction..."
 echo ""
 
-# Build command - passing all input files at once
-# Quote file paths to handle special characters like parentheses
-CMD="python \"$SCRIPT_DIR/extract_kpis_multi_model.py\" \
-    --input"
-
-# Add all input files to the command
-for INPUT_FILE in "${INPUT_FILES[@]}"; do
-    CMD="$CMD \"$INPUT_FILE\""
-done
-
-CMD="$CMD --output-dir \"$OUTPUT_DIR\" \
+# Build command for database processing
+CMD="python \"$SCRIPT_DIR/extract_kpis.py\" \
+    --db \"$DB_PATH\" \
+    --output-dir \"$OUTPUT_DIR\" \
     --temperature $TEMPERATURE \
     --job-id $SLURM_JOB_ID"
 
 # Add optional arguments
+if [ ! -z "$YEAR_FILTER" ]; then
+    CMD="$CMD --year $YEAR_FILTER"
+fi
+
 if [ ! -z "$MAX_TABLES" ]; then
     CMD="$CMD --max-tables $MAX_TABLES"
 fi
@@ -209,7 +222,11 @@ if [ ! -z "$MODELS" ]; then
     CMD="$CMD --models $MODELS"
 fi
 
-# Run the extraction (all files processed with single model load per model)
+if [ ! -z "$NO_RESUME" ]; then
+    CMD="$CMD $NO_RESUME"
+fi
+
+# Run the extraction (database mode with checkpointing)
 echo "Command: $CMD"
 echo ""
 echo "----------------------------------------"
@@ -226,7 +243,7 @@ echo "[5/5] Job Summary"
 echo ""
 
 if [ $EXIT_CODE -eq 0 ]; then
-    echo "✓ Processing completed for all $NUM_INPUT_FILES files!"
+    echo "✓ Database processing completed!"
     echo ""
     
     # Show output files info
