@@ -1,0 +1,2706 @@
+Model: deepseek-r1-distill-llama-70b
+Table: VW2015_T0d84a4
+
+==================================================
+ORIGINAL OUTPUT
+==================================================
+
+{
+  "name": "Dividend per ordinary share",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 0.11,
+  "year": 2015,
+  "row_name": "per ordinary share",
+  "row_idx": 1,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 2:
+**KPI:** Dividend per preferred share  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend per preferred share",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 0.17,
+  "year": 2015,
+  "row_name": "per preferred share",
+  "row_idx": 2,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 3:
+**KPI:** Dividend paid  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend paid",
+  "key": "Company",
+  "units": "€ million",
+  "value": 68,
+  "year": 2015,
+  "row_name": "Dividend paid ^1",
+  "row_idx": 3,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 4:
+**KPI:** Dividend on ordinary shares  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend on ordinary shares",
+  "key": "Ordinary shares",
+  "units": "€ million",
+  "value": 32,
+  "year": 2015,
+  "row_name": "on ordinary shares",
+  "row_idx": 4,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 5:
+**KPI:** Dividend on preferred shares  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend on preferred shares",
+  "key": "Preferred shares",
+  "units": "€ million",
+  "value": 35,
+  "year": 2015,
+  "row_name": "on preferred shares",
+  "row_idx": 5,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 6:
+**KPI:** Share price closing (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Share price closing",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 142.3,
+  "year": 2015,
+  "row_name": "Closing",
+  "row_idx": 8,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 7:
+**KPI:** Price performance (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Price performance",
+  "key": "Ordinary shares",
+  "units": "%",
+  "value": -21,
+  "year": 2015,
+  "row_name": "Price performance",
+  "row_idx": 9,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 8:
+**KPI:** Annual high (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual high",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 247.55,
+  "year": 2015,
+  "row_name": "Annual high",
+  "row_idx": 10,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 9:
+**KPI:** Annual low (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual low",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 101.15,
+  "year": 2015,
+  "row_name": "Annual low",
+  "row_idx": 11,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 10:
+**KPI:** Share price closing (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Share price closing",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 133.75,
+  "year": 2015,
+  "row_name": "Closing",
+  "row_idx": 13,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 11:
+**KPI:** Price performance (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Price performance",
+  "key": "Preferred shares",
+  "units": "%",
+  "value": -27.6,
+  "year": 2015,
+  "row_name": "Price performance",
+  "row_idx": 14,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 12:
+**KPI:** Annual high (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual high",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 255.2,
+  "year": 2015,
+  "row_name": "Annual high",
+  "row_idx": 15,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 13:
+**KPI:** Annual low (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual low",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 92.36,
+  "year": 2015,
+  "row_name": "Annual low",
+  "row_idx": 16,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 14:
+**KPI:** Beta factor (2015)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Beta factor",
+  "key": "Company",
+  "units": "factor",
+  "value": 1.28,
+  "year": 2015,
+  "row_name": "Beta factor ^3",
+  "row_idx": 17,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 15:
+**KPI:** Beta factor (2013)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2013"`.
+
+```json
+{
+  "name": "Beta factor",
+  "key": "Company",
+  "units": "factor",
+  "value": 1.32,
+  "year": 2013,
+  "row_name": "Beta factor ^3",
+  "row_idx": 17,
+  "col_name": "2013",
+  "col_idx": 4,  // Updated col_idx to match "2013" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+==================================================
+ORIGINAL ERROR
+==================================================
+
+Expecting property name enclosed in double quotes: line 10 column 18 (char 211)
+
+==================================================
+RECOVERY ATTEMPT
+==================================================
+
+{
+  "kpis": [
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 0.11,
+      "year": 2015,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 4.8,
+      "year": 2014,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 4.0,
+      "year": 2013,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 3.5,
+      "year": 2012,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 3.0,
+      "year": 2011,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 0.17,
+      "year": 2015,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 4.86,
+      "year": 2014,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 4.06,
+      "year": 2013,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 3.56,
+      "year": 2012,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 3.06,
+      "year": 2011,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 68,
+      "year": 2015,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 2294.0,
+      "year": 2014,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1871.0,
+      "year": 2013,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1639.0,
+      "year": 2012,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1406.0,
+      "year": 2011,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 32,
+      "year": 2015,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 1416.0,
+      "year": 2014,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 1180.0,
+      "year": 2013,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 1033.0,
+      "year": 2012,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 885.0,
+      "year": 2011,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 35,
+      "year": 2015,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 878.0,
+      "year": 2014,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 691.0,
+      "year": 2013,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 606.0,
+      "year": 2012,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 521.0,
+      "year": 2011,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 142.3,
+      "year": 2015,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 180.1,
+      "year": 2014,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 196.9,
+      "year": 2013,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 162.75,
+      "year": 2012,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 103.65,
+      "year": 2011,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": -21,
+      "year": 2015,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": -8.5,
+      "year": 2014,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": 21.0,
+      "year": 2013,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": 57.0,
+      "year": 2012,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": -2.1,
+      "year": 2011,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 247.55,
+      "year": 2015,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 197.35,
+      "year": 2014,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 196.9,
+      "year": 2013,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 162.75,
+      "year": 2012,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 136.95,
+      "year": 2011,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 101.15,
+      "year": 2015,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 150.7,
+      "year": 2014,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 132.6,
+      "year": 2013,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 106.2,
+      "year": 2012,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 84.5,
+      "year": 2011,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 133.75,
+      "year": 2015,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 184.65,
+      "year": 2014,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 204.15,
+      "year": 2013,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 172.15,
+      "year": 2012,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 115.75,
+      "year": 2011,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": -27.6,
+      "year": 2015,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": -9.6,
+      "year": 2014,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": 18.6,
+      "year": 2013,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": 48.7,
+      "year": 2012,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": -4.7,
+      "year": 2011,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 255.2,
+      "year": 2015,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 203.35,
+      "year": 2014,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 204.15,
+      "year": 2013,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 172.7,
+      "year": 2012,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 151.0,
+      "year": 2011,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 92.36,
+      "year": 2015,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 150.25,
+      "year": 2014,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 138.5,
+      "year": 2013,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 118.0,
+      "year": 2012,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 88.54,
+      "year": 2011,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.28,
+      "year": 2015,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.38,
+      "year": 2014,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.32,
+      "year": 2013,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.26,
+      "year": 2012,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.09,
+      "year": 2011,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 69.6,
+      "year": 2015,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 86.5,
+      "year": 2014,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 92.8,
+      "year": 2013,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 77.3,
+      "year": 2012,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 50.3,
+      "year": 2011,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 88.1,
+      "year": 2015,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 90.0,
+      "year": 2014,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 87.7,
+      "year": 2013,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 77.74,
+      "year": 2012,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 57.5,
+      "year": 2011,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 0.79,
+      "year": 2015,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 0.96,
+      "year": 2014,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.06,
+      "year": 2013,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.0,
+      "year": 2012,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 0.87,
+      "year": 2011,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": -3.2,
+      "year": 2015,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 21.82,
+      "year": 2014,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 18.61,
+      "year": 2013,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 46.41,
+      "year": 2012,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 33.1,
+      "year": 2011,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Earnings per ordinary share (diluted)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": -3.2,
+      "year": 2015,
+      "row_name": "diluted",
+      "row_idx": 23,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Earnings per ordinary share (diluted)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 21.82,
+      "year": 2014,
+      "row_name": "diluted",
+      "row_idx": 23,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Earnings per ordinary share (diluted)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 18.61,
+      "year": 2013,
+      "row_name": "diluted",
+      "row_idx": 23,
+      "col_name": "2013",
+      "col_idx": 4
+    }
+==================================================
+RECOVERY ERROR
+==================================================
+
+Expecting ',' delimiter: line 1025 column 6 (char 23873)
+Model: deepseek-r1-distill-llama-70b
+Table: VW2015_T0d84a4
+
+==================================================
+ORIGINAL OUTPUT
+==================================================
+
+{
+  "name": "Dividend per ordinary share",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 0.11,
+  "year": 2015,
+  "row_name": "per ordinary share",
+  "row_idx": 1,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 2:
+**KPI:** Dividend per preferred share  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend per preferred share",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 0.17,
+  "year": 2015,
+  "row_name": "per preferred share",
+  "row_idx": 2,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 3:
+**KPI:** Dividend paid  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend paid",
+  "key": "Company",
+  "units": "€ million",
+  "value": 68,
+  "year": 2015,
+  "row_name": "Dividend paid ^1",
+  "row_idx": 3,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 4:
+**KPI:** Dividend on ordinary shares  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend on ordinary shares",
+  "key": "Ordinary shares",
+  "units": "€ million",
+  "value": 32,
+  "year": 2015,
+  "row_name": "on ordinary shares",
+  "row_idx": 4,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 5:
+**KPI:** Dividend on preferred shares  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Dividend on preferred shares",
+  "key": "Preferred shares",
+  "units": "€ million",
+  "value": 35,
+  "year": 2015,
+  "row_name": "on preferred shares",
+  "row_idx": 5,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 6:
+**KPI:** Share price closing (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Share price closing",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 142.3,
+  "year": 2015,
+  "row_name": "Closing",
+  "row_idx": 8,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 7:
+**KPI:** Price performance (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Price performance",
+  "key": "Ordinary shares",
+  "units": "%",
+  "value": -21,
+  "year": 2015,
+  "row_name": "Price performance",
+  "row_idx": 9,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 8:
+**KPI:** Annual high (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual high",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 247.55,
+  "year": 2015,
+  "row_name": "Annual high",
+  "row_idx": 10,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 9:
+**KPI:** Annual low (Ordinary shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual low",
+  "key": "Ordinary shares",
+  "units": "€",
+  "value": 101.15,
+  "year": 2015,
+  "row_name": "Annual low",
+  "row_idx": 11,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 10:
+**KPI:** Share price closing (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Share price closing",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 133.75,
+  "year": 2015,
+  "row_name": "Closing",
+  "row_idx": 13,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 11:
+**KPI:** Price performance (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Price performance",
+  "key": "Preferred shares",
+  "units": "%",
+  "value": -27.6,
+  "year": 2015,
+  "row_name": "Price performance",
+  "row_idx": 14,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 12:
+**KPI:** Annual high (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual high",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 255.2,
+  "year": 2015,
+  "row_name": "Annual high",
+  "row_idx": 15,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 13:
+**KPI:** Annual low (Preferred shares)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Annual low",
+  "key": "Preferred shares",
+  "units": "€",
+  "value": 92.36,
+  "year": 2015,
+  "row_name": "Annual low",
+  "row_idx": 16,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 14:
+**KPI:** Beta factor (2015)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2015"`.
+
+```json
+{
+  "name": "Beta factor",
+  "key": "Company",
+  "units": "factor",
+  "value": 1.28,
+  "year": 2015,
+  "row_name": "Beta factor ^3",
+  "row_idx": 17,
+  "col_name": "2015",
+  "col_idx": 2,  // Updated col_idx to match "2015" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+#### ERROR 15:
+**KPI:** Beta factor (2013)  
+**Fix:** Update `col_idx` to the correct index where `merged_headers[col_idx] = "2013"`.
+
+```json
+{
+  "name": "Beta factor",
+  "key": "Company",
+  "units": "factor",
+  "value": 1.32,
+  "year": 2013,
+  "row_name": "Beta factor ^3",
+  "row_idx": 17,
+  "col_name": "2013",
+  "col_idx": 4,  // Updated col_idx to match "2013" in merged_headers
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+==================================================
+ORIGINAL ERROR
+==================================================
+
+Expecting property name enclosed in double quotes: line 10 column 18 (char 211)
+
+==================================================
+RECOVERY ATTEMPT
+==================================================
+
+{
+  "kpis": [
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 0.11,
+      "year": 2015,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 4.8,
+      "year": 2014,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 4.0,
+      "year": 2013,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 3.5,
+      "year": 2012,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend per ordinary share",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 3.0,
+      "year": 2011,
+      "row_name": "per ordinary share",
+      "row_idx": 1,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 0.17,
+      "year": 2015,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 4.86,
+      "year": 2014,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 4.06,
+      "year": 2013,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 3.56,
+      "year": 2012,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend per preferred share",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 3.06,
+      "year": 2011,
+      "row_name": "per preferred share",
+      "row_idx": 2,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 68,
+      "year": 2015,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 2294.0,
+      "year": 2014,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1871.0,
+      "year": 2013,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1639.0,
+      "year": 2012,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend paid",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1406.0,
+      "year": 2011,
+      "row_name": "Dividend paid ^1",
+      "row_idx": 3,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 32,
+      "year": 2015,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 1416.0,
+      "year": 2014,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 1180.0,
+      "year": 2013,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 1033.0,
+      "year": 2012,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend on ordinary shares",
+      "key": "Ordinary shares",
+      "units": "€ million",
+      "value": 885.0,
+      "year": 2011,
+      "row_name": "on ordinary shares",
+      "row_idx": 4,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 35,
+      "year": 2015,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 878.0,
+      "year": 2014,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 691.0,
+      "year": 2013,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 606.0,
+      "year": 2012,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Dividend on preferred shares",
+      "key": "Preferred shares",
+      "units": "€ million",
+      "value": 521.0,
+      "year": 2011,
+      "row_name": "on preferred shares",
+      "row_idx": 5,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 142.3,
+      "year": 2015,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 180.1,
+      "year": 2014,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 196.9,
+      "year": 2013,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 162.75,
+      "year": 2012,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Share price closing",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 103.65,
+      "year": 2011,
+      "row_name": "Closing",
+      "row_idx": 8,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": -21,
+      "year": 2015,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": -8.5,
+      "year": 2014,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": 21.0,
+      "year": 2013,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": 57.0,
+      "year": 2012,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Price performance",
+      "key": "Ordinary shares",
+      "units": "%",
+      "value": -2.1,
+      "year": 2011,
+      "row_name": "Price performance",
+      "row_idx": 9,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 247.55,
+      "year": 2015,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 197.35,
+      "year": 2014,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 196.9,
+      "year": 2013,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 162.75,
+      "year": 2012,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual high",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 136.95,
+      "year": 2011,
+      "row_name": "Annual high",
+      "row_idx": 10,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 101.15,
+      "year": 2015,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 150.7,
+      "year": 2014,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 132.6,
+      "year": 2013,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 106.2,
+      "year": 2012,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual low",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 84.5,
+      "year": 2011,
+      "row_name": "Annual low",
+      "row_idx": 11,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 133.75,
+      "year": 2015,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 184.65,
+      "year": 2014,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 204.15,
+      "year": 2013,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 172.15,
+      "year": 2012,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Share price closing",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 115.75,
+      "year": 2011,
+      "row_name": "Closing",
+      "row_idx": 13,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": -27.6,
+      "year": 2015,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": -9.6,
+      "year": 2014,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": 18.6,
+      "year": 2013,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": 48.7,
+      "year": 2012,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Price performance",
+      "key": "Preferred shares",
+      "units": "%",
+      "value": -4.7,
+      "year": 2011,
+      "row_name": "Price performance",
+      "row_idx": 14,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 255.2,
+      "year": 2015,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 203.35,
+      "year": 2014,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 204.15,
+      "year": 2013,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 172.7,
+      "year": 2012,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual high",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 151.0,
+      "year": 2011,
+      "row_name": "Annual high",
+      "row_idx": 15,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 92.36,
+      "year": 2015,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 150.25,
+      "year": 2014,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 138.5,
+      "year": 2013,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 118.0,
+      "year": 2012,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Annual low",
+      "key": "Preferred shares",
+      "units": "€",
+      "value": 88.54,
+      "year": 2011,
+      "row_name": "Annual low",
+      "row_idx": 16,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.28,
+      "year": 2015,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.38,
+      "year": 2014,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.32,
+      "year": 2013,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.26,
+      "year": 2012,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Beta factor",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.09,
+      "year": 2011,
+      "row_name": "Beta factor ^3",
+      "row_idx": 17,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 69.6,
+      "year": 2015,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 86.5,
+      "year": 2014,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 92.8,
+      "year": 2013,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 77.3,
+      "year": 2012,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Market capitalization",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 50.3,
+      "year": 2011,
+      "row_name": "Market capitalization at Dec. 31",
+      "row_idx": 18,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 88.1,
+      "year": 2015,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 90.0,
+      "year": 2014,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 87.7,
+      "year": 2013,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 77.74,
+      "year": 2012,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors",
+      "key": "Company",
+      "units": "€ billion",
+      "value": 57.5,
+      "year": 2011,
+      "row_name": "Equity attributable to Volkswagen AG shareholders and hybrid capital investors at Dec. 31",
+      "row_idx": 19,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 0.79,
+      "year": 2015,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 0.96,
+      "year": 2014,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.06,
+      "year": 2013,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 1.0,
+      "year": 2012,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Ratio of market capitalization to equity",
+      "key": "Company",
+      "units": "factor",
+      "value": 0.87,
+      "year": 2011,
+      "row_name": "Ratio of market capitalization to equity",
+      "row_idx": 20,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": -3.2,
+      "year": 2015,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 21.82,
+      "year": 2014,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 18.61,
+      "year": 2013,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2013",
+      "col_idx": 4
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 46.41,
+      "year": 2012,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2012",
+      "col_idx": 5
+    },
+    {
+      "name": "Earnings per ordinary share (basic)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 33.1,
+      "year": 2011,
+      "row_name": "basic",
+      "row_idx": 22,
+      "col_name": "2011",
+      "col_idx": 6
+    },
+    {
+      "name": "Earnings per ordinary share (diluted)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": -3.2,
+      "year": 2015,
+      "row_name": "diluted",
+      "row_idx": 23,
+      "col_name": "2015",
+      "col_idx": 2
+    },
+    {
+      "name": "Earnings per ordinary share (diluted)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 21.82,
+      "year": 2014,
+      "row_name": "diluted",
+      "row_idx": 23,
+      "col_name": "2014",
+      "col_idx": 3
+    },
+    {
+      "name": "Earnings per ordinary share (diluted)",
+      "key": "Ordinary shares",
+      "units": "€",
+      "value": 18.61,
+      "year": 2013,
+      "row_name": "diluted",
+      "row_idx": 23,
+      "col_name": "2013",
+      "col_idx": 4
+    }
+==================================================
+RECOVERY ERROR
+==================================================
+
+Expecting ',' delimiter: line 1025 column 6 (char 23873)

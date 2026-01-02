@@ -1,0 +1,1619 @@
+Model: deepseek-r1-distill-llama-70b
+Table: VW2016_Tc7190f
+
+==================================================
+CORRECTION PROMPT
+==================================================
+
+The following KPIs are INVALID. Fix them using validation errors.
+
+CRITICAL: The PRIMARY validation is based on row_idx and col_idx (the indices that access the cell).
+- row_name and col_name are SECONDARY validation only
+- If there's a mismatch, FIX THE INDICES (row_idx/col_idx), NOT the names
+- The correct cell is at: data[row_idx][col_idx] = rows[row_idx][col_idx]
+- After fixing indices, row_name MUST equal stub_col[row_idx]
+- After fixing indices, col_name MUST equal merged_headers[col_idx]
+
+VALIDATION ERRORS:
+ERROR 1:
+  KPI: {
+  "name": "Research and development ratio (R&D ratio) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+  "row_idx": 0,
+  "col_name": "0.06",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Research and development ratio (R&D ratio) in the Automotive Division', ⚠ col_name MISMATCH: KPI='0.06', merged_headers[2]='7 to 8%', Source null but extracted=6 (cell: '~6%')
+  Expected: row_idx=0, col_idx=2
+  stub_col[0] = 'Research and development ratio (R&D ratio) in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "~6%")
+  Extracted: 6
+
+  WARNING: col_idx=2 may point to wrong column
+    - Current: col_name='0.06' but merged_headers[2]='7 to 8%'
+  SOLUTION: Search merged_headers for correct col_idx where value matches '0.06':
+    → Found at col_idx=1, merged_headers[1]='0.06'
+    → Consider updating: col_idx: 2 → 1, col_name: '7 to 8%' → '0.06'ERROR 2:
+  KPI: {
+  "name": "Capex/sales revenue target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 1,
+  "col_name": "0.06",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Capex/sales revenue in the Automotive Division', ⚠ col_name MISMATCH: KPI='0.06', merged_headers[2]='7 to 8%', Source null but extracted=6 (cell: '~6%')
+  Expected: row_idx=1, col_idx=2
+  stub_col[1] = 'Capex/sales revenue in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "~6%")
+  Extracted: 6
+
+  WARNING: col_idx=2 may point to wrong column
+    - Current: col_name='0.06' but merged_headers[2]='7 to 8%'
+  SOLUTION: Search merged_headers for correct col_idx where value matches '0.06':
+    → Found at col_idx=1, merged_headers[1]='0.06'
+    → Consider updating: col_idx: 2 → 1, col_name: '7 to 8%' → '0.06'ERROR 3:
+  KPI: {
+  "name": "Net cash flow",
+  "key": "Automotive Division",
+  "units": "\u20ac million",
+  "value": 8887,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "Operating return on sales ^1",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net cash flow in the Automotive Division', ⚠ col_name MISMATCH: KPI='Operating return on sales ^1', merged_headers[1]='0.06', Source null but extracted=8887 (cell: '€8,887 million')
+  Expected: row_idx=2, col_idx=1
+  stub_col[2] = 'Net cash flow in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: None (text: "€8,887 million")
+  Extracted: 8887
+
+  WARNING: col_idx=1 may point to wrong column
+    - Current: col_name='Operating return on sales ^1' but merged_headers[1]='0.06'
+  SOLUTION: Search merged_headers for correct col_idx where value matches 'Operating return on sales ^1':
+    → Found at col_idx=0, merged_headers[0]='Operating return on sales ^1'
+    → Consider updating: col_idx: 1 → 0, col_name: '0.06' → 'Operating return on sales ^1'ERROR 4:
+  KPI: {
+  "name": "Net cash flow target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 30,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "0.06",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net cash flow in the Automotive Division', ⚠ col_name MISMATCH: KPI='0.06', merged_headers[2]='7 to 8%', Source null but extracted=30 (cell: 'Positive, to allow a distribution ratio of 30%')
+  Expected: row_idx=2, col_idx=2
+  stub_col[2] = 'Net cash flow in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "Positive, to allow a distribution ratio of 30%")
+  Extracted: 30
+
+  WARNING: col_idx=2 may point to wrong column
+    - Current: col_name='0.06' but merged_headers[2]='7 to 8%'
+  SOLUTION: Search merged_headers for correct col_idx where value matches '0.06':
+    → Found at col_idx=1, merged_headers[1]='0.06'
+    → Consider updating: col_idx: 2 → 1, col_name: '7 to 8%' → '0.06'ERROR 5:
+  KPI: {
+  "name": "Net liquidity",
+  "key": "Automotive Division",
+  "units": "\u20ac million",
+  "value": 24522,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "Operating return on sales ^1",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net liquidity in the Automotive Division', ⚠ col_name MISMATCH: KPI='Operating return on sales ^1', merged_headers[1]='0.06', Source null but extracted=24522 (cell: '€24,522 million, 11.5%')
+  Expected: row_idx=3, col_idx=1
+  stub_col[3] = 'Net liquidity in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: None (text: "€24,522 million, 11.5%")
+  Extracted: 24522
+
+  WARNING: col_idx=1 may point to wrong column
+    - Current: col_name='Operating return on sales ^1' but merged_headers[1]='0.06'
+  SOLUTION: Search merged_headers for correct col_idx where value matches 'Operating return on sales ^1':
+    → Found at col_idx=0, merged_headers[0]='Operating return on sales ^1'
+    → Consider updating: col_idx: 1 → 0, col_name: '0.06' → 'Operating return on sales ^1'ERROR 6:
+  KPI: {
+  "name": "Net liquidity ratio",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 11.5,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "0.06",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net liquidity in the Automotive Division', ⚠ col_name MISMATCH: KPI='0.06', merged_headers[2]='7 to 8%', Source null but extracted=11.5 (cell: '~10% of consolidated sales revenue')
+  Expected: row_idx=3, col_idx=2
+  stub_col[3] = 'Net liquidity in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "~10% of consolidated sales revenue")
+  Extracted: 11.5
+
+  WARNING: col_idx=2 may point to wrong column
+    - Current: col_name='0.06' but merged_headers[2]='7 to 8%'
+  SOLUTION: Search merged_headers for correct col_idx where value matches '0.06':
+    → Found at col_idx=1, merged_headers[1]='0.06'
+    → Consider updating: col_idx: 2 → 1, col_name: '7 to 8%' → '0.06'ERROR 7:
+  KPI: {
+  "name": "Net liquidity target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 10,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "7 to 8%",
+  "col_idx": 3,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: col_idx 3 out of bounds (row has 3 cols)
+  Expected: row_idx=3, col_idx=3
+  stub_col[3] = 'None'
+  merged_headers[3] = 'None'
+  Source: None (text: "None")
+  Extracted: 10ERROR 8:
+  KPI: {
+  "name": "Return on investment (ROI) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 15,
+  "year": null,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 4,
+  "col_name": "0.06",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Return on investment (ROI) in the Automotive Division', ⚠ col_name MISMATCH: KPI='0.06', merged_headers[2]='7 to 8%', Source null but extracted=15 (cell: '>15%')
+  Expected: row_idx=4, col_idx=2
+  stub_col[4] = 'Return on investment (ROI) in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: ">15%")
+  Extracted: 15
+
+  WARNING: col_idx=2 may point to wrong column
+    - Current: col_name='0.06' but merged_headers[2]='7 to 8%'
+  SOLUTION: Search merged_headers for correct col_idx where value matches '0.06':
+    → Found at col_idx=1, merged_headers[1]='0.06'
+    → Consider updating: col_idx: 2 → 1, col_name: '7 to 8%' → '0.06'
+
+ALL EXTRACTED KPIs (for context):
+[
+  {
+    "name": "Research and development ratio (R&D ratio)",
+    "key": "Automotive Division",
+    "units": "ratio",
+    "value": 0.074,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "Operating return on sales ^1",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Research and development ratio (R&D ratio) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "0.06",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue",
+    "key": "Automotive Division",
+    "units": "ratio",
+    "value": 0.069,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "Operating return on sales ^1",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "0.06",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net cash flow",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 8887,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "Operating return on sales ^1",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net cash flow target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 30,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "0.06",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 24522,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "Operating return on sales ^1",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity ratio",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 11.5,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "0.06",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 10,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "7 to 8%",
+    "col_idx": 3,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI)",
+    "key": "Automotive Division",
+    "units": "ratio",
+    "value": -0.002,
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "Operating return on sales ^1",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 15,
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "0.06",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  }
+]
+
+ORIGINAL TABLE:
+{
+  "table_id": "VW2016_Tc7190f",
+  "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
+  "title": "Strategic KPIS – Competitive profitability",
+  "headers": [
+    [
+      "Operating return on sales ^1",
+      "0.06",
+      "7 to 8%"
+    ]
+  ],
+  "merged_headers": [
+    "Operating return on sales ^1",
+    "0.06",
+    "7 to 8%"
+  ],
+  "rows": [
+    [
+      "Research and development ratio (R&D ratio) in the Automotive Division",
+      "0.07400000000000001",
+      "~6%"
+    ],
+    [
+      "Capex/sales revenue in the Automotive Division",
+      "0.069",
+      "~6%"
+    ],
+    [
+      "Net cash flow in the Automotive Division",
+      "€8,887 million",
+      "Positive, to allow a distribution ratio of 30%"
+    ],
+    [
+      "Net liquidity in the Automotive Division",
+      "€24,522 million, 11.5%",
+      "~10% of consolidated sales revenue"
+    ],
+    [
+      "Return on investment (ROI) in the Automotive Division",
+      "-0.002",
+      ">15%"
+    ]
+  ],
+  "stub_col": [
+    "Research and development ratio (R&D ratio) in the Automotive Division",
+    "Capex/sales revenue in the Automotive Division",
+    "Net cash flow in the Automotive Division",
+    "Net liquidity in the Automotive Division",
+    "Return on investment (ROI) in the Automotive Division"
+  ]
+}
+
+HOW TO FIX ERRORS:
+
+1. KEY = NAME ERROR (IDENTICAL VALUES):
+   - This means "key" and "name" have the same value, which is not allowed
+   - SOLUTION: Search the table to understand what this KPI represents
+   - Look at the table's title, section_name, and context
+   - "name" = the KPI metric (what is being measured) - usually from row label (stub_col) or table title
+   - "key" = the entity/segment (what/who it applies to) - from context, section, or broader category
+   
+   EXAMPLES:
+   - Table: "Volkswagen Passenger Cars - Production" with row "Golf"
+     → name: "Production" (from title), key: "Golf" (from row)
+   - Table: "Key Figures" with rows "Sales revenue", "Operating profit"
+     → name: "Sales revenue"/"Operating profit" (from row), key: "Company"/"Volkswagen Group" (from context)
+   - Table: "Brand Production" with row "Audi" 
+     → name: "Production" (from title), key: "Audi" (from row)
+
+2. VALUE MISMATCH: Adjust row_idx or col_idx to point to the cell with the correct value
+   - Check if value appears in adjacent cells (row_idx±1 or col_idx±1)
+   - Update row_idx/col_idx to the correct position
+   - Then update row_name = stub_col[row_idx] and col_name = merged_headers[col_idx]
+
+3. ROW_NAME MISMATCH: The row_idx is pointing to wrong row
+   - Find the correct row_idx where stub_col[row_idx] matches the intended row
+   - Update row_idx to the correct value
+   - Keep row_name as stub_col[row_idx] (don't change the name to match wrong index!)
+
+4. COL_NAME MISMATCH: The col_idx is pointing to wrong column
+   - Find the correct col_idx where merged_headers[col_idx] matches the intended year/column
+   - Update col_idx to the correct value
+   - Keep col_name as merged_headers[col_idx] (don't change the name to match wrong index!)
+
+5. EUROPEAN DECIMALS: Handle comma as decimal separator
+   - "1,4864" → 1.4864
+   - "−2,5" → -2.5
+
+REMEMBER: 
+- Fix indices first, then names will automatically align with stub_col and merged_headers!
+- For key=name errors, determine the correct "name" (metric) and "key" (entity) from table context
+
+
+OUTPUT FORMAT (JSON only, output should be exactly 11 KPIs):
+{
+  "kpis": [
+    {
+      "name": "metric name from table",
+      "key": "entity or segment",
+      "units": "measurement units",
+      "value": 12345,
+      "year": 2024,
+      "row_name": "exact text from stub_col",
+      "row_idx": 0,
+      "col_name": "exact text from merged_headers",
+      "col_idx": 1
+    }
+  ]
+}
+
+==================================================
+GENERATED TEXT
+==================================================
+
+ Automotive Division",
+      "€24,522 million, 11.5%",
+      "~10% of consolidated sales revenue"
+    ],
+    [
+      "Return on investment (ROI) in the Automotive Division",
+      "-0.2%",
+      ">15%"
+    ]
+  ]
+}
+</think><think>
+Okay, so I'm trying to fix these KPIs that have validation errors. Let me go through each error one by one and see what needs to be done.
+
+Starting with ERROR 1. The KPI is "Research and development ratio (R&D ratio) target". The issue is that the col_name is '0.06', but merged_headers[2] is '7 to 8%'. The solution suggests that '0.06' is actually at col_idx=1. So I should update col_idx from 2 to 1 and change col_name to '0.06'.
+
+Moving on to ERROR 2, it's similar. The KPI is "Capex/sales revenue target" with the same col_idx and col_name mismatch. Again, the correct col_idx is 1, so I'll adjust that.
+
+ERROR 3 is about "Net cash flow target". The col_name is 'Operating return on sales ^1' but it's pointing to col_idx=1 where the header is '0.06'. The correct header is at col_idx=0, so I'll change col_idx to 0 and set col_name to 'Operating return on sales ^1'.
+
+ERROR 4 is "Net cash flow target" again, but this time the col_idx is 2. The correct col_idx for '0.06' is 1, so I'll update that.
+
+ERROR 5 is "Net liquidity" with col_idx=1 pointing to '0.06', but the correct header is at col_idx=0. So I'll adjust col_idx to 0.
+
+ERROR 6 is "Net liquidity ratio" with col_idx=2. The correct col_idx for '0.06' is 1, so I'll change it.
+
+ERROR 7 is "Net liquidity target" where col_idx=3 is out of bounds. Since the row only has 3 columns, the max col_idx is 2. The correct header for '7 to 8%' is col_idx=2, so I'll set col_idx to 2 and col_name to '7 to 8%'.
+
+Lastly, ERROR 8 is "Return on investment (ROI) target" with col_idx=2. The correct col_idx for '0.06' is 1, so I'll update that.
+
+I think that's all. I'll make sure each KPI's col_idx and col_name are correctly aligned with the merged_headers.
+</think>
+
+Here are the fixed KPIs based on the validation errors and solutions provided:
+
+---
+
+**FIXED KPI 1:**
+```json
+{
+  "name": "Research and development ratio (R&D ratio) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+  "row_idx": 0,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 2:**
+```json
+{
+  "name": "Capex/sales revenue target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 1,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 3:**
+```json
+{
+  "name": "Net cash flow target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 30,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "Operating return on sales ^1",
+  "col_idx": 0,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 4:**
+```json
+{
+  "name": "Net cash flow target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 30,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 5:**
+```json
+{
+  "name": "Net liquidity",
+  "key": "Automotive Division",
+  "units": "€ million",
+  "value": 24522,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "Operating return on sales ^1",
+  "col_idx": 0,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 6:**
+```json
+{
+  "name": "Net liquidity ratio",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 11.5,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 7:**
+```json
+{
+  "name": "Net liquidity target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 10,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "7 to 8%",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 8:**
+```json
+{
+  "name": "Return on investment (ROI) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 15,
+  "year": null,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 4,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+These KPIs have been updated to ensure that `col_idx` and `col_name` align correctly with the `merged_headers` array.
+
+==================================================
+CLEANED TEXT
+==================================================
+
+{
+  "name": "Research and development ratio (R&D ratio) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+  "row_idx": 0,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 2:**
+```json
+{
+  "name": "Capex/sales revenue target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 1,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 3:**
+```json
+{
+  "name": "Net cash flow target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 30,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "Operating return on sales ^1",
+  "col_idx": 0,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 4:**
+```json
+{
+  "name": "Net cash flow target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 30,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 5:**
+```json
+{
+  "name": "Net liquidity",
+  "key": "Automotive Division",
+  "units": "€ million",
+  "value": 24522,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "Operating return on sales ^1",
+  "col_idx": 0,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 6:**
+```json
+{
+  "name": "Net liquidity ratio",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 11.5,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 7:**
+```json
+{
+  "name": "Net liquidity target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 10,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "7 to 8%",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+---
+
+**FIXED KPI 8:**
+```json
+{
+  "name": "Return on investment (ROI) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 15,
+  "year": null,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 4,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+Model: deepseek-r1-distill-llama-70b
+Table: VW2016_Tc7190f
+
+==================================================
+CORRECTION PROMPT
+==================================================
+
+The following KPIs are INVALID. Fix them using validation errors.
+
+CRITICAL: The PRIMARY validation is based on row_idx and col_idx (the indices that access the cell).
+- row_name and col_name are SECONDARY validation only
+- If there's a mismatch, FIX THE INDICES (row_idx/col_idx), NOT the names
+- The correct cell is at: data[row_idx][col_idx] = rows[row_idx][col_idx]
+- After fixing indices, row_name MUST equal stub_col[row_idx]
+- After fixing indices, col_name MUST equal merged_headers[col_idx]
+
+VALIDATION ERRORS:
+ERROR 1:
+  KPI: {
+  "name": "Research and development ratio (R&D ratio)",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 7.4,
+  "year": null,
+  "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+  "row_idx": 0,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Research and development ratio (R&D ratio) in the Automotive Division', ✓ col_name verified: '0.06', Large diff: extracted=7.4, source=0.07400000000000001, diff=7.33
+  Expected: row_idx=0, col_idx=1
+  stub_col[0] = 'Research and development ratio (R&D ratio) in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: 0.07400000000000001 (text: "0.07400000000000001")
+  Extracted: 7.4
+
+  FIX: Large value mismatch (>5% error)
+    - Extracted: 7.4
+    - Source at [0][1]: 0.07400000000000001 (text: '0.07400000000000001')
+  SOLUTION: Search nearby cells for the extracted value 7.4:ERROR 2:
+  KPI: {
+  "name": "Research and development ratio (R&D ratio) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+  "row_idx": 0,
+  "col_name": "7 to 8%",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Research and development ratio (R&D ratio) in the Automotive Division', ✓ col_name verified: '7 to 8%', Source null but extracted=6 (cell: '~6%')
+  Expected: row_idx=0, col_idx=2
+  stub_col[0] = 'Research and development ratio (R&D ratio) in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "~6%")
+  Extracted: 6ERROR 3:
+  KPI: {
+  "name": "Capex/sales revenue",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6.9,
+  "year": null,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 1,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Capex/sales revenue in the Automotive Division', ✓ col_name verified: '0.06', Large diff: extracted=6.9, source=0.069, diff=6.83
+  Expected: row_idx=1, col_idx=1
+  stub_col[1] = 'Capex/sales revenue in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: 0.069 (text: "0.069")
+  Extracted: 6.9
+
+  FIX: Large value mismatch (>5% error)
+    - Extracted: 6.9
+    - Source at [1][1]: 0.069 (text: '0.069')
+  SOLUTION: Search nearby cells for the extracted value 6.9:ERROR 4:
+  KPI: {
+  "name": "Capex/sales revenue target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 6,
+  "year": null,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 1,
+  "col_name": "7 to 8%",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Capex/sales revenue in the Automotive Division', ✓ col_name verified: '7 to 8%', Source null but extracted=6 (cell: '~6%')
+  Expected: row_idx=1, col_idx=2
+  stub_col[1] = 'Capex/sales revenue in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "~6%")
+  Extracted: 6ERROR 5:
+  KPI: {
+  "name": "Net cash flow",
+  "key": "Automotive Division",
+  "units": "\u20ac million",
+  "value": 8887,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net cash flow in the Automotive Division', ✓ col_name verified: '0.06', Source null but extracted=8887 (cell: '€8,887 million')
+  Expected: row_idx=2, col_idx=1
+  stub_col[2] = 'Net cash flow in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: None (text: "€8,887 million")
+  Extracted: 8887ERROR 6:
+  KPI: {
+  "name": "Distribution ratio target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 30,
+  "year": null,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 2,
+  "col_name": "7 to 8%",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net cash flow in the Automotive Division', ✓ col_name verified: '7 to 8%', Source null but extracted=30 (cell: 'Positive, to allow a distribution ratio of 30%')
+  Expected: row_idx=2, col_idx=2
+  stub_col[2] = 'Net cash flow in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "Positive, to allow a distribution ratio of 30%")
+  Extracted: 30ERROR 7:
+  KPI: {
+  "name": "Net liquidity",
+  "key": "Automotive Division",
+  "units": "\u20ac million",
+  "value": 24522,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net liquidity in the Automotive Division', ✓ col_name verified: '0.06', Source null but extracted=24522 (cell: '€24,522 million, 11.5%')
+  Expected: row_idx=3, col_idx=1
+  stub_col[3] = 'Net liquidity in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: None (text: "€24,522 million, 11.5%")
+  Extracted: 24522ERROR 8:
+  KPI: {
+  "name": "Net liquidity ratio",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 11.5,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net liquidity in the Automotive Division', ✓ col_name verified: '0.06', Source null but extracted=11.5 (cell: '€24,522 million, 11.5%')
+  Expected: row_idx=3, col_idx=1
+  stub_col[3] = 'Net liquidity in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: None (text: "€24,522 million, 11.5%")
+  Extracted: 11.5ERROR 9:
+  KPI: {
+  "name": "Net liquidity target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 10,
+  "year": null,
+  "row_name": "Net liquidity in the Automotive Division",
+  "row_idx": 3,
+  "col_name": "7 to 8%",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Net liquidity in the Automotive Division', ✓ col_name verified: '7 to 8%', Source null but extracted=10 (cell: '~10% of consolidated sales revenue')
+  Expected: row_idx=3, col_idx=2
+  stub_col[3] = 'Net liquidity in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: "~10% of consolidated sales revenue")
+  Extracted: 10ERROR 10:
+  KPI: {
+  "name": "Return on investment (ROI)",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": -0.2,
+  "year": null,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 4,
+  "col_name": "0.06",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Return on investment (ROI) in the Automotive Division', ✓ col_name verified: '0.06', Large diff: extracted=-0.2, source=-0.002, diff=0.20
+  Expected: row_idx=4, col_idx=1
+  stub_col[4] = 'Return on investment (ROI) in the Automotive Division'
+  merged_headers[1] = '0.06'
+  Source: -0.002 (text: "-0.002")
+  Extracted: -0.2
+
+  FIX: Large value mismatch (>5% error)
+    - Extracted: -0.2
+    - Source at [4][1]: -0.002 (text: '-0.002')
+  SOLUTION: Search nearby cells for the extracted value -0.2:ERROR 11:
+  KPI: {
+  "name": "Return on investment (ROI) target",
+  "key": "Automotive Division",
+  "units": "%",
+  "value": 15,
+  "year": null,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 4,
+  "col_name": "7 to 8%",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Return on investment (ROI) in the Automotive Division', ✓ col_name verified: '7 to 8%', Source null but extracted=15 (cell: '>15%')
+  Expected: row_idx=4, col_idx=2
+  stub_col[4] = 'Return on investment (ROI) in the Automotive Division'
+  merged_headers[2] = '7 to 8%'
+  Source: None (text: ">15%")
+  Extracted: 15
+
+ALL EXTRACTED KPIs (for context):
+[
+  {
+    "name": "Research and development ratio (R&D ratio)",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 7.4,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Research and development ratio (R&D ratio) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6.9,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net cash flow",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 8887,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Distribution ratio target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 30,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 24522,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity ratio",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 11.5,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 10,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI)",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": -0.2,
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 15,
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  }
+]
+
+ORIGINAL TABLE:
+{
+  "table_id": "VW2016_Tc7190f",
+  "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
+  "title": "Strategic KPIS – Competitive profitability",
+  "headers": [
+    [
+      "Operating return on sales ^1",
+      "0.06",
+      "7 to 8%"
+    ]
+  ],
+  "merged_headers": [
+    "Operating return on sales ^1",
+    "0.06",
+    "7 to 8%"
+  ],
+  "rows": [
+    [
+      "Research and development ratio (R&D ratio) in the Automotive Division",
+      "0.07400000000000001",
+      "~6%"
+    ],
+    [
+      "Capex/sales revenue in the Automotive Division",
+      "0.069",
+      "~6%"
+    ],
+    [
+      "Net cash flow in the Automotive Division",
+      "€8,887 million",
+      "Positive, to allow a distribution ratio of 30%"
+    ],
+    [
+      "Net liquidity in the Automotive Division",
+      "€24,522 million, 11.5%",
+      "~10% of consolidated sales revenue"
+    ],
+    [
+      "Return on investment (ROI) in the Automotive Division",
+      "-0.002",
+      ">15%"
+    ]
+  ],
+  "stub_col": [
+    "Research and development ratio (R&D ratio) in the Automotive Division",
+    "Capex/sales revenue in the Automotive Division",
+    "Net cash flow in the Automotive Division",
+    "Net liquidity in the Automotive Division",
+    "Return on investment (ROI) in the Automotive Division"
+  ]
+}
+
+HOW TO FIX ERRORS:
+
+1. KEY = NAME ERROR (IDENTICAL VALUES):
+   - This means "key" and "name" have the same value, which is not allowed
+   - SOLUTION: Search the table to understand what this KPI represents
+   - Look at the table's title, section_name, and context
+   - "name" = the KPI metric (what is being measured) - usually from row label (stub_col) or table title
+   - "key" = the entity/segment (what/who it applies to) - from context, section, or broader category
+   
+   EXAMPLES:
+   - Table: "Volkswagen Passenger Cars - Production" with row "Golf"
+     → name: "Production" (from title), key: "Golf" (from row)
+   - Table: "Key Figures" with rows "Sales revenue", "Operating profit"
+     → name: "Sales revenue"/"Operating profit" (from row), key: "Company"/"Volkswagen Group" (from context)
+   - Table: "Brand Production" with row "Audi" 
+     → name: "Production" (from title), key: "Audi" (from row)
+
+2. VALUE MISMATCH: Adjust row_idx or col_idx to point to the cell with the correct value
+   - Check if value appears in adjacent cells (row_idx±1 or col_idx±1)
+   - Update row_idx/col_idx to the correct position
+   - Then update row_name = stub_col[row_idx] and col_name = merged_headers[col_idx]
+
+3. ROW_NAME MISMATCH: The row_idx is pointing to wrong row
+   - Find the correct row_idx where stub_col[row_idx] matches the intended row
+   - Update row_idx to the correct value
+   - Keep row_name as stub_col[row_idx] (don't change the name to match wrong index!)
+
+4. COL_NAME MISMATCH: The col_idx is pointing to wrong column
+   - Find the correct col_idx where merged_headers[col_idx] matches the intended year/column
+   - Update col_idx to the correct value
+   - Keep col_name as merged_headers[col_idx] (don't change the name to match wrong index!)
+
+5. EUROPEAN DECIMALS: Handle comma as decimal separator
+   - "1,4864" → 1.4864
+   - "−2,5" → -2.5
+
+REMEMBER: 
+- Fix indices first, then names will automatically align with stub_col and merged_headers!
+- For key=name errors, determine the correct "name" (metric) and "key" (entity) from table context
+
+
+OUTPUT FORMAT (JSON only, output should be exactly 11 KPIs):
+{
+  "kpis": [
+    {
+      "name": "metric name from table",
+      "key": "entity or segment",
+      "units": "measurement units",
+      "value": 12345,
+      "year": 2024,
+      "row_name": "exact text from stub_col",
+      "row_idx": 0,
+      "col_name": "exact text from merged_headers",
+      "col_idx": 1
+    }
+  ]
+}
+
+==================================================
+GENERATED TEXT
+==================================================
+
+ "Research and development ratio (R&D ratio) in the Automotive Division",
+      "0.074",
+      "~6%"
+    ],
+    [
+      "Capex/sales revenue in the Automotive Division",
+      "0.069",
+      "~6%"
+    ],
+    [
+      "Net cash flow in the Automotive Division",
+      "€8,887 million",
+      "Positive, to allow a distribution ratio of 30%"
+    ],
+    [
+      "Net liquidity in the Automotive Division",
+      "€24,522 million, 11.5%",
+      "~10% of consolidated sales revenue"
+    ],
+    [
+      "Return on investment (ROI) in the Automotive Division",
+      "-0.002",
+      ">15%"
+    ]
+  ],
+  "stub_col": [
+    "Research and development ratio (R&D ratio) in the Automotive Division",
+    "Capex/sales revenue in the Automotive Division",
+    "Net cash flow in the Automotive Division",
+    "Net liquidity in the Automotive Division",
+    "Return on investment (ROI) in the Automotive Division"
+  ],
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+</think><think>
+Okay, so I'm trying to fix these KPIs that have validation errors. Let me go through each error one by one and see what's wrong and how to correct it.
+
+Starting with ERROR 1: The extracted value is 7.4, but the source has 0.074. That's a big difference. The row and column indices are 0 and 1. Maybe the extracted value is in the wrong cell. I should look around cells near row 0 and column 1 to see if 7.4 is there. But looking at the table, row 0, column 1 is "0.074", so maybe the extracted value is correct but placed wrong. Wait, maybe the units are different? The source is a ratio, maybe 0.074 is 7.4%? So perhaps the extracted value is correct, but the source is in decimal form. So I should adjust the value to 7.4% instead of 0.074. So the KPI's value should stay 7.4, and the source might need to be interpreted as a percentage.
+
+Moving to ERROR 2: The extracted value is 6, but the source cell is "~6%". That seems consistent, but the source is null. Wait, the source cell has "~6%", so maybe the extracted value is correct. The issue is that the source is null, but the cell has text. So perhaps the source should be 6, and the extracted value is correct. So no change needed here.
+
+ERROR 3: Extracted value is 6.9, source is 0.069. Similar to ERROR 1, it's a decimal vs percentage issue. So the extracted value is correct as 6.9%, and the source is 0.069, which is 6.9%. So no change needed, just a formatting difference.
+
+ERROR 4: Extracted value is 6, source is "~6%". Again, consistent, so no change needed.
+
+ERROR 5: Extracted value is 8887, source is "€8,887 million". That's a direct match, so no issue. Wait, the source is null but the cell has text. So maybe the source should be set to 8887, and the extracted value is correct. So no change needed.
+
+ERROR 6: Extracted value is 30, source is "Positive, to allow a distribution ratio of 30%". That's a match, so no issue. The source is null, but the text matches, so the extracted value is correct.
+
+ERROR 7: Extracted value is 24522, source is "€24,522 million, 11.5%". That's a match, so no problem. The source is null, but the text is correct, so the extracted value is fine.
+
+ERROR 8: Extracted value is 11.5, source is the same text. So that's correct, no change needed.
+
+ERROR 9: Extracted value is 10, source is "~10% of consolidated sales revenue". That's consistent, so no issue.
+
+ERROR 10: Extracted value is -0.2, source is -0.002. That's a big difference. Maybe the extracted value is in the wrong cell. Looking at the table, row 4, column 1 is "-0.002", so the extracted value of -0.2 is incorrect. So I need to adjust the extracted value to -0.002.
+
+ERROR 11: Extracted value is 15, source is ">15%". That's consistent, so no change needed.
+
+So, to summarize, I need to fix the values where there's a large mismatch, especially where the extracted value is way off from the source. For the ROI, I need to correct the extracted value from -0.2 to -0.002. The others seem to be either correct or have minor formatting differences that don't affect the value.
+</think>
+
+Here is the step-by-step explanation and the corrected KPIs:
+
+**Step-by-Step Explanation:**
+
+1. **Identify Mismatches:**
+   - **ERROR 1 & 3 & 10:** These involve large value discrepancies between extracted and source data.
+   - **ERROR 2,4,5,6,7,8,9,11:** These either have consistent data or are correctly formatted.
+
+2. **Analyze Causes:**
+   - **ERROR 1 & 3:** The extracted values (7.4 and 6.9) are percentages, while the source values (0.074 and 0.069) are in decimal form. No correction needed as they represent the same value.
+   - **ERROR 10:** The extracted ROI value (-0.2) is incorrect; the source value is -0.002.
+
+3. **Correct the KPIs:**
+   - **ERROR 10:** Update the ROI value from -0.2 to -0.002.
+
+**Corrected KPIs:**
+
+```json
+[
+  {
+    "name": "Research and development ratio (R&D ratio)",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 7.4,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Research and development ratio (R&D ratio) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6.9,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net cash flow",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 8887,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Distribution ratio target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 30,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 24522,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity ratio",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 11.5,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 10,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI)",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": -0.002,  // Corrected from -0.2 to match source
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 15,
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  }
+]
+```
+
+**Changes Made:**
+- **Return on Investment (ROI):** Corrected the extracted value from `-0.2` to `-0.002` to match the source data.
+
+==================================================
+CLEANED TEXT
+==================================================
+
+{
+    "name": "Research and development ratio (R&D ratio)",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 7.4,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Research and development ratio (R&D ratio) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Research and development ratio (R&D ratio) in the Automotive Division",
+    "row_idx": 0,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6.9,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 6,
+    "year": null,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 1,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net cash flow",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 8887,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Distribution ratio target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 30,
+    "year": null,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 2,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity",
+    "key": "Automotive Division",
+    "units": "€ million",
+    "value": 24522,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity ratio",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 11.5,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net liquidity target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 10,
+    "year": null,
+    "row_name": "Net liquidity in the Automotive Division",
+    "row_idx": 3,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI)",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": -0.002,  // Corrected from -0.2 to match source
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "0.06",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (ROI) target",
+    "key": "Automotive Division",
+    "units": "%",
+    "value": 15,
+    "year": null,
+    "row_name": "Return on investment (ROI) in the Automotive Division",
+    "row_idx": 4,
+    "col_name": "7 to 8%",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  }

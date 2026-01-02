@@ -1,0 +1,714 @@
+{
+  "metadata": {
+    "model": "deepseek-r1-distill-llama-70b",
+    "year_filter": "2016",
+    "last_updated": "2026-01-01T21:05:45.726783",
+    "total_tables_processed": 3,
+    "checkpoint": true
+  },
+  "results": [
+    {
+      "kpis": [],
+      "model": "deepseek-r1-distill-llama-70b",
+      "num_kpis": 0,
+      "validation_stats": {
+        "iteration": 1,
+        "total_kpis": 0,
+        "valid_kpis": 0,
+        "invalid_kpis": 0,
+        "accuracy": 0
+      },
+      "table_id": "VW2016_T4e9153",
+      "table_data": {
+        "table_id": "VW2016_T4e9153",
+        "section_name": "VOLKSWAGEN GROUP",
+        "title": "Volkswagen Group",
+        "headers": [
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "merged_headers": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "Division",
+            "Automotive",
+            "",
+            "",
+            "",
+            "",
+            "Financial Services"
+          ],
+          [
+            "Brand/Business Field",
+            "Volkswagen Passenger Cars",
+            "Audi",
+            "ŠKODA",
+            "SEAT",
+            "Bentley",
+            "Dealer and customer financing Leasing Direct bank Insurance Fleet management Mobility offerings"
+          ],
+          [
+            "",
+            "Porsche",
+            "Volkswagen Commercial Vehicles",
+            "Scania",
+            "MAN",
+            "Others",
+            ""
+          ]
+        ],
+        "stub_col": [
+          "Division",
+          "Brand/Business Field",
+          ""
+        ]
+      },
+      "processing_timestamp": "2026-01-01T19:15:56.349821"
+    },
+    {
+      "kpis": [],
+      "model": "deepseek-r1-distill-llama-70b",
+      "error": "JSON parsing failed: Expecting ',' delimiter: line 1696 column 6 (char 41531). JSON recovery failed: Expecting ',' delimiter: line 310 column 6 (char 7087)",
+      "table_id": "VW2016_T19a389",
+      "table_data": {
+        "table_id": "VW2016_T19a389",
+        "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD1",
+        "title": "Key Figures by brand and business field1",
+        "headers": [
+          [
+            "",
+            "VEHICLE SALES",
+            "",
+            "SALES REVENUE",
+            "",
+            "SALES TO THIRD PARTIES",
+            "",
+            "OPERATING RESULT",
+            ""
+          ],
+          [
+            "Thousand vehicles/€ million",
+            "2016",
+            "2015",
+            "2016",
+            "2015",
+            "2016",
+            "2015",
+            "2016",
+            "2015"
+          ]
+        ],
+        "merged_headers": [
+          "Thousand vehicles/€ million",
+          "VEHICLE SALES 2016",
+          "2015",
+          "SALES REVENUE 2016",
+          "2015",
+          "SALES TO THIRD PARTIES 2016",
+          "2015",
+          "OPERATING RESULT 2016",
+          "2015"
+        ],
+        "rows": [
+          [
+            "Volkswagen Passenger Cars",
+            "4347",
+            "4424",
+            "105651",
+            "106240",
+            "69523",
+            "70939",
+            "1869",
+            "2102"
+          ],
+          [
+            "Audi",
+            "1534",
+            "1529",
+            "59317",
+            "58420",
+            "37460",
+            "37605",
+            "4846",
+            "5134"
+          ],
+          [
+            "ŠKODA",
+            "814",
+            "800",
+            "13705",
+            "12486",
+            "6606",
+            "6128",
+            "1197",
+            "915"
+          ],
+          [
+            "SEAT",
+            "548",
+            "544",
+            "8894",
+            "8572",
+            "3967",
+            "3570",
+            "153",
+            "-10"
+          ],
+          [
+            "Bentley",
+            "11",
+            "11",
+            "2031",
+            "1936",
+            "1590",
+            "1379",
+            "112",
+            "110"
+          ],
+          [
+            "Porsche2",
+            "239",
+            "219",
+            "22318",
+            "21533",
+            "20166",
+            "19663",
+            "3877",
+            "3404"
+          ],
+          [
+            "Volkswagen Commercial Vehicles",
+            "478",
+            "456",
+            "11120",
+            "10341",
+            "5527",
+            "4813",
+            "455",
+            "382"
+          ],
+          [
+            "Scania2",
+            "83",
+            "78",
+            "11303",
+            "10479",
+            "11291",
+            "10479",
+            "1072",
+            "1027"
+          ],
+          [
+            "MAN Commercial Vehicles",
+            "102",
+            "102",
+            "10005",
+            "9958",
+            "9275",
+            "9700",
+            "230",
+            "-4"
+          ],
+          [
+            "MAN Power Engineering",
+            "–",
+            "–",
+            "3593",
+            "3775",
+            "3590",
+            "3769",
+            "194",
+            "283"
+          ],
+          [
+            "VW China3",
+            "3873",
+            "3456",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Other",
+            "-1638",
+            "-1608",
+            "-58225",
+            "-56349",
+            "23646",
+            "21922",
+            "−1,4864",
+            "−2,4404"
+          ],
+          [
+            "Volkswagen Financial Services",
+            "–",
+            "–",
+            "27554",
+            "25901",
+            "24625",
+            "23326",
+            "2105",
+            "1921"
+          ],
+          [
+            "Volkswagen Group before special items",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–",
+            "14623",
+            "12824"
+          ],
+          [
+            "Special items",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–",
+            "-7520",
+            "-16893"
+          ],
+          [
+            "Volkswagen Group",
+            "10391",
+            "10010",
+            "217267",
+            "213292",
+            "217267",
+            "213292",
+            "7103",
+            "-4069"
+          ],
+          [
+            "Automotive Division5",
+            "10391",
+            "10010",
+            "186016",
+            "183936",
+            "189384",
+            "186869",
+            "4668",
+            "-6305"
+          ],
+          [
+            "of which: Passenger Cars Business Area",
+            "9729",
+            "9374",
+            "150343",
+            "149716",
+            "160409",
+            "158716",
+            "4167",
+            "-7013"
+          ],
+          [
+            "Commercial Vehicles Business Area",
+            "662",
+            "636",
+            "32080",
+            "30445",
+            "25385",
+            "24383",
+            "718",
+            "586"
+          ],
+          [
+            "Power Engineering Business Area",
+            "–",
+            "–",
+            "3593",
+            "3775",
+            "3590",
+            "3769",
+            "-217",
+            "123"
+          ],
+          [
+            "Financial Services Division",
+            "–",
+            "–",
+            "31251",
+            "29357",
+            "27883",
+            "26424",
+            "2435",
+            "2236"
+          ]
+        ],
+        "stub_col": [
+          "Volkswagen Passenger Cars",
+          "Audi",
+          "ŠKODA",
+          "SEAT",
+          "Bentley",
+          "Porsche ^2",
+          "Volkswagen Commercial Vehicles",
+          "Scania ^2",
+          "MAN Commercial Vehicles",
+          "MAN Power Engineering",
+          "VW China ^3",
+          "Other",
+          "Volkswagen Financial Services",
+          "Volkswagen Group before special items",
+          "Special items",
+          "Volkswagen Group",
+          "Automotive Division ^5",
+          "of which: Passenger Cars Business Area",
+          "Commercial Vehicles Business Area",
+          "Power Engineering Business Area",
+          "Financial Services Division"
+        ]
+      },
+      "processing_timestamp": "2026-01-01T20:53:16.872403"
+    },
+    {
+      "kpis": [
+        {
+          "name": "Vehicle Sales",
+          "key": "Europe/Other markets",
+          "units": "Thousand vehicles",
+          "value": 4635,
+          "year": 2016,
+          "row_name": "Europe/Other markets",
+          "row_idx": 0,
+          "col_name": "VEHICLE SALES 2016",
+          "col_idx": 1,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "Europe/Other markets",
+          "units": "Thousand vehicles",
+          "value": 4524.0,
+          "year": 2015,
+          "row_name": "Europe/Other markets",
+          "row_idx": 0,
+          "col_name": "2015",
+          "col_idx": 2,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "Europe/Other markets",
+          "units": "€ million",
+          "value": 138079,
+          "year": 2016,
+          "row_name": "Europe/Other markets",
+          "row_idx": 0,
+          "col_name": "SALES REVENUE 2016",
+          "col_idx": 3,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "Europe/Other markets",
+          "units": "€ million",
+          "value": 132535.0,
+          "year": 2015,
+          "row_name": "Europe/Other markets",
+          "row_idx": 0,
+          "col_name": "2015",
+          "col_idx": 4,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "North America",
+          "units": "Thousand vehicles",
+          "value": 968,
+          "year": 2016,
+          "row_name": "North America",
+          "row_idx": 1,
+          "col_name": "VEHICLE SALES 2016",
+          "col_idx": 1,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "North America",
+          "units": "Thousand vehicles",
+          "value": 941.0,
+          "year": 2015,
+          "row_name": "North America",
+          "row_idx": 1,
+          "col_name": "2015",
+          "col_idx": 2,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "North America",
+          "units": "€ million",
+          "value": 35454,
+          "year": 2016,
+          "row_name": "North America",
+          "row_idx": 1,
+          "col_name": "SALES REVENUE 2016",
+          "col_idx": 3,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "North America",
+          "units": "€ million",
+          "value": 35384.0,
+          "year": 2015,
+          "row_name": "North America",
+          "row_idx": 1,
+          "col_name": "2015",
+          "col_idx": 4,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "South America",
+          "units": "Thousand vehicles",
+          "value": 421,
+          "year": 2016,
+          "row_name": "South America",
+          "row_idx": 2,
+          "col_name": "VEHICLE SALES 2016",
+          "col_idx": 1,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "South America",
+          "units": "Thousand vehicles",
+          "value": 540.0,
+          "year": 2015,
+          "row_name": "South America",
+          "row_idx": 2,
+          "col_name": "2015",
+          "col_idx": 2,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "South America",
+          "units": "€ million",
+          "value": 7973,
+          "year": 2016,
+          "row_name": "South America",
+          "row_idx": 2,
+          "col_name": "SALES REVENUE 2016",
+          "col_idx": 3,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "South America",
+          "units": "€ million",
+          "value": 10148.0,
+          "year": 2015,
+          "row_name": "South America",
+          "row_idx": 2,
+          "col_name": "2015",
+          "col_idx": 4,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "Asia-Pacific ^2",
+          "units": "Thousand vehicles",
+          "value": 4367,
+          "year": 2016,
+          "row_name": "Asia-Pacific ^2",
+          "row_idx": 3,
+          "col_name": "VEHICLE SALES 2016",
+          "col_idx": 1,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "Asia-Pacific ^2",
+          "units": "Thousand vehicles",
+          "value": 4005.0,
+          "year": 2015,
+          "row_name": "Asia-Pacific ^2",
+          "row_idx": 3,
+          "col_name": "2015",
+          "col_idx": 2,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "Asia-Pacific ^2",
+          "units": "€ million",
+          "value": 35761,
+          "year": 2016,
+          "row_name": "Asia-Pacific ^2",
+          "row_idx": 3,
+          "col_name": "SALES REVENUE 2016",
+          "col_idx": 3,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "Asia-Pacific ^2",
+          "units": "€ million",
+          "value": 35225.0,
+          "year": 2015,
+          "row_name": "Asia-Pacific ^2",
+          "row_idx": 3,
+          "col_name": "2015",
+          "col_idx": 4,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "Volkswagen Group ^2",
+          "units": "Thousand vehicles",
+          "value": 10391,
+          "year": 2016,
+          "row_name": "Volkswagen Group ^2",
+          "row_idx": 4,
+          "col_name": "VEHICLE SALES 2016",
+          "col_idx": 1,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Vehicle Sales",
+          "key": "Volkswagen Group ^2",
+          "units": "Thousand vehicles",
+          "value": 10010.0,
+          "year": 2015,
+          "row_name": "Volkswagen Group ^2",
+          "row_idx": 4,
+          "col_name": "2015",
+          "col_idx": 2,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "Volkswagen Group ^2",
+          "units": "€ million",
+          "value": 217267,
+          "year": 2016,
+          "row_name": "Volkswagen Group ^2",
+          "row_idx": 4,
+          "col_name": "SALES REVENUE 2016",
+          "col_idx": 3,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        },
+        {
+          "name": "Sales Revenue",
+          "key": "Volkswagen Group ^2",
+          "units": "€ million",
+          "value": 213292.0,
+          "year": 2015,
+          "row_name": "Volkswagen Group ^2",
+          "row_idx": 4,
+          "col_name": "2015",
+          "col_idx": 4,
+          "source_model": "deepseek-r1-distill-llama-70b"
+        }
+      ],
+      "model": "deepseek-r1-distill-llama-70b",
+      "num_kpis": 20,
+      "validation_stats": {
+        "iteration": 1,
+        "total_kpis": 20,
+        "valid_kpis": 20,
+        "invalid_kpis": 0,
+        "accuracy": 100.0
+      },
+      "table_id": "VW2016_Taf759f",
+      "table_data": {
+        "table_id": "VW2016_Taf759f",
+        "section_name": "KEY FIGURES BY MARKET",
+        "title": "Key Figures by market1",
+        "headers": [
+          [
+            "",
+            "VEHICLE SALES",
+            "",
+            "SALES REVENUE",
+            ""
+          ],
+          [
+            "Thousand vehicles/€ million",
+            "2016",
+            "2015",
+            "2016",
+            "2015"
+          ]
+        ],
+        "merged_headers": [
+          "Thousand vehicles/€ million",
+          "VEHICLE SALES 2016",
+          "2015",
+          "SALES REVENUE 2016",
+          "2015"
+        ],
+        "rows": [
+          [
+            "Europe/Other markets",
+            "4635",
+            "4524.0",
+            "138079",
+            "132535.0"
+          ],
+          [
+            "North America",
+            "968",
+            "941.0",
+            "35454",
+            "35384.0"
+          ],
+          [
+            "South America",
+            "421",
+            "540.0",
+            "7973",
+            "10148.0"
+          ],
+          [
+            "Asia-Pacific2",
+            "4367",
+            "4005.0",
+            "35761",
+            "35225.0"
+          ],
+          [
+            "Volkswagen Group2",
+            "10391",
+            "10010.0",
+            "217267",
+            "213292.0"
+          ]
+        ],
+        "stub_col": [
+          "Europe/Other markets",
+          "North America",
+          "South America",
+          "Asia-Pacific ^2",
+          "Volkswagen Group ^2"
+        ]
+      },
+      "processing_timestamp": "2026-01-01T21:05:45.725058"
+    }
+  ]
+}

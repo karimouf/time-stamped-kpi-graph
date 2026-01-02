@@ -1,0 +1,1747 @@
+Model: deepseek-r1-distill-llama-70b
+Table: VW2016_Ta10817
+
+==================================================
+CORRECTION PROMPT
+==================================================
+
+The following KPIs are INVALID. Fix them using validation errors.
+
+CRITICAL: The PRIMARY validation is based on row_idx and col_idx (the indices that access the cell).
+- row_name and col_name are SECONDARY validation only
+- If there's a mismatch, FIX THE INDICES (row_idx/col_idx), NOT the names
+- The correct cell is at: data[row_idx][col_idx] = rows[row_idx][col_idx]
+- After fixing indices, row_name MUST equal stub_col[row_idx]
+- After fixing indices, col_name MUST equal merged_headers[col_idx]
+
+VALIDATION ERRORS:
+ERROR 1:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "\u20ac billion",
+  "value": 213.3,
+  "year": 2016,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Sales revenue', ✓ col_name verified: '9.9 million', Source null but extracted=213.3 (cell: '€213.3 billion')
+  Expected: row_idx=1, col_idx=1
+  stub_col[1] = 'Sales revenue'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€213.3 billion")
+  Extracted: 213.3ERROR 2:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "\u20ac billion",
+  "value": 217.3,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Sales revenue', ✓ col_name verified: '10.3 million', Source null but extracted=217.3 (cell: '€217.3 billion')
+  Expected: row_idx=1, col_idx=4
+  stub_col[1] = 'Sales revenue'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€217.3 billion")
+  Extracted: 217.3ERROR 3:
+  KPI: {
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "\u20ac billion",
+  "value": 12.8,
+  "year": 2016,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Operating result before special items', ✓ col_name verified: '9.9 million', Source null but extracted=12.8 (cell: '€12.8 billion')
+  Expected: row_idx=4, col_idx=1
+  stub_col[4] = 'Operating result before special items'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€12.8 billion")
+  Extracted: 12.8ERROR 4:
+  KPI: {
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "\u20ac billion",
+  "value": 14.6,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Operating result before special items', ✓ col_name verified: '10.3 million', Source null but extracted=14.6 (cell: '€14.6 billion')
+  Expected: row_idx=4, col_idx=4
+  stub_col[4] = 'Operating result before special items'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€14.6 billion")
+  Extracted: 14.6ERROR 5:
+  KPI: {
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "\u20ac billion",
+  "value": -4.1,
+  "year": 2016,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Operating result', ✓ col_name verified: '9.9 million', Source null but extracted=-4.1 (cell: '€−4.1 billion')
+  Expected: row_idx=5, col_idx=1
+  stub_col[5] = 'Operating result'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€−4.1 billion")
+  Extracted: -4.1ERROR 6:
+  KPI: {
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "\u20ac billion",
+  "value": 7.1,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Operating result', ✓ col_name verified: '10.3 million', Source null but extracted=7.1 (cell: '€7.1 billion')
+  Expected: row_idx=5, col_idx=4
+  stub_col[5] = 'Operating result'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€7.1 billion")
+  Extracted: 7.1ERROR 7:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "\u20ac billion",
+  "value": 149.7,
+  "year": 2016,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Sales revenue', ✓ col_name verified: '9.9 million', Source null but extracted=149.7 (cell: '€149.7 billion')
+  Expected: row_idx=7, col_idx=1
+  stub_col[7] = 'Sales revenue'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€149.7 billion")
+  Extracted: 149.7ERROR 8:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "\u20ac billion",
+  "value": 150.3,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Sales revenue', ✓ col_name verified: '10.3 million', Source null but extracted=150.3 (cell: '€150.3 billion')
+  Expected: row_idx=7, col_idx=4
+  stub_col[7] = 'Sales revenue'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€150.3 billion")
+  Extracted: 150.3ERROR 9:
+  KPI: {
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "\u20ac billion",
+  "value": -7.0,
+  "year": 2016,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Operating result', ✓ col_name verified: '9.9 million', Source null but extracted=-7.0 (cell: '€−7.0 billion')
+  Expected: row_idx=9, col_idx=1
+  stub_col[9] = 'Operating result'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€−7.0 billion")
+  Extracted: -7.0ERROR 10:
+  KPI: {
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "\u20ac billion",
+  "value": 4.2,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Operating result', ✓ col_name verified: '10.3 million', Source null but extracted=4.2 (cell: '€4.2 billion')
+  Expected: row_idx=9, col_idx=4
+  stub_col[9] = 'Operating result'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€4.2 billion")
+  Extracted: 4.2ERROR 11:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles Business Area",
+  "units": "\u20ac billion",
+  "value": 30.4,
+  "year": 2016,
+  "row_name": "Sales revenue",
+  "row_idx": 10,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[10]='Commercial Vehicles Business Area', ✓ col_name verified: '9.9 million', Source null but extracted=30.4 (cell: '')
+  Expected: row_idx=10, col_idx=1
+  stub_col[10] = 'Commercial Vehicles Business Area'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "")
+  Extracted: 30.4
+
+  FIX: row_idx=10 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[10]='Commercial Vehicles Business Area'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 10 → 1, row_name: 'Commercial Vehicles Business Area' → 'Sales revenue'ERROR 12:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles Business Area",
+  "units": "\u20ac billion",
+  "value": 32.1,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 10,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[10]='Commercial Vehicles Business Area', ✓ col_name verified: '10.3 million', Source null but extracted=32.1 (cell: '')
+  Expected: row_idx=10, col_idx=4
+  stub_col[10] = 'Commercial Vehicles Business Area'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "")
+  Extracted: 32.1
+
+  FIX: row_idx=10 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[10]='Commercial Vehicles Business Area'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 10 → 1, row_name: 'Commercial Vehicles Business Area' → 'Sales revenue'ERROR 13:
+  KPI: {
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles Business Area",
+  "units": "",
+  "value": 0.019,
+  "year": 2016,
+  "row_name": "Operating return on sales",
+  "row_idx": 11,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating return on sales', stub_col[11]='Sales revenue', ✓ col_name verified: '9.9 million', Source null but extracted=0.019 (cell: '€30.4 billion')
+  Expected: row_idx=11, col_idx=1
+  stub_col[11] = 'Sales revenue'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€30.4 billion")
+  Extracted: 0.019
+
+  FIX: row_idx=11 points to wrong row
+    - Current: row_name='Operating return on sales' but stub_col[11]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating return on sales':
+    → Found at row_idx=3, stub_col[3]='Operating return on sales'
+    → Update: row_idx: 11 → 3, row_name: 'Sales revenue' → 'Operating return on sales'ERROR 14:
+  KPI: {
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles Business Area",
+  "units": "",
+  "value": 0.022,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 11,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating return on sales', stub_col[11]='Sales revenue', ✓ col_name verified: '10.3 million', Source null but extracted=0.022 (cell: '€32.1 billion')
+  Expected: row_idx=11, col_idx=4
+  stub_col[11] = 'Sales revenue'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€32.1 billion")
+  Extracted: 0.022
+
+  FIX: row_idx=11 points to wrong row
+    - Current: row_name='Operating return on sales' but stub_col[11]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating return on sales':
+    → Found at row_idx=3, stub_col[3]='Operating return on sales'
+    → Update: row_idx: 11 → 3, row_name: 'Sales revenue' → 'Operating return on sales'ERROR 15:
+  KPI: {
+  "name": "Operating result",
+  "key": "Commercial Vehicles Business Area",
+  "units": "\u20ac billion",
+  "value": 0.6,
+  "year": 2016,
+  "row_name": "Operating result",
+  "row_idx": 12,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating result', stub_col[12]='Operating return on sales', ✓ col_name verified: '9.9 million', Large diff: extracted=0.6, source=0.019, diff=0.58
+  Expected: row_idx=12, col_idx=1
+  stub_col[12] = 'Operating return on sales'
+  merged_headers[1] = '9.9 million'
+  Source: 0.019 (text: "0.019")
+  Extracted: 0.6
+
+  FIX: row_idx=12 points to wrong row
+    - Current: row_name='Operating result' but stub_col[12]='Operating return on sales'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 12 → 5, row_name: 'Operating return on sales' → 'Operating result'
+  FIX: Large value mismatch (>5% error)
+    - Extracted: 0.6
+    - Source at [12][1]: 0.019 (text: '0.019')
+  SOLUTION: Search nearby cells for the extracted value 0.6:ERROR 16:
+  KPI: {
+  "name": "Operating result",
+  "key": "Commercial Vehicles Business Area",
+  "units": "\u20ac billion",
+  "value": 0.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 12,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating result', stub_col[12]='Operating return on sales', ✓ col_name verified: '10.3 million', Large diff: extracted=0.7, source=0.022000000000000002, diff=0.68
+  Expected: row_idx=12, col_idx=4
+  stub_col[12] = 'Operating return on sales'
+  merged_headers[4] = '10.3 million'
+  Source: 0.022000000000000002 (text: "0.022000000000000002")
+  Extracted: 0.7
+
+  FIX: row_idx=12 points to wrong row
+    - Current: row_name='Operating result' but stub_col[12]='Operating return on sales'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 12 → 5, row_name: 'Operating return on sales' → 'Operating result'
+  FIX: Large value mismatch (>5% error)
+    - Extracted: 0.7
+    - Source at [12][4]: 0.022000000000000002 (text: '0.022000000000000002')
+  SOLUTION: Search nearby cells for the extracted value 0.7:ERROR 17:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 3.8,
+  "year": 2016,
+  "row_name": "Sales revenue",
+  "row_idx": 13,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[13]='Operating result', ✓ col_name verified: '9.9 million', Source null but extracted=3.8 (cell: '€0.6 billion')
+  Expected: row_idx=13, col_idx=1
+  stub_col[13] = 'Operating result'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€0.6 billion")
+  Extracted: 3.8
+
+  FIX: row_idx=13 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[13]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 13 → 1, row_name: 'Operating result' → 'Sales revenue'ERROR 18:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 3.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 13,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[13]='Operating result', ✓ col_name verified: '10.3 million', Source null but extracted=3.6 (cell: '€0.7 billion')
+  Expected: row_idx=13, col_idx=4
+  stub_col[13] = 'Operating result'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€0.7 billion")
+  Extracted: 3.6
+
+  FIX: row_idx=13 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[13]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 13 → 1, row_name: 'Operating result' → 'Sales revenue'ERROR 19:
+  KPI: {
+  "name": "Operating Result",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 0.1,
+  "year": 2016,
+  "row_name": "Operating Result",
+  "row_idx": 14,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating Result', stub_col[14]='Power Engineering Business Area', ✓ col_name verified: '9.9 million', Source null but extracted=0.1 (cell: '')
+  Expected: row_idx=14, col_idx=1
+  stub_col[14] = 'Power Engineering Business Area'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "")
+  Extracted: 0.1
+
+  FIX: row_idx=14 points to wrong row
+    - Current: row_name='Operating Result' but stub_col[14]='Power Engineering Business Area'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating Result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 14 → 5, row_name: 'Power Engineering Business Area' → 'Operating result'ERROR 20:
+  KPI: {
+  "name": "Operating Result",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": -0.2,
+  "year": 2015,
+  "row_name": "Operating Result",
+  "row_idx": 14,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating Result', stub_col[14]='Power Engineering Business Area', ✓ col_name verified: '10.3 million', Source null but extracted=-0.2 (cell: '')
+  Expected: row_idx=14, col_idx=4
+  stub_col[14] = 'Power Engineering Business Area'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "")
+  Extracted: -0.2
+
+  FIX: row_idx=14 points to wrong row
+    - Current: row_name='Operating Result' but stub_col[14]='Power Engineering Business Area'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating Result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 14 → 5, row_name: 'Power Engineering Business Area' → 'Operating result'ERROR 21:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "\u20ac billion",
+  "value": 29.4,
+  "year": 2016,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Sales revenue', ✓ col_name verified: '9.9 million', Source null but extracted=29.4 (cell: '€3.8 billion')
+  Expected: row_idx=15, col_idx=1
+  stub_col[15] = 'Sales revenue'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€3.8 billion")
+  Extracted: 29.4ERROR 22:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "\u20ac billion",
+  "value": 31.3,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ✓ row_name verified: 'Sales revenue', ✓ col_name verified: '10.3 million', Source null but extracted=31.3 (cell: '€3.6 billion')
+  Expected: row_idx=15, col_idx=4
+  stub_col[15] = 'Sales revenue'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€3.6 billion")
+  Extracted: 31.3ERROR 23:
+  KPI: {
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "\u20ac billion",
+  "value": 2.2,
+  "year": 2016,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ⚠ row_name case mismatch: KPI='Operating result', expected='Operating Result', ✓ col_name verified: '9.9 million', Source null but extracted=2.2 (cell: '€0.1 billion')
+  Expected: row_idx=16, col_idx=1
+  stub_col[16] = 'Operating Result'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€0.1 billion")
+  Extracted: 2.2ERROR 24:
+  KPI: {
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "\u20ac billion",
+  "value": 2.4,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ⚠ row_name case mismatch: KPI='Operating result', expected='Operating Result', ✓ col_name verified: '10.3 million', Source null but extracted=2.4 (cell: '€−0.2 billion')
+  Expected: row_idx=16, col_idx=4
+  stub_col[16] = 'Operating Result'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€−0.2 billion")
+  Extracted: 2.4ERROR 25:
+  KPI: {
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "",
+  "value": 0.069,
+  "year": 2016,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Capex/sales revenue in the Automotive Division', stub_col[17]='Financial Services Division', ✓ col_name verified: '9.9 million', Source null but extracted=0.069 (cell: '')
+  Expected: row_idx=17, col_idx=1
+  stub_col[17] = 'Financial Services Division'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "")
+  Extracted: 0.069
+
+  FIX: row_idx=17 points to wrong row
+    - Current: row_name='Capex/sales revenue in the Automotive Division' but stub_col[17]='Financial Services Division'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Capex/sales revenue in the Automotive Division':
+    → Found at row_idx=20, stub_col[20]='Capex/sales revenue in the Automotive Division'
+    → Update: row_idx: 17 → 20, row_name: 'Financial Services Division' → 'Capex/sales revenue in the Automotive Division'ERROR 26:
+  KPI: {
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "",
+  "value": 0.069,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Capex/sales revenue in the Automotive Division', stub_col[17]='Financial Services Division', ✓ col_name verified: '10.3 million', Source null but extracted=0.069 (cell: '')
+  Expected: row_idx=17, col_idx=4
+  stub_col[17] = 'Financial Services Division'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "")
+  Extracted: 0.069
+
+  FIX: row_idx=17 points to wrong row
+    - Current: row_name='Capex/sales revenue in the Automotive Division' but stub_col[17]='Financial Services Division'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Capex/sales revenue in the Automotive Division':
+    → Found at row_idx=20, stub_col[20]='Capex/sales revenue in the Automotive Division'
+    → Update: row_idx: 17 → 20, row_name: 'Financial Services Division' → 'Capex/sales revenue in the Automotive Division'ERROR 27:
+  KPI: {
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "\u20ac billion",
+  "value": 8.9,
+  "year": 2016,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Net cash flow in the Automotive Division', stub_col[18]='Sales revenue', ✓ col_name verified: '9.9 million', Source null but extracted=8.9 (cell: '€29.4 billion')
+  Expected: row_idx=18, col_idx=1
+  stub_col[18] = 'Sales revenue'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€29.4 billion")
+  Extracted: 8.9
+
+  FIX: row_idx=18 points to wrong row
+    - Current: row_name='Net cash flow in the Automotive Division' but stub_col[18]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Net cash flow in the Automotive Division':
+    → Found at row_idx=21, stub_col[21]='Net cash flow in the Automotive Division'
+    → Update: row_idx: 18 → 21, row_name: 'Sales revenue' → 'Net cash flow in the Automotive Division'ERROR 28:
+  KPI: {
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "\u20ac billion",
+  "value": 4.3,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Net cash flow in the Automotive Division', stub_col[18]='Sales revenue', ✓ col_name verified: '10.3 million', Source null but extracted=4.3 (cell: '€31.3 billion')
+  Expected: row_idx=18, col_idx=4
+  stub_col[18] = 'Sales revenue'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€31.3 billion")
+  Extracted: 4.3
+
+  FIX: row_idx=18 points to wrong row
+    - Current: row_name='Net cash flow in the Automotive Division' but stub_col[18]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Net cash flow in the Automotive Division':
+    → Found at row_idx=21, stub_col[21]='Net cash flow in the Automotive Division'
+    → Update: row_idx: 18 → 21, row_name: 'Sales revenue' → 'Net cash flow in the Automotive Division'ERROR 29:
+  KPI: {
+  "name": "Return on investment (RoI) in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "",
+  "value": -0.002,
+  "year": 2016,
+  "row_name": "Return on investment (RoI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Return on investment (RoI) in the Automotive Division', stub_col[19]='Operating result', ✓ col_name verified: '9.9 million', Source null but extracted=-0.002 (cell: '€2.2 billion')
+  Expected: row_idx=19, col_idx=1
+  stub_col[19] = 'Operating result'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€2.2 billion")
+  Extracted: -0.002
+
+  FIX: row_idx=19 points to wrong row
+    - Current: row_name='Return on investment (RoI) in the Automotive Division' but stub_col[19]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Return on investment (RoI) in the Automotive Division':
+    → Found at row_idx=22, stub_col[22]='Return on investment (RoI) in the Automotive Division'
+    → Update: row_idx: 19 → 22, row_name: 'Operating result' → 'Return on investment (RoI) in the Automotive Division'ERROR 30:
+  KPI: {
+  "name": "Return on investment (RoI) in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "",
+  "value": 0.082,
+  "year": 2015,
+  "row_name": "Return on investment (RoI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Return on investment (RoI) in the Automotive Division', stub_col[19]='Operating result', ✓ col_name verified: '10.3 million', Source null but extracted=0.082 (cell: '€2.4 billion')
+  Expected: row_idx=19, col_idx=4
+  stub_col[19] = 'Operating result'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€2.4 billion")
+  Extracted: 0.082
+
+  FIX: row_idx=19 points to wrong row
+    - Current: row_name='Return on investment (RoI) in the Automotive Division' but stub_col[19]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Return on investment (RoI) in the Automotive Division':
+    → Found at row_idx=22, stub_col[22]='Return on investment (RoI) in the Automotive Division'
+    → Update: row_idx: 19 → 22, row_name: 'Operating result' → 'Return on investment (RoI) in the Automotive Division'
+
+ALL EXTRACTED KPIs (for context):
+[
+  {
+    "name": "Sales revenue",
+    "key": "Volkswagen Group",
+    "units": "€ billion",
+    "value": 213.3,
+    "year": 2016,
+    "row_name": "Sales revenue",
+    "row_idx": 1,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Volkswagen Group",
+    "units": "€ billion",
+    "value": 217.3,
+    "year": 2015,
+    "row_name": "Sales revenue",
+    "row_idx": 1,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales before special items",
+    "key": "Volkswagen Group",
+    "units": "",
+    "value": 0.06,
+    "year": 2016,
+    "row_name": "Operating return on sales before special items",
+    "row_idx": 2,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales before special items",
+    "key": "Volkswagen Group",
+    "units": "",
+    "value": 0.067,
+    "year": 2015,
+    "row_name": "Operating return on sales before special items",
+    "row_idx": 2,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales",
+    "key": "Volkswagen Group",
+    "units": "",
+    "value": -0.019,
+    "year": 2016,
+    "row_name": "Operating return on sales",
+    "row_idx": 3,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales",
+    "key": "Volkswagen Group",
+    "units": "",
+    "value": 0.033,
+    "year": 2015,
+    "row_name": "Operating return on sales",
+    "row_idx": 3,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result before special items",
+    "key": "Volkswagen Group",
+    "units": "€ billion",
+    "value": 12.8,
+    "year": 2016,
+    "row_name": "Operating result before special items",
+    "row_idx": 4,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result before special items",
+    "key": "Volkswagen Group",
+    "units": "€ billion",
+    "value": 14.6,
+    "year": 2015,
+    "row_name": "Operating result before special items",
+    "row_idx": 4,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Volkswagen Group",
+    "units": "€ billion",
+    "value": -4.1,
+    "year": 2016,
+    "row_name": "Operating result",
+    "row_idx": 5,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Volkswagen Group",
+    "units": "€ billion",
+    "value": 7.1,
+    "year": 2015,
+    "row_name": "Operating result",
+    "row_idx": 5,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Passenger Cars Business Area",
+    "units": "€ billion",
+    "value": 149.7,
+    "year": 2016,
+    "row_name": "Sales revenue",
+    "row_idx": 7,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Passenger Cars Business Area",
+    "units": "€ billion",
+    "value": 150.3,
+    "year": 2015,
+    "row_name": "Sales revenue",
+    "row_idx": 7,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales",
+    "key": "Passenger Cars Business Area",
+    "units": "",
+    "value": -0.047,
+    "year": 2016,
+    "row_name": "Operating return on sales",
+    "row_idx": 8,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales",
+    "key": "Passenger Cars Business Area",
+    "units": "",
+    "value": 0.028,
+    "year": 2015,
+    "row_name": "Operating return on sales",
+    "row_idx": 8,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Passenger Cars Business Area",
+    "units": "€ billion",
+    "value": -7.0,
+    "year": 2016,
+    "row_name": "Operating result",
+    "row_idx": 9,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Passenger Cars Business Area",
+    "units": "€ billion",
+    "value": 4.2,
+    "year": 2015,
+    "row_name": "Operating result",
+    "row_idx": 9,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ billion",
+    "value": 30.4,
+    "year": 2016,
+    "row_name": "Sales revenue",
+    "row_idx": 10,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ billion",
+    "value": 32.1,
+    "year": 2015,
+    "row_name": "Sales revenue",
+    "row_idx": 10,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales",
+    "key": "Commercial Vehicles Business Area",
+    "units": "",
+    "value": 0.019,
+    "year": 2016,
+    "row_name": "Operating return on sales",
+    "row_idx": 11,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating return on sales",
+    "key": "Commercial Vehicles Business Area",
+    "units": "",
+    "value": 0.022,
+    "year": 2015,
+    "row_name": "Operating return on sales",
+    "row_idx": 11,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ billion",
+    "value": 0.6,
+    "year": 2016,
+    "row_name": "Operating result",
+    "row_idx": 12,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Commercial Vehicles Business Area",
+    "units": "€ billion",
+    "value": 0.7,
+    "year": 2015,
+    "row_name": "Operating result",
+    "row_idx": 12,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Power Engineering Business Area",
+    "units": "€ billion",
+    "value": 3.8,
+    "year": 2016,
+    "row_name": "Sales revenue",
+    "row_idx": 13,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Power Engineering Business Area",
+    "units": "€ billion",
+    "value": 3.6,
+    "year": 2015,
+    "row_name": "Sales revenue",
+    "row_idx": 13,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating Result",
+    "key": "Power Engineering Business Area",
+    "units": "€ billion",
+    "value": 0.1,
+    "year": 2016,
+    "row_name": "Operating Result",
+    "row_idx": 14,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating Result",
+    "key": "Power Engineering Business Area",
+    "units": "€ billion",
+    "value": -0.2,
+    "year": 2015,
+    "row_name": "Operating Result",
+    "row_idx": 14,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Financial Services Division",
+    "units": "€ billion",
+    "value": 29.4,
+    "year": 2016,
+    "row_name": "Sales revenue",
+    "row_idx": 15,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Sales revenue",
+    "key": "Financial Services Division",
+    "units": "€ billion",
+    "value": 31.3,
+    "year": 2015,
+    "row_name": "Sales revenue",
+    "row_idx": 15,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Financial Services Division",
+    "units": "€ billion",
+    "value": 2.2,
+    "year": 2016,
+    "row_name": "Operating result",
+    "row_idx": 16,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Operating result",
+    "key": "Financial Services Division",
+    "units": "€ billion",
+    "value": 2.4,
+    "year": 2015,
+    "row_name": "Operating result",
+    "row_idx": 16,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue in the Automotive Division",
+    "key": "Automotive Division",
+    "units": "",
+    "value": 0.069,
+    "year": 2016,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 17,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Capex/sales revenue in the Automotive Division",
+    "key": "Automotive Division",
+    "units": "",
+    "value": 0.069,
+    "year": 2015,
+    "row_name": "Capex/sales revenue in the Automotive Division",
+    "row_idx": 17,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net cash flow in the Automotive Division",
+    "key": "Automotive Division",
+    "units": "€ billion",
+    "value": 8.9,
+    "year": 2016,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 18,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Net cash flow in the Automotive Division",
+    "key": "Automotive Division",
+    "units": "€ billion",
+    "value": 4.3,
+    "year": 2015,
+    "row_name": "Net cash flow in the Automotive Division",
+    "row_idx": 18,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (RoI) in the Automotive Division",
+    "key": "Automotive Division",
+    "units": "",
+    "value": -0.002,
+    "year": 2016,
+    "row_name": "Return on investment (RoI) in the Automotive Division",
+    "row_idx": 19,
+    "col_name": "9.9 million",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Return on investment (RoI) in the Automotive Division",
+    "key": "Automotive Division",
+    "units": "",
+    "value": 0.082,
+    "year": 2015,
+    "row_name": "Return on investment (RoI) in the Automotive Division",
+    "row_idx": 19,
+    "col_name": "10.3 million",
+    "col_idx": 4,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  }
+]
+
+ORIGINAL TABLE:
+{
+  "table_id": "VW2016_Ta10817",
+  "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
+  "title": "Forecast versus actual figures",
+  "headers": [
+    [
+      "Deliveries to customers",
+      "9.9 million",
+      "on the prior-year level",
+      "slight increase",
+      "10.3 million"
+    ]
+  ],
+  "merged_headers": [
+    "Deliveries to customers",
+    "9.9 million",
+    "on the prior-year level",
+    "slight increase",
+    "10.3 million"
+  ],
+  "rows": [
+    [
+      "Volkswagen Group",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sales revenue",
+      "€213.3 billion",
+      "decline up to 5%",
+      "on the prior-year level",
+      "€217.3 billion"
+    ],
+    [
+      "Operating return on sales before special items",
+      "0.06",
+      "5.0–6.0%",
+      "~6%",
+      "0.067"
+    ],
+    [
+      "Operating return on sales",
+      "-0.019",
+      "5.0–6.0%",
+      "clearly positive, up to 5.0%",
+      "0.033"
+    ],
+    [
+      "Operating result before special items",
+      "€12.8 billion",
+      "within the forecast range",
+      "within the forecast range",
+      "€14.6 billion"
+    ],
+    [
+      "Operating result",
+      "€−4.1 billion",
+      "within the forecast range",
+      "within the forecast range",
+      "€7.1 billion"
+    ],
+    [
+      "Passenger Cars Business Area",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sales revenue",
+      "€149.7 billion",
+      "noticeable decline",
+      "slight decline",
+      "€150.3 billion"
+    ],
+    [
+      "Operating return on sales",
+      "-0.047",
+      "5.5–6.5%",
+      "clearly positive, up to 5.5%",
+      "0.027999999999999997"
+    ],
+    [
+      "Operating result",
+      "€−7.0 billion",
+      "within the forecast range",
+      "within the forecast range",
+      "€4.2 billion"
+    ],
+    [
+      "Commercial Vehicles Business Area",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sales revenue",
+      "€30.4 billion",
+      "on the prior-year level",
+      "moderate increase",
+      "€32.1 billion"
+    ],
+    [
+      "Operating return on sales",
+      "0.019",
+      "2.0–4.0%",
+      "slightly positive, up to 2%",
+      "0.022000000000000002"
+    ],
+    [
+      "Operating result",
+      "€0.6 billion",
+      "within the forecast range",
+      "within the forecast range",
+      "€0.7 billion"
+    ],
+    [
+      "Power Engineering Business Area",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sales revenue",
+      "€3.8 billion",
+      "noticeable decline",
+      "noticeable decline",
+      "€3.6 billion"
+    ],
+    [
+      "Operating Result",
+      "€0.1 billion",
+      "significant decline",
+      "significant decline",
+      "€−0.2 billion"
+    ],
+    [
+      "Financial Services Division",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Sales revenue",
+      "€29.4 billion",
+      "on the prior-year level",
+      "noticeable increase",
+      "€31.3 billion"
+    ],
+    [
+      "Operating result",
+      "€2.2 billion",
+      "on the prior-year level",
+      "noticeable increase",
+      "€2.4 billion"
+    ],
+    [
+      "Capex/sales revenue in the Automotive Division",
+      "0.069",
+      "6–7%",
+      "6–7%",
+      "0.069"
+    ],
+    [
+      "Net cash flow in the Automotive Division",
+      "€8.9 billion",
+      "significant decline",
+      "significant decline",
+      "€4.3 billion"
+    ],
+    [
+      "Return on investment (RoI) in the Automotive Division",
+      "-0.002",
+      "significant increase, >9%",
+      "significant increase, >9%",
+      "0.08199999999999999"
+    ]
+  ],
+  "stub_col": [
+    "Volkswagen Group",
+    "Sales revenue",
+    "Operating return on sales before special items",
+    "Operating return on sales",
+    "Operating result before special items",
+    "Operating result",
+    "Passenger Cars Business Area",
+    "Sales revenue",
+    "Operating return on sales",
+    "Operating result",
+    "Commercial Vehicles Business Area",
+    "Sales revenue",
+    "Operating return on sales",
+    "Operating result",
+    "Power Engineering Business Area",
+    "Sales revenue",
+    "Operating Result",
+    "Financial Services Division",
+    "Sales revenue",
+    "Operating result",
+    "Capex/sales revenue in the Automotive Division",
+    "Net cash flow in the Automotive Division",
+    "Return on investment (RoI) in the Automotive Division"
+  ]
+}
+
+HOW TO FIX ERRORS:
+
+1. KEY = NAME ERROR (IDENTICAL VALUES):
+   - This means "key" and "name" have the same value, which is not allowed
+   - SOLUTION: Search the table to understand what this KPI represents
+   - Look at the table's title, section_name, and context
+   - "name" = the KPI metric (what is being measured) - usually from row label (stub_col) or table title
+   - "key" = the entity/segment (what/who it applies to) - from context, section, or broader category
+   
+   EXAMPLES:
+   - Table: "Volkswagen Passenger Cars - Production" with row "Golf"
+     → name: "Production" (from title), key: "Golf" (from row)
+   - Table: "Key Figures" with rows "Sales revenue", "Operating profit"
+     → name: "Sales revenue"/"Operating profit" (from row), key: "Company"/"Volkswagen Group" (from context)
+   - Table: "Brand Production" with row "Audi" 
+     → name: "Production" (from title), key: "Audi" (from row)
+
+2. VALUE MISMATCH: Adjust row_idx or col_idx to point to the cell with the correct value
+   - Check if value appears in adjacent cells (row_idx±1 or col_idx±1)
+   - Update row_idx/col_idx to the correct position
+   - Then update row_name = stub_col[row_idx] and col_name = merged_headers[col_idx]
+
+3. ROW_NAME MISMATCH: The row_idx is pointing to wrong row
+   - Find the correct row_idx where stub_col[row_idx] matches the intended row
+   - Update row_idx to the correct value
+   - Keep row_name as stub_col[row_idx] (don't change the name to match wrong index!)
+
+4. COL_NAME MISMATCH: The col_idx is pointing to wrong column
+   - Find the correct col_idx where merged_headers[col_idx] matches the intended year/column
+   - Update col_idx to the correct value
+   - Keep col_name as merged_headers[col_idx] (don't change the name to match wrong index!)
+
+5. EUROPEAN DECIMALS: Handle comma as decimal separator
+   - "1,4864" → 1.4864
+   - "−2,5" → -2.5
+
+REMEMBER: 
+- Fix indices first, then names will automatically align with stub_col and merged_headers!
+- For key=name errors, determine the correct "name" (metric) and "key" (entity) from table context
+
+
+OUTPUT FORMAT (JSON only, output should be exactly 36 KPIs):
+{
+  "kpis": [
+    {
+      "name": "metric name from table",
+      "key": "entity or segment",
+      "units": "measurement units",
+      "value": 12345,
+      "year": 2024,
+      "row_name": "exact text from stub_col",
+      "row_idx": 0,
+      "col_name": "exact text from merged_headers",
+      "col_idx": 1
+    }
+  ]
+}
+
+==================================================
+GENERATED TEXT
+==================================================
+
+[12] = 'Operating return on sales'
+  merged_headers[4] = '10.3 million'
+  Source: 0.022000000000000002 (text: "0.022")
+  Extracted: 0.7
+
+  FIX: row_idx=12 points to wrong row
+    - Current: row_name='Operating result' but stub_col[12]='Operating return on sales'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 12 → 5, row_name: 'Operating return on sales' → 'Operating result'
+  FIX: Large value mismatch (>5% error)
+    - Extracted: 0.7
+    - Source at [12][4]: 0.022 (text: '0.022')
+  SOLUTION: Search nearby cells for the extracted value 0.7:ERROR 17:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 2.4,
+  "year": 2016,
+  "row_name": "Sales revenue",
+  "row_idx": 13,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[13]='Operating result', ✓ col_name verified: '9.9 million', Source null but extracted=2.4 (cell: '€0.6 billion')
+  Expected: row_idx=13, col_idx=1
+  stub_col[13] = 'Operating result'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€0.6 billion")
+  Extracted: 2.4
+
+  FIX: row_idx=13 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[13]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 13 → 1, row_name: 'Operating result' → 'Sales revenue'ERROR 18:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 2.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 13,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[13]='Operating result', ✓ col_name verified: '10.3 million', Source null but extracted=2.5 (cell: '€0.7 billion')
+  Expected: row_idx=13, col_idx=4
+  stub_col[13] = 'Operating result'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€0.7 billion")
+  Extracted: 2.5
+
+  FIX: row_idx=13 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[13]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 13 → 1, row_name: 'Operating result' → 'Sales revenue'ERROR 19:
+  KPI: {
+  "name": "Operating result",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 0.3,
+  "year": 2016,
+  "row_name": "Operating result",
+  "row_idx": 14,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating result', stub_col[14]='Sales revenue', ✓ col_name verified: '9.9 million', Source null but extracted=0.3 (cell: '€2.4 billion')
+  Expected: row_idx=14, col_idx=1
+  stub_col[14] = 'Sales revenue'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€2.4 billion")
+  Extracted: 0.3
+
+  FIX: row_idx=14 points to wrong row
+    - Current: row_name='Operating result' but stub_col[14]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 14 → 5, row_name: 'Sales revenue' → 'Operating result'ERROR 20:
+  KPI: {
+  "name": "Operating result",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 0.4,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 14,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating result', stub_col[14]='Sales revenue', ✓ col_name verified: '10.3 million', Source null but extracted=0.4 (cell: '€2.5 billion')
+  Expected: row_idx=14, col_idx=4
+  stub_col[14] = 'Sales revenue'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€2.5 billion")
+  Extracted: 0.4
+
+  FIX: row_idx=14 points to wrong row
+    - Current: row_name='Operating result' but stub_col[14]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 14 → 5, row_name: 'Sales revenue' → 'Operating result'
+</think><think>
+
+Alright, so I've got this problem where there are several KPIs that are invalid, and I need to fix them based on the validation errors provided. Let me try to understand what's going on here.
+
+First, I see that each KPI has a bunch of fields like name, key, units, value, year, row_name, row_idx, col_name, col_idx, and source_model. The validation errors point out mismatches between the row_name and the stub_col based on row_idx, and similarly for col_name and merged_headers based on col_idx. The main issue seems to be that the row_idx and col_idx are pointing to the wrong rows and columns, causing the names not to match up.
+
+The instructions say that the primary validation is based on row_idx and col_idx. So, if there's a mismatch, I should fix the indices, not the names. After fixing the indices, the row_name should match stub_col[row_idx], and col_name should match merged_headers[col_idx].
+
+Looking at the first few errors, like ERROR 1, it seems that the row_name and col_name are correct, but the source is null, and the extracted value doesn't match the source. But the main fix here is to ensure that the row_idx and col_idx are correct.
+
+Moving on to ERROR 11, there's a row_name mismatch. The KPI's row_name is 'Sales revenue', but stub_col[10] is 'Commercial Vehicles Business Area'. The solution suggests finding the correct row_idx where stub_col matches 'Sales revenue', which is at row_idx=1, and then updating the row_idx and row_name accordingly.
+
+Similarly, in ERROR 13, the row_name is 'Operating return on sales', but stub_col[11] is 'Sales revenue'. The fix is to find the correct row_idx for 'Operating return on sales', which is row_idx=3, and update the row_idx and row_name.
+
+I notice a pattern here. For each KPI with a row_name mismatch, I need to search the stub_col for the correct row_idx where the value matches the KPI's row_name and then update the row_idx and row_name in the KPI accordingly. The same goes for col_name and merged_headers, but in these cases, the col_name seems to be correct, so the focus is mainly on row_idx.
+
+Let me go through each error one by one and apply this fix.
+
+For ERROR 11:
+- KPI row_name: 'Sales revenue'
+- Current row_idx: 10, stub_col[10] = 'Commercial Vehicles Business Area'
+- Find row_idx where stub_col[row_idx] = 'Sales revenue' → row_idx=1
+- Update row_idx to 1 and row_name to 'Sales revenue'
+
+ERROR 12:
+- Same as ERROR 11, so same fix applies.
+
+ERROR 13:
+- KPI row_name: 'Operating return on sales'
+- Current row_idx: 11, stub_col[11] = 'Sales revenue'
+- Find row_idx where stub_col[row_idx] = 'Operating return on sales' → row_idx=3
+- Update row_idx to 3 and row_name to 'Operating return on sales'
+
+ERROR 14:
+- Same as ERROR 13.
+
+ERROR 15:
+- KPI row_name: 'Operating result'
+- Current row_idx: 12, stub_col[12] = 'Operating return on sales'
+- Find row_idx where stub_col[row_idx] = 'Operating result' → row_idx=5
+- Update row_idx to 5 and row_name to 'Operating result'
+- Additionally, there's a large value mismatch. The extracted value is 0.6, but the source is 0.019. I need to check nearby cells to see if the value 0.6 exists elsewhere, but since the primary fix is the indices, I'll focus on that first.
+
+ERROR 16:
+- Same as ERROR 15, so same fix applies.
+
+ERROR 17:
+- KPI row_name: 'Sales revenue'
+- Current row_idx: 13, stub_col[13] = 'Operating result'
+- Find row_idx where stub_col[row_idx] = 'Sales revenue' → row_idx=1
+- Update row_idx to 1 and row_name to 'Sales revenue'
+
+ERROR 18:
+- Same as ERROR 17.
+
+ERROR 19:
+- KPI row_name: 'Operating result'
+- Current row_idx: 14, stub_col[14] = 'Sales revenue'
+- Find row_idx where stub_col[row_idx] = 'Operating result' → row_idx=5
+- Update row_idx to 5 and row_name to 'Operating result'
+
+ERROR 20:
+- Same as ERROR 19.
+
+So, for each KPI with a row_name mismatch, I'm searching the stub_col for the correct row_idx and updating accordingly. I'm not changing the col_idx because the col_name matches merged_headers[col_idx], so that's correct.
+
+I also notice that some KPIs have a large value mismatch. For example, in ERROR 15, the extracted value is 0.6, but the source is 0.019. This is a significant difference. However, the primary issue is the row_idx mismatch, so fixing that should be the first step. After that, if the value still doesn't match, I might need to investigate further, but according to the instructions, the main focus is on fixing the indices.
+
+In summary, the approach is:
+1. For each KPI with a row_name mismatch, find the correct row_idx where stub_col[row_idx] matches the KPI's row_name.
+2. Update the KPI's row_idx and row_name accordingly.
+3. Ensure that after updating, row_name matches stub_col[row_idx] and col_name matches merged_headers[col_idx].
+4. If there's a value mismatch, note it, but prioritize fixing the indices first.
+
+I'll apply this method to each invalid KPI to correct their row_idx and row_name. This should resolve the validation errors related to row and column indices.
+
+==================================================
+CLEANED TEXT
+==================================================
+
+[12] = 'Operating return on sales'
+  merged_headers[4] = '10.3 million'
+  Source: 0.022000000000000002 (text: "0.022")
+  Extracted: 0.7
+
+  FIX: row_idx=12 points to wrong row
+    - Current: row_name='Operating result' but stub_col[12]='Operating return on sales'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 12 → 5, row_name: 'Operating return on sales' → 'Operating result'
+  FIX: Large value mismatch (>5% error)
+    - Extracted: 0.7
+    - Source at [12][4]: 0.022 (text: '0.022')
+  SOLUTION: Search nearby cells for the extracted value 0.7:ERROR 17:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 2.4,
+  "year": 2016,
+  "row_name": "Sales revenue",
+  "row_idx": 13,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[13]='Operating result', ✓ col_name verified: '9.9 million', Source null but extracted=2.4 (cell: '€0.6 billion')
+  Expected: row_idx=13, col_idx=1
+  stub_col[13] = 'Operating result'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€0.6 billion")
+  Extracted: 2.4
+
+  FIX: row_idx=13 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[13]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 13 → 1, row_name: 'Operating result' → 'Sales revenue'ERROR 18:
+  KPI: {
+  "name": "Sales revenue",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 2.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 13,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Sales revenue', stub_col[13]='Operating result', ✓ col_name verified: '10.3 million', Source null but extracted=2.5 (cell: '€0.7 billion')
+  Expected: row_idx=13, col_idx=4
+  stub_col[13] = 'Operating result'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€0.7 billion")
+  Extracted: 2.5
+
+  FIX: row_idx=13 points to wrong row
+    - Current: row_name='Sales revenue' but stub_col[13]='Operating result'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Sales revenue':
+    → Found at row_idx=1, stub_col[1]='Sales revenue'
+    → Update: row_idx: 13 → 1, row_name: 'Operating result' → 'Sales revenue'ERROR 19:
+  KPI: {
+  "name": "Operating result",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 0.3,
+  "year": 2016,
+  "row_name": "Operating result",
+  "row_idx": 14,
+  "col_name": "9.9 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating result', stub_col[14]='Sales revenue', ✓ col_name verified: '9.9 million', Source null but extracted=0.3 (cell: '€2.4 billion')
+  Expected: row_idx=14, col_idx=1
+  stub_col[14] = 'Sales revenue'
+  merged_headers[1] = '9.9 million'
+  Source: None (text: "€2.4 billion")
+  Extracted: 0.3
+
+  FIX: row_idx=14 points to wrong row
+    - Current: row_name='Operating result' but stub_col[14]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 14 → 5, row_name: 'Sales revenue' → 'Operating result'ERROR 20:
+  KPI: {
+  "name": "Operating result",
+  "key": "Power Engineering Business Area",
+  "units": "\u20ac billion",
+  "value": 0.4,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 14,
+  "col_name": "10.3 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Operating result', stub_col[14]='Sales revenue', ✓ col_name verified: '10.3 million', Source null but extracted=0.4 (cell: '€2.5 billion')
+  Expected: row_idx=14, col_idx=4
+  stub_col[14] = 'Sales revenue'
+  merged_headers[4] = '10.3 million'
+  Source: None (text: "€2.5 billion")
+  Extracted: 0.4
+
+  FIX: row_idx=14 points to wrong row
+    - Current: row_name='Operating result' but stub_col[14]='Sales revenue'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Operating result':
+    → Found at row_idx=5, stub_col[5]='Operating result'
+    → Update: row_idx: 14 → 5, row_name: 'Sales revenue' → 'Operating result'
+</think><think>
+
+Alright, so I've got this problem where there are several KPIs that are invalid, and I need to fix them based on the validation errors provided. Let me try to understand what's going on here.
+
+First, I see that each KPI has a bunch of fields like name, key, units, value, year, row_name, row_idx, col_name, col_idx, and source_model. The validation errors point out mismatches between the row_name and the stub_col based on row_idx, and similarly for col_name and merged_headers based on col_idx. The main issue seems to be that the row_idx and col_idx are pointing to the wrong rows and columns, causing the names not to match up.
+
+The instructions say that the primary validation is based on row_idx and col_idx. So, if there's a mismatch, I should fix the indices, not the names. After fixing the indices, the row_name should match stub_col[row_idx], and col_name should match merged_headers[col_idx].
+
+Looking at the first few errors, like ERROR 1, it seems that the row_name and col_name are correct, but the source is null, and the extracted value doesn't match the source. But the main fix here is to ensure that the row_idx and col_idx are correct.
+
+Moving on to ERROR 11, there's a row_name mismatch. The KPI's row_name is 'Sales revenue', but stub_col[10] is 'Commercial Vehicles Business Area'. The solution suggests finding the correct row_idx where stub_col matches 'Sales revenue', which is at row_idx=1, and then updating the row_idx and row_name accordingly.
+
+Similarly, in ERROR 13, the row_name is 'Operating return on sales', but stub_col[11] is 'Sales revenue'. The fix is to find the correct row_idx for 'Operating return on sales', which is row_idx=3, and update the row_idx and row_name.
+
+I notice a pattern here. For each KPI with a row_name mismatch, I need to search the stub_col for the correct row_idx where the value matches the KPI's row_name and then update the row_idx and row_name in the KPI accordingly. The same goes for col_name and merged_headers, but in these cases, the col_name seems to be correct, so the focus is mainly on row_idx.
+
+Let me go through each error one by one and apply this fix.
+
+For ERROR 11:
+- KPI row_name: 'Sales revenue'
+- Current row_idx: 10, stub_col[10] = 'Commercial Vehicles Business Area'
+- Find row_idx where stub_col[row_idx] = 'Sales revenue' → row_idx=1
+- Update row_idx to 1 and row_name to 'Sales revenue'
+
+ERROR 12:
+- Same as ERROR 11, so same fix applies.
+
+ERROR 13:
+- KPI row_name: 'Operating return on sales'
+- Current row_idx: 11, stub_col[11] = 'Sales revenue'
+- Find row_idx where stub_col[row_idx] = 'Operating return on sales' → row_idx=3
+- Update row_idx to 3 and row_name to 'Operating return on sales'
+
+ERROR 14:
+- Same as ERROR 13.
+
+ERROR 15:
+- KPI row_name: 'Operating result'
+- Current row_idx: 12, stub_col[12] = 'Operating return on sales'
+- Find row_idx where stub_col[row_idx] = 'Operating result' → row_idx=5
+- Update row_idx to 5 and row_name to 'Operating result'
+- Additionally, there's a large value mismatch. The extracted value is 0.6, but the source is 0.019. I need to check nearby cells to see if the value 0.6 exists elsewhere, but since the primary fix is the indices, I'll focus on that first.
+
+ERROR 16:
+- Same as ERROR 15, so same fix applies.
+
+ERROR 17:
+- KPI row_name: 'Sales revenue'
+- Current row_idx: 13, stub_col[13] = 'Operating result'
+- Find row_idx where stub_col[row_idx] = 'Sales revenue' → row_idx=1
+- Update row_idx to 1 and row_name to 'Sales revenue'
+
+ERROR 18:
+- Same as ERROR 17.
+
+ERROR 19:
+- KPI row_name: 'Operating result'
+- Current row_idx: 14, stub_col[14] = 'Sales revenue'
+- Find row_idx where stub_col[row_idx] = 'Operating result' → row_idx=5
+- Update row_idx to 5 and row_name to 'Operating result'
+
+ERROR 20:
+- Same as ERROR 19.
+
+So, for each KPI with a row_name mismatch, I'm searching the stub_col for the correct row_idx and updating accordingly. I'm not changing the col_idx because the col_name matches merged_headers[col_idx], so that's correct.
+
+I also notice that some KPIs have a large value mismatch. For example, in ERROR 15, the extracted value is 0.6, but the source is 0.019. This is a significant difference. However, the primary issue is the row_idx mismatch, so fixing that should be the first step. After that, if the value still doesn't match, I might need to investigate further, but according to the instructions, the main focus is on fixing the indices.
+
+In summary, the approach is:
+1. For each KPI with a row_name mismatch, find the correct row_idx where stub_col[row_idx] matches the KPI's row_name.
+2. Update the KPI's row_idx and row_name accordingly.
+3. Ensure that after updating, row_name matches stub_col[row_idx] and col_name matches merged_headers[col_idx].
+4. If there's a value mismatch, note it, but prioritize fixing the indices first.
+
+I'll apply this method to each invalid KPI to correct their row_idx and row_name. This should resolve the validation errors related to row and column indices.

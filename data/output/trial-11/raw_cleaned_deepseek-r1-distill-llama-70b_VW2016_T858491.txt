@@ -1,0 +1,1841 @@
+Model: deepseek-r1-distill-llama-70b
+Table: VW2016_T858491
+
+==================================================
+ORIGINAL OUTPUT
+==================================================
+
+{
+  "name": "Vehicle sales",
+  "key": "Germany",
+  "units": "units",
+  "value": 1257.0,
+  "year": 2016,
+  "row_name": "Germany",
+  "row_idx": 3,
+  "col_name": "2016.0",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 2:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Germany",
+  "units": "units",
+  "value": 1279.0,
+  "year": 2015,
+  "row_name": "Germany",
+  "row_idx": 3,
+  "col_name": "2015.0",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 3:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Germany",
+  "units": "units",
+  "value": 1247.0,
+  "year": 2014,
+  "row_name": "Germany",
+  "row_idx": 3,
+  "col_name": "2014.0",
+  "col_idx": 3,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 4:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Germany",
+  "units": "units",
+  "value": 1187.0,
+  "year": 2013,
+  "row_name": "Germany",
+  "row_idx": 3,
+  "col_name": "2013.0",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 5:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Germany",
+  "units": "units",
+  "value": 1207.0,
+  "year": 2012,
+  "row_name": "Germany",
+  "row_idx": 3,
+  "col_name": "2012.0",
+  "col_idx": 5,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 6:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Abroad",
+  "units": "units",
+  "value": 9135.0,
+  "year": 2016,
+  "row_name": "Abroad",
+  "row_idx": 4,
+  "col_name": "2016.0",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 7:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Abroad",
+  "units": "units",
+  "value": 8731.0,
+  "year": 2015,
+  "row_name": "Abroad",
+  "row_idx": 4,
+  "col_name": "2015.0",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 8:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Abroad",
+  "units": "units",
+  "value": 8970.0,
+  "year": 2014,
+  "row_name": "Abroad",
+  "row_idx": 4,
+  "col_name": "2014.0",
+  "col_idx": 3,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 9:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Abroad",
+  "units": "units",
+  "value": 8541.0,
+  "year": 2013,
+  "row_name": "Abroad",
+  "row_idx": 4,
+  "col_name": "2013.0",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**CORRECTED KPI 10:**
+```json
+{
+  "name": "Vehicle sales",
+  "key": "Abroad",
+  "units": "units",
+  "value": 8138.0,
+  "year": 2012,
+  "row_name": "Abroad",
+  "row_idx": 4,
+  "col_name": "2012.0",
+  "col_idx": 5,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+==================================================
+ORIGINAL ERROR
+==================================================
+
+Extra data: line 13 column 1 (char 237)
+
+==================================================
+RECOVERY ATTEMPT
+==================================================
+
+{
+  "kpis": [
+    {
+      "name": "Vehicle sales",
+      "key": "Company",
+      "units": "units",
+      "value": 10391.0,
+      "year": 2016,
+      "row_name": "Vehicle sales (units)",
+      "row_idx": 2,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Company",
+      "units": "units",
+      "value": 10010.0,
+      "year": 2015,
+      "row_name": "Vehicle sales (units)",
+      "row_idx": 2,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Company",
+      "units": "units",
+      "value": 10217.0,
+      "year": 2014,
+      "row_name": "Vehicle sales (units)",
+      "row_idx": 2,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Company",
+      "units": "units",
+      "value": 9728.0,
+      "year": 2013,
+      "row_name": "Vehicle sales (units)",
+      "row_idx": 2,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Company",
+      "units": "units",
+      "value": 9345.0,
+      "year": 2012,
+      "row_name": "Vehicle sales (units)",
+      "row_idx": 2,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Germany",
+      "units": "units",
+      "value": 1257.0,
+      "year": 2016,
+      "row_name": "Germany",
+      "row_idx": 3,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Germany",
+      "units": "units",
+      "value": 1279.0,
+      "year": 2015,
+      "row_name": "Germany",
+      "row_idx": 3,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Germany",
+      "units": "units",
+      "value": 1247.0,
+      "year": 2014,
+      "row_name": "Germany",
+      "row_idx": 3,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Germany",
+      "units": "units",
+      "value": 1187.0,
+      "year": 2013,
+      "row_name": "Germany",
+      "row_idx": 3,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Germany",
+      "units": "units",
+      "value": 1207.0,
+      "year": 2012,
+      "row_name": "Germany",
+      "row_idx": 3,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Abroad",
+      "units": "units",
+      "value": 9135.0,
+      "year": 2016,
+      "row_name": "Abroad",
+      "row_idx": 4,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Abroad",
+      "units": "units",
+      "value": 8731.0,
+      "year": 2015,
+      "row_name": "Abroad",
+      "row_idx": 4,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Abroad",
+      "units": "units",
+      "value": 8970.0,
+      "year": 2014,
+      "row_name": "Abroad",
+      "row_idx": 4,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Abroad",
+      "units": "units",
+      "value": 8541.0,
+      "year": 2013,
+      "row_name": "Abroad",
+      "row_idx": 4,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Abroad",
+      "units": "units",
+      "value": 8137.0,
+      "year": 2012,
+      "row_name": "Abroad",
+      "row_idx": 4,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Production",
+      "key": "Company",
+      "units": "units",
+      "value": 10405.0,
+      "year": 2016,
+      "row_name": "Production (units)",
+      "row_idx": 5,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Production",
+      "key": "Company",
+      "units": "units",
+      "value": 10017.0,
+      "year": 2015,
+      "row_name": "Production (units)",
+      "row_idx": 5,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Production",
+      "key": "Company",
+      "units": "units",
+      "value": 10213.0,
+      "year": 2014,
+      "row_name": "Production (units)",
+      "row_idx": 5,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Production",
+      "key": "Company",
+      "units": "units",
+      "value": 9728.0,
+      "year": 2013,
+      "row_name": "Production (units)",
+      "row_idx": 5,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Production",
+      "key": "Company",
+      "units": "units",
+      "value": 9255.0,
+      "year": 2012,
+      "row_name": "Production (units)",
+      "row_idx": 5,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Production",
+      "key": "Germany",
+      "units": "units",
+      "value": 2685.0,
+      "year": 2016,
+      "row_name": "Germany",
+      "row_idx": 6,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Production",
+      "key": "Germany",
+      "units": "units",
+      "value": 2681.0,
+      "year": 2015,
+      "row_name": "Germany",
+      "row_idx": 6,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Production",
+      "key": "Germany",
+      "units": "units",
+      "value": 2559.0,
+      "year": 2014,
+      "row_name": "Germany",
+      "row_idx": 6,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Production",
+      "key": "Germany",
+      "units": "units",
+      "value": 2458.0,
+      "year": 2013,
+      "row_name": "Germany",
+      "row_idx": 6,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Production",
+      "key": "Germany",
+      "units": "units",
+      "value": 2321.0,
+      "year": 2012,
+      "row_name": "Germany",
+      "row_idx": 6,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Production",
+      "key": "Abroad",
+      "units": "units",
+      "value": 7720.0,
+      "year": 2016,
+      "row_name": "Abroad",
+      "row_idx": 7,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Production",
+      "key": "Abroad",
+      "units": "units",
+      "value": 7336.0,
+      "year": 2015,
+      "row_name": "Abroad",
+      "row_idx": 7,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Production",
+      "key": "Abroad",
+      "units": "units",
+      "value": 7653.0,
+      "year": 2014,
+      "row_name": "Abroad",
+      "row_idx": 7,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Production",
+      "key": "Abroad",
+      "units": "units",
+      "value": 7270.0,
+      "year": 2013,
+      "row_name": "Abroad",
+      "row_idx": 7,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Production",
+      "key": "Abroad",
+      "units": "units",
+      "value": 6934.0,
+      "year": 2012,
+      "row_name": "Abroad",
+      "row_idx": 7,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Employees",
+      "key": "Company",
+      "units": "units",
+      "value": 619.0,
+      "year": 2016,
+      "row_name": "Employees (yearly average)",
+      "row_idx": 8,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Employees",
+      "key": "Company",
+      "units": "units",
+      "value": 604.0,
+      "year": 2015,
+      "row_name": "Employees (yearly average)",
+      "row_idx": 8,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Employees",
+      "key": "Company",
+      "units": "units",
+      "value": 583.0,
+      "year": 2014,
+      "row_name": "Employees (yearly average)",
+      "row_idx": 8,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Employees",
+      "key": "Company",
+      "units": "units",
+      "value": 563.0,
+      "year": 2013,
+      "row_name": "Employees (yearly average)",
+      "row_idx": 8,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Employees",
+      "key": "Company",
+      "units": "units",
+      "value": 533.0,
+      "year": 2012,
+      "row_name": "Employees (yearly average)",
+      "row_idx": 8,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Employees",
+      "key": "Germany",
+      "units": "units",
+      "value": 280.0,
+      "year": 2016,
+      "row_name": "Germany",
+      "row_idx": 9,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Employees",
+      "key": "Germany",
+      "units": "units",
+      "value": 276.0,
+      "year": 2015,
+      "row_name": "Germany",
+      "row_idx": 9,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Employees",
+      "key": "Germany",
+      "units": "units",
+      "value": 265.0,
+      "year": 2014,
+      "row_name": "Germany",
+      "row_idx": 9,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Employees",
+      "key": "Germany",
+      "units": "units",
+      "value": 255.0,
+      "year": 2013,
+      "row_name": "Germany",
+      "row_idx": 9,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Employees",
+      "key": "Germany",
+      "units": "units",
+      "value": 237.0,
+      "year": 2012,
+      "row_name": "Germany",
+      "row_idx": 9,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Employees",
+      "key": "Abroad",
+      "units": "units",
+      "value": 339.0,
+      "year": 2016,
+      "row_name": "Abroad",
+      "row_idx": 10,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Employees",
+      "key": "Abroad",
+      "units": "units",
+      "value": 329.0,
+      "year": 2015,
+      "row_name": "Abroad",
+      "row_idx": 10,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Employees",
+      "key": "Abroad",
+      "units": "units",
+      "value": 318.0,
+      "year": 2014,
+      "row_name": "Abroad",
+      "row_idx": 10,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Employees",
+      "key": "Abroad",
+      "units": "units",
+      "value": 308.0,
+      "year": 2013,
+      "row_name": "Abroad",
+      "row_idx": 10,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Employees",
+      "key": "Abroad",
+      "units": "units",
+      "value": 296.0,
+      "year": 2012,
+      "row_name": "Abroad",
+      "row_idx": 10,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Sales revenue",
+      "key": "Company",
+      "units": "€ million",
+      "value": 217267.0,
+      "year": 2016,
+      "row_name": "Sales revenue",
+      "row_idx": 12,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Sales revenue",
+      "key": "Company",
+      "units": "€ million",
+      "value": 213292.0,
+      "year": 2015,
+      "row_name": "Sales revenue",
+      "row_idx": 12,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Sales revenue",
+      "key": "Company",
+      "units": "€ million",
+      "value": 202458.0,
+      "year": 2014,
+      "row_name": "Sales revenue",
+      "row_idx": 12,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Sales revenue",
+      "key": "Company",
+      "units": "€ million",
+      "value": 197007.0,
+      "year": 2013,
+      "row_name": "Sales revenue",
+      "row_idx": 12,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Sales revenue",
+      "key": "Company",
+      "units": "€ million",
+      "value": 192676.0,
+      "year": 2012,
+      "row_name": "Sales revenue",
+      "row_idx": 12,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Cost of sales",
+      "key": "Company",
+      "units": "€ million",
+      "value": 176270.0,
+      "year": 2016,
+      "row_name": "Cost of sales",
+      "row_idx": 13,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Cost of sales",
+      "key": "Company",
+      "units": "€ million",
+      "value": 179382.0,
+      "year": 2015,
+      "row_name": "Cost of sales",
+      "row_idx": 13,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Cost of sales",
+      "key": "Company",
+      "units": "€ million",
+      "value": 165934.0,
+      "year": 2014,
+      "row_name": "Cost of sales",
+      "row_idx": 13,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Cost of sales",
+      "key": "Company",
+      "units": "€ million",
+      "value": 161407.0,
+      "year": 2013,
+      "row_name": "Cost of sales",
+      "row_idx": 13,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Cost of sales",
+      "key": "Company",
+      "units": "€ million",
+      "value": 157522.0,
+      "year": 2012,
+      "row_name": "Cost of sales",
+      "row_idx": 13,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Gross profit",
+      "key": "Company",
+      "units": "€ million",
+      "value": 40997.0,
+      "year": 2016,
+      "row_name": "Gross profit",
+      "row_idx": 14,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Gross profit",
+      "key": "Company",
+      "units": "€ million",
+      "value": 33911.0,
+      "year": 2015,
+      "row_name": "Gross profit",
+      "row_idx": 14,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Gross profit",
+      "key": "Company",
+      "units": "€ million",
+      "value": 36524.0,
+      "year": 2014,
+      "row_name": "Gross profit",
+      "row_idx": 14,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Gross profit",
+      "key": "Company",
+      "units": "€ million",
+      "value": 35600.0,
+      "year": 2013,
+      "row_name": "Gross profit",
+      "row_idx": 14,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Gross profit",
+      "key": "Company",
+      "units": "€ million",
+      "value": 35154.0,
+      "year": 2012,
+      "row_name": "Gross profit",
+      "row_idx": 14,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Distribution expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 22700.0,
+      "year": 2016,
+      "row_name": "Distribution expenses",
+      "row_idx": 15,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Distribution expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 23515.0,
+      "year": 2015,
+      "row_name": "Distribution expenses",
+      "row_idx": 15,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Distribution expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 20292.0,
+      "year": 2014,
+      "row_name": "Distribution expenses",
+      "row_idx": 15,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Distribution expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 19655.0,
+      "year": 2013,
+      "row_name": "Distribution expenses",
+      "row_idx": 15,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Distribution expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 18850.0,
+      "year": 2012,
+      "row_name": "Distribution expenses",
+      "row_idx": 15,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Administrative expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 7336.0,
+      "year": 2016,
+      "row_name": "Administrative expenses",
+      "row_idx": 16,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Administrative expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 7197.0,
+      "year": 2015,
+      "row_name": "Administrative expenses",
+      "row_idx": 16,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Administrative expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 6841.0,
+      "year": 2014,
+      "row_name": "Administrative expenses",
+      "row_idx": 16,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Administrative expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 6888.0,
+      "year": 2013,
+      "row_name": "Administrative expenses",
+      "row_idx": 16,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Administrative expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 6220.0,
+      "year": 2012,
+      "row_name": "Administrative expenses",
+      "row_idx": 16,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Net other operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": -3858.0,
+      "year": 2016,
+      "row_name": "Net other operating result",
+      "row_idx": 17,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Net other operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": -7267.0,
+      "year": 2015,
+      "row_name": "Net other operating result",
+      "row_idx": 17,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Net other operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 3306.0,
+      "year": 2014,
+      "row_name": "Net other operating result",
+      "row_idx": 17,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Net other operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 2613.0,
+      "year": 2013,
+      "row_name": "Net other operating result",
+      "row_idx": 17,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Net other operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1415.0,
+      "year": 2012,
+      "row_name": "Net other operating result",
+      "row_idx": 17,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 7103.0,
+      "year": 2016,
+      "row_name": "Operating result",
+      "row_idx": 18,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": -4069.0,
+      "year": 2015,
+      "row_name": "Operating result",
+      "row_idx": 18,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 12697.0,
+      "year": 2014,
+      "row_name": "Operating result",
+      "row_idx": 18,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 11671.0,
+      "year": 2013,
+      "row_name": "Operating result",
+      "row_idx": 18,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Operating result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 11498.0,
+      "year": 2012,
+      "row_name": "Operating result",
+      "row_idx": 18,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Financial result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 189.0,
+      "year": 2016,
+      "row_name": "Financial result",
+      "row_idx": 19,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Financial result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 2767.0,
+      "year": 2015,
+      "row_name": "Financial result",
+      "row_idx": 19,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Financial result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 2097.0,
+      "year": 2014,
+      "row_name": "Financial result",
+      "row_idx": 19,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Financial result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 757.0,
+      "year": 2013,
+      "row_name": "Financial result",
+      "row_idx": 19,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Financial result",
+      "key": "Company",
+      "units": "€ million",
+      "value": 13989.0,
+      "year": 2012,
+      "row_name": "Financial result",
+      "row_idx": 19,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Earnings before tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 7292.0,
+      "year": 2016,
+      "row_name": "Earnings before tax",
+      "row_idx": 20,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Earnings before tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": -1301.0,
+      "year": 2015,
+      "row_name": "Earnings before tax",
+      "row_idx": 20,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Earnings before tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 14794.0,
+      "year": 2014,
+      "row_name": "Earnings before tax",
+      "row_idx": 20,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Earnings before tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 12428.0,
+      "year": 2013,
+      "row_name": "Earnings before tax",
+      "row_idx": 20,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Earnings before tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 25487.0,
+      "year": 2012,
+      "row_name": "Earnings before tax",
+      "row_idx": 20,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Income tax expense",
+      "key": "Company",
+      "units": "€ million",
+      "value": 1912.0,
+      "year": 2016,
+      "row_name": "Income tax expense",
+      "row_idx": 21,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Income tax expense",
+      "key": "Company",
+      "units": "€ million",
+      "value": 59.0,
+      "year": 2015,
+      "row_name": "Income tax expense",
+      "row_idx": 21,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Income tax expense",
+      "key": "Company",
+      "units": "€ million",
+      "value": 3726.0,
+      "year": 2014,
+      "row_name": "Income tax expense",
+      "row_idx": 21,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Income tax expense",
+      "key": "Company",
+      "units": "€ million",
+      "value": 3283.0,
+      "year": 2013,
+      "row_name": "Income tax expense",
+      "row_idx": 21,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Income tax expense",
+      "key": "Company",
+      "units": "€ million",
+      "value": 3606.0,
+      "year": 2012,
+      "row_name": "Income tax expense",
+      "row_idx": 21,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Earnings after tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 5379.0,
+      "year": 2016,
+      "row_name": "Earnings after tax",
+      "row_idx": 22,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Earnings after tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": -1361.0,
+      "year": 2015,
+      "row_name": "Earnings after tax",
+      "row_idx": 22,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Earnings after tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 11068.0,
+      "year": 2014,
+      "row_name": "Earnings after tax",
+      "row_idx": 22,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Earnings after tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 9145.0,
+      "year": 2013,
+      "row_name": "Earnings after tax",
+      "row_idx": 22,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Earnings after tax",
+      "key": "Company",
+      "units": "€ million",
+      "value": 21881.0,
+      "year": 2012,
+      "row_name": "Earnings after tax",
+      "row_idx": 22,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Cost of materials",
+      "key": "Company",
+      "units": "€ million",
+      "value": 140307.0,
+      "year": 2016,
+      "row_name": "Cost of materials",
+      "row_idx": 23,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Cost of materials",
+      "key": "Company",
+      "units": "€ million",
+      "value": 143700.0,
+      "year": 2015,
+      "row_name": "Cost of materials",
+      "row_idx": 23,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Cost of materials",
+      "key": "Company",
+      "units": "€ million",
+      "value": 132514.0,
+      "year": 2014,
+      "row_name": "Cost of materials",
+      "row_idx": 23,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Cost of materials",
+      "key": "Company",
+      "units": "€ million",
+      "value": 127089.0,
+      "year": 2013,
+      "row_name": "Cost of materials",
+      "row_idx": 23,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Cost of materials",
+      "key": "Company",
+      "units": "€ million",
+      "value": 122450.0,
+      "year": 2012,
+      "row_name": "Cost of materials",
+      "row_idx": 23,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Personnel expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 37017.0,
+      "year": 2016,
+      "row_name": "Personnel expenses",
+      "row_idx": 24,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Personnel expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 36268.0,
+      "year": 2015,
+      "row_name": "Personnel expenses",
+      "row_idx": 24,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Personnel expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 33834.0,
+      "year": 2014,
+      "row_name": "Personnel expenses",
+      "row_idx": 24,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Personnel expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 31747.0,
+      "year": 2013,
+      "row_name": "Personnel expenses",
+      "row_idx": 24,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Personnel expenses",
+      "key": "Company",
+      "units": "€ million",
+      "value": 29504.0,
+      "year": 2012,
+      "row_name": "Personnel expenses",
+      "row_idx": 24,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Noncurrent assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 254010.0,
+      "year": 2016,
+      "row_name": "Noncurrent assets",
+      "row_idx": 25,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Noncurrent assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 236548.0,
+      "year": 2015,
+      "row_name": "Noncurrent assets",
+      "row_idx": 25,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Noncurrent assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 220106.0,
+      "year": 2014,
+      "row_name": "Noncurrent assets",
+      "row_idx": 25,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Noncurrent assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 202141.0,
+      "year": 2013,
+      "row_name": "Noncurrent assets",
+      "row_idx": 25,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Noncurrent assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 196457.0,
+      "year": 2012,
+      "row_name": "Noncurrent assets",
+      "row_idx": 25,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Current assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 155722.0,
+      "year": 2016,
+      "row_name": "Current assets",
+      "row_idx": 26,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Current assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 145387.0,
+      "year": 2015,
+      "row_name": "Current assets",
+      "row_idx": 26,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Current assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 131102.0,
+      "year": 2014,
+      "row_name": "Current assets",
+      "row_idx": 26,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Current assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 122192.0,
+      "year": 2013,
+      "row_name": "Current assets",
+      "row_idx": 26,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Current assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 113061.0,
+      "year": 2012,
+      "row_name": "Current assets",
+      "row_idx": 26,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Total assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 409732.0,
+      "year": 2016,
+      "row_name": "Total assets",
+      "row_idx": 27,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Total assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 381935.0,
+      "year": 2015,
+      "row_name": "Total assets",
+      "row_idx": 27,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Total assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 351209.0,
+      "year": 2014,
+      "row_name": "Total assets",
+      "row_idx": 27,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Total assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 324333.0,
+      "year": 2013,
+      "row_name": "Total assets",
+      "row_idx": 27,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Total assets",
+      "key": "Company",
+      "units": "€ million",
+      "value": 309518.0,
+      "year": 2012,
+      "row_name": "Total assets",
+      "row_idx": 27,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Equity",
+      "key": "Company",
+      "units": "€ million",
+      "value": 92910.0,
+      "year": 2016,
+      "row_name": "Equity",
+      "row_idx": 28,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Equity",
+      "key": "Company",
+      "units": "€ million",
+      "value": 88270.0,
+      "year": 2015,
+      "row_name": "Equity",
+      "row_idx": 28,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Equity",
+      "key": "Company",
+      "units": "€ million",
+      "value": 90189.0,
+      "year": 2014,
+      "row_name": "Equity",
+      "row_idx": 28,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Equity",
+      "key": "Company",
+      "units": "€ million",
+      "value": 90037.0,
+      "year": 2013,
+      "row_name": "Equity",
+      "row_idx": 28,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Equity",
+      "key": "Company",
+      "units": "€ million",
+      "value": 81995.0,
+      "year": 2012,
+      "row_name": "Equity",
+      "row_idx": 28,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Noncontrolling interests",
+      "key": "Company",
+      "units": "€ million",
+      "value": 221.0,
+      "year": 2016,
+      "row_name": "of which: noncontrolling interests",
+      "row_idx": 29,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Noncontrolling interests",
+      "key": "Company",
+      "units": "€ million",
+      "value": 210.0,
+      "year": 2015,
+      "row_name": "of which: noncontrolling interests",
+      "row_idx": 29,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Noncontrolling interests",
+      "key": "Company",
+      "units": "€ million",
+      "value": 198.0,
+      "year": 2014,
+      "row_name": "of which: noncontrolling interests",
+      "row_idx": 29,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Noncontrolling interests",
+      "key": "Company",
+      "units": "€ million",
+      "value": 2304.0,
+      "year": 2013,
+      "row_name": "of which: noncontrolling interests",
+      "row_idx": 29,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Noncontrolling interests",
+      "key": "Company",
+      "units": "€ million",
+      "value": 4313.0,
+      "year": 2012,
+      "row_name": "of which: noncontrolling interests",
+      "row_idx": 29,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Noncurrent liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 139306.0,
+      "year": 2016,
+      "row_name": "Noncurrent liabilities",
+      "row_idx": 30,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Noncurrent liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 145175.0,
+      "year": 2015,
+      "row_name": "Noncurrent liabilities",
+      "row_idx": 30,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Noncurrent liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 130314.0,
+      "year": 2014,
+      "row_name": "Noncurrent liabilities",
+      "row_idx": 30,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Noncurrent liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 115672.0,
+      "year": 2013,
+      "row_name": "Noncurrent liabilities",
+      "row_idx": 30,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Noncurrent liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 121996.0,
+      "year": 2012,
+      "row_name": "Noncurrent liabilities",
+      "row_idx": 30,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Current liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 177515.0,
+      "year": 2016,
+      "row_name": "Current liabilities",
+      "row_idx": 31,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Current liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 148489.0,
+      "year": 2015,
+      "row_name": "Current liabilities",
+      "row_idx": 31,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Current liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 130706.0,
+      "year": 2014,
+      "row_name": "Current liabilities",
+      "row_idx": 31,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Current liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 118625.0,
+      "year": 2013,
+      "row_name": "Current liabilities",
+      "row_idx": 31,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Current liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 105526.0,
+      "year": 2012,
+      "row_name": "Current liabilities",
+      "row_idx": 31,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Total equity and liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 409732.0,
+      "year": 2016,
+      "row_name": "Total equity and liabilities",
+      "row_idx": 32,
+      "col_name": "2016.0",
+      "col_idx": 1
+    },
+    {
+      "name": "Total equity and liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 381935.0,
+      "year": 2015,
+      "row_name": "Total equity and liabilities",
+      "row_idx": 32,
+      "col_name": "2015.0",
+      "col_idx": 2
+    },
+    {
+      "name": "Total equity and liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 351209.0,
+      "year": 2014,
+      "row_name": "Total equity and liabilities",
+      "row_idx": 32,
+      "col_name": "2014.0",
+      "col_idx": 3
+    },
+    {
+      "name": "Total equity and liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 324333.0,
+      "year": 2013,
+      "row_name": "Total equity and liabilities",
+      "row_idx": 32,
+      "col_name": "2013.0",
+      "col_idx": 4
+    },
+    {
+      "name": "Total equity and liabilities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 309518.0,
+      "year": 2012,
+      "row_name": "Total equity and liabilities",
+      "row_idx": 32,
+      "col_name": "2012.0",
+      "col_idx": 5
+    },
+    {
+      "name": "Cash flows from operating activities",
+      "key": "Company",
+      "units": "€ million",
+      "value": 9430.0,
+      "year": 2016,
+      "row_name": "Cash flows from operating activities",
+      "row_idx": 33,
+      "col_name": "2016.0",
+      "col_idx": 1
+    }
+==================================================
+RECOVERY ERROR
+==================================================
+
+Expecting ',' delimiter: line 1663 column 6 (char 37343)

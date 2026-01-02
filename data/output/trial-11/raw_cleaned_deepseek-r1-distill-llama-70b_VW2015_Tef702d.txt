@@ -1,0 +1,5116 @@
+Model: deepseek-r1-distill-llama-70b
+Table: VW2015_Tef702d
+
+==================================================
+ORIGINAL OUTPUT
+==================================================
+
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 2:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 3:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 4:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 5:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 6:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 7:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 8:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 9:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 10:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 11:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 12:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 13:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 14:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 15:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 16:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 17:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 18:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 19:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 20:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "€ billion",
+  "value": 5.8,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+==================================================
+ORIGINAL ERROR
+==================================================
+
+Extra data: line 13 column 1 (char 261)
+
+==================================================
+RECOVERY ATTEMPT
+==================================================
+
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 20:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 21:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 22:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 23:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 24:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 25:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 26:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 27:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 28:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 29:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 30:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 31:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 32:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 33:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 34:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 35:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 36:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 37:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 38:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 39:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 40:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 41:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 42:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 43:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 44:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 45:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 46:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 47:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 48:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 49:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 50:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 51:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 52:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 53:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 54:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 55:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 56:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 57:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 58:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 59:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 60:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 61:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 62:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 63:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 64:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 65:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 66:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 67:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 68:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 69:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 70:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 71:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 72:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 73:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 74:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 75:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 76:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 77:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 78:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 79:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 80:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 81:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 82:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 83:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 84:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 85:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 86:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 87:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 88:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 89:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 90:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 91:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 92:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 93:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 94:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 95:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 96:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 97:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 98:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 99:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 100:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 101:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 102:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 103:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 104:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 105:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 106:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 107:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 108:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 109:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 110:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 111:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 112:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 113:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 114:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 115:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 116:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 117:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 118:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 119:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 120:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 121:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 122:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 123:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 124:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 125:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 126:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 127:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 128:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 129:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 130:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 131:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 132:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 133:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 134:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 135:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 136:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 137:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 138:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 139:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 140:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 141:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 142:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 143:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 144:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 145:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 146:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 147:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 148:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 149:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 150:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 151:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 152:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 153:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 154:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 155:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 156:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 157:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+==================================================
+RECOVERY ERROR
+==================================================
+
+Extra data: line 13 column 1 (char 324)
+Model: deepseek-r1-distill-llama-70b
+Table: VW2015_Tef702d
+
+==================================================
+ORIGINAL OUTPUT
+==================================================
+
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 2:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 3:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 4:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 5:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 6:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 7:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 8:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 9:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 10:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 11:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 12:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 13:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 14:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 15:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 16:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 17:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 18:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 19:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 20:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Automotive Division",
+  "units": "€ billion",
+  "value": 5.8,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+==================================================
+ORIGINAL ERROR
+==================================================
+
+Extra data: line 13 column 1 (char 261)
+
+==================================================
+RECOVERY ATTEMPT
+==================================================
+
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 20:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 21:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 22:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 23:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 24:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 25:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 26:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 27:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 28:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 29:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 30:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 31:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 32:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 33:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 34:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 35:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 36:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 37:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 38:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 39:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 40:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 41:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 42:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 43:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 44:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 45:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 46:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 47:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 48:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 49:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 50:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 51:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 52:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 53:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 54:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 55:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 56:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 57:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 58:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 59:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 60:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 61:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 62:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 63:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 64:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 65:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 66:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 67:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 68:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 69:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 70:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 71:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 72:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 73:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 74:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 75:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 76:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 77:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 78:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 79:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 80:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 81:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 82:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 83:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 84:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 85:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 86:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 87:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 88:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 89:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 90:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 91:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 92:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 93:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 94:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 95:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 96:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 97:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 98:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 99:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 100:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 101:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 102:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 103:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 104:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 105:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 106:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 107:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 108:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 109:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 110:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 111:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 112:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 113:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 114:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 115:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 116:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 117:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 118:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 119:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 120:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 121:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 122:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 123:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 124:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 125:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 126:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": -0.047,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 127:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.028,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 128:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "ratio",
+  "value": 0.021,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 12,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 129:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 202.5,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 130:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 213.3,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 1,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 131:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 132:**
+```json
+{
+  "name": "Operating result before special items",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.8,
+  "year": 2014,
+  "row_name": "Operating result before special items",
+  "row_idx": 4,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 133:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 12.7,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 134:**
+```json
+{
+  "name": "Operating result",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": -4.1,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 5,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 135:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 143.6,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 136:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 149.7,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 7,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 137:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": 9.8,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 138:**
+```json
+{
+  "name": "Operating result",
+  "key": "Passenger Cars Business Area",
+  "units": "€ billion",
+  "value": -7.0,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 9,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 139:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 33.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 140:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 34.2,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 11,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 141:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 142:**
+```json
+{
+  "name": "Operating result",
+  "key": "Commercial Vehicles/Power Engineering Business Area",
+  "units": "€ billion",
+  "value": 0.7,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 13,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 143:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 24.9,
+  "year": 2015,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 144:**
+```json
+{
+  "name": "Sales revenue",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 29.4,
+  "year": 2014,
+  "row_name": "Sales revenue",
+  "row_idx": 15,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 145:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 1.9,
+  "year": 2015,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 146:**
+```json
+{
+  "name": "Operating result",
+  "key": "Financial Services Division",
+  "units": "€ billion",
+  "value": 2.2,
+  "year": 2014,
+  "row_name": "Operating result",
+  "row_idx": 16,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 147:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.065,
+  "year": 2015,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 148:**
+```json
+{
+  "name": "Capex/sales revenue in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.069,
+  "year": 2014,
+  "row_name": "Capex/sales revenue in the Automotive Division",
+  "row_idx": 17,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 149:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 6.1,
+  "year": 2015,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 150:**
+```json
+{
+  "name": "Net cash flow in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "€ billion",
+  "value": 8.9,
+  "year": 2014,
+  "row_name": "Net cash flow in the Automotive Division",
+  "row_idx": 18,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 151:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.149,
+  "year": 2015,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 152:**
+```json
+{
+  "name": "Return on investment (ROI) in the Automotive Division",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.002,
+  "year": 2014,
+  "row_name": "Return on investment (ROI) in the Automotive Division",
+  "row_idx": 19,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 153:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 154:**
+```json
+{
+  "name": "Operating return on sales before special items",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.06,
+  "year": 2014,
+  "row_name": "Operating return on sales before special items",
+  "row_idx": 2,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 155:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": 0.063,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 156:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Volkswagen Group",
+  "units": "ratio",
+  "value": -0.019,
+  "year": 2014,
+  "row_name": "Operating return on sales",
+  "row_idx": 3,
+  "col_name": "€9.9 million",
+  "col_idx": 4,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+```
+
+**KPI 157:**
+```json
+{
+  "name": "Operating return on sales",
+  "key": "Passenger Cars Business Area",
+  "units": "ratio",
+  "value": 0.068,
+  "year": 2015,
+  "row_name": "Operating return on sales",
+  "row_idx": 8,
+  "col_name": "10.1 million",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+==================================================
+RECOVERY ERROR
+==================================================
+
+Extra data: line 13 column 1 (char 324)

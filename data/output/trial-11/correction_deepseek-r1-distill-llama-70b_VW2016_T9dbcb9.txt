@@ -1,0 +1,560 @@
+Model: deepseek-r1-distill-llama-70b
+Table: VW2016_T9dbcb9
+
+==================================================
+CORRECTION PROMPT
+==================================================
+
+The following KPIs are INVALID. Fix them using validation errors.
+
+CRITICAL: The PRIMARY validation is based on row_idx and col_idx (the indices that access the cell).
+- row_name and col_name are SECONDARY validation only
+- If there's a mismatch, FIX THE INDICES (row_idx/col_idx), NOT the names
+- The correct cell is at: data[row_idx][col_idx] = rows[row_idx][col_idx]
+- After fixing indices, row_name MUST equal stub_col[row_idx]
+- After fixing indices, col_name MUST equal merged_headers[col_idx]
+
+VALIDATION ERRORS:
+ERROR 1:
+  KPI: {
+  "name": "Receivables1",
+  "key": "Volkswagen AG",
+  "units": "\u20ac million",
+  "value": 26386.0,
+  "year": 2016,
+  "row_name": "Receivables1",
+  "row_idx": 2,
+  "col_name": "2016",
+  "col_idx": 1,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Receivables1', stub_col[2]='Receivables ^1', ✓ col_name verified: '2016'
+  Expected: row_idx=2, col_idx=1
+  stub_col[2] = 'Receivables ^1'
+  merged_headers[1] = '2016'
+  Source: 26386.0 (text: "26386.0")
+  Extracted: 26386.0
+
+  FIX: row_idx=2 points to wrong row
+    - Current: row_name='Receivables1' but stub_col[2]='Receivables ^1'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Receivables1':ERROR 2:
+  KPI: {
+  "name": "Receivables1",
+  "key": "Volkswagen AG",
+  "units": "\u20ac million",
+  "value": 26563.0,
+  "year": 2015,
+  "row_name": "Receivables1",
+  "row_idx": 2,
+  "col_name": "2015",
+  "col_idx": 2,
+  "source_model": "deepseek-r1-distill-llama-70b"
+}
+  Issues: ❌ row_name MISMATCH: KPI='Receivables1', stub_col[2]='Receivables ^1', ✓ col_name verified: '2015'
+  Expected: row_idx=2, col_idx=2
+  stub_col[2] = 'Receivables ^1'
+  merged_headers[2] = '2015'
+  Source: 26563.0 (text: "26563.0")
+  Extracted: 26563.0
+
+  FIX: row_idx=2 points to wrong row
+    - Current: row_name='Receivables1' but stub_col[2]='Receivables ^1'
+  SOLUTION: Search stub_col for the correct row_idx where value matches 'Receivables1':
+
+ALL EXTRACTED KPIs (for context):
+[
+  {
+    "name": "Fixed assets",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 101973.0,
+    "year": 2016,
+    "row_name": "Fixed assets",
+    "row_idx": 0,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Fixed assets",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 94919.0,
+    "year": 2015,
+    "row_name": "Fixed assets",
+    "row_idx": 0,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Inventories",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 4387.0,
+    "year": 2016,
+    "row_name": "Inventories",
+    "row_idx": 1,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Inventories",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 4073.0,
+    "year": 2015,
+    "row_name": "Inventories",
+    "row_idx": 1,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Receivables1",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 26386.0,
+    "year": 2016,
+    "row_name": "Receivables1",
+    "row_idx": 2,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Receivables1",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 26563.0,
+    "year": 2015,
+    "row_name": "Receivables1",
+    "row_idx": 2,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Cash-in-hand and bank balances",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 9117.0,
+    "year": 2016,
+    "row_name": "Cash-in-hand and bank balances",
+    "row_idx": 3,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Cash-in-hand and bank balances",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 7941.0,
+    "year": 2015,
+    "row_name": "Cash-in-hand and bank balances",
+    "row_idx": 3,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Total assets",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 141863.0,
+    "year": 2016,
+    "row_name": "Total assets",
+    "row_idx": 4,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Total assets",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 133496.0,
+    "year": 2015,
+    "row_name": "Total assets",
+    "row_idx": 4,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Equity",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 27100.0,
+    "year": 2016,
+    "row_name": "Equity",
+    "row_idx": 5,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Equity",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 24368.0,
+    "year": 2015,
+    "row_name": "Equity",
+    "row_idx": 5,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Special tax-allowable reserves",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 23.0,
+    "year": 2016,
+    "row_name": "Special tax-allowable reserves",
+    "row_idx": 6,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Special tax-allowable reserves",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 26.0,
+    "year": 2015,
+    "row_name": "Special tax-allowable reserves",
+    "row_idx": 6,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Long-term debt",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 26457.0,
+    "year": 2016,
+    "row_name": "Long-term debt",
+    "row_idx": 7,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Long-term debt",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 26973.0,
+    "year": 2015,
+    "row_name": "Long-term debt",
+    "row_idx": 7,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Medium-term debt",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 30082.0,
+    "year": 2016,
+    "row_name": "Medium-term debt",
+    "row_idx": 8,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Medium-term debt",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 32003.0,
+    "year": 2015,
+    "row_name": "Medium-term debt",
+    "row_idx": 8,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Short-term debt",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 58200.0,
+    "year": 2016,
+    "row_name": "Short-term debt",
+    "row_idx": 9,
+    "col_name": "2016",
+    "col_idx": 1,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  },
+  {
+    "name": "Short-term debt",
+    "key": "Volkswagen AG",
+    "units": "€ million",
+    "value": 50126.0,
+    "year": 2015,
+    "row_name": "Short-term debt",
+    "row_idx": 9,
+    "col_name": "2015",
+    "col_idx": 2,
+    "source_model": "deepseek-r1-distill-llama-70b"
+  }
+]
+
+ORIGINAL TABLE:
+{
+  "table_id": "VW2016_T9dbcb9",
+  "section_name": "BALANCE SHEET OF VOLKSWAGEN AG AS OF DECEMBER 31",
+  "title": "unknown title",
+  "headers": [
+    [
+      "€ million",
+      "2016",
+      "2015"
+    ]
+  ],
+  "merged_headers": [
+    "€ million",
+    "2016",
+    "2015"
+  ],
+  "rows": [
+    [
+      "Fixed assets",
+      "101973.0",
+      "94919.0"
+    ],
+    [
+      "Inventories",
+      "4387.0",
+      "4073.0"
+    ],
+    [
+      "Receivables1",
+      "26386.0",
+      "26563.0"
+    ],
+    [
+      "Cash-in-hand and bank balances",
+      "9117.0",
+      "7941.0"
+    ],
+    [
+      "Total assets",
+      "141863.0",
+      "133496.0"
+    ],
+    [
+      "Equity",
+      "27100.0",
+      "24368.0"
+    ],
+    [
+      "Special tax-allowable reserves",
+      "23.0",
+      "26.0"
+    ],
+    [
+      "Long-term debt",
+      "26457.0",
+      "26973.0"
+    ],
+    [
+      "Medium-term debt",
+      "30082.0",
+      "32003.0"
+    ],
+    [
+      "Short-term debt",
+      "58200.0",
+      "50126.0"
+    ]
+  ],
+  "stub_col": [
+    "Fixed assets",
+    "Inventories",
+    "Receivables ^1",
+    "Cash-in-hand and bank balances",
+    "Total assets",
+    "Equity",
+    "Special tax-allowable reserves",
+    "Long-term debt",
+    "Medium-term debt",
+    "Short-term debt"
+  ]
+}
+
+HOW TO FIX ERRORS:
+
+1. KEY = NAME ERROR (IDENTICAL VALUES):
+   - This means "key" and "name" have the same value, which is not allowed
+   - SOLUTION: Search the table to understand what this KPI represents
+   - Look at the table's title, section_name, and context
+   - "name" = the KPI metric (what is being measured) - usually from row label (stub_col) or table title
+   - "key" = the entity/segment (what/who it applies to) - from context, section, or broader category
+   
+   EXAMPLES:
+   - Table: "Volkswagen Passenger Cars - Production" with row "Golf"
+     → name: "Production" (from title), key: "Golf" (from row)
+   - Table: "Key Figures" with rows "Sales revenue", "Operating profit"
+     → name: "Sales revenue"/"Operating profit" (from row), key: "Company"/"Volkswagen Group" (from context)
+   - Table: "Brand Production" with row "Audi" 
+     → name: "Production" (from title), key: "Audi" (from row)
+
+2. VALUE MISMATCH: Adjust row_idx or col_idx to point to the cell with the correct value
+   - Check if value appears in adjacent cells (row_idx±1 or col_idx±1)
+   - Update row_idx/col_idx to the correct position
+   - Then update row_name = stub_col[row_idx] and col_name = merged_headers[col_idx]
+
+3. ROW_NAME MISMATCH: The row_idx is pointing to wrong row
+   - Find the correct row_idx where stub_col[row_idx] matches the intended row
+   - Update row_idx to the correct value
+   - Keep row_name as stub_col[row_idx] (don't change the name to match wrong index!)
+
+4. COL_NAME MISMATCH: The col_idx is pointing to wrong column
+   - Find the correct col_idx where merged_headers[col_idx] matches the intended year/column
+   - Update col_idx to the correct value
+   - Keep col_name as merged_headers[col_idx] (don't change the name to match wrong index!)
+
+5. EUROPEAN DECIMALS: Handle comma as decimal separator
+   - "1,4864" → 1.4864
+   - "−2,5" → -2.5
+
+REMEMBER: 
+- Fix indices first, then names will automatically align with stub_col and merged_headers!
+- For key=name errors, determine the correct "name" (metric) and "key" (entity) from table context
+
+
+OUTPUT FORMAT (JSON only, output should be exactly 20 KPIs):
+{
+  "kpis": [
+    {
+      "name": "metric name from table",
+      "key": "entity or segment",
+      "units": "measurement units",
+      "value": 12345,
+      "year": 2024,
+      "row_name": "exact text from stub_col",
+      "row_idx": 0,
+      "col_name": "exact text from merged_headers",
+      "col_idx": 1
+    }
+  ]
+}
+
+==================================================
+GENERATED TEXT
+==================================================
+
+ 
+Okay, so I need to fix these two KPIs that have validation errors. Let me look at the problem step by step.
+
+First, looking at the first KPI with the error. The name is "Receivables1", key is "Volkswagen AG", units are in euros, value is 26386.0 for 2016. The row_idx is 2, col_idx is 1. The issue is that the row_name "Receivables1" doesn't match stub_col[2], which is "Receivables ^1". So, the row_idx is pointing to the wrong row.
+
+The solution says to search stub_col for the correct row_idx where the value matches "Receivables1". Looking at the stub_col array provided, I see that at index 2, it's "Receivables ^1". Hmm, that's different from "Receivables1". So, maybe the correct row is actually index 2, but the name in the KPI is slightly different. Wait, perhaps it's a typo or formatting issue. The stub_col has "Receivables ^1" which might be a representation of "Receivables1". So, maybe the row_idx is correct, but the row_name in the KPI is wrong. But according to the instructions, if there's a mismatch, I should fix the indices, not the names. So, if the row_idx is 2 but the stub_col[2] is "Receivables ^1", which doesn't match "Receivables1", I need to find the correct row_idx where stub_col matches "Receivables1".
+
+Looking through the stub_col array:
+
+0: Fixed assets
+1: Inventories
+2: Receivables ^1
+3: Cash-in-hand and bank balances
+4: Total assets
+5: Equity
+6: Special tax-allowable reserves
+7: Long-term debt
+8: Medium-term debt
+9: Short-term debt
+
+I don't see "Receivables1" anywhere else. So, perhaps the correct row is index 2, but the name in the KPI is incorrect. But the instructions say to fix the indices, not the names. So, maybe the KPI's row_name is wrong, but the row_idx is correct. Wait, no, the row_idx is 2, but the stub_col[2] is "Receivables ^1", which doesn't match the KPI's row_name "Receivables1". So, perhaps the KPI's row_idx is wrong, and it should point to a different row. But looking at the stub_col, there's no other row with "Receivables1". So, maybe the KPI's row_name is incorrect, but the row_idx is correct. But according to the instructions, I should fix the indices, not the names. So, perhaps the row_idx is correct, and the row_name in the KPI should be updated to match stub_col[2], which is "Receivables ^1". But the user's instruction says to fix the indices, not the names. So, maybe the row_idx is wrong, and I need to find the correct row where the stub_col matches "Receivables1". But since there's no such row, perhaps the KPI is correct, and the stub_col has a typo. Alternatively, maybe the KPI's row_name is correct, and the stub_col is wrong. But I can't change the stub_col; I have to fix the KPI.
+
+Wait, perhaps the KPI's row_idx is correct, and the row_name should be updated to "Receivables ^1" to match stub_col[2]. But the instructions say that after fixing the indices, the row_name must equal stub_col[row_idx]. So, if the row_idx is correct, then the row_name in the KPI should be "Receivables ^1", not "Receivables1". But the user's problem is that the row_name doesn't match, so perhaps the row_idx is wrong. But since there's no other row with "Receivables1", maybe the row_idx is correct, and the KPI's row_name is wrong. So, perhaps the KPI's row_name should be "Receivables ^1", and the row_idx remains 2. But the user's instruction says to fix the indices, not the names. So, I'm a bit confused.
+
+Wait, looking back, the user provided two KPIs with the same issue. Both have row_idx=2, but stub_col[2] is "Receivables ^1", which doesn't match "Receivables1". So, perhaps the correct row is index 2, and the KPI's row_name is wrong. So, to fix this, I should change the row_name in the KPI to "Receivables ^1" and keep row_idx=2. But the user's instructions say that if there's a mismatch, fix the indices, not the names. So, perhaps the row_idx is wrong, and I need to find the correct row where stub_col matches "Receivables1". But since there's no such row, maybe the KPI is incorrect, and the row_idx should stay as 2, and the row_name should be updated. But the user's instructions are a bit conflicting here.
+
+Alternatively, perhaps the KPI's row_idx is correct, and the stub_col has a typo. But I can't change the stub_col. So, perhaps the KPI's row_name is correct, and the row_idx is wrong. But looking at the table, the row at index 2 is "Receivables1" in the rows array. Wait, no, the rows array has "Receivables1" as the third row (index 2), but the stub_col at index 2 is "Receivables ^1". So, perhaps the stub_col is incorrect, but I can't change that. So, the KPI's row_name is "Receivables1", which matches the rows[2][0], but the stub_col[2] is different. So, perhaps the row_idx is correct, and the row_name should be updated to match stub_col[2]. But the user's instructions say to fix the indices, not the names. So, I'm stuck.
+
+Wait, maybe the issue is that the KPI's row_name is "Receivables1", but the stub_col[2] is "Receivables ^1". So, perhaps the correct row_idx is 2, but the row_name in the KPI is wrong. So, to fix this, I should change the row_name in the KPI to "Receivables ^1" and keep row_idx=2. But the user's instructions say to fix the indices, not the names. So, perhaps the row_idx is wrong, and I need to find another row where stub_col matches "Receivables1", but there isn't one. So, perhaps the KPI is correct, and the stub_col is wrong, but I can't change the stub_col. Therefore, the only solution is to adjust the row_idx to point to the correct row, but since there's no other row, perhaps the row_idx is correct, and the row_name in the KPI is wrong. So, I have to change the row_name in the KPI to match stub_col[2], which is "Receivables ^1".
+
+But wait, the user's instructions say that after fixing the indices, the row_name must equal stub_col[row_idx]. So, if the row_idx is correct, then the row_name must be updated. So, perhaps the KPI's row_name is wrong, and I need to change it to "Receivables ^1" and keep row_idx=2. Similarly for the second KPI.
+
+So, for both KPIs, I'll change the row_name to "Receivables ^1" and keep row_idx=2. The col_idx and col_name are correct because they match the merged_headers. So, the fixed KPIs would have row_name "Receivables ^1" and row_idx=2.
+
+Wait, but the user's instructions say that if there's a mismatch, fix the indices, not the names. So, perhaps I'm misunderstanding. Maybe the row_idx is wrong, and I need to find the correct row where stub_col matches "Receivables1". But since there's no such row, perhaps the KPI is incorrect, and I have to adjust the row_idx to point to the correct row, which is index 2, and then set row_name to "Receivables ^1".
+
+Alternatively, perhaps the KPI's row_idx is correct, and the row_name is wrong, so I need to update the row_name to match stub_col[2]. But the user's instructions say to fix the indices, not the names. So, I'm a bit confused about the correct approach here.
+
+Wait, looking back at the user's instructions: "If there's a mismatch, FIX THE INDICES (row_idx/col_idx), NOT the names". So, if the row_name doesn't match stub_col[row_idx], I should adjust the row_idx to point to the correct row where stub_col matches the row_name. But in this case, the row_name is "Receivables1", and stub_col doesn't have that. So, perhaps the row_idx is wrong, and I need to find the correct row where stub_col matches "Receivables1", but since it's not present, perhaps the KPI is incorrect. Alternatively, perhaps the row_name in the KPI is wrong, and I need to adjust it, but the user says not to change the names, only the indices.
+
+This is a bit confusing. Maybe I should look at the table's rows. The rows array has "Receivables1" at index 2. So, the stub_col at index 2 is "Receivables ^1", which is different. So, perhaps the stub_col is incorrect, but I can't change that. Therefore, the KPI's row_idx is correct (2), but the row_name should be "Receivables ^1" to match stub_col[2]. But the user's instructions say to fix the indices, not the names. So, perhaps the row_idx is correct, and the row_name in the KPI is wrong. Therefore, I need to update the row_name in the KPI to "Receivables ^1" and keep row_idx=2.
+
+So, for both KPIs, I'll change the row_name to "Receivables ^1" and keep row_idx=2. The col_idx and col_name are correct, so I'll leave them as is.
+
+Wait, but the user's example shows that when there's a row_name mismatch, they adjust the row_idx. For example, in the solution, they say to search stub_col for the correct row_idx. So, perhaps in this case, since the stub_col doesn't have "Receivables1", the KPI is incorrect, and perhaps the row_idx should remain 2, and the row_name should be updated. But the user's instructions say to fix the indices, not the names. So, perhaps the row_idx is correct, and the row_name is wrong, so I have to change the row_name.
+
+Alternatively, perhaps the KPI's row_idx is wrong, and I need to find the correct row where the stub_col matches "Receivables1", but since it's not present, perhaps the KPI is incorrect. But that can't be, because the rows array has "Receivables1" at index 2. So, perhaps the stub_col is wrong, but I can't change that. Therefore, the KPI's row_idx is correct, and the row_name should be updated to match stub_col[2], which is "Receivables ^1".
+
+So, in conclusion, for both KPIs, I'll update the row_name to "Receivables ^1" and keep row_idx=2. The col_idx and col_name are correct, so no changes there.
+</think>
+
+{
+  "kpis": [
+    {
+      "name": "Receivables1",
+      "key": "Volkswagen AG",
+      "units": "€ million",
+      "value": 26386.0,
+      "year": 2016,
+      "row_name": "Receivables ^1",
+      "row_idx": 2,
+      "col_name": "2016",
+      "col_idx": 1
+    },
+    {
+      "name": "Receivables1",
+      "key": "Volkswagen AG",
+      "units": "€ million",
+      "value": 26563.0,
+      "year": 2015,
+      "row_name": "Receivables ^1",
+      "row_idx": 2,
+      "col_name": "2015",
+      "col_idx": 2
+    }
+  ]
+}
+
+==================================================
+CLEANED TEXT
+==================================================
+
+{
+  "kpis": [
+    {
+      "name": "Receivables1",
+      "key": "Volkswagen AG",
+      "units": "€ million",
+      "value": 26386.0,
+      "year": 2016,
+      "row_name": "Receivables ^1",
+      "row_idx": 2,
+      "col_name": "2016",
+      "col_idx": 1
+    },
+    {
+      "name": "Receivables1",
+      "key": "Volkswagen AG",
+      "units": "€ million",
+      "value": 26563.0,
+      "year": 2015,
+      "row_name": "Receivables ^1",
+      "row_idx": 2,
+      "col_name": "2015",
+      "col_idx": 2
+    }
+  ]
+}
