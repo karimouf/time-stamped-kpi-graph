@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Partial Chain Review – trial-29 vlm_qwen_72b</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; background: #f4f5f7; }
+
+  header { background: #1a1a2e; color: #fff; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; }
+  header h1 { font-size: 16px; font-weight: 600; }
+  header .stats { font-size: 12px; color: #aab; }
+
+  .toolbar { background: #fff; border-bottom: 1px solid #dde; padding: 10px 16px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .toolbar input[type=text] { padding: 5px 9px; border: 1px solid #ccc; border-radius: 4px; width: 220px; font-size: 12px; }
+  .toolbar select { padding: 5px 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 12px; }
+  .toolbar button { padding: 5px 14px; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; }
+  .btn-export { background: #2563eb; color: #fff; }
+  .btn-export:hover { background: #1d4ed8; }
+  .btn-load  { background: #16a34a; color: #fff; }
+  .btn-load:hover  { background: #15803d; }
+  .btn-clear { background: #e5e7eb; color: #333; }
+  .btn-clear:hover { background: #d1d5db; }
+  .spacer { flex: 1; }
+
+  #progress-bar-wrap { height: 4px; background: #e5e7eb; }
+  #progress-bar { height: 4px; background: #2563eb; width: 0%; transition: width 0.3s; }
+
+  table { width: 100%; border-collapse: collapse; }
+  thead th { position: sticky; top: 0; background: #f1f3f9; padding: 8px 10px; text-align: left; font-size: 11px; text-transform: uppercase; color: #555; border-bottom: 2px solid #dde; cursor: pointer; user-select: none; }
+  thead th:hover { background: #e4e8f4; }
+  tbody tr { border-bottom: 1px solid #eee; }
+  tbody tr:hover { background: #f9fafb; }
+  tbody tr.done { background: #f0fdf4; }
+  tbody tr.done td { color: #555; }
+  td { padding: 6px 10px; vertical-align: middle; }
+  td.name  { font-weight: 600; max-width: 200px; word-break: break-word; }
+  td.name .chain-id { display: block; font-weight: 400; font-size: 10px; color: #888; margin-top: 2px; word-break: break-all; }
+  td.key   { max-width: 220px; word-break: break-word; color: #334; }
+  td.years { font-size: 11px; color: #666; white-space: nowrap; }
+  td.missing { font-size: 11px; color: #b45309; }
+  td.len   { text-align: center; }
+  td.status-cell { text-align: center; width: 90px; }
+  td.note  { min-width: 180px; }
+  td.note input { width: 100%; border: 1px solid #ddd; border-radius: 3px; padding: 3px 6px; font-size: 12px; }
+  td.note input:focus { outline: none; border-color: #93c5fd; }
+
+  .badge { display: inline-block; border-radius: 10px; padding: 2px 9px; font-size: 11px; font-weight: 600; }
+  .badge-complete  { background: #dcfce7; color: #16a34a; }
+  .badge-partial   { background: #fef9c3; color: #854d0e; }
+  .badge-missing   { background: #fee2e2; color: #b91c1c; }
+  .badge-skip      { background: #f3f4f6; color: #6b7280; }
+
+  select.status-sel, select.valid-sel { font-size: 12px; border: 1px solid #ccc; border-radius: 4px; padding: 3px 6px; width: 100%; }
+  td.valid-cell { text-align: center; width: 90px; }
+  .v-yes  { background: #dcfce7; color: #15803d; font-weight: 600; border-radius: 4px; padding: 2px 8px; }
+  .v-no   { background: #fee2e2; color: #b91c1c; font-weight: 600; border-radius: 4px; padding: 2px 8px; }
+  .v-unk  { background: #f3f4f6; color: #6b7280; border-radius: 4px; padding: 2px 8px; }
+
+  .year-pill { display: inline-block; background: #dbeafe; color: #1e40af; border-radius: 3px; padding: 1px 5px; margin: 1px; font-size: 11px; }
+  .year-pill.missing { background: #fee2e2; color: #b91c1c; }
+
+  #drop-zone { display: flex; align-items: center; justify-content: center; height: calc(100vh - 120px); flex-direction: column; gap: 12px; color: #888; }
+  #drop-zone .icon { font-size: 48px; }
+  #drop-zone p { font-size: 14px; }
+
+  #table-wrap { overflow-y: auto; max-height: calc(100vh - 115px); }
+  #count-label { font-size: 12px; color: #666; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Partial Chain Review &nbsp;–&nbsp; trial-29 / vlm_qwen_72b</h1>
+  <span class="stats" id="header-stats">Load links.json to begin</span>
+</header>
+
+<div class="toolbar">
+  <input type="text" id="search" placeholder="Search name or key…" oninput="applyFilters()">
+  <select id="filter-status" onchange="applyFilters()">
+    <option value="">All statuses</option>
+    <option value="unreviewed">Unreviewed</option>
+    <option value="complete">Complete</option>
+    <option value="partial">Partial (acceptable)</option>
+    <option value="missing">Missing years</option>
+    <option value="skip">Skip / noise</option>
+  </select>
+  <select id="filter-len" onchange="applyFilters()">
+    <option value="">Any length</option>
+    <option value="1">1 year only</option>
+    <option value="2-3">2–3 years</option>
+    <option value="4-6">4–6 years</option>
+    <option value="7">7 years</option>
+    <option value="8">8 years</option>
+    <option value="9">9 years</option>
+    <option value="10+">10 or more years</option>
+  </select>
+  <select id="filter-valid" onchange="applyFilters()">
+    <option value="">All validity</option>
+    <option value="unknown">Not judged</option>
+    <option value="yes">✅ Valid</option>
+    <option value="no">❌ Not valid</option>
+    <option value="uncertain">❓ Uncertain</option>
+  </select>
+  <span id="count-label"></span>
+  <span class="spacer"></span>
+  <button class="btn-load" onclick="document.getElementById('file-input').click()">📂 Load links.json</button>
+  <input type="file" id="file-input" accept=".json" style="display:none" onchange="loadFile(event)">
+  <button class="btn-load" onclick="document.getElementById('ann-input').click()">📥 Load annotations</button>
+  <input type="file" id="ann-input" accept=".json" style="display:none" onchange="loadAnnotations(event)">
+  <button class="btn-export" onclick="exportAnnotations()">💾 Export annotations</button>
+  <button class="btn-clear" onclick="clearAll()">✕ Clear all</button>
+</div>
+<div id="progress-bar-wrap"><div id="progress-bar"></div></div>
+
+<div id="drop-zone">
+  <div class="icon">📂</div>
+  <p>Click <strong>Load links.json</strong> above, or drop the file here</p>
+  <p style="font-size:12px;color:#aaa">Expected: <code>data/kpi_links/trial-29_vlm_qwen_72b/links.json</code></p>
+</div>
+<div id="table-wrap" style="display:none">
+  <table id="chain-table">
+    <thead>
+      <tr>
+        <th onclick="sortBy('name')">#&nbsp;&nbsp;Name ↕</th>
+        <th onclick="sortBy('key')">Key ↕</th>
+        <th onclick="sortBy('length')">Len ↕</th>
+        <th>Years present</th>
+        <th onclick="sortBy('missing')">Missing ↕</th>
+        <th>Valid?</th>
+        <th>Status</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+let allChains = [];       // raw chain objects enriched with index + derived fields
+let annotations = {};     // index -> { status, note, valid }
+let sortKey = 'missing';
+let sortDir = -1;
+
+// ── Load links.json ─────────────────────────────────────────────────────────
+function loadFile(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      processData(data);
+    } catch(ex) {
+      alert('Failed to parse JSON: ' + ex.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function processData(data) {
+  const chains = data.temporal_chains || [];
+  const ALL_YEARS = deriveYearRange(chains);
+
+  allChains = chains.map((c, i) => {
+    const presentYears = (c.nodes || []).map(n => n.year).filter(y => y != null).sort((a,b)=>a-b);
+    const fullRange = rangeSet(ALL_YEARS[0], ALL_YEARS[1]);
+    const missing = fullRange.filter(y => !presentYears.includes(y));
+    return {
+      idx: i,
+      name: c.name || '',
+      key: c.key || '',
+      length: c.length || 0,
+      yearStart: c.year_range?.start,
+      yearEnd:   c.year_range?.end,
+      presentYears,
+      missing,
+      chainId: c.chain_id,
+    };
+  });
+
+  // Init annotations
+  allChains.forEach(c => {
+    if (!annotations[c.idx]) annotations[c.idx] = { status: 'unreviewed', valid: 'unknown', note: '' };
+  });
+
+  updateHeaderStats();
+  applyFilters();
+  document.getElementById('drop-zone').style.display = 'none';
+  document.getElementById('table-wrap').style.display = 'block';
+}
+
+function deriveYearRange(chains) {
+  let min = Infinity, max = -Infinity;
+  chains.forEach(c => {
+    (c.nodes || []).forEach(n => {
+      if (n.year != null) { min = Math.min(min, n.year); max = Math.max(max, n.year); }
+    });
+  });
+  return [min === Infinity ? 2014 : min, max === -Infinity ? 2023 : max];
+}
+
+function rangeSet(start, end) {
+  const out = [];
+  for (let y = start; y <= end; y++) out.push(y);
+  return out;
+}
+
+// ── Render ───────────────────────────────────────────────────────────────────
+function applyFilters() {
+  const q      = document.getElementById('search').value.toLowerCase();
+  const fStat  = document.getElementById('filter-status').value;
+  const fLen   = document.getElementById('filter-len').value;
+  const fValid = document.getElementById('filter-valid').value;
+
+  let filtered = allChains.filter(c => {
+    if (q && !c.name.toLowerCase().includes(q) && !c.key.toLowerCase().includes(q)) return false;
+    const ann = annotations[c.idx] || {};
+    if (fStat  && ann.status !== fStat)  return false;
+    if (fValid && (ann.valid || 'unknown') !== fValid) return false;
+    if (fLen) {
+      if (fLen === '1'   && c.length !== 1) return false;
+      if (fLen === '2-3' && (c.length < 2 || c.length > 3)) return false;
+      if (fLen === '4-6' && (c.length < 4 || c.length > 6)) return false;
+      if (fLen === '7+'  && c.length < 7) return false;
+         if (fLen === '7'   && c.length !== 7) return false;
+         if (fLen === '8'   && c.length !== 8) return false;
+         if (fLen === '9'   && c.length !== 9) return false;
+         if (fLen === '10+' && c.length < 10) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  filtered.sort((a, b) => {
+    let va, vb;
+    if (sortKey === 'name')    { va = a.name;    vb = b.name; }
+    else if (sortKey === 'key')    { va = a.key;     vb = b.key; }
+    else if (sortKey === 'length') { va = a.length;  vb = b.length; }
+    else /* missing */             { va = a.missing.length; vb = b.missing.length; }
+    if (va < vb) return  sortDir;
+    if (va > vb) return -sortDir;
+    return 0;
+  });
+
+  document.getElementById('count-label').textContent = `${filtered.length} / ${allChains.length} chains`;
+  renderTable(filtered);
+  updateProgress();
+}
+
+function renderTable(chains) {
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = '';
+  chains.forEach((c, rowNum) => {
+    const ann = annotations[c.idx] || { status: 'unreviewed', valid: 'unknown', note: '' };
+    const v = ann.valid || 'unknown';
+    const vLabel = v === 'yes' ? '✅ Valid' : v === 'no' ? '❌ Not valid' : v === 'uncertain' ? '❓ Uncertain' : '— ?';
+    const vClass = v === 'yes' ? 'v-yes' : v === 'no' ? 'v-no' : v === 'uncertain' ? 'v-unk' : '';
+    const tr = document.createElement('tr');
+    if (ann.status !== 'unreviewed') tr.classList.add('done');
+
+    tr.innerHTML = `
+      <td class="name">${rowNum + 1}. ${esc(c.name)}<span class="chain-id">${esc(c.chainId)}</span></td>
+      <td class="key">${esc(c.key)}</td>
+      <td class="len">${c.length}</td>
+      <td class="years">${c.presentYears.map(y => `<span class="year-pill">${y}</span>`).join('')}</td>
+      <td class="missing">${c.missing.map(y => `<span class="year-pill missing">${y}</span>`).join('') || '<span style="color:#999">—</span>'}</td>
+      <td class="valid-cell">
+        <select class="valid-sel" data-idx="${c.idx}" onchange="setValid(this)">
+          <option value="unknown"   ${v==='unknown'  ?'selected':''}>— ?</option>
+          <option value="yes"       ${v==='yes'      ?'selected':''}>✅ Valid</option>
+          <option value="no"        ${v==='no'       ?'selected':''}>❌ Not valid</option>
+          <option value="uncertain" ${v==='uncertain'?'selected':''}>❓ Uncertain</option>
+        </select>
+      </td>
+      <td class="status-cell">
+        <select class="status-sel" data-idx="${c.idx}" onchange="setStatus(this)">
+          <option value="unreviewed" ${ann.status==='unreviewed'?'selected':''}>— unreviewed</option>
+          <option value="complete"   ${ann.status==='complete'  ?'selected':''}>✅ complete</option>
+          <option value="partial"    ${ann.status==='partial'   ?'selected':''}>🟡 acceptable</option>
+          <option value="missing"    ${ann.status==='missing'   ?'selected':''}>🔴 missing years</option>
+          <option value="skip"       ${ann.status==='skip'      ?'selected':''}>⬜ skip/noise</option>
+        </select>
+      </td>
+      <td class="note"><input type="text" placeholder="optional note…" data-idx="${c.idx}" value="${esc(ann.note)}" oninput="setNote(this)"></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Annotation updates ───────────────────────────────────────────────────────
+function setStatus(sel) {
+  const idx = parseInt(sel.dataset.idx);
+  annotations[idx].status = sel.value;
+  sel.closest('tr').classList.toggle('done', sel.value !== 'unreviewed');
+  updateProgress();
+  updateHeaderStats();
+}
+
+function setValid(sel) {
+  const idx = parseInt(sel.dataset.idx);
+  annotations[idx].valid = sel.value;
+  updateHeaderStats();
+}
+
+function setNote(input) {
+  const idx = parseInt(input.dataset.idx);
+  annotations[idx].note = input.value;
+}
+
+function sortBy(key) {
+  if (sortKey === key) sortDir *= -1;
+  else { sortKey = key; sortDir = -1; }
+  applyFilters();
+}
+
+// ── Progress ─────────────────────────────────────────────────────────────────
+function updateProgress() {
+  const reviewed = Object.values(annotations).filter(a => a.status !== 'unreviewed').length;
+  const total    = allChains.length;
+  document.getElementById('progress-bar').style.width = total ? (reviewed / total * 100) + '%' : '0%';
+}
+
+function updateHeaderStats() {
+  if (!allChains.length) return;
+  const total    = allChains.length;
+  const reviewed = Object.values(annotations).filter(a => a.status !== 'unreviewed').length;
+  const complete = Object.values(annotations).filter(a => a.status === 'complete').length;
+  const validYes = Object.values(annotations).filter(a => a.valid === 'yes').length;
+  const validNo  = Object.values(annotations).filter(a => a.valid === 'no').length;
+  document.getElementById('header-stats').textContent =
+    `${total} chains · ${reviewed} reviewed · ${complete} complete · ✅ ${validYes} valid · ❌ ${validNo} not valid`;
+}
+
+// ── Export / Import ──────────────────────────────────────────────────────────
+function exportAnnotations() {
+  const out = allChains.map(c => ({
+    chain_id:     c.chainId,
+    name:         c.name,
+    key:          c.key,
+    length:       c.length,
+    present_years: c.presentYears,
+    missing_years: c.missing,
+    valid:        (annotations[c.idx] || {}).valid  || 'unknown',
+    status:       (annotations[c.idx] || {}).status || 'unreviewed',
+    note:         (annotations[c.idx] || {}).note   || '',
+  }));
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' });
+  const a    = document.createElement('a');
+  a.href     = URL.createObjectURL(blob);
+  a.download = 'chain_annotations.json';
+  a.click();
+}
+
+function loadAnnotations(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      // Match by chain_id + name + key → apply back to allChains
+      const byKey = {};
+      allChains.forEach(c => { byKey[c.chainId + '||' + c.name + '||' + c.key] = c.idx; });
+      data.forEach(row => {
+        const k = row.chain_id + '||' + row.name + '||' + row.key;
+        if (byKey[k] !== undefined) {
+          const idx = byKey[k];
+          annotations[idx] = { status: row.status || 'unreviewed', valid: row.valid || 'unknown', note: row.note || '' };
+        }
+      });
+      applyFilters();
+      updateHeaderStats();
+      updateProgress();
+      alert(`Loaded annotations for ${data.length} chains.`);
+    } catch(ex) {
+      alert('Failed to parse annotations: ' + ex.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function clearAll() {
+  if (!confirm('Clear all annotations?')) return;
+  allChains.forEach(c => { annotations[c.idx] = { status: 'unreviewed', valid: 'unknown', note: '' }; });
+  applyFilters();
+  updateHeaderStats();
+  updateProgress();
+}
+
+// ── Drag-and-drop support ────────────────────────────────────────────────────
+document.addEventListener('dragover', e => e.preventDefault());
+document.addEventListener('drop', e => {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    try { processData(JSON.parse(ev.target.result)); } catch(ex) { alert('Bad JSON: ' + ex.message); }
+  };
+  reader.readAsText(file);
+});
+</script>
+</body>
+</html>
