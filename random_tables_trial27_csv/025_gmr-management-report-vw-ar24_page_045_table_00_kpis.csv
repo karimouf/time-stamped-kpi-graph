@@ -1,0 +1,85 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Sales revenue,Volkswagen Group,Worldwide,324656,2024,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Sales revenue,Volkswagen Group,Worldwide,322284,2023,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Sales revenue,Automotive,Worldwide,265887,2024,€ million,0,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Sales revenue,Automotive,Worldwide,268156,2023,€ million,0,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Sales revenue,Financial Services,Worldwide,58769,2024,€ million,0,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Sales revenue,Financial Services,Worldwide,54128,2023,€ million,0,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Cost of sales,Volkswagen Group,Worldwide,-265184,2024,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Cost of sales,Volkswagen Group,Worldwide,-261299,2023,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Cost of sales,Automotive,Worldwide,-214470,2024,€ million,1,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Cost of sales,Automotive,Worldwide,-215033,2023,€ million,1,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Cost of sales,Financial Services,Worldwide,-50714,2024,€ million,1,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Cost of sales,Financial Services,Worldwide,-46266,2023,€ million,1,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Gross profit,Volkswagen Group,Worldwide,59472,2024,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Gross profit,Volkswagen Group,Worldwide,60985,2023,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Gross profit,Automotive,Worldwide,51417,2024,€ million,2,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Gross profit,Automotive,Worldwide,53123,2023,€ million,2,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Gross profit,Financial Services,Worldwide,8055,2024,€ million,2,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Gross profit,Financial Services,Worldwide,7862,2023,€ million,2,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Distribution expenses,Volkswagen Group,Worldwide,-22320,2024,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Distribution expenses,Volkswagen Group,Worldwide,-21345,2023,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Distribution expenses,Automotive,Worldwide,-21124,2024,€ million,3,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Distribution expenses,Automotive,Worldwide,-20310,2023,€ million,3,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Distribution expenses,Financial Services,Worldwide,-1196,2024,€ million,3,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Distribution expenses,Financial Services,Worldwide,-1035,2023,€ million,3,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Administrative expenses,Volkswagen Group,Worldwide,-12754,2024,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Administrative expenses,Volkswagen Group,Worldwide,-12729,2023,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Administrative expenses,Automotive,Worldwide,-10225,2024,€ million,4,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Administrative expenses,Automotive,Worldwide,-10009,2023,€ million,4,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Administrative expenses,Financial Services,Worldwide,-2529,2024,€ million,4,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Administrative expenses,Financial Services,Worldwide,-2720,2023,€ million,4,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Net other operating result,Volkswagen Group,Worldwide,-5338,2024,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Net other operating result,Volkswagen Group,Worldwide,-4382,2023,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Net other operating result,Automotive,Worldwide,-4127,2024,€ million,5,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Net other operating result,Automotive,Worldwide,-4061,2023,€ million,5,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Net other operating result,Financial Services,Worldwide,-1211,2024,€ million,5,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Net other operating result,Financial Services,Worldwide,-321,2023,€ million,5,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating result,Volkswagen Group,Worldwide,19060,2024,€ million,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating result,Volkswagen Group,Worldwide,22528,2023,€ million,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating result,Automotive,Worldwide,15941,2024,€ million,6,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating result,Automotive,Worldwide,18742,2023,€ million,6,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating result,Financial Services,Worldwide,3119,2024,€ million,6,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating result,Financial Services,Worldwide,3786,2023,€ million,6,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating return on sales,Volkswagen Group,Worldwide,5.9,2024,%,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating return on sales,Volkswagen Group,Worldwide,7.0,2023,%,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating return on sales,Automotive,Worldwide,6.0,2024,%,7,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating return on sales,Automotive,Worldwide,7.0,2023,%,7,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating return on sales,Financial Services,Worldwide,5.3,2024,%,7,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Operating return on sales,Financial Services,Worldwide,7.0,2023,%,7,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Share of profits and losses of equity-accounted investments,Volkswagen Group,Worldwide,375,2024,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Share of profits and losses of equity-accounted investments,Volkswagen Group,Worldwide,2291,2023,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Share of profits and losses of equity-accounted investments,Automotive,Worldwide,526,2024,€ million,8,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Share of profits and losses of equity-accounted investments,Automotive,Worldwide,2236,2023,€ million,8,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Share of profits and losses of equity-accounted investments,Financial Services,Worldwide,-151,2024,€ million,8,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Share of profits and losses of equity-accounted investments,Financial Services,Worldwide,55,2023,€ million,8,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Interest result and Other financial result,Volkswagen Group,Worldwide,-2629,2024,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Interest result and Other financial result,Volkswagen Group,Worldwide,-1720,2023,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Interest result and Other financial result,Automotive,Worldwide,-2655,2024,€ million,9,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Interest result and Other financial result,Automotive,Worldwide,-1644,2023,€ million,9,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Interest result and Other financial result,Financial Services,Worldwide,26,2024,€ million,9,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Interest result and Other financial result,Financial Services,Worldwide,-76,2023,€ million,9,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Financial result,Volkswagen Group,Worldwide,-2255,2024,€ million,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Financial result,Volkswagen Group,Worldwide,570,2023,€ million,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Financial result,Automotive,Worldwide,-2130,2024,€ million,10,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Financial result,Automotive,Worldwide,592,2023,€ million,10,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Financial result,Financial Services,Worldwide,-125,2024,€ million,10,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Financial result,Financial Services,Worldwide,-22,2023,€ million,10,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings before tax,Volkswagen Group,Worldwide,16806,2024,€ million,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings before tax,Volkswagen Group,Worldwide,23099,2023,€ million,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings before tax,Automotive,Worldwide,13811,2024,€ million,11,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings before tax,Automotive,Worldwide,19335,2023,€ million,11,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings before tax,Financial Services,Worldwide,2994,2024,€ million,11,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings before tax,Financial Services,Worldwide,3764,2023,€ million,11,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Income tax expense,Volkswagen Group,Worldwide,-4411,2024,€ million,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Income tax expense,Volkswagen Group,Worldwide,-5237,2023,€ million,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Income tax expense,Automotive,Worldwide,-3137,2024,€ million,12,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Income tax expense,Automotive,Worldwide,-4156,2023,€ million,12,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Income tax expense,Financial Services,Worldwide,-1274,2024,€ million,12,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Income tax expense,Financial Services,Worldwide,-1081,2023,€ million,12,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings after tax,Volkswagen Group,Worldwide,12394,2024,€ million,13,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings after tax,Volkswagen Group,Worldwide,17861,2023,€ million,13,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings after tax,Automotive,Worldwide,10674,2024,€ million,13,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings after tax,Automotive,Worldwide,15178,2023,€ million,13,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings after tax,Financial Services,Worldwide,1720,2024,€ million,13,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json
+Earnings after tax,Financial Services,Worldwide,2683,2023,€ million,13,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_045_table_00_kpis.json

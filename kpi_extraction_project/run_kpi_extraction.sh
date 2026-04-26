@@ -2,15 +2,14 @@
 #
 #SBATCH --job-name=kpi-extraction
 #SBATCH --output=kpi_extraction_%j.log
+#SBATCH --open-mode=append
 #SBATCH --mail-user=karim.ouf@stud.tu-darmstadt.de
 #SBATCH --mail-type=ALL
-#SBATCH --partition=yolo
-#SBATCH --qos=yolo
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=150GB
 #SBATCH --gres=gpu:a180:2
-#SBATCH --time=40:00:00
+#SBATCH --time=3:00:00
 
 ################################################################################
 # Multi-Model KPI Extraction Job
@@ -19,23 +18,55 @@
 # - Deepseek distilled Llama 3 70B 
 #
 # GPU Configuration:
-# - 2x A100 80GB GPUs requested
+# - 1x A180 GPU + 1x V100 GPU requested (2 GPUs total)
 # - DeepSeek uses both GPUs (model parallelism via device_map="auto")
 # - Llama uses only 1 GPU (small enough to fit)
+#
+# Log Handling:
+# - Uses --open-mode=append to preserve logs across job restarts
+# - Each run is clearly separated with timestamps
+# - Run counter tracks number of restarts
 #
 # Usage: sbatch run_kpi_extraction.sh
 ################################################################################
 
+# ============================================================================
+# LOG SEPARATOR - Track restarts
+# ============================================================================
+
+# Set the project directory early for run counter
+SCRIPT_DIR="/ukp-storage-1/ouf/kpi_extraction_project"
+RUN_COUNTER_FILE="$SCRIPT_DIR/data/output/.run_counter_${SLURM_JOB_ID}"
+
+# Increment and get run number
+if [ -f "$RUN_COUNTER_FILE" ]; then
+    RUN_NUMBER=$(cat "$RUN_COUNTER_FILE")
+    RUN_NUMBER=$((RUN_NUMBER + 1))
+else
+    RUN_NUMBER=1
+fi
+echo "$RUN_NUMBER" > "$RUN_COUNTER_FILE"
+
+echo ""
+echo "############################################################################"
+echo "############################################################################"
+echo "##                                                                        ##"
+echo "##                    JOB RUN #${RUN_NUMBER} - $(date '+%Y-%m-%d %H:%M:%S')                     ##"
+echo "##                                                                        ##"
+echo "############################################################################"
+echo "############################################################################"
+echo ""
 echo "=========================================="
 echo "Multi-Model KPI Extraction Job"
 echo "Job ID: $SLURM_JOB_ID"
+echo "Run Number: $RUN_NUMBER (restarts: $((RUN_NUMBER - 1)))"
 echo "Node: $SLURM_NODELIST"
 echo "Started at: $(date)"
 echo "=========================================="
 echo ""
 
 # Set the project directory (absolute path on cluster)
-SCRIPT_DIR="/ukp-storage-1/ouf/kpi_extraction_project"
+# Already set above for run counter
 cd "$SCRIPT_DIR"
 
 echo "Working directory: $SCRIPT_DIR"
@@ -140,9 +171,10 @@ DB_PATH="$SCRIPT_DIR/data/pack_context.db"
 OUTPUT_DIR="$SCRIPT_DIR/data/output"
 
 # Processing options
-YEAR_FILTER=""          # Leave empty to process all years, or set a year like "2019"
-MAX_TABLES=""           # Leave empty to process all tables, or set a number like "5"
+YEAR_FILTER="2017"      # Leave empty to process all years, or set a year like "2019"
+MAX_TABLES="10"           # Leave empty to process all tables, or set a number like "5"
 TEMPERATURE=0.0         # Sampling temperature (0.0 = deterministic)
+MAX_CORRECTION_ITERATIONS=0  # Maximum validation/correction iterations (0 = disabled)
 NO_RESUME=""            # Leave empty to resume from checkpoint, set to "--no-resume" to start fresh
 
 # Model selection (leave empty to use all models)
@@ -154,6 +186,7 @@ echo "  Output directory: $OUTPUT_DIR"
 echo "  Year filter: ${YEAR_FILTER:-All years}"
 echo "  Max tables: ${MAX_TABLES:-All}"
 echo "  Temperature: $TEMPERATURE"
+echo "  Max correction iterations: $MAX_CORRECTION_ITERATIONS"
 echo "  Resume from checkpoint: ${NO_RESUME:+No (starting fresh)}"
 echo "  Resume from checkpoint: ${NO_RESUME:-Yes (if checkpoint exists)}"
 echo "  Models: ${MODELS:-All available models}"
@@ -207,7 +240,8 @@ CMD="python \"$SCRIPT_DIR/extract_kpis.py\" \
     --db \"$DB_PATH\" \
     --output-dir \"$OUTPUT_DIR\" \
     --temperature $TEMPERATURE \
-    --job-id $SLURM_JOB_ID"
+    --job-id $SLURM_JOB_ID \
+    --max-correction-iterations $MAX_CORRECTION_ITERATIONS"
 
 # Add optional arguments
 if [ ! -z "$YEAR_FILTER" ]; then
@@ -264,17 +298,30 @@ if [ $EXIT_CODE -eq 0 ]; then
         head -30 "$FIRST_FILE"
         echo "..."
     fi
+    
+    # Clean up run counter on successful completion
+    if [ -f "$RUN_COUNTER_FILE" ]; then
+        rm "$RUN_COUNTER_FILE"
+        echo "  Cleaned up run counter file"
+    fi
 else
     echo "✗ Extraction failed with exit code: $EXIT_CODE"
     echo ""
     echo "Check the log file for details:"
     echo "  $SCRIPT_DIR/kpi_extraction_${SLURM_JOB_ID}.log"
+    echo ""
+    echo "This was run #${RUN_NUMBER}. If job is requeued, it will resume from checkpoint."
 fi
 
 echo ""
 echo "=========================================="
-echo "Job finished at: $(date)"
-echo "Total runtime: $SECONDS seconds"
+echo "Run #${RUN_NUMBER} finished at: $(date)"
+echo "Run runtime: $SECONDS seconds"
 echo "=========================================="
+echo ""
+echo "############################################################################"
+echo "##                    END OF RUN #${RUN_NUMBER}                                         ##"
+echo "############################################################################"
+echo ""
 
 exit $EXIT_CODE

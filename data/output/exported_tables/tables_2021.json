@@ -1,6 +1,10 @@
 [
   {
     "table_id": "VW2021_T59f33c",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 2,
+    "bucket": "divisions",
     "section_name": "GROUP STRUCTURE",
     "title": "Volkswagen Group reporting structure",
     "headers": [
@@ -27,10 +31,34 @@
     ],
     "stub_col": [
       "Passenger Cars Business Area Volkswagen Passenger Cars ŠKODA SEAT Volkswagen Commercial Vehicles Audi Bentley Porsche Automotive Others"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P014b7e",
+        "page": 2,
+        "section_name": "GROUP STRUCTURE",
+        "section_level": 3,
+        "text": "The Volkswagen Group consists of two divisions: the Automotive Division and the Financial Services Division. The Automotive Division comprises the Passenger Cars, Commercial Vehicles and Power Engineering business areas. Activities of the Automotive Division comprise in particular the development of vehicles, engines and vehicle software, and the production and sale of passenger cars, light commercial vehicles, trucks, buses and motorcycles, as well as businesses for genuine parts, large-bore diesel engines, turbomachinery and propulsion components. Mobility solutions are gradually being added to the range. The Ducati brand is allocated to the Audi brand and thus to the Passenger Cars Business Area. Navistar has supplemented the brands in the Commercial Vehicles Business Area since July 1, 2021. The Financial Services Division's activities comprise dealer and customer financing, vehicle leasing, direct banking and insurance activities, fleet management and mobility services.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Directly describes the structure of the Volkswagen Group, including the Automotive Division and its business areas, aligning closely with the table content."
+      },
+      {
+        "para_id": "VW2021_Pa0688c",
+        "page": 3,
+        "section_name": "GROUP STRUCTURE",
+        "section_level": 3,
+        "text": "The production figures and deliveries to customers are differentiated by vehicle brands and their models that carry the corresponding brand logo. Unit sales figures contain vehicles sold by respective brand companies, including models of other Group brands. In some cases, there are marked differences between delivery figures and unit sales as a result of our business development in China.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions production figures and deliveries by vehicle brands, which relates to the Automotive Division but does not address the division structure directly."
+      }
     ]
   },
   {
     "table_id": "VW2021_T2de216",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 4,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
     "title": "Key Figures by brand and business field",
     "headers": [
@@ -275,10 +303,52 @@
       "Commercial Vehicles Business Area",
       "Power Engineering Business Area",
       "Financial Services Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P31a5c8",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 8.6 (9.2) million vehicles. Sales revenue increased by 12.3% to €250.2 billion due to mix-related factors.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall unit sales and sales revenue figures for the Group, which are relevant to the table's context."
+      },
+      {
+        "para_id": "VW2021_P8de2d4",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.9 million vehicles worldwide in fiscal year 2021. The decline of 8.1% was due chiefly to the limited vehicle availability as a result of the semiconductor shortage. In the USA, sales increased by 15.1%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides specific sales figures for the Volkswagen Passenger Cars brand, directly relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2021_P213745",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 2.7 (2.8) million vehicles in the reporting year. There was strong demand for the T-Roc, T-Cross and Atlas models, and the ID.3 and ID.4 models were also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales figures and model performance for the Volkswagen Passenger Cars brand, relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2021_P73766d",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 7.1% year-on-year to €76.1 billion in 2021. The operating result before special items was influenced by margin-related factors and stood at €2.5 (0.5) billion. This was higher than the previous year's figure, which was particularly affected by the pandemic. Upfront expenditure for new products and technologies increased. The operating return on sales before special items amounted to 3.3 (0.6)%. The diesel issue gave rise to special items of €–0.7(–0.8) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses sales revenue and operating results for the Volkswagen Passenger Cars brand, directly relevant to the sales revenue data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T61e41c",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 4,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY MARKET",
     "title": "Key Figures by market",
     "headers": [
@@ -355,10 +425,61 @@
       "Asia-Pacific ^1",
       "Hedges on sales revenue",
       "Volkswagen Group ^1"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P31a5c8",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 8.6 (9.2) million vehicles. Sales revenue increased by 12.3% to €250.2 billion due to mix-related factors.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall unit sales and sales revenue figures for the Group, relevant to the table's context."
+      },
+      {
+        "para_id": "VW2021_Pb862b7",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales decreased by 5.2% year-on-year to 3.7 million vehicles. However, positive mix effects helped to lift sales revenue to €145.6 (133.5) billion. Exchange rate movements had a negative effect.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses unit sales and revenue in Europe/Other markets, directly relevant to the corresponding row in the table."
+      },
+      {
+        "para_id": "VW2021_P436ba5",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the North American markets, unit sales in the reporting period were 8.2% up on the prior-year figure at 805 thousand vehicles. Due in particular to higher volumes and mix effects, as well as the consolidation of Navistar as from July 1, 2021, sales revenue rose to €45.3 (36.8) billion, more than compensating for the unfavorable exchange rate trends.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales and revenue in North America, directly relevant to the corresponding row in the table."
+      },
+      {
+        "para_id": "VW2021_P551a55",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "We lifted our unit sales on markets in the South America region to 503 thousand vehicles in 2021, an increase of 6.8% compared with 2020. As a result, sales revenue climbed by 27.9% to €11.0 billion. Exchange rate movements had a negative effect.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses unit sales and revenue in South America, directly relevant to the corresponding row in the table."
+      },
+      {
+        "para_id": "VW2021_P94285b",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including the Chinese joint ventures – fell to 3.5 (4.0) million vehicles in the reporting year. Driven by mix and exchange rate effects, sales revenue rose to €48.7 (44.3) billion. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales and revenue in the Asia-Pacific region, directly relevant to the corresponding row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T531fa0",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 6,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND PRODUCTION",
     "title": "Volkswagen Passenger Cars – Production",
     "headers": [
@@ -538,10 +659,25 @@
       "Sharan/Viloran",
       "Phideon",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P213745",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 2.7 (2.8) million vehicles in the reporting year. There was strong demand for the T-Roc, T-Cross and Atlas models, and the ID.3 and ID.4 models were also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales figures for specific models, relevant to the overall sales context but does not match the detailed model data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T62dfc3",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 6,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
     "title": "Volkswagen Passenger Cars – Key Figures",
     "headers": [
@@ -603,10 +739,34 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P8de2d4",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.9 million vehicles worldwide in fiscal year 2021. The decline of 8.1% was due chiefly to the limited vehicle availability as a result of the semiconductor shortage. In the USA, sales increased by 15.1%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for the Volkswagen Passenger Cars brand, relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_P73766d",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 7.1% year-on-year to €76.1 billion in 2021. The operating result before special items was influenced by margin-related factors and stood at €2.5 (0.5) billion. This was higher than the previous year's figure, which was particularly affected by the pandemic. Upfront expenditure for new products and technologies increased. The operating return on sales before special items amounted to 3.3 (0.6)%. The diesel issue gave rise to special items of €–0.7(–0.8) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses sales revenue and operating results, directly relevant to the sales revenue row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T2d6561",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 8,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "Škoda – Production",
     "headers": [
@@ -684,10 +844,34 @@
       "Kushaq",
       "Citigo",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P5a00ca",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 0.9 (1.0) million vehicles worldwide in the reporting period. Sales increased year-on-year in France (+1.5%) and Spain (+19.2%) and more than doubled in India.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for ŠKODA, relevant to the context but not specific to the detailed models in the table."
+      },
+      {
+        "para_id": "VW2021_P01322e",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 0.8 (0.8) million vehicles in the past fiscal year. There was strong demand for the Kamiq and Karoq SUVs, and the new Enyaq iV was also very popular with customers. The difference between figures for deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales figures for ŠKODA vehicles, relevant to the overall sales context but not matching the detailed data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T883827",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 8,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "Škoda – Key Figures",
     "headers": [
@@ -749,10 +933,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P5a00ca",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 0.9 (1.0) million vehicles worldwide in the reporting period. Sales increased year-on-year in France (+1.5%) and Spain (+19.2%) and more than doubled in India.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for ŠKODA, relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_P01322e",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 0.8 (0.8) million vehicles in the past fiscal year. There was strong demand for the Kamiq and Karoq SUVs, and the new Enyaq iV was also very popular with customers. The difference between figures for deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales figures for ŠKODA vehicles, relevant to the vehicle sales context but not matching the detailed data in the table."
+      },
+      {
+        "para_id": "VW2021_P0dfd47",
+        "page": 7,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Despite lower unit sales, the ŠKODA brand increased sales revenue by 3.9% to €17.7 billion in fiscal year 2021. In particular, positive margin and exchange rate effects as well as lower excess CO2 emissions premiums raised the operating result to €1.1 (0.8) billion. The operating return on sales amounted to 6.1%, contrasting with 4.4% in the previous year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses sales revenue and operating results for ŠKODA, directly relevant to the sales revenue and operating result rows in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T5f7f85",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 10,
+    "bucket": "divisions",
     "section_name": "SEAT",
     "title": "SEAT – Production",
     "headers": [
@@ -866,10 +1083,34 @@
       "Ateca",
       "",
       "SEAT and CUPRA"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P1df855",
+        "page": 9,
+        "section_name": "SEAT",
+        "section_level": 2,
+        "text": "<span id=\"page-8-0\"></span>SEAT is a company with two brands: SEAT and CUPRA. In 2021, the automotive manufacturer took the next step on the road to e-mobility and launched the all-electric CUPRA Born.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions SEAT and CUPRA brands, providing context for their vehicle sales but lacks specific sales figures relevant to the table."
+      },
+      {
+        "para_id": "VW2021_Pbd78c2",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT is the Group brand with Europe's youngest customer profile. In 2021, SEAT brought the updated Arona and Ibiza models to market. The design update of the Arona SUV brings its off-road character even more to the fore. The new Ibiza now features LED headlights as standard. Both vehicles offer a modern, digital interior with a larger infotainment system, improved voice recognition and new connectivity solutions. Additional driver assist systems and a wide range of efficient engines are also available.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the updated Arona and Ibiza models, relevant to the sales context of SEAT vehicles listed in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tf950d4",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 10,
+    "bucket": "divisions",
     "section_name": "SEAT",
     "title": "SEAT – Key Figures",
     "headers": [
@@ -931,10 +1172,61 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P1df855",
+        "page": 9,
+        "section_name": "SEAT",
+        "section_level": 2,
+        "text": "<span id=\"page-8-0\"></span>SEAT is a company with two brands: SEAT and CUPRA. In 2021, the automotive manufacturer took the next step on the road to e-mobility and launched the all-electric CUPRA Born.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions SEAT and CUPRA brands and their initiatives, providing context for vehicle sales but lacking specific sales figures relevant to the table."
+      },
+      {
+        "para_id": "VW2021_Pbd78c2",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT is the Group brand with Europe's youngest customer profile. In 2021, SEAT brought the updated Arona and Ibiza models to market. The design update of the Arona SUV brings its off-road character even more to the fore. The new Ibiza now features LED headlights as standard. Both vehicles offer a modern, digital interior with a larger infotainment system, improved voice recognition and new connectivity solutions. Additional driver assist systems and a wide range of efficient engines are also available.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the updated Arona and Ibiza models, relevant to the sales context of SEAT vehicles listed in the table."
+      },
+      {
+        "para_id": "VW2021_Pb042c7",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "At 471 thousand vehicles, deliveries to customers by SEAT and CUPRA were up 10.3% on the previous year in fiscal year 2021. The sales figures improved year-on-year in virtually all markets, partly thanks to the demand for electric vehicles and CUPRA models. The CUPRA brand virtually trebled its sales to 79 thousand vehicles.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides overall delivery figures for SEAT and CUPRA, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_P0528e8",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The company's unit sales increased to 494 thousand units in the reporting year. This was 2.1% more than in the previous year. This figure also includes the A1 manufactured for Audi. The CUPRA Formentor, SEAT Arona and SEAT Ibiza recorded high demand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions unit sales for SEAT, relevant to the vehicle sales context in the table."
+      },
+      {
+        "para_id": "VW2021_P10f282",
+        "page": 9,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Sales revenue for SEAT increased by 4.5% in 2021 to €9.6 billion. The operating result stood at €–233 (–339) million. Positive volume effects, especially from the growth of CUPRA, were appreciably weakened by commodity price increases and the shortage of semiconductors, meaning that, after a weak year in 2020 due to the pandemic, the recovery was incomplete. The operating return on sales was –2.4 (–3.7)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue for SEAT, relevant to the sales revenue row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tb31106",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 12,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
     "title": "Volkswagen Commercial Vehicles – Production",
     "headers": [
@@ -994,10 +1286,52 @@
       "Caddy Kombi",
       "Caddy, Caddy California",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pbe8b9b",
+        "page": 11,
+        "section_name": "Volkswagen Commercial Vehicles brand",
+        "section_level": 2,
+        "text": "<span id=\"page-10-0\"></span>In 2021, the Volkswagen Commercial Vehicles brand celebrated the world premiere of its new Multivan, now in its seventh generation, ushering in a new era for customers and brand alike. Another highlight was the presentation of the Caddy Maxi.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the new Multivan and Caddy Maxi, relevant to the sales context of Volkswagen Commercial Vehicles but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P2e8470",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2021, the Volkswagen Commercial Vehicles brand presented the seventh generation of its bestseller: the Multivan. The latest version of the \"Bulli\" boasts an improved seat and cargo space system, a lounge-style interior, a newly designed instrument panel and an integrated display landscape. A first for the model range is the new 160 kW (218 PS) plug-in hybrid drive, which combines local emission-free driving with large ranges and a low total fuel consumption. The new Multivan is thus ushering in a new era for the brand on its Way to Zero. The Caddy Maxi was also presented in the reporting year. At 35 cm longer than the base version, the Caddy Maxi offers more space and more options: a trouble-free way to transport bulky items or carry up to seven people.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Describes the seventh generation of the Multivan and its features, relevant to the sales context but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P24ce98",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by Volkswagen Commercial Vehicles in fiscal year 2021 stood at 360 thousand units (–3.2%). Sales increased in Spain (+3.3%), Turkey (+17.0%) and Argentina (+44.6%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for Volkswagen Commercial Vehicles, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_Pa58dfb",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 326 thousand vehicles in the reporting period, 5.6% fewer than in the previous year. However, growth was seen above all by the Crafter and the Multivan/Transporter. The California models were also very popular, with sales increasing to 29.2%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales figures for Volkswagen Commercial Vehicles, relevant to the vehicle sales context in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T068561",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 12,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
     "title": "Volkswagen Commercial Vehicles – Key Figures",
     "headers": [
@@ -1059,10 +1393,52 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pbe8b9b",
+        "page": 11,
+        "section_name": "Volkswagen Commercial Vehicles brand",
+        "section_level": 2,
+        "text": "<span id=\"page-10-0\"></span>In 2021, the Volkswagen Commercial Vehicles brand celebrated the world premiere of its new Multivan, now in its seventh generation, ushering in a new era for customers and brand alike. Another highlight was the presentation of the Caddy Maxi.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the new Multivan and Caddy Maxi, relevant to the sales context of Volkswagen Commercial Vehicles but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P2e8470",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2021, the Volkswagen Commercial Vehicles brand presented the seventh generation of its bestseller: the Multivan. The latest version of the \"Bulli\" boasts an improved seat and cargo space system, a lounge-style interior, a newly designed instrument panel and an integrated display landscape. A first for the model range is the new 160 kW (218 PS) plug-in hybrid drive, which combines local emission-free driving with large ranges and a low total fuel consumption. The new Multivan is thus ushering in a new era for the brand on its Way to Zero. The Caddy Maxi was also presented in the reporting year. At 35 cm longer than the base version, the Caddy Maxi offers more space and more options: a trouble-free way to transport bulky items or carry up to seven people.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Describes the seventh generation of the Multivan and its features, relevant to the sales context but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P24ce98",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by Volkswagen Commercial Vehicles in fiscal year 2021 stood at 360 thousand units (–3.2%). Sales increased in Spain (+3.3%), Turkey (+17.0%) and Argentina (+44.6%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for Volkswagen Commercial Vehicles, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_Pa58dfb",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 326 thousand vehicles in the reporting period, 5.6% fewer than in the previous year. However, growth was seen above all by the Crafter and the Multivan/Transporter. The California models were also very popular, with sales increasing to 29.2%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales figures for Volkswagen Commercial Vehicles, relevant to the vehicle sales context in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tf39e82",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "AUDI BRAND",
     "title": "Audi – Production",
     "headers": [
@@ -1242,10 +1618,52 @@
       "",
       "Audi brand",
       "Ducati, motorcycles"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P455dd1",
+        "page": 13,
+        "section_name": "Audi brand",
+        "section_level": 2,
+        "text": "<span id=\"page-12-0\"></span>The Audi brand aspires to spearhead the Group both technically and technologically. With the Q4 e-tron and e-tron GT series, Audi advanced its electrification campaign in the reporting year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Audi's electrification campaign and new models, relevant to the overall performance of Audi but lacks specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P2c9836",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In a difficult market environment, the Audi brand delivered a total of 1.7 (1.7) million vehicles to customers in 2021. Increases were recorded in the United Kingdom (+9.4%), Italy (+9.9%), France (+10.2%) and the United States (+5.0%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for Audi, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_P8647a8",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Audi brand's unit sales in the reporting year stood at 1.0 (1.0) million vehicles. The Chinese joint venture FAW-Volkswagen sold a further 644 (656) thousand locally produced Audi vehicles. The Q3, Q5, Q7, Q8 and A5 series were in especially strong demand, and the new Q4 e-tron was also very popular. Unit sales at Automobili Lamborghini S.p.A. amounted to 8,315 (7,460) vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses unit sales for Audi models, relevant to the vehicle sales context in the table."
+      },
+      {
+        "para_id": "VW2021_Pa6e660",
+        "page": 13,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Sales revenue by the Audi brand in fiscal year 2021 amounted to €53.1 (50.0) billion. The operating result before special items more than doubled to €5.5 (2.7) billion. This was due to positive effects from margins, the remeasurement of commodities, exchange rates effects and fixed-cost discipline. The operating return on sales before special items climbed to 10.5 (5.5)%. The diesel issue resulted in low negative special items (previous year: €–0.2 billion). The financial key performance indicators for the Lamborghini and Ducati brands are included in the financial figures for the Audi brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue for Audi, relevant to the sales revenue row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tc4f352",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "AUDI BRAND",
     "title": "Audi – Key Figures",
     "headers": [
@@ -1321,10 +1739,52 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P455dd1",
+        "page": 13,
+        "section_name": "Audi brand",
+        "section_level": 2,
+        "text": "<span id=\"page-12-0\"></span>The Audi brand aspires to spearhead the Group both technically and technologically. With the Q4 e-tron and e-tron GT series, Audi advanced its electrification campaign in the reporting year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Audi's electrification campaign and new models, relevant to the overall performance of Audi but lacks specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P2c9836",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In a difficult market environment, the Audi brand delivered a total of 1.7 (1.7) million vehicles to customers in 2021. Increases were recorded in the United Kingdom (+9.4%), Italy (+9.9%), France (+10.2%) and the United States (+5.0%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for Audi, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_P8647a8",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Audi brand's unit sales in the reporting year stood at 1.0 (1.0) million vehicles. The Chinese joint venture FAW-Volkswagen sold a further 644 (656) thousand locally produced Audi vehicles. The Q3, Q5, Q7, Q8 and A5 series were in especially strong demand, and the new Q4 e-tron was also very popular. Unit sales at Automobili Lamborghini S.p.A. amounted to 8,315 (7,460) vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses unit sales for Audi models, relevant to the vehicle sales context in the table."
+      },
+      {
+        "para_id": "VW2021_Pa6e660",
+        "page": 13,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Sales revenue by the Audi brand in fiscal year 2021 amounted to €53.1 (50.0) billion. The operating result before special items more than doubled to €5.5 (2.7) billion. This was due to positive effects from margins, the remeasurement of commodities, exchange rates effects and fixed-cost discipline. The operating return on sales before special items climbed to 10.5 (5.5)%. The diesel issue resulted in low negative special items (previous year: €–0.2 billion). The financial key performance indicators for the Lamborghini and Ducati brands are included in the financial figures for the Audi brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue for Audi, relevant to the sales revenue row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tfd0815",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 16,
+    "bucket": "divisions",
     "section_name": "BENTLEY BRAND",
     "title": "Bentley – Production",
     "headers": [
@@ -1378,10 +1838,61 @@
       "Continental GT Convertible",
       "Mulsanne",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P728a63",
+        "page": 15,
+        "section_name": "Bentley",
+        "section_level": 2,
+        "text": "<span id=\"page-14-0\"></span>Bentley celebrated 70 years of Bentley Design in 2021. The brand continued its electrification with the Flying Spur Hybrid. The new generation of the GT Speed was launched in the Continental model range.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Bentley's 70th anniversary and new models, relevant to the overall performance of Bentley but lacks specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P438bf5",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by the Bentley brand increased by 30.8% in 2021 to 14,659 vehicles, a new record figure. Sales experienced particularly strong growth in the USA (+36.9%) and China (+40.0%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides overall delivery figures for Bentley, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_P2182f0",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley sold 14,594 (11,296) vehicles worldwide in fiscal year 2021; the Continental GT Coupé and Bentayga were particularly popular with customers.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions sales figures for Bentley vehicles, relevant to the vehicle sales context in the table."
+      },
+      {
+        "para_id": "VW2021_P24074e",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Bentley brand produced 14,788 vehicles in the reporting period, 38.3% more than in the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures for Bentley, relevant to the production row in the table."
+      },
+      {
+        "para_id": "VW2021_Pcc8570",
+        "page": 15,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "In 2021, Bentley's sales revenue increased by 38.9% year-on-year to €2.8 billion. The operating result improved to €389 (20) million. The increase compared with the prior-year figure, which had been impacted by one-off expenses for restructuring measures, was largely attributable to higher volumes and improved pricing. The operating return on sales increased to 13.7 (1.0)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue for Bentley, relevant to the sales revenue row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tb51501",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 16,
+    "bucket": "divisions",
     "section_name": "BENTLEY BRAND",
     "title": "Bentley – Key Figures",
     "headers": [
@@ -1443,10 +1954,70 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P728a63",
+        "page": 15,
+        "section_name": "Bentley",
+        "section_level": 2,
+        "text": "<span id=\"page-14-0\"></span>Bentley celebrated 70 years of Bentley Design in 2021. The brand continued its electrification with the Flying Spur Hybrid. The new generation of the GT Speed was launched in the Continental model range.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions Bentley's 70th anniversary and new models, relevant to the overall performance of Bentley and directly related to the sales figures in the table."
+      },
+      {
+        "para_id": "VW2021_P57f749",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Bentley brand is defined by exclusivity, elegance and power. The British brand had reason to celebrate in the reporting year, when Bentley Design turned 70. The design department in Crewe has been giving the brand its unmistakable DNA since 1951, creating successful models and true icons. The next chapter for Bentley Design will be the first purely battery electric model, another unique product in the making. In fiscal year 2021, Bentley took a further step on its way to becoming an end-to-end net-carbon-neutral company, adding the Flying Spur to its range of hybrid models on its journey to electrification. The saloon's new drivetrain delivers the customary luxury and familiar performance of a Flying Spur. A V6 petrol engine and state-of-the-art electric motor combine to generate a system power output of 400 kW (544 PS). The Flying Spur Hybrid can cover more than 40 km in fully electric mode, and has a total range of over 700 km. The driver receives additional information on the hybrid drive via the head-up display, the infotainment screen and the instrument cluster. Bentley also presented the new generation of the GT Speed and GT Speed Convertible in its Continental range in 2021. The GT Speed is the most dynamic vehicle in Bentley's 101-year history and is also the brand's most performance-oriented interpretation of a luxury grand tourer. It is fitted with a 485 kW (659 PS) 6.0-liter W12 TSI engine, enabling a sprint from 0 to 100 km/h in 3.6 seconds and a top speed of 335 km/h. Spearheading the Bentley brand, the two models offer an impressive exterior and a luxurious interior with highquality materials.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses Bentley's brand attributes and future plans, relevant to the brand's positioning and performance but does not provide specific sales data."
+      },
+      {
+        "para_id": "VW2021_P438bf5",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by the Bentley brand increased by 30.8% in 2021 to 14,659 vehicles, a new record figure. Sales experienced particularly strong growth in the USA (+36.9%) and China (+40.0%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides overall delivery figures for Bentley, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_P2182f0",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley sold 14,594 (11,296) vehicles worldwide in fiscal year 2021; the Continental GT Coupé and Bentayga were particularly popular with customers.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions sales figures for Bentley vehicles, relevant to the vehicle sales context in the table."
+      },
+      {
+        "para_id": "VW2021_P24074e",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Bentley brand produced 14,788 vehicles in the reporting period, 38.3% more than in the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures for Bentley, relevant to the production row in the table."
+      },
+      {
+        "para_id": "VW2021_Pcc8570",
+        "page": 15,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "In 2021, Bentley's sales revenue increased by 38.9% year-on-year to €2.8 billion. The operating result improved to €389 (20) million. The increase compared with the prior-year figure, which had been impacted by one-off expenses for restructuring measures, was largely attributable to higher volumes and improved pricing. The operating return on sales increased to 13.7 (1.0)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue for Bentley, relevant to the sales revenue row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T9eb828",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 18,
+    "bucket": "divisions",
     "section_name": "PORSCHE AUTOMOTIVE",
     "title": "Porsche – Production",
     "headers": [
@@ -1494,10 +2065,15 @@
       "Taycan",
       "Panamera",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T7a5279",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 18,
+    "bucket": "divisions",
     "section_name": "PORSCHE AUTOMOTIVE",
     "title": "Porsche – Key Figures1",
     "headers": [
@@ -1559,10 +2135,70 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pbcb52c",
+        "page": 17,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "<span id=\"page-16-0\"></span>Porsche added the Cross Turismo to its all-electric Taycan model range in 2021. The new generation of the Macan arrived on the market with enhanced performance, modified design and a new control interface. Sales revenue and earnings increased.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the addition of the Taycan Cross Turismo and the new generation of the Macan, relevant to the overall performance of Porsche but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_P6453ab",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Exclusivity and social acceptance, pioneering spirit and tradition, performance and sustainability, design and functionality – these are the brand values of the sports car manufacturer Porsche. Porsche continued on its path toward sustainable mobility in fiscal year 2021 and presented another derivative in the all-electric sports car segment: the Taycan Cross Turismo. The high-tech chassis with all-wheel drive and adaptive air suspension also ensures uncompromising dynamics when driving offroad. It has a range of up to 456 km. The 560 kW (761 PS) of power generated by the overboost function on the top-of-the-range model, the Taycan Turbo S Cross Turismo, underscores the all-rounder's uncompromising dynamics on and offroad. The Taycan Turbo S Cross Turismo sprints from 0 to 100 km/h in under 2.9 seconds. Porsche also launched its new Macan with enhanced performance, modified design and a new control interface. The popular compact SUV's visuals have been further sharpened with a series of targeted changes. The chassis has also been optimized further, which means that the Macan now responds even more sensitively and directly to the driving situation and road conditions. The new Porsche Macan offers a significantly enhanced interior with a modern and elegantly designed center console, touch surfaces instead of tactile buttons and many online functions as standard. These can be controlled via the 10.9-inch full HD touch display or by using voice commands. The development center in Weissach celebrated its 50th anniversary in the reporting year. From the first drawing to the finished prototype, Weissach is where vehicles are developed, tested and readied for series production. Since it opened 50 years ago, the center has stood for innovative vehicle solutions, intelligent development work and shaping the mobility of today and tomorrow.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses Porsche's brand values and commitment to sustainable mobility, relevant to the brand's positioning but lacks specific sales data."
+      },
+      {
+        "para_id": "VW2021_P7ea15d",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the reporting period, Porsche delivered 302 thousand sports cars to customers, an increase of 10.9% versus the previous year. In China, which remained the largest single market for Porsche, sales were up by 7.5%. In the USA, an increase of 22.2% was recorded.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides overall delivery figures for Porsche, directly relevant to the deliveries row in the table."
+      },
+      {
+        "para_id": "VW2021_Pf8efdf",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche's unit sales amounted to 297 thousand vehicles in the reporting year. This was 12.1% more than in the previous year. Demand was high for the 911 and the Taycan; the Macan and Panamera models were also popular with customers.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales for Porsche vehicles, relevant to the vehicle sales context in the table."
+      },
+      {
+        "para_id": "VW2021_Pce7e8b",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche produced a total of 283 thousand vehicles in 2021, 7.6% more than in fiscal year 2020.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures for Porsche, relevant to the production row in the table."
+      },
+      {
+        "para_id": "VW2021_P2fcb60",
+        "page": 17,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Porsche Automotive generated sales revenue of €30.3 (26.1) billion in fiscal year 2021. At €5.0 billion, the operating result before special items was clearly better than in the previous year (+24.5%). Positive volume and mix effects more than offset the unfavorable exchange rate trends, increased product costs due to higher commodity prices and a rise in fixed costs attributable to strategy and growth. The operating return on sales before special items improved to 16.5 (15.4)%. The diesel issue gave rise to low positive special items.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue for Porsche, relevant to the sales revenue row in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tb4d396",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "TRATON – Production",
     "headers": [
@@ -1664,10 +2300,34 @@
       "Trucks",
       "Buses",
       "TRATON"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P76de26",
+        "page": 19,
+        "section_name": "TRATON GROUP",
+        "section_level": 2,
+        "text": "<span id=\"page-18-0\"></span>In 2021, the TRATON GROUP achieved considerable milestones on its way to becoming a global champion. The merger with Navistar has opened access to the important North American market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the TRATON GROUP's achievements and merger with Navistar, relevant to the overall context of commercial vehicles but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_Pfea047",
+        "page": 19,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Since July 1, 2021, the US commercial vehicle manufacturer Navistar has been a TRATON GROUP brand. With its MAN, Scania, Navistar, Volkswagen Caminhões e Ônibus and RIO brands, TRATON aims to become a global champion of the commercial vehicle industry and drive the transformation of the logistics sector.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the integration of Navistar into the TRATON GROUP and its implications, relevant to the context of commercial vehicles but lacks specific sales data."
+      }
     ]
   },
   {
     "table_id": "VW2021_T01cd55",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "DELIVERIES",
     "title": "TRATON – Deliveries",
     "headers": [
@@ -1709,10 +2369,34 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P76de26",
+        "page": 19,
+        "section_name": "TRATON GROUP",
+        "section_level": 2,
+        "text": "<span id=\"page-18-0\"></span>In 2021, the TRATON GROUP achieved considerable milestones on its way to becoming a global champion. The merger with Navistar has opened access to the important North American market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions TRATON GROUP's achievements and the merger with Navistar, relevant to the overall context of commercial vehicles but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_Pfea047",
+        "page": 19,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Since July 1, 2021, the US commercial vehicle manufacturer Navistar has been a TRATON GROUP brand. With its MAN, Scania, Navistar, Volkswagen Caminhões e Ônibus and RIO brands, TRATON aims to become a global champion of the commercial vehicle industry and drive the transformation of the logistics sector.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the integration of Navistar into the TRATON GROUP and its implications, relevant to the context of commercial vehicles but lacks specific sales data."
+      }
     ]
   },
   {
     "table_id": "VW2021_T86bdf4",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 22,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Volkswagen Group in China – Key Figures",
     "headers": [
@@ -1753,10 +2437,34 @@
       "Deliveries",
       "Vehicle sales ^1",
       "Production"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pbcb408",
+        "page": 21,
+        "section_name": "Volkswagen Group China",
+        "section_level": 2,
+        "text": "Despite the challenges due to the Covid-19 pandemic and the semiconductor shortage, the Volkswagen Group defended its leading position in China in 2021 and further accelerated the shift to e-mobility.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the Volkswagen Group's performance and challenges, relevant to the overall context but does not provide specific sales figures."
+      },
+      {
+        "para_id": "VW2021_Pa65fc2",
+        "page": 21,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The challenges of the Covid-19 pandemic and the shortage of semiconductors led to a fall in deliveries in the Volkswagen Group's largest single market, despite high customer demand and full order books. Together with the Chinese joint ventures, Volkswagen Group China delivered 3.3 million vehicles (including imports) in the Chinese market in 2021 (–14.1%). While the volume brands were appreciably affected by the shortage of semiconductors, Porsche (+7.5%), Bentley (+40.0%) and Lamborghini (+54.8%) achieved new sales records. Audi sold 701 thousand vehicles on the Chinese market, with imported models up 53.9%. The Volkswagen Passenger Cars brand, including JETTA, delivered 2.4 million vehicles and, with a market share of 11.7%, remained the number one with Chinese customers despite the challenging environment. The Volkswagen Group maintained its market leadership in China with a market share of 16%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the impact of the pandemic and semiconductor shortage on deliveries, relevant to the context of the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T827792",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 22,
+    "bucket": "divisions",
     "section_name": "EARNINGS",
     "title": "Volkswagen Group in China – Earnings",
     "headers": [
@@ -1786,10 +2494,25 @@
     "stub_col": [
       "Operating result (100%)",
       "Operating result (proportionate)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pa65fc2",
+        "page": 21,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The challenges of the Covid-19 pandemic and the shortage of semiconductors led to a fall in deliveries in the Volkswagen Group's largest single market, despite high customer demand and full order books. Together with the Chinese joint ventures, Volkswagen Group China delivered 3.3 million vehicles (including imports) in the Chinese market in 2021 (–14.1%). While the volume brands were appreciably affected by the shortage of semiconductors, Porsche (+7.5%), Bentley (+40.0%) and Lamborghini (+54.8%) achieved new sales records. Audi sold 701 thousand vehicles on the Chinese market, with imported models up 53.9%. The Volkswagen Passenger Cars brand, including JETTA, delivered 2.4 million vehicles and, with a market share of 11.7%, remained the number one with Chinese customers despite the challenging environment. The Volkswagen Group maintained its market leadership in China with a market share of 16%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the impact of the pandemic and semiconductor shortage on deliveries and sales, relevant to the financial context of the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T775803",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 22,
+    "bucket": "divisions",
     "section_name": "LOCAL PRODUCTION",
     "title": "Volkswagen Group in China – Local Production",
     "headers": [
@@ -1831,10 +2554,25 @@
       "Audi",
       "ŠKODA",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pa65fc2",
+        "page": 21,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The challenges of the Covid-19 pandemic and the shortage of semiconductors led to a fall in deliveries in the Volkswagen Group's largest single market, despite high customer demand and full order books. Together with the Chinese joint ventures, Volkswagen Group China delivered 3.3 million vehicles (including imports) in the Chinese market in 2021 (–14.1%). While the volume brands were appreciably affected by the shortage of semiconductors, Porsche (+7.5%), Bentley (+40.0%) and Lamborghini (+54.8%) achieved new sales records. Audi sold 701 thousand vehicles on the Chinese market, with imported models up 53.9%. The Volkswagen Passenger Cars brand, including JETTA, delivered 2.4 million vehicles and, with a market share of 11.7%, remained the number one with Chinese customers despite the challenging environment. The Volkswagen Group maintained its market leadership in China with a market share of 16%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the impact of the pandemic and semiconductor shortage on deliveries and sales, relevant to the financial context of the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T05c746",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 25,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
     "title": "Volkswagen Financial Services – Key Figures",
     "headers": [
@@ -2008,10 +2746,34 @@
       "Operating result",
       "Earnings before tax",
       "Employees at Dec. 31"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pd22ac4",
+        "page": 25,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The number of new financing, leasing, service and insurance contracts from Volkswagen Financial Services signed in fiscal year 2021 fell by 1.1% year-on-year to 7.8 million. With 22.0 (21.9) million contracts being closed as of December 31, 2021, the total number of contracts was higher than in the prior year. The number of contracts in the Customer Financing/Leasing area fell by 3.6% to 10.9 million. The Service/Insurance area accounted for 11.1 million contracts, 5.0% more than in the previous year. With credit eligibility criteria remaining unchanged, the penetration rate, expressed as the ratio of financed or leased vehicles to relevant Group delivery volumes – including the Chinese joint ventures – was at 35.8 (35.2)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the number of contracts signed by Volkswagen Financial Services, relevant to the financial context of the table."
+      },
+      {
+        "para_id": "VW2021_Pfe4865",
+        "page": 25,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Sales revenue at Volkswagen Financial Services amounted to €41.7 billion in the reporting year. This was 7.8% more than in the previous year. The operating result more than doubled to €5.7 (2.8) billion. The increase was due primarily to the high demand for used vehicles and considerably lower risk costs for credit risks and residual value risks compared with the previous year. The cost-cutting programs also paid off.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses sales revenue and operating results for Volkswagen Financial Services, directly relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tff3514",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 5,
+    "bucket": "management_report",
     "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
     "title": "Strategic KPIs – Competitive profitability",
     "headers": [
@@ -2080,10 +2842,34 @@
       "Payout ratio",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P8b9bcc",
+        "page": 4,
+        "section_name": "FINANCING THE TRANSFORMATION",
+        "section_level": 1,
+        "text": "The transformation being driven by digitalization and electrification will require extensive investment. To meet the need for financing, this base initiative aims to leverage even more Group-wide synergies across all functional areas along the value chain, focusing on costs and efficiency. The initiative therefore includes multiple action areas, such as productivity increases at plants and measures to optimize cash flows in the Group.",
+        "relevance_score": 0.5,
+        "relevance_reason": "While the focus is on investment and efficiency, it indirectly relates to financial performance, but lacks specific references to the metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pe9cd8a",
+        "page": 6,
+        "section_name": "CORE PERFORMANCE INDICATORS IN THE VOLKSWAGEN GROUP",
+        "section_level": 1,
+        "text": "- > Deliveries to customers - > Sales revenue - > Operating result - > Operating return on sales - > Research and development ratio (R&D ratio) in the Automotive Division - > Ratio of capex to sales revenue in the Automotive Division - > Net cash flow in the Automotive Division - > Net liquidity in the Automotive Division - > Return on investment (ROI) in the Automotive Division",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly lists the core performance indicators that match the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T2242ae",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 21,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN GROUP DELIVERIES 1",
     "title": "Volkswagen Group deliveries1",
     "headers": [
@@ -2124,10 +2910,61 @@
       "Passenger Cars",
       "Commercial Vehicles",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pad9033",
+        "page": 20,
+        "section_name": "TRENDS IN THE MARKETS FOR FINANCIAL SERVICES",
+        "section_level": 3,
+        "text": "recorded a recovery compared to the prior year, particularly due to growth in the heavy commercial vehicles category. This positive trend was also seen in financing and lease contracts for heavy commercial vehicles in Europe and Brazil.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions a recovery in heavy commercial vehicles, which relates to the commercial vehicles data in the table."
+      },
+      {
+        "para_id": "VW2021_P053218",
+        "page": 20,
+        "section_name": "VOLKSWAGEN GROUP DELIVERIES",
+        "section_level": 4,
+        "text": "The Volkswagen Group delivered 8,881,957 vehicles to customers worldwide in fiscal year 2021. This was 4.5% or",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly states the total number of vehicles delivered, matching the data in the table."
+      },
+      {
+        "para_id": "VW2021_P777a60",
+        "page": 21,
+        "section_name": "VOLKSWAGEN GROUP DELIVERIES",
+        "section_level": 4,
+        "text": "423,034 units less than in the previous year. While sales figures for the Passenger Cars Business Area fell short of the prior-year figure, commercial vehicle deliveries to customers rose year-on-year. The chart in this section shows the trend in deliveries worldwide for the individual months compared with the previous year. In the following, we report separately on deliveries in the Passenger Cars Business Area and the Commercial Vehicles Business Area.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the overall sales figures and trends, which are relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2021_Pf5ee7d",
+        "page": 21,
+        "section_name": "GLOBAL DELIVERIES BY THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 4,
+        "text": "Sales of Volkswagen Group passenger cars and light commercial vehicles worldwide declined by 5.5% in fiscal year 2021 to 8,610,747 units. Market conditions that resulted from the uncertainty and the measures taken around the world in connection with the Covid-19 pandemic have had a material impact on the prior-year figure. With regard to the trend in our deliveries to customers, there were some appreciable differences across individual countries and regions in the reporting year, depending on the latest infection rates, the related restrictions and the scale of disruption caused by the pandemic in the prior-year period. Furthermore, supply bottlenecks for semiconductors and the resulting limited availability of Group models meant that demand could not be adequately met in some regions, particularly from the third quarter of 2021 onwards. While the number of vehicles delivered to customers in the individual months of the first half of 2021 only failed to exceed the prior-year figure in January, the number of vehicles delivered to customers in the second half of the year was below the comparative figure for the previous year in every month. Nevertheless, SEAT, Bentley, Lamborghini and Porsche all surpassed their prior-year figures. In the North America, South America, Middle East and Africa regions, we registered higher sales figures than in the previous year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly mentions the decline in passenger car sales, which corresponds to the data in the table."
+      },
+      {
+        "para_id": "VW2021_Pba551f",
+        "page": 21,
+        "section_name": "Deliveries in Europe/Other Markets",
+        "section_level": 4,
+        "text": "In Western Europe, the Volkswagen Group delivered 2,761,568 vehicles to customers in 2021 in an overall market experiencing a slight contraction. This was 3.1% fewer than in the previous year, which had been strained by the pandemic. While the course of the Covid-19 pandemic and the restrictions introduced to contain it weighed on demand for Group models in the first quarter of 2021, there was an acceleration in demand, particularly at the beginning of the second quarter, as compared with the same quarter of the previous year, which had been affected most by the pandemic. This meant that the sales volume at the end of the first half of the year was higher than the comparable figure for 2020. From the third quarter of 2021 onwards, supply bottlenecks for semiconductors and the resulting limited availability of Group models increasingly meant that demand could not be adequately met. Consequently, the number of sales to customers fell again by the end of the year to below the prior-year figure. Customer interest in the Volkswagen Group's electric vehicles was strongest in Western Europe, where we delivered around three-quarters of our plug-in hybrids and nearly two-thirds of our all-electric models to customers in 2021.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses vehicle deliveries in Western Europe, which relates to the overall sales context."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tb1498a",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 25,
+    "bucket": "management_report",
     "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET 1",
     "title": "Passenger car deliveries to customers by market1",
     "headers": [
@@ -2398,10 +3235,25 @@
       "Bentley",
       "Porsche",
       "Bugatti ^2"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pc86804",
+        "page": 26,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "In fiscal year 2021, the Volkswagen Group delivered +42.6% more commercial vehicles to customers worldwide than in the same period of the previous year, when demand was affected by a slump in core markets, which had been further intensified by the uncertainty generated by the Covid-19 pandemic. We delivered a total of 271,210 commercial vehicles to customers. Trucks accounted for 230,151 units (+47.2%) and buses for 18,857 units (+16.6%). A total of 22,202 (+25.9%) vehicles from the MAN TGE van series were delivered. From July 1, 2021, the figures also include Navistar's sales (29,876).",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the increase in commercial vehicle deliveries, which is relevant to the overall delivery context but not specifically to the European data."
+      }
     ]
   },
   {
     "table_id": "VW2021_T8c13cb",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 26,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLE DELIVERIES TO CUSTOMERS BY MARKET 1",
     "title": "Commercial vehicle deliveries to customers by market1",
     "headers": [
@@ -2539,10 +3391,61 @@
       "Scania",
       "MAN",
       "Navistar"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P756b85",
+        "page": 26,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "In the 27 EU states excluding Malta, but plus the United Kingdom, Norway and Switzerland (EU27+3), sales in the reporting period were up by 13.2% on the previous year to a total of 119,029 units, of which 92,038 were trucks and 5,451 were buses. Here, the MAN brand delivered 21,540 vehicles from the MAN TGE van series.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales in the EU27+3, directly matching the data in the table."
+      },
+      {
+        "para_id": "VW2021_P03cb1a",
+        "page": 26,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "In Russia, sales rose year-on-year to 11,293 (8,486) units, comprising 11,232 trucks and 61 buses.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sales in Russia, which is relevant to the regional context but does not cover the broader European data."
+      },
+      {
+        "para_id": "VW2021_P4e8878",
+        "page": 26,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "In fiscal year 2021, deliveries in Turkey increased to 4,398 (2,681) vehicles. Trucks accounted for 4,204 units and buses for 28 units, while 166 vehicles from the MAN TGE van series were sold. In South Africa, deliveries of Volkswagen Group commercial vehicles increased by 26.7% year-on-year to a total of 3,942 units; of this figure 3,610 were trucks and 332 were buses.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses deliveries in Turkey, which is relevant to the overall market context but not specifically to the EU figures."
+      },
+      {
+        "para_id": "VW2021_Pb03cca",
+        "page": 26,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "Sales in North America rose in the reporting year to 31,869 vehicles (1,502); this included 25,815 trucks and 6,054 buses. From July 1, 2021, the figures also include Navistar's sales (29,003) whose vehicles were above all handed over to customers in the United States.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sales in North America, which provides context but does not directly relate to the European delivery figures."
+      },
+      {
+        "para_id": "VW2021_Pc6ba9b",
+        "page": 26,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "Deliveries in South America increased to a total of 77,774 vehicles (+57.5%) in 2021, of which 72,955 were trucks and 4,812 were buses. Sales in Brazil were up by 59.1%. Of the units delivered, 61,571 were trucks and 3,434 were buses. From July 1, 2021, the figures also include Navistar's sales (873).",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses deliveries in South America, which is relevant to the overall context of vehicle deliveries but not specifically to Europe."
+      }
     ]
   },
   {
     "table_id": "VW2021_T6d3b20",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 29,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES AND MARKET INDICES FROM JANUARY 1 TO DECEMBER 31, 2021",
     "title": "Volkswagen key share figures and market indices",
     "headers": [
@@ -2628,10 +3531,79 @@
       "",
       "ESTX Auto & Parts",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P0e1782",
+        "page": 29,
+        "section_name": "Shares and Bonds",
+        "section_level": 1,
+        "text": "<span id=\"page-28-0\"></span>During the reporting period trading in Volkswagen AG's ordinary and preferred shares continued to recover from the sharp fall in share prices in 2020. The price of our ordinary shares, in particular, was higher at the end of 2021 than before the pandemic.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the recovery of Volkswagen's ordinary and preferred shares, which directly relates to the stock prices in the table."
+      },
+      {
+        "para_id": "VW2021_P676789",
+        "page": 29,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 1,
+        "text": "The recovery on the international stock markets, which began over the course of 2020, after the sharp falls in share prices triggered by the Covid-19 pandemic, continued to be strong for the most part of fiscal year 2021. Optimism was widespread, despite fears of setbacks in tackling the pandemic and of the resulting prolongation of restrictions to public life and the corresponding impact on economic growth.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the recovery of international stock markets, which provides context relevant to the stock performance."
+      },
+      {
+        "para_id": "VW2021_Pda875b",
+        "page": 29,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 1,
+        "text": "The DAX recorded an increase of 15.8% compared with the end of 2020. Germany's benchmark index remained largely unperturbed by the continuing spread of the SARS-CoV-2 virus, although the dynamic pace of increase in the second quarter transitioned into sideways movement and then started a year-end rally, which was, however, overshadowed by renewed increases in infection rates. The main drivers of this positive development were the progress made in the vaccination campaigns and the continued economic stimulus by central banks and governments all around the world, as well as an emerging recovery in the global economy. Support also came from gains in automotive stocks. In contrast, the concerns of market participants regarding rising inflation had a negative impact, as did lack of parts availability due to supply bottlenecks.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the DAX index performance, which is relevant to the overall market context for Volkswagen shares."
+      },
+      {
+        "para_id": "VW2021_Pf68ec7",
+        "page": 29,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 1,
+        "text": "Volkswagen AG's preferred and ordinary shares recovered from the loss in value caused by the pandemic. Their prices were up by 16% and 52% respectively compared to the end of 2020. As a result, their value was higher than before the Covid-19 pandemic, with the ordinary shares performing especially positively. The encouraging performance of Volkswagen shares was based firstly on the good business performance in the reporting year, especially in the first six months. Secondly, the new Group strategy NEW AUTO, including the Group's plans to accelerate the expansion of emobility and the associated battery technology, was well received by investors. The continued strained situation relating to the supply of semiconductors had a negative impact.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the recovery of Volkswagen's shares and their performance, directly relating to the stock prices in the table."
+      },
+      {
+        "para_id": "VW2021_P2bf877",
+        "page": 30,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 4,
+        "text": "The current dividend proposal can be found in the chapter entitled \"Volkswagen AG (condensed, in accordance with the German Commercial Code)\" of this annual report. The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €7.50 per ordinary share and €7.56 per preferred share for fiscal year 2021. On this basis, the total dividend amounts to €3.8 (2.4) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 25.4% for the reporting period and stood at 29.0% in the previous year. A payout ratio of at least 30% is one of our strategic goals.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the proposed dividend, which is relevant to shareholders but does not directly relate to current stock prices."
+      },
+      {
+        "para_id": "VW2021_P7a3deb",
+        "page": 30,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 4,
+        "text": "Based on the dividend proposal for the reporting period, the dividend yield on Volkswagen ordinary shares is 2.9 (2.8)%, measured by the closing price on the last trading day in 2021. The dividend yield on preferred shares is 4.3 (3.2)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses dividend yields, which are relevant to shareholders but not directly to stock prices."
+      },
+      {
+        "para_id": "VW2021_Pd27b99",
+        "page": 30,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 1,
+        "text": "Basic earnings per ordinary share were €29.59 (16.60) in fiscal year 2021. Basic earnings per preferred share were €29.65 (16.66). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting period. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses earnings per share, which is relevant to stock performance but not directly to the prices listed in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T47c5dc",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 31,
+    "bucket": "management_report",
     "section_name": "EARNINGS PER SHARE",
     "title": "Volkswagen share data",
     "headers": [
@@ -2685,10 +3657,52 @@
       "Reuters",
       "Primary market indices",
       "Exchanges"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P2bf877",
+        "page": 30,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 4,
+        "text": "The current dividend proposal can be found in the chapter entitled \"Volkswagen AG (condensed, in accordance with the German Commercial Code)\" of this annual report. The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €7.50 per ordinary share and €7.56 per preferred share for fiscal year 2021. On this basis, the total dividend amounts to €3.8 (2.4) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 25.4% for the reporting period and stood at 29.0% in the previous year. A payout ratio of at least 30% is one of our strategic goals.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly mentions the proposed dividends for ordinary and preferred shares, which relates directly to the share information in the table."
+      },
+      {
+        "para_id": "VW2021_P7a3deb",
+        "page": 30,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 4,
+        "text": "Based on the dividend proposal for the reporting period, the dividend yield on Volkswagen ordinary shares is 2.9 (2.8)%, measured by the closing price on the last trading day in 2021. The dividend yield on preferred shares is 4.3 (3.2)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the dividend yields for ordinary and preferred shares, which is directly relevant to the share information in the table."
+      },
+      {
+        "para_id": "VW2021_Pd27b99",
+        "page": 30,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 1,
+        "text": "Basic earnings per ordinary share were €29.59 (16.60) in fiscal year 2021. Basic earnings per preferred share were €29.65 (16.66). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting period. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses earnings per share for ordinary and preferred shares, which is relevant but not directly part of the share information in the table."
+      },
+      {
+        "para_id": "VW2021_Pa802ba",
+        "page": 31,
+        "section_name": "SHAREHOLDER STRUCTURE AS OF DECEMBER 31, 2021",
+        "section_level": 4,
+        "text": "The distribution of voting rights for the 295,089,818 ordinary shares was as follows at the reporting date: Porsche Automobil Holding SE, Stuttgart, held 53.3% of the voting rights. The second-largest shareholder was the State of Lower Saxony, which held 20.0% of the voting rights. Qatar Holding LLC was the third-largest shareholder with 17.0%. The remaining 9.7% of ordinary shares were in free float.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the distribution of voting rights for ordinary shares, which is relevant to the ownership aspect of shares but not directly to prices."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tcf7d57",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 32,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
     "title": "Volkswagen share Key Figures – 5 year overview",
     "headers": [
@@ -3124,10 +4138,25 @@
       "Turnover of Volkswagen preferred shares",
       "",
       "Volkswagen share of total DAX turnover"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pd81885",
+        "page": 32,
+        "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
+        "section_level": 4,
+        "text": "1 Figures for the years 2017 to 2020 relate to dividends paid in the following year. For 2021, the figures relate to the proposed dividend.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph clarifies that figures for dividends relate to the proposed dividend for 2021, which is directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Td3fba5",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 33,
+    "bucket": "management_report",
     "section_name": "REFINANCING",
     "title": "Utilization of money and capital market programs",
     "headers": [
@@ -3169,10 +4198,34 @@
       "Bonds",
       "of which hybrid issues",
       "Asset-backed securities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P1c1bd7",
+        "page": 33,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was also actively involved in the commercial paper market with several issuing companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses involvement in the commercial paper market, which is relevant to the financing programs."
+      },
+      {
+        "para_id": "VW2021_P59eeec",
+        "page": 33,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The table below shows how our money and capital market programs were utilized as of December 31, 2021 and illustrates the financial flexibility of the Volkswagen Group:",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses how money and capital market programs were utilized, directly relating to the financing programs in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T9a0b3b",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 34,
+    "bucket": "management_report",
     "section_name": "RATINGS",
     "title": "Ratings",
     "headers": [
@@ -3309,10 +4362,25 @@
       "short-term",
       "long-term",
       "outlook"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P1c1bd7",
+        "page": 33,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was also actively involved in the commercial paper market with several issuing companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses involvement in the commercial paper market, which is relevant to the financing context but not directly to the performance metrics."
+      }
     ]
   },
   {
     "table_id": "VW2021_T529ff2",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 35,
+    "bucket": "management_report",
     "section_name": "ACQUISITION OF NAVISTAR",
     "title": "Key figures for 2021 by segment",
     "headers": [
@@ -3373,10 +4441,34 @@
       "Sales revenue",
       "Segment profit or loss (operating result)",
       "as a percentage of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pe34037",
+        "page": 35,
+        "section_name": "<span id=\"page-34-0\"></span>Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "Despite the continuing negative impact of the Covid-19 pandemic and, in particular, limited vehicle availability as a result of the semiconductor shortage, the Volkswagen Group generated significantly higher sales revenue and doubled its operating result in the reporting year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the significant increase in sales revenue and operating results, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pf8b9a1",
+        "page": 36,
+        "section_name": "KEY FIGURES FOR 2021 BY SEGMENT",
+        "section_level": 1,
+        "text": "production costs, modularization and the use of shared components, and to the area of research and development. The consolidation of Navistar as of July 1, 2021 led to an increase of €3.5 billion in the Volkswagen Group's sales revenue as of December 31, 2021. Moreover, the transition of the treatment of Navistar from equity accounting to consolidation gave rise to a non-cash gain of €182 million during initial consolidation, which was presented in the financial result. Earnings after tax including impairment losses on the realization of hidden reserves decreased by €0.2 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the financial impact of the consolidation of Navistar, which is relevant to the overall financial context but not directly to the metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T7db571",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 37,
+    "bucket": "management_report",
     "section_name": "Results of operations of the Group",
     "title": "Income statement by division",
     "headers": [
@@ -3581,10 +4673,70 @@
       "Noncontrolling interests",
       "Earnings attributable to Volkswagen AG hybrid capital investors",
       "Earnings attributable to Volkswagen AG shareholders"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pf8b9a1",
+        "page": 36,
+        "section_name": "KEY FIGURES FOR 2021 BY SEGMENT",
+        "section_level": 1,
+        "text": "production costs, modularization and the use of shared components, and to the area of research and development. The consolidation of Navistar as of July 1, 2021 led to an increase of €3.5 billion in the Volkswagen Group's sales revenue as of December 31, 2021. Moreover, the transition of the treatment of Navistar from equity accounting to consolidation gave rise to a non-cash gain of €182 million during initial consolidation, which was presented in the financial result. Earnings after tax including impairment losses on the realization of hidden reserves decreased by €0.2 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the financial impact of Navistar's consolidation, which directly relates to the sales revenue and operating results in the table."
+      },
+      {
+        "para_id": "VW2021_P4e39d8",
+        "page": 37,
+        "section_name": "Results of operations of the Group",
+        "section_level": 1,
+        "text": "Against the backdrop of a global economic recovery and despite the continuing impact of the Covid-19 pandemic, and in particular limited vehicle availability as a result of the semiconductor shortage, the Volkswagen Group generated sales revenue of €250.2 billion in fiscal year 2021, 12.3% more than in the previous year, despite the decline in unit sales. Mix effects, better price positioning, and the good business performance of the Financial Services Division and the Commercial Vehicles Business Area particularly had a positive impact. Bottlenecks in the supply of semiconductors and the resulting limited availability of vehicles led to a",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the significant increase in sales revenue and the factors contributing to it, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pb03a6b",
+        "page": 37,
+        "section_name": "Results of operations of the Group",
+        "section_level": 1,
+        "text": "The Volkswagen Group's operating result before special items improved by €9.4 billion to €20.0 billion in the reporting period. The operating return on sales before special items increased to 8.0 (4.8)%. The rise was mainly attributable to positive mix effects, improved price positioning and positive effects of €2.5 (–0.1) billion from the measurement of derivatives to which hedge accounting is not applied (especially commodity hedging derivatives). The good business performance of the Financial Services Division also made a positive contribution. One-off expenses of €0.7 billion for restructuring measures were recognized in the Commercial Vehicles Business Area. These primarily include expenses from the sale of the commercial vehicle plant in Steyr, which became effective on August 31, 2021. In addition, incurred expenses of €0.5 billion in connection with the EU antitrust proceedings against Scania had a negative effect. Special items in connection with the diesel issue weighed on the operating result, reducing this item by €–0.8 (–0.9) billion. The Volkswagen Group's operating profit doubled to €19.3 (9.7) billion, resulting in a rise in the operating return on sales to 7.7 (4.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result before special items, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pc89c5c",
+        "page": 38,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2021 in percent",
+        "section_level": 1,
+        "text": "The Volkswagen Group's profit before tax rose to €20.1 (11.7) billion. The return on sales before tax increased to 8.0 (5.2)%. Income taxes resulted in an expense of €4.7 (2.8) billion in fiscal year 2021, which in turn led to a tax rate of 23.3 (24.4)%. Profit after tax went up by €6.6 billion to €15.4 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses profit before tax and return on sales, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P396070",
+        "page": 38,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 1,
+        "text": "Despite the decline in unit sales, the Automotive Division's sales revenue of €206.2 billion in fiscal year 2021 was 13.3% higher than in the prior-year period, which had been more severely impacted by the spread of the Covid-19 pandemic and its negative consequences. Improvements in the mix and in price positioning had a positive effect, while limited vehicle availability due to the semiconductor shortage and changes in exchange rates had an adverse impact.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in sales revenue for the Automotive Division, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pcf2ba7",
+        "page": 38,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 1,
+        "text": "In the Passenger Cars Business Area, sales revenue in the reporting period increased by a noticeable 10.6%, while the Commercial Vehicles Business Area recorded a very strong year-on-year rise of 35.8%. In the Power Engineering Business Area, sales revenue was 9.9% lower than in fiscal year 2020, which had included the business of Renk until October. Since our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is primarily reflected in the Group's sales revenue only through deliveries of vehicles and vehicle parts.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales revenue changes in different business areas, which directly relates to the financial performance metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_Tf3962f",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 39,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
     "title": "Results of operations in the passenger cars, commercial vehicles and engineering business areas",
     "headers": [
@@ -3674,10 +4826,52 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P396070",
+        "page": 38,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 1,
+        "text": "Despite the decline in unit sales, the Automotive Division's sales revenue of €206.2 billion in fiscal year 2021 was 13.3% higher than in the prior-year period, which had been more severely impacted by the spread of the Covid-19 pandemic and its negative consequences. Improvements in the mix and in price positioning had a positive effect, while limited vehicle availability due to the semiconductor shortage and changes in exchange rates had an adverse impact.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in sales revenue for the Automotive Division, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pcf2ba7",
+        "page": 38,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 1,
+        "text": "In the Passenger Cars Business Area, sales revenue in the reporting period increased by a noticeable 10.6%, while the Commercial Vehicles Business Area recorded a very strong year-on-year rise of 35.8%. In the Power Engineering Business Area, sales revenue was 9.9% lower than in fiscal year 2020, which had included the business of Renk until October. Since our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is primarily reflected in the Group's sales revenue only through deliveries of vehicles and vehicle parts.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales revenue changes in different business areas, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pbcfce2",
+        "page": 39,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 1,
+        "text": "The Automotive Division's operating result doubled to €13.2 (6.7) billion in the reporting period. The operating return on sales of the Automotive Division climbed to 6.4 (3.7)%. Positive factors included favorable price positioning, the fair value measurement of derivatives to which hedge accounting is not applied and changes in the mix. Negative special items attributable to the diesel issue were down on the previous year. These factors were offset by limited vehicle availability as a result of the semiconductor shortage, an increase in provisions in connection with the EU antitrust proceedings against Scania in the reporting period, and one-off expenses for restructuring measures in the Commercial Vehicles Business Area.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result for the Automotive Division, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P88646a",
+        "page": 40,
+        "section_name": "Financial position of the Group",
+        "section_level": 2,
+        "text": "In the period from January to December 2021, the Volkswagen Group generated gross cash flow of €43.7 (35.0) billion. The increase compared with the previous year was largely attributable to the improvement in profit. In comparison with the previous year, which had been impacted by the pandemic, a decrease in inventories and receivables, a rise in lease assets and higher liabilities took the change in working capital to €–5.1 (–10.1) billion. Cash outflows attributable to the diesel issue were lower than in fiscal year 2020 and included the inflows from the agreements regarding the settlement of damages. As a result, cash flows from operating activities grew by €13.7 billion to €38.6 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses gross cash flow, which is relevant to the overall financial performance metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T6b8984",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 40,
+    "bucket": "management_report",
     "section_name": "Financial position of the Group",
     "title": "Financial position in the passenger cars, commercial vehicles and power engineering business areas",
     "headers": [
@@ -3803,10 +4997,79 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_Pbcfce2",
+        "page": 39,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 1,
+        "text": "The Automotive Division's operating result doubled to €13.2 (6.7) billion in the reporting period. The operating return on sales of the Automotive Division climbed to 6.4 (3.7)%. Positive factors included favorable price positioning, the fair value measurement of derivatives to which hedge accounting is not applied and changes in the mix. Negative special items attributable to the diesel issue were down on the previous year. These factors were offset by limited vehicle availability as a result of the semiconductor shortage, an increase in provisions in connection with the EU antitrust proceedings against Scania in the reporting period, and one-off expenses for restructuring measures in the Commercial Vehicles Business Area.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result for the Automotive Division, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_Pd97389",
+        "page": 39,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 1,
+        "text": "The operating result before special items increased by €6.4 billion to €14.0 billion, while the operating return on sales before special items went up to 6.8 (4.2)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result before special items, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P88646a",
+        "page": 40,
+        "section_name": "Financial position of the Group",
+        "section_level": 2,
+        "text": "In the period from January to December 2021, the Volkswagen Group generated gross cash flow of €43.7 (35.0) billion. The increase compared with the previous year was largely attributable to the improvement in profit. In comparison with the previous year, which had been impacted by the pandemic, a decrease in inventories and receivables, a rise in lease assets and higher liabilities took the change in working capital to €–5.1 (–10.1) billion. Cash outflows attributable to the diesel issue were lower than in fiscal year 2020 and included the inflows from the agreements regarding the settlement of damages. As a result, cash flows from operating activities grew by €13.7 billion to €38.6 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses gross cash flow, which is relevant to the overall financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P4ed1b0",
+        "page": 40,
+        "section_name": "Financial position of the Automotive Division",
+        "section_level": 2,
+        "text": "The Automotive Division recorded gross cash flow of €29.0 billion in fiscal year 2021, which exceeded the prioryear figure by €5.4 billion due to earnings-related reasons. The change in working capital amounted to €3.4 (1.1) billion. The rise of €2.3 billion compared with the previous year, which had been impacted more severely by the Covid-19 pandemic, was due to increases in liabilities and in other provisions, offset by a smaller decline in inventories.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses cash flow changes and their impact, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P016afb",
+        "page": 41,
+        "section_name": "AUTOMOTIVE DIVISION NET CASH FLOW 2021 € billion",
+        "section_level": 4,
+        "text": "In the reporting period, cash outflows attributable to the diesel issue were lower than in the previous year. This applies even if the inflows from the agreements regarding the settlement of damages are not taken into account. Consequently, cash flows from operating activities were up €7.7 billion on the previous year, to €32.4 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses cash flows from operating activities, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P147c64",
+        "page": 41,
+        "section_name": "AUTOMOTIVE DIVISION NET CASH FLOW 2021 € billion",
+        "section_level": 4,
+        "text": "Despite the investment in Navistar (€–2.6 billion), the Automotive Division's net cash flow of €8.6 billion in the period from January to December 2021 was €2.3 billion higher than the comparative figure for 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses net cash flow for the Automotive Division, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P96d425",
+        "page": 41,
+        "section_name": "AUTOMOTIVE DIVISION NET CASH FLOW 2021 € billion",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division's net liquidity was €26.7 billion, compared with €26.8 billion on December 31, 2020. With net liquidity almost unchanged and a noticeable increase in sales revenue, the Automotive Division's net liquidity as a proportion of consolidated sales revenue declined to 10.7 (12.0)% in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's net liquidity, which is relevant to the financial performance metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T2c274f",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 42,
+    "bucket": "management_report",
     "section_name": "CASH FLOW STATEMENT BY DIVISION",
     "title": "Cash flow statement by division",
     "headers": [
@@ -4171,10 +5434,43 @@
       "Gross liquidity",
       "Total third-party borrowings",
       "Net liquidity ^6"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2021_P016afb",
+        "page": 41,
+        "section_name": "AUTOMOTIVE DIVISION NET CASH FLOW 2021 € billion",
+        "section_level": 4,
+        "text": "In the reporting period, cash outflows attributable to the diesel issue were lower than in the previous year. This applies even if the inflows from the agreements regarding the settlement of damages are not taken into account. Consequently, cash flows from operating activities were up €7.7 billion on the previous year, to €32.4 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses cash flows from operating activities, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P147c64",
+        "page": 41,
+        "section_name": "AUTOMOTIVE DIVISION NET CASH FLOW 2021 € billion",
+        "section_level": 4,
+        "text": "Despite the investment in Navistar (€–2.6 billion), the Automotive Division's net cash flow of €8.6 billion in the period from January to December 2021 was €2.3 billion higher than the comparative figure for 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses net cash flow for the Automotive Division, which directly relates to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2021_P96d425",
+        "page": 41,
+        "section_name": "AUTOMOTIVE DIVISION NET CASH FLOW 2021 € billion",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division's net liquidity was €26.7 billion, compared with €26.8 billion on December 31, 2020. With net liquidity almost unchanged and a noticeable increase in sales revenue, the Automotive Division's net liquidity as a proportion of consolidated sales revenue declined to 10.7 (12.0)% in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's net liquidity, which is relevant to the financial performance metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2021_T413f9a",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 43,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET STRUCTURE OF THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS",
     "title": "unknown title",
     "headers": [
@@ -4318,10 +5614,15 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T9abccc",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 44,
+    "bucket": "management_report",
     "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -4666,10 +5967,15 @@
       "Other liabilities",
       "Liabilities associated with assets held for sale",
       "Total equity and liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T667f0c",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 47,
+    "bucket": "management_report",
     "section_name": "COST OF CAPITAL AFTER TAX IN THE AUTOMOTIVE DIVISION",
     "title": "Cost of capital after tax in the Automotive Division",
     "headers": [
@@ -4753,10 +6059,15 @@
       "Proportion of equity",
       "Proportion of debt",
       "Cost of capital after tax"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_Tc1042d",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 47,
+    "bucket": "management_report",
     "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
     "title": "Return on investment (ROI) and value contribution in the Automotive Division1",
     "headers": [
@@ -4810,10 +6121,15 @@
       "Cost of capital in %",
       "Cost of invested capital",
       "Value contribution"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_Tb2520d",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 48,
+    "bucket": "management_report",
     "section_name": "FORECAST VERSUS ACTUAL FIGURES",
     "title": "Forecast versus actual figures",
     "headers": [
@@ -5059,10 +6375,15 @@
       "Net cash flow in the Automotive Division",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T8848ae",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 49,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
     "title": "Income statement of Volkswagen AG",
     "headers": [
@@ -5152,10 +6473,15 @@
       "Retained profits brought forward",
       "Release of/appropriation to revenue reserves",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_Tcc1d2d",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 49,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET OF VOLKSWAGEN AG AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -5233,10 +6559,15 @@
       "Long-term debt",
       "Medium-term debt",
       "Short-term debt"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T499e08",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 50,
+    "bucket": "management_report",
     "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "title": "Proposal on the appropriation of net profit",
     "headers": [
@@ -5290,10 +6621,15 @@
       "Appropriation to other revenue reserves",
       "Balance (carried forward to new account)",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T65eee1",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 50,
+    "bucket": "management_report",
     "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "title": "Employee pay and benefits at Volkswagen AG",
     "headers": [
@@ -5347,10 +6683,15 @@
       "Compensated absence",
       "Retirement benefits",
       "Total expense"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_Tcabedb",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 64,
+    "bucket": "management_report",
     "section_name": "Key R&D figures",
     "title": "Research and development costs in the Automotive Division",
     "headers": [
@@ -5416,10 +6757,15 @@
       "Sales revenue",
       "Total research and development costs",
       "R&D ratio"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_Te10585",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 78,
+    "bucket": "management_report",
     "section_name": "PROPORTION OF WOMEN  as of December 31",
     "title": "Proportion of women",
     "headers": [
@@ -5479,10 +6825,15 @@
       "Management",
       "Senior management",
       "Top management"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_Td83082",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 84,
+    "bucket": "management_report",
     "section_name": "ECONOMIC ACTIVITIES OF THE VOLKSWAGEN GROUP",
     "title": "Economic activity in accordance with the EU taxonomy",
     "headers": [
@@ -5551,10 +6902,15 @@
       "3.6 Manufacture of other low-carbon technologies",
       "9. Professional, scientific and technical activities",
       "9.1 Close to market research, development and innovation"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T039275",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 88,
+    "bucket": "management_report",
     "section_name": "SALES REVENUE",
     "title": "Sales revenue",
     "headers": [
@@ -5728,10 +7084,15 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T53c8c1",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 90,
+    "bucket": "management_report",
     "section_name": "CAPITAL EXPENDITURE",
     "title": "Capital expenditure",
     "headers": [
@@ -5918,10 +7279,15 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2021_T25c033",
+    "doc_id": "VW2021",
+    "year": 2021,
+    "page": 91,
+    "bucket": "management_report",
     "section_name": "OPERATING EXPENDITURE",
     "title": "Operating expenditure",
     "headers": [
@@ -6082,6 +7448,7 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
-    ]
+    ],
+    "paragraphs": []
   }
 ]

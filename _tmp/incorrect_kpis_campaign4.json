@@ -1,0 +1,36 @@
+[
+  {
+    "line_index": 0,
+    "split": "table-018",
+    "dataset": "trial21",
+    "setup_id": "manual-kpi",
+    "example_idx": 0,
+    "annotation_type": 0,
+    "annotation_text": "Deliveries",
+    "annotation_start": 0,
+    "name": "Deliveries",
+    "key": "ŠKODA BRAND",
+    "country": "Worldwide",
+    "value": "731",
+    "year": "2022",
+    "units": "thousand units",
+    "raw_line": "Deliveries | ŠKODA BRAND | Worldwide | value=731 | year=2022 | units=thousand units"
+  },
+  {
+    "line_index": 5,
+    "split": "table-021",
+    "dataset": "trial21",
+    "setup_id": "manual-kpi",
+    "example_idx": 0,
+    "annotation_type": 0,
+    "annotation_text": "1U",
+    "annotation_start": 324,
+    "name": "A6",
+    "key": "Audi",
+    "country": "Worldwide",
+    "value": "271679",
+    "year": "2020",
+    "units": "Units",
+    "raw_line": "A6 | Audi | Worldwide | value=271679 | year=2020 | units=Units"
+  }
+]

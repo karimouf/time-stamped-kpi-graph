@@ -72,6 +72,88 @@ def load_tables_from_db(
         conn.close()
 
 
+def load_tables_from_db_with_filters(
+    db_path: str,
+    filters: Optional[Dict[str, Any]] = None,
+    max_tables: Optional[int] = None
+) -> List[Dict[str, Any]]:
+    """
+    Load tables from the database with generic filtering support.
+    
+    Args:
+        db_path: Path to the SQLite database
+        filters: Dictionary of field names and values to filter by.
+                 Supported fields: 'page', 'year', 'title', 'section_name', 'bucket', 'doc_id', 'table_id'
+                 Examples:
+                   {'year': 2023, 'page': 3}
+                   {'title': 'KEY FIGURES BY DIVISION'}
+                   {'bucket': 'divisions', 'year': 2023}
+        max_tables: Maximum number of tables to load
+        
+    Returns:
+        List of table dictionaries matching the filter criteria
+    """
+    filters = filters or {}
+    logger.info(f"Loading tables from database: {db_path}")
+    if filters:
+        logger.info(f"  Applied filters: {filters}")
+    
+    conn = sqlite3.connect(db_path)
+    try:
+        cur = conn.cursor()
+        
+        # Build SQL query with WHERE clauses for database fields
+        base_query = "SELECT table_id, doc_id, year, page, bucket, section_name, title, headers, merged_headers, rows, stub_col FROM context_packs"
+        where_clauses = []
+        params = []
+        
+        # Handle database-level filters (fields that exist in the database)
+        db_fields = ['table_id', 'section_name', 'title', 'bucket', 'doc_id', 'year', 'page']
+        for field in db_fields:
+            if field in filters:
+                where_clauses.append(f"{field} = ?")
+                params.append(filters[field])
+        
+        if where_clauses:
+            base_query += " WHERE " + " AND ".join(where_clauses)
+        
+        cur.execute(base_query, params)
+        
+        tables = []
+        for row in cur.fetchall():
+            table_id, doc_id, year, page, bucket, section_name, title, headers, merged_headers, rows, stub_col = row
+            
+            # No need to extract metadata from table_id since we get it directly from database
+            # Convert types if needed
+            year = int(year) if year else None
+            page = int(page) if page else None
+            
+            table_data = {
+                "table_id": table_id,
+                "doc_id": doc_id if doc_id else "",
+                "year": year,
+                "page": page,
+                "bucket": bucket if bucket else "",
+                "section_name": section_name if section_name else "",
+                "title": title if title else "",
+                "headers": json.loads(headers) if headers else [],
+                "merged_headers": json.loads(merged_headers) if merged_headers else None,
+                "rows": json.loads(rows) if rows else [],
+                "stub_col": json.loads(stub_col) if stub_col else None,
+            }
+            tables.append(table_data)
+            
+            # Check if we've hit the limit
+            if max_tables and len(tables) >= max_tables:
+                break
+        
+        logger.info(f"  Loaded {len(tables)} tables matching filters")
+        return tables
+        
+    finally:
+        conn.close()
+
+
 def get_years_from_db(db_path: str) -> List[str]:
     """
     Get all unique years available in the database.
@@ -168,6 +250,115 @@ def load_existing_results(output_file: Path) -> Tuple[List[Dict[str, Any]], set]
     except Exception as e:
         logger.warning(f"Error loading checkpoint file: {e}, starting fresh")
         return [], set()
+
+
+def get_latest_checkpoint_info(
+    output_dir: Path, 
+    model_name: str, 
+    job_id: Optional[str] = None
+) -> Tuple[Optional[str], Optional[Path], List[Dict[str, Any]], set]:
+    """
+    Get the latest checkpoint information across all years for a model+job.
+    Used to determine which year to resume from.
+    
+    Args:
+        output_dir: Output directory path
+        model_name: Model name
+        job_id: Optional SLURM job ID
+        
+    Returns:
+        Tuple of (checkpoint_year, checkpoint_file_path, existing_results, processed_table_ids)
+        If no checkpoint exists, returns (None, None, [], set())
+    """
+    import re
+    
+    # Build pattern to match checkpoint files for this model and job
+    if job_id:
+        pattern = f"checkpoint_*_{job_id}_{model_name}_year*_kpis.json"
+    else:
+        pattern = f"checkpoint_*_{model_name}_year*_kpis.json"
+    
+    existing_files = list(output_dir.glob(pattern))
+    
+    if not existing_files:
+        logger.info(f"  No checkpoint found for {model_name}" + (f" job {job_id}" if job_id else ""))
+        return None, None, [], set()
+    
+    # Get the most recent checkpoint file (by modification time)
+    checkpoint_file = max(existing_files, key=lambda p: p.stat().st_mtime)
+    logger.info(f"  Found latest checkpoint: {checkpoint_file.name}")
+    
+    # Extract year from checkpoint filename
+    year_match = re.search(r'year(\d{4})', checkpoint_file.name)
+    checkpoint_year = year_match.group(1) if year_match else None
+    
+    if not checkpoint_year:
+        logger.warning(f"  Could not extract year from checkpoint filename: {checkpoint_file.name}")
+        return None, None, [], set()
+    
+    logger.info(f"  Checkpoint is for year: {checkpoint_year}")
+    
+    # Load existing results
+    results, processed_ids = load_existing_results(checkpoint_file)
+    
+    return checkpoint_year, checkpoint_file, results, processed_ids
+
+
+def get_checkpoint_for_year(
+    output_dir: Path,
+    model_name: str,
+    year: str,
+    job_id: Optional[str] = None
+) -> Tuple[Optional[Path], List[Dict[str, Any]], set]:
+    """
+    Get checkpoint for a specific year.
+    
+    Args:
+        output_dir: Output directory path
+        model_name: Model name
+        year: Year string (e.g., "2019")
+        job_id: Optional SLURM job ID
+        
+    Returns:
+        Tuple of (checkpoint_file_path, existing_results, processed_table_ids)
+        If no checkpoint exists, returns (None, [], set())
+    """
+    # Build pattern for this specific year
+    if job_id:
+        pattern = f"checkpoint_*_{job_id}_{model_name}_year{year}_kpis.json"
+    else:
+        pattern = f"checkpoint_*_{model_name}_year{year}_kpis.json"
+    
+    existing_files = list(output_dir.glob(pattern))
+    
+    if not existing_files:
+        return None, [], set()
+    
+    # Use the most recent checkpoint for this year
+    checkpoint_file = max(existing_files, key=lambda p: p.stat().st_mtime)
+    logger.info(f"  Found checkpoint for year {year}: {checkpoint_file.name}")
+    
+    results, processed_ids = load_existing_results(checkpoint_file)
+    return checkpoint_file, results, processed_ids
+
+
+def create_checkpoint_file(output_dir: Path, model_name: str, year: str, job_id: Optional[str] = None) -> Path:
+    """
+    Create a new checkpoint file path.
+    
+    Args:
+        output_dir: Output directory
+        model_name: Model name
+        year: Year string
+        job_id: Optional SLURM job ID
+        
+    Returns:
+        Path to checkpoint file
+    """
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    job_suffix = f"_{job_id}" if job_id else ""
+    checkpoint_file = output_dir / f"checkpoint_{timestamp}{job_suffix}_{model_name}_year{year}_kpis.json"
+    return checkpoint_file
 
 
 def save_checkpoint(output_file: Path, results: List[Dict[str, Any]], 

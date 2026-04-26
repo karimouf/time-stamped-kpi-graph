@@ -1,0 +1,68 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+deliveries,Europe/Other Markets,Worldwide,3993368,2024,units,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Europe/Other Markets,Worldwide,3953397,2023,units,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Western Europe,Worldwide,3144705,2024,units,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Western Europe,Worldwide,3141434,2023,units,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Germany,Germany,1122422,2024,units,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Germany,Germany,1141418,2023,units,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,France,France,277097,2024,units,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,France,France,263643,2023,units,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,United Kingdom,United Kingdom,493758,2024,units,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,United Kingdom,United Kingdom,489088,2023,units,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Italy,Italy,271868,2024,units,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Italy,Italy,269479,2023,units,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Spain,Spain,252619,2024,units,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Spain,Spain,232483,2023,units,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Central and Eastern Europe,Worldwide,485615,2024,units,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Central and Eastern Europe,Worldwide,474357,2023,units,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Czech Republic,Czech Republic,112923,2024,units,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Czech Republic,Czech Republic,123471,2023,units,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Russia,Russia,3504,2023,units,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Poland,Poland,156867,2024,units,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Poland,Poland,140518,2023,units,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Other Markets,Worldwide,363048,2024,units,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Other Markets,Worldwide,337606,2023,units,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Türkiye,Türkiye,178713,2024,units,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Türkiye,Türkiye,166001,2023,units,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,South Africa,South Africa,67878,2024,units,13,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,South Africa,South Africa,69150,2023,units,13,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,North America,Worldwide,961916,2024,units,14,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,North America,Worldwide,899652,2023,units,14,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,USA,USA,658314,2024,units,15,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,USA,USA,639622,2023,units,15,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Canada,Canada,126207,2024,units,16,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Canada,Canada,110019,2023,units,16,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Mexico,Mexico,177395,2024,units,17,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Mexico,Mexico,150011,2023,units,17,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,South America,Worldwide,524108,2024,units,18,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,South America,Worldwide,465854,2023,units,18,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Brazil,Brazil,412334,2024,units,19,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Brazil,Brazil,356694,2023,units,19,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Argentina,Argentina,65719,2024,units,20,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Argentina,Argentina,57931,2023,units,20,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Asia-Pacific,Worldwide,3213816,2024,units,21,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Asia-Pacific,Worldwide,3582447,2023,units,21,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,China,China,2926763,2024,units,22,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,China,China,3233933,2023,units,22,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,India,India,85395,2024,units,23,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,India,India,101553,2023,units,23,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Japan,Japan,54667,2024,units,24,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Japan,Japan,65635,2023,units,24,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Worldwide,Worldwide,8693208,2024,units,25,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Worldwide,Worldwide,8901350,2023,units,25,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Volkswagen Passenger Cars,Worldwide,4796931,2024,units,26,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Volkswagen Passenger Cars,Worldwide,4866803,2023,units,26,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Škoda,Worldwide,926567,2024,units,27,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Škoda,Worldwide,866820,2023,units,27,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,SEAT/CUPRA,Worldwide,558159,2024,units,28,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,SEAT/CUPRA,Worldwide,519176,2023,units,28,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,408285,2024,units,29,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,409418,2023,units,29,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Audi,Worldwide,1671218,2024,units,30,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Audi,Worldwide,1895240,2023,units,30,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Lamborghini,Worldwide,10687,2024,units,31,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Lamborghini,Worldwide,10112,2023,units,31,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Bentley,Worldwide,10643,2024,units,32,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Bentley,Worldwide,13560,2023,units,32,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Porsche,Worldwide,310718,2024,units,33,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json
+deliveries,Porsche,Worldwide,320221,2023,units,33,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_029_table_00_kpis.json

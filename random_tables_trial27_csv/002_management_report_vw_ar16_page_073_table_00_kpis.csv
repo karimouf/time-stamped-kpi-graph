@@ -1,0 +1,9 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+sales revenue,Volkswagen Passenger Cars,Worldwide,150343,2016,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json
+sales revenue,Volkswagen Passenger Cars,Worldwide,149716,2015,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json
+gross profit,Volkswagen Passenger Cars,Worldwide,29660,2016,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json
+gross profit,Volkswagen Passenger Cars,Worldwide,23023,2015,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json
+operating result,Volkswagen Passenger Cars,Worldwide,4167,2016,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json
+operating result,Volkswagen Passenger Cars,Worldwide,-7013,2015,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json
+operating return on sales,Volkswagen Passenger Cars,Worldwide,2.8,2016,%,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json
+operating return on sales,Volkswagen Passenger Cars,Worldwide,-4.7,2015,%,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_073_table_00_kpis.json

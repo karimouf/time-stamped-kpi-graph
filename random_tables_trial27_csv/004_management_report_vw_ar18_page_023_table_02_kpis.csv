@@ -1,0 +1,5 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+initial reference price,Volkswagen Group,Worldwide,127.84,2017,€,0,1,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_023_table_02_kpis.json
+initial reference price,Volkswagen Group,Worldwide,169.42,2018,€,0,2,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_023_table_02_kpis.json
+dividend equivalent,Volkswagen Group,Worldwide,2.06,2017,€,2,1,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_023_table_02_kpis.json
+dividend equivalent,Volkswagen Group,Worldwide,3.96,2018,€,2,2,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_023_table_02_kpis.json

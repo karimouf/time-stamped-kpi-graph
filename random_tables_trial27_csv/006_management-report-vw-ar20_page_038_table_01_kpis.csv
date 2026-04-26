@@ -1,0 +1,7 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+sales revenue,Power Engineering,Worldwide,3640,2020,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management-report-vw-ar20_page_038_table_01_kpis.json
+sales revenue,Power Engineering,Worldwide,3997,2019,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management-report-vw-ar20_page_038_table_01_kpis.json
+operating result,Power Engineering,Worldwide,-482,2020,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management-report-vw-ar20_page_038_table_01_kpis.json
+operating result,Power Engineering,Worldwide,-93,2019,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management-report-vw-ar20_page_038_table_01_kpis.json
+operating return on sales,Power Engineering,Worldwide,-13.2,2020,%,2,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management-report-vw-ar20_page_038_table_01_kpis.json
+operating return on sales,Power Engineering,Worldwide,-2.3,2019,%,2,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management-report-vw-ar20_page_038_table_01_kpis.json

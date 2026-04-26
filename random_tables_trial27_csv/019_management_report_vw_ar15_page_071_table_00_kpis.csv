@@ -1,0 +1,162 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+noncurrent assets,Volkswagen Group,Worldwide,236548,2015,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent assets,Volkswagen Group,Worldwide,220106,2014,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent assets,Automotive,Worldwide,132812,2015,€ million,0,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent assets,Automotive,Worldwide,128231,2014,€ million,0,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent assets,Financial Services,Worldwide,103736,2015,€ million,0,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent assets,Financial Services,Worldwide,91875,2014,€ million,0,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+intangible assets,Volkswagen Group,Worldwide,61147,2015,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+intangible assets,Volkswagen Group,Worldwide,59935,2014,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+intangible assets,Automotive,Worldwide,60918,2015,€ million,1,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+intangible assets,Automotive,Worldwide,59697,2014,€ million,1,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+intangible assets,Financial Services,Worldwide,228,2015,€ million,1,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+intangible assets,Financial Services,Worldwide,237,2014,€ million,1,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"property, plant and equipment",Volkswagen Group,Worldwide,50171,2015,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"property, plant and equipment",Volkswagen Group,Worldwide,46169,2014,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"property, plant and equipment",Automotive,Worldwide,47768,2015,€ million,2,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"property, plant and equipment",Automotive,Worldwide,44080,2014,€ million,2,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"property, plant and equipment",Financial Services,Worldwide,2403,2015,€ million,2,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"property, plant and equipment",Financial Services,Worldwide,2089,2014,€ million,2,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+lease assets,Volkswagen Group,Worldwide,33173,2015,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+lease assets,Volkswagen Group,Worldwide,27585,2014,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+lease assets,Automotive,Worldwide,2931,2015,€ million,3,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+lease assets,Automotive,Worldwide,2815,2014,€ million,3,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+lease assets,Financial Services,Worldwide,30242,2015,€ million,3,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+lease assets,Financial Services,Worldwide,24770,2014,€ million,3,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Volkswagen Group,Worldwide,63185,2015,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Volkswagen Group,Worldwide,57877,2014,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Financial Services,Worldwide,63185,2015,€ million,4,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Financial Services,Worldwide,57877,2014,€ million,4,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"investments, equity-accounted investments and other equity investments, other receivables and financial assets",Volkswagen Group,Worldwide,28873,2015,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"investments, equity-accounted investments and other equity investments, other receivables and financial assets",Volkswagen Group,Worldwide,28541,2014,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"investments, equity-accounted investments and other equity investments, other receivables and financial assets",Automotive,Worldwide,21195,2015,€ million,5,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"investments, equity-accounted investments and other equity investments, other receivables and financial assets",Automotive,Worldwide,21639,2014,€ million,5,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"investments, equity-accounted investments and other equity investments, other receivables and financial assets",Financial Services,Worldwide,7678,2015,€ million,5,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"investments, equity-accounted investments and other equity investments, other receivables and financial assets",Financial Services,Worldwide,6902,2014,€ million,5,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current assets,Volkswagen Group,Worldwide,145387,2015,€ million,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current assets,Volkswagen Group,Worldwide,131102,2014,€ million,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current assets,Automotive,Worldwide,74019,2015,€ million,6,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current assets,Automotive,Worldwide,69180,2014,€ million,6,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current assets,Financial Services,Worldwide,71367,2015,€ million,6,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current assets,Financial Services,Worldwide,61923,2014,€ million,6,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+inventories,Volkswagen Group,Worldwide,35048,2015,€ million,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+inventories,Volkswagen Group,Worldwide,31466,2014,€ million,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+inventories,Automotive,Worldwide,31369,2015,€ million,7,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+inventories,Automotive,Worldwide,28269,2014,€ million,7,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+inventories,Financial Services,Worldwide,3679,2015,€ million,7,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+inventories,Financial Services,Worldwide,3197,2014,€ million,7,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Volkswagen Group,Worldwide,46888,2015,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Volkswagen Group,Worldwide,44398,2014,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Automotive,Worldwide,-614,2015,€ million,8,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Automotive,Worldwide,-464,2014,€ million,8,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Financial Services,Worldwide,47502,2015,€ million,8,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial services receivables,Financial Services,Worldwide,44862,2014,€ million,8,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other receivables and financial assets,Volkswagen Group,Worldwide,27572,2015,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other receivables and financial assets,Volkswagen Group,Worldwide,25254,2014,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other receivables and financial assets,Automotive,Worldwide,15315,2015,€ million,9,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other receivables and financial assets,Automotive,Worldwide,15677,2014,€ million,9,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other receivables and financial assets,Financial Services,Worldwide,12257,2015,€ million,9,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other receivables and financial assets,Financial Services,Worldwide,9577,2014,€ million,9,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+marketable securities,Volkswagen Group,Worldwide,15007,2015,€ million,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+marketable securities,Volkswagen Group,Worldwide,10861,2014,€ million,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+marketable securities,Automotive,Worldwide,12261,2015,€ million,10,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+marketable securities,Automotive,Worldwide,9197,2014,€ million,10,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+marketable securities,Financial Services,Worldwide,2747,2015,€ million,10,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+marketable securities,Financial Services,Worldwide,1664,2014,€ million,10,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"cash, cash equivalents and time deposits",Volkswagen Group,Worldwide,20871,2015,€ million,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"cash, cash equivalents and time deposits",Volkswagen Group,Worldwide,19123,2014,€ million,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"cash, cash equivalents and time deposits",Automotive,Worldwide,15688,2015,€ million,11,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"cash, cash equivalents and time deposits",Automotive,Worldwide,16499,2014,€ million,11,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"cash, cash equivalents and time deposits",Financial Services,Worldwide,5183,2015,€ million,11,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+"cash, cash equivalents and time deposits",Financial Services,Worldwide,2624,2014,€ million,11,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total assets,Volkswagen Group,Worldwide,381935,2015,€ million,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total assets,Volkswagen Group,Worldwide,351209,2014,€ million,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total assets,Automotive,Worldwide,206831,2015,€ million,12,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total assets,Automotive,Worldwide,197411,2014,€ million,12,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total assets,Financial Services,Worldwide,175103,2015,€ million,12,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total assets,Financial Services,Worldwide,153798,2014,€ million,12,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity,Volkswagen Group,Worldwide,88270,2015,€ million,13,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity,Volkswagen Group,Worldwide,90189,2014,€ million,13,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity,Automotive,Worldwide,67366,2015,€ million,13,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity,Automotive,Worldwide,72815,2014,€ million,13,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity,Financial Services,Worldwide,20905,2015,€ million,13,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity,Financial Services,Worldwide,17374,2014,€ million,13,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders,Volkswagen Group,Worldwide,80500,2015,€ million,14,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders,Volkswagen Group,Worldwide,84950,2014,€ million,14,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders,Automotive,Worldwide,59898,2015,€ million,14,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders,Automotive,Worldwide,67828,2014,€ million,14,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders,Financial Services,Worldwide,20603,2015,€ million,14,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders,Financial Services,Worldwide,17122,2014,€ million,14,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG hybrid capital investors,Volkswagen Group,Worldwide,7560,2015,€ million,15,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG hybrid capital investors,Volkswagen Group,Worldwide,5041,2014,€ million,15,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG hybrid capital investors,Automotive,Worldwide,7560,2015,€ million,15,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG hybrid capital investors,Automotive,Worldwide,5041,2014,€ million,15,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders and hybrid capital investors,Volkswagen Group,Worldwide,88060,2015,€ million,16,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders and hybrid capital investors,Volkswagen Group,Worldwide,89991,2014,€ million,16,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders and hybrid capital investors,Automotive,Worldwide,67458,2015,€ million,16,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders and hybrid capital investors,Automotive,Worldwide,72870,2014,€ million,16,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders and hybrid capital investors,Financial Services,Worldwide,20603,2015,€ million,16,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+equity attributable to Volkswagen AG shareholders and hybrid capital investors,Financial Services,Worldwide,17122,2014,€ million,16,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncontrolling interests,Volkswagen Group,Worldwide,210,2015,€ million,17,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncontrolling interests,Volkswagen Group,Worldwide,198,2014,€ million,17,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncontrolling interests,Automotive,Worldwide,-92,2015,€ million,17,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncontrolling interests,Automotive,Worldwide,-55,2014,€ million,17,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncontrolling interests,Financial Services,Worldwide,302,2015,€ million,17,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncontrolling interests,Financial Services,Worldwide,253,2014,€ million,17,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent liabilities,Volkswagen Group,Worldwide,145175,2015,€ million,18,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent liabilities,Volkswagen Group,Worldwide,130314,2014,€ million,18,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent liabilities,Automotive,Worldwide,73568,2015,€ million,18,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent liabilities,Automotive,Worldwide,66438,2014,€ million,18,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent liabilities,Financial Services,Worldwide,71607,2015,€ million,18,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+noncurrent liabilities,Financial Services,Worldwide,63876,2014,€ million,18,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Volkswagen Group,Worldwide,73292,2015,€ million,19,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Volkswagen Group,Worldwide,68416,2014,€ million,19,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Automotive,Worldwide,9557,2015,€ million,19,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Automotive,Worldwide,10643,2014,€ million,19,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Financial Services,Worldwide,63735,2015,€ million,19,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Financial Services,Worldwide,57773,2014,€ million,19,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+provisions for pensions,Volkswagen Group,Worldwide,27535,2015,€ million,20,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+provisions for pensions,Volkswagen Group,Worldwide,29806,2014,€ million,20,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+provisions for pensions,Automotive,Worldwide,27119,2015,€ million,20,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+provisions for pensions,Automotive,Worldwide,29361,2014,€ million,20,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+provisions for pensions,Financial Services,Worldwide,415,2015,€ million,20,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+provisions for pensions,Financial Services,Worldwide,445,2014,€ million,20,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Volkswagen Group,Worldwide,44349,2015,€ million,21,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Volkswagen Group,Worldwide,32092,2014,€ million,21,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Automotive,Worldwide,36892,2015,€ million,21,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Automotive,Worldwide,26434,2014,€ million,21,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Financial Services,Worldwide,7457,2015,€ million,21,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Financial Services,Worldwide,5658,2014,€ million,21,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current liabilities,Volkswagen Group,Worldwide,148489,2015,€ million,22,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current liabilities,Volkswagen Group,Worldwide,130706,2014,€ million,22,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current liabilities,Automotive,Worldwide,65898,2015,€ million,22,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current liabilities,Automotive,Worldwide,58158,2014,€ million,22,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current liabilities,Financial Services,Worldwide,82591,2015,€ million,22,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+current liabilities,Financial Services,Worldwide,72547,2014,€ million,22,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+put options and compensation rights granted to noncontrolling interest shareholders,Volkswagen Group,Worldwide,3933,2015,€ million,23,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+put options and compensation rights granted to noncontrolling interest shareholders,Volkswagen Group,Worldwide,3703,2014,€ million,23,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+put options and compensation rights granted to noncontrolling interest shareholders,Automotive,Worldwide,3933,2015,€ million,23,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+put options and compensation rights granted to noncontrolling interest shareholders,Automotive,Worldwide,3703,2014,€ million,23,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Volkswagen Group,Worldwide,72313,2015,€ million,24,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Volkswagen Group,Worldwide,65564,2014,€ million,24,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Automotive,Worldwide,-3974,2015,€ million,24,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Automotive,Worldwide,-847,2014,€ million,24,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Financial Services,Worldwide,76286,2015,€ million,24,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+financial liabilities,Financial Services,Worldwide,66411,2014,€ million,24,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+trade payables,Volkswagen Group,Worldwide,20460,2015,€ million,25,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+trade payables,Automotive,Worldwide,18709,2015,€ million,25,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+trade payables,Automotive,Worldwide,17838,2014,€ million,25,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+trade payables,Financial Services,Worldwide,1751,2015,€ million,25,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+trade payables,Financial Services,Worldwide,1692,2014,€ million,25,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Volkswagen Group,Worldwide,51783,2015,€ million,26,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Volkswagen Group,Worldwide,41909,2014,€ million,26,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Automotive,Worldwide,47229,2015,€ million,26,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Automotive,Worldwide,37465,2014,€ million,26,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Financial Services,Worldwide,4554,2015,€ million,26,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+other liabilities,Financial Services,Worldwide,4444,2014,€ million,26,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total equity and liabilities,Volkswagen Group,Worldwide,381935,2015,€ million,27,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total equity and liabilities,Volkswagen Group,Worldwide,351209,2014,€ million,27,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total equity and liabilities,Automotive,Worldwide,206831,2015,€ million,27,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total equity and liabilities,Automotive,Worldwide,197411,2014,€ million,27,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total equity and liabilities,Financial Services,Worldwide,175103,2015,€ million,27,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json
+total equity and liabilities,Financial Services,Worldwide,153798,2014,€ million,27,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_071_table_00_kpis.json

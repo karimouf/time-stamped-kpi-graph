@@ -1,0 +1,21 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+fixed assets,Volkswagen AG,Worldwide,148516,2022,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+fixed assets,Volkswagen AG,Worldwide,136892,2021,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+inventories,Volkswagen AG,Worldwide,7816,2022,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+inventories,Volkswagen AG,Worldwide,6921,2021,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+receivables,Volkswagen AG,Worldwide,59773,2022,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+receivables,Volkswagen AG,Worldwide,32355,2021,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+cash-in-hand and bank balances,Volkswagen AG,Worldwide,9122,2022,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+cash-in-hand and bank balances,Volkswagen AG,Worldwide,10168,2021,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+total assets,Volkswagen AG,Worldwide,225227,2022,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+total assets,Volkswagen AG,Worldwide,186336,2021,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+equity,Volkswagen AG,Worldwide,40323,2022,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+equity,Volkswagen AG,Worldwide,41172,2021,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+special tax-allowable reserves,Volkswagen AG,Worldwide,17,2022,€ million,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+special tax-allowable reserves,Volkswagen AG,Worldwide,17,2021,€ million,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+long-term debt,Volkswagen AG,Worldwide,33717,2022,€ million,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+long-term debt,Volkswagen AG,Worldwide,40748,2021,€ million,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+medium-term debt,Volkswagen AG,Worldwide,38647,2022,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+medium-term debt,Volkswagen AG,Worldwide,38087,2021,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+short-term debt,Volkswagen AG,Worldwide,112523,2022,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json
+short-term debt,Volkswagen AG,Worldwide,66312,2021,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_065_table_00_kpis.json

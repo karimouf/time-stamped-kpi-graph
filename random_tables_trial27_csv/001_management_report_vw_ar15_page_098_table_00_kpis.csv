@@ -1,0 +1,29 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+procurement volume,Volkswagen Passenger Cars,Worldwide,87.6,2015,€ billion,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Volkswagen Passenger Cars,Worldwide,85.5,2014,€ billion,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Audi,Worldwide,27.0,2015,€ billion,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Audi,Worldwide,25.7,2014,€ billion,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,ŠKODA,Worldwide,7.4,2015,€ billion,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,ŠKODA,Worldwide,7.1,2014,€ billion,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,SEAT,Worldwide,5.2,2015,€ billion,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,SEAT,Worldwide,4.4,2014,€ billion,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Bentley,Worldwide,0.9,2015,€ billion,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Bentley,Worldwide,0.8,2014,€ billion,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Porsche,Worldwide,5.2,2015,€ billion,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Porsche,Worldwide,5.0,2014,€ billion,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Volkswagen Commercial Vehicles,Worldwide,2.7,2015,€ billion,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Volkswagen Commercial Vehicles,Worldwide,2.6,2014,€ billion,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Scania,Worldwide,6.6,2015,€ billion,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Scania,Worldwide,6.5,2014,€ billion,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,MAN,Worldwide,6.6,2015,€ billion,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,MAN,Worldwide,7.8,2014,€ billion,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Volkswagen Group,Worldwide,149.1,2015,€ billion,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Volkswagen Group,Worldwide,145.5,2014,€ billion,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Europe/Other markets,Worldwide,99.5,2015,€ billion,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Europe/Other markets,Worldwide,93.4,2014,€ billion,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,North America,Worldwide,7.3,2015,€ billion,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,North America,Worldwide,6.3,2014,€ billion,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,South America,Worldwide,4.6,2015,€ billion,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,South America,Worldwide,6.7,2014,€ billion,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Asia-Pacific,Worldwide,37.8,2015,€ billion,13,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json
+procurement volume,Asia-Pacific,Worldwide,39.1,2014,€ billion,13,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_098_table_00_kpis.json

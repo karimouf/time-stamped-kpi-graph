@@ -1,0 +1,4 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Operating result,Financial Services,Worldwide,2793,2018,€ million,6,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_067_table_00_kpis.json
+Share of the result of equity-accounted investments,Automotive,Worldwide,3473,2017,€ million,8,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_067_table_00_kpis.json
+Financial result,Financial Services,Worldwide,-171,2017,€ million,10,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_067_table_00_kpis.json

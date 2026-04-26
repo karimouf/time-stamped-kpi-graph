@@ -1,0 +1,11 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Gross cash flow,Volkswagen Passenger Cars,Worldwide,21823,2020,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Gross cash flow,Volkswagen Passenger Cars,Worldwide,25474,2019,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Change in working capital,Volkswagen Passenger Cars,Worldwide,331,2020,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Change in working capital,Volkswagen Passenger Cars,Worldwide,3053,2019,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Cash flows from operating activities,Volkswagen Passenger Cars,Worldwide,22154,2020,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Cash flows from operating activities,Volkswagen Passenger Cars,Worldwide,28528,2019,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Cash flows from investing activities attributable to operating activities,Volkswagen Passenger Cars,Worldwide,-16762,2020,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Cash flows from investing activities attributable to operating activities,Volkswagen Passenger Cars,Worldwide,-20254,2019,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Net cash flow,Volkswagen Passenger Cars,Worldwide,5392,2020,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json
+Net cash flow,Volkswagen Passenger Cars,Worldwide,8273,2019,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_041_table_00_kpis.json

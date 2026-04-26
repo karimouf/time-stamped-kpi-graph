@@ -1,0 +1,25 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+sales,Volkswagen AG,Worldwide,94078,2024,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+sales,Volkswagen AG,Worldwide,92413,2023,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+cost of sales,Volkswagen AG,Worldwide,-85924,2024,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+cost of sales,Volkswagen AG,Worldwide,-86748,2023,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+gross profit on sales,Volkswagen AG,Worldwide,8154,2024,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+gross profit on sales,Volkswagen AG,Worldwide,5665,2023,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+"distribution, general and administrative expenses",Volkswagen AG,Worldwide,-8023,2024,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+"distribution, general and administrative expenses",Volkswagen AG,Worldwide,-7452,2023,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+net other operating result,Volkswagen AG,Worldwide,415,2024,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+net other operating result,Volkswagen AG,Worldwide,64,2023,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+financial result,Volkswagen AG,Worldwide,4809,2024,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+financial result,Volkswagen AG,Worldwide,9091,2023,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+taxes on income,Volkswagen AG,Worldwide,-221,2024,€ million,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+taxes on income,Volkswagen AG,Worldwide,-1125,2023,€ million,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+earnings after tax,Volkswagen AG,Worldwide,5133,2024,€ million,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+earnings after tax,Volkswagen AG,Worldwide,6243,2023,€ million,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+net income for the fiscal year,Volkswagen AG,Worldwide,5133,2024,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+net income for the fiscal year,Volkswagen AG,Worldwide,6243,2023,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+retained profits brought forward,Volkswagen AG,Worldwide,1,2024,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+retained profits brought forward,Volkswagen AG,Worldwide,2,2023,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+release of/appropriation to revenue reserves,Volkswagen AG,Worldwide,-1960,2024,€ million,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+release of/appropriation to revenue reserves,Volkswagen AG,Worldwide,-1720,2023,€ million,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+net retained profits,Volkswagen AG,Worldwide,3175,2024,€ million,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json
+net retained profits,Volkswagen AG,Worldwide,4526,2023,€ million,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_059_table_00_kpis.json

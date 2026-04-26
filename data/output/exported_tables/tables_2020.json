@@ -1,6 +1,10 @@
 [
   {
     "table_id": "VW2020_T59f33c",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 3,
+    "bucket": "divisions",
     "section_name": "Group reporting structure",
     "title": "Volkswagen Group reporting structure",
     "headers": [
@@ -34,10 +38,34 @@
     "stub_col": [
       "AUTOMOTIVE DIVISION",
       "Passenger Cars Business Area Volkswagen Passenger Cars Audi ŠKODA SEAT Bentley Porsche Automotive Volkswagen Commercial Vehicles Other"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P249169",
+        "page": 3,
+        "section_name": "GROUP STRUCTURE",
+        "section_level": 3,
+        "text": "The Volkswagen Group consists of two divisions: the Automotive Division and the Financial Services Division. The Automotive Division comprises the Passenger Cars, Commercial Vehicles and Power Engineering business areas. Activities of the Automotive Division comprise in particular the development of vehicles, engines and vehicle software, and the production and sale of passenger cars, light commercial vehicles, trucks, buses and motorcycles, as well as businesses for genuine parts, large-bore diesel engines, turbomachinery, special gear units and propulsion components. Mobility solutions are gradually being added to the range. The Ducati brand is allocated to the Audi brand and thus to the Passenger Cars Business Area. The Financial Services Division's activities comprise dealer and customer financing, vehicle leasing, direct banking and insurance activities, fleet management and mobility services.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly describes the structure of the Volkswagen Group, detailing the Automotive Division and its business areas, making it highly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_Pfa0f9a",
+        "page": 4,
+        "section_name": "Group reporting structure",
+        "section_level": 3,
+        "text": "The production figures and deliveries to customers are differentiated by vehicle brands and their models that carry the corresponding brand logo. Unit sales figures contain vehicles sold by respective brand companies, including models of other Group brands. In some cases, there are marked differences between delivery figures and unit sales as a result of our business development in China.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses production figures and deliveries by vehicle brands, which relates to the Automotive Division but does not directly address the structure of the divisions."
+      }
     ]
   },
   {
     "table_id": "VW2020_T2de216",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 5,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
     "title": "Key Figures by brand and business field",
     "headers": [
@@ -282,10 +310,34 @@
       "Commercial Vehicles Business Area",
       "Power Engineering Business Area",
       "Financial Services Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P75c537",
+        "page": 4,
+        "section_name": "Group reporting structure",
+        "section_level": 3,
+        "text": "In this chapter, we present the key volume and financial data relating to the Group brands and to Volkswagen Financial Services. In light of the considerable importance of the development of business in the world's largest single market for the Volkswagen Group, we also report on business developments and the results of our activities in China in this chapter.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions key volume and financial data relating to Group brands, which is relevant to the table's focus on vehicle sales and financial results."
+      },
+      {
+        "para_id": "VW2020_P3f6305",
+        "page": 6,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand's sales revenue fell by 19.6% year-on-year in 2020 to €71.1 billion. Operating profit before special items decreased to €0.5 (3.8) billion. Lower fixed costs and better price positioning were unable to compensate for the impact of lower volumes due to the Covid-19 pandemic or for negative exchange rate effects. The operating return on sales before special items amounted to 0.6 (4.3)%. The diesel issue gave rise to special items of €–0.8 (–1.9) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sales revenue and operating profit for Volkswagen Passenger Cars, which directly relates to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T61e41c",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 5,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY MARKET",
     "title": "Key Figures by market",
     "headers": [
@@ -362,10 +414,61 @@
       "Asia-Pacific ^1",
       "Hedges on sales revenue",
       "Volkswagen Group ^1"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P75c537",
+        "page": 4,
+        "section_name": "Group reporting structure",
+        "section_level": 3,
+        "text": "In this chapter, we present the key volume and financial data relating to the Group brands and to Volkswagen Financial Services. In light of the considerable importance of the development of business in the world's largest single market for the Volkswagen Group, we also report on business developments and the results of our activities in China in this chapter.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph presents key volume and financial data related to the Group brands, which is relevant to the table's focus on vehicle sales and revenue."
+      },
+      {
+        "para_id": "VW2020_P6610ed",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales decreased by 19.1% year-on-year to 3.9 million vehicles. The impact of the Covid-19 pandemic acted as a drag on business, particularly from the end of the first quarter onwards. Sales revenue fell to €133.5 (154.0) billion due to volume effects. Moreover, exchange rate effects had a negative impact, while a favorable mix made a positive contribution.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph specifically discusses unit sales and sales revenue in the Europe/Other markets, directly correlating with the data presented in the table."
+      },
+      {
+        "para_id": "VW2020_Pd1c3c5",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the North American markets, the negative effects caused by the spreading of the SARS-CoV-2 virus became apparent somewhat later, namely at the beginning of the second quarter. At 744 thousand vehicles in the reporting period, our unit sales there were down 22.1% on the previous year's figure. Sales revenue amounted to €36.8 (43.4) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides detailed unit sales and revenue figures for North America, which directly matches the data in the table."
+      },
+      {
+        "para_id": "VW2020_P3cb61c",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the markets of the South America region, we sold 471 thousand vehicles in the year 2020. This was 22.4% less than in the previous year. The Covid-19 pandemic dampened demand in the second and third quarter in particular. Declining volumes and an unfavorable exchange rate trend resulted in sales revenue falling by 23.6% to €8.6 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales figures for the South America region, which directly corresponds to the data in the table."
+      },
+      {
+        "para_id": "VW2020_P771bd7",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the first to be affected by the Covid-19 pandemic at the beginning of the year, demand increased again as the year went on. In fiscal year 2020, the Volkswagen Group's unit sales – including those of the Chinese joint ventures – amounted to 4.0 (4.5) million vehicles. Sales revenue rose to €44.3 (44.0) billion. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides unit sales and revenue figures for the Asia-Pacific region, directly matching the data presented in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T531fa0",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 7,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND PRODUCTION",
     "title": "Volkswagen Passenger Cars – Production",
     "headers": [
@@ -545,10 +648,15 @@
       "ID.4",
       "Beetle",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T62dfc3",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 7,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
     "title": "Volkswagen Passenger Cars – Key Figures",
     "headers": [
@@ -610,10 +718,34 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pc30052",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 5.3 million vehicles worldwide in fiscal year 2020 (–15.1%). Sales figures were below the previous year's level in almost all markets due to the pandemic. Sales of the T-Cross increased, thus bucking the trend, and the new Atlas Cross Sport was also very popular.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides overall delivery figures for Volkswagen Passenger Cars, which directly relates to the data in the table regarding deliveries."
+      },
+      {
+        "para_id": "VW2020_P3f6305",
+        "page": 6,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand's sales revenue fell by 19.6% year-on-year in 2020 to €71.1 billion. Operating profit before special items decreased to €0.5 (3.8) billion. Lower fixed costs and better price positioning were unable to compensate for the impact of lower volumes due to the Covid-19 pandemic or for negative exchange rate effects. The operating return on sales before special items amounted to 0.6 (4.3)%. The diesel issue gave rise to special items of €–0.8 (–1.9) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sales revenue and operating profit, which directly relates to the sales revenue data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T05cf9a",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 9,
+    "bucket": "divisions",
     "section_name": "AUDI BRAND PRODUCTION",
     "title": "Audi – Production",
     "headers": [
@@ -787,10 +919,15 @@
       "",
       "Audi brand",
       "Ducati, motorcycles"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T371eeb",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 9,
+    "bucket": "divisions",
     "section_name": "AUDI BRAND",
     "title": "Audi – Key Figures",
     "headers": [
@@ -866,10 +1003,34 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pbe1bb7",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales made by the Audi brand in the reporting period came to 1.0 (1.2) million vehicles. The Chinese joint venture FAW-Volkswagen sold a further 656 (620) thousand locally produced Audi vehicles. The Q3, A6 and e-tron models were in especially high demand. Unit sales at Automobili Lamborghini S.p.A. amounted to 7,460 (8,290) vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses unit sales made by the Audi brand, which is directly relevant to the vehicle sales figures in the table."
+      },
+      {
+        "para_id": "VW2020_P5beb87",
+        "page": 8,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Audi brand's sales revenue in fiscal year 2020 amounted to €50.0 (55.7) billion. The decrease in volumes and negative exchange rate effects reduced operating profit before special items to €2.7 (4.5) billion. Reduced fixed costs, the deconsolidation effect from the divestment of Autonomous Intelligent Driving GmbH (AID) as well as other effects from the Audi.Zukunft and Audi Transformation Plan programs had a positive effect. The diesel issue resulted in special items of €–0.2 billion in the reporting year. The operating return on sales before special items was 5.5 (8.1)%. The financial key performance indicators for the Lamborghini and Ducati brands are included in the financial figures for the Audi brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Audi's sales revenue and operating profit, which is relevant to the sales revenue data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T4b0a7d",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 11,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND PRODUCTION",
     "title": "Škoda – Production",
     "headers": [
@@ -941,10 +1102,34 @@
       "Citigo",
       "Enyaq iV",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pa232c1",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 1.0 (1.2) million vehicles worldwide in the reporting period. China remained the largest individual market. However, deliveries there fell by 38.7%. Sales were also down on the previous year's levels in the other markets due to the pandemic, with the exception of Turkey (+56.3%) and Russia (+6.8%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides overall delivery figures for the ŠKODA brand, which is relevant to the context of the table."
+      },
+      {
+        "para_id": "VW2020_Pe28e40",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 0.8 (1.1) million vehicles in the past fiscal year. The Scala, Kamiq and Octavia Combi models were in especially high demand. The difference between figures for deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses ŠKODA's sales figures, which is directly relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T5eadb3",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 11,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "Škoda – Key Figures",
     "headers": [
@@ -1006,10 +1191,34 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pa232c1",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 1.0 (1.2) million vehicles worldwide in the reporting period. China remained the largest individual market. However, deliveries there fell by 38.7%. Sales were also down on the previous year's levels in the other markets due to the pandemic, with the exception of Turkey (+56.3%) and Russia (+6.8%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides overall delivery figures for the ŠKODA brand, which is relevant to the context of the table."
+      },
+      {
+        "para_id": "VW2020_Pe28e40",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 0.8 (1.1) million vehicles in the past fiscal year. The Scala, Kamiq and Octavia Combi models were in especially high demand. The difference between figures for deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses ŠKODA's sales figures, which is directly relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_Tae6228",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 13,
+    "bucket": "divisions",
     "section_name": "SEAT PRODUCTION",
     "title": "SEAT – Production",
     "headers": [
@@ -1087,10 +1296,34 @@
       "Mii",
       "Toledo",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P7d0af9",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT is the Group brand with Europe's youngest customer profile and offers strikingly designed vehicles \"Created in Barcelona.\" In 2020, SEAT brought out the new Leon, the brand's biggest seller. The vehicle impresses with a fresh design, clear lines, harmonious proportions and innovative lighting. The wide range of advanced drive concepts make the SEAT Leon even more efficient and for the first time, it offers PHEV and mild hybrid versions. In addition, the Leon is SEAT's first vehicle with complete digital connectivity.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the new SEAT Leon, which is directly relevant to the sales figures for the Leon model listed in the table."
+      },
+      {
+        "para_id": "VW2020_P78edbd",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales at SEAT stood at 484 thousand vehicles in the past fiscal year, down 27.5% on the figure for 2019. This figure also includes the A1 manufactured for Audi. The Arona and Ateca SUV models and the Leon were in high demand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides unit sales figures for SEAT, including models like the Arona and Ateca, which is directly relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_Tc11074",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 13,
+    "bucket": "divisions",
     "section_name": "SEAT",
     "title": "SEAT – Key Figures",
     "headers": [
@@ -1152,10 +1385,34 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P7d0af9",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT is the Group brand with Europe's youngest customer profile and offers strikingly designed vehicles \"Created in Barcelona.\" In 2020, SEAT brought out the new Leon, the brand's biggest seller. The vehicle impresses with a fresh design, clear lines, harmonious proportions and innovative lighting. The wide range of advanced drive concepts make the SEAT Leon even more efficient and for the first time, it offers PHEV and mild hybrid versions. In addition, the Leon is SEAT's first vehicle with complete digital connectivity.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the new SEAT Leon, which is directly relevant to the sales figures for the Leon model listed in the table."
+      },
+      {
+        "para_id": "VW2020_P78edbd",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales at SEAT stood at 484 thousand vehicles in the past fiscal year, down 27.5% on the figure for 2019. This figure also includes the A1 manufactured for Audi. The Arona and Ateca SUV models and the Leon were in high demand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides unit sales figures for SEAT, including models like the Arona and Ateca, which is directly relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T64063c",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 15,
+    "bucket": "divisions",
     "section_name": "BENTLEY BRAND PRODUCTION",
     "title": "Bentley – Production",
     "headers": [
@@ -1209,10 +1466,25 @@
       "Continental GT Convertible",
       "Mulsanne",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P9bd078",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2020, Bentley sold 11,296 (11,631) vehicles worldwide. Demand for the new Flying Spur was particularly strong.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the sales figures for the Flying Spur, which is directly relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T20dd27",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 15,
+    "bucket": "divisions",
     "section_name": "BENTLEY BRAND",
     "title": "Bentley – Key Figures",
     "headers": [
@@ -1274,10 +1546,34 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P2b9990",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In spite of the pandemic, deliveries by the Bentley brand in 2020 rose slightly to 11,206 (11,006) units, a new record figure. Bentley saw growth in the USA (+5.7%) and China (+48.5%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses overall deliveries by the Bentley brand, which is relevant to the context of the table."
+      },
+      {
+        "para_id": "VW2020_P9bd078",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2020, Bentley sold 11,296 (11,631) vehicles worldwide. Demand for the new Flying Spur was particularly strong.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the sales figures for the Flying Spur, which is directly relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T727164",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 17,
+    "bucket": "divisions",
     "section_name": "PORSCHE AUTOMOTIVE PRODUCTION",
     "title": "Porsche – Production",
     "headers": [
@@ -1325,10 +1621,34 @@
       "Taycan",
       "Panamera",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pce2a48",
+        "page": 16,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "<span id=\"page-15-0\"></span>Porsche launched the new Panamera in fiscal year 2020. In spite of the challenges presented by the Covid-19 pandemic, the sports car manufacturer achieved its strategic target return.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the launch of the new Panamera in 2020, which is relevant to the sales figures for the Panamera model listed in the table."
+      },
+      {
+        "para_id": "VW2020_P262f52",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Exclusivity and social acceptance, innovation and tradition, performance and everyday usability, design and functionality – these are the brand values of sports car manufacturer Porsche. In fiscal year 2020, Porsche presented its extensively revamped Panamera, which combines the performance of a sports car with the comfort of an exclusive saloon and now covers an even wider range: with its top model, the 463 kW (630 PS) Panamera Turbo S, the sports car manufacturer is underscoring its high standard of best-in-class performance. The Panamera 4S E-Hybrid is a consistent continuation of Porsche's E-Performance strategy and constitutes a new addition to the range of plug-in hybrids, offering a completely new drive system with 412 kW (560 PS). Compared with the previous hybrid models, the all-electric range has been boosted by up to 30%. Porsche celebrated the world premiere of the 911 Targa 4 and 911 Targa 4S models in 2020, completing its new generation of the 911 with the third vehicle body variant. The innovative, fully automatic roof system remains a distinguishing feature on all versions of the Targa; and just like the legendary original Targa model from 1965, it features the characteristic wide bar as well as an automated retractable roof section above the front seats and a wraparound rear window. An eight-speed dual-clutch transmission and intelligent all-wheel drive Porsche Traction Management deliver compelling performance and sporty driving pleasure. In the 911 series, the new generation of the 911 Turbo S has also been available in Coupé and Cabriolet versions since 2020. The new range-topping 911 offers unprecedented power, driving dynamics and luxury. It is being launched with a new 3.8 l boxer engine that delivers 478 kW (650 PS) of power, a whopping 51 kW (70 PS) more than its predecessor. The 911 Turbo S sprints from 0 to 100 km/h in just 2.7 seconds, while top speed is 330 km/h.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides details about the Panamera's features and performance, which is relevant but does not provide specific sales figures."
+      }
     ]
   },
   {
     "table_id": "VW2020_T0373b3",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 17,
+    "bucket": "divisions",
     "section_name": "PORSCHE AUTOMOTIVE 1",
     "title": "Porsche1 – Key Figures",
     "headers": [
@@ -1390,10 +1710,34 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pce2a48",
+        "page": 16,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "<span id=\"page-15-0\"></span>Porsche launched the new Panamera in fiscal year 2020. In spite of the challenges presented by the Covid-19 pandemic, the sports car manufacturer achieved its strategic target return.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the launch of the new Panamera in 2020, which is relevant to the sales figures for the Panamera model listed in the table."
+      },
+      {
+        "para_id": "VW2020_P262f52",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Exclusivity and social acceptance, innovation and tradition, performance and everyday usability, design and functionality – these are the brand values of sports car manufacturer Porsche. In fiscal year 2020, Porsche presented its extensively revamped Panamera, which combines the performance of a sports car with the comfort of an exclusive saloon and now covers an even wider range: with its top model, the 463 kW (630 PS) Panamera Turbo S, the sports car manufacturer is underscoring its high standard of best-in-class performance. The Panamera 4S E-Hybrid is a consistent continuation of Porsche's E-Performance strategy and constitutes a new addition to the range of plug-in hybrids, offering a completely new drive system with 412 kW (560 PS). Compared with the previous hybrid models, the all-electric range has been boosted by up to 30%. Porsche celebrated the world premiere of the 911 Targa 4 and 911 Targa 4S models in 2020, completing its new generation of the 911 with the third vehicle body variant. The innovative, fully automatic roof system remains a distinguishing feature on all versions of the Targa; and just like the legendary original Targa model from 1965, it features the characteristic wide bar as well as an automated retractable roof section above the front seats and a wraparound rear window. An eight-speed dual-clutch transmission and intelligent all-wheel drive Porsche Traction Management deliver compelling performance and sporty driving pleasure. In the 911 series, the new generation of the 911 Turbo S has also been available in Coupé and Cabriolet versions since 2020. The new range-topping 911 offers unprecedented power, driving dynamics and luxury. It is being launched with a new 3.8 l boxer engine that delivers 478 kW (650 PS) of power, a whopping 51 kW (70 PS) more than its predecessor. The 911 Turbo S sprints from 0 to 100 km/h in just 2.7 seconds, while top speed is 330 km/h.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides details about the Panamera's features and performance, which is relevant but does not provide specific sales figures."
+      }
     ]
   },
   {
     "table_id": "VW2020_Ta7673e",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 19,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND PRODUCTION",
     "title": "Volkswagen Commercial Vehicles – Production",
     "headers": [
@@ -1453,10 +1797,15 @@
       "Caddy",
       "Amarok",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tee3c5a",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 19,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
     "title": "Volkswagen Commercial Vehicles – Key Figures",
     "headers": [
@@ -1518,10 +1867,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pf86dbf",
+        "page": 18,
+        "section_name": "The Volkswagen Commercial Vehicles brand",
+        "section_level": 2,
+        "text": "<span id=\"page-17-0\"></span>The Volkswagen Commercial Vehicles brand celebrated its 25th anniversary in 2020. The new Caddy was introduced as a completely new version of the bestselling model, also available for the first time as a California compact camper van.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the 25th anniversary of Volkswagen Commercial Vehicles and the launch of the new Caddy, which is relevant to the sales figures for the Caddy model listed in the table."
+      },
+      {
+        "para_id": "VW2020_Pc40af8",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "At 372 thousand units, deliveries by Volkswagen Commercial Vehicles in fiscal year 2020 were below the prior-year (–24.4%). Turkey (+31.7%) and Argentina (+1.9%) registered growth.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses overall deliveries by Volkswagen Commercial Vehicles, which is directly relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2020_Pd45e9f",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 345 thousand vehicles in the reporting period, 24.3% fewer than in the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses unit sales for Volkswagen Commercial Vehicles, which is directly relevant to the vehicle sales figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_Tb4d396",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 21,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "TRATON – Production",
     "headers": [
@@ -1563,10 +1945,15 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T01cd55",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 21,
+    "bucket": "divisions",
     "section_name": "DELIVERIES",
     "title": "TRATON – Deliveries",
     "headers": [
@@ -1608,10 +1995,15 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T4e1445",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "SCANIA PRODUCTION",
     "title": "Scania – Production",
     "headers": [
@@ -1647,10 +2039,25 @@
       "Trucks",
       "Buses",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P4ae7ce",
+        "page": 22,
+        "section_name": "Scania",
+        "section_level": 2,
+        "text": "<span id=\"page-21-0\"></span>Scania unveiled its first fully electric truck in 2020, underpinning its position as one of the leading companies in the commercial vehicle industry for alternative drive technologies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Scania's unveiling of its first fully electric truck, which is relevant to the commercial vehicle data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T6164fc",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "SCANIA VEHICLES AND SERVICES 1",
     "title": "Scania1 – Key Figures",
     "headers": [
@@ -1719,10 +2126,25 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P4ae7ce",
+        "page": 22,
+        "section_name": "Scania",
+        "section_level": 2,
+        "text": "<span id=\"page-21-0\"></span>Scania unveiled its first fully electric truck in 2020, underpinning its position as one of the leading companies in the commercial vehicle industry for alternative drive technologies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Scania's unveiling of its first fully electric truck, which is relevant to the commercial vehicle data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T3999c8",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 25,
+    "bucket": "divisions",
     "section_name": "MAN COMMERCIAL VEHICLES PRODUCTION",
     "title": "MAN – Production",
     "headers": [
@@ -1764,10 +2186,15 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tc06374",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 25,
+    "bucket": "divisions",
     "section_name": "MAN COMMERCIAL VEHICLES",
     "title": "MAN – Key Figures",
     "headers": [
@@ -1836,10 +2263,15 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T879ad1",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Volkswagen Group in China – Key Figures",
     "headers": [
@@ -1880,10 +2312,15 @@
       "Deliveries",
       "Vehicle sales ^1",
       "Production"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T8bf2bb",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "EARNINGS",
     "title": "Volkswagen Group in China – Earnings",
     "headers": [
@@ -1913,10 +2350,25 @@
     "stub_col": [
       "Operating result (100%)",
       "Operating result (proportionate)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pd0176a",
+        "page": 27,
+        "section_name": "EARNINGS",
+        "section_level": 3,
+        "text": "The proportionate operating result of the joint ventures in the reporting year stood at €3.6 (4.4) billion. The negative impacts of pandemic-related lower unit sales and more intense market competition were offset by improvements in the mix and cost optimization.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions the proportionate operating result of joint ventures, which is directly relevant to the operating result data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_Ta31c16",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "LOCAL PRODUCTION",
     "title": "Volkswagen Group in China – Local Production",
     "headers": [
@@ -1958,10 +2410,25 @@
       "Audi",
       "ŠKODA",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pd0176a",
+        "page": 27,
+        "section_name": "EARNINGS",
+        "section_level": 3,
+        "text": "The proportionate operating result of the joint ventures in the reporting year stood at €3.6 (4.4) billion. The negative impacts of pandemic-related lower unit sales and more intense market competition were offset by improvements in the mix and cost optimization.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions the proportionate operating result of joint ventures, which is directly relevant to the operating result data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_Td9372d",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 30,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
     "title": "Volkswagen Financial Services – Key Figures",
     "headers": [
@@ -2135,10 +2602,25 @@
       "Operating result",
       "Earnings before tax",
       "Employees at Dec. 31"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pf1af9e",
+        "page": 30,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The number of new financing, leasing, service and insurance contracts signed in fiscal year 2020 fell by 6.9% year-on-year to 7.9 million. As of December 31, 2020, the total number of contracts was 21.9 million, up 1.9% from the year before. The number of contracts in the Customer Financing/Leasing area increased by 1.1% to 11.3 million. There were 10.6 million contracts in the Service/Insurance area, 2.7% more than in the previous year. With credit eligibility criteria remaining unchanged, the penetration rate, expressed as the ratio of financed or leased vehicles to relevant Group delivery volumes – including the Chinese joint ventures – was steady at 35.2 (34.2)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the total number of contracts signed in 2020, which is directly relevant to the contracts data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_Tff3514",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 6,
+    "bucket": "management_report",
     "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
     "title": "Strategic KPIs – Competitive Profitability",
     "headers": [
@@ -2200,10 +2682,43 @@
       "Payout ratio",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P05f62c",
+        "page": 6,
+        "section_name": "Target dimension: competitive profitability",
+        "section_level": 4,
+        "text": "Investors judge us by whether we are able to meet our obligations as regards interest payments and debt repayments. As equity holders, they expect appropriate dividends and a long-term increase in the value of their shares.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions investor expectations regarding dividends and long-term value, which relates to profitability."
+      },
+      {
+        "para_id": "VW2020_Pcb83ec",
+        "page": 6,
+        "section_name": "Target dimension: competitive profitability",
+        "section_level": 4,
+        "text": "We make investments with a view to achieving profitable growth and strengthening our competitiveness, thus keeping the Volkswagen Group on a firm footing in the future and ensuring it remains an attractive investment option.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses investments aimed at profitable growth, which is relevant to financial performance."
+      },
+      {
+        "para_id": "VW2020_Pe2c5c6",
+        "page": 7,
+        "section_name": "<span id=\"page-6-0\"></span>Internal Management System and Key Performance Indicators",
+        "section_level": 1,
+        "text": "The Volkswagen Group's performance and success can be measured by both financial and nonfinancial key performance indicators. With the Best Performance module of our TOGETHER 2025+ Group strategy, we want to improve these indicators across all areas and along the entire value chain. In so doing, we aim to sustainably increase the Company's value and raise our efficiency, productivity and profitability.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions both financial and non-financial KPIs, indicating a connection to financial performance."
+      }
     ]
   },
   {
     "table_id": "VW2020_T2242ae",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 21,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN GROUP DELIVERIES 1",
     "title": "Volkswagen Group deliveries1",
     "headers": [
@@ -2244,10 +2759,106 @@
       "Passenger Cars",
       "Commercial Vehicles",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P0cd4ed",
+        "page": 20,
+        "section_name": "VOLKSWAGEN GROUP DELIVERIES",
+        "section_level": 4,
+        "text": "The Volkswagen Group delivered 9,305,372 vehicles to customers worldwide in fiscal year 2020. The decrease of 15.2% or 1,669,925 units year-on-year was due almost exclusively to the Covid-19 pandemic and the measures taken worldwide to contain its spread. Sales figures for both the Passenger Cars Business Area and the Commercial Vehicles Business Area declined as a result of the fall in demand. The chart on the page after next illustrates the trend in deliveries from month to month, comparing each monthly figure to the same month of the previous year. Deliveries of passenger cars and commercial vehicles are reported separately in the following.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Directly mentions the total number of vehicles delivered and the percentage decrease in sales, making it highly relevant."
+      },
+      {
+        "para_id": "VW2020_P378201",
+        "page": 21,
+        "section_name": "G LOBAL DELIVERIES BY THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 4,
+        "text": "Global demand for Volkswagen Group passenger cars and light commercial vehicles fell in the reporting year by 15.1% year-on-year to 9,115,185 units as a consequence of the debilitating market conditions arising from the uncertainty and the measures taken worldwide to tackle the Covid-19 pandemic. In connection with the pandemic, our deliveries to customers were affected by differing temporal and geographical effects. Following in some cases drastic losses at the end of the first quarter and the start of the second quarter, demand for Group models recovered as the reporting year went on, with declines becoming weaker. We registered declining demand year-on-year in nearly all regions. The sole exception was the Middle East region, largely driven by the positive trend in sales figures in Turkey. Bentley was the only Volkswagen Group brand that did not fall short of its prioryear figures.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the decline in demand for vehicles due to the pandemic, along with specific sales figures, making it relevant to the table."
+      },
+      {
+        "para_id": "VW2020_Pc649cf",
+        "page": 21,
+        "section_name": "G LOBAL DELIVERIES BY THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 4,
+        "text": "Our e-mobility offensive had a positive impact on Group sales: we delivered 231,624 fully electric vehicles to customers globally – more than three times as many as in 2019. Our plug-in hybrid models were also very popular with customers; sales amounted to 190,644 vehicles. The Group's most successful all-electric vehicles included the ID.3, the e-Golf and the e-up! from Volkswagen Passenger Cars as well as the Audi e-tron and Porsche Taycan. The Passat and the Golf from Volkswagen Passenger Cars, the Audi Q5, the ŠKODA Superb and the Porsche Cayenne were among the most popular plugin hybrid models.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the impact of e-mobility on sales and provides figures for electric and hybrid vehicle deliveries, which is somewhat relevant."
+      },
+      {
+        "para_id": "VW2020_P2dae97",
+        "page": 21,
+        "section_name": "Deliveries in Europe/Other Markets",
+        "section_level": 4,
+        "text": "In Western Europe, the Volkswagen Group delivered 2,848,861 passenger cars and light commercial vehicles to customers in fiscal year 2020 in a substantially contracting overall market. This was 21.5% fewer than in the previous year. The increasing spread of the SARS-CoV-2 virus and the measures taken to contain it sent demand for Group vehicles into a tailspin during the first quarter and at the beginning of the second quarter. All of the major individual markets demonstrated very similar declines in demand for Group vehicles. By the end of the first half of the year, the declines had tapered off. In the second half of the year, demand for Group vehicles in individual markets was once again up on a monthly basis compared with the relevant prior-year figure. The Group models with the highest volume of demand were the Golf, Polo, T-Roc and Tiguan from the Volkswagen Passenger Cars brand. In addition, the T-Cross from Volkswagen Passenger Cars, the Q3 Sportback, Q7 and e-tron from Audi, the Scala and Kamiq from ŠKODA, the Mii electric from SEAT, and the Porsche Cayenne Coupé and Porsche Taycan, all of which had been introduced as new or successor models over the course of the previous year, were very popular with customers. Some of the models successfully launched on the market during the reporting year as new or successor models were the up!, T-Roc Cabriolet, Golf, Tiguan and Arteon Shooting Brake and the first all-electric production models, the ID.3 and ID.4, from Volkswagen Passenger Cars, the A3 saloon, A3 Sportback, A5 and e-tron Sportback from Audi, the Citigoe iV, Superb iV and Octavia from ŠKODA, the Leon, Leon Sportstourer and Ateca from SEAT and the Caddy from Volkswagen Commercial Vehicles. The Volkswagen Group's share of the passenger car market in Western Europe rose to 23.7 (22.8)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the number of vehicles delivered in Western Europe and the percentage decrease, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P62a737",
+        "page": 21,
+        "section_name": "Deliveries in Europe/Other Markets",
+        "section_level": 4,
+        "text": "With a decline of 14.9%, the number of vehicles handed over to customers in the reporting year in the Central and Eastern Europe region fell less sharply than the global average. This was largely attributable to the trend in deliveries in Russia, which almost reached the prior-year level. Demand developed encouragingly for the T-Cross from Volkswagen Passenger Cars, for the Audi Q3 Sportback, for ŠKODA's Scala, Kamiq and Karoq models and for the Porsche Cayenne Coupé. The Volkswagen Group's share of the passenger car market in the Central and Eastern Europe region increased to 22.0 (21.5)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions a decline in vehicle deliveries in Central and Eastern Europe, providing a percentage change that is relevant."
+      },
+      {
+        "para_id": "VW2020_Pb932c1",
+        "page": 22,
+        "section_name": "Deliveries in Germany",
+        "section_level": 4,
+        "text": "In Germany, demand for vehicles from the Volkswagen Group was down 19.6% year-on-year at 1,065,811 units in 2020 in an overall market that was suffering a significant decline. As with the overall market in Western Europe, the decrease was attributable to the negative impact of the spread of the SARS-CoV-2 virus. The Group models with the highest volume of demand were the Golf and Passat Estate from the Volkswagen Passenger Cars brand. Also in high demand from customers were the T-Cross from Volkswagen Passenger Cars, the Q3 Sportback, Q7 and e-tron from Audi, the Scala and Kamiq from ŠKODA, the Mii electric from SEAT, and the Porsche Cayenne Coupé and Porsche Taycan, all of which had been introduced as new or successor models over the course of the previous year. Seven Group models led the Kraftfahrt-Bundesamt (KBA – German Federal Motor Transport Authority) registration statistics in their respective segments: the Golf, T-Roc, Tiguan, Touran, Passat, Porsche 911 and Caddy. In addition, the Golf continued to top the list of the most popular passenger cars in Germany in terms of registrations.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the number of vehicles sold in Germany and the percentage decrease, making it directly relevant."
+      },
+      {
+        "para_id": "VW2020_P240784",
+        "page": 22,
+        "section_name": "Deliveries in North America",
+        "section_level": 4,
+        "text": "In North America, demand for Volkswagen Group models fell by 17.3% year-on-year to 784,299 units in the reporting year, a decrease largely mirroring the trend in the market as a whole. The impact of the Covid-19 pandemic became apparent in this region somewhat later, intensifying at the beginning of the second quarter. The month-on-month declines diminished again as the year went on. The Group's market share was 4.6 (4.7)%. The Tiguan Allspace and Jetta from Volkswagen Passenger Cars were the most sought-after Group models in North America.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the number of vehicles delivered in North America and the percentage decrease, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P167c61",
+        "page": 22,
+        "section_name": "Deliveries in North America",
+        "section_level": 4,
+        "text": "In the considerably weaker US market, the Volkswagen Group delivered 12.1% fewer vehicles to customers in fiscal year 2020 than in the prior-year period. The Group models to record the greatest increases included the Passat and Arteon from Volkswagen Passenger Cars, the Audi Q3 and e-tron, and the Porsche 911 Cabriolet. The Atlas and the Atlas Cross Sport from the Volkswagen Passenger Cars brand, Audi's A4, A5, Q7 and e-tron Sportback models, and the Porsche Taycan and Cayenne Coupé were successfully launched on the market as new or successor models during the reporting period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions a percentage decrease in vehicle deliveries in the US market, which is relevant to sales performance."
+      },
+      {
+        "para_id": "VW2020_P83a23f",
+        "page": 22,
+        "section_name": "Deliveries in North America",
+        "section_level": 4,
+        "text": "In Canada, the number of deliveries to Volkswagen Group customers fell by 25.6% year-on-year in 2020. The market as a whole experienced a lesser decline during this period. The Audi Q3 in particular recorded encouraging growth in demand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the percentage decline in deliveries in Canada, which is somewhat relevant."
+      },
+      {
+        "para_id": "VW2020_Pceb5b1",
+        "page": 22,
+        "section_name": "Deliveries in North America",
+        "section_level": 4,
+        "text": "In the Mexican market, which was diminishing sharply overall, the Volkswagen Group delivered 30.8% fewer vehicles to customers in the reporting year than in the previous year. The Group models with the highest volume of demand were the Vento and Jetta from the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the percentage decline in vehicle deliveries in Mexico, which is relevant to the overall sales context."
+      }
     ]
   },
   {
     "table_id": "VW2020_T357d68",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 24,
+    "bucket": "management_report",
     "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET 1",
     "title": "Passenger car deliveries to customers by market1",
     "headers": [
@@ -2519,10 +3130,34 @@
       "Porsche",
       "Bugatti",
       "Volkswagen Commercial Vehicles"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P0db3de",
+        "page": 23,
+        "section_name": "Deliveries in the Asia-Pacific region",
+        "section_level": 4,
+        "text": "In fiscal year 2020, the Volkswagen Group saw demand taper off in the overall market of the Asia-Pacific region, which witnessed a noticeable decline due primarily to the Covid-19 pandemic, and handed over 4,110,782 vehicles to customers, 9.1% fewer than in the year before. The Group's market share in the Asia-Pacific region amounted to 13.2 (13.1)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph mentions overall deliveries in the Asia-Pacific region, which provides some context but is not directly relevant to the European-focused table."
+      },
+      {
+        "para_id": "VW2020_P8687c5",
+        "page": 23,
+        "section_name": "Deliveries in the Asia-Pacific region",
+        "section_level": 4,
+        "text": "China, the world's largest single market and the main growth driver of the Asia-Pacific region for many years, was distinctly weaker in the past fiscal year, mainly due to the spread of the SARS-CoV-2 virus. The Volkswagen Group delivered 9.1% fewer vehicles to customers there than in the preceding year. Following very high declines in volumes in the first quarter, we recorded a slight increase in most of the following months compared with the respective prior-year figure. The T-Cross and Teramont X from the Volkswagen Passenger Cars brand, the VA3 and VS5 from the JETTA brand, the Audi A6L and Audi Q8, the ŠKODA Kamiq GT and the Porsche Cayenne Coupé, all of which had been introduced as new or successor models over the course of the previous year, were in especially high demand. In addition, the Tayron and the Tharu from Volkswagen Passenger Cars, the Audi Q2L, Q2L e-tron and Q5, and the Porsche Panamera saloon saw encouraging growth in demand. The Tacqua, Golf, Tayron X, Tiguan X, CC, Viloran and Phideon models from Volkswagen Passenger Cars, the VS7 from the JETTA brand, the Audi Q7 and Audi e-tron and the ŠKODA Rapid were successfully launched on the market as new or successor models in the reporting year.",
+        "relevance_score": 0.4,
+        "relevance_reason": "The paragraph discusses vehicle deliveries in China, which is relevant to overall market trends but not specifically to the European data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_Tc0b558",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 25,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLE DELIVERIES",
     "title": "Commercial vehicle deliveries to customers by market1",
     "headers": [
@@ -2647,10 +3282,61 @@
       "Worldwide",
       "Scania",
       "MAN"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P8e1519",
+        "page": 25,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In the 27 EU states excluding Malta, but plus the United Kingdom, Norway and Switzerland (EU27+3), sales were down by 26.0% on the same period of the previous year to a total of 105,131 units, of which 81,727 were trucks and 6,098 were buses. Here, the MAN brand delivered 17,306 light commercial vehicles.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Directly relates to the EU27+3 sales figures and percentage change, making it highly relevant."
+      },
+      {
+        "para_id": "VW2020_P572a4c",
+        "page": 25,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In Russia, sales fell by 16.2% year-on-year to 8,486 units, comprising 8,267 trucks and 219 buses.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales figures in Russia, which are relevant to the table's data."
+      },
+      {
+        "para_id": "VW2020_Pd6c69e",
+        "page": 25,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "Deliveries in Turkey increased to 2,681 (707) vehicles in fiscal year 2020. Trucks accounted for 2,457 units and buses for 99 units, while 125 vehicles from the MAN TGE van series were sold. In South Africa, deliveries of Volkswagen Group commercial vehicles decreased by 30.2% year-on-year to a total of 3,111 units; of this figure 2,789 were trucks and 322 were buses.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses deliveries in Turkey, which aligns with the data in the table."
+      },
+      {
+        "para_id": "VW2020_P90eee8",
+        "page": 25,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "Sales in North America declined in fiscal year 2020 to 1,502 vehicles (–53.3%), which were delivered almost exclusively to customers in Mexico; of this figure 1,110 units were trucks and 392 were buses.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions North American sales figures, which are relevant to the table's context."
+      },
+      {
+        "para_id": "VW2020_P832ba5",
+        "page": 25,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "Deliveries in South America fell to a total of 49,372 vehicles (–13.1%), of which 42,283 were trucks and 7,089 were buses. Sales in Brazil decreased by 17.5% in fiscal year 2020. Of the units delivered, 35,738 were trucks and 5,117 were buses.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses South American deliveries, which are relevant to the overall delivery context."
+      }
     ]
   },
   {
     "table_id": "VW2020_Te4a733",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 28,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES AND MARKET INDICES FROM JANUARY 1 TO DECEMBER 31, 2020",
     "title": "Volkswagen share key figures and market indices from January 1 to December 31, 2020",
     "headers": [
@@ -2736,10 +3422,79 @@
       "",
       "ESTX Auto & Parts",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P446fa7",
+        "page": 28,
+        "section_name": "Shares and Bonds",
+        "section_level": 3,
+        "text": "<span id=\"page-27-0\"></span>Following the sharp fall in share prices triggered by the Covid-19 pandemic, trading in Volkswagen AG's ordinary and preferred shares recovered as the year went on, but fell short of the year-end 2019 figure. To refinance projects connected with e-mobility, green bonds were successfully placed on the market for the first time.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the recovery of share prices and the impact of the pandemic, directly relevant to stock performance."
+      },
+      {
+        "para_id": "VW2020_P9cbf62",
+        "page": 28,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "Following the sharp fall in share prices in the first quarter of 2020, which was triggered by the Covid-19 pandemic and its severe negative economic implications, international stock markets started to recover during the second quarter, with some even reporting a strong upward trend. At the end of 2020, many equity markets even recorded closing levels above the prior-year levels.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the recovery of share prices following the pandemic, relevant to stock market performance."
+      },
+      {
+        "para_id": "VW2020_P7839fb",
+        "page": 28,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "The DAX recorded an increase of 3.5% compared with the end of 2019. After an initially good start to the new financial year with a record high in February, share prices collapsed with the increasing spread of the SARS-CoV-2 virus. Starting from the low reached in March, the leading German stock index then again gained in value and recouped its losses in the fourth quarter. This development was fueled considerably by economic stimulus measures from central banks and governments throughout the world and the resulting hopes of a more rapid global economic recovery. The upward trend lost momentum in the second half of the year, with the impact of the second wave of infections weighing on share price performance, although hopes of a vaccine had a positive effect.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the DAX index performance, which is directly relevant to share prices."
+      },
+      {
+        "para_id": "VW2020_Pbe1a25",
+        "page": 28,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "After the losses incurred in the first quarter of 2020, the prices of Volkswagen AG's preferred and ordinary shares also regained ground in the months that followed, but still fell short of the year-end 2019 figures by 14% and 2% respectively. Uncertainties surrounding the development of the global demand for automobiles caused by the Covid-19 pandemic placed shares under pressure. In addition, negative effects arose from the automotive industry's current period of transition that requires large-scale investment. Moreover, the impending US punitive tariffs on European vehicles, the uncertain outcome of the negotiations on the United Kingdom's exit from the EU Single Market including the form the future relationship takes, and the appreciation of the euro against the US dollar since May 2020 all had a negative impact. Positive momentum came from the incipient recovery of the Chinese automotive market and investors' hopes of improved economic activity in the wake of eased restrictions worldwide, government assistance measures, and hopes that the Covid-19 pandemic would subside.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the performance of Volkswagen's shares in relation to market conditions, relevant to stock prices."
+      },
+      {
+        "para_id": "VW2020_P54c6bd",
+        "page": 29,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 4,
+        "text": "The current dividend proposal can be found in the chapter entitled \"Volkswagen AG (condensed, in accordance with the German Commercial Code)\" of this annual report. The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €4.80 per ordinary share and €4.86 per preferred share for fiscal year 2020. On this basis, the total dividend amounts to €2.4 (2.4) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 29.0% for the reporting period and stood at 18.1% in the previous year. In our Group strategy, we have set ourselves the goal of achieving a payout ratio of at least 30%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the proposed dividend per share, which is relevant to share prices."
+      },
+      {
+        "para_id": "VW2020_P4b9f18",
+        "page": 29,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 3,
+        "text": "Based on the dividend proposal for the reporting period, the dividend yield on Volkswagen ordinary shares is 2.8 (2.8)%, measured by the closing price on the last trading day in 2020. The dividend yield on preferred shares is 3.2 (2.8)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions dividend yield based on closing prices, directly relevant to share prices."
+      },
+      {
+        "para_id": "VW2020_P213441",
+        "page": 29,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 4,
+        "text": "Basic earnings per ordinary share were €16.60 (26.60) in fiscal year 2020. Basic earnings per preferred share were €16.66 (26.66). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting period. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Provides earnings per share figures, which are relevant to stock performance."
+      }
     ]
   },
   {
     "table_id": "VW2020_T47c5dc",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 30,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE DATA",
     "title": "Volkswagen share data",
     "headers": [
@@ -2793,10 +3548,43 @@
       "Reuters",
       "Primary market indices",
       "Exchanges"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P54c6bd",
+        "page": 29,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 4,
+        "text": "The current dividend proposal can be found in the chapter entitled \"Volkswagen AG (condensed, in accordance with the German Commercial Code)\" of this annual report. The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €4.80 per ordinary share and €4.86 per preferred share for fiscal year 2020. On this basis, the total dividend amounts to €2.4 (2.4) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 29.0% for the reporting period and stood at 18.1% in the previous year. In our Group strategy, we have set ourselves the goal of achieving a payout ratio of at least 30%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions proposed dividends for ordinary and preferred shares, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P4b9f18",
+        "page": 29,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 3,
+        "text": "Based on the dividend proposal for the reporting period, the dividend yield on Volkswagen ordinary shares is 2.8 (2.8)%, measured by the closing price on the last trading day in 2020. The dividend yield on preferred shares is 3.2 (2.8)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses dividend yields for ordinary and preferred shares, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P213441",
+        "page": 29,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 4,
+        "text": "Basic earnings per ordinary share were €16.60 (26.60) in fiscal year 2020. Basic earnings per preferred share were €16.66 (26.66). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting period. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Provides earnings per share figures for ordinary and preferred shares, relevant to the financial context."
+      }
     ]
   },
   {
     "table_id": "VW2020_T148b34",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 31,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
     "title": "Volkswagen share Key Figures",
     "headers": [
@@ -3211,10 +3999,15 @@
       "Turnover of Volkswagen preferred shares",
       "",
       "Volkswagen share of total DAX turnover"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Td3fba5",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 32,
+    "bucket": "management_report",
     "section_name": "REFINANCING",
     "title": "Utilization of the money and capital market programs",
     "headers": [
@@ -3256,10 +4049,97 @@
       "Bonds",
       "of which hybrid issues",
       "Asset-backed securities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pcad387",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group used a variety of instruments and markets for its refinancing activities in 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the variety of instruments and markets used for refinancing activities, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P109305",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In September 2020, the Automotive Division of the Volkswagen Group successfully placed its first green bonds on the market, with a principal amount of €2.0 billion and terms of eight and twelve years. The green bonds are based on the Green Finance Framework presented in March 2020 for sustainability-oriented financial instruments. The resources will be allocated specifically to refinancing the Modular Electric Drive Toolkit (MEB) and the new completely battery-electric vehicles, the ID.3 and ID.4.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the placement of green bonds, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2020_Pbc69dc",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "We strengthened net liquidity through the placement of unsecured subordinated hybrid notes with an aggregate principal amount of €3.0 billion. The notes are perpetual. One note with a principal amount of €1.5 billion can only be canceled by the issuer after five years, while the other with a principal amount of €1.5 billion cannot be canceled until nine years have elapsed. The transactions will be partly used to refinance the hybrid note with a principal amount of €1.25 billion that was issued in 2014 and canceled as of March 24, 2021.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the placement of hybrid notes, which is relevant to the financing activities."
+      },
+      {
+        "para_id": "VW2020_P8bc074",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In the US capital market, bonds with an aggregate principal amount of USD 4.0 billion each were placed with investors in May and November 2020. Notes with a volume of CAD 1.0 billion were issued in the Canadian refinancing market. In addition, private placements were placed under the automotive issuance program for the first time since 2015.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions bond placements in the US capital market, relevant to the financing context."
+      },
+      {
+        "para_id": "VW2020_P9baf93",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Official euro benchmark bonds with an aggregate volume of €2.15 billion were issued for the Financial Services Divi sion. In addition to this, private placements were issued in various currencies and regions.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses euro benchmark bonds issued for the Financial Services Division, relevant to financing."
+      },
+      {
+        "para_id": "VW2020_P2e8b93",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Alongside the placement of senior, unsecured bonds, asset-backed securities (ABS) transactions were another element of our refinancing activities. ABS transactions in the amount of approximately €3.2 billion were publicly placed in Europe. In addition, ABS transactions were issued in the USA, China and Japan.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions asset-backed securities transactions, which are relevant to financing activities."
+      },
+      {
+        "para_id": "VW2020_Pe061de",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was also actively involved in the commercial paper market with several issuing companies.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses involvement in the commercial paper market, directly relevant to financing programs."
+      },
+      {
+        "para_id": "VW2020_P1b7c7e",
+        "page": 33,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Volkswagen AG's syndicated credit line of €10.0 billion agreed in December 2019 was drawn down during 2020. Furthermore, the syndicated credit line was extended by one year by making use of the first extension option. There is an option to extend the term by a further year until 2026 at the latest, subject to the banks' approval. This credit facility was unused as of the end of 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the syndicated credit line, which is relevant to financing activities."
+      },
+      {
+        "para_id": "VW2020_Pa9d457",
+        "page": 33,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Of the syndicated credit lines with a total of €12.7 billion at other Group companies, €1.3 billion has been drawn down. In addition, Group companies had arranged bilateral, confirmed credit lines with national and international banks in various other countries for a total of €4.8 billion, of which €0.6 billion was drawn down.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions credit lines and their utilization, relevant to financing programs."
+      }
     ]
   },
   {
     "table_id": "VW2020_T9a0b3b",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 33,
+    "bucket": "management_report",
     "section_name": "RATINGS",
     "title": "Ratings",
     "headers": [
@@ -3408,10 +4288,97 @@
       "short-term",
       "long-term",
       "outlook"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pcad387",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group used a variety of instruments and markets for its refinancing activities in 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses refinancing activities, which is relevant to the financial context of the table."
+      },
+      {
+        "para_id": "VW2020_P109305",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In September 2020, the Automotive Division of the Volkswagen Group successfully placed its first green bonds on the market, with a principal amount of €2.0 billion and terms of eight and twelve years. The green bonds are based on the Green Finance Framework presented in March 2020 for sustainability-oriented financial instruments. The resources will be allocated specifically to refinancing the Modular Electric Drive Toolkit (MEB) and the new completely battery-electric vehicles, the ID.3 and ID.4.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the issuance of green bonds, relevant to financing activities."
+      },
+      {
+        "para_id": "VW2020_Pbc69dc",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "We strengthened net liquidity through the placement of unsecured subordinated hybrid notes with an aggregate principal amount of €3.0 billion. The notes are perpetual. One note with a principal amount of €1.5 billion can only be canceled by the issuer after five years, while the other with a principal amount of €1.5 billion cannot be canceled until nine years have elapsed. The transactions will be partly used to refinance the hybrid note with a principal amount of €1.25 billion that was issued in 2014 and canceled as of March 24, 2021.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the placement of hybrid notes, which is relevant to financing activities."
+      },
+      {
+        "para_id": "VW2020_P8bc074",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In the US capital market, bonds with an aggregate principal amount of USD 4.0 billion each were placed with investors in May and November 2020. Notes with a volume of CAD 1.0 billion were issued in the Canadian refinancing market. In addition, private placements were placed under the automotive issuance program for the first time since 2015.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions bond placements in the US capital market, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2020_P9baf93",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Official euro benchmark bonds with an aggregate volume of €2.15 billion were issued for the Financial Services Divi sion. In addition to this, private placements were issued in various currencies and regions.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses euro benchmark bonds issued for the Financial Services Division, relevant to financing."
+      },
+      {
+        "para_id": "VW2020_P2e8b93",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Alongside the placement of senior, unsecured bonds, asset-backed securities (ABS) transactions were another element of our refinancing activities. ABS transactions in the amount of approximately €3.2 billion were publicly placed in Europe. In addition, ABS transactions were issued in the USA, China and Japan.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions asset-backed securities transactions, which are relevant to financing activities."
+      },
+      {
+        "para_id": "VW2020_Pe061de",
+        "page": 32,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was also actively involved in the commercial paper market with several issuing companies.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses involvement in the commercial paper market, directly relevant to financing programs."
+      },
+      {
+        "para_id": "VW2020_P1b7c7e",
+        "page": 33,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Volkswagen AG's syndicated credit line of €10.0 billion agreed in December 2019 was drawn down during 2020. Furthermore, the syndicated credit line was extended by one year by making use of the first extension option. There is an option to extend the term by a further year until 2026 at the latest, subject to the banks' approval. This credit facility was unused as of the end of 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the syndicated credit line, which is relevant to financing activities."
+      },
+      {
+        "para_id": "VW2020_Pa9d457",
+        "page": 33,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Of the syndicated credit lines with a total of €12.7 billion at other Group companies, €1.3 billion has been drawn down. In addition, Group companies had arranged bilateral, confirmed credit lines with national and international banks in various other countries for a total of €4.8 billion, of which €0.6 billion was drawn down.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions credit lines and their utilization, relevant to financing programs."
+      }
     ]
   },
   {
     "table_id": "VW2020_T69060a",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 34,
+    "bucket": "management_report",
     "section_name": "CONTRIBUTION OF AUTONOMOUS INTELLIGENT DRIVING",
     "title": "Key figures for 2020 by segment",
     "headers": [
@@ -3472,10 +4439,25 @@
       "Sales revenue",
       "Segment profit or loss (operating result)",
       "as a percentage of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pb1d1ed",
+        "page": 34,
+        "section_name": "<span id=\"page-33-0\"></span>Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Covid-19 pandemic had a strong negative impact on business at the Volkswagen Group in the reporting year, and this led to lower sales revenue and operating profit. Despite further charges and cash outflows in connection with the diesel issue, net liquidity in the Automotive Division was above the prior-year figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the impact of the Covid-19 pandemic on sales revenue and operating profit, directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T7db571",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 35,
+    "bucket": "management_report",
     "section_name": "CAPITAL INCREASE AT QUANTUMSCAPE CORPORATION",
     "title": "Income statement by division",
     "headers": [
@@ -3671,10 +4653,70 @@
       "Noncontrolling interests",
       "Earnings attributable to Volkswagen AG hybrid capital investors",
       "Earnings attributable to Volkswagen AG shareholders"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pb1d1ed",
+        "page": 34,
+        "section_name": "<span id=\"page-33-0\"></span>Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Covid-19 pandemic had a strong negative impact on business at the Volkswagen Group in the reporting year, and this led to lower sales revenue and operating profit. Despite further charges and cash outflows in connection with the diesel issue, net liquidity in the Automotive Division was above the prior-year figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the impact of the Covid-19 pandemic on sales revenue and operating profit, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P5badd8",
+        "page": 36,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2020 in percent",
+        "section_level": 4,
+        "text": "Payment of the second tranche is subject to a technical milestone being reached. Since there has meanwhile been a merger with a special purpose acquisition company (SPAC), which resulted in a listing on the New York Stock Exchange, the forward purchases are measured with reference to the share price of QuantumScape Corporation until the contribution has been made and the new shares have been issued. This measurement and realization resulted in noncash income of €1.4 billion in fiscal year 2020, which are reported in the other financial result.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses overall sales revenue figures and the impact of the pandemic, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_Pc7f0c5",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "Gross profit amounted to €38.9 billion, €10.2 billion lower than in 2019. This figure also included risk provisions for any non-compliance with legal emissions limits. Positive special items amounting to €0.1 (0.3) billion recognized here in both periods due to the reversal of provisions for technical measures in connection with the diesel issue had an offsetting effect. The gross margin stood at 17.5 (19.5)%; excluding special items, it amounted to 17.4 (19.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions gross profit figures, which are directly relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_P6fbc7d",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The persistent negative impact of the spread of the SARS-CoV-2 virus was the main factor driving the €8.7 billion decline in the Volkswagen Group's operating profit before special items to €10.6 billion in the reporting year. The operating return on sales before special items fell to 4.8 (7.6)%. In addition to lower unit sales due to the pandemic-related decline in customer demand, turbulence in the capital markets meant that the measurement of receivables and liabilities denominated in foreign currencies had a negative effect. One-off expenses for restructuring measures of €0.5 billion also contributed to the reduction in profit. Positive factors were lower costs. The contribution of the consolidated subsidiary Autonomous Intelligent Driving (AID) to Argo AI, a company that is working on the development of a system for autonomous driving, led to income of €0.8 billion. This figure also includes the income from the sale of Renk. Special items in connection with the diesel issue weighed on operating profit, reducing this item by €–0.9 (–2.3) billion. The Volkswagen Group's operating profit was €9.7 (17.0) billion, while the operating return on sales fell to 4.3 (6.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses operating profit before special items, relevant to the financial performance metrics."
+      },
+      {
+        "para_id": "VW2020_Pb830e2",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The financial result increased by €0.6 billion year-on-year to €2.0 billion. The interest expenses included in the financial result were down, mainly for measurement-related reasons caused by a change in discount rates applied in the measurement of liabilities, while changes in share prices, also as a response to the Covid-19 pandemic, weighed on net income from securities and funds. The share of the result of equityaccounted investments was lower than in the previous year. The decline was primarily due to lower profit generated by the Chinese joint ventures, which were affected by the spread of the SARS-CoV-2 virus especially in the first quarter of 2020. The other financial result includes the measurement and realization of forward purchase agreements for new shares in QuantumScape Corporation, which led to noncash income of €1.4 billion in fiscal year 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the financial result and its components, relevant to the overall financial context."
+      },
+      {
+        "para_id": "VW2020_Pee895b",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's profit before tax amounted to €11.7 (18.4) billion. The return on sales before tax decreased to 5.2 (7.3)%. Income taxes resulted in an expense of",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses profit before tax and return on sales, which are relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T4d27d6",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 37,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA",
     "title": "Results of operations in the Passenger Cars Business Area",
     "headers": [
@@ -3710,10 +4752,61 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P5badd8",
+        "page": 36,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2020 in percent",
+        "section_level": 4,
+        "text": "Payment of the second tranche is subject to a technical milestone being reached. Since there has meanwhile been a merger with a special purpose acquisition company (SPAC), which resulted in a listing on the New York Stock Exchange, the forward purchases are measured with reference to the share price of QuantumScape Corporation until the contribution has been made and the new shares have been issued. This measurement and realization resulted in noncash income of €1.4 billion in fiscal year 2020, which are reported in the other financial result.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses overall sales revenue figures and the impact of the pandemic, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2020_Pc7f0c5",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "Gross profit amounted to €38.9 billion, €10.2 billion lower than in 2019. This figure also included risk provisions for any non-compliance with legal emissions limits. Positive special items amounting to €0.1 (0.3) billion recognized here in both periods due to the reversal of provisions for technical measures in connection with the diesel issue had an offsetting effect. The gross margin stood at 17.5 (19.5)%; excluding special items, it amounted to 17.4 (19.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions gross profit figures, which are directly relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_P6fbc7d",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The persistent negative impact of the spread of the SARS-CoV-2 virus was the main factor driving the €8.7 billion decline in the Volkswagen Group's operating profit before special items to €10.6 billion in the reporting year. The operating return on sales before special items fell to 4.8 (7.6)%. In addition to lower unit sales due to the pandemic-related decline in customer demand, turbulence in the capital markets meant that the measurement of receivables and liabilities denominated in foreign currencies had a negative effect. One-off expenses for restructuring measures of €0.5 billion also contributed to the reduction in profit. Positive factors were lower costs. The contribution of the consolidated subsidiary Autonomous Intelligent Driving (AID) to Argo AI, a company that is working on the development of a system for autonomous driving, led to income of €0.8 billion. This figure also includes the income from the sale of Renk. Special items in connection with the diesel issue weighed on operating profit, reducing this item by €–0.9 (–2.3) billion. The Volkswagen Group's operating profit was €9.7 (17.0) billion, while the operating return on sales fell to 4.3 (6.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses operating profit before special items, relevant to the financial performance metrics."
+      },
+      {
+        "para_id": "VW2020_Pb830e2",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The financial result increased by €0.6 billion year-on-year to €2.0 billion. The interest expenses included in the financial result were down, mainly for measurement-related reasons caused by a change in discount rates applied in the measurement of liabilities, while changes in share prices, also as a response to the Covid-19 pandemic, weighed on net income from securities and funds. The share of the result of equityaccounted investments was lower than in the previous year. The decline was primarily due to lower profit generated by the Chinese joint ventures, which were affected by the spread of the SARS-CoV-2 virus especially in the first quarter of 2020. The other financial result includes the measurement and realization of forward purchase agreements for new shares in QuantumScape Corporation, which led to noncash income of €1.4 billion in fiscal year 2020.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the financial result and its components, relevant to the overall financial context."
+      },
+      {
+        "para_id": "VW2020_Pee895b",
+        "page": 36,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's profit before tax amounted to €11.7 (18.4) billion. The return on sales before tax decreased to 5.2 (7.3)%. Income taxes resulted in an expense of",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses profit before tax and return on sales, which are relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T1a9edb",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 38,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA",
     "title": "Results of operations in the Commercial Vehicles Business Area",
     "headers": [
@@ -3749,10 +4842,88 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P72a27a",
+        "page": 37,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "In the period from January to December 2020, the Automotive Division recorded sales revenue of €182.1 billion, down 14.3% on the prior-year period. Profit was weighed down especially by the decline in volumes resulting from the Covid-19 pandemic, while changes in exchange rates also had a negative effect. In contrast, mix effects and improved price positioning made a positive contribution. Since our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is primarily reflected in the Group's sales revenue only through deliveries of vehicles and vehicle parts.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue for the Automotive Division, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pe170c2",
+        "page": 37,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "The Automotive Division's operating profit was €6.7 (13.7) billion in 2020. Its operating return on sales fell to 3.7 (6.5)%. Compared with the previous year, lower unit sales caused by the Covid-19 pandemic had a negative impact, as did the measurement of receivables and liabilities denominated in foreign currencies. One-off expenses for restructuring measures of €0.5 billion also contributed to the reduction in profit. Positive factors were lower costs as well as the income from the contribution of AID and from the sale of Renk; negative special items declined compared with the previous year, in which the reversal of impairment losses following the remeasurement of development costs had a positive impact. The operating profit before special items decreased by €8.5 billion to €7.6 billion, while the operating return on sales before special items went down to 4.2 (7.6)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses operating profit for the Automotive Division, relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2020_P77d5cf",
+        "page": 37,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 4,
+        "text": "The Passenger Cars Business Area reported sales revenue of €156.3 billion in fiscal year 2020, 14.1% less than in the previous year. The year-on-year decrease was mainly attributable to falling volumes as a result of the Covid-19 pandemic. Moreover, changes in exchange rates had a negative effect, while the contribution of mix effects and better price positioning was positive. The Passenger Cars Business Area's operating profit was down €5.0 billion to €7.2 billion. The spread of the SARS-CoV-2 virus led to a drop in vehicle sales and caused the measurement of receivables and liabilities denominated in foreign currencies to have a negative effect. One-off expenses for restructuring measures also weighed on operating profit. Lower costs and the income from the contribution of AID led to higher profit. Special items recognized in connection with the diesel issue in an amount of €–0.9 (–2.3) billion were lower than in fiscal year 2019. The prior-year figure had also included the reversal of impairment losses following the remeasurement of development costs. The operating return on sales decreased to 4.6 (6.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses sales revenue and operating profit for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P507a4e",
+        "page": 38,
+        "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+        "section_level": 4,
+        "text": "In the period from January to December 2020, the Commercial Vehicles Business Area recorded sales revenue of €22.2 billion; this was a significant year-on-year drop of 16.2%, due primarily to falling volumes as a result of the Covid-19 pandemic. Again due mainly to the pandemicrelated decline in customer demand, as well as exchange raterelated factors, the Commercial Vehicles Business Area's operating result decreased by €1.7 billion to €–0.1 billion year-on-year. Improvements in the mix, in price positioning and in fixed costs had a beneficial impact. The operating return on sales fell to –0.4 (6.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue and operating result for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P5db66b",
+        "page": 38,
+        "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 4,
+        "text": "The Power Engineering Business Area generated sales revenue of €3.6 (4.0) billion in the reporting year. The operating loss amounted to €–0.5 (–0.1) billion. The main reasons were falling volumes and in particular one-off expenses for restructuring measures of €0.4 billion. Cost reductions and improvements in the mix had a positive effect. The operating return on sales was at –13.2 (–2.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue and operating loss for the Power Engineering Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P00e252",
+        "page": 38,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "The Financial Services Division reported sales revenue of €40.8 billion in fiscal year 2020, 1.5% more than in the previous year. Due to the Financial Services Division's business model, the negative effect of the Covid-19 pandemic on sales revenue is less severe here than in the Automotive Division.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue for the Financial Services Division, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_Pb171de",
+        "page": 38,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "The Financial Services Division's operating profit was 6.2% lower, at €3.0 billion, primarily for pandemic-related reasons. The operating return on sales amounted to 7.4 (8.0)%. The return on equity before tax of 8.8 (10.8)% was down on the prior-year figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions operating profit for the Financial Services Division, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Paae948",
+        "page": 39,
+        "section_name": "Financial position of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's gross cash flow decreased to €35.0 (39.9) billion in the reporting year, mainly due to the pandemic-related decline in profit. The change in working capital amounted to €–10.1 (–22.0) billion. The effects of the Covid-19 pandemic included a reduction in receivables, including in the financial services business, lower inventories because of downscaled production, a decline in other provisions and a smaller rise in liabilities. Cash outflows attributable to the diesel issue were higher than in fiscal year 2019. Cash flows from operating activities improved significantly year-on-year, to €24.9 (18.0) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses gross cash flow, which is relevant to the financial performance context."
+      }
     ]
   },
   {
     "table_id": "VW2020_T4a1c4a",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 38,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
     "title": "Results of operations in the Power Engineering Business Area",
     "headers": [
@@ -3788,10 +4959,88 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P72a27a",
+        "page": 37,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "In the period from January to December 2020, the Automotive Division recorded sales revenue of €182.1 billion, down 14.3% on the prior-year period. Profit was weighed down especially by the decline in volumes resulting from the Covid-19 pandemic, while changes in exchange rates also had a negative effect. In contrast, mix effects and improved price positioning made a positive contribution. Since our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is primarily reflected in the Group's sales revenue only through deliveries of vehicles and vehicle parts.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue for the Automotive Division, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pe170c2",
+        "page": 37,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "The Automotive Division's operating profit was €6.7 (13.7) billion in 2020. Its operating return on sales fell to 3.7 (6.5)%. Compared with the previous year, lower unit sales caused by the Covid-19 pandemic had a negative impact, as did the measurement of receivables and liabilities denominated in foreign currencies. One-off expenses for restructuring measures of €0.5 billion also contributed to the reduction in profit. Positive factors were lower costs as well as the income from the contribution of AID and from the sale of Renk; negative special items declined compared with the previous year, in which the reversal of impairment losses following the remeasurement of development costs had a positive impact. The operating profit before special items decreased by €8.5 billion to €7.6 billion, while the operating return on sales before special items went down to 4.2 (7.6)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses operating profit for the Automotive Division, relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2020_P77d5cf",
+        "page": 37,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 4,
+        "text": "The Passenger Cars Business Area reported sales revenue of €156.3 billion in fiscal year 2020, 14.1% less than in the previous year. The year-on-year decrease was mainly attributable to falling volumes as a result of the Covid-19 pandemic. Moreover, changes in exchange rates had a negative effect, while the contribution of mix effects and better price positioning was positive. The Passenger Cars Business Area's operating profit was down €5.0 billion to €7.2 billion. The spread of the SARS-CoV-2 virus led to a drop in vehicle sales and caused the measurement of receivables and liabilities denominated in foreign currencies to have a negative effect. One-off expenses for restructuring measures also weighed on operating profit. Lower costs and the income from the contribution of AID led to higher profit. Special items recognized in connection with the diesel issue in an amount of €–0.9 (–2.3) billion were lower than in fiscal year 2019. The prior-year figure had also included the reversal of impairment losses following the remeasurement of development costs. The operating return on sales decreased to 4.6 (6.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses sales revenue and operating profit for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P507a4e",
+        "page": 38,
+        "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+        "section_level": 4,
+        "text": "In the period from January to December 2020, the Commercial Vehicles Business Area recorded sales revenue of €22.2 billion; this was a significant year-on-year drop of 16.2%, due primarily to falling volumes as a result of the Covid-19 pandemic. Again due mainly to the pandemicrelated decline in customer demand, as well as exchange raterelated factors, the Commercial Vehicles Business Area's operating result decreased by €1.7 billion to €–0.1 billion year-on-year. Improvements in the mix, in price positioning and in fixed costs had a beneficial impact. The operating return on sales fell to –0.4 (6.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue and operating result for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P5db66b",
+        "page": 38,
+        "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 4,
+        "text": "The Power Engineering Business Area generated sales revenue of €3.6 (4.0) billion in the reporting year. The operating loss amounted to €–0.5 (–0.1) billion. The main reasons were falling volumes and in particular one-off expenses for restructuring measures of €0.4 billion. Cost reductions and improvements in the mix had a positive effect. The operating return on sales was at –13.2 (–2.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue and operating loss for the Power Engineering Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P00e252",
+        "page": 38,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "The Financial Services Division reported sales revenue of €40.8 billion in fiscal year 2020, 1.5% more than in the previous year. Due to the Financial Services Division's business model, the negative effect of the Covid-19 pandemic on sales revenue is less severe here than in the Automotive Division.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions sales revenue for the Financial Services Division, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_Pb171de",
+        "page": 38,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "The Financial Services Division's operating profit was 6.2% lower, at €3.0 billion, primarily for pandemic-related reasons. The operating return on sales amounted to 7.4 (8.0)%. The return on equity before tax of 8.8 (10.8)% was down on the prior-year figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions operating profit for the Financial Services Division, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Paae948",
+        "page": 39,
+        "section_name": "Financial position of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's gross cash flow decreased to €35.0 (39.9) billion in the reporting year, mainly due to the pandemic-related decline in profit. The change in working capital amounted to €–10.1 (–22.0) billion. The effects of the Covid-19 pandemic included a reduction in receivables, including in the financial services business, lower inventories because of downscaled production, a decline in other provisions and a smaller rise in liabilities. Cash outflows attributable to the diesel issue were higher than in fiscal year 2019. Cash flows from operating activities improved significantly year-on-year, to €24.9 (18.0) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses gross cash flow, which is relevant to the financial performance context."
+      }
     ]
   },
   {
     "table_id": "VW2020_Taf1010",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 40,
+    "bucket": "management_report",
     "section_name": "CASH FLOW STATEMENT BY DIVISION",
     "title": "Cash flow statement by division",
     "headers": [
@@ -4147,10 +5396,34 @@
       "Gross liquidity",
       "Total third-party borrowings",
       "Net liquidity ^6"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Paae948",
+        "page": 39,
+        "section_name": "Financial position of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's gross cash flow decreased to €35.0 (39.9) billion in the reporting year, mainly due to the pandemic-related decline in profit. The change in working capital amounted to €–10.1 (–22.0) billion. The effects of the Covid-19 pandemic included a reduction in receivables, including in the financial services business, lower inventories because of downscaled production, a decline in other provisions and a smaller rise in liabilities. Cash outflows attributable to the diesel issue were higher than in fiscal year 2019. Cash flows from operating activities improved significantly year-on-year, to €24.9 (18.0) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "The paragraph discusses the decrease in gross cash flow, which is relevant to the financial performance data in the table."
+      },
+      {
+        "para_id": "VW2020_P8a2bff",
+        "page": 39,
+        "section_name": "Financial position of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's investing activities attributable to operating activities amounted to €18.4 (20.1) billion in fiscal year 2020; this was down on the previous year, mainly due to lower capex.",
+        "relevance_score": 0.6,
+        "relevance_reason": "The paragraph discusses investing activities and their impact, which is relevant to the financial performance data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2020_T049392",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 41,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA",
     "title": "Financial Position in the Passenger Cars Business Area",
     "headers": [
@@ -4198,10 +5471,52 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pcafebc",
+        "page": 40,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "4 Net cash flow: cash flows from operating activities, net of cash flows from investing activities attributable to operating activities (investing activities excluding change in investments in securities, loans and time deposits).",
+        "relevance_score": 1.0,
+        "relevance_reason": "Defines net cash flow, which is directly relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pede251",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "The Automotive Division's net cash flow fell by €4.5 billion to €6.4 billion in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions net cash flow for the Automotive Division, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P985b95",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "Financing activities relate to the issuance and redemption of bonds and changes in other financial liabilities; the total cash inflow in this item was €2.9 billion in fiscal year 2020. This helped boost gross liquidity and resulted in higher liabilities to banks. The hybrid notes with a principal amount of €3.0 billion, which were successfully issued via Volkswagen International Finance N.V. in June 2020, led to cash inflows. The first one is a €1.5 billion note that has a coupon of 3.5% and can first be called after five years, and the other is a €1.5 billion note that has a coupon of 3.875% and can first be called after nine years. Both notes have perpetual maturities and increase equity, net of transaction and other costs. An amount of €3.0 billion of the hybrid notes was eligible to be classified as a capital contribution and led to a rise in net liquidity. In addition, the green bonds of €2.0 billion issued in September 2020 are included in financing activities. A dividend of €2.4 (2.4) billion was distributed to the shareholders of Volkswagen AG in October 2020. The \"capital transactions with noncontrolling interests\" item includes the cash outflow of €0.2 billion for the transfer of all outstanding Audi shares to Volkswagen AG. In the previous year, financing activities accounted for cash outflows of €11.3 billion. This figure also included the acquisition of",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses financing activities and cash inflows, relevant to cash flow metrics."
+      },
+      {
+        "para_id": "VW2020_P8d0b5b",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division's net liquidity was up €5.5 billion, at €26.8 billion. Driven by the increase in net liquidity and the decrease in sales revenue, the Automotive Division's net liquidity accounted for 12.0 (8.4)% of consolidated sales revenue in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses net liquidity for the Automotive Division, relevant to cash flow metrics."
+      }
     ]
   },
   {
     "table_id": "VW2020_T4d5d9f",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 42,
+    "bucket": "management_report",
     "section_name": "F INANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA",
     "title": "Financial Position in the Commercial Vehicles Business Area",
     "headers": [
@@ -4249,10 +5564,43 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pede251",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "The Automotive Division's net cash flow fell by €4.5 billion to €6.4 billion in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions net cash flow for the Automotive Division, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P985b95",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "Financing activities relate to the issuance and redemption of bonds and changes in other financial liabilities; the total cash inflow in this item was €2.9 billion in fiscal year 2020. This helped boost gross liquidity and resulted in higher liabilities to banks. The hybrid notes with a principal amount of €3.0 billion, which were successfully issued via Volkswagen International Finance N.V. in June 2020, led to cash inflows. The first one is a €1.5 billion note that has a coupon of 3.5% and can first be called after five years, and the other is a €1.5 billion note that has a coupon of 3.875% and can first be called after nine years. Both notes have perpetual maturities and increase equity, net of transaction and other costs. An amount of €3.0 billion of the hybrid notes was eligible to be classified as a capital contribution and led to a rise in net liquidity. In addition, the green bonds of €2.0 billion issued in September 2020 are included in financing activities. A dividend of €2.4 (2.4) billion was distributed to the shareholders of Volkswagen AG in October 2020. The \"capital transactions with noncontrolling interests\" item includes the cash outflow of €0.2 billion for the transfer of all outstanding Audi shares to Volkswagen AG. In the previous year, financing activities accounted for cash outflows of €11.3 billion. This figure also included the acquisition of",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses financing activities and cash inflows, relevant to cash flow metrics."
+      },
+      {
+        "para_id": "VW2020_P8d0b5b",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division's net liquidity was up €5.5 billion, at €26.8 billion. Driven by the increase in net liquidity and the decrease in sales revenue, the Automotive Division's net liquidity accounted for 12.0 (8.4)% of consolidated sales revenue in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses net liquidity for the Automotive Division, relevant to cash flow metrics."
+      }
     ]
   },
   {
     "table_id": "VW2020_T94b269",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 42,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
     "title": "Financial Position in the Power Engineering Business Area",
     "headers": [
@@ -4300,10 +5648,61 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pede251",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "The Automotive Division's net cash flow fell by €4.5 billion to €6.4 billion in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions net cash flow for the Automotive Division, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P985b95",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "Financing activities relate to the issuance and redemption of bonds and changes in other financial liabilities; the total cash inflow in this item was €2.9 billion in fiscal year 2020. This helped boost gross liquidity and resulted in higher liabilities to banks. The hybrid notes with a principal amount of €3.0 billion, which were successfully issued via Volkswagen International Finance N.V. in June 2020, led to cash inflows. The first one is a €1.5 billion note that has a coupon of 3.5% and can first be called after five years, and the other is a €1.5 billion note that has a coupon of 3.875% and can first be called after nine years. Both notes have perpetual maturities and increase equity, net of transaction and other costs. An amount of €3.0 billion of the hybrid notes was eligible to be classified as a capital contribution and led to a rise in net liquidity. In addition, the green bonds of €2.0 billion issued in September 2020 are included in financing activities. A dividend of €2.4 (2.4) billion was distributed to the shareholders of Volkswagen AG in October 2020. The \"capital transactions with noncontrolling interests\" item includes the cash outflow of €0.2 billion for the transfer of all outstanding Audi shares to Volkswagen AG. In the previous year, financing activities accounted for cash outflows of €11.3 billion. This figure also included the acquisition of",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses financing activities and cash inflows, relevant to cash flow metrics."
+      },
+      {
+        "para_id": "VW2020_P8d0b5b",
+        "page": 41,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division's net liquidity was up €5.5 billion, at €26.8 billion. Driven by the increase in net liquidity and the decrease in sales revenue, the Automotive Division's net liquidity accounted for 12.0 (8.4)% of consolidated sales revenue in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses net liquidity for the Automotive Division, relevant to cash flow metrics."
+      },
+      {
+        "para_id": "VW2020_P38a8e8",
+        "page": 42,
+        "section_name": "Financial position in the Financial Services Division",
+        "section_level": 4,
+        "text": "In the period from January to December 2020, the Financial Services Division generated gross cash flow of €11.3 (10.9) billion. Given a decrease in funds tied up in working capital caused by the lower business volume in response to the decline in demand following the spread of the SARS-CoV-2 virus, the change in working capital amounted to €–11.1 (–23.6) billion. Cash flows from operating activities improved by €12.9 billion to €0.2 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions gross cash flow for the Financial Services Division, relevant to the table."
+      },
+      {
+        "para_id": "VW2020_P4676d3",
+        "page": 42,
+        "section_name": "Financial position in the Financial Services Division",
+        "section_level": 4,
+        "text": "The Financial Services Division's financing activities relate primarily to the issuance and redemption of bonds and other financial liabilities; there was a total cash inflow of €4.7 billion to refinance the business volume in the reporting period, compared with €10.4 billion in the previous year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions cash inflows related to financing activities, relevant to the cash flow context."
+      }
     ]
   },
   {
     "table_id": "VW2020_T64ab6b",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 43,
+    "bucket": "management_report",
     "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -4639,10 +6038,15 @@
       "Other liabilities",
       "Liabilities associated with assets held for sale",
       "Total equity and liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T9b333b",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 45,
+    "bucket": "management_report",
     "section_name": "PASSENGER CARS BUSINESS AREA BALANCE SHEET STRUCTURE",
     "title": "unknown title",
     "headers": [
@@ -4696,10 +6100,79 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P25b527",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "As of December 31, 2020, the Automotive Division's intangible assets increased slightly compared with fiscal year 2019, driven among other factors by a rise in capitalized development costs. Property, plant and equipment declined due to exchange rate factors and depreciation in excess of additions. Equity-accounted investments were up as the year-on-year decline in the business results of the Chinese joint ventures was offset by resolutions to pay lower dividends and by additions to the interests held in entities such as Argo AI, QuantumScape, Anhui Jianghuai Automobile Group Holdings and Northvolt. Noncurrent other receivables and financial assets increased. Total noncurrent assets were up €3.1 billion to €156.9 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses changes in intangible assets and their impact, relevant to the financial context."
+      },
+      {
+        "para_id": "VW2020_Pdeffc8",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "Current assets were higher than at the end of 2019, amounting to €97.2 (93.1) billion. As a result of downscaled production in response to the pandemic and due to exchange rate effects, the inventories included in this item were lower. The Automotive Division's securities and cash and cash equivalents rose by €8.5 billion to €41.7 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions current assets and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_P404d70",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division's equity amounted to €96.7 billion, 4.3% more than a year earlier. The increase was mainly attributable to the profit generated, the hybrid notes issued in June 2020, and the positive effects from the measurement of derivatives recognized directly in equity. Currency translation, the dividend payment to the shareholders of Volkswagen AG resolved by the Annual General Meeting, and higher actuarial losses from the remeasurement of pension plans reduced equity. Noncontrolling interests are primarily held by the noncontrolling interest shareholders of TRATON. The equity ratio was 38.1 (37.6)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions equity figures and their changes, relevant to the financial context."
+      },
+      {
+        "para_id": "VW2020_P76186b",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "Noncurrent liabilities increased by €2.7 billion to €93.5 billion. The decrease in noncurrent financial liabilities included in this item was driven primarily by reclassifications from noncurrent to current liabilities to reflect shorter remaining maturities and by exchange rate effects; the issuance of green bonds in September 2020 had an offsetting impact on this item. Pension provisions were significantly higher than the comparative 2019 figure, due mainly to the actuarial remeasurement following a change in the discount rate.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses noncurrent liabilities and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pa78f37",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "At €63.8 (63.2) billion, current liabilities were on a level with the previous year. Current financial liabilities amounted to €–2.8 (–7.3) billion due primarily to reclassifications from noncurrent to current liabilities. The figures for the Automotive Division also contain the elimination of intragroup transactions between the Automotive and Financial Services divisions. As the current financial liabilities for the primary Automotive Division were lower than the loans granted to the Financial Services Division, a negative amount was disclosed in both periods. Current other liabilities were down, primarily due to the effects of the measurement of derivatives and to lower liabilities from buyback transactions. Other provisions decreased, due mainly to utilizations in connection with the diesel issue.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions current liabilities and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pc3b08b",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "At the end of fiscal year 2020, the Automotive Division's total assets amounted to €254.1 billion, up 2.9% compared with the figure on December 31, 2019.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses total assets and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pc04d79",
+        "page": 45,
+        "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE",
+        "section_level": 4,
+        "text": "At the end of 2020, intangible assets in the Passenger Cars Business Area were higher than at the 2019 balance sheet date. This was attributable among other factors to an increase in capitalized development costs. Exchange rate factors and depreciation in excess of additions led to a decrease in property, plant and equipment. Equity-accounted investments rose compared with December 31, 2019: the year-on-year decline in the business results of the Chinese joint ventures was set against resolutions to pay lower dividends in the Chinese joint ventures, as well as additions to the interests held in entities such as Argo AI, QuantumScape, Anhui Jianghuai Automobile Group Holdings and Northvolt. Overall, noncurrent assets increased by 3.0% compared with the end of 2019. Current assets rose by 10.2%. The inventories included in this item were lower as a result of downscaled production in response to the pandemic and due to exchange rate effects. Total securities and cash and cash equivalents in the Passenger Cars Business Area significantly exceeded the figure recorded at the end of 2019. On December 31, 2020, the Passenger Cars Business Area had total assets amounting to €213.4 (201.8) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions intangible assets and their changes, relevant to the financial context."
+      }
     ]
   },
   {
     "table_id": "VW2020_T29ef72",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 45,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE",
     "title": "unknown title",
     "headers": [
@@ -4753,10 +6226,79 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_P25b527",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "As of December 31, 2020, the Automotive Division's intangible assets increased slightly compared with fiscal year 2019, driven among other factors by a rise in capitalized development costs. Property, plant and equipment declined due to exchange rate factors and depreciation in excess of additions. Equity-accounted investments were up as the year-on-year decline in the business results of the Chinese joint ventures was offset by resolutions to pay lower dividends and by additions to the interests held in entities such as Argo AI, QuantumScape, Anhui Jianghuai Automobile Group Holdings and Northvolt. Noncurrent other receivables and financial assets increased. Total noncurrent assets were up €3.1 billion to €156.9 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses intangible assets and their impact, relevant to the financial context."
+      },
+      {
+        "para_id": "VW2020_Pdeffc8",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "Current assets were higher than at the end of 2019, amounting to €97.2 (93.1) billion. As a result of downscaled production in response to the pandemic and due to exchange rate effects, the inventories included in this item were lower. The Automotive Division's securities and cash and cash equivalents rose by €8.5 billion to €41.7 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions current assets and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_P404d70",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division's equity amounted to €96.7 billion, 4.3% more than a year earlier. The increase was mainly attributable to the profit generated, the hybrid notes issued in June 2020, and the positive effects from the measurement of derivatives recognized directly in equity. Currency translation, the dividend payment to the shareholders of Volkswagen AG resolved by the Annual General Meeting, and higher actuarial losses from the remeasurement of pension plans reduced equity. Noncontrolling interests are primarily held by the noncontrolling interest shareholders of TRATON. The equity ratio was 38.1 (37.6)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions equity figures and their changes, relevant to the financial context."
+      },
+      {
+        "para_id": "VW2020_P76186b",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "Noncurrent liabilities increased by €2.7 billion to €93.5 billion. The decrease in noncurrent financial liabilities included in this item was driven primarily by reclassifications from noncurrent to current liabilities to reflect shorter remaining maturities and by exchange rate effects; the issuance of green bonds in September 2020 had an offsetting impact on this item. Pension provisions were significantly higher than the comparative 2019 figure, due mainly to the actuarial remeasurement following a change in the discount rate.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses noncurrent liabilities and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pa78f37",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "At €63.8 (63.2) billion, current liabilities were on a level with the previous year. Current financial liabilities amounted to €–2.8 (–7.3) billion due primarily to reclassifications from noncurrent to current liabilities. The figures for the Automotive Division also contain the elimination of intragroup transactions between the Automotive and Financial Services divisions. As the current financial liabilities for the primary Automotive Division were lower than the loans granted to the Financial Services Division, a negative amount was disclosed in both periods. Current other liabilities were down, primarily due to the effects of the measurement of derivatives and to lower liabilities from buyback transactions. Other provisions decreased, due mainly to utilizations in connection with the diesel issue.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions current liabilities and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pc3b08b",
+        "page": 44,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "At the end of fiscal year 2020, the Automotive Division's total assets amounted to €254.1 billion, up 2.9% compared with the figure on December 31, 2019.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses total assets and their changes, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2020_Pc04d79",
+        "page": 45,
+        "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE",
+        "section_level": 4,
+        "text": "At the end of 2020, intangible assets in the Passenger Cars Business Area were higher than at the 2019 balance sheet date. This was attributable among other factors to an increase in capitalized development costs. Exchange rate factors and depreciation in excess of additions led to a decrease in property, plant and equipment. Equity-accounted investments rose compared with December 31, 2019: the year-on-year decline in the business results of the Chinese joint ventures was set against resolutions to pay lower dividends in the Chinese joint ventures, as well as additions to the interests held in entities such as Argo AI, QuantumScape, Anhui Jianghuai Automobile Group Holdings and Northvolt. Overall, noncurrent assets increased by 3.0% compared with the end of 2019. Current assets rose by 10.2%. The inventories included in this item were lower as a result of downscaled production in response to the pandemic and due to exchange rate effects. Total securities and cash and cash equivalents in the Passenger Cars Business Area significantly exceeded the figure recorded at the end of 2019. On December 31, 2020, the Passenger Cars Business Area had total assets amounting to €213.4 (201.8) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions intangible assets and their changes, relevant to the financial context."
+      }
     ]
   },
   {
     "table_id": "VW2020_T1963ad",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 46,
+    "bucket": "management_report",
     "section_name": "The Power Engineering Business Area's AREA BALANCE SHEET STRUCTURE",
     "title": "unknown title",
     "headers": [
@@ -4810,10 +6352,25 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2020_Pc04d79",
+        "page": 45,
+        "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE",
+        "section_level": 4,
+        "text": "At the end of 2020, intangible assets in the Passenger Cars Business Area were higher than at the 2019 balance sheet date. This was attributable among other factors to an increase in capitalized development costs. Exchange rate factors and depreciation in excess of additions led to a decrease in property, plant and equipment. Equity-accounted investments rose compared with December 31, 2019: the year-on-year decline in the business results of the Chinese joint ventures was set against resolutions to pay lower dividends in the Chinese joint ventures, as well as additions to the interests held in entities such as Argo AI, QuantumScape, Anhui Jianghuai Automobile Group Holdings and Northvolt. Overall, noncurrent assets increased by 3.0% compared with the end of 2019. Current assets rose by 10.2%. The inventories included in this item were lower as a result of downscaled production in response to the pandemic and due to exchange rate effects. Total securities and cash and cash equivalents in the Passenger Cars Business Area significantly exceeded the figure recorded at the end of 2019. On December 31, 2020, the Passenger Cars Business Area had total assets amounting to €213.4 (201.8) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions intangible assets and their changes, relevant to the financial context."
+      }
     ]
   },
   {
     "table_id": "VW2020_T68511f",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 47,
+    "bucket": "management_report",
     "section_name": "COST OF CAPITAL AFTER TAX IN THE AUTOMOTIVE DIVISION",
     "title": "Cost of capital after tax automotive division",
     "headers": [
@@ -4897,10 +6454,15 @@
       "Proportion of equity",
       "Proportion of debt",
       "Cost of capital after tax"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tca1a57",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 48,
+    "bucket": "management_report",
     "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
     "title": "Return on Investment (ROI) and Value Contribution in the Automotive Division1",
     "headers": [
@@ -4954,10 +6516,15 @@
       "Cost of capital in %",
       "Opportunity cost of invested capital",
       "Value contribution"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tbeaf3a",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 49,
+    "bucket": "management_report",
     "section_name": "FORECAST VERSUS ACTUAL FIGURES",
     "title": "Forecast versus actual figures",
     "headers": [
@@ -5195,10 +6762,15 @@
       "Net cash flow in the Automotive Division",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T66dde5",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 50,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
     "title": "Income statement of Volkswagen AG",
     "headers": [
@@ -5288,10 +6860,15 @@
       "Retained profits brought forward",
       "Appropriations to revenue reserves",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tfe02c6",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 50,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
     "title": "unknown title",
     "headers": [
@@ -5369,10 +6946,15 @@
       "Long-term debt",
       "Medium-term debt",
       "Short-term debt"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tb5576b",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 51,
+    "bucket": "management_report",
     "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "title": "Proposal on the appropriation of net profit",
     "headers": [
@@ -5414,10 +6996,15 @@
       "",
       "Balance (carried forward to new account)",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T04cd95",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 51,
+    "bucket": "management_report",
     "section_name": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
     "title": "Employee pay and benefits at Volkswagen AG",
     "headers": [
@@ -5471,10 +7058,15 @@
       "Compensated absence",
       "Retirement benefits",
       "Total expense"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tadccaa",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 52,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN AG EXPENDITURE ON ENVIRONMENTAL PROTECTION",
     "title": "Volkswagen AG expenditure on environmental protection",
     "headers": [
@@ -5516,10 +7108,15 @@
     "stub_col": [
       "Investments",
       "Operating costs"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_T16565e",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 66,
+    "bucket": "management_report",
     "section_name": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
     "title": "Research and development costs in the automotive division",
     "headers": [
@@ -5585,10 +7182,15 @@
       "Sales revenue",
       "Total research and development costs",
       "R&D ratio"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2020_Tc2cf94",
+    "doc_id": "VW2020",
+    "year": 2020,
+    "page": 78,
+    "bucket": "management_report",
     "section_name": "PROPORTION OF WOMEN  as of December 31",
     "title": "Proportion of women as of December 31",
     "headers": [
@@ -5648,6 +7250,7 @@
       "Management",
       "Senior management",
       "Top management"
-    ]
+    ],
+    "paragraphs": []
   }
 ]

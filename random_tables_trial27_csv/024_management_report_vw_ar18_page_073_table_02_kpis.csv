@@ -1,0 +1,11 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Gross cash flow,Power Engineering,Worldwide,309,2018,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Gross cash flow,Power Engineering,Worldwide,268,2017,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Change in working capital,Power Engineering,Worldwide,-260,2018,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Change in working capital,Power Engineering,Worldwide,-290,2017,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Cash flows from operating activities,Power Engineering,Worldwide,49,2018,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Cash flows from operating activities,Power Engineering,Worldwide,-22,2017,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Cash flows from investing activities attributable to operating activities,Power Engineering,Worldwide,-162,2018,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Cash flows from investing activities attributable to operating activities,Power Engineering,Worldwide,-177,2017,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Net cash flow,Power Engineering,Worldwide,-113,2018,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json
+Net cash flow,Power Engineering,Worldwide,-199,2017,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_02.png,divisions-vw-ar23/management_report_vw_ar18_page_073_table_02_kpis.json

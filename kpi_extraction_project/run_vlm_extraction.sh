@@ -159,12 +159,6 @@ echo "  ✓ Conda environment activated: $CONDA_DEFAULT_ENV"
 #     OCR_AVAILABLE="deepseek-ocr"
 # fi
 
-# For DeepSeek OCR (commented out - use Tesseract by default):
-# Install transformers 4.46.3 for DeepSeek OCR
-echo "  Installing transformers 4.46.3 for DeepSeek OCR..."
-pip install --quiet transformers==4.46.3
-echo "  ✓ transformers 4.46.3 installed"
-
 echo "  Checking module system..."
 source /etc/profile.d/modules.sh || echo "  No module system available (not all clusters have this)"
 
@@ -172,9 +166,6 @@ module load cuda/11.8 || echo "  No CUDA module loaded (expected for PyTorch cu1
 
 echo "  Listing CUDA modules before load..."
 module list cuda || echo "  No modules loaded (not all clusters have this)"
-
-# Set PyTorch memory optimization for fragmented memory
-echo "  ✓ PyTorch memory optimization enabled (expandable_segments:True)"
 
 
 # ============================================================================
@@ -185,15 +176,23 @@ echo "[2/6] Verifying and installing dependencies..."
 
 # Install required packages
 echo "  Installing required libraries..."
-pip install --no-cache-dir pymupdf pillow qwen-vl-utils accelerate > /dev/null 2>&1
+# DeepSeek OCR currently expects LlamaFlashAttention2 from transformers.
+# Pin to a known-compatible version only when table detection will run.
+if [ "$SKIP_TABLE_DETECTION" = "true" ]; then
+    export REQUIRE_DEEPSEEK_TRANSFORMERS=0
+else
+    export REQUIRE_DEEPSEEK_TRANSFORMERS=1
+    pip install --no-cache-dir transformers==4.46.3 pymupdf pillow > /dev/null 2>&1
+fi
 if [ $? -eq 0 ]; then
-    echo "  ✓ PyMuPDF, Pillow, qwen-vl-utils, and accelerate installed"
+    echo "  ✓ Transformers, PyMuPDF, Pillow"
 else
     echo "  ⚠ Installation had issues (packages may already be installed)"
 fi
 
 python - <<'EOF'
 import sys
+import os
 try:
     import torch
     print(f"  ✓ PyTorch {torch.__version__}")
@@ -204,43 +203,40 @@ try:
         for i in range(num_gpus):
             print(f"    - GPU {i}: {torch.cuda.get_device_name(i)}")
             print(f"      Memory: {torch.cuda.get_device_properties(i).total_memory / 1e9:.1f} GB")
-    
-    import transformers
-    print(f"  ✓ Transformers {transformers.__version__}")
-    
+
     try:
-        import accelerate
-        print(f"  ✓ Accelerate {accelerate.__version__}")
+        from vllm import LLM, SamplingParams
+        import vllm
+        print(f"  ✓ vLLM {vllm.__version__}")
     except ImportError:
-        print(f"  ✗ Accelerate not found - REQUIRED for device_map='auto'")
-        print(f"    Install with: pip install accelerate")
+        print(f"  ✗ vLLM not found - REQUIRED for model inference")
+        print(f"    Install with: pip install vllm")
         sys.exit(1)
-    
+
     from PIL import Image
     print(f"  ✓ Pillow (PIL) installed")
-    
-    try:
-        from qwen_vl_utils import process_vision_info
-        print(f"  ✓ qwen-vl-utils installed")
-    except ImportError:
-        print(f"  ⚠ qwen-vl-utils not found (install with: pip install qwen-vl-utils)")
-    
-    try:
-        from transformers import Qwen2_5_VLForConditionalGeneration
-        print(f"  ✓ Qwen2.5-VL model classes available")
-    except ImportError:
-        print(f"  ⚠ Qwen2.5-VL classes not found (may need newer transformers)")
-    
+
+    import transformers
+    print(f"  ✓ Transformers {transformers.__version__}")
+
+    # DeepSeek OCR compatibility check (only required when table detection runs)
+    if os.environ.get("REQUIRE_DEEPSEEK_TRANSFORMERS") == "1":
+        from transformers.models.llama.modeling_llama import LlamaFlashAttention2
+        print(f"  ✓ LlamaFlashAttention2 available")
+
     # Verify PyMuPDF (fitz) is installed
     import fitz
     print(f"  ✓ PyMuPDF (fitz) {fitz.__version__}")
-    
+
     print("\n✓ All dependencies OK!")
-    
+
 except Exception as e:
     print(f"\n✗ Dependency error: {e}", file=sys.stderr)
     print("Please install missing dependencies in your conda environment:", file=sys.stderr)
-    print("  pip install --no-cache-dir pymupdf pillow transformers accelerate qwen-vl-utils", file=sys.stderr)
+    if os.environ.get("REQUIRE_DEEPSEEK_TRANSFORMERS") == "1":
+        print("  pip install --no-cache-dir transformers==4.46.3 pymupdf pillow vllm", file=sys.stderr)
+    else:
+        print("  pip install --no-cache-dir transformers pymupdf pillow vllm", file=sys.stderr)
     sys.exit(1)
 EOF
 
@@ -258,7 +254,7 @@ echo ""
 
 # Output paths for table detection
 DETECTED_TABLES_DIR="$SCRIPT_DIR/data/detected_tables_test"
-TABLES_JSON="$DETECTED_TABLES_DIR/tables.json"
+TABLES_JSON="$DETECTED_TABLES_DIR/tables_management.json"
 
 if [ "$SKIP_TABLE_DETECTION" = "true" ]; then
     echo "[3/6] Skipping table detection (using existing tables.json)..."
@@ -334,15 +330,44 @@ else
 fi
 
 # ============================================================================
-# UPGRADE TRANSFORMERS FOR VLM (Qwen requires transformers 4.57.5)
+# VLLM TENSOR PARALLEL CONFIGURATION
 # ============================================================================
 
-echo "[4/6] Upgrading transformers for VLM..."
+echo "[4/6] Configuring vLLM tensor parallelism..."
 
-# Upgrade to transformers 4.57.5 for Qwen2.5-VL
-echo "  Installing transformers 4.57.5 for Qwen2.5-VL..."
-pip install --quiet transformers==4.57.5
-echo "  ✓ transformers 4.57.5 installed"
+# Detect number of GPUs for tensor_parallel_size (vLLM reads this at runtime)
+NUM_GPUS=$(python -c "import torch; print(torch.cuda.device_count())" 2>/dev/null || echo "1")
+echo "  Detected $NUM_GPUS GPU(s) — vLLM will use tensor_parallel_size=$NUM_GPUS"
+
+# Optional: limit visible GPUs if you want fewer than allocated
+# export CUDA_VISIBLE_DEVICES=0,1
+
+# Disable NCCL peer-to-peer transfers — required on clusters where PCIe/NVLink P2P
+# is blocked (prevents NCCL from hanging after initialization)
+export NCCL_P2P_DISABLE=1
+export NCCL_IB_DISABLE=1
+
+# Redirect Triton and TorchInductor autotune caches to a persistent location.
+# By default PyTorch uses /tmp or /scratch/<job_id>, which is deleted after each
+# SLURM job. Cached compiled kernels and autotune results from a previous job
+# therefore point to a non-existent path in the next job, causing:
+#   PermissionError: [Errno 13] Permission denied: '/scratch/<old_job_id>'
+export TORCHINDUCTOR_CACHE_DIR="$HOME/.cache/torchinductor"
+export TRITON_CACHE_DIR="$HOME/.cache/triton"
+mkdir -p "$TORCHINDUCTOR_CACHE_DIR" "$TRITON_CACHE_DIR"
+
+# Clear the vLLM AOT compile cache before each run.
+# Compiled artifacts embed the Triton autotune key paths from the original job's
+# /scratch/<job_id> directory. Reusing them in a new job causes:
+#   PermissionError: [Errno 13] Permission denied: '/scratch/<old_job_id>'
+# Deleting the cache forces vLLM to recompile fresh (~60s) with correct paths.
+VLLM_COMPILE_CACHE="$HOME/.cache/vllm/torch_compile_cache"
+if [ -d "$VLLM_COMPILE_CACHE" ]; then
+    echo "  Clearing stale vLLM compile cache: $VLLM_COMPILE_CACHE"
+    rm -rf "$VLLM_COMPILE_CACHE"
+fi
+
+echo "  ✓ vLLM tensor parallel configuration ready"
 echo ""
 
 # ============================================================================
@@ -360,14 +385,14 @@ TEMPERATURE=0.0         # Sampling temperature (0.0 = deterministic, 0.1 = sligh
 
 # Define models and their output directories
 declare -a MODELS=(
-    # "Qwen2.5-VL-7B-Instruct"
-    # "Qwen2.5-VL-32B-Instruct"
+    "Qwen2.5-VL-7B-Instruct"
+    "Qwen2.5-VL-32B-Instruct"
     "Qwen2.5-VL-72B-Instruct"
 )
 
 declare -a OUTPUT_DIRS=(
-    # "$SCRIPT_DIR/data/output/vlm_qwen_7b"
-    # "$SCRIPT_DIR/data/output/vlm_qwen_32b"
+    "$SCRIPT_DIR/data/output/vlm_qwen_7b"
+    "$SCRIPT_DIR/data/output/vlm_qwen_32b"
     "$SCRIPT_DIR/data/output/vlm_qwen_72b"
 )
 

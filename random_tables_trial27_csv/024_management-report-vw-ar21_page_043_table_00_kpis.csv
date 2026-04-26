@@ -1,0 +1,37 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+noncurrent assets,Passenger Cars,Worldwide,133857,2021,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent assets,Passenger Cars,Worldwide,130237,2020,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current assets,Passenger Cars,Worldwide,86362,2021,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current assets,Passenger Cars,Worldwide,83180,2020,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+total assets,Passenger Cars,Worldwide,220218,2021,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+total assets,Passenger Cars,Worldwide,213417,2020,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+equity,Passenger Cars,Worldwide,93894,2021,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+equity,Passenger Cars,Worldwide,81423,2020,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent liabilities,Passenger Cars,Worldwide,80621,2021,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent liabilities,Passenger Cars,Worldwide,82263,2020,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current liabilities,Passenger Cars,Worldwide,45704,2021,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current liabilities,Passenger Cars,Worldwide,49731,2020,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent assets,Commercial Vehicles,Worldwide,34730,2021,€ million,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent assets,Commercial Vehicles,Worldwide,24777,2020,€ million,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current assets,Commercial Vehicles,Worldwide,12264,2021,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current assets,Commercial Vehicles,Worldwide,11256,2020,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+total assets,Commercial Vehicles,Worldwide,46994,2021,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+total assets,Commercial Vehicles,Worldwide,36033,2020,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+equity,Commercial Vehicles,Worldwide,12807,2021,€ million,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+equity,Commercial Vehicles,Worldwide,13389,2020,€ million,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent liabilities,Commercial Vehicles,Worldwide,17778,2021,€ million,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent liabilities,Commercial Vehicles,Worldwide,10592,2020,€ million,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current liabilities,Commercial Vehicles,Worldwide,16409,2021,€ million,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current liabilities,Commercial Vehicles,Worldwide,12052,2020,€ million,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent assets,Power Engineering,Worldwide,1804,2021,€ million,14,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent assets,Power Engineering,Worldwide,1847,2020,€ million,14,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current assets,Power Engineering,Worldwide,2914,2021,€ million,15,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current assets,Power Engineering,Worldwide,2800,2020,€ million,15,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+total assets,Power Engineering,Worldwide,4718,2021,€ million,16,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+total assets,Power Engineering,Worldwide,4647,2020,€ million,16,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+equity,Power Engineering,Worldwide,2322,2021,€ million,17,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+equity,Power Engineering,Worldwide,1922,2020,€ million,17,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent liabilities,Power Engineering,Worldwide,524,2021,€ million,18,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+noncurrent liabilities,Power Engineering,Worldwide,668,2020,€ million,18,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current liabilities,Power Engineering,Worldwide,1872,2021,€ million,19,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json
+current liabilities,Power Engineering,Worldwide,2057,2020,€ million,19,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar21_page_043_table_00_kpis.json

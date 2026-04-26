@@ -1,0 +1,11 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Maximum threshold,Volkswagen Group,Worldwide,8.0,2017,%,0,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+Maximum threshold,Volkswagen Group,Worldwide,8.0,2018,%,0,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+100% level of target,Volkswagen Group,Worldwide,6.0,2017,%,1,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+100% level of target,Volkswagen Group,Worldwide,6.0,2018,%,1,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+Minimum threshold,Volkswagen Group,Worldwide,4.0,2017,%,2,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+Minimum threshold,Volkswagen Group,Worldwide,4.0,2018,%,2,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+Actual,Volkswagen Group,Worldwide,6.0,2017,%,3,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+Actual,Volkswagen Group,Worldwide,5.9,2018,%,3,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+Target achievement,Volkswagen Group,Worldwide,100,2017,%,4,1,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json
+Target achievement,Volkswagen Group,Worldwide,98,2018,%,4,2,Qwen2.5-VL-72B-Instruct,table_01.png,divisions-vw-ar23/management_report_vw_ar18_page_022_table_01_kpis.json

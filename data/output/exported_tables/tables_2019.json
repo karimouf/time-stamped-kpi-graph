@@ -1,6 +1,10 @@
 [
   {
     "table_id": "VW2019_T4e9153",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 3,
+    "bucket": "divisions",
     "section_name": "GROUP STRUCTURE",
     "title": "Volkswagen Group reporting structure",
     "headers": [
@@ -27,10 +31,43 @@
     ],
     "stub_col": [
       "Passenger Cars Business Area Volkswagen Passenger Cars Audi ŠKODA SEAT Bentley Porsche Automotive Volkswagen Commercial Vehicles Other"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P058f0d",
+        "page": 2,
+        "section_name": "DIVISIONS",
+        "section_level": 2,
+        "text": "- Brands and Business Fields - Volkswagen Passenger Cars - Audi - ŠKODA - SEAT - Bentley - Porsche - Volkswagen Commercial Vehicles - TRATON GROUP - Scania - MAN - Volkswagen Group China - Volkswagen Financial Services",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph lists the brands and business fields of the Volkswagen Group, which directly corresponds to the Automotive Division and its associated brands in the table."
+      },
+      {
+        "para_id": "VW2019_P8a8e02",
+        "page": 3,
+        "section_name": "GROUP STRUCTURE",
+        "section_level": 3,
+        "text": "The Volkswagen Group consists of two divisions: the Automotive Division and the Financial Services Division. The Automotive Division comprises the Passenger Cars, Commercial Vehicles and Power Engineering business areas. Activities of the Automotive Division comprise in particular the development of vehicles and engines, the production and sale of passenger cars, light commercial vehicles, trucks, buses and motorcycles, as well as genuine parts, large-bore diesel engines, turbomachinery, special gear units, propulsion components and testing systems businesses. Mobility solutions are gradually being added to the range. The Ducati brand is allocated to the Audi brand and thus to the Passenger Cars Business Area. The activities of the Financial Services Division comprise dealer and customer financing, vehicle leasing, direct banking and insurance activities, fleet management and mobility offerings.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph describes the structure of the Volkswagen Group, detailing the Automotive Division and its business areas, which aligns perfectly with the table content."
+      },
+      {
+        "para_id": "VW2019_P75c537",
+        "page": 4,
+        "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "section_level": 3,
+        "text": "In this chapter, we present the key volume and financial data relating to the Group brands and to Volkswagen Financial Services. In light of the considerable importance of the development of business in the world's largest single market for the Volkswagen Group, we also report on business developments and the results of our activities in China in this chapter.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions Volkswagen Financial Services, which is relevant to the Financial Services Division, but lacks detail on the Automotive Division."
+      }
     ]
   },
   {
     "table_id": "VW2019_T19a389",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 5,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
     "title": "Key Figures by brand and business field",
     "headers": [
@@ -275,10 +312,106 @@
       "Commercial Vehicles Business Area ^7",
       "Power Engineering Business Area",
       "Financial Services Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P75c537",
+        "page": 4,
+        "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "section_level": 3,
+        "text": "In this chapter, we present the key volume and financial data relating to the Group brands and to Volkswagen Financial Services. In light of the considerable importance of the development of business in the world's largest single market for the Volkswagen Group, we also report on business developments and the results of our activities in China in this chapter.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions key volume and financial data relating to the Group brands, which is relevant to the table but does not provide specific figures."
+      },
+      {
+        "para_id": "VW2019_P1d6bb0",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group generated an operating profit before special items of €19.3 (17.1) billion in fiscal year 2019. Special items which resulted from the diesel issue weighed on the operating profit in the amount of €–2.3 (–3.2) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides information about operating profit, which is relevant to the financial performance metrics in the table."
+      },
+      {
+        "para_id": "VW2019_P5798ea",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales by the Volkswagen Group rose to 11.0 (10.9) million vehicles in 2019 – a new record despite a challenging and highly competitive market environment. Sales revenue rose by 7.1% to €252.6 billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses unit sales and sales revenue, which are directly relevant to the data presented in the table."
+      },
+      {
+        "para_id": "VW2019_P1caee2",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "At 4.9 million vehicles, unit sales in the Europe/Other markets region were up 2.5% compared with the previous year. Sales revenue increased to €154.0 (143.1) billion due to volume and mix effects.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides unit sales and sales revenue for a specific region, which relates to the overall vehicle sales and revenue in the table."
+      },
+      {
+        "para_id": "VW2019_Pb9464e",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In North America, we increased unit sales by 3.4% to 1.0 million vehicles. Sales revenue amounted to €43.4 (37.7) billion, primarily due to the increase in volumes as well as positive exchange rate effects.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses unit sales and sales revenue in North America, which is relevant to the table's focus on vehicle sales and revenue."
+      },
+      {
+        "para_id": "VW2019_P30c223",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the markets of the South America region, we sold 0.6 million vehicles in the reporting year. This was 1.9% more than in the previous year. Despite unfavorable exchange rate trends, sales revenue improved by 8.6% to €11.3 billion due to positive mix effects.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides sales figures and revenue for the South America region, which is relevant to the overall sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P62c8d3",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including those of the Chinese joint ventures – amounted to a total of 4.5 (4.6) million vehicles. At €44.0 (43.2) billion, sales revenue exceeded the prior-year level thanks to the improved mix and positive exchange rate effects. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses unit sales and sales revenue in the Asia-Pacific region, which connects to the figures in the table."
+      },
+      {
+        "para_id": "VW2019_Pbbde5a",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 6.3 million (+0.5%) vehicles worldwide in fiscal year 2019. Delivery figures were up in Italy (+8.7%), France (+6.8%), Germany (+5.3%), the USA (+2.6%) and Brazil (+16.7%). The T-Cross, T-Roc, Tiguan, Touareg and Atlas models were particularly popular.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides delivery figures for the Volkswagen Passenger Cars brand, which is relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P4e3230",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.7 (3.7) million vehicles in the reporting year. The difference between deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses vehicle sales for Volkswagen Passenger Cars, which is directly relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P36ccda",
+        "page": 6,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "At €88.4 billion, the Volkswagen Passenger Cars brand's sales revenue in 2019 was 4.5% higher than in the previous year. Operating profit before special items increased to €3.8 (3.2) billion. Particularly improvements in the mix and price positioning compensated for lower sales of the models from Volkswagen Passenger Cars and for launch costs and negative exchange rate effects. The operating return on sales before special items increased to 4.3 (3.8)%. The diesel issue gave rise to special items of €–1.9 (–1.9) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides sales revenue and operating profit for Volkswagen Passenger Cars, which directly relates to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Taf759f",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 5,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY MARKET",
     "title": "Key Figures by market",
     "headers": [
@@ -355,10 +488,97 @@
       "Asia-Pacific ^1",
       "Hedges on sales revenue",
       "Volkswagen Group ^1"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P75c537",
+        "page": 4,
+        "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "section_level": 3,
+        "text": "In this chapter, we present the key volume and financial data relating to the Group brands and to Volkswagen Financial Services. In light of the considerable importance of the development of business in the world's largest single market for the Volkswagen Group, we also report on business developments and the results of our activities in China in this chapter.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses key volume and financial data relating to Group brands, which is relevant to the table's focus on vehicle sales and revenue."
+      },
+      {
+        "para_id": "VW2019_P5798ea",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales by the Volkswagen Group rose to 11.0 (10.9) million vehicles in 2019 – a new record despite a challenging and highly competitive market environment. Sales revenue rose by 7.1% to €252.6 billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides information about unit sales and sales revenue, which directly correlates with the data presented in the table."
+      },
+      {
+        "para_id": "VW2019_P1caee2",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "At 4.9 million vehicles, unit sales in the Europe/Other markets region were up 2.5% compared with the previous year. Sales revenue increased to €154.0 (143.1) billion due to volume and mix effects.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses unit sales and sales revenue for the Europe/Other markets region, which aligns directly with the table's content."
+      },
+      {
+        "para_id": "VW2019_Pb9464e",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In North America, we increased unit sales by 3.4% to 1.0 million vehicles. Sales revenue amounted to €43.4 (37.7) billion, primarily due to the increase in volumes as well as positive exchange rate effects.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides unit sales and sales revenue for North America, which is directly relevant to the table's data."
+      },
+      {
+        "para_id": "VW2019_P30c223",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the markets of the South America region, we sold 0.6 million vehicles in the reporting year. This was 1.9% more than in the previous year. Despite unfavorable exchange rate trends, sales revenue improved by 8.6% to €11.3 billion due to positive mix effects.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses vehicle sales and revenue for South America, which is relevant to the table's focus on regional sales data."
+      },
+      {
+        "para_id": "VW2019_P62c8d3",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including those of the Chinese joint ventures – amounted to a total of 4.5 (4.6) million vehicles. At €44.0 (43.2) billion, sales revenue exceeded the prior-year level thanks to the improved mix and positive exchange rate effects. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides unit sales and sales revenue for the Asia-Pacific region, which is relevant to the table's data."
+      },
+      {
+        "para_id": "VW2019_Pbbde5a",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 6.3 million (+0.5%) vehicles worldwide in fiscal year 2019. Delivery figures were up in Italy (+8.7%), France (+6.8%), Germany (+5.3%), the USA (+2.6%) and Brazil (+16.7%). The T-Cross, T-Roc, Tiguan, Touareg and Atlas models were particularly popular.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides delivery figures for the Volkswagen Passenger Cars brand, which is relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P4e3230",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.7 (3.7) million vehicles in the reporting year. The difference between deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses vehicle sales for Volkswagen Passenger Cars, which is directly relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P36ccda",
+        "page": 6,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "At €88.4 billion, the Volkswagen Passenger Cars brand's sales revenue in 2019 was 4.5% higher than in the previous year. Operating profit before special items increased to €3.8 (3.2) billion. Particularly improvements in the mix and price positioning compensated for lower sales of the models from Volkswagen Passenger Cars and for launch costs and negative exchange rate effects. The operating return on sales before special items increased to 4.3 (3.8)%. The diesel issue gave rise to special items of €–1.9 (–1.9) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides sales revenue and operating profit for Volkswagen Passenger Cars, which directly relates to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T09e057",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 7,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Volkswagen Passenger Cars – Production",
     "headers": [
@@ -532,10 +752,43 @@
       "Suran",
       "ID.3",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P4b3fc0",
+        "page": 6,
+        "section_name": "Volkswagen Passenger Cars",
+        "section_level": 2,
+        "text": "Volkswagen Passenger Cars enters a new era and presents a more modern, more human and more authentic image. The eighth generation of the Golf launches and the all-electric ID.3 celebrates its world premiere.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions the launch of the eighth generation of the Golf, which is relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2019_Pbbde5a",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 6.3 million (+0.5%) vehicles worldwide in fiscal year 2019. Delivery figures were up in Italy (+8.7%), France (+6.8%), Germany (+5.3%), the USA (+2.6%) and Brazil (+16.7%). The T-Cross, T-Roc, Tiguan, Touareg and Atlas models were particularly popular.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for Volkswagen Passenger Cars, which is highly relevant to the unit sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P4e3230",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.7 (3.7) million vehicles in the reporting year. The difference between deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses vehicle sales for Volkswagen Passenger Cars, which is directly relevant to the unit sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T219190",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 7,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
     "title": "Volkswagen Passenger Cars – Key Figures",
     "headers": [
@@ -597,10 +850,43 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pbbde5a",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 6.3 million (+0.5%) vehicles worldwide in fiscal year 2019. Delivery figures were up in Italy (+8.7%), France (+6.8%), Germany (+5.3%), the USA (+2.6%) and Brazil (+16.7%). The T-Cross, T-Roc, Tiguan, Touareg and Atlas models were particularly popular.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for Volkswagen Passenger Cars, which is highly relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2019_P4e3230",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.7 (3.7) million vehicles in the reporting year. The difference between deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses vehicle sales for Volkswagen Passenger Cars, which is directly relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P36ccda",
+        "page": 6,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "At €88.4 billion, the Volkswagen Passenger Cars brand's sales revenue in 2019 was 4.5% higher than in the previous year. Operating profit before special items increased to €3.8 (3.2) billion. Particularly improvements in the mix and price positioning compensated for lower sales of the models from Volkswagen Passenger Cars and for launch costs and negative exchange rate effects. The operating return on sales before special items increased to 4.3 (3.8)%. The diesel issue gave rise to special items of €–1.9 (–1.9) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides sales revenue and operating profit for Volkswagen Passenger Cars, which directly relates to the sales revenue data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T79d8d7",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 9,
+    "bucket": "divisions",
     "section_name": "AUDI PRODUCTION",
     "title": "Audi – Production",
     "headers": [
@@ -774,10 +1060,43 @@
       "",
       "Audi brand",
       "Ducati, motorcycles"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pdb5ea2",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "\"Vorsprung\" is Audi's active brand promise that is delivered throughout the world and that is currently being redefined by the brand with the four rings, as it moves away from the narrow focus on technical feasibility and towards a new approach, where the customer is at the center. In 2019, Audi expanded its vehicle range and celebrated over 20 market launches. The highlight of the year was the market introduction of the Audi e-tron. The all-electric SUV was rolled out in Europe, China and the USA. The vehicle stands out with a high-quality interior and is packed with technological highlights. The all-electric Q2L e-tron debuted on the Chinese market. With concept vehicles such as the e-tron GT concept, Q4 e-tron concept, AI:TRAIL, AI:ME and others, Audi showcased further potential in e-mobility and artificial intelligence. By 2025, Audi plans to bring more than 30 electrified models to market, including 20 with pure electric drive. Audi is thereby following its strategic focus and consistently pursuing sustainable premium mobility. Alongside the electrified models, the vehicles Audi presented in 2019 included the fourth generation of the bestselling A6 and the dynamic RS 7 Sportback.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph highlights Audi's brand promise and the introduction of new models, which is relevant to the overall context of vehicle sales but lacks specific unit sales figures."
+      },
+      {
+        "para_id": "VW2019_P2e9df9",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The difficult market environment and the WLTP test procedure posed challenges for Audi particularly in the first half of 2019. Nevertheless, the Audi brand delivered a total of 1.9 million vehicles to customers (+1.8%). Deliveries rose especially in Western Europe (+4.0%) and China (+4.1%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides total vehicle deliveries for Audi, which is directly relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_Pf2b001",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Audi sold 1.2 (1.5) million vehicles in the reporting year. Unit sales by the Chinese joint venture FAW-Volkswagen amounted to a further 620 (620) thousand Audi vehicles. The Q2, e-tron and Q8 models were in especially high demand. Unit sales at Automobili Lamborghini S.p.A. amounted to 8,290 (6,333) vehicles. The increase was mainly due to high demand for the Urus.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Audi's unit sales, including specific models, which is relevant to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tdd9d71",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 9,
+    "bucket": "divisions",
     "section_name": "AUDI BRAND",
     "title": "Audi – Key Figures",
     "headers": [
@@ -853,10 +1172,43 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pdb5ea2",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "\"Vorsprung\" is Audi's active brand promise that is delivered throughout the world and that is currently being redefined by the brand with the four rings, as it moves away from the narrow focus on technical feasibility and towards a new approach, where the customer is at the center. In 2019, Audi expanded its vehicle range and celebrated over 20 market launches. The highlight of the year was the market introduction of the Audi e-tron. The all-electric SUV was rolled out in Europe, China and the USA. The vehicle stands out with a high-quality interior and is packed with technological highlights. The all-electric Q2L e-tron debuted on the Chinese market. With concept vehicles such as the e-tron GT concept, Q4 e-tron concept, AI:TRAIL, AI:ME and others, Audi showcased further potential in e-mobility and artificial intelligence. By 2025, Audi plans to bring more than 30 electrified models to market, including 20 with pure electric drive. Audi is thereby following its strategic focus and consistently pursuing sustainable premium mobility. Alongside the electrified models, the vehicles Audi presented in 2019 included the fourth generation of the bestselling A6 and the dynamic RS 7 Sportback.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph highlights Audi's brand promise and the introduction of new models, which is relevant to the overall context of vehicle sales but lacks specific unit sales figures."
+      },
+      {
+        "para_id": "VW2019_P2e9df9",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The difficult market environment and the WLTP test procedure posed challenges for Audi particularly in the first half of 2019. Nevertheless, the Audi brand delivered a total of 1.9 million vehicles to customers (+1.8%). Deliveries rose especially in Western Europe (+4.0%) and China (+4.1%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides total vehicle deliveries for Audi, which is directly relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2019_Pf2b001",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Audi sold 1.2 (1.5) million vehicles in the reporting year. Unit sales by the Chinese joint venture FAW-Volkswagen amounted to a further 620 (620) thousand Audi vehicles. The Q2, e-tron and Q8 models were in especially high demand. Unit sales at Automobili Lamborghini S.p.A. amounted to 8,290 (6,333) vehicles. The increase was mainly due to high demand for the Urus.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Audi's unit sales, including specific models, which is relevant to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T321e09",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 11,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Škoda – Production",
     "headers": [
@@ -922,10 +1274,43 @@
       "Superb",
       "Citigo",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P9f7a74",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA models are synonymous with smart understatement, featuring a superior spacious interior, the highest standards of functionality, excellent value for money and a distinct design. Added to that are a number of \"Simply Clever\" ideas and new digital services, all aimed at making customers' lives easier. ŠKODA presented the CNG-powered Scala G-Tec and Kamiq G-Tec in 2019, expanding the range of particularly environmentally conscious and efficient natural gas models. ŠKODA also presented the successor to the successful Octavia, and the Kamiq city SUV for the European market. In addition, ŠKODA entered the era of e-mobility in 2019. For the future, ŠKODA is combining the establishment of its electric product family and an integrated networked ecosystem for mobility solutions under the iV sub-brand. The ŠKODA Citigoe iV is the Czech brand's first allelectric vehicle. Another electric car also celebrated its debut in 2019: the Superbe iV is ŠKODA'S first production model with plug-in hybrid drive. ŠKODA gave a foretaste of this in the reporting year with the presentation of the all-electric Vision iV concept study. With a sporty, emotive design, this is the first vehicle from ŠKODA to be based on the Modular Electric Drive Toolkit (MEB).",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph describes ŠKODA's models and features, including the Octavia, which is relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P7d5cca",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 1.2 (1.3) million vehicles worldwide in 2019. China remained the largest individual market. However, deliveries there fell by 17.3%. Meanwhile, in Western Europe (+7.0%) and in Central and Eastern Europe (+4.1%), an increase in deliveries was achieved.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for ŠKODA, which is directly relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2019_P5aa263",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 1.1 (1.0) million vehicles in the reporting period. The gain was due particularly to the initial consolidation following the assumption of regional responsibility for India. The Karoq and Kodiaq models were in particularly high demand. The difference between figures for deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses ŠKODA's unit sales and mentions specific models, which is relevant to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tea5293",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 11,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "Škoda – Key Figures",
     "headers": [
@@ -987,10 +1372,52 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P9f7a74",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA models are synonymous with smart understatement, featuring a superior spacious interior, the highest standards of functionality, excellent value for money and a distinct design. Added to that are a number of \"Simply Clever\" ideas and new digital services, all aimed at making customers' lives easier. ŠKODA presented the CNG-powered Scala G-Tec and Kamiq G-Tec in 2019, expanding the range of particularly environmentally conscious and efficient natural gas models. ŠKODA also presented the successor to the successful Octavia, and the Kamiq city SUV for the European market. In addition, ŠKODA entered the era of e-mobility in 2019. For the future, ŠKODA is combining the establishment of its electric product family and an integrated networked ecosystem for mobility solutions under the iV sub-brand. The ŠKODA Citigoe iV is the Czech brand's first allelectric vehicle. Another electric car also celebrated its debut in 2019: the Superbe iV is ŠKODA'S first production model with plug-in hybrid drive. ŠKODA gave a foretaste of this in the reporting year with the presentation of the all-electric Vision iV concept study. With a sporty, emotive design, this is the first vehicle from ŠKODA to be based on the Modular Electric Drive Toolkit (MEB).",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph describes ŠKODA's models and features, which is relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P7d5cca",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 1.2 (1.3) million vehicles worldwide in 2019. China remained the largest individual market. However, deliveries there fell by 17.3%. Meanwhile, in Western Europe (+7.0%) and in Central and Eastern Europe (+4.1%), an increase in deliveries was achieved.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for ŠKODA, which is directly relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2019_P5aa263",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 1.1 (1.0) million vehicles in the reporting period. The gain was due particularly to the initial consolidation following the assumption of regional responsibility for India. The Karoq and Kodiaq models were in particularly high demand. The difference between figures for deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses ŠKODA's unit sales and mentions specific models, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_P0a935d",
+        "page": 10,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Sales revenue at the ŠKODA brand increased by 14.5% in 2019 to €19.8 billion, particularly due to initial consolidation following the assumption of regional responsibility for India. The operating profit improved by €0.3 billion to €1.7 billion in the reporting period. Volume increases, mix optimizations and pricing measures more than compensated for negative effects resulting from cost increases and higher upfront expenditure for new products. The operating return on sales stood at 8.4%, compared to 8.0% in the previous year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses ŠKODA's sales revenue and operating results, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tb40d92",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 13,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "SEAT – Production",
     "headers": [
@@ -1062,10 +1489,43 @@
       "Mii",
       "Toledo",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P7ab3f6",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT delivers solutions \"Created in Barcelona\" to make mobility easy. At SEAT, the year 2019 was all about the electrification of the model range: the Spanish brand brought its first all-electric production model, the Mii electric, onto the market in the reporting period. Powered by a 61 kW (83 PS) electric motor, the model is ideally suited to city traffic with its dynamic performance and fresh design. The battery has a range of up to 260 km. SEAT gave a foretaste of another all-electric vehicle with its el-Born concept car. Based on the Modular Electric Drive Toolkit, this model impresses with a generous interior, offering both practicality and functionality, as well as a range of up to 420 km. The Tarraco FR, also presented in 2019, is the most powerful vehicle in the model range with a modern powertrain comprising a 1.4 TSI petrol engine producing 110 kW (150 PS) and an 85 kW (115 PS) electric motor. The system's total output is 180 kW (245 PS). The body exudes confidence and is truly dynamic thanks to wider wheel housings, a sporty rear spoiler, a front FR radiator grille and 19-inch alloy wheels. The company's CUPRA brand presented the Formentor, the first model specially developed for the brand, which is due to launch on the market in 2020. CUPRA also presented the Tavascan, its vision of an allelectric SUV coupé. This concept car combines state-of-the-art drive technology with the elegant, sporty and expressive design of a four-door crossover SUV.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses SEAT's electrification efforts and mentions the Mii electric, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P489ed2",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The SEAT brand's deliveries to customers rose by 10.9% in fiscal year 2019 to 574 thousand vehicles. Almost all markets contributed to this rise, with the brand achieving the most significant increases in Italy (+30.8%), France (+19.0%), Germany (+16.1%) and the United Kingdom (+9.5%). The company's CUPRA brand recorded an increase of 71.8% to 25 thousand vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides SEAT's deliveries to customers, which is relevant to the overall sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P699fdb",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "At 667 thousand units, the SEAT brand's sales in the reporting period were up by 9.8% on the prior-year figure. This figure includes the A1 manufactured for Audi. The A-SUV models Arona and Ateca were in high demand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses SEAT's sales figures, which includes the A1 manufactured for Audi, relevant to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T25ff48",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 13,
+    "bucket": "divisions",
     "section_name": "SEAT BRAND",
     "title": "SEAT – Key Figures",
     "headers": [
@@ -1127,10 +1587,61 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P7ab3f6",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT delivers solutions \"Created in Barcelona\" to make mobility easy. At SEAT, the year 2019 was all about the electrification of the model range: the Spanish brand brought its first all-electric production model, the Mii electric, onto the market in the reporting period. Powered by a 61 kW (83 PS) electric motor, the model is ideally suited to city traffic with its dynamic performance and fresh design. The battery has a range of up to 260 km. SEAT gave a foretaste of another all-electric vehicle with its el-Born concept car. Based on the Modular Electric Drive Toolkit, this model impresses with a generous interior, offering both practicality and functionality, as well as a range of up to 420 km. The Tarraco FR, also presented in 2019, is the most powerful vehicle in the model range with a modern powertrain comprising a 1.4 TSI petrol engine producing 110 kW (150 PS) and an 85 kW (115 PS) electric motor. The system's total output is 180 kW (245 PS). The body exudes confidence and is truly dynamic thanks to wider wheel housings, a sporty rear spoiler, a front FR radiator grille and 19-inch alloy wheels. The company's CUPRA brand presented the Formentor, the first model specially developed for the brand, which is due to launch on the market in 2020. CUPRA also presented the Tavascan, its vision of an allelectric SUV coupé. This concept car combines state-of-the-art drive technology with the elegant, sporty and expressive design of a four-door crossover SUV.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses SEAT's electrification efforts and mentions the Mii electric, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P489ed2",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The SEAT brand's deliveries to customers rose by 10.9% in fiscal year 2019 to 574 thousand vehicles. Almost all markets contributed to this rise, with the brand achieving the most significant increases in Italy (+30.8%), France (+19.0%), Germany (+16.1%) and the United Kingdom (+9.5%). The company's CUPRA brand recorded an increase of 71.8% to 25 thousand vehicles.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides SEAT's deliveries to customers, which is directly relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2019_P699fdb",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "At 667 thousand units, the SEAT brand's sales in the reporting period were up by 9.8% on the prior-year figure. This figure includes the A1 manufactured for Audi. The A-SUV models Arona and Ateca were in high demand.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses SEAT's vehicle sales figures, which is directly relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P4727e9",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT manufactured 592 thousand vehicles during the past fiscal year, an increase of 12.1% on 2018.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses SEAT's production figures, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P96d958",
+        "page": 12,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "SEAT continued its upward trend in the reporting year: sales revenue amounted to €11.5 billion, exceeding the previous year's record figure by 12.7%. Operating profit rose to €445 (254) million, which was also a new record. Particularly volume and mix effects had a positive impact. The SEAT brand's operating return on sales increased to 3.9 (2.5)%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses SEAT's sales revenue and operating profit, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T370dd7",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 15,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Bentley – Production",
     "headers": [
@@ -1184,10 +1695,70 @@
       "Flying Spur",
       "Continental GT Convertible",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pae0242",
+        "page": 14,
+        "section_name": "Bentley",
+        "section_level": 2,
+        "text": "Bentley celebrated a special occasion in 2019: the brand's 100th anniversary. The record deliveries achieved in the anniversary year were partly attributable to the popularity of the Bentayga.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Bentley's 100th anniversary and mentions record deliveries, which is relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_Pd7b9fe",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Bentley brand is defined by exclusivity, elegance and power. For Bentley, 2019 was all about the brand's 100th anniversary. Bentley celebrated this special occasion with a range of special models, including the Continental GT Number 9 Edition by Mulliner, of which only 100 vehicles were produced. Bentley also debuted the 467 kW (635 PS) powerful Continental GT Convertible in 2019, which sprints from 0 to 100 km/h in just 3.8 seconds. Furthermore the Bentley brand also presented the new generation of the Flying Spur. This luxurious grand tourer has been completely revamped and sets new standards in innovation, connectivity, comfort and driving pleasure. It impresses with both the maneuverability of a sports saloon and the finesse of a luxury vehicle. The Flying Spur is the first Bentley model to come with electronic all-wheel steering, which combined with the active all-wheel drive and the Bentley Dynamic Ride system provides for an agile handling and driving experience. The Bentayga range was very popular with customers in the reporting year. The 467 kW (635 PS) Bentayga Speed and a Bentayga hybrid were added in 2019. With combined CO2 emissions of just 75 g/km, the hybrid is making a powerful statement about efficiency in the luxury segment.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides information about Bentley's new models and deliveries, which is relevant to the context of the table."
+      },
+      {
+        "para_id": "VW2019_P39f486",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Sales by the Bentley brand in 2019 increased to 11,006 (10,494) vehicles, thereby hitting a new record. Bentley recorded increased deliveries in almost all markets. However, there was a decline of 9.4% in Asia-Pacific.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Bentley's sales figures, which is relevant to the overall sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P1c5fe2",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley sold 11,631 (9,559) vehicles globally in the reporting year. The increase was primarily due to the availability of the new Continental GT and GTC models and the popularity of the Bentayga.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides Bentley's sales figures, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_Pa548d1",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2019, the Bentley brand manufactured 12,430 vehicles. This was an increase of 36.4% year-onyear.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Bentley's production figures, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P370804",
+        "page": 14,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Bentley brand generated sales revenue of €2.1 billion in 2019, exceeding the equivalent prior-year figure by 35.1%. Operating profit increased to €65 (–288) million driven by higher volumes, as well as by cost savings in connection with the ongoing efficiency program together with mix effects and exchange rate trends. The operating return on sales rose to 3.1 (–18.6)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Bentley's sales revenue and operating profit, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T7b0ff5",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 15,
+    "bucket": "divisions",
     "section_name": "BENTLEY BRAND",
     "title": "Bentley – Key Figures",
     "headers": [
@@ -1249,10 +1820,70 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pae0242",
+        "page": 14,
+        "section_name": "Bentley",
+        "section_level": 2,
+        "text": "Bentley celebrated a special occasion in 2019: the brand's 100th anniversary. The record deliveries achieved in the anniversary year were partly attributable to the popularity of the Bentayga.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Bentley's 100th anniversary and mentions record deliveries, which is relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_Pd7b9fe",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Bentley brand is defined by exclusivity, elegance and power. For Bentley, 2019 was all about the brand's 100th anniversary. Bentley celebrated this special occasion with a range of special models, including the Continental GT Number 9 Edition by Mulliner, of which only 100 vehicles were produced. Bentley also debuted the 467 kW (635 PS) powerful Continental GT Convertible in 2019, which sprints from 0 to 100 km/h in just 3.8 seconds. Furthermore the Bentley brand also presented the new generation of the Flying Spur. This luxurious grand tourer has been completely revamped and sets new standards in innovation, connectivity, comfort and driving pleasure. It impresses with both the maneuverability of a sports saloon and the finesse of a luxury vehicle. The Flying Spur is the first Bentley model to come with electronic all-wheel steering, which combined with the active all-wheel drive and the Bentley Dynamic Ride system provides for an agile handling and driving experience. The Bentayga range was very popular with customers in the reporting year. The 467 kW (635 PS) Bentayga Speed and a Bentayga hybrid were added in 2019. With combined CO2 emissions of just 75 g/km, the hybrid is making a powerful statement about efficiency in the luxury segment.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides information about Bentley's new models and deliveries, which is relevant to the context of the table."
+      },
+      {
+        "para_id": "VW2019_P39f486",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Sales by the Bentley brand in 2019 increased to 11,006 (10,494) vehicles, thereby hitting a new record. Bentley recorded increased deliveries in almost all markets. However, there was a decline of 9.4% in Asia-Pacific.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses Bentley's sales figures, which is directly relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2019_P1c5fe2",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley sold 11,631 (9,559) vehicles globally in the reporting year. The increase was primarily due to the availability of the new Continental GT and GTC models and the popularity of the Bentayga.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides Bentley's sales figures and the increase due to new models, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_Pa548d1",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2019, the Bentley brand manufactured 12,430 vehicles. This was an increase of 36.4% year-onyear.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Bentley's production figures, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P370804",
+        "page": 14,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Bentley brand generated sales revenue of €2.1 billion in 2019, exceeding the equivalent prior-year figure by 35.1%. Operating profit increased to €65 (–288) million driven by higher volumes, as well as by cost savings in connection with the ongoing efficiency program together with mix effects and exchange rate trends. The operating return on sales rose to 3.1 (–18.6)%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses Bentley's sales revenue and operating profit, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T704982",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 17,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Porsche – Production",
     "headers": [
@@ -1300,10 +1931,70 @@
       "Panamera",
       "Taycan",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pf4ef76",
+        "page": 16,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "Porsche is electrifying – the all-electric Taycan marks the beginning of a new era for the sports car manufacturer. With the new 911 Cabriolet, Porsche is celebrating open-top driving.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Taycan, Porsche's all-electric model, marking a significant development for the brand, which is relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_Pc3d7a5",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Exclusivity and social acceptance, innovation and tradition, performance and everyday usability, design and functionality – these are the brand values of sports car manufacturer Porsche. The highlight in fiscal year 2019 was the presentation of the Taycan. With a spectacular world premiere taking place simultaneously on three continents, Porsche presented its first all-electric sports car to the audience. The four-door sports saloon impressively combines typical Porsche performance and connectivity with everyday usability and is setting new benchmarks for sustainability and digitalization. The vehicle is produced carbon-neutrally in Zuffenhausen. The Taycan Turbo S, Taycan Turbo and Taycan 4S models in the new series are at the cutting edge of Porsche E-Performance and are among the sports car manufacturer's most powerful production models. The Taycan's top version Turbo S can generate up to 560 kW (761 PS). It accelerates from 0 to 100 km/h in just 2.8 seconds and has a range of up to 412 km. Porsche also presented the new 911 Cabriolet in 2019, continuing the tradition of open-top driving. The 331 kW (450 PS) twin-turbo engine delivers top speeds of over 300 km/h, and acceleration of 0 to 100 km/h in less than 4 seconds. There was a new member of the Cayenne range in 2019: the Cayenne Coupé. The new derivative includes all the technical highlights of the third Cayenne generation, but is more progressive, more athletic and more emotional thanks to its custom design elements with a roof line that falls away more dramatically to the rear. Other new products comprised the 718 Touring versions of the Boxster and Cayman as well as the Macan S and the Macan Turbo.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph highlights Porsche's brand values and the launch of the Taycan, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P503ca3",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche increased its deliveries to customers by 9.6% in fiscal year 2019 to 281 thousand sports cars. China, where Porsche sold 87 thousand vehicles (+8.3%), remained the largest individual market. Deliveries rose by 15.2% in Europe and 6.5% in North America.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Porsche's increased deliveries, which is relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_Pcd44bd",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche's unit sales amounted to 277 thousand vehicles in 2019. This was 9.6% more than in the previous year. The Macan and Cayenne models in particular achieved considerable growth.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides Porsche's unit sales figures, which are relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_P2c3860",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche produced 274 thousand vehicles in the reporting year, an increase by 2.2% year-on-year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Porsche's production figures, which are relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_Pb3a150",
+        "page": 16,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Porsche Automotive's sales revenue rose by 10.1% to €26.1 (23.7) billion in fiscal year 2019. Operating profit before special items improved by 2.4% year-on-year to €4.2 billion. Volume and mix improvements and product cost optimization compensated for negative exchange rate effects and cost increases. The operating return on sales before special items was 16.2 (17.4)%. The diesel issue gave rise to special items of €–0.5 billion in the reporting period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Porsche's sales revenue and operating profit, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Ta58de3",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 17,
+    "bucket": "divisions",
     "section_name": "PORSCHE AUTOMOTIVE 1",
     "title": "Porsche1 – Key Figures",
     "headers": [
@@ -1365,10 +2056,70 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pf4ef76",
+        "page": 16,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "Porsche is electrifying – the all-electric Taycan marks the beginning of a new era for the sports car manufacturer. With the new 911 Cabriolet, Porsche is celebrating open-top driving.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Taycan, Porsche's all-electric model, marking a significant development for the brand, which is relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_Pc3d7a5",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Exclusivity and social acceptance, innovation and tradition, performance and everyday usability, design and functionality – these are the brand values of sports car manufacturer Porsche. The highlight in fiscal year 2019 was the presentation of the Taycan. With a spectacular world premiere taking place simultaneously on three continents, Porsche presented its first all-electric sports car to the audience. The four-door sports saloon impressively combines typical Porsche performance and connectivity with everyday usability and is setting new benchmarks for sustainability and digitalization. The vehicle is produced carbon-neutrally in Zuffenhausen. The Taycan Turbo S, Taycan Turbo and Taycan 4S models in the new series are at the cutting edge of Porsche E-Performance and are among the sports car manufacturer's most powerful production models. The Taycan's top version Turbo S can generate up to 560 kW (761 PS). It accelerates from 0 to 100 km/h in just 2.8 seconds and has a range of up to 412 km. Porsche also presented the new 911 Cabriolet in 2019, continuing the tradition of open-top driving. The 331 kW (450 PS) twin-turbo engine delivers top speeds of over 300 km/h, and acceleration of 0 to 100 km/h in less than 4 seconds. There was a new member of the Cayenne range in 2019: the Cayenne Coupé. The new derivative includes all the technical highlights of the third Cayenne generation, but is more progressive, more athletic and more emotional thanks to its custom design elements with a roof line that falls away more dramatically to the rear. Other new products comprised the 718 Touring versions of the Boxster and Cayman as well as the Macan S and the Macan Turbo.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph highlights Porsche's brand values and the launch of the Taycan, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P503ca3",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche increased its deliveries to customers by 9.6% in fiscal year 2019 to 281 thousand sports cars. China, where Porsche sold 87 thousand vehicles (+8.3%), remained the largest individual market. Deliveries rose by 15.2% in Europe and 6.5% in North America.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Porsche's increased deliveries, which is relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2019_Pcd44bd",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche's unit sales amounted to 277 thousand vehicles in 2019. This was 9.6% more than in the previous year. The Macan and Cayenne models in particular achieved considerable growth.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides Porsche's unit sales figures, which are relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_P2c3860",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche produced 274 thousand vehicles in the reporting year, an increase by 2.2% year-on-year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Porsche's production figures, which are relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_Pb3a150",
+        "page": 16,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Porsche Automotive's sales revenue rose by 10.1% to €26.1 (23.7) billion in fiscal year 2019. Operating profit before special items improved by 2.4% year-on-year to €4.2 billion. Volume and mix improvements and product cost optimization compensated for negative exchange rate effects and cost increases. The operating return on sales before special items was 16.2 (17.4)%. The diesel issue gave rise to special items of €–0.5 billion in the reporting period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Porsche's sales revenue and operating profit, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tb49406",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 19,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Volkswagen Commercial Vehicles – Production",
     "headers": [
@@ -1428,10 +2179,34 @@
       "Amarok",
       "Caddy",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P5126dc",
+        "page": 18,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "The Transporter 6.1 – a technically redesigned version of the bestselling van – was launched on the market in 2019. Volkswagen Commercial Vehicles will be the Group's leading brand for autonomous driving.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the launch of the Transporter 6.1, which is relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P439a5a",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the reporting year, Volkswagen Commercial Vehicles introduced its extensive technically redesigned bestselling van, the Multivan/Transporter 6.1. Thanks to the switch from hydraulic to electro-mechanical power steering, the Transporter now has an extended range of driver assist systems, which significantly increase safety and comfort. The new assist systems include technologies such as Lane Assist, Park Assist and Trailer Assist. In addition, the vehicle has been tailored to the requirements of the digital world: now available as an option is the third generation of the Modular Infotainment Toolkit, which enables the use of new applications and online services with an integrated SIM card. The popular Campervan California has also been upgraded. Like its predecessor, the California 6.1 is available in three equipment versions: Beach, Coast and Ocean.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the features of the Multivan/Transporter 6.1, relevant to the context of vehicle sales."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tb99596",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 19,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
     "title": "Volkswagen Commercial Vehicles – Key Figures",
     "headers": [
@@ -1493,10 +2268,70 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P5126dc",
+        "page": 18,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "The Transporter 6.1 – a technically redesigned version of the bestselling van – was launched on the market in 2019. Volkswagen Commercial Vehicles will be the Group's leading brand for autonomous driving.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Transporter 6.1, which is relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P439a5a",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the reporting year, Volkswagen Commercial Vehicles introduced its extensive technically redesigned bestselling van, the Multivan/Transporter 6.1. Thanks to the switch from hydraulic to electro-mechanical power steering, the Transporter now has an extended range of driver assist systems, which significantly increase safety and comfort. The new assist systems include technologies such as Lane Assist, Park Assist and Trailer Assist. In addition, the vehicle has been tailored to the requirements of the digital world: now available as an option is the third generation of the Modular Infotainment Toolkit, which enables the use of new applications and online services with an integrated SIM card. The popular Campervan California has also been upgraded. Like its predecessor, the California 6.1 is available in three equipment versions: Beach, Coast and Ocean.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the features of the Multivan/Transporter 6.1, relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P345e78",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by Volkswagen Commercial Vehicles in fiscal year 2019 stood at 492 thousand units and were slightly down on the previous year (–1.6%). While sales in Europe increased by 1.4%, they declined in South America by 14.5%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses deliveries by Volkswagen Commercial Vehicles, which directly relates to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2019_P10aea8",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales fell by 2.8% to 456 thousand vehicles in the reporting year. Increases were recorded for the Crafter.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses unit sales for Volkswagen Commercial Vehicles, relevant to the context of the table."
+      },
+      {
+        "para_id": "VW2019_Pcaad7c",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Commercial Vehicles brand produced 477 thousand vehicles in the reporting period. This was 8.0% less than in the previous year. The decline was due to the model change in the T series and the WLTP test procedure applicable to light commercial vehicles since September 1, 2019. The two millionth Caddy rolled off the assembly line at Volkswagen Poznan in March. The main plant in Hanover celebrated a special anniversary in 2019: the ten millionth vehicle rolled off its assembly line in early March. The Hanover plant began producing the T series in 1956.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses production figures for Volkswagen Commercial Vehicles, relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P1c3b51",
+        "page": 18,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Sales revenue by Volkswagen Commercial Vehicles in 2019 was almost on a level with the previous year, at €11.5 (11.9) billion. In particular, increased fixed and development costs for new products reduced operating profit to €510 (780) million. Improved product costs had a positive effect. The operating return on sales amounted to 4.4(6.6)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sales revenue for Volkswagen Commercial Vehicles, which is relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T46a605",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 21,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "TRATON – Production",
     "headers": [
@@ -1538,10 +2373,15 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Tf791b0",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 21,
+    "bucket": "divisions",
     "section_name": "DELIVERIES",
     "title": "TRATON – Deliveries",
     "headers": [
@@ -1583,10 +2423,34 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P391617",
+        "page": 20,
+        "section_name": "TRATON GROUP",
+        "section_level": 2,
+        "text": "In 2019, the TRATON GROUP consistently pursued its goal of becoming a global champion of the commercial vehicle industry. In addition to the IPO, sales successes and strategic partnerships contributed to this.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses TRATON GROUP's goals in the commercial vehicle industry, which is relevant to the context of the table."
+      },
+      {
+        "para_id": "VW2019_Pc0c5a1",
+        "page": 20,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "With its MAN, Scania, Volkswagen Caminhões e Ônibus and RIO brands, TRATON SE aims to become a global champion of the commercial vehicle industry and drive the transformation of the logistics sector. Its mission is to reinvent transport for future generations: \"Transforming Transportation\".",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions TRATON SE and its brands, which is relevant to the commercial vehicle context but lacks specific sales data."
+      }
     ]
   },
   {
     "table_id": "VW2019_Ta8e5fa",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Scania – Production",
     "headers": [
@@ -1622,10 +2486,15 @@
       "Trucks",
       "Buses",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T407d3b",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "SCANIA VEHICLES AND SERVICES 1",
     "title": "Scania1 – Key Figures",
     "headers": [
@@ -1694,10 +2563,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P44913d",
+        "page": 22,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Incoming orders at the Scania brand fell by 8.2% year-on-year to 89 thousand vehicles due to a cooling down the market for trucks in Europe during the course of the year in 2019. In 2019, the Scania brand increased its deliveries to 99 (96) thousand vehicles worldwide. Scania recorded increases especially in Europe and Brazil. The number of buses delivered in 2019 stood at 8 (8) thousand units. Demand for services and replacement parts as well as for Scania Financial Services was again higher in the reporting period than in the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Scania's deliveries and market performance, which is relevant to the overall context of commercial vehicle sales."
+      },
+      {
+        "para_id": "VW2019_Pf02751",
+        "page": 22,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Scania manufactured 97 (101) thousand commercial vehicles in fiscal year 2019, of which 8 (9) thousand were buses. The successful introduction of the new generation of Scania trucks in Latin America and Asia completed the changeover of production to the new series.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Scania's production figures, which is relevant to the overall context of commercial vehicle sales."
+      },
+      {
+        "para_id": "VW2019_Pfb6682",
+        "page": 22,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Scania Vehicles and Services generated sales revenue of €13.9 (13.0) billion in fiscal year 2019. Operating profit increased by 24.8% to €1.5 billion. In addition to higher vehicles sales and a stronger genuine parts and service business, improvements in the mix as well as exchange rate effects had a positive impact on profit. The operating return on sales amounted to 10.8 (9.3)% in the reporting period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Scania's sales revenue and operating profit, which is relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T0c2e70",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 25,
+    "bucket": "divisions",
     "section_name": "MAN PRODUCTION",
     "title": "MAN – Production",
     "headers": [
@@ -1739,10 +2641,43 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P8ca27d",
+        "page": 24,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Due to the slowing European market for trucks in 2019, incoming orders at MAN fell by 5.3% in the reporting year to 139 thousand vehicles. A total of 143 (137) thousand commercial vehicles were delivered to customers, of which 14 (14) thousand were buses. In South America, MAN Commercial Vehicles recorded rising demand with its Volkswagen Caminhões e Ônibus brand as a result of the further improving economic environment in Brazil.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses incoming orders and deliveries for MAN, which is directly relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_P28504a",
+        "page": 24,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2019, MAN produced a total of 141 (138) thousand commercial vehicles, including 14 (14) thousand buses.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses MAN's production figures, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P07fec1",
+        "page": 24,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Driven by higher volumes, sales revenue at MAN Commercial Vehicles climbed to €12.7 billion in 2019, exceeding the prior-year figure by 4.6%. Operating profit was up on the prior-year period at €402 (332) million, which was negatively impacted by expenses incurred in connection with the restructuring of activities in India. The operating return on sales was 3.2 (2.7)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses MAN's sales revenue and operating profit, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T8054e8",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 25,
+    "bucket": "divisions",
     "section_name": "MAN COMMERCIAL VEHICLES",
     "title": "MAN – Key Figures",
     "headers": [
@@ -1811,10 +2746,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P8ca27d",
+        "page": 24,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Due to the slowing European market for trucks in 2019, incoming orders at MAN fell by 5.3% in the reporting year to 139 thousand vehicles. A total of 143 (137) thousand commercial vehicles were delivered to customers, of which 14 (14) thousand were buses. In South America, MAN Commercial Vehicles recorded rising demand with its Volkswagen Caminhões e Ônibus brand as a result of the further improving economic environment in Brazil.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses incoming orders and deliveries for MAN, which is directly relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_P28504a",
+        "page": 24,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2019, MAN produced a total of 141 (138) thousand commercial vehicles, including 14 (14) thousand buses.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses MAN's production figures, which is relevant to the overall context of vehicle sales."
+      },
+      {
+        "para_id": "VW2019_P07fec1",
+        "page": 24,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Driven by higher volumes, sales revenue at MAN Commercial Vehicles climbed to €12.7 billion in 2019, exceeding the prior-year figure by 4.6%. Operating profit was up on the prior-year period at €402 (332) million, which was negatively impacted by expenses incurred in connection with the restructuring of activities in India. The operating return on sales was 3.2 (2.7)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses MAN's sales revenue and operating profit, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T3472c2",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "Deliveries",
     "title": "Volkswagen Group in China – Key Figures",
     "headers": [
@@ -1855,10 +2823,15 @@
       "Deliveries",
       "Vehicle sales ^1",
       "Production"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T9a207c",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "EARNINGS",
     "title": "Volkswagen Group in China – Earnings",
     "headers": [
@@ -1888,10 +2861,15 @@
     "stub_col": [
       "Operating result (100%)",
       "Operating result (proportionate)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Te58374",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "LOCAL PRODUCTION",
     "title": "Volkswagen Group in China – Local Production",
     "headers": [
@@ -1933,10 +2911,15 @@
       "Audi",
       "ŠKODA",
       "Total"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T43218a",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 30,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
     "title": "Volkswagen Financial Services – Key Figures",
     "headers": [
@@ -2110,10 +3093,34 @@
       "Operating result",
       "Earnings before tax",
       "Employees at Dec. 31"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P6b1575",
+        "page": 30,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The number of new financing, leasing, service and insurance contracts signed in fiscal year 2019 was 8.5 million, making it 5.7% higher than in the previous year. As of December 31, 2019, the total number of contracts was 21.5 million, up 5.9% from the year before. The number of contracts in the Customer Financing/Leasing area rose by 4.4% to 11.2 million. There were 10.3 million contracts in the Service/Insurance area, 7.7% more than in the previous year. With credit eligibility criteria remaining unchanged, the penetration rate, expressed as the ratio of financed or leased vehicles to relevant Group delivery volumes – including the Chinese joint ventures – was steady at 34.2 (33.9)%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides specific figures on the number of contracts signed, which is directly relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2019_P0e3e25",
+        "page": 30,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The sales revenue of Volkswagen Financial Services in the reporting year amounted to €38.0 billion, an increase of 15.8% on the previous year. The operating result rose by 13.3% and hit a new record of €3.0 billion. The increase was mainly attributable to business growth.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses sales revenue and operating results, which directly relate to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tc7190f",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 6,
+    "bucket": "management_report",
     "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
     "title": "Strategic KPIS – Competitive profitability",
     "headers": [
@@ -2167,10 +3174,79 @@
       "Payout ratio",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P05f62c",
+        "page": 6,
+        "section_name": "Target dimension: competitive profitability",
+        "section_level": 4,
+        "text": "Investors judge us by whether we are able to meet our obligations as regards interest payments and debt repayments. As equity holders, they expect appropriate dividends and a long-term increase in the value of their shares.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses investor expectations regarding dividends and share value, which relate to financial performance."
+      },
+      {
+        "para_id": "VW2019_Pcb83ec",
+        "page": 6,
+        "section_name": "Target dimension: competitive profitability",
+        "section_level": 4,
+        "text": "We make investments with a view to achieving profitable growth and strengthening our competitiveness, thus keeping the Volkswagen Group on a firm footing in the future and ensuring it remains an attractive investment option.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Focuses on investments aimed at achieving profitable growth, which is directly relevant to financial performance."
+      },
+      {
+        "para_id": "VW2019_P08a41c",
+        "page": 6,
+        "section_name": "Target dimension: competitive profitability",
+        "section_level": 4,
+        "text": "The strategic KPIs are operationalized for internal management purposes: target and actual data are derived from Volkswagen Group figures.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses operationalizing KPIs for internal management, which can relate to financial performance."
+      },
+      {
+        "para_id": "VW2019_Pd74fe4",
+        "page": 7,
+        "section_name": "Internal Management System and Key Performance Indicators",
+        "section_level": 1,
+        "text": "The Volkswagen Group's performance and success can be measured by both financial and nonfinancial key performance indicators. With the Best Performance module of our enhanced TOGETHER 2025+ Group strategy, we want to improve these indicators across all areas and along the entire value chain. In so doing, we aim to sustainably increase the Company's value and raise our efficiency, productivity and profitability.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions performance measurement across financial and non-financial KPIs, relevant to profitability."
+      },
+      {
+        "para_id": "VW2019_P44c422",
+        "page": 7,
+        "section_name": "INTERNAL MANAGEMENT PROCESS IN THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "Medium-term planning forms the core of our operational planning and is used to formulate and safeguard the requirements for realizing strategic projects designed to meet Group targets in both technical and economic terms – and particularly in relation to earnings, cash flow and liquidity effects. In addition, it is used to coordinate all business areas with respect to the strategic action areas concerned: functions/ processes, products and markets.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions financial planning and its relation to strategic projects, relevant to financial performance."
+      },
+      {
+        "para_id": "VW2019_P3d60e3",
+        "page": 7,
+        "section_name": "INTERNAL MANAGEMENT PROCESS IN THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "The coordinated results of the upstream planning processes are used as the basis for the medium-term financial planning: the Group's financial planning, including the brands and business fields, comprises the income statement, cash flow and balance sheet planning, profitability and liquidity, as well as the upfront investments needed for alternative products and the implementation of strategic options. The first year of the medium-term planning period is fixed and a budget drawn up for the individual months. This is planned in detail down to the level of the operating cost centers.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses financial planning components that are directly relevant to profitability."
+      },
+      {
+        "para_id": "VW2019_Pb4cb05",
+        "page": 7,
+        "section_name": "INTERNAL MANAGEMENT PROCESS IN THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "The budget is reviewed each month throughout the year to establish the target achievement level. Key internal management instruments comprise target/actual comparisons, prior-year comparisons, variance analyses and, where necessary, action plans to ensure targets are met. For the current fiscal year, detailed revolving monthly forecasts are prepared for the coming three months and the full year, taking into account the current risks and opportunities. The focus of intrayear internal management is therefore on adapting ongoing operations. At the same time, the current forecast serves as a potential, ongoing corrective to the medium-term and budget planning that follows on from it.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions budget reviews and financial management, which are relevant to financial performance."
+      }
     ]
   },
   {
     "table_id": "VW2019_T62ae9f",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 24,
+    "bucket": "management_report",
     "section_name": "COMPONENT 2: OPERATING RETURN ON SALES",
     "title": "Operating result including proportionate operating result of chinese joint ventures",
     "headers": [
@@ -2206,10 +3282,43 @@
       "Minimum threshold",
       "Actual",
       "Target achievement (in %)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P3a52ce",
+        "page": 23,
+        "section_name": "Annual bonus",
+        "section_level": 4,
+        "text": "The annual bonus is based upon the result for the respective fiscal year. Operating profit achieved by the Volkswagen Group plus the proportionate operating profit of the Chinese joint ventures form half of the basis for the annual bonus, with operating return on sales achieved by the Volkswagen Group making up the second half. Each of the two components of the annual bonus are only payable if certain thresholds are reached or exceeded.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Describes the annual bonus structure based on operating profit and return on sales, which directly relates to the table's metrics."
+      },
+      {
+        "para_id": "VW2019_P056b1c",
+        "page": 23,
+        "section_name": "Annual bonus",
+        "section_level": 4,
+        "text": "The calculated payment amount may be individually reduced by up to 20% (multiplier of 0.8) or increased by up to 20% (multiplier of 1.2) by the Supervisory Board, taking into account the degree of achievement of individual targets agreed between the Supervisory Board and the respective member of the Board of Management, as well as the success of the full Board of Management in transforming the Volkswagen Group by transferring employees to new areas of activity.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses adjustments to payment amounts based on target achievements, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pf25d3e",
+        "page": 23,
+        "section_name": "Annual bonus",
+        "section_level": 4,
+        "text": "The payment amount for the annual bonus is capped at 180% of the target amount for the annual bonus. The cap arises from 150% of the maximum financial target achievement and a performance factor of a maximum of 1.2.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the cap on the annual bonus based on target achievement, which is directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T3362a6",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 24,
+    "bucket": "management_report",
     "section_name": "COMPONENT 2: OPERATING RETURN ON SALES",
     "title": "Operating return on sales",
     "headers": [
@@ -2257,10 +3366,52 @@
       "Minimum threshold",
       "Actual",
       "Target achievement (in %)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pe8c8d5",
+        "page": 23,
+        "section_name": "Performance-related remuneration",
+        "section_level": 4,
+        "text": "The performance-related/variable remuneration consists of an annual performance-related bonus with a one-year assessment period and a long-term incentive (LTI) in the form of a performance share plan with a forward-looking three-year term (long-term incentive components) and phantom preferred shares. The components of performance-related/ variable remuneration reflect both positive and negative developments.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions performance-related remuneration components, which could relate to target achievements but lacks specific metrics."
+      },
+      {
+        "para_id": "VW2019_P3a52ce",
+        "page": 23,
+        "section_name": "Annual bonus",
+        "section_level": 4,
+        "text": "The annual bonus is based upon the result for the respective fiscal year. Operating profit achieved by the Volkswagen Group plus the proportionate operating profit of the Chinese joint ventures form half of the basis for the annual bonus, with operating return on sales achieved by the Volkswagen Group making up the second half. Each of the two components of the annual bonus are only payable if certain thresholds are reached or exceeded.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Describes the annual bonus structure based on operating profit and return on sales, which directly relates to the table's metrics."
+      },
+      {
+        "para_id": "VW2019_P056b1c",
+        "page": 23,
+        "section_name": "Annual bonus",
+        "section_level": 4,
+        "text": "The calculated payment amount may be individually reduced by up to 20% (multiplier of 0.8) or increased by up to 20% (multiplier of 1.2) by the Supervisory Board, taking into account the degree of achievement of individual targets agreed between the Supervisory Board and the respective member of the Board of Management, as well as the success of the full Board of Management in transforming the Volkswagen Group by transferring employees to new areas of activity.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses adjustments to payment amounts based on target achievements, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pf25d3e",
+        "page": 23,
+        "section_name": "Annual bonus",
+        "section_level": 4,
+        "text": "The payment amount for the annual bonus is capped at 180% of the target amount for the annual bonus. The cap arises from 150% of the maximum financial target achievement and a performance factor of a maximum of 1.2.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the cap on the annual bonus based on target achievement, which is directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T3f8334",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 25,
+    "bucket": "management_report",
     "section_name": "PERFORMANCE PERIOD 2017–2019",
     "title": "Performance Shares – Performance-Period 2017 - 2018",
     "headers": [
@@ -2301,10 +3452,43 @@
       "Minimum threshold",
       "Actual",
       "Target achievement (in %)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P78a164",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "After the end of the three-year term of the performance share plan, a cash settlement takes place. The payment amount corresponds to the final number of determined performance shares, multiplied by the closing reference price at the end of the three-year period plus a dividend equivalent for the relevant term. The closing reference price is the unweighted average of the closing prices for Volkswagen's preferred shares for the 30 trading days preceding the last day of the three-year performance period. The dividend equivalent corresponds to the dividends distributed during the holding period on a genuine Volkswagen preferred share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses cash settlement and performance shares, which relates to the achievement of targets."
+      },
+      {
+        "para_id": "VW2019_Pa83b79",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "The payment amount under the performance share plan is limited to 200% of the target amount. The payment amount is reduced by 20% if the average ratio of capex to sales revenue or the R&D ratio in the Automotive Division of the last three years is smaller than 5%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the payment limits under the performance share plan, which is relevant to target achievement."
+      },
+      {
+        "para_id": "VW2019_P721746",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "In the introductory phase of the performance share plan (2017–2018), the members of the Board of Management who were Board members as of December 31, 2016 will generally receive advances of 80% of their target amount. Mr. Blume will receive corresponding advances for the performance periods 2018–2020 (proportionate) and 2019–2021. The two advances will each be paid after the first year of the performance period. Final settlement is based on actual achievement of targets at the end of the relevant three-year performance period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions advances based on target amounts, which relates to performance metrics."
+      }
     ]
   },
   {
     "table_id": "VW2019_T38ba83",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 25,
+    "bucket": "management_report",
     "section_name": "PERFORMANCE PERIOD 2018–2020",
     "title": "Performance Shares – Performance-Period 2018 - 2019",
     "headers": [
@@ -2340,10 +3524,43 @@
       "Minimum threshold",
       "Actual",
       "Target achievement (in %)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P78a164",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "After the end of the three-year term of the performance share plan, a cash settlement takes place. The payment amount corresponds to the final number of determined performance shares, multiplied by the closing reference price at the end of the three-year period plus a dividend equivalent for the relevant term. The closing reference price is the unweighted average of the closing prices for Volkswagen's preferred shares for the 30 trading days preceding the last day of the three-year performance period. The dividend equivalent corresponds to the dividends distributed during the holding period on a genuine Volkswagen preferred share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses cash settlement and performance shares, which relates to the achievement of targets."
+      },
+      {
+        "para_id": "VW2019_Pa83b79",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "The payment amount under the performance share plan is limited to 200% of the target amount. The payment amount is reduced by 20% if the average ratio of capex to sales revenue or the R&D ratio in the Automotive Division of the last three years is smaller than 5%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the payment limits under the performance share plan, which is relevant to target achievement."
+      },
+      {
+        "para_id": "VW2019_P721746",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "In the introductory phase of the performance share plan (2017–2018), the members of the Board of Management who were Board members as of December 31, 2016 will generally receive advances of 80% of their target amount. Mr. Blume will receive corresponding advances for the performance periods 2018–2020 (proportionate) and 2019–2021. The two advances will each be paid after the first year of the performance period. Final settlement is based on actual achievement of targets at the end of the relevant three-year performance period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions advances based on target amounts, which relates to performance metrics."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tc78c8b",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 25,
+    "bucket": "management_report",
     "section_name": "PERFORMANCE PERIOD 2019–2021",
     "title": "Performance Shares – Performance-Period 2019 - 2020",
     "headers": [
@@ -2374,10 +3591,43 @@
       "Minimum threshold",
       "Actual",
       "Target achievement (in %)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P78a164",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "After the end of the three-year term of the performance share plan, a cash settlement takes place. The payment amount corresponds to the final number of determined performance shares, multiplied by the closing reference price at the end of the three-year period plus a dividend equivalent for the relevant term. The closing reference price is the unweighted average of the closing prices for Volkswagen's preferred shares for the 30 trading days preceding the last day of the three-year performance period. The dividend equivalent corresponds to the dividends distributed during the holding period on a genuine Volkswagen preferred share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses cash settlement and performance shares, which relates to the achievement of targets."
+      },
+      {
+        "para_id": "VW2019_Pa83b79",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "The payment amount under the performance share plan is limited to 200% of the target amount. The payment amount is reduced by 20% if the average ratio of capex to sales revenue or the R&D ratio in the Automotive Division of the last three years is smaller than 5%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the payment limits under the performance share plan, which is relevant to target achievement."
+      },
+      {
+        "para_id": "VW2019_P721746",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "In the introductory phase of the performance share plan (2017–2018), the members of the Board of Management who were Board members as of December 31, 2016 will generally receive advances of 80% of their target amount. Mr. Blume will receive corresponding advances for the performance periods 2018–2020 (proportionate) and 2019–2021. The two advances will each be paid after the first year of the performance period. Final settlement is based on actual achievement of targets at the end of the relevant three-year performance period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions advances based on target amounts, which relates to performance metrics."
+      }
     ]
   },
   {
     "table_id": "VW2019_T9e2495",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 26,
+    "bucket": "management_report",
     "section_name": "PERFORMANCE PERIOD 2019–2021",
     "title": "Performance-Share-Plan – Reference price",
     "headers": [
@@ -2445,10 +3695,52 @@
       "2017",
       "2018",
       "2019"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P09c3be",
+        "page": 25,
+        "section_name": "Performance share plan – long-term incentive (LTI)",
+        "section_level": 4,
+        "text": "The LTI is granted to the Board of Management annually in the form of a performance share plan. Each performance period of the performance share plan has a term of three years. At the time the LTI is granted, the annual target amount under the LTI is converted on the basis of the initial reference price of Volkswagen's preferred shares into performance shares of Volkswagen AG, which are allocated to the respective member of the Board of Management purely for calculation purposes. The conversion is performed based on the unweighted average of the closing prices of Volkswagen's preferred shares for the last 30 trading days preceding January 1 of a given fiscal year. At the end of each year, the number of performance shares is determined definitively for one-third of the three-year performance period based on the degree of target achievement for the annual earnings per Volkswagen preferred share (EPS – earnings per share per preferred share in €). A prerequisite for this is that a threshold is reached.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Describes the long-term incentive plan related to performance shares, which connects to the performance periods and pricing metrics in the table."
+      },
+      {
+        "para_id": "VW2019_P78a164",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "After the end of the three-year term of the performance share plan, a cash settlement takes place. The payment amount corresponds to the final number of determined performance shares, multiplied by the closing reference price at the end of the three-year period plus a dividend equivalent for the relevant term. The closing reference price is the unweighted average of the closing prices for Volkswagen's preferred shares for the 30 trading days preceding the last day of the three-year performance period. The dividend equivalent corresponds to the dividends distributed during the holding period on a genuine Volkswagen preferred share.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses cash settlement and performance shares, which directly relates to the performance periods and metrics in the table."
+      },
+      {
+        "para_id": "VW2019_Pa83b79",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "The payment amount under the performance share plan is limited to 200% of the target amount. The payment amount is reduced by 20% if the average ratio of capex to sales revenue or the R&D ratio in the Automotive Division of the last three years is smaller than 5%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions payment limits under the performance share plan, which is relevant to target achievement."
+      },
+      {
+        "para_id": "VW2019_P721746",
+        "page": 26,
+        "section_name": "PERFORMANCE PERIOD 2019–2021",
+        "section_level": 4,
+        "text": "In the introductory phase of the performance share plan (2017–2018), the members of the Board of Management who were Board members as of December 31, 2016 will generally receive advances of 80% of their target amount. Mr. Blume will receive corresponding advances for the performance periods 2018–2020 (proportionate) and 2019–2021. The two advances will each be paid after the first year of the performance period. Final settlement is based on actual achievement of targets at the end of the relevant three-year performance period.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions advances based on target amounts, which relates to performance metrics."
+      }
     ]
   },
   {
     "table_id": "VW2019_T04f62b",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 48,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN GROUP DELIVERIES 1",
     "title": "Volkswagen Group deliveries1",
     "headers": [
@@ -2489,10 +3781,43 @@
       "Passenger Cars",
       "Commercial Vehicles",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pa75354",
+        "page": 48,
+        "section_name": "NEW GROUP MODELS IN 2019",
+        "section_level": 4,
+        "text": "The Volkswagen Group delivered 10,974,636 vehicles to customers worldwide in 2019. This exceeded the previous year's figure by 1.3% and set a new record. The Volkswagen Commercial Vehicles brand has been reported as part of the Passenger Cars Business Area since January 1, 2019. The prior-year figures have been adjusted accordingly. The chart on the next page shows how deliveries changed from month to month and compares each monthly figure to the same month of the previous year. Deliveries of passenger cars and commercial vehicles are reported separately in the following.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Provides overall delivery figures for the Volkswagen Group, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P09b36a",
+        "page": 48,
+        "section_name": "VOLKSWAGEN GROUP DELIVERIES 1",
+        "section_level": 4,
+        "text": "1 Prior-year deliveries have been updated or amended to reflect subsequent statistical trends and the changed reporting structure.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses overall vehicle deliveries and growth, relevant to the performance metrics in the table."
+      },
+      {
+        "para_id": "VW2019_P5d5f31",
+        "page": 48,
+        "section_name": "GLOBAL DELIVERIES BY THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 4,
+        "text": "During the reporting period, deliveries of passenger cars to Volkswagen Group customers worldwide rose to 10,732,415 units amid difficult conditions resulting primarily from mainly declining overall markets. Year-on-year, the number of deliveries increased by 131,401 vehicles or 1.2%. The Group's new SUV models made a particular contribution to this increase. As the passenger car market as a whole declined by 4.0% over the same period, the Volkswagen Group's share of the global market rose to 12.9 (12.2)%. The largest increases in volume in absolute terms were seen in Germany and Brazil. In Argentina and Turkey, among other countries, sales figures were down on the previous year. The Volkswagen Passenger Cars, SEAT, Porsche and Lamborghini brands each exceeded their record figures from the previous year. The brands that achieved the largest growth in absolute terms were SEAT, Volkswagen Passenger Cars and Audi; ŠKODA and Volkswagen Commercial Vehicles both fell slightly short of the previous year's high figures.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses year-on-year delivery increases, relevant to the performance metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T6daa44",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 51,
+    "bucket": "management_report",
     "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET 1",
     "title": "Passenger car deliveries to customers by market1",
     "headers": [
@@ -2764,10 +4089,15 @@
       "Porsche",
       "Bugatti",
       "Volkswagen Commercial Vehicles"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Ta63d21",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 52,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLE DELIVERIES TO CUSTOMERS BY MARKET 1",
     "title": "Commercial vehicle deliveries to customers by market1",
     "headers": [
@@ -2878,10 +4208,34 @@
       "Worldwide",
       "Scania",
       "MAN"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pcb7228",
+        "page": 52,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In Western Europe, total deliveries stood at 119,284 units, up 10.3% on the previous year's figure. The growth was mainly driven by the German, French and UK markets. Of this figure, 100,362 were trucks and 6,042 buses; commercial vehicles from the MAN TGE van series amounted to 12,880 units.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions total deliveries in Western Europe, relevant to the table's focus on delivery statistics."
+      },
+      {
+        "para_id": "VW2019_P3a9251",
+        "page": 52,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In South America, the Volkswagen Group sold a total of 56,826 units (+19.0%); of this figure 48,350 were trucks and 8,476 were buses. In Brazil, deliveries rose by 30.5% following continued improvement in the economic climate. Of the units delivered, 43,438 were trucks and 6,113 were buses. Marked declines in deliveries were recorded in the other South American markets, especially Argentina, due to the development of the general economic environment.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions total sales in South America, relevant to the overall delivery figures."
+      }
     ]
   },
   {
     "table_id": "VW2019_T5a42ef",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 55,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN KEY SHARE FIGURES AND MARKET INDICES FROM JANUARY 1 TO DECEMBER 31, 2019",
     "title": "Volkswagen key share figures and market indices from January 1 to December 31, 2019",
     "headers": [
@@ -2967,10 +4321,70 @@
       "",
       "ESTX Auto & Parts",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P13e2f4",
+        "page": 55,
+        "section_name": "Shares and Bonds",
+        "section_level": 1,
+        "text": "Volkswagen AG's ordinary and preferred shares were trading higher than at year-end 2018 amid a volatile market environment in 2019. A strong cash flow reduced the refinancing volume.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions trading performance of ordinary and preferred shares, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P3ac52f",
+        "page": 55,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "In the period from January to December 2019, prices on the international equity markets rose overall amid volatile trading.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses overall market prices, relevant to share performance."
+      },
+      {
+        "para_id": "VW2019_P0ec238",
+        "page": 55,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "The prices of Volkswagen AG's preferred and ordinary shares also exceeded the 2018 year-end level in 2019. Healthy business figures were the main drivers of the uptrend. In particular, uncertainty regarding the future regulatory framework for diesel and electric vehicles, the US tariff policy, the continuing Brexit negotiations between the United Kingdom and the EU, the slowdown of the Chinese market and the WLTP (Worldwide Harmonized Light-Duty Vehicles Test Procedure), which is a test procedure for determining pollutant and CO2 emissions and fuel consumption for passenger cars and light commercial vehicles, led to volatile share prices.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses share prices and market conditions, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pee2506",
+        "page": 56,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 4,
+        "text": "The current dividend proposal can be found in the chapter entitled \"Volkswagen AG (condensed in accordance with the German Commercial Code)\", on page 130 of this annual report. The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €6.50 per ordinary share and €6.56 per preferred share for fiscal year 2019. On this basis, the total dividend amounts to €3.3 (2.4) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 24.5% for the reporting period and stood at 20.4% in the previous year. In our Group strategy, we aim to achieve a payout ratio of at least 30%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions dividend proposals which are relevant to share performance."
+      },
+      {
+        "para_id": "VW2019_Pd1b199",
+        "page": 56,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 4,
+        "text": "Based on the dividend proposal for the reporting period, the dividend yield on Volkswagen ordinary shares is 3.8 (3.5)%, measured by the closing price on the last trading day in 2019. The dividend yield on preferred shares is 3.7 (3.5)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses dividend yield, which is relevant to share performance."
+      },
+      {
+        "para_id": "VW2019_P05d90e",
+        "page": 56,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 4,
+        "text": "Basic earnings per ordinary share were €26.60 (23.57) in fiscal year 2019. Basic earnings per preferred share were €26.66 (23.63). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting period. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions earnings per share, relevant to stock performance."
+      }
     ]
   },
   {
     "table_id": "VW2019_Td31b8b",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 57,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE DATA",
     "title": "Volkswagen share data",
     "headers": [
@@ -3024,10 +4438,43 @@
       "Reuters",
       "Primary market indices",
       "Handelsplätze"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pee2506",
+        "page": 56,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 4,
+        "text": "The current dividend proposal can be found in the chapter entitled \"Volkswagen AG (condensed in accordance with the German Commercial Code)\", on page 130 of this annual report. The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €6.50 per ordinary share and €6.56 per preferred share for fiscal year 2019. On this basis, the total dividend amounts to €3.3 (2.4) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 24.5% for the reporting period and stood at 20.4% in the previous year. In our Group strategy, we aim to achieve a payout ratio of at least 30%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions proposed dividends for ordinary and preferred shares, relevant to share performance."
+      },
+      {
+        "para_id": "VW2019_Pd1b199",
+        "page": 56,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 4,
+        "text": "Based on the dividend proposal for the reporting period, the dividend yield on Volkswagen ordinary shares is 3.8 (3.5)%, measured by the closing price on the last trading day in 2019. The dividend yield on preferred shares is 3.7 (3.5)%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses dividend yield for ordinary and preferred shares, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P05d90e",
+        "page": 56,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 4,
+        "text": "Basic earnings per ordinary share were €26.60 (23.57) in fiscal year 2019. Basic earnings per preferred share were €26.66 (23.63). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting period. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions earnings per share for ordinary and preferred shares, relevant to share performance."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tb52589",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 58,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
     "title": "Volkswagen share Key Figures",
     "headers": [
@@ -3442,10 +4889,25 @@
       "Turnover of Volkswagen preferred shares",
       "",
       "Volkswagen share of total DAX turnover"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P91ca08",
+        "page": 57,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 4,
+        "text": "Ordinary shares Preferred shares",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions ordinary and preferred shares, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tb6a79f",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 59,
+    "bucket": "management_report",
     "section_name": "REFINANCING",
     "title": "Utilization of the money and capital market programs",
     "headers": [
@@ -3487,10 +4949,79 @@
       "Bonds",
       "of which hybrid issues",
       "Asset-backed securities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P65f555",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Refinancing of the Volkswagen Group is important to ensure that the Group remains solvent at all times. Cash flows from operating activities contributed to the positive development of net liquidity in 2019. Consequently, the refinancing volume through bonds on the money and capital markets for the Automotive Division declined year-on-year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the importance of refinancing, relevant to the financing programs."
+      },
+      {
+        "para_id": "VW2019_P5f86ae",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Benchmark bonds with an aggregate volume of €7.0 billion were issued for the Financial Services Division. In addition to this, private placements were issued in various currencies. In the US capital market a bond with a total volume of USD 3.0 billion was placed with investors in five tranches. Notes with a volume of CAD 1.5 billion were issued in the Canadian refinancing market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses bond issuance which relates to financing programs."
+      },
+      {
+        "para_id": "VW2019_Pfa7195",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Alongside the placement of senior, unsecured bonds, asset-backed securities (ABS) transactions were another element of our refinancing activities. ABS transactions in the amount of €2.0 billion were placed in Europe. In addition, ABS transactions were issued in USA, China and Australia among other countries.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions asset-backed securities, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P07af32",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was also actively involved in the commercial paper market with several issuing companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses involvement in the commercial paper market, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P9b7ffb",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The table below shows how our money and capital market programs were utilized as of December 31, 2019 and illustrates the financial flexibility of the Volkswagen Group:",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions money and capital market programs, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P047baa",
+        "page": 60,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Volkswagen AG's syndicated credit line of €5.0 billion agreed in July 2011 was replaced in December 2019 by a new syndicated credit line of €10.0 billion. The new credit line has a term of five years, with the option to extend the term twice after obtaining approval from the respective banks, each for a period of one year, until 2026 at the latest. This credit facility was unused as of the end of 2019.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses a new syndicated credit line, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P0071e8",
+        "page": 60,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Of the syndicated credit lines worth a total of €10.1 billion at other Group companies, €1.4 billion has been drawn down. In addition, Group companies had arranged bilateral, confirmed credit lines with national and international banks in various other countries for a total of €6.9 billion, of which €2.4 billion was drawn down.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions credit lines at Group companies, relevant to financing programs."
+      }
     ]
   },
   {
     "table_id": "VW2019_T4ab72d",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 60,
+    "bucket": "management_report",
     "section_name": "RATINGS",
     "title": "Ratings",
     "headers": [
@@ -3639,10 +5170,79 @@
       "short-term",
       "long-term",
       "outlook"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P65f555",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Refinancing of the Volkswagen Group is important to ensure that the Group remains solvent at all times. Cash flows from operating activities contributed to the positive development of net liquidity in 2019. Consequently, the refinancing volume through bonds on the money and capital markets for the Automotive Division declined year-on-year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions refinancing importance, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P5f86ae",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Benchmark bonds with an aggregate volume of €7.0 billion were issued for the Financial Services Division. In addition to this, private placements were issued in various currencies. In the US capital market a bond with a total volume of USD 3.0 billion was placed with investors in five tranches. Notes with a volume of CAD 1.5 billion were issued in the Canadian refinancing market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses bond issuance which relates to financing programs."
+      },
+      {
+        "para_id": "VW2019_Pfa7195",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Alongside the placement of senior, unsecured bonds, asset-backed securities (ABS) transactions were another element of our refinancing activities. ABS transactions in the amount of €2.0 billion were placed in Europe. In addition, ABS transactions were issued in USA, China and Australia among other countries.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions asset-backed securities, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P07af32",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was also actively involved in the commercial paper market with several issuing companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses commercial paper market involvement, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P9b7ffb",
+        "page": 59,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The table below shows how our money and capital market programs were utilized as of December 31, 2019 and illustrates the financial flexibility of the Volkswagen Group:",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions money and capital market programs, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P047baa",
+        "page": 60,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Volkswagen AG's syndicated credit line of €5.0 billion agreed in July 2011 was replaced in December 2019 by a new syndicated credit line of €10.0 billion. The new credit line has a term of five years, with the option to extend the term twice after obtaining approval from the respective banks, each for a period of one year, until 2026 at the latest. This credit facility was unused as of the end of 2019.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses a new syndicated credit line, relevant to financing programs."
+      },
+      {
+        "para_id": "VW2019_P0071e8",
+        "page": 60,
+        "section_name": "RATINGS",
+        "section_level": 4,
+        "text": "Of the syndicated credit lines worth a total of €10.1 billion at other Group companies, €1.4 billion has been drawn down. In addition, Group companies had arranged bilateral, confirmed credit lines with national and international banks in various other countries for a total of €6.9 billion, of which €2.4 billion was drawn down.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions credit lines at Group companies, relevant to financing programs."
+      }
     ]
   },
   {
     "table_id": "VW2019_T4f38bd",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 61,
+    "bucket": "management_report",
     "section_name": "APPLICATION OF NEW INTERNATIONAL FINANCIAL REPORTING STANDARDS",
     "title": "Key figures for 2019 by segment",
     "headers": [
@@ -3703,10 +5303,34 @@
       "Sales revenue",
       "Segment result (operating result)",
       "as a percentage of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P8c8436",
+        "page": 61,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group's sales revenue increased in fiscal year 2019 compared with the previous year. Despite further charges and cash outflows in connection with the diesel issue, operating profit and net liquidity in the Automotive Division were above the respective prior-year figure.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales revenue increase, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P47c26e",
+        "page": 61,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group's segment reporting comprises the four reportable segments of Passenger Cars and Light Commercial Vehicles, Commercial Vehicles, Power Engineering and Financial Services, in compliance with IFRS 8 and in line with the Group's internal management and reporting structures. As a result of enhancements to the management structure of the Volkswagen Group, we allocate the Volkswagen Commercial Vehicles brand to the Passenger Cars segment as of January 1, 2019, renaming this segment the Passenger Cars and Light Commercial Vehicles segment. The Commercial Vehicles segment continues to correspond to the Commercial Vehicles Business Area, but now excludes the Volkswagen Commercial Vehicles brand. The prior-year figures have been adjusted accordingly.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses segment reporting, relevant to the sales revenue and results in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Td2b018",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 62,
+    "bucket": "management_report",
     "section_name": "COMPENSATION PAID TO THE NONCONTROLLING INTEREST SHAREHOLDERS OF MAN SE",
     "title": "Income statement by division",
     "headers": [
@@ -3902,10 +5526,34 @@
       "Noncontrolling interests",
       "Earnings attributable to Volkswagen AG hybrid capital investors",
       "Earnings attributable to Volkswagen AG shareholders"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P8c8436",
+        "page": 61,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group's sales revenue increased in fiscal year 2019 compared with the previous year. Despite further charges and cash outflows in connection with the diesel issue, operating profit and net liquidity in the Automotive Division were above the respective prior-year figure.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue increase, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P47c26e",
+        "page": 61,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group's segment reporting comprises the four reportable segments of Passenger Cars and Light Commercial Vehicles, Commercial Vehicles, Power Engineering and Financial Services, in compliance with IFRS 8 and in line with the Group's internal management and reporting structures. As a result of enhancements to the management structure of the Volkswagen Group, we allocate the Volkswagen Commercial Vehicles brand to the Passenger Cars segment as of January 1, 2019, renaming this segment the Passenger Cars and Light Commercial Vehicles segment. The Commercial Vehicles segment continues to correspond to the Commercial Vehicles Business Area, but now excludes the Volkswagen Commercial Vehicles brand. The prior-year figures have been adjusted accordingly.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions segment reporting, relevant to the sales revenue and results in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T57d0a9",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 64,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA1",
     "title": "Results of operations in the Passenger Cars Business Area1",
     "headers": [
@@ -3941,10 +5589,88 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P9e403a",
+        "page": 63,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "Between January and December 2019, the Volkswagen Group generated sales revenue of €252.6 billion, exceeding the prioryear figure by 7.1%. Particularly mix improvements, higher sales volumes and the healthy business performance of the Financial Services Division had a positive impact; whereas the negative exchange rate trend had an offsetting effect. At 80.6 (81.4)%, most of the sales revenue was generated abroad.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales revenue increase, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P2a2e3e",
+        "page": 63,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "Gross profit rose by €2.8 billion to €49.1 billion. The gross margin stood at 19.5 (19.7)%. Adjusted for special items recognized here in both periods (positive in the reporting period due to the reversal of provisions for technical measures in connection with the diesel issue), gross profit amounted to €48.8 (46.6) billion. Excluding special items, the gross margin was 19.3 (19.8)% in fiscal year 2019.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses gross profit increase, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pef5086",
+        "page": 63,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's operating profit before special items improved by €2.2 billion to €19.3 billion in the reporting period. The operating return on sales before special items amounted to 7.6 (7.3)%. The increase was mainly attributable to positive mix effects, higher volumes, the reversal of impairment losses following the remeasurement of development costs, product cost optimizations, and the fair value measurement of certain derivatives. A rise in fixed costs had a negative impact. Special items in connection with the diesel issue weighed on operating profit, reducing this item by €–2.3 (–3.2) billion. The Volkswagen Group's operating profit increased to €17.0 (13.9) billion, while the operating return on sales rose to 6.7 (5.9)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions operating profit before special items, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P264366",
+        "page": 64,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA1",
+        "section_level": 4,
+        "text": "The Passenger Cars Business Area recorded sales revenue of €182.0 billion in the period from January to December 2019, 5.4% more than in the prior-year period. The growth was mainly attributable to positive mix effects and the higher sales volume. This was set against a negative exchange rate trend. The operating profit of the Passenger Cars Business Area totaled €12.2 billion, up €2.2 billion on the prior year. The rise in profit was primarily due to mix and volume improvements, the reversal of impairment losses following the remeasurement of development costs as well as positive effects stemming from product costs and the measurement of certain derivatives and a decline in negative special items to €–2.3 (–3.2) billion in connection with the diesel issue. Higher depreciation and amortization charges and a rise in research and development costs were among the main factors reducing profit. The operating return on sales increased to 6.7 (5.8)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales revenue and operating profit for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P953449",
+        "page": 65,
+        "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA1",
+        "section_level": 4,
+        "text": "At €26.4 billion, sales revenue in the Commercial Vehicles Business Area exceeded the prior-year figure by 6.7% in fiscal year 2019. The operating profit of the Commercial Vehicles Business Area improved by €0.5 billion to €1.7 billion; the operating return on sales stood at 6.3 (4.8)%. Positive effects arising from higher volumes, mix and price improvements more than offset cost increases.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales revenue and operating profit for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P3af196",
+        "page": 65,
+        "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 3,
+        "text": "The Power Engineering Business Area recorded sales revenue of €4.0 billion in fiscal year 2019, 10.8% more than in the prior year. The operating loss amounted to €–0.1 (–0.1) billion. Volumes improved while fixed costs rose. The operating return on sales amounted to –2.3 (–1.8)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales revenue and operating loss for the Power Engineering Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pbff119",
+        "page": 65,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Financial Services Division generated sales revenue of €40.2 billion; the 15.5% rise year-on-year was due mainly to the higher business volume.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales revenue increase for the Financial Services Division, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pbe8413",
+        "page": 65,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "Higher volumes and exchange rate effects boosted the Financial Services Division's operating profit to €3.2 billion, a 15.0% increase on the previous year, again representing a considerable contribution to consolidated net profit. The operating return on sales was unchanged at 8.0 (8.0)%. The return on equity before tax rose to 10.8 (9.9)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions operating profit increase for the Financial Services Division, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tdc6561",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 65,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA1",
     "title": "Results of operations in the Commercial Vehicles Business Area1",
     "headers": [
@@ -3980,10 +5706,70 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pb15c7d",
+        "page": 64,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "The Automotive Division's sales revenue amounted to €212.5 billion in the reporting period, 5.7% more than in the previous year. Primarily, improvements in the mix and higher vehicle sales offset negative exchange rate effects. As our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is reflected in consolidated sales revenue primarily by deliveries of vehicles and vehicle parts.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph discusses sales revenue in the Automotive Division, which relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2019_Pacf17e",
+        "page": 64,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "At €13.7 billion, the Automotive Division's operating profit was €2.6 billion higher than the prior year. The main contributing factors were improvements in the mix as well as higher vehicle sales, the reversal of impairment losses following the remeasurement of development costs, product cost optimization, the measurement of certain derivatives and a decline in negative special items. Higher depreciation and amortization charges and a rise in research and development costs had an offsetting effect. The operating return on sales increased to 6.5 (5.5)%. The negative special items included in operating profit totaled €–2.3 (–3.2) billion. Excluding the special items, the Automotive Division's operating profit rose to €16.1 (14.3) billion. The operating return on sales before special items improved to 7.6 (7.1)%. Our operating profit largely benefits from the business performance of our Chinese joint ventures only through deliveries of vehicles and vehicle parts and of license income, as the joint ventures are accounted for using the equity method and therefore included in the financial result.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph discusses the operating profit of the Automotive Division, which is relevant to the operating results in the table."
+      },
+      {
+        "para_id": "VW2019_P264366",
+        "page": 64,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA1",
+        "section_level": 4,
+        "text": "The Passenger Cars Business Area recorded sales revenue of €182.0 billion in the period from January to December 2019, 5.4% more than in the prior-year period. The growth was mainly attributable to positive mix effects and the higher sales volume. This was set against a negative exchange rate trend. The operating profit of the Passenger Cars Business Area totaled €12.2 billion, up €2.2 billion on the prior year. The rise in profit was primarily due to mix and volume improvements, the reversal of impairment losses following the remeasurement of development costs as well as positive effects stemming from product costs and the measurement of certain derivatives and a decline in negative special items to €–2.3 (–3.2) billion in connection with the diesel issue. Higher depreciation and amortization charges and a rise in research and development costs were among the main factors reducing profit. The operating return on sales increased to 6.7 (5.8)%.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph discusses sales revenue and operating profit in the Passenger Cars Business Area, which is relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2019_P953449",
+        "page": 65,
+        "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA1",
+        "section_level": 4,
+        "text": "At €26.4 billion, sales revenue in the Commercial Vehicles Business Area exceeded the prior-year figure by 6.7% in fiscal year 2019. The operating profit of the Commercial Vehicles Business Area improved by €0.5 billion to €1.7 billion; the operating return on sales stood at 6.3 (4.8)%. Positive effects arising from higher volumes, mix and price improvements more than offset cost increases.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph discusses sales revenue and operating profit in the Commercial Vehicles Business Area, which relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2019_P3af196",
+        "page": 65,
+        "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 3,
+        "text": "The Power Engineering Business Area recorded sales revenue of €4.0 billion in fiscal year 2019, 10.8% more than in the prior year. The operating loss amounted to €–0.1 (–0.1) billion. Volumes improved while fixed costs rose. The operating return on sales amounted to –2.3 (–1.8)%.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph discusses sales revenue and operating loss in the Power Engineering Business Area, which relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2019_Pbff119",
+        "page": 65,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Financial Services Division generated sales revenue of €40.2 billion; the 15.5% rise year-on-year was due mainly to the higher business volume.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph discusses sales revenue in the Financial Services Division, which relates to the figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Td77849",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 65,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
     "title": "Results of operations in the Power Engineering Business Area",
     "headers": [
@@ -4019,10 +5805,15 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Tab5097",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 67,
+    "bucket": "management_report",
     "section_name": "CASH FLOW STATEMENT BY DIVISION",
     "title": "Cash flow statement by division",
     "headers": [
@@ -4378,10 +6169,15 @@
       "Gross liquidity",
       "Total third-party borrowings",
       "Net liquidity ^6"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Tcd0e96",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 68,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA1",
     "title": "Financial Position in the Passenger Cars Business Area1",
     "headers": [
@@ -4429,10 +6225,61 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pcc648f",
+        "page": 68,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "equity investments\" item to €0.7 billion. Compared with the low prior-year figure, the Automotive Division's net cash flow improved markedly by €11.1 billion to €10.8 billion. The main reasons were the increase in profit, a decline in cash outflows attributable to the diesel issue and a smaller increase in inventories.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions significant improvement in net cash flow, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Paa928a",
+        "page": 68,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA1",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Passenger Cars Business Area's gross cash flow was €25.5 billion, up €2.6 billion on the previous year due to earnings-related factors, lower tax payments and positive effects of the application of the new IFRS 16. The change in working capital amounted to €3.1 (–5.9) billion. The smaller increase in inventories than in the previous year and lower cash outflows attributable to the diesel issue had a positive effect. Consequently, cash flows from operating activities went up by €11.5 billion to €28.5 billion. Investing activities attributable to operating activities in the Passenger Cars Business Area increased to €20.3 (17.3) billion. Capex was higher, while capitalized development costs declined slightly. The intragroup sale of the power engineering business by the Commercial Vehicles Business Area to the Passenger Cars Business Area and strategic investments in a number of companies led to a marked year-on-year increase in the \"Acquisition and disposal of equity investments\" item. Compared with the low prior-year figure, the Passenger Cars Business Area's net cash flow improved by €8.6 billion to €8.3 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions gross cash flow for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pa817b1",
+        "page": 68,
+        "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA1",
+        "section_level": 4,
+        "text": "In the reporting period, the Commercial Vehicles Business Area's gross cash flow improved by €0.6 billion to €3.4 billion. The slight year-on-year increase was driven particularly by higher profits. The change in working capital amounted to €–1.2 (–1.3) billion. Cash flows from operating activities were up by €0.6 billion to €2.1 billion. The intragroup sale of the",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow improvement for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P949d6c",
+        "page": 69,
+        "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Power Engineering Business Area recorded gross cash flow of €0.3 (0.3) billion. Due to a decrease in funds tied up in working capital, the change in working capital amounted to €–0.2 (–0.3) billion. Cash flows from operating activities were higher than in the previous year. Investing activities attributable to operating activities increased by €0.1 billion to €0.2 billion. At €–0.1 (–0.1) billion, net cash flow was virtually on a level with the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow for the Power Engineering Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P5b0f29",
+        "page": 69,
+        "section_name": "Financial position in the Financial Services Division",
+        "section_level": 4,
+        "text": "In the reporting period, the Financial Services Division's gross cash flow was €10.9 (9.6) billion. The change in working capital of €–23.6 (–20.9) billion was a result of an increase in funds tied up in working capital, mainly driven by the growth in business volume. Cash flows from operating activities amounted to €–12.7 (–11.3) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow for the Financial Services Division, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Tb4362a",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 68,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA1",
     "title": "Financial Position in the Commercial Vehicles Business Area1",
     "headers": [
@@ -4480,10 +6327,70 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pee6f26",
+        "page": 67,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "4 Net cash flow: cash flows from operating activities, net of cash flows from investing activities attributable to operating activities (investing activities excluding change in investments in securities, loans and time deposits).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Defines net cash flow, relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2019_Pcc648f",
+        "page": 68,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "equity investments\" item to €0.7 billion. Compared with the low prior-year figure, the Automotive Division's net cash flow improved markedly by €11.1 billion to €10.8 billion. The main reasons were the increase in profit, a decline in cash outflows attributable to the diesel issue and a smaller increase in inventories.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions significant improvement in net cash flow, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Paa928a",
+        "page": 68,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA1",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Passenger Cars Business Area's gross cash flow was €25.5 billion, up €2.6 billion on the previous year due to earnings-related factors, lower tax payments and positive effects of the application of the new IFRS 16. The change in working capital amounted to €3.1 (–5.9) billion. The smaller increase in inventories than in the previous year and lower cash outflows attributable to the diesel issue had a positive effect. Consequently, cash flows from operating activities went up by €11.5 billion to €28.5 billion. Investing activities attributable to operating activities in the Passenger Cars Business Area increased to €20.3 (17.3) billion. Capex was higher, while capitalized development costs declined slightly. The intragroup sale of the power engineering business by the Commercial Vehicles Business Area to the Passenger Cars Business Area and strategic investments in a number of companies led to a marked year-on-year increase in the \"Acquisition and disposal of equity investments\" item. Compared with the low prior-year figure, the Passenger Cars Business Area's net cash flow improved by €8.6 billion to €8.3 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions gross cash flow for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pa817b1",
+        "page": 68,
+        "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA1",
+        "section_level": 4,
+        "text": "In the reporting period, the Commercial Vehicles Business Area's gross cash flow improved by €0.6 billion to €3.4 billion. The slight year-on-year increase was driven particularly by higher profits. The change in working capital amounted to €–1.2 (–1.3) billion. Cash flows from operating activities were up by €0.6 billion to €2.1 billion. The intragroup sale of the",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow improvement for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P949d6c",
+        "page": 69,
+        "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Power Engineering Business Area recorded gross cash flow of €0.3 (0.3) billion. Due to a decrease in funds tied up in working capital, the change in working capital amounted to €–0.2 (–0.3) billion. Cash flows from operating activities were higher than in the previous year. Investing activities attributable to operating activities increased by €0.1 billion to €0.2 billion. At €–0.1 (–0.1) billion, net cash flow was virtually on a level with the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow for the Power Engineering Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P5b0f29",
+        "page": 69,
+        "section_name": "Financial position in the Financial Services Division",
+        "section_level": 4,
+        "text": "In the reporting period, the Financial Services Division's gross cash flow was €10.9 (9.6) billion. The change in working capital of €–23.6 (–20.9) billion was a result of an increase in funds tied up in working capital, mainly driven by the growth in business volume. Cash flows from operating activities amounted to €–12.7 (–11.3) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow for the Financial Services Division, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_Td96631",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 69,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
     "title": "Financial Position in the Power Engineering Business Area",
     "headers": [
@@ -4531,10 +6438,61 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_Pcc648f",
+        "page": 68,
+        "section_name": "CASH FLOW STATEMENT BY DIVISION",
+        "section_level": 4,
+        "text": "equity investments\" item to €0.7 billion. Compared with the low prior-year figure, the Automotive Division's net cash flow improved markedly by €11.1 billion to €10.8 billion. The main reasons were the increase in profit, a decline in cash outflows attributable to the diesel issue and a smaller increase in inventories.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions significant improvement in net cash flow, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Paa928a",
+        "page": 68,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA1",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Passenger Cars Business Area's gross cash flow was €25.5 billion, up €2.6 billion on the previous year due to earnings-related factors, lower tax payments and positive effects of the application of the new IFRS 16. The change in working capital amounted to €3.1 (–5.9) billion. The smaller increase in inventories than in the previous year and lower cash outflows attributable to the diesel issue had a positive effect. Consequently, cash flows from operating activities went up by €11.5 billion to €28.5 billion. Investing activities attributable to operating activities in the Passenger Cars Business Area increased to €20.3 (17.3) billion. Capex was higher, while capitalized development costs declined slightly. The intragroup sale of the power engineering business by the Commercial Vehicles Business Area to the Passenger Cars Business Area and strategic investments in a number of companies led to a marked year-on-year increase in the \"Acquisition and disposal of equity investments\" item. Compared with the low prior-year figure, the Passenger Cars Business Area's net cash flow improved by €8.6 billion to €8.3 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions gross cash flow for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_Pa817b1",
+        "page": 68,
+        "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA1",
+        "section_level": 4,
+        "text": "In the reporting period, the Commercial Vehicles Business Area's gross cash flow improved by €0.6 billion to €3.4 billion. The slight year-on-year increase was driven particularly by higher profits. The change in working capital amounted to €–1.2 (–1.3) billion. Cash flows from operating activities were up by €0.6 billion to €2.1 billion. The intragroup sale of the",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow improvement for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P949d6c",
+        "page": 69,
+        "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 4,
+        "text": "In fiscal year 2019, the Power Engineering Business Area recorded gross cash flow of €0.3 (0.3) billion. Due to a decrease in funds tied up in working capital, the change in working capital amounted to €–0.2 (–0.3) billion. Cash flows from operating activities were higher than in the previous year. Investing activities attributable to operating activities increased by €0.1 billion to €0.2 billion. At €–0.1 (–0.1) billion, net cash flow was virtually on a level with the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow for the Power Engineering Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2019_P5b0f29",
+        "page": 69,
+        "section_name": "Financial position in the Financial Services Division",
+        "section_level": 4,
+        "text": "In the reporting period, the Financial Services Division's gross cash flow was €10.9 (9.6) billion. The change in working capital of €–23.6 (–20.9) billion was a result of an increase in funds tied up in working capital, mainly driven by the growth in business volume. Cash flows from operating activities amounted to €–12.7 (–11.3) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions cash flow for the Financial Services Division, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T6b0195",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 70,
+    "bucket": "management_report",
     "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
     "title": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
     "headers": [
@@ -4880,10 +6838,25 @@
       "Other liabilities",
       "Liabilities held for sale",
       "Total equity and liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2019_P592985",
+        "page": 69,
+        "section_name": "Consolidated balance sheet structure",
+        "section_level": 4,
+        "text": "At the end of the reporting period, the Volkswagen Group recorded total assets of €488.1 billion, 6.5% more than on December 31, 2018. This increase was mainly the result of the higher business volume in the Financial Services Division, the application of the new IFRS 16 and currency translation effects. The structure of the consolidated balance sheet as on the reporting date is shown in the chart on page 123. The Volkswagen Group's equity amounted to €123.7 billion, €6.3 billion more than at the previous balance sheet date. The equity ratio was 25.3 (25.6)%. The \"Assets held for sale\" item mainly comprises the asset carrying amounts expected to be derecognized following the disposal of the interest in Renk, which was resolved in January 2020. The item also includes the carrying amount of the shares in Autonomous Intelligent Driving, which is to be used as a contribution to the equity investment in the joint venture with Ford, in addition to the provision of financial resources. The \"Liabilities held for sale\" item comprises the carrying amounts of the respective liabilities expected to be derecognized.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions total assets, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2019_T82a565",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 72,
+    "bucket": "management_report",
     "section_name": "PASSENGER CARS BUSINESS AREA BALANCE SHEET STRUCTURE 1",
     "title": "unknown title",
     "headers": [
@@ -4937,10 +6910,15 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T889055",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 72,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE 1",
     "title": "unknown title",
     "headers": [
@@ -4994,10 +6972,15 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T5a4959",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 73,
+    "bucket": "management_report",
     "section_name": "POWER ENGINEERING BUSINESS AREA BALANCE SHEET STRUCTURE",
     "title": "unknown title",
     "headers": [
@@ -5051,10 +7034,15 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T093d89",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 74,
+    "bucket": "management_report",
     "section_name": "CO ST OF CAPI TAL AFTER TAX AUTOMOT IVE D IV ISI ON",
     "title": "Cost of capital after tax automotive division",
     "headers": [
@@ -5138,10 +7126,15 @@
       "Proportion of equity",
       "Proportion of debt",
       "Cost of capital after tax"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T0afe43",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 75,
+    "bucket": "management_report",
     "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
     "title": "Return on Investment (ROI) and Value Contribution in the Automotive Division1",
     "headers": [
@@ -5195,10 +7188,15 @@
       "Cost of capital in %",
       "Cost of invested capital",
       "Value contribution"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Td409c0",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 76,
+    "bucket": "management_report",
     "section_name": "FORECAST VERSUS ACTUAL FIGURES",
     "title": "Forecast versus actual figures",
     "headers": [
@@ -5436,10 +7434,15 @@
       "Net cash flow in the Automotive Division",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Tfc4e61",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 77,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET OF VOLKSWAGEN AG AS OF DECEMBER 31",
     "title": "Income statement of Volkswagen AG",
     "headers": [
@@ -5529,10 +7532,15 @@
       "Retained profits brought forward",
       "Appropriations to revenue reserves",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Tab2853",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 77,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET OF VOLKSWAGEN AG AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -5610,10 +7618,15 @@
       "Long-term debt",
       "Medium-term debt",
       "Short-term debt"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T29f6de",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 78,
+    "bucket": "management_report",
     "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "title": "Proposal on the appropriation of net profit",
     "headers": [
@@ -5655,10 +7668,15 @@
       "",
       "Balance (carried forward to new account)",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T26cf5d",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 78,
+    "bucket": "management_report",
     "section_name": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
     "title": "Employee pay and benefits at Volkswagen AG",
     "headers": [
@@ -5712,10 +7730,15 @@
       "Compensated absence",
       "Retirement benefits",
       "Total expense"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Td66b27",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 79,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN AG EXPENDITURE ON ENVIRONMENTAL PROTECTION",
     "title": "Volkswagen AG expenditure on environmental protection",
     "headers": [
@@ -5757,10 +7780,15 @@
     "stub_col": [
       "Investments",
       "Operating costs"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_Td6558d",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 88,
+    "bucket": "management_report",
     "section_name": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
     "title": "Research and development costs in the automotive division",
     "headers": [
@@ -5826,10 +7854,15 @@
       "Sales revenue",
       "Total research and development costs",
       "R&D ratio"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2019_T62fa46",
+    "doc_id": "VW2019",
+    "year": 2019,
+    "page": 100,
+    "bucket": "management_report",
     "section_name": "as of December 31",
     "title": "Proportion of women – as of December 31",
     "headers": [
@@ -5889,6 +7922,7 @@
       "Management ^3",
       "Senior management ^3",
       "Top management ^3"
-    ]
+    ],
+    "paragraphs": []
   }
 ]

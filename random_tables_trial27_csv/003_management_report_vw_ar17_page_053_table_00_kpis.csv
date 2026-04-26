@@ -1,0 +1,7 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+deliveries,Volkswagen Passenger Cars,Worldwide,10038650,2017,units,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_053_table_00_kpis.json
+deliveries,Volkswagen Passenger Cars,Worldwide,9635486,2016,units,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_053_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,702805,2017,units,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_053_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,661555,2016,units,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_053_table_00_kpis.json
+deliveries,Total,Worldwide,10741455,2017,units,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_053_table_00_kpis.json
+deliveries,Total,Worldwide,10297041,2016,units,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_053_table_00_kpis.json

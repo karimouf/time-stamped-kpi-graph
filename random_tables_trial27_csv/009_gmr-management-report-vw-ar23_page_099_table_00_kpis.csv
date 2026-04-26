@@ -1,0 +1,13 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Proportion of Women,Employees,Worldwide,18.7,2023,%,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Employees,Worldwide,18.1,2022,%,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Vocational trainees,Worldwide,20.6,2023,%,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Vocational trainees,Worldwide,20.3,2022,%,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Total management,Worldwide,18.7,2023,%,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Total management,Worldwide,16.8,2022,%,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Management,Worldwide,21.0,2023,%,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Management,Worldwide,18.8,2022,%,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Senior management,Worldwide,14.5,2023,%,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Senior management,Worldwide,13.5,2022,%,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Top management,Worldwide,11.1,2023,%,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json
+Proportion of Women,Top management,Worldwide,9.8,2022,%,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_099_table_00_kpis.json

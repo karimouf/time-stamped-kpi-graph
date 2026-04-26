@@ -1,0 +1,7 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+sales revenue,Power Engineering Business Area,Worldwide,3608,2018,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_070_table_00_kpis.json
+sales revenue,Power Engineering Business Area,Worldwide,3283,2017,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_070_table_00_kpis.json
+operating result,Power Engineering Business Area,Worldwide,-64,2018,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_070_table_00_kpis.json
+operating result,Power Engineering Business Area,Worldwide,-55,2017,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_070_table_00_kpis.json
+operating return on sales,Power Engineering Business Area,Worldwide,-1.8,2018,%,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_070_table_00_kpis.json
+operating return on sales,Power Engineering Business Area,Worldwide,-1.7,2017,%,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar18_page_070_table_00_kpis.json

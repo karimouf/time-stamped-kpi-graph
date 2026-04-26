@@ -1,0 +1,20 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Sales revenue,Passenger Cars and Light Commercial Vehicles,Worldwide,241526,2024,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Sales revenue,Commercial Vehicles,Worldwide,46183,2024,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Sales revenue,Power Engineering,Worldwide,4333,2024,€ million,0,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Sales revenue,Financial Services,Worldwide,58769,2024,€ million,0,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Sales revenue,Total segments,Worldwide,350811,2024,€ million,0,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Sales revenue,Reconciliation,Worldwide,-26155,2024,€ million,0,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Sales revenue,Volkswagen Group,Worldwide,324656,2024,€ million,0,7,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss (operating result),Passenger Cars and Light Commercial Vehicles,Worldwide,13656,2024,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss (operating result),Commercial Vehicles,Worldwide,4218,2024,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss (operating result),Power Engineering,Worldwide,335,2024,€ million,1,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss (operating result),Financial Services,Worldwide,3119,2024,€ million,1,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss (operating result),Total segments,Worldwide,21328,2024,€ million,1,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss (operating result),Reconciliation,Worldwide,-2268,2024,€ million,1,6,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss (operating result),Volkswagen Group,Worldwide,19060,2024,€ million,1,7,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss as a percentage of sales revenue,Passenger Cars and Light Commercial Vehicles,Worldwide,5.7,2024,%,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss as a percentage of sales revenue,Commercial Vehicles,Worldwide,9.1,2024,%,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss as a percentage of sales revenue,Power Engineering,Worldwide,7.7,2024,%,2,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss as a percentage of sales revenue,Financial Services,Worldwide,5.3,2024,%,2,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json
+Segment profit or loss as a percentage of sales revenue,Volkswagen Group,Worldwide,5.9,2024,%,2,7,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_042_table_00_kpis.json

@@ -1,0 +1,7 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+sales revenue,Volkswagen Passenger Cars,Worldwide,182031,2019,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_068_table_00_kpis.json
+sales revenue,Volkswagen Passenger Cars,Worldwide,172678,2018,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_068_table_00_kpis.json
+operating result,Volkswagen Passenger Cars,Worldwide,12188,2019,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_068_table_00_kpis.json
+operating result,Volkswagen Passenger Cars,Worldwide,10000,2018,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_068_table_00_kpis.json
+operating return on sales,Volkswagen Passenger Cars,Worldwide,6.7,2019,%,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_068_table_00_kpis.json
+operating return on sales,Volkswagen Passenger Cars,Worldwide,5.8,2018,%,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_068_table_00_kpis.json

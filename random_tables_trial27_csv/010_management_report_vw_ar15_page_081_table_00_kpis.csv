@@ -1,0 +1,5 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+dividend distribution on ordinary shares,Volkswagen AG,Worldwide,32459879.98,2015,€,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_081_table_00_kpis.json
+dividend distribution on preferred shares,Volkswagen AG,Worldwide,35054925.65,2015,€,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_081_table_00_kpis.json
+balance carried forward to new account,Volkswagen AG,Worldwide,1693492.67,2015,€,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_081_table_00_kpis.json
+net retained profits,Volkswagen AG,Worldwide,69208298.3,2015,€,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_081_table_00_kpis.json

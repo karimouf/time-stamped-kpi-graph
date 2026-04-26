@@ -1,0 +1,31 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+gross cash flow,Passenger Cars,Worldwide,28740,2022,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+gross cash flow,Passenger Cars,Worldwide,26221,2021,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+change in working capital,Passenger Cars,Worldwide,-444,2022,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+change in working capital,Passenger Cars,Worldwide,3439,2021,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from operating activities,Passenger Cars,Worldwide,28296,2022,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from operating activities,Passenger Cars,Worldwide,29659,2021,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from investing activities attributable to operating activities,Passenger Cars,Worldwide,-23060,2022,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from investing activities attributable to operating activities,Passenger Cars,Worldwide,-19266,2021,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+net cash flow,Passenger Cars,Worldwide,5236,2022,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+net cash flow,Passenger Cars,Worldwide,10393,2021,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+gross cash flow,Commercial Vehicles,Worldwide,4079,2022,€ million,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+gross cash flow,Commercial Vehicles,Worldwide,2491,2021,€ million,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+change in working capital,Commercial Vehicles,Worldwide,-2877,2022,€ million,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+change in working capital,Commercial Vehicles,Worldwide,-109,2021,€ million,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from operating activities,Commercial Vehicles,Worldwide,1201,2022,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from operating activities,Commercial Vehicles,Worldwide,2382,2021,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from investing activities attributable to operating activities,Commercial Vehicles,Worldwide,-1953,2022,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from investing activities attributable to operating activities,Commercial Vehicles,Worldwide,-4453,2021,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+net cash flow,Commercial Vehicles,Worldwide,-752,2022,€ million,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+net cash flow,Commercial Vehicles,Worldwide,-2071,2021,€ million,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+gross cash flow,Power Engineering,Worldwide,345,2022,€ million,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+gross cash flow,Power Engineering,Worldwide,333,2021,€ million,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+change in working capital,Power Engineering,Worldwide,23,2022,€ million,13,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+change in working capital,Power Engineering,Worldwide,29,2021,€ million,13,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from operating activities,Power Engineering,Worldwide,368,2022,€ million,14,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from operating activities,Power Engineering,Worldwide,362,2021,€ million,14,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from investing activities attributable to operating activities,Power Engineering,Worldwide,-44,2022,€ million,15,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+cash flows from investing activities attributable to operating activities,Power Engineering,Worldwide,-74,2021,€ million,15,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+net cash flow,Power Engineering,Worldwide,323,2022,€ million,16,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json
+net cash flow,Power Engineering,Worldwide,287,2021,€ million,16,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_053_table_00_kpis.json

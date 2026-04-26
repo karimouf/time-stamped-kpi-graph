@@ -1,0 +1,19 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+sales revenue,Passenger Cars,Worldwide,189304,2022,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+sales revenue,Passenger Cars,Worldwide,172868,2021,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating result,Passenger Cars,Worldwide,14600,2022,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating result,Passenger Cars,Worldwide,13051,2021,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating return on sales,Passenger Cars,Worldwide,7.7,2022,%,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating return on sales,Passenger Cars,Worldwide,7.5,2021,%,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+sales revenue,Commercial Vehicles,Worldwide,39516,2022,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+sales revenue,Commercial Vehicles,Worldwide,30092,2021,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating result,Commercial Vehicles,Worldwide,1588,2022,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating result,Commercial Vehicles,Worldwide,134,2021,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating return on sales,Commercial Vehicles,Worldwide,4.0,2022,%,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating return on sales,Commercial Vehicles,Worldwide,0.4,2021,%,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+sales revenue,Power Engineering,Worldwide,3565,2022,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+sales revenue,Power Engineering,Worldwide,3278,2021,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating result,Power Engineering,Worldwide,281,2022,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating result,Power Engineering,Worldwide,45,2021,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating return on sales,Power Engineering,Worldwide,7.9,2022,%,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json
+operating return on sales,Power Engineering,Worldwide,1.4,2021,%,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_049_table_00_kpis.json

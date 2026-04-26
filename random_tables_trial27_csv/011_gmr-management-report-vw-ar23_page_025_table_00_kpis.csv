@@ -1,0 +1,7 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+deliveries,Volkswagen Passenger Cars,Worldwide,8901338,2023,units,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_025_table_00_kpis.json
+deliveries,Volkswagen Passenger Cars,Worldwide,7957274,2022,units,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_025_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,338174,2023,units,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_025_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,305487,2022,units,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_025_table_00_kpis.json
+deliveries,Total,Worldwide,9239512,2023,units,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_025_table_00_kpis.json
+deliveries,Total,Worldwide,8262761,2022,units,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar23_page_025_table_00_kpis.json

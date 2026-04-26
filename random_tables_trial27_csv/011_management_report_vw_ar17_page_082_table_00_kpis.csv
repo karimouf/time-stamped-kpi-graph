@@ -1,0 +1,25 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+sales,Volkswagen AG,Worldwide,76729,2017,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+sales,Volkswagen AG,Worldwide,75310,2016,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+cost of sales,Volkswagen AG,Worldwide,-73355,2017,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+cost of sales,Volkswagen AG,Worldwide,-70180,2016,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+gross profit on sales,Volkswagen AG,Worldwide,3375,2017,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+gross profit on sales,Volkswagen AG,Worldwide,5131,2016,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+"selling, general and administrative expenses",Volkswagen AG,Worldwide,-7104,2017,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+"selling, general and administrative expenses",Volkswagen AG,Worldwide,-8352,2016,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+net other operating result,Volkswagen AG,Worldwide,-154,2017,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+net other operating result,Volkswagen AG,Worldwide,-2035,2016,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+financial result,Volkswagen AG,Worldwide,8644,2017,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+financial result,Volkswagen AG,Worldwide,8725,2016,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+taxes on income,Volkswagen AG,Worldwide,-409,2017,€ million,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+taxes on income,Volkswagen AG,Worldwide,-670,2016,€ million,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+earnings after tax,Volkswagen AG,Worldwide,4353,2017,€ million,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+earnings after tax,Volkswagen AG,Worldwide,2799,2016,€ million,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+net income for the fiscal year,Volkswagen AG,Worldwide,4353,2017,€ million,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+net income for the fiscal year,Volkswagen AG,Worldwide,2799,2016,€ million,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+retained profits brought forward,Volkswagen AG,Worldwide,2,2017,€ million,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+retained profits brought forward,Volkswagen AG,Worldwide,2,2016,€ million,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+appropriations to revenue reserves,Volkswagen AG,Worldwide,-2174,2017,€ million,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+appropriations to revenue reserves,Volkswagen AG,Worldwide,-1399,2016,€ million,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+net retained profits,Volkswagen AG,Worldwide,2181,2017,€ million,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json
+net retained profits,Volkswagen AG,Worldwide,1402,2016,€ million,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar17_page_082_table_00_kpis.json

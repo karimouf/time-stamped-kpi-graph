@@ -1,0 +1,65 @@
+{
+"kpis": [
+    {
+      "name": "Sales Revenue",
+      "key": "Core brand group",
+      "country": "Worldwide",
+      "value": 137770,
+      "year": 2023,
+      "units": "€ million",
+      "source": "divisions-vw-ar23/page_003_table_00_kpis.json",
+      "row_idx": 0,
+      "col_idx": 3
+    },
+    {
+      "name": "Deliveries",
+      "key": "Volkswagen Passenger Cars Brand",
+      "country": "Worldwide",
+      "value": 4867,
+      "year": 2023,
+      "units": "thousand units",
+      "source": "divisions-vw-ar23/page_006_table_01",
+      "row_idx": 0,
+      "col_idx": 1
+    },
+    {
+      "name": "Production",
+      "key": "Arona",
+      "country": "Worldwide",
+      "value": 76594,
+      "year": 2023,
+      "units": "Units",
+      "source_table": "page_010_table_00",
+      "source_image": "table_00.png",
+      "source_model": "Qwen2.5-VL-72B-Instruct",
+      "row_idx": 0,
+      "col_idx": 1
+    },
+    {
+      "name": "Vehicle sales",
+      "key": "Porsche (Sport Luxury Brand Group)",
+      "country": "Worldwide",
+      "value": 334,
+      "year": 2023,
+      "units": "",
+      "source_table": "page_016_table_01",
+      "source_image": "table_01.png",
+      "source_model": "Qwen2.5-VL-72B-Instruct",
+      "row_idx": 1,
+      "col_idx": 1
+    },
+    {
+      "name": "Audi",
+      "key": "Audi",
+      "country": "Worldwide",
+      "value": 670419,
+      "year": 2023,
+      "units": "Units",
+      "source_table": "page_020_table_02",
+      "source_image": "table_02.png",
+      "source_model": "Qwen2.5-VL-72B-Instruct",
+      "row_idx": 1,
+      "col_idx": 1
+    }
+  ]
+}

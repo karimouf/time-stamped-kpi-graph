@@ -1,6 +1,10 @@
 [
   {
     "table_id": "VW2023_Td85de9",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 3,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY BRAND GROUP AND BUSINESS FIELD",
     "title": "KEY FIGURES BY BRAND GROUP AND BUSINESS FIELD",
     "headers": [
@@ -165,10 +169,88 @@
       "Volkswagen Group before special items",
       "Special items",
       "Volkswagen Group"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P18f810",
+        "page": 2,
+        "section_name": "Brands and Business Fields",
+        "section_level": 2,
+        "text": "In 2023, the Volkswagen Group recorded growth in unit sales and sales revenue year-on-year in a difficult market environment impacted by limited vehicle availability.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions growth in unit sales and sales revenue, which aligns with the table's focus on vehicle sales and sales revenue for 2023."
+      },
+      {
+        "para_id": "VW2023_Pa0688c",
+        "page": 3,
+        "section_name": "REPORTING STRUCTURE OF THE VOLKSWAGEN GROUP",
+        "section_level": 3,
+        "text": "The production figures and deliveries to customers are differentiated by vehicle brands and their models that carry the corresponding brand logo. Unit sales figures contain vehicles sold by respective brand companies, including models of other Group brands. In some cases, there are marked differences between delivery figures and unit sales as a result of our business development in China.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures and deliveries, which are related to vehicle sales but does not provide specific financial data."
+      },
+      {
+        "para_id": "VW2023_P1281db",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In fiscal year 2023, the Volkswagen Group was faced with a persistently challenging market environment. The operating result (prior-year figure before special items) amounted to €22.6 (22.5) billion. While the fair value measurement of derivatives to which hedge accounting is not applied had an adverse effect in the reporting year (€–3.2 billion), it had had a positive effect in the previous year (€+1.8 billion). A year earlier, special items resulting from the diesel issue had weighed on operating result in the amount of €–0.4 billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions operating result and market challenges but lacks detailed sales figures."
+      },
+      {
+        "para_id": "VW2023_P104574",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 9.4 (8.5) million vehicles. Sales revenue increased by 15.5% to €322.3 billion. The higher volume, improved price positioning and mix effects had a positive impact.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Directly provides unit sales and sales revenue figures for 2023, highly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Peec65f",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales increased by 19.3% year-on-year to 4.2 million vehicles. Together with improved price positioning, this increased sales revenue to €187.9 (154.5) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Discusses unit sales and sales revenue in Europe, directly relevant to the table's focus."
+      },
+      {
+        "para_id": "VW2023_P19c2b3",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales in the North American markets increased by 24.2% to 1.1 million vehicles in the reporting year. Driven mainly by higher volumes, sales revenue rose to €67.9 (59.9) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides unit sales and sales revenue figures for North America, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pc26c34",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "On markets in the South America region, we sold 513 thousand vehicles in 2023, an increase of 5.3% compared with 2022. Driven mainly by higher volumes, sales revenue increased by 10.7% to €17.1 billion.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Discusses unit sales and sales revenue in South America, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pd49395",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including the Chinese joint ventures – came to 3.6 (3.6) million vehicles in 2023. Sales revenue amounted to €50.1 (51.4) billion. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales and sales revenue in the Asia-Pacific region, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tae872e",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 3,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES OF THE CORE BRAND GROUP",
     "title": "KEY FIGURES OF THE CORE BRAND GROUP",
     "headers": [
@@ -273,10 +355,88 @@
       "Tech. Components",
       "Consolidation",
       "Core brand group"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P18f810",
+        "page": 2,
+        "section_name": "Brands and Business Fields",
+        "section_level": 2,
+        "text": "In 2023, the Volkswagen Group recorded growth in unit sales and sales revenue year-on-year in a difficult market environment impacted by limited vehicle availability.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions growth in unit sales and sales revenue, which aligns with the table's focus on vehicle sales and sales revenue for 2023."
+      },
+      {
+        "para_id": "VW2023_Pa0688c",
+        "page": 3,
+        "section_name": "REPORTING STRUCTURE OF THE VOLKSWAGEN GROUP",
+        "section_level": 3,
+        "text": "The production figures and deliveries to customers are differentiated by vehicle brands and their models that carry the corresponding brand logo. Unit sales figures contain vehicles sold by respective brand companies, including models of other Group brands. In some cases, there are marked differences between delivery figures and unit sales as a result of our business development in China.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures and deliveries, which are related to vehicle sales but does not provide specific financial data."
+      },
+      {
+        "para_id": "VW2023_P1281db",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In fiscal year 2023, the Volkswagen Group was faced with a persistently challenging market environment. The operating result (prior-year figure before special items) amounted to €22.6 (22.5) billion. While the fair value measurement of derivatives to which hedge accounting is not applied had an adverse effect in the reporting year (€–3.2 billion), it had had a positive effect in the previous year (€+1.8 billion). A year earlier, special items resulting from the diesel issue had weighed on operating result in the amount of €–0.4 billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions operating result and market challenges but lacks detailed sales figures."
+      },
+      {
+        "para_id": "VW2023_P104574",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 9.4 (8.5) million vehicles. Sales revenue increased by 15.5% to €322.3 billion. The higher volume, improved price positioning and mix effects had a positive impact.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Directly provides unit sales and sales revenue figures for 2023, highly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Peec65f",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales increased by 19.3% year-on-year to 4.2 million vehicles. Together with improved price positioning, this increased sales revenue to €187.9 (154.5) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Discusses unit sales and sales revenue in Europe, directly relevant to the table's focus."
+      },
+      {
+        "para_id": "VW2023_P19c2b3",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales in the North American markets increased by 24.2% to 1.1 million vehicles in the reporting year. Driven mainly by higher volumes, sales revenue rose to €67.9 (59.9) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides unit sales and sales revenue figures for North America, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pc26c34",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "On markets in the South America region, we sold 513 thousand vehicles in 2023, an increase of 5.3% compared with 2022. Driven mainly by higher volumes, sales revenue increased by 10.7% to €17.1 billion.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Discusses unit sales and sales revenue in South America, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pd49395",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including the Chinese joint ventures – came to 3.6 (3.6) million vehicles in 2023. Sales revenue amounted to €50.1 (51.4) billion. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales and sales revenue in the Asia-Pacific region, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tab8f8f",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 4,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY DIVISION",
     "title": "KEY FIGURES BY DIVISION",
     "headers": [
@@ -371,10 +531,133 @@
       "Automotive Division ^2",
       "Financial Services Division",
       "Volkswagen Group"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P058382",
+        "page": 3,
+        "section_name": "REPORTING STRUCTURE OF THE VOLKSWAGEN GROUP",
+        "section_level": 3,
+        "text": "In this chapter, we present the key volume and financial data relating to the Group brands and to Volkswagen Financial Services. In light of the considerable importance of the development of business in the world's largest single market for the Volkswagen Group, we also report on business developments and the results of our activities in China in this chapter.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions key volume and financial data but does not provide specific figures relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P1281db",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In fiscal year 2023, the Volkswagen Group was faced with a persistently challenging market environment. The operating result (prior-year figure before special items) amounted to €22.6 (22.5) billion. While the fair value measurement of derivatives to which hedge accounting is not applied had an adverse effect in the reporting year (€–3.2 billion), it had had a positive effect in the previous year (€+1.8 billion). A year earlier, special items resulting from the diesel issue had weighed on operating result in the amount of €–0.4 billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions operating result and market challenges but lacks detailed sales figures."
+      },
+      {
+        "para_id": "VW2023_P104574",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 9.4 (8.5) million vehicles. Sales revenue increased by 15.5% to €322.3 billion. The higher volume, improved price positioning and mix effects had a positive impact.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Directly provides unit sales and sales revenue figures for 2023, highly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Peec65f",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales increased by 19.3% year-on-year to 4.2 million vehicles. Together with improved price positioning, this increased sales revenue to €187.9 (154.5) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Discusses unit sales and sales revenue in Europe, directly relevant to the table's focus."
+      },
+      {
+        "para_id": "VW2023_P19c2b3",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales in the North American markets increased by 24.2% to 1.1 million vehicles in the reporting year. Driven mainly by higher volumes, sales revenue rose to €67.9 (59.9) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides unit sales and sales revenue figures for North America, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pc26c34",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "On markets in the South America region, we sold 513 thousand vehicles in 2023, an increase of 5.3% compared with 2022. Driven mainly by higher volumes, sales revenue increased by 10.7% to €17.1 billion.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Discusses unit sales and sales revenue in South America, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pd49395",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including the Chinese joint ventures – came to 3.6 (3.6) million vehicles in 2023. Sales revenue amounted to €50.1 (51.4) billion. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales and sales revenue in the Asia-Pacific region, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pd63738",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The high point of the Volkswagen Passenger Cars brand's activities in fiscal year 2023 was the market debut of the completely redeveloped bestselling Tiguan, now in its third generation. The interior, with a clearly structured digital cockpit, an infotainment screen, a head-up display and a driver experience switch, is intuitive and the result of actual customer feedback. The new plug-in hybrid drives permit an all-electric range of up to around 100 kilometers and fast DC charging. The new adaptive chassis control system DCC Pro – a piece of technology from the premium segment – provides maximum comfort and agility. New generations of the popular Passat and Touareg models were also launched in the reporting year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses product features and market activities but does not provide specific sales or revenue figures."
+      },
+      {
+        "para_id": "VW2023_Paf5925",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In April 2023, the Volkswagen Passenger Cars brand celebrated the world premiere of the new ID.7, the brand's first global electric model in the upper mid-sized class. The fully electric saloon combines long ranges, quick charging, a spacious interior and intuitive operation, making it the new benchmark for all-electric premium models at Volkswagen. The innovative panoramic sunroof with \"smart glass\" can be switched between opaque and transparent electrically by touch control. Impressive new all-electric concept vehicles were also unveiled: the compact ID. 2all and the sporty ID. GTI Concept.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the global electric model's launch but lacks specific sales or revenue data."
+      },
+      {
+        "para_id": "VW2023_Paa7e28",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.9 million vehicles globally in fiscal year 2023. This was 6.7% more than in the previous year. Growth was achieved above all in Western Europe (+14.7%), North America (+17.0%) and South America (+15.9%).",
+        "relevance_score": 0.7,
+        "relevance_reason": "Provides specific vehicle delivery figures and growth percentage, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P654ea1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.0 (2.6) million vehicles in the reporting year. ID. family models, the Tiguan and the T-Roc were increasingly sought-after. The Taigo was also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions sales figures and popular models, relevant to the table's focus."
+      },
+      {
+        "para_id": "VW2023_Pba87f5",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand produced 4.9 (4.8) million vehicles worldwide in 2023. Volkswagen do Brasil, the largest vehicle manufacturer in Brazil, reached the production milestone of 25 million vehicles in its 70th year of existence.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses production figures, which are related to vehicle sales but does not provide specific financial data."
+      },
+      {
+        "para_id": "VW2023_P7a3343",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 17.1% year-on-year to €86.4 billion in 2023. The operating result (prior-year figure before special items) improved to €3.5 (2.6) billion. Higher volume and price effects plus lower fixed costs had a positive impact, while a rise in product costs as well as the deconsolidation of Volkswagen Group Rus weighed on the result. The operating return on sales (prior-year figure before special items) amounted to 4.1 (3.6)%.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Directly mentions sales revenue and operating result for the Passenger Cars brand, highly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T3f91be",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 4,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY MARKET",
     "title": "KEY FIGURES BY MARKET",
     "headers": [
@@ -451,10 +734,97 @@
       "Asia-Pacific ^2",
       "Hedges on sales revenue",
       "Volkswagen Group ^2"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P1281db",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In fiscal year 2023, the Volkswagen Group was faced with a persistently challenging market environment. The operating result (prior-year figure before special items) amounted to €22.6 (22.5) billion. While the fair value measurement of derivatives to which hedge accounting is not applied had an adverse effect in the reporting year (€–3.2 billion), it had had a positive effect in the previous year (€+1.8 billion). A year earlier, special items resulting from the diesel issue had weighed on operating result in the amount of €–0.4 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions operating result and market challenges but lacks detailed sales figures."
+      },
+      {
+        "para_id": "VW2023_P104574",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 9.4 (8.5) million vehicles. Sales revenue increased by 15.5% to €322.3 billion. The higher volume, improved price positioning and mix effects had a positive impact.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Directly provides unit sales and sales revenue figures for 2023, highly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Peec65f",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales increased by 19.3% year-on-year to 4.2 million vehicles. Together with improved price positioning, this increased sales revenue to €187.9 (154.5) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Discusses unit sales and sales revenue in Europe, directly relevant to the table's focus."
+      },
+      {
+        "para_id": "VW2023_P19c2b3",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales in the North American markets increased by 24.2% to 1.1 million vehicles in the reporting year. Driven mainly by higher volumes, sales revenue rose to €67.9 (59.9) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides unit sales and sales revenue figures for North America, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pc26c34",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "On markets in the South America region, we sold 513 thousand vehicles in 2023, an increase of 5.3% compared with 2022. Driven mainly by higher volumes, sales revenue increased by 10.7% to €17.1 billion.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Discusses unit sales and sales revenue in South America, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pd49395",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including the Chinese joint ventures – came to 3.6 (3.6) million vehicles in 2023. Sales revenue amounted to €50.1 (51.4) billion. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales and sales revenue in the Asia-Pacific region, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Paa7e28",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.9 million vehicles globally in fiscal year 2023. This was 6.7% more than in the previous year. Growth was achieved above all in Western Europe (+14.7%), North America (+17.0%) and South America (+15.9%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides specific vehicle delivery figures and growth percentage, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P654ea1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.0 (2.6) million vehicles in the reporting year. ID. family models, the Tiguan and the T-Roc were increasingly sought-after. The Taigo was also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions sales figures and popular models, relevant to the table's focus."
+      },
+      {
+        "para_id": "VW2023_P7a3343",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 17.1% year-on-year to €86.4 billion in 2023. The operating result (prior-year figure before special items) improved to €3.5 (2.6) billion. Higher volume and price effects plus lower fixed costs had a positive impact, while a rise in product costs as well as the deconsolidation of Volkswagen Group Rus weighed on the result. The operating return on sales (prior-year figure before special items) amounted to 4.1 (3.6)%.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Directly mentions sales revenue for the Passenger Cars brand, highly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T546547",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 6,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
     "title": "VOLKSWAGEN PASSENGER CARS – PRODUCTION",
     "headers": [
@@ -634,10 +1004,61 @@
       "Gol",
       "Phideon",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P5635ca",
+        "page": 5,
+        "section_name": "The Volkswagen Passenger Cars brand",
+        "section_level": 2,
+        "text": "The Volkswagen Passenger Cars brand celebrated the market debut of the new Tiguan in fiscal year 2023. It also launched the all-electric ID.7 saloon. The operating result improved year-on-year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the Tiguan's market debut in 2023, which is relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_Pd63738",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The high point of the Volkswagen Passenger Cars brand's activities in fiscal year 2023 was the market debut of the completely redeveloped bestselling Tiguan, now in its third generation. The interior, with a clearly structured digital cockpit, an infotainment screen, a head-up display and a driver experience switch, is intuitive and the result of actual customer feedback. The new plug-in hybrid drives permit an all-electric range of up to around 100 kilometers and fast DC charging. The new adaptive chassis control system DCC Pro – a piece of technology from the premium segment – provides maximum comfort and agility. New generations of the popular Passat and Touareg models were also launched in the reporting year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Highlights the Tiguan's features and its importance but lacks specific sales data."
+      },
+      {
+        "para_id": "VW2023_Paa7e28",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.9 million vehicles globally in fiscal year 2023. This was 6.7% more than in the previous year. Growth was achieved above all in Western Europe (+14.7%), North America (+17.0%) and South America (+15.9%).",
+        "relevance_score": 0.7,
+        "relevance_reason": "Provides specific vehicle delivery figures for 2023, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P654ea1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.0 (2.6) million vehicles in the reporting year. ID. family models, the Tiguan and the T-Roc were increasingly sought-after. The Taigo was also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions sales figures for popular models, relevant to the table's focus on vehicle sales."
+      },
+      {
+        "para_id": "VW2023_Pba87f5",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand produced 4.9 (4.8) million vehicles worldwide in 2023. Volkswagen do Brasil, the largest vehicle manufacturer in Brazil, reached the production milestone of 25 million vehicles in its 70th year of existence.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures, which relate to vehicle sales but lacks specific sales data."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tc903c2",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 6,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
     "title": "VOLKSWAGEN PASSENGER CARS – KEY FIGURES",
     "headers": [
@@ -699,10 +1120,61 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P5635ca",
+        "page": 5,
+        "section_name": "The Volkswagen Passenger Cars brand",
+        "section_level": 2,
+        "text": "The Volkswagen Passenger Cars brand celebrated the market debut of the new Tiguan in fiscal year 2023. It also launched the all-electric ID.7 saloon. The operating result improved year-on-year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the Tiguan's market debut and improved operating result, which is relevant to sales performance."
+      },
+      {
+        "para_id": "VW2023_Paa7e28",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.9 million vehicles globally in fiscal year 2023. This was 6.7% more than in the previous year. Growth was achieved above all in Western Europe (+14.7%), North America (+17.0%) and South America (+15.9%).",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides specific vehicle delivery figures for 2023, relevant to the table's focus on deliveries."
+      },
+      {
+        "para_id": "VW2023_P654ea1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 3.0 (2.6) million vehicles in the reporting year. ID. family models, the Tiguan and the T-Roc were increasingly sought-after. The Taigo was also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions sales figures for popular models, relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_Pba87f5",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand produced 4.9 (4.8) million vehicles worldwide in 2023. Volkswagen do Brasil, the largest vehicle manufacturer in Brazil, reached the production milestone of 25 million vehicles in its 70th year of existence.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses production figures, which relate to vehicle sales but lacks specific sales data."
+      },
+      {
+        "para_id": "VW2023_P7a3343",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 17.1% year-on-year to €86.4 billion in 2023. The operating result (prior-year figure before special items) improved to €3.5 (2.6) billion. Higher volume and price effects plus lower fixed costs had a positive impact, while a rise in product costs as well as the deconsolidation of Volkswagen Group Rus weighed on the result. The operating return on sales (prior-year figure before special items) amounted to 4.1 (3.6)%.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Directly mentions sales revenue and operating results, highly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tcf247f",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 8,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND PRODUCTION",
     "title": "ŠKODA – PRODUCTION",
     "headers": [
@@ -774,10 +1246,43 @@
       "Superb",
       "Kushaq",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P7af66e",
+        "page": 7,
+        "section_name": "Škoda",
+        "section_level": 2,
+        "text": "The Škoda brand presented the latest generations of the Superb and the Kodiaq in 2023. Unit sales, sales revenue and the operating result were up year-on-year.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions unit sales and the performance of the Superb and Kodiaq, which are relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_Pd58c4a",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Škoda brand delivered 0.9 (0.7) million vehicles worldwide in the reporting year. Sales in Western Europe increased by 27.4%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions Škoda's vehicle deliveries, which relate to the table's focus on unit sales."
+      },
+      {
+        "para_id": "VW2023_P21f5a2",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Škoda sold 1.1 (0.9) million vehicles in the past fiscal year. The Octavia and the all-electric Enyaq iV were particularly popular with customers.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides unit sales figures for Škoda models, including the Octavia and Enyaq iV, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T7fa4c5",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 8,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "ŠKODA – KEY FIGURES",
     "headers": [
@@ -839,10 +1344,52 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P7af66e",
+        "page": 7,
+        "section_name": "Škoda",
+        "section_level": 2,
+        "text": "The Škoda brand presented the latest generations of the Superb and the Kodiaq in 2023. Unit sales, sales revenue and the operating result were up year-on-year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales, sales revenue, and operating result for Škoda, which are relevant to the table's focus on performance metrics."
+      },
+      {
+        "para_id": "VW2023_Pd58c4a",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Škoda brand delivered 0.9 (0.7) million vehicles worldwide in the reporting year. Sales in Western Europe increased by 27.4%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Škoda's vehicle deliveries, which relate to the table's focus on unit sales."
+      },
+      {
+        "para_id": "VW2023_P21f5a2",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Škoda sold 1.1 (0.9) million vehicles in the past fiscal year. The Octavia and the all-electric Enyaq iV were particularly popular with customers.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides unit sales figures for Škoda models, including the Octavia, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pf0b1d8",
+        "page": 7,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Škoda brand's sales revenue increased by 26.2% to €26.5 billion in fiscal year 2023. The operating result improved to €1.8 (0.6) billion thanks to volume and price effects. Exchange rate effects and product costs, and the deconsolidation of Volkswagen Group Rus had a negative impact. At 6.7 (3.0)%, the operating return on sales more than doubled.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Directly mentions sales revenue and operating results for Škoda, highly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T64a728",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 10,
+    "bucket": "divisions",
     "section_name": "SEAT PRODUCTION",
     "title": "SEAT – PRODUCTION",
     "headers": [
@@ -950,10 +1497,52 @@
       "Ateca",
       "",
       "SEAT and CUPRA"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P829b73",
+        "page": 9,
+        "section_name": "SEAT",
+        "section_level": 2,
+        "text": "SEAT is one company with two complementary brands: SEAT and CUPRA. One of the high points of 2023 was the presentation of the all-electric CUPRA Tavascan. Thanks to the success of CUPRA and SEAT's growth, record earnings were achieved in the reporting year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions SEAT and CUPRA's performance and growth, relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_P76e558",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The SEAT brand is a Spanish icon revered by millions of people. Founded over 70 years ago, the company offers vehicles with efficient internal combustion engines in addition to mild hybrids and plug-in hybrids, with which it wins over new customers. In 2023, SEAT launched two special editions of the Ibiza and the Arona featuring the new Marina Pack, which improves the sustainability of both vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Describes the SEAT brand and its offerings, but lacks specific sales figures relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pbdca29",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries to customers from SEAT and CUPRA surged by 34.6% to 519 thousand vehicles in 2023. This increase was largely attributable to the strong performance of the CUPRA brand (+50.9% to 231 thousand vehicles) and to SEAT's return to growth (+24.0% to 288 thousand vehicles).",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions deliveries for SEAT and CUPRA, providing relevant context for the unit sales in the table."
+      },
+      {
+        "para_id": "VW2023_P3da9c9",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The company's unit sales amounted to 602 thousand units in the reporting year. This was 28.5% more than in the previous year. This figure also includes the A1 manufactured for Audi. Both CUPRA and SEAT registered higher demand, their respective best-selling models being the CUPRA Formentor and the SEAT Arona.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides specific unit sales figures for SEAT and CUPRA, directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tf83def",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 10,
+    "bucket": "divisions",
     "section_name": "SEAT",
     "title": "SEAT – KEY FIGURES",
     "headers": [
@@ -1015,10 +1604,52 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P829b73",
+        "page": 9,
+        "section_name": "SEAT",
+        "section_level": 2,
+        "text": "SEAT is one company with two complementary brands: SEAT and CUPRA. One of the high points of 2023 was the presentation of the all-electric CUPRA Tavascan. Thanks to the success of CUPRA and SEAT's growth, record earnings were achieved in the reporting year.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions SEAT and CUPRA's performance and growth, relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_P76e558",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The SEAT brand is a Spanish icon revered by millions of people. Founded over 70 years ago, the company offers vehicles with efficient internal combustion engines in addition to mild hybrids and plug-in hybrids, with which it wins over new customers. In 2023, SEAT launched two special editions of the Ibiza and the Arona featuring the new Marina Pack, which improves the sustainability of both vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Describes the SEAT brand and its offerings, but lacks specific sales figures relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pbdca29",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries to customers from SEAT and CUPRA surged by 34.6% to 519 thousand vehicles in 2023. This increase was largely attributable to the strong performance of the CUPRA brand (+50.9% to 231 thousand vehicles) and to SEAT's return to growth (+24.0% to 288 thousand vehicles).",
+        "relevance_score": 0.8,
+        "relevance_reason": "Mentions deliveries for SEAT and CUPRA, providing relevant context for the unit sales in the table."
+      },
+      {
+        "para_id": "VW2023_P3da9c9",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The company's unit sales amounted to 602 thousand units in the reporting year. This was 28.5% more than in the previous year. This figure also includes the A1 manufactured for Audi. Both CUPRA and SEAT registered higher demand, their respective best-selling models being the CUPRA Formentor and the SEAT Arona.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Provides specific unit sales figures for SEAT and CUPRA, directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tfb06fd",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 12,
+    "bucket": "divisions",
     "section_name": "Volkswagen Commercial Vehicles production",
     "title": "VOLKSWAGEN COMMERCIAL VEHICLES – PRODUCTION",
     "headers": [
@@ -1084,10 +1715,70 @@
       "Caddy, Caddy California",
       "ID. Buzz",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Padcf6f",
+        "page": 11,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "Volkswagen Commercial Vehicles recorded a successful year in 2023 and is preparing a model initiative with the long-wheelbase version of the ID. Buzz, the California CONCEPT and the new Transporter.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions the successful year for Volkswagen Commercial Vehicles and the ID. Buzz, relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_Pd98931",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Following the successful rollout of the all-electric ID. Buzz in 2022, the Volkswagen Commercial Vehicles brand celebrated the world premiere of the long-wheelbase version of the ID. Buzz in the reporting year at the surfer hotspot Huntington Beach, on the Pacific Coast Highway near Los Angeles. Made in Germany for Europe – and also for Canada and the United States. The VW Bus is making its comeback in North America as the large sixand seven-seater ID. Buzz. The new panoramic roof, which can be darkened at the touch of a button, is reminiscent of the legendary 1950s Samba Bus. The ID. Buzz again won many international prizes for Volkswagen Commercial Vehicles chosen by panels of experts, among them \"Car of the Year Award 2023\" from What Car? (UK), \"Best Cars\" from auto, motor und sport magazine and \"Company Car of the Year 2023\" as best electric van. At the Caravan Salon 2023 in Düsseldorf, Volkswagen Commercial Vehicles celebrated the world premiere of the California CONCEPT that is based on the long-wheelbase version of the Multivan and is almost ready for mass production. This is the first California model to enable electric travel thanks to the plug-in hybrid all-wheel drive. Volkswagen Commercial Vehicles already started pre-sales of the new Transporter at the end of the year. It will be significantly upgraded in all areas and together with the ID. Buzz and the Multivan creates the most innovative \"Bulli\" range of all time. Like the new California, the new generation of the model series will celebrate its world premiere in 2024.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the ID. Buzz and its rollout, which is relevant to the sales context but lacks specific figures."
+      },
+      {
+        "para_id": "VW2023_P1d5fb0",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by Volkswagen Commercial Vehicles amounted to 409 thousand units (+24.6%) in the reporting year. Sales in Western Europe (+21.7%), Central and Eastern Europe (+43.8%) and South America (+29.0%) developed particularly encouragingly.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides specific delivery figures for Volkswagen Commercial Vehicles, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P4bfaf3",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 423 thousand vehicles in the reporting year, representing an increase of 24.5% compared with the previous year. Nearly all models contributed to the increase.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Mentions vehicle sales figures for Volkswagen Commercial Vehicles, highly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P61cf03",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2023, the Volkswagen Commercial Vehicles brand produced 398 thousand vehicles, 13.4% more than in the previous year. The four millionth vehicle rolled off the production line at the production plant in Poznań, Poland, which celebrated its 30th anniversary in 2023.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses production figures, which relate to vehicle sales but does not provide specific sales data."
+      },
+      {
+        "para_id": "VW2023_Pcf9fbd",
+        "page": 11,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles increased sales revenue by 33.8% to €15.3 billion in fiscal year 2023. The operating result improved to €873 (529) million. In addition to the higher volume, price effects had a particularly positive impact. The operating return on sales rose to 5.7 (4.6)%.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions sales revenue and operating results, which are relevant to the financial aspects of the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T278d07",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 12,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
     "title": "VOLKSWAGEN COMMERCIAL VEHICLES – KEY FIGURES",
     "headers": [
@@ -1149,10 +1840,70 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Padcf6f",
+        "page": 11,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "Volkswagen Commercial Vehicles recorded a successful year in 2023 and is preparing a model initiative with the long-wheelbase version of the ID. Buzz, the California CONCEPT and the new Transporter.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Mentions Volkswagen Commercial Vehicles' successful year and the ID. Buzz, which is relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_Pd98931",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Following the successful rollout of the all-electric ID. Buzz in 2022, the Volkswagen Commercial Vehicles brand celebrated the world premiere of the long-wheelbase version of the ID. Buzz in the reporting year at the surfer hotspot Huntington Beach, on the Pacific Coast Highway near Los Angeles. Made in Germany for Europe – and also for Canada and the United States. The VW Bus is making its comeback in North America as the large sixand seven-seater ID. Buzz. The new panoramic roof, which can be darkened at the touch of a button, is reminiscent of the legendary 1950s Samba Bus. The ID. Buzz again won many international prizes for Volkswagen Commercial Vehicles chosen by panels of experts, among them \"Car of the Year Award 2023\" from What Car? (UK), \"Best Cars\" from auto, motor und sport magazine and \"Company Car of the Year 2023\" as best electric van. At the Caravan Salon 2023 in Düsseldorf, Volkswagen Commercial Vehicles celebrated the world premiere of the California CONCEPT that is based on the long-wheelbase version of the Multivan and is almost ready for mass production. This is the first California model to enable electric travel thanks to the plug-in hybrid all-wheel drive. Volkswagen Commercial Vehicles already started pre-sales of the new Transporter at the end of the year. It will be significantly upgraded in all areas and together with the ID. Buzz and the Multivan creates the most innovative \"Bulli\" range of all time. Like the new California, the new generation of the model series will celebrate its world premiere in 2024.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the ID. Buzz's rollout, relevant to the context of vehicle sales but lacks specific figures."
+      },
+      {
+        "para_id": "VW2023_P1d5fb0",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by Volkswagen Commercial Vehicles amounted to 409 thousand units (+24.6%) in the reporting year. Sales in Western Europe (+21.7%), Central and Eastern Europe (+43.8%) and South America (+29.0%) developed particularly encouragingly.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Provides specific delivery figures for Volkswagen Commercial Vehicles, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P4bfaf3",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 423 thousand vehicles in the reporting year, representing an increase of 24.5% compared with the previous year. Nearly all models contributed to the increase.",
+        "relevance_score": 0.9,
+        "relevance_reason": "Mentions vehicle sales figures for Volkswagen Commercial Vehicles, highly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P61cf03",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2023, the Volkswagen Commercial Vehicles brand produced 398 thousand vehicles, 13.4% more than in the previous year. The four millionth vehicle rolled off the production line at the production plant in Poznań, Poland, which celebrated its 30th anniversary in 2023.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses production figures, which relate to vehicle sales but does not provide specific sales data."
+      },
+      {
+        "para_id": "VW2023_Pcf9fbd",
+        "page": 11,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles increased sales revenue by 33.8% to €15.3 billion in fiscal year 2023. The operating result improved to €873 (529) million. In addition to the higher volume, price effects had a particularly positive impact. The operating return on sales rose to 5.7 (4.6)%.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Mentions sales revenue and operating results, which are relevant to the financial aspects of the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tc509cc",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "AUDI PRODUCTION",
     "title": "AUDI – PRODUCTION",
     "headers": [
@@ -1296,10 +2047,34 @@
       "R8",
       "Q6 e-tron",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P0ef856",
+        "page": 13,
+        "section_name": "The Progressive brand group",
+        "section_level": 2,
+        "text": "The Progressive brand group posted a robust result for 2023 in a challenging economic climate thanks to stable market performance and strong brands. Audi presented the Q6 e-tron, its first all-electric model based on the brand new Premium Platform Electric (PPE).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the Progressive brand group and Audi's new model, relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2023_Pd0382c",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales at the Progressive brand group amounted to 1.3 (1.1) million vehicles in the reporting year. There was particularly high demand for the Q5, A3 and the all-electric Q4 e-tron. The Chinese joint ventures sold a further 668 (599) thousand locally produced Audi vehicles. Unit sales at the Lamborghini brand amounted to 10.6 thousand vehicles (+19.4%). Bentley sold 13.1 (15.5) thousand vehicles and Ducati 58.4 (65.0) thousand motorcycles.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales for the Progressive brand group, including high demand for the Q5 and A3, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tfd0815",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "BENTLEY, LAMBORGHINI, DUCATI PRODUCTION",
     "title": "BENTLEY, LAMBORGHINI, DUCATI – PRODUCTION",
     "headers": [
@@ -1383,10 +2158,34 @@
       "Aventador, Revuelto",
       "",
       "Ducati, motorcycles"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P0ef856",
+        "page": 13,
+        "section_name": "The Progressive brand group",
+        "section_level": 2,
+        "text": "The Progressive brand group posted a robust result for 2023 in a challenging economic climate thanks to stable market performance and strong brands. Audi presented the Q6 e-tron, its first all-electric model based on the brand new Premium Platform Electric (PPE).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the Progressive brand group and its brands, including Bentley and Lamborghini, relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2023_Pc02700",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley revealed the limited-edition Continental GT Speed Le Mans Collection to mark the 20th anniversary of the Continental GT. Lamborghini unveiled the new Revuelto in 2023, its first series hybrid and the Italian automaker's ticket into an electrified future.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions Bentley and its models, which are relevant to the vehicle sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tfc0d05",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "AUDI (PROGRESSIVE BRAND GROUP)",
     "title": "AUDI – KEY FIGURES",
     "headers": [
@@ -1469,10 +2268,43 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P0ef856",
+        "page": 13,
+        "section_name": "The Progressive brand group",
+        "section_level": 2,
+        "text": "The Progressive brand group posted a robust result for 2023 in a challenging economic climate thanks to stable market performance and strong brands. Audi presented the Q6 e-tron, its first all-electric model based on the brand new Premium Platform Electric (PPE).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the Progressive brand group and its brands, including Audi, Bentley, and Lamborghini, relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2023_Pc02700",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley revealed the limited-edition Continental GT Speed Le Mans Collection to mark the 20th anniversary of the Continental GT. Lamborghini unveiled the new Revuelto in 2023, its first series hybrid and the Italian automaker's ticket into an electrified future.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions Bentley and its models, which are relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2023_Pd0382c",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales at the Progressive brand group amounted to 1.3 (1.1) million vehicles in the reporting year. There was particularly high demand for the Q5, A3 and the all-electric Q4 e-tron. The Chinese joint ventures sold a further 668 (599) thousand locally produced Audi vehicles. Unit sales at the Lamborghini brand amounted to 10.6 thousand vehicles (+19.4%). Bentley sold 13.1 (15.5) thousand vehicles and Ducati 58.4 (65.0) thousand motorcycles.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions unit sales for the Progressive brand group, including high demand for the Q5 and A3, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T9eb828",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 16,
+    "bucket": "divisions",
     "section_name": "PORSCHE PRODUCTION",
     "title": "PORSCHE – PRODUCTION",
     "headers": [
@@ -1520,10 +2352,34 @@
       "Taycan",
       "Panamera",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pca5cb1",
+        "page": 15,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "Porsche celebrated two anniversaries in 2023: \"75 years of Porsche sports cars\" and \"60 years of the Porsche 911\". Particularly in its anniversary year, the iconic 911 sports car helped to lift unit sales, sales revenue and earnings year-on-year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions Porsche's anniversaries and overall sales performance, relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2023_Pe889c5",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the reporting year, Porsche also celebrated the 60th anniversary of the iconic 911 sports car with an exclusive special edition built for maximum driving enjoyment: in a limited run of 1,963 vehicles, the 911 S/T combines consistent lightweight design, characteristic GT agility and performance as well as an unfiltered acoustic experience to recreate the essence of 60 years of the 911. In addition, Porsche debuted the new generation of the Cayenne with a highly digitalized display and control concept, new chassis technology and innovative hightech features. High-resolution HD Matrix LED headlights provide for road illumination tailored to any driving situation. An air quality system improves the air in the cabin for passengers. For the first time in the Cayenne, the front passenger has their own infotainment display. With its extensively upgraded design and more powerful family of powertrains, the Cayenne emphasizes its ambition to be the most engaging sports car in its segment. The third generation of the Panamera model was also presented. The luxury saloon underscores its sporty character with the new Porsche Active Ride chassis as well as even more powerful engines, including four efficient e-hybrid powertrains that offer more power, greater range and improved efficiency.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the 911 special edition and new Cayenne, relevant to Porsche's sales context."
+      }
     ]
   },
   {
     "table_id": "VW2023_T7a5279",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 16,
+    "bucket": "divisions",
     "section_name": "PORSCHE (SPORT LUXURY BRAND GROUP)1",
     "title": "PORSCHE – KEY FIGURES1",
     "headers": [
@@ -1585,10 +2441,25 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pca5cb1",
+        "page": 15,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "Porsche celebrated two anniversaries in 2023: \"75 years of Porsche sports cars\" and \"60 years of the Porsche 911\". Particularly in its anniversary year, the iconic 911 sports car helped to lift unit sales, sales revenue and earnings year-on-year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Porsche's anniversaries and overall sales performance, relevant to the context of vehicle sales."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tb4d396",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 18,
+    "bucket": "divisions",
     "section_name": "The TRATON GROUP PRODUCTION",
     "title": "TRATON – PRODUCTION",
     "headers": [
@@ -1690,10 +2561,52 @@
       "Trucks",
       "Buses",
       "TRATON"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pc5b0a0",
+        "page": 17,
+        "section_name": "The TRATON GROUP",
+        "section_level": 2,
+        "text": "The TRATON GROUP took a major step forward in e-mobility in fiscal year 2023, also continuing to implement its TRATON Way Forward strategy for future success.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions TRATON GROUP's initiatives and overall performance, relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2023_P148d26",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "TRATON established TRATON Charging Solutions to give drivers of battery-electric commercial vehicles easy access to charging stations and thus facilitate the transition to e-mobility. The services provider offers customers services from contracting, invoicing and route planning, to utilization insights. TRATON's Scania and MAN brands can thus offer their customers access to Europe's most extensive charging network, which currently comprises twelve countries. At the end of 2023, Milence, a joint venture between TRATON, Daimler Truck and the Volvo Group, reached an important milestone in developing the charging infrastructure with the opening of the first charging station in Venlo (Netherlands).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions TRATON Charging Solutions and its role in e-mobility, relevant to the commercial vehicle context."
+      },
+      {
+        "para_id": "VW2023_P597723",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Scania reached key milestones on the road to a sustainable transport system in 2023, being with the opening of a battery assembly plant at its headquarters in Södertälje (Sweden). To simplify the transition to batteryelectric trucks for freight forwarders, Scania and digital freight forwarder sennder formed the joint venture company JUNA. A unique pay-per-use billing model reduces upfront costs for customers and lessens potential residual value concerns. Access to guaranteed loads via a digital platform also creates commercial predictability. Scania likewise made progress in decarbonizing its supply chains by placing its first order for green steel with the supplier H2 Green Steel.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses Scania's milestones in sustainable transport, relevant to the commercial vehicle sales context."
+      },
+      {
+        "para_id": "VW2023_P9a9860",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "MAN also reached a significant milestone in the transition to zero-emission technologies. Launched on the market in 2024, the new MAN eTruck is the brand's first battery-electric long-haul truck. The ground-breaking ceremony for large-scale battery production at the Nuremberg site was held in 2023. From 2025, up to 100,000 high-voltage battery systems per year will be manufactured there. Together with other industrial companies and universities, MAN is working on the ATLAS-L4 research and development project to put self-driving trucks on the road. In the ANITA research project, MAN is also working with Deutsche Bahn, the Fresenius University of Applied Sciences and wireless technology specialist Götting KG to test the potential of self-driving trucks for transporting goods between logistics hubs.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions MAN's milestones in zero-emission technologies, relevant to the commercial vehicle sales context."
+      }
     ]
   },
   {
     "table_id": "VW2023_T01cd55",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 18,
+    "bucket": "divisions",
     "section_name": "The TRATON GROUP",
     "title": "TRATON – DELIVERIES",
     "headers": [
@@ -1755,10 +2668,52 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pc5b0a0",
+        "page": 17,
+        "section_name": "The TRATON GROUP",
+        "section_level": 2,
+        "text": "The TRATON GROUP took a major step forward in e-mobility in fiscal year 2023, also continuing to implement its TRATON Way Forward strategy for future success.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions TRATON GROUP's performance and strategy, relevant to the context of vehicle sales."
+      },
+      {
+        "para_id": "VW2023_P148d26",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "TRATON established TRATON Charging Solutions to give drivers of battery-electric commercial vehicles easy access to charging stations and thus facilitate the transition to e-mobility. The services provider offers customers services from contracting, invoicing and route planning, to utilization insights. TRATON's Scania and MAN brands can thus offer their customers access to Europe's most extensive charging network, which currently comprises twelve countries. At the end of 2023, Milence, a joint venture between TRATON, Daimler Truck and the Volvo Group, reached an important milestone in developing the charging infrastructure with the opening of the first charging station in Venlo (Netherlands).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions TRATON Charging Solutions and its role in e-mobility, relevant to the commercial vehicle context."
+      },
+      {
+        "para_id": "VW2023_P597723",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Scania reached key milestones on the road to a sustainable transport system in 2023, being with the opening of a battery assembly plant at its headquarters in Södertälje (Sweden). To simplify the transition to batteryelectric trucks for freight forwarders, Scania and digital freight forwarder sennder formed the joint venture company JUNA. A unique pay-per-use billing model reduces upfront costs for customers and lessens potential residual value concerns. Access to guaranteed loads via a digital platform also creates commercial predictability. Scania likewise made progress in decarbonizing its supply chains by placing its first order for green steel with the supplier H2 Green Steel.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses Scania's milestones in sustainable transport, relevant to the commercial vehicle sales context."
+      },
+      {
+        "para_id": "VW2023_P9a9860",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "MAN also reached a significant milestone in the transition to zero-emission technologies. Launched on the market in 2024, the new MAN eTruck is the brand's first battery-electric long-haul truck. The ground-breaking ceremony for large-scale battery production at the Nuremberg site was held in 2023. From 2025, up to 100,000 high-voltage battery systems per year will be manufactured there. Together with other industrial companies and universities, MAN is working on the ATLAS-L4 research and development project to put self-driving trucks on the road. In the ANITA research project, MAN is also working with Deutsche Bahn, the Fresenius University of Applied Sciences and wireless technology specialist Götting KG to test the potential of self-driving trucks for transporting goods between logistics hubs.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions MAN's milestones in zero-emission technologies, relevant to the commercial vehicle sales context."
+      }
     ]
   },
   {
     "table_id": "VW2023_T86bdf4",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "VOLKSWAGEN GROUP IN CHINA – KEY FIGURES",
     "headers": [
@@ -1799,10 +2754,15 @@
       "Deliveries",
       "Vehicle sales ^1",
       "Production"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2023_T827792",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "EARNINGS",
     "title": "VOLKSWAGEN GROUP IN CHINA – EARNINGS",
     "headers": [
@@ -1832,10 +2792,15 @@
     "stub_col": [
       "Operating result (100%)",
       "Operating result (proportionate)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2023_T775803",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "LOCAL PRODUCTION",
     "title": "VOLKSWAGEN GROUP IN CHINA – LOCAL PRODUCTION",
     "headers": [
@@ -1877,10 +2842,25 @@
       "Audi",
       "Škoda",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pb9b950",
+        "page": 19,
+        "section_name": "Volkswagen Group China",
+        "section_level": 2,
+        "text": "The Volkswagen Group showed its strengths in the fiercely competitive Chinese market during fiscal year 2023. Deliveries were up year-on-year in all segments.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Volkswagen Group's performance in the Chinese market, relevant to the context of vehicle deliveries."
+      }
     ]
   },
   {
     "table_id": "VW2023_T05c746",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
     "title": "VOLKSWAGEN FINANCIAL SERVICES – KEY FIGURES",
     "headers": [
@@ -2054,10 +3034,43 @@
       "Operating result",
       "Earnings before tax",
       "Employees at Dec. 31"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P1f333c",
+        "page": 22,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The main refinancing sources for Volkswagen Financial Services are money market and capital market instruments, asset-backed securities (ABS) transactions, customer deposits from the direct banking business and bank credit lines. Volkswagen Financial Services AG published its first \"Green Finance Framework\" in the reporting year. The framework supports the current sustainability strategy of the automotive financial and mobility services provider with regard to its refinancing and thereby enables the company to tap into a new investor base. The \"Green Finance Framework\" covers all refinancing products of Volkswagen Financial Services AG. The funds generated under the framework will be used exclusively to refinance credit and leasing contracts for battery-electric vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Volkswagen Financial Services and its refinancing sources, relevant to the financial context of the table."
+      },
+      {
+        "para_id": "VW2023_P3cc157",
+        "page": 23,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2023, the number of new financing, leasing, service and insurance contracts from Volkswagen Financial Services signed was up on the prior-year figure at 8.7 (7.8) million. At the end of the reporting year, the total number of contracts stood at 22.3 (22.0) million. The number of contracts in the Customer Financing/Leasing area fell by 1.5% to 10.2 million. The Service/Insurance area accounted for 12.1 million contracts, 3.9% more than in the previous year. From January 1, 2024, other types of insurance contracts will be taken into account; in this case, the number of contracts in the Service/Insurance area as of December 31, 2023 would have been 15.6 million and the total contract portfolio would have comprised 25.8 million contracts. With credit eligibility criteria remaining unchanged, the penetration rate, expressed as the ratio of financed or leased vehicles to relevant Group delivery volumes – including the Chinese joint ventures – increased to 32.6 (32.3)%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the number of new financing and leasing contracts, directly relevant to the table's focus on contracts."
+      },
+      {
+        "para_id": "VW2023_P32ad86",
+        "page": 23,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Volkswagen Financial Services generated sales revenue of €50.8 billion in the reporting year, 15.5% more than in the previous year. As expected, the operating result contracted to €3.3 (5.6) billion. In addition to higher interest expenses, the decline was primarily attributable to adverse effects from derivatives, which had had a positive effect in the prior year. Lower risk costs and strong demand for used vehicles had also had a positive impact in the previous year.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions sales revenue and operating results for Volkswagen Financial Services, relevant to the financial context of the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T1af6ba",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 6,
+    "bucket": "management_report",
     "section_name": "PEOPLE & TRANSFORMATION",
     "title": "COMPARATIVE PRESENTATION OF SUPERVISORY BOARD REMUNERATION",
     "headers": [
@@ -2273,10 +3286,15 @@
       "Earnings after tax of the Volkswagen Group",
       "Employees",
       "Volkswagen AG employees"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2023_T894e2d",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 7,
+    "bucket": "management_report",
     "section_name": "STRATEGIC FINANCIAL PERFORMANCE INDICATORS",
     "title": "STRATEGIC KPIS",
     "headers": [
@@ -2331,10 +3349,79 @@
       "Cash conversion rate in the Automotive Division ^1",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P046c6a",
+        "page": 8,
+        "section_name": "Internal Management System and Key Performance Indicators",
+        "section_level": 2,
+        "text": "This chapter describes how the Volkswagen Group is managed and the key performance indicators used for this purpose. In addition to financial measures, our management system also contains nonfinancial key performance indicators.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph describes the management and key performance indicators, which is relevant to understanding the context of the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2023_P2826d4",
+        "page": 8,
+        "section_name": "Internal Management System and Key Performance Indicators",
+        "section_level": 2,
+        "text": "The Volkswagen Group's performance and success are expressed in both financial and nonfinancial key performance indicators.",
+        "relevance_score": 0.8,
+        "relevance_reason": "The paragraph discusses performance and success indicators, which relates to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2023_Pa3933a",
+        "page": 8,
+        "section_name": "Internal Management System and Key Performance Indicators",
+        "section_level": 2,
+        "text": "In the following, we first describe the internal management process and then explain the Volkswagen Group's most significant performance indicators, known as the core performance indicators.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph explains the internal management process and performance indicators, relevant to the financial metrics."
+      },
+      {
+        "para_id": "VW2023_Pf74b17",
+        "page": 8,
+        "section_name": "INTERNAL MANAGEMENT PROCESS IN THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "Consistent, close integration of the Group and brand strategies with the operational planning process ensures transparency at the Volkswagen Group when it comes to the financial assessment and evaluation of strategic decisions. The operational medium-term planning that is conducted once a year and generally covers a period of five years is incorporated into the strategic planning as a key management element of the Group.",
+        "relevance_score": 0.8,
+        "relevance_reason": "The paragraph discusses integration of strategies with operational planning, relevant to the financial performance indicators."
+      },
+      {
+        "para_id": "VW2023_P300695",
+        "page": 8,
+        "section_name": "INTERNAL MANAGEMENT PROCESS IN THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "Medium-term planning forms the core of our operational planning and is used to formulate and safeguard the requirements for realizing strategic projects designed to meet Group targets in both technical and economic terms – and particularly in relation to earnings, cash flow and liquidity effects. In addition, this planning also serves as a basis to coordinate all business areas with respect to the strategic action areas concerned, namely functions/processes, products and markets.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph details medium-term planning related to financial and operational targets, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P6f1d13",
+        "page": 8,
+        "section_name": "INTERNAL MANAGEMENT PROCESS IN THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "The coordinated results of the upstream planning processes are used as the basis for the medium-term financial planning: the Group's financial planning, including the brands and business fields, comprises the income statement, cash flow and balance sheet planning, profitability and liquidity, as well as the upfront investments needed for alternative products and the implementation of strategic options in the future. The first year of the medium-term planning period is fixed and a budget drawn up for the individual months. This is planned in detail down to the level of the operating cost centers.",
+        "relevance_score": 0.8,
+        "relevance_reason": "The paragraph discusses financial planning processes, which is relevant to the metrics presented in the table."
+      },
+      {
+        "para_id": "VW2023_P9ca262",
+        "page": 8,
+        "section_name": "INTERNAL MANAGEMENT PROCESS IN THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "The budget is reviewed each month to establish the target achievement level. Key internal management instruments comprise target/actual comparisons, prior-year comparisons, variance analyses and, where necessary, action plans to ensure targets are met. For the current fiscal year, detailed revolving monthly forecasts are prepared for the coming three months and the full year, taking into account the current risks and opportunities.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph discusses budget reviews and financial management, relevant to the financial performance indicators."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tddc4ce",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 25,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN GROUP DELIVERIES1",
     "title": "VOLKSWAGEN GROUP DELIVERIES1",
     "headers": [
@@ -2375,10 +3462,34 @@
       "Passenger Cars",
       "Commercial Vehicles",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P4f2e4c",
+        "page": 25,
+        "section_name": "VOLKSWAGEN GROUP DELIVERIES",
+        "section_level": 4,
+        "text": "The Volkswagen Group delivered 9,239,512 vehicles to customers worldwide in fiscal year 2023. This was 11.8% or 976,751 units more than in the previous year, which had suffered in particular from the limited availability of Group models caused by the continued shortage of semiconductors, and from the Russia-Ukraine conflict. Parts supply shortages continued to have an adverse effect in the reporting year. In addition, disruptions in logistics chains had a negative effect; however, this effect diminished in the course of the year. Sales of both passenger cars and commercial vehicles were up year-on-year. In the following, we report separately on deliveries in the Passenger Cars Business Area and the Commercial Vehicles Business Area.",
+        "relevance_score": 1.0,
+        "relevance_reason": "The paragraph directly states the total number of vehicles delivered in 2023 and compares it to the previous year, which aligns perfectly with the table data."
+      },
+      {
+        "para_id": "VW2023_Pe7bc57",
+        "page": 25,
+        "section_name": "GLOBAL DELIVERIES BY THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 1,
+        "text": "Sales of Volkswagen Group passenger cars and light commercial vehicles worldwide increased to 8,901,338 units in fiscal year 2023. This was 11.9% or 944,064 vehicles more than in the previous year, which had suffered in particular from the limited availability of Group models caused by the continued shortage of semiconductors, and from the Russia-Ukraine conflict. Parts supply shortages continued to have an adverse effect in the reporting year. In addition, disruptions in logistics chains had a negative effect; however, this effect diminished in the course of the year. With the exception of Bentley, all Volkswagen Group brands delivered more vehicles to customers than in the previous year. We recorded an increase in deliveries to customers in all major individual markets as well as in all sales regions around the world.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides specific sales figures for passenger cars and light commercial vehicles in 2023, directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T543216",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 29,
+    "bucket": "management_report",
     "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET1",
     "title": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET1",
     "headers": [
@@ -2642,10 +3753,15 @@
       "Lamborghini",
       "Bentley",
       "Porsche"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2023_Tecc11b",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 30,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLE DELIVERIES TO CUSTOMERS BY MARKET1",
     "title": "COMMERCIAL VEHICLE DELIVERIES TO CUSTOMERS BY MARKET1",
     "headers": [
@@ -2783,10 +3899,43 @@
       "MAN",
       "Navistar",
       "Volkswagen Truck & Bus"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P453005",
+        "page": 30,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In the 27 EU states excluding Malta, but including the United Kingdom, Norway and Switzerland (EU27+3) sales in the reporting year were up by 34.8% on the same period of the previous year and amounted to a total of 155,726 units, of which 123,525 were trucks and 6,308 were buses. Here, the MAN brand delivered 25,893 vehicles from the MAN TGE van series.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides specific sales figures for the EU27+3 region, which directly relates to the table data."
+      },
+      {
+        "para_id": "VW2023_P563e9d",
+        "page": 30,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In fiscal year 2023, deliveries in Türkiye were much stronger than in the previous year, at 5,737 (4,413) vehicles. Trucks accounted for 5,126 units and buses for 292 units, while 319 vehicles from the MAN TGE van series were sold. In South Africa, deliveries of Volkswagen Group commercial vehicles increased by 32.9% yearon-year to a total of 4,891 units; of this figure 4,407 were trucks and 484 were buses.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses vehicle deliveries in Türkiye, which is relevant to the regional data in the table."
+      },
+      {
+        "para_id": "VW2023_Pf8c5f6",
+        "page": 30,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "Sales in North America rose to 93,430 (82,828) vehicles in the reporting year; this included 78,277 trucks and 15,153 buses.",
+        "relevance_score": 1.0,
+        "relevance_reason": "The paragraph discusses vehicle sales in North America, which is relevant to the regional data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T334c64",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 35,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES AND MARKET INDICES FROM JANUARY 1 TO DECEMBER 31, 2023",
     "title": "VOLKSWAGEN SHARE KEY FIGURES AND MARKET INDICES",
     "headers": [
@@ -2872,10 +4021,79 @@
       "",
       "EURO STOXX Automobiles & Parts",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pc1f837",
+        "page": 34,
+        "section_name": "Shares and Bonds",
+        "section_level": 1,
+        "text": "The intensifying competition in the automotive sector with increasingly aggressive pricing, particularly in China, put pressure on the price of Volkswagen AG's ordinary and preferred shares in the reporting year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the impact of competition on the prices of Volkswagen's ordinary and preferred shares, directly relating to the share price data in the table."
+      },
+      {
+        "para_id": "VW2023_P68c73b",
+        "page": 34,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "In fiscal year 2023, thanks to positive economic data, the international stock markets initially continued the upward trend that they had begun in October 2022 and recorded significant gains. Over time, however, hopes that national central banks would ease back on the pace of interest rate increases changed to growing concerns about further hikes to rein in persistently high inflation. What is more, the crisis in the international banking sector triggered by the higher interest rates deeply unsettled the financial markets, a situation that was exacerbated among other things by the debt ceiling debates in the United States. Encouraging economic and corporate data initially bolstered the stock markets as the year progressed, before prices came under pressure again. By the end of the reporting year, prices had recovered once more in anticipation of interest rate cuts in the year 2024.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph discusses the overall trends in international stock markets, which indirectly relates to Volkswagen's share prices but lacks specific focus on Volkswagen."
+      },
+      {
+        "para_id": "VW2023_P0e12bc",
+        "page": 34,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "The German stock market index (DAX) got off to a tremendous start in 2023, initially recording significant gains over the 2022 year-end closing price. Sentiment brightened on the back of falling energy prices, expectations of declining inflation rates and improved leading economic indicators. However, in the months that followed, stock prices were hit by continued interest rate hikes on the part of the European Central Bank in light of continued high inflationary pressure. The DAX transitioned into sideways movement. As the year went on, the turbulence at several international banks triggered by rising interest rates and the US debt ceiling dispute had an adverse effect on share prices. This was compounded by economic woes caused among other things by the muted economic data coming from China. Supported by receding inflation and speculation about interest rate cuts, market sentiment improved in the last trading weeks of the reporting year, with the DAX rising to a new record high in mid-December and ending 2023 up 20.3% on the previous year's level.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the DAX index and its impact on stock prices, which is relevant but not exclusively focused on Volkswagen's shares."
+      },
+      {
+        "para_id": "VW2023_Pdb4797",
+        "page": 34,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "The prices of Volkswagen AG's preferred and ordinary shares initially developed very positively at the beginning of the reporting year. The sound results for the 2022 fiscal year published at the beginning of March 2023, the dividend proposed for 2022 and a favorable outlook for 2023 caused a temporary rally. The investment plans announced when the annual report was presented were received critically by the capital markets due to the high level of capital required for the transformation of the company. The intensifying competition in the automotive sector likewise acted as a damper on the share price. Price cuts by competitors, especially for electric vehicles, and concerns about increasingly aggressive pricing generated further uncertainty among investors. Declining market shares in China combined with the assessment by market participants regarding the Group's high dependence on developments in this country also weighed on the share price. Expectations of falling margins in the automotive industry and lower demand for electric vehicles, which led to stiffer competition,",
+        "relevance_score": 1.0,
+        "relevance_reason": "The paragraph details the initial positive development of Volkswagen's shares and factors influencing their prices, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P6c6a2d",
+        "page": 35,
+        "section_name": "PRICE DEVELOPMENT FROM DECEMBER 2022 TO DECEMBER 2023",
+        "section_level": 4,
+        "text": "initially pushed down prices further. Buoyed by a positive overall market environment, the shares then regained some ground before stabilizing at a low level in the last trading weeks of the year. The 2023 year-end closing price was down 4.0% for the preferred share and 19.8% for the ordinary share compared with the prior-year figure. Assuming that the regular dividend (before deduction of taxes) was reinvested in Volkswagen shares at the time of distribution, the total return on the preferred shares was +3.1% and the total return on the ordinary shares was –15.1%. The return on the preferred shares was therefore lower than that of the benchmark indices, DAX and EURO STOXX Automobiles & Parts.",
+        "relevance_score": 1.0,
+        "relevance_reason": "The paragraph discusses the year-end closing prices of Volkswagen shares and their percentage changes, directly relevant to the table data."
+      },
+      {
+        "para_id": "VW2023_P831253",
+        "page": 36,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 4,
+        "text": "The current dividend proposal can be found in the chapter entitled \"Volkswagen AG (condensed, in accordance with the German Commercial Code)\" of this annual report. The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €9.00 per ordinary share and €9.06 per preferred share for fiscal year 2023. On this basis, the total dividend amounts to €4.5 (4.4) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 28.3% for the reporting year and stood at 29.4% for the previous year; the special dividend due to the IPO of Porsche AG is not included in either of these figures. We strive to achieve a payout ratio of at least 30%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides information about the dividend proposal, which is related to share performance but not directly to share prices."
+      },
+      {
+        "para_id": "VW2023_P72155a",
+        "page": 36,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 4,
+        "text": "Based on the dividend proposal for the reporting year, the dividend yield on Volkswagen ordinary shares is 7.6 (5.9)%, measured by the closing price on the last trading day in 2023. The dividend yield on preferred shares is 8.1 (7.5)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses dividend yields based on share prices, which is relevant but focuses more on dividends than on share prices themselves."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tcf7d57",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 38,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
     "title": "VOLKSWAGEN SHARE KEY FIGURES – 5 YEAR OVERVIEW",
     "headers": [
@@ -3311,10 +4529,25 @@
       "Turnover of Volkswagen preferred shares",
       "",
       "Volkswagen share of total DAX turnover"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P70fce8",
+        "page": 37,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 4,
+        "text": "Basic earnings per ordinary share were €31.92 (29.66) in fiscal year 2023. Basic earnings per preferred share were €31.98 (29.72). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting year. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses earnings per share, which is related to dividends but does not directly address the dividend development data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Td3fba5",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 40,
+    "bucket": "management_report",
     "section_name": "REFINANCING",
     "title": "UTILIZATION OF MONEY AND CAPITAL MARKET PROGRAMS",
     "headers": [
@@ -3356,10 +4589,106 @@
       "Bonds",
       "of which hybrid issues",
       "Asset-backed securities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P9b91ef",
+        "page": 39,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group further diversified its refinancing activities in 2023 and carried out several successful transactions in the international capital markets amid a challenging market environment.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the diversification of refinancing activities, which relates to financial instruments but does not provide specific details about the amounts utilized."
+      },
+      {
+        "para_id": "VW2023_P9331ce",
+        "page": 39,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "With the growing electrification of the vehicle portfolio, sustainable financial instruments are an increasing focus of the refinancing strategy. In March 2023, Volkswagen International Finance N.V. placed two green bonds with a total volume of €1.75 billion. In August 2023, the company successfully issued its first green hybrid notes with a total principal amount of €1.75 billion after duly calling a hybrid note with a principal amount of €750 million to be redeemed as of September 4, 2023. These green bonds are based on the Volkswagen Group's Green Finance Framework presented in November 2022. This allows the Company to refinance capital expenditures that are aligned with the EU Taxonomy, whereby Volkswagen will limit itself to all-electric vehicles. Volkswagen Financial Services AG also published its first Green Finance Framework in August 2023, which is to be used exclusively for refinancing financial products for all-electric vehicles. In September 2023, Volkswagen Leasing GmbH placed its first green bonds on the capital market with a total volume of €2.0 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sustainable financial instruments and green bonds, relevant to the financial instruments but lacks specific utilization details."
+      },
+      {
+        "para_id": "VW2023_P4bb11f",
+        "page": 39,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In the US capital market, Volkswagen Group of America Finance, LLC placed bonds with a total volume of USD 5.65 billion in September and November 2023. Notes with a volume of CAD 750 million were issued in the Canadian refinancing market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses bond placements in the US capital market, which relates to financial instruments but does not provide specific amounts utilized."
+      },
+      {
+        "para_id": "VW2023_P32c1fe",
+        "page": 39,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was active locally on the Chinese capital market for the first time through Volkswagen International Finance N.V. and issued what is known as a Panda bond worth CNY 1.5 billion in September 2023.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions the issuance of a Panda bond, which is relevant to financial instruments but lacks specific utilization details."
+      },
+      {
+        "para_id": "VW2023_P5f2e65",
+        "page": 39,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In May and November 2023, TRATON Finance Luxembourg S.A., an indirect subsidiary of TRATON SE, issued bonds in three tranches with a total volume of €1.75 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses bond issuance by a subsidiary, relevant to financial instruments but does not provide specific amounts utilized."
+      },
+      {
+        "para_id": "VW2023_P93c0b6",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In addition to this, the Volkswagen Group issued private placements in various currencies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions private placements in various currencies, relevant to financial instruments but lacks specific utilization details."
+      },
+      {
+        "para_id": "VW2023_Pafdf7f",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "As well as the green bonds, official euro benchmark bonds were issued for a further €2.0 billion for the Financial Services Division. Securities were also issued in various currencies and regions.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses euro benchmark bonds and securities issued, which relates to financial instruments but does not provide specific amounts utilized."
+      },
+      {
+        "para_id": "VW2023_P1da6b3",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Alongside the placement of senior, unsecured bonds, asset-backed securities (ABS) transactions were another element of our refinancing activities. In Europe, public ABS transactions with a total volume of €2.75 billion were placed. Public ABS transactions were also issued in the United Kingdom, Australia, Japan and Brazil.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses asset-backed securities transactions, relevant to financial instruments but lacks specific utilization details."
+      },
+      {
+        "para_id": "VW2023_P0dbb0c",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The Volkswagen Group was also actively involved in the commercial paper market with several issuing companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions activity in the commercial paper market, relevant to financial instruments but does not provide specific amounts utilized."
+      },
+      {
+        "para_id": "VW2023_Pb3eb3c",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The following table shows which financial instruments were utilized on the money and capital markets as of December 31, 2023 and illustrates the financial flexibility of the Volkswagen Group:",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly states the financial instruments utilized on the money and capital markets as of December 31, 2023, making it highly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tbee31e",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 42,
+    "bucket": "management_report",
     "section_name": "Results of Operations, Financial Position and Net Assets",
     "title": "KEY FIGURES FOR 2023 BY SEGMENT",
     "headers": [
@@ -3420,10 +4749,61 @@
       "Sales revenue",
       "Segment profit or loss (operating result)",
       "as a percentage of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P732c3e",
+        "page": 42,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "Against the backdrop of a challenging market environment and intensifying competition in the automotive sector, the Volkswagen Group generated significantly higher sales revenue in the reporting year while maintaining its operating result at the same level as in the previous year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Volkswagen Group's sales revenue and operating results, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P91c18c",
+        "page": 42,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group's segment reporting comprises the four reportable segments of Passenger Cars and Light Commercial Vehicles, Commercial Vehicles, Power Engineering and Financial Services, in compliance with IFRS 8 and in line with the Group's internal financial management and reporting structures.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph explains the segments of the Volkswagen Group, which aligns with the categories in the table."
+      },
+      {
+        "para_id": "VW2023_Pbaa9e0",
+        "page": 42,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The reconciliation covers activities and other operations that do not, by definition, constitute segments. These include the unallocated Group financing activities. Consolidation adjustments between the segments (including the holding company functions) are also contained in the reconciliation. The purchase price allocations for Porsche Holding Salzburg and Porsche, Scania, MAN and Navistar are allocated to their corresponding segments.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses reconciliation activities, which are relevant to understanding the overall financial picture but do not provide specific data."
+      },
+      {
+        "para_id": "VW2023_P5822c9",
+        "page": 42,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Automotive Division comprises the Passenger Cars and Light Commercial Vehicles segment, the Commercial Vehicles segment and the Power Engineering segment, as well as the figures from the reconciliation. The Passenger Cars and Light Commercial Vehicles segment is combined with the reconciliation to form the Passenger Cars Business Area, while the Commercial Vehicles and Power Engineering segments are identical to the business areas of the same name. The Financial Services Division corresponds to the Financial Services segment.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph outlines the structure of the Automotive Division, which relates to the segments in the table but lacks specific financial data."
+      },
+      {
+        "para_id": "VW2023_P9e08d2",
+        "page": 42,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "At Volkswagen, segment profit or loss is measured on the basis of the operating result.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses how segment profit or loss is measured, which is relevant to the operating results in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T99930a",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 44,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT BY DIVISION",
     "title": "INCOME STATEMENT BY DIVISION",
     "headers": [
@@ -3628,10 +5008,43 @@
       "Noncontrolling interests",
       "Earnings attributable to Volkswagen AG hybrid capital investors",
       "Earnings attributable to Volkswagen AG shareholders"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pb7e8d2",
+        "page": 45,
+        "section_name": "RESULTS OF OPERATIONS Results of operations of the Group",
+        "section_level": 4,
+        "text": "In the period from January to December 2023, the Volkswagen Group's sales revenue amounted to €322.3 billion, up 15.5% on the prior-year figure. This was mainly attributable to a rise in volume and beneficial changes in the price positioning and in the mix. These factors were offset by exchange rate effects. The prior-year period had been impacted to an even greater extent by limited vehicle availability due to parts supply shortages. The Volkswagen Group generated 81.5 (82.6)% of its sales revenue abroad. Gross profit increased by €8.8 billion to €61.0 billion. The gross margin was 18.9 (18.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph summarizes the Volkswagen Group's sales revenue and gross profit, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P019b5c",
+        "page": 45,
+        "section_name": "RESULTS OF OPERATIONS Results of operations of the Group",
+        "section_level": 4,
+        "text": "In fiscal year 2023, the Volkswagen Group's operating result of €22.6 (22.1) billion was on a level with the previous year. The operating return on sales was 7.0 (7.9)%. In particular, higher vehicle sales and improved price positioning were set against a rise in product costs (in particular for commodities). The fair value measurement of derivatives to which hedge accounting is not applied (especially commodity hedges) had a negative effect of €–3.2 billion on the operating result in the period from January to December 2023; it had boosted the Group's earnings by €1.8 billion in the prior-year period, as had beneficial effects of €0.8 billion from derivatives in the Financial Services Division. The deconsolidation of Volkswagen Group Rus and its subsidiaries led to a loss of €0.4 billion in 2023. In the previous year, the result had been impacted mainly by expenses relating to loss allowances and risk provisions due to the direct impact of the Russia-Ukraine conflict and special items in connection with the diesel issue. The financial result increased by €0.7 billion to €0.6 billion. The share of the result of equity-accounted investments was slightly below that of the prior year. In the interest result, higher interest income was not sufficient to offset the rise in interest expenses resulting primarily from changes in the interest rates used to measure provisions. The other financial result was affected in the reporting year among other things by adverse exchange rate effects, especially as a result of the sharp depreciation of the Argentinian peso. This was set against lower non-cash expenses from adjustments to the carrying amounts of investees because of changes in share prices and impairment tests, and against positive net income from securities and funds. In the prior-year period, the impairment loss recognized on the equity investment in Argo AI and changes in share prices affecting net income from securities and funds, particularly as a result of the Russia-Ukraine conflict, had both had a negative impact.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result and return on sales, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P2510d8",
+        "page": 45,
+        "section_name": "RESULTS OF OPERATIONS Results of operations of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's earnings before tax were up €1.1 billion to €23.2 billion in fiscal year 2023. The return on sales before tax declined to 7.2 (7.9)%. Income taxes resulted in an expense of €5.3 (6.2) billion, which in turn led to a tax rate of 22.7 (28.2)%. Earnings after tax were noticeably up on the previous year, at €17.9 (15.9) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides information about earnings before tax and earnings after tax, relevant to the financial performance data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tcd5942",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 46,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
     "title": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND ENGINEERING BUSINESS AREAS",
     "headers": [
@@ -3721,10 +5134,43 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pb7e8d2",
+        "page": 45,
+        "section_name": "RESULTS OF OPERATIONS Results of operations of the Group",
+        "section_level": 4,
+        "text": "In the period from January to December 2023, the Volkswagen Group's sales revenue amounted to €322.3 billion, up 15.5% on the prior-year figure. This was mainly attributable to a rise in volume and beneficial changes in the price positioning and in the mix. These factors were offset by exchange rate effects. The prior-year period had been impacted to an even greater extent by limited vehicle availability due to parts supply shortages. The Volkswagen Group generated 81.5 (82.6)% of its sales revenue abroad. Gross profit increased by €8.8 billion to €61.0 billion. The gross margin was 18.9 (18.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph summarizes the Volkswagen Group's sales revenue and segment performance, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P019b5c",
+        "page": 45,
+        "section_name": "RESULTS OF OPERATIONS Results of operations of the Group",
+        "section_level": 4,
+        "text": "In fiscal year 2023, the Volkswagen Group's operating result of €22.6 (22.1) billion was on a level with the previous year. The operating return on sales was 7.0 (7.9)%. In particular, higher vehicle sales and improved price positioning were set against a rise in product costs (in particular for commodities). The fair value measurement of derivatives to which hedge accounting is not applied (especially commodity hedges) had a negative effect of €–3.2 billion on the operating result in the period from January to December 2023; it had boosted the Group's earnings by €1.8 billion in the prior-year period, as had beneficial effects of €0.8 billion from derivatives in the Financial Services Division. The deconsolidation of Volkswagen Group Rus and its subsidiaries led to a loss of €0.4 billion in 2023. In the previous year, the result had been impacted mainly by expenses relating to loss allowances and risk provisions due to the direct impact of the Russia-Ukraine conflict and special items in connection with the diesel issue. The financial result increased by €0.7 billion to €0.6 billion. The share of the result of equity-accounted investments was slightly below that of the prior year. In the interest result, higher interest income was not sufficient to offset the rise in interest expenses resulting primarily from changes in the interest rates used to measure provisions. The other financial result was affected in the reporting year among other things by adverse exchange rate effects, especially as a result of the sharp depreciation of the Argentinian peso. This was set against lower non-cash expenses from adjustments to the carrying amounts of investees because of changes in share prices and impairment tests, and against positive net income from securities and funds. In the prior-year period, the impairment loss recognized on the equity investment in Argo AI and changes in share prices affecting net income from securities and funds, particularly as a result of the Russia-Ukraine conflict, had both had a negative impact.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result and return on sales, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P2510d8",
+        "page": 45,
+        "section_name": "RESULTS OF OPERATIONS Results of operations of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's earnings before tax were up €1.1 billion to €23.2 billion in fiscal year 2023. The return on sales before tax declined to 7.2 (7.9)%. Income taxes resulted in an expense of €5.3 (6.2) billion, which in turn led to a tax rate of 22.7 (28.2)%. Earnings after tax were noticeably up on the previous year, at €17.9 (15.9) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides information about earnings before tax and earnings after tax, relevant to the financial performance data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T5d972b",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 49,
+    "bucket": "management_report",
     "section_name": "CASH FLOW STATEMENT BY DIVISION",
     "title": "CASH FLOW STATEMENT BY DIVISION",
     "headers": [
@@ -4079,10 +5525,43 @@
       "Gross liquidity",
       "Total third-party borrowings",
       "Net liquidity at Dec. 317"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pbb1c28",
+        "page": 48,
+        "section_name": "Financial position of the Group",
+        "section_level": 1,
+        "text": "In the period from January to December 2023, the Volkswagen Group recorded gross cash flow of €48.5 (49.3) billion. The non-cash measurement effects in connection with hedging transactions, which are included in earnings, must be eliminated from the cash flow statement. Cash outflows of around €1.5 billion for tax payments relating to prior assessment periods had an adverse impact. The change in working capital amounted to €–29.1 (–20.8) billion, driven primarily by a higher increase in receivables and lease assets and a smaller rise in liabilities compared to the prior year. A smaller increase in inventories and higher other provisions had an offsetting effect. Cash outflows resulting from the diesel issue were lower than in 2022. Cash flows from operating activities went down by €9.1 billion to €19.4 billion in fiscal year 2023.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the gross cash flow for the Volkswagen Group, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P3b74d2",
+        "page": 48,
+        "section_name": "Financial position of the Automotive Division",
+        "section_level": 1,
+        "text": "In the reporting year, the Automotive Division's gross cash flow was €35.8 billion, an earnings-related rise of €2.6 billion compared with the previous year. The non-cash measurement effects in connection with hedging transactions, which are included in earnings, must be eliminated from the cash flow statement. Cash outflows of around €1.5 billion for tax payments relating to prior assessment periods had an adverse impact. The change in working capital amounted to €2.1 (–3.3) billion. The year-on-year change was primarily attributable to a smaller rise in inventories and higher other provisions. These effects were set against a smaller increase in liabilities than in the previous year. As a consequence, cash flows from operating activities in an amount of €37.9 billion were 26.7% higher than in the previous year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's gross cash flow, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P836184",
+        "page": 50,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 4,
+        "text": "In the period from January to December 2023, the Automotive Division's net cash flow of €10.7 billion was €5.9 billion up on the prior-year figure. The cash conversion rate, which is the ratio of the Automotive Division's net cash flow to operating result, stood at 57.0 (29.2)% at the end of 2023.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's net cash flow, which is directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T6b8984",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 50,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
     "title": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS",
     "headers": [
@@ -4208,10 +5687,34 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P836184",
+        "page": 50,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 4,
+        "text": "In the period from January to December 2023, the Automotive Division's net cash flow of €10.7 billion was €5.9 billion up on the prior-year figure. The cash conversion rate, which is the ratio of the Automotive Division's net cash flow to operating result, stood at 57.0 (29.2)% at the end of 2023.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's net cash flow, which is directly relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P250d9a",
+        "page": 51,
+        "section_name": "Financial position in the Financial Services Division",
+        "section_level": 3,
+        "text": "In fiscal year 2023, the Financial Services Division recorded a gross cash flow of €12.7 billion, down €3.4 billion on the prior-year figure for reasons such as lower earnings. The change in working capital amounted to €–31.2 (–17.5) billion. Higher growth in lease assets and receivables and a rise in inventories led to a higher level of funds tied up in working capital than in the previous year. This was offset by a larger increase in liabilities. Consequently, cash flows from operating activities decreased by €17.1 billion to €–18.5 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Financial Services Division's gross cash flow and changes in working capital, which are relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T624755",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 53,
+    "bucket": "management_report",
     "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -4556,10 +6059,88 @@
       "Other liabilities",
       "Liabilities associated with assets held for sale",
       "Total equity and liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P8b7942",
+        "page": 52,
+        "section_name": "Consolidated balance sheet structure",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Volkswagen Group had total assets of €600.3 billion, 6.4% more than at the end of 2022. Total assets as of the reporting date reflected the implementation of the new guidance on accounting for insurance contracts (IFRS 17), which led to a decrease in total assets and liabilities. A corresponding retrospective adjustment was made to the 2022 year-end figure. Equity was up by €11.6 billion to €189.9 billion, mainly because of the encouraging earnings. The equity ratio of 31.6 (31.6)% was on a level with the figure recorded at the end of the previous year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total assets of the Volkswagen Group, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P74f29a",
+        "page": 52,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "The noticeable increase in the Automotive Division's intangible assets at the end of 2023 as against December 31, 2022 was driven in particular by a rise in capitalized development costs. Property, plant and equipment was up slightly, with investments in property, plant and equipment set against lower depreciation. Equityaccounted investments declined for reasons that included dividend resolutions as well as impairment losses as a result of changes in share prices and in response to impairment tests. The intragroup reclassification of the equity investment in Europcar, which is held via Green Mobility Holding, to the Financial Services Division also contributed to this downturn. Noncurrent other receivables and financial assets decreased, due mainly to a decline in positive effects from the measurement of derivatives compared to year-end 2022. Total noncurrent assets amounted to €186.0 (178.7) billion, driven by higher volumes.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in the Automotive Division's intangible assets, which is relevant to the asset data in the table."
+      },
+      {
+        "para_id": "VW2023_P5b9bf1",
+        "page": 52,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "Current assets stood at €120.2 (122.7) billion on December 31, 2023, down from the prior-year figure. Current other receivables and financial assets went up, buoyed primarily by the volume-related rise in trade receivables. Total securities were down €10.7 billion to €22.2 billion, while cash and cash equivalents in the Automotive Division increased by €5.7 billion to €28.7 billion at the end of December 2023. The \"Assets held for sale\" item comprises the carrying amounts of the assets of subsidiaries of Porsche earmarked for divestment, as well as assets of MAN Energy Solutions. The \"Liabilities held for sale\" item comprises the carrying amounts of the corresponding liabilities.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses current assets and changes in cash and cash equivalents, which relates to the financial data but is not directly about total assets."
+      },
+      {
+        "para_id": "VW2023_P848b6e",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "At €146.3 billion, the Automotive Division's equity on December 31, 2023 was 7.6% higher than at the end of 2022. The main contributing factors were encouraging earnings in the reporting year and the green hybrid notes issued in August 2023. The dividend distributed to the shareholders of Volkswagen AG, adverse currency translation effects, higher actuarial losses from the remeasurement of pension plans because of the change in the discount rate, and the redemption of the hybrid note called as of September 2023 resulted in a reduction in equity. Noncontrolling interests, which increased noticeably, were mostly attributable to the noncontrolling interest shareholders of the Porsche AG Group and of the TRATON Group. The equity ratio climbed to 47.8 (45.1)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's equity and its changes, which relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P56b6e0",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "Noncurrent liabilities were on a level with the previous year, amounting to €86.9 (88.3) billion at the end of the reporting year. The noncurrent financial liabilities included in this item decreased, mainly because of reclassifications from noncurrent to current liabilities reflecting shorter remaining maturities. Pension provisions increased, driven primarily by actuarial remeasurement following a change in the discount rate.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses noncurrent liabilities and their changes, which is relevant but not directly related to the assets data."
+      },
+      {
+        "para_id": "VW2023_P08e221",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "At €73.1 (77.1) billion, current liabilities on December 31, 2023 were also down on the previous year. Current financial liabilities amounted to €–8.6 (–11.0) billion. The figures for the Automotive Division also contain the elimination of intragroup transactions between the Automotive and Financial Services divisions. As the current financial liabilities for the primary Automotive Division were lower than the loans granted to the Financial Services Division, a negative amount was disclosed in both periods. Current other liabilities were down, primarily because of the special dividend, which was resolved in connection with the IPO of Porsche AG in December 2022 and distributed in January 2023. This was offset by the netting of the right to payment from Porsche SE arising from the second tranche of the ordinary shares of Porsche AG.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses current liabilities and their changes, which is relevant but not directly related to the assets data."
+      },
+      {
+        "para_id": "VW2023_P773776",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "At the end of fiscal year 2023, the Automotive Division had total assets of €306.2 billion, 1.6% more than at the end of 2022.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total assets of the Automotive Division, which is directly relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pe3e912",
+        "page": 54,
+        "section_name": "Financial Services Division balance sheet structure",
+        "section_level": 4,
+        "text": "On December 31, 2023, the Financial Services Division's total assets were €294.1 billion, 12.0% more than at the end of 2022. The figure as of the reporting date reflects the implementation of the new guidance on accounting for insurance contracts (IFRS 17), which led to a decrease in total assets and liabilities. A corresponding retrospective adjustment was made to the previous year-end figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total assets of the Financial Services Division, which is directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tfaeb76",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 55,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET STRUCTURE OF THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS",
     "title": "unknown title",
     "headers": [
@@ -4703,10 +6284,61 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P848b6e",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "At €146.3 billion, the Automotive Division's equity on December 31, 2023 was 7.6% higher than at the end of 2022. The main contributing factors were encouraging earnings in the reporting year and the green hybrid notes issued in August 2023. The dividend distributed to the shareholders of Volkswagen AG, adverse currency translation effects, higher actuarial losses from the remeasurement of pension plans because of the change in the discount rate, and the redemption of the hybrid note called as of September 2023 resulted in a reduction in equity. Noncontrolling interests, which increased noticeably, were mostly attributable to the noncontrolling interest shareholders of the Porsche AG Group and of the TRATON Group. The equity ratio climbed to 47.8 (45.1)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's equity and its changes, which relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P56b6e0",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "Noncurrent liabilities were on a level with the previous year, amounting to €86.9 (88.3) billion at the end of the reporting year. The noncurrent financial liabilities included in this item decreased, mainly because of reclassifications from noncurrent to current liabilities reflecting shorter remaining maturities. Pension provisions increased, driven primarily by actuarial remeasurement following a change in the discount rate.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses noncurrent liabilities and their changes, which is relevant but not directly related to the assets data."
+      },
+      {
+        "para_id": "VW2023_P08e221",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "At €73.1 (77.1) billion, current liabilities on December 31, 2023 were also down on the previous year. Current financial liabilities amounted to €–8.6 (–11.0) billion. The figures for the Automotive Division also contain the elimination of intragroup transactions between the Automotive and Financial Services divisions. As the current financial liabilities for the primary Automotive Division were lower than the loans granted to the Financial Services Division, a negative amount was disclosed in both periods. Current other liabilities were down, primarily because of the special dividend, which was resolved in connection with the IPO of Porsche AG in December 2022 and distributed in January 2023. This was offset by the netting of the right to payment from Porsche SE arising from the second tranche of the ordinary shares of Porsche AG.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses current liabilities and their changes, which is relevant but not directly related to the assets data."
+      },
+      {
+        "para_id": "VW2023_P773776",
+        "page": 54,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2023",
+        "section_level": 1,
+        "text": "At the end of fiscal year 2023, the Automotive Division had total assets of €306.2 billion, 1.6% more than at the end of 2022.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total assets of the Automotive Division, which is directly relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pe3e912",
+        "page": 54,
+        "section_name": "Financial Services Division balance sheet structure",
+        "section_level": 4,
+        "text": "On December 31, 2023, the Financial Services Division's total assets were €294.1 billion, 12.0% more than at the end of 2022. The figure as of the reporting date reflects the implementation of the new guidance on accounting for insurance contracts (IFRS 17), which led to a decrease in total assets and liabilities. A corresponding retrospective adjustment was made to the previous year-end figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total assets of the Financial Services Division, which is directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tc57f7f",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 57,
+    "bucket": "management_report",
     "section_name": "COST OF CAPITAL AFTER TAX IN THE AUTOMOTIVE DIVISION",
     "title": "COST OF CAPITAL AFTER TAX IN THE AUTOMOTIVE DIVISION",
     "headers": [
@@ -4790,10 +6422,43 @@
       "Proportion of equity",
       "Proportion of debt",
       "Cost of capital after tax"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pf5e4c9",
+        "page": 57,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 1,
+        "text": "The cost of equity is determined using the Capital Asset Pricing Model (CAPM). This model uses the yield on long-term risk-free Bunds, increased by the risk premium attaching to investments in the equity market. The risk premium comprises a general market risk and a specific business risk. The general risk premium of 7.5% reflects the general risk of a capital investment in the equity market. The specific business risk – price fluctuations in Volkswagen preferred shares – is modeled in comparison to the MSCI World Index when calculating the beta factor. The MSCI World Index is a global capital market benchmark for investors.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the cost of equity and its calculation, which is relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2023_Pe452e4",
+        "page": 57,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 1,
+        "text": "The analysis period for the beta factor calculation spans five years with annual beta figures calculated on a weekly basis followed by the subsequent calculation of the average. A beta factor of 1.13 (1.15) was determined for 2023.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions the beta factor calculation, which is relevant to the cost of capital."
+      },
+      {
+        "para_id": "VW2023_P0104d2",
+        "page": 57,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 1,
+        "text": "The cost of debt is based on the average yield for long-term corporate bonds. As borrowing costs are taxdeductible, the cost of debt is adjusted to account for the tax rate of 30%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses cost of debt and its tax adjustment, relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T4925b1",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 58,
+    "bucket": "management_report",
     "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
     "title": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
     "headers": [
@@ -4847,10 +6512,34 @@
       "Cost of capital in %",
       "Cost of invested capital",
       "Value contribution"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P761baf",
+        "page": 58,
+        "section_name": "Return on investment (ROI) and value contribution in the reporting year",
+        "section_level": 4,
+        "text": "At €15,218 (14,080) million for fiscal year 2023, the operating result after tax for the Automotive Division, including the proportionate operating result of the equity-accounted Chinese joint ventures, was up on the prioryear figure. Higher vehicle sales and improved price positioning were set against a rise in product costs (in particular for commodities). In addition, the fair value measurement of derivatives to which hedge accounting is not applied (especially commodity hedges) had a negative effect on the operating result in the reporting year (€–3.2 billion), in contrast to the prior-year period, when it had boosted earnings by €1.8 billion. The effect of purchase price allocation on earnings and assets is not taken into account as this cannot be influenced by management in the course of business operations.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result after tax for the Automotive Division, which is directly relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pbdcb9a",
+        "page": 58,
+        "section_name": "Return on investment (ROI) and value contribution in the reporting year",
+        "section_level": 4,
+        "text": "At €123,887 (117,402) million, invested capital increased noticeably in the reporting year compared with the prior year. The return on investment (ROI) is the return on invested capital for a particular period based on the operating result after tax. Due to the improved operating result, the ROI of 12.3 (12.0)% exceeded both the prioryear figure and our minimum required rate of return on invested capital of 9%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses invested capital and return on investment, which directly relates to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tc0a904",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 60,
+    "bucket": "management_report",
     "section_name": "FORECAST VERSUS ACTUAL FIGURES",
     "title": "FORECAST VERSUS ACTUAL FIGURES",
     "headers": [
@@ -5096,10 +6785,52 @@
       "Net cash flow in the Automotive Division",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P1281c6",
+        "page": 59,
+        "section_name": "SUMMARY OF BUSINESS DEVELOPMENT AND ECONOMIC POSITION",
+        "section_level": 4,
+        "text": "In the reporting year, the Volkswagen Group's business was impacted by the challenging global market environment, parts supply shortages and disruptions in the logistics chain. In this environment, we delivered 9.2 million vehicles to customers in the past fiscal year, which was within the corridor we last forecast.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph mentions the delivery of 9.2 million vehicles, which directly relates to the data on deliveries to customers in the table."
+      },
+      {
+        "para_id": "VW2023_Pe6cf96",
+        "page": 59,
+        "section_name": "SUMMARY OF BUSINESS DEVELOPMENT AND ECONOMIC POSITION",
+        "section_level": 4,
+        "text": "Group sales revenue increased by 15.5% and was thus at the upper end of the expected corridor.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in group sales revenue, which is directly relevant to the sales revenue data in the table."
+      },
+      {
+        "para_id": "VW2023_P45a6a0",
+        "page": 59,
+        "section_name": "SUMMARY OF BUSINESS DEVELOPMENT AND ECONOMIC POSITION",
+        "section_level": 4,
+        "text": "At €22.6 billion, the operating result was in the range of our adjusted forecast and thus level with the prioryear figure before special items.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result, which directly relates to the operating result data in the table."
+      },
+      {
+        "para_id": "VW2023_P4271d0",
+        "page": 61,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Sales increased by 16.3% year-on-year to €92.4 billion in 2023, driven particularly by higher sales volumes and a more favorable price-product mix. Sales generated abroad accounted for a share of €53.6 billion or 58.0%. Cost of sales increased by 9.1% to €86.7 billion due to higher vehicle sales in the reporting year, among other reasons.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales figures, which directly relates to the sales revenue data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T9db796",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 61,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
     "title": "INCOME STATEMENT OF VOLKSWAGEN AG",
     "headers": [
@@ -5189,10 +6920,70 @@
       "Retained profits brought forward",
       "Release of/appropriation to revenue reserves",
       "Net retained profits"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P4271d0",
+        "page": 61,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Sales increased by 16.3% year-on-year to €92.4 billion in 2023, driven particularly by higher sales volumes and a more favorable price-product mix. Sales generated abroad accounted for a share of €53.6 billion or 58.0%. Cost of sales increased by 9.1% to €86.7 billion due to higher vehicle sales in the reporting year, among other reasons.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in sales, which directly relates to the sales data in the table."
+      },
+      {
+        "para_id": "VW2023_Pf46241",
+        "page": 61,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Gross profit on sales rose accordingly to €5.7 (–0.0) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses gross profit on sales, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pfcd8ed",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "The net other operating result amounted to €0.1 billion in the reporting year, down €1.9 billion on the previous year. This decline was driven in particular by negative measurement effects and the profit or loss from the settlement of hedging transactions that was less positive than in the prior year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the net other operating result, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P0d120e",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "The financial result fell by €7.7 billion to €9.1 billion, mainly because of lower income from profit transfers. In the previous year, this item had included income of €13.2 billion from profit transferred by Porsche Holding Stuttgart GmbH, Stuttgart, in connection with the IPO of Porsche AG.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the financial result, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P71e19f",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "Taxes on income amounted to €-1.1 (1.0) billion. The higher tax expenses in the reporting year were due mainly to foreign withholding tax and to tax expenses for prior years.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses taxes on income, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P462aae",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "Net income for fiscal year 2023 amounted to €6.2 (12.5) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses net income for the fiscal year, which is directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T91a9ab",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 62,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET OF VOLKSWAGEN AG AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -5270,10 +7061,79 @@
       "Long-term debt",
       "Medium-term debt",
       "Short-term debt"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P4271d0",
+        "page": 61,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Sales increased by 16.3% year-on-year to €92.4 billion in 2023, driven particularly by higher sales volumes and a more favorable price-product mix. Sales generated abroad accounted for a share of €53.6 billion or 58.0%. Cost of sales increased by 9.1% to €86.7 billion due to higher vehicle sales in the reporting year, among other reasons.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales figures, which directly relates to the sales revenue data in the table."
+      },
+      {
+        "para_id": "VW2023_Pf46241",
+        "page": 61,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Gross profit on sales rose accordingly to €5.7 (–0.0) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses gross profit on sales, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pfcd8ed",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "The net other operating result amounted to €0.1 billion in the reporting year, down €1.9 billion on the previous year. This decline was driven in particular by negative measurement effects and the profit or loss from the settlement of hedging transactions that was less positive than in the prior year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the net other operating result, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P0d120e",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "The financial result fell by €7.7 billion to €9.1 billion, mainly because of lower income from profit transfers. In the previous year, this item had included income of €13.2 billion from profit transferred by Porsche Holding Stuttgart GmbH, Stuttgart, in connection with the IPO of Porsche AG.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the financial result, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P71e19f",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "Taxes on income amounted to €-1.1 (1.0) billion. The higher tax expenses in the reporting year were due mainly to foreign withholding tax and to tax expenses for prior years.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses taxes on income, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P462aae",
+        "page": 62,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "Net income for fiscal year 2023 amounted to €6.2 (12.5) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses net income for the fiscal year, which is directly relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P3ca823",
+        "page": 62,
+        "section_name": "NET ASSETS AND FINANCIAL POSITION",
+        "section_level": 4,
+        "text": "Total assets amounted to €197.8 billion on December 31, 2023, down €27.5 billion on the comparative 2022 figure. Intangible assets and property, plant and equipment were up by €0.6 billion because investments exceeded depreciation and amortization charges. Financial assets rose to €145.5 (138.9) billion as a result of a number of capital increases.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses total assets, which is directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T24e0e0",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 64,
+    "bucket": "management_report",
     "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "title": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "headers": [
@@ -5321,10 +7181,15 @@
       "",
       "Balance (carried forward to new account)",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2023_T94b992",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 64,
+    "bucket": "management_report",
     "section_name": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
     "title": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
     "headers": [
@@ -5378,10 +7243,25 @@
       "Compensated absence",
       "Retirement benefits",
       "Total expense"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pf045ff",
+        "page": 64,
+        "section_name": "VEHICLE SALES",
+        "section_level": 1,
+        "text": "Volkswagen AG sold a total of 2,162,652 (1,882,535) vehicles in fiscal year 2023. The prior year had been impacted in particular by the limited vehicle availability due to parts supply shortages caused by the shortage of semiconductors and the Russia-Ukraine conflict. Persistent parts supply shortages had a negative effect in the reporting year and disruption in the logistics chains also led to delays, though these eased as the year progressed. Vehicles sold abroad accounted for a share of 64.1 (64.1)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total number of vehicles sold, which is relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Te22531",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 80,
+    "bucket": "management_report",
     "section_name": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
     "title": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
     "headers": [
@@ -5447,10 +7327,25 @@
       "Sales revenue ^1",
       "Total research and development costs",
       "R&D ratio"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pc49723",
+        "page": 80,
+        "section_name": "Key R&D figures",
+        "section_level": 4,
+        "text": "The Automotive Division's total research and development costs in the reporting year amounted to €21.8 (18.9) billion and were 15.2% higher than in the previous year; their share of the Automotive Division's sales revenue – the R&D ratio – was unchanged at 8.1 (8.1)%. In addition to new models, our activities focused above all on the electrification of our vehicle portfolio, digitalization, new technologies and enhancements of our modular and all-electric toolkits and platforms. The capitalization ratio was 51.2(51.4)%. Research and development expenditure recognized in profit or loss in accordance with the IFRSs increased to €15.8 (14.3) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total research and development costs for the Automotive Division, which is directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tf67f2a",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 99,
+    "bucket": "management_report",
     "section_name": "PROPORTION OF WOMEN IN THE VOLKSWAGEN GROUP",
     "title": "PROPORTION OF WOMEN",
     "headers": [
@@ -5504,10 +7399,15 @@
       "Management",
       "Senior management",
       "Top management"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2023_Te1ec4b",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 107,
+    "bucket": "management_report",
     "section_name": "ECONOMIC ACTIVITIES OF THE VOLKSWAGEN GROUP",
     "title": "ECONOMIC ACTIVITY IN ACCORDANCE WITH THE EU TAXONOMY",
     "headers": [
@@ -5583,10 +7483,25 @@
       "3.18 Manufacture of automotive and mobility components",
       "9. Professional, scientific and technical activities",
       "9.1 Close to market research, development and innovation"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pde59d6",
+        "page": 106,
+        "section_name": "ECONOMIC ACTIVITIES OF THE VOLKSWAGEN GROUP",
+        "section_level": 4,
+        "text": "The table below sets out the allocation of our activities in the vehicle-related business and in Power Engineering to the economic activities listed in the EU Taxonomy under the environmental objective of climate change mitigation. Changes may be made to the economic activities in future as the rules around the EU Taxonomy dynamically evolve.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the allocation of activities in the vehicle-related business and Power Engineering, which directly relates to the economic activities listed in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T187b2b",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 113,
+    "bucket": "management_report",
     "section_name": "SALES REVENUE 2023",
     "title": "SALES REVENUE",
     "headers": [
@@ -5773,10 +7688,61 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P48ca80",
+        "page": 112,
+        "section_name": "Sales revenue",
+        "section_level": 4,
+        "text": "Of this total, €294.0 billion, or 91.2% of Group sales, was attributable to economic activity 3.3 Manufacture of low-carbon technologies for transport, and was classified as taxonomy-eligible. This includes sales revenue after sales allowances from the sale of new and used vehicles including motorcycles, from genuine parts, from the rental and lease business, and from interest and similar income, as well as sales revenue directly related to the vehicles, such as workshop and other services.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the sales revenue attributable to economic activity 3.3, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pf5a252",
+        "page": 112,
+        "section_name": "Sales revenue",
+        "section_level": 4,
+        "text": "Economic activity 3.18 Manufacture of automotive and mobility components accounted for taxonomyeligible sales revenue of €165 million or 0.1% of Group sales. This includes the sale of all-electric vehicle motors and powertrains to third parties.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales revenue from economic activity 3.18, which is relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pd4e42c",
+        "page": 112,
+        "section_name": "Sales revenue",
+        "section_level": 4,
+        "text": "Of the taxonomy-eligible sales revenue from economic activity 3.3 Manufacture of low-carbon technologies for transport, €36.6 billion met the screening criteria used to measure the substantial contribution to climate change mitigation. This includes all of our all-electric vehicles and a large proportion of our plug-in hybrids. In 2023, there were 799 thousand such vehicles, around one third more than in the previous year. Their share of the relevant sales volume – excluding the vehicles from the Chinese joint ventures – rose to 12.7 (11.1)%. Passenger cars and light commercial vehicles made up the bulk at 797 thousand vehicles; trucks and buses were down compared with the previous year, when buses that met the requirements of the Euro-6 E standard were still counted. Sales of all-electric vehicles (BEV) increased very sharply compared with the prior year. In addition, the taxonomy-eligible sales revenue from economic activity 3.18 Manufacture of automotive and mobility components met the screening criteria used to measure the substantial contribution to climate change mitigation.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the substantial contribution to climate change mitigation from taxonomy-eligible sales revenue, which relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_Pe52859",
+        "page": 112,
+        "section_name": "Sales revenue",
+        "section_level": 4,
+        "text": "In the Power Engineering Business Area, our activities that fall under economic activity 3.2 Manufacture of equipment for the production and use of hydrogen generated completely taxonomy-aligned sales revenue of €28 million (previous year: €18 million). The increase in taxonomy-aligned sales revenue is attributable to the expansion of the business. Most of our taxonomy-eligible sales revenue in the Power Engineering Business Area was attributable to economic activity 3.6 Manufacture of other low-carbon technologies (€3.1 billion), €68 million of which is taxonomy-aligned. In the reporting year, the complex evidential requirements were fulfilled for a portion of the activities for the first time. A further €58 million was contributed to taxonomy-eligible sales revenue by economic activity 9.1 Close to market research, development and innovation.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses taxonomy-aligned sales revenue in the Power Engineering Business Area, which directly relates to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P38e9d9",
+        "page": 112,
+        "section_name": "Sales revenue",
+        "section_level": 4,
+        "text": "- > €297.4 (256.9) billion, or 92.3 (92.0)%, was taxonomy-eligible sales revenue and - > €36.6 (26.1) billion, or 11.4 (9.4)%, was taxonomy-aligned sales revenue.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the percentage of taxonomy-eligible sales revenue, which is relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T530a72",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 115,
+    "bucket": "management_report",
     "section_name": "CAPITAL EXPENDITURE 2023",
     "title": "CAPITAL EXPENDITURE",
     "headers": [
@@ -5976,10 +7942,70 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pc5ae68",
+        "page": 114,
+        "section_name": "Capital expenditure",
+        "section_level": 3,
+        "text": "Capital expenditure for the purposes of the EU Taxonomy refers to the following items in the IFRS consolidated financial statements: additions to intangible assets, additions to property, plant and equipment, and additions to lease assets and investment property. These are reported in the notes to the 2023 consolidated financial statements in the notes on \"Intangible assets\", \"Property, plant and equipment\" and \"Lease assets and investment property\". Additions from business combinations, each of which is reported under \"Changes in consolidated Group\", are also included. By contrast, additions to goodwill are not included in the calculation.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses capital expenditure in relation to the EU Taxonomy, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P33b5c8",
+        "page": 114,
+        "section_name": "Capital expenditure",
+        "section_level": 3,
+        "text": "In fiscal year 2023, additions in the Volkswagen Group as defined above amounted to",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions total capital expenditure figures, relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2023_Pd95591",
+        "page": 114,
+        "section_name": "Capital expenditure",
+        "section_level": 3,
+        "text": "- > €12.3 billion from intangible assets, - > €14.8 billion from property, plant and equipment and - > €33.0 billion from lease assets (mainly vehicle leasing business) and investment property.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses specific capital expenditure amounts, which are relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2023_P86d6b2",
+        "page": 114,
+        "section_name": "Capital expenditure",
+        "section_level": 3,
+        "text": "All capital expenditure attributable to our vehicle-related business is associated with economic activity 3.3 Manufacture of low-carbon technologies for transport. Taxonomy-eligible capital expenditure for the vehiclerelated business amounted to €61.1 billion, or 99.4% of the Group's capital expenditure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses taxonomy-eligible capital expenditure, which is relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2023_Pf2c690",
+        "page": 114,
+        "section_name": "Capital expenditure",
+        "section_level": 3,
+        "text": "To determine the substantial contribution in the vehicle-related business, we compiled the financial figures based on the vehicle model and powertrain technology in the same way as for sales revenue. Where possible, capital expenditure was directly attributed to vehicles. It was included if the vehicles in question make a substantial contribution to the climate change mitigation objective. Any capital expenditure directly attributable to vehicles that do not meet the screening criteria was not included. Capital expenditure that was not clearly attributable to a particular vehicle was taken into account on a proportionate basis using allocation formulas. In our vehicle-related business, we developed allocation formulas based on planned vehicle volumes for the Group companies. In the sales companies, for example, we used allocation formulas related either to individual brands or to all brands, depending on the primary business activity, while site-based allocation formulas were used for production companies. This means that capital expenditure was counted in full via the allocation formulas for sites that according to our medium-term planning will produce only vehicles meeting the screening criteria for the substantial contribution in the next five years. In contrast, capital expenditure on sites that only produce vehicles not meeting the screening criteria was not counted under the allocation formula. Calculated in this way, capital expenditure relating to vehicles that meet the screening criteria for the substantial contribution amounted to €20.1 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions substantial contributions to climate change mitigation, relevant to the table."
+      },
+      {
+        "para_id": "VW2023_P487ec2",
+        "page": 114,
+        "section_name": "Capital expenditure",
+        "section_level": 3,
+        "text": "Taking into account the DNSH criteria and minimum safeguards, capital expenditure of €20.0 (16.9) billion was taxonomy-aligned. This represented 32.6 (34.5) % of the Group's total capital expenditure. Of this figure, €5.9 billion was attributable to intangible assets, €6.3 billion to property, plant and equipment and €7.9 billion to lease assets and investment property. The figure includes additions to capitalized development costs of €4.9 billion and additions to property, plant and equipment of €6.1 billion for our all-electric vehicles (BEV). The increase in taxonomy-aligned capital expenditure of €3.1 billion is attributable to the growing number of environmentally sustainable vehicle projects under the EU Taxonomy.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses taxonomy-aligned capital expenditure, which is relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_T8330c8",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 117,
+    "bucket": "management_report",
     "section_name": "OPERATING EXPENDITURE 2023",
     "title": "OPERATING EXPENDITURE",
     "headers": [
@@ -6153,10 +8179,34 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P851fd4",
+        "page": 116,
+        "section_name": "Operating expenditure",
+        "section_level": 4,
+        "text": "All operating expenditure attributable to the vehicle-related business is associated with economic activity 3.3 Manufacture of low-carbon technologies for transport and has been classified as taxonomy-eligible.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses operating expenditure attributable to the vehicle-related business, which is directly relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2023_P4c01cf",
+        "page": 116,
+        "section_name": "Operating expenditure",
+        "section_level": 4,
+        "text": "€9 million of the taxonomy-eligible operating expenditure in the Power Engineering Business Area is attributable to economic activity 3.2 Manufacture of equipment for the production and use of hydrogen and €219 million is attributable to economic activity 3.6 Manufacture of other low-carbon technologies. For the latter, operating expenditure that could not be directly allocated was broken down based on planned sales revenue.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses taxonomy-aligned operating expenditure in the Power Engineering Business Area, which is relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tedca0e",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 119,
+    "bucket": "management_report",
     "section_name": "SALES REVENUE 2023",
     "title": "TABULAR PRESENTATION IN ACCORDANCE WITH THE EU TAXONOMY – SALES",
     "headers": [
@@ -6666,10 +8716,25 @@
       "B. Taxonomy-non-eligible activities",
       "Sales revenue from activities that are not taxonomy-eligible (B)",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pdd597b",
+        "page": 118,
+        "section_name": "CAPEX PLAN UNDER THE EU TAXONOMY",
+        "section_level": 4,
+        "text": "For the vehicle-related business, the CapEx plan drawn up under the EU Taxonomy relates to economic activity 3.3 Manufacture of low-carbon technologies for transport within the climate change mitigation environmental objective.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses the allocation of capital expenditure to economic activities, relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Tbcdfb5",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 120,
+    "bucket": "management_report",
     "section_name": "CAPITAL EXPENDITURE 2023",
     "title": "TABULAR PRESENTATION IN ACCORDANCE WITH THE EU TAXONOMY – CAPEX",
     "headers": [
@@ -7133,10 +9198,34 @@
       "B. Taxonomy-non-eligible activities",
       "CapEx from activities that are not taxonomy-eligible (B)",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_Pcd96ec",
+        "page": 115,
+        "section_name": "CAPITAL EXPENDITURE 2023",
+        "section_level": 1,
+        "text": "1 All percentages relate to the Group's total capital expenditure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses capital expenditure in the context of the EU Taxonomy, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pfadeac",
+        "page": 120,
+        "section_name": "CAPITAL EXPENDITURE 2023",
+        "section_level": 4,
+        "text": "1 All percentages relate to the Group's total capital expenditure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses capital expenditure alignment with the EU Taxonomy, which is relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2023_Te24a50",
+    "doc_id": "VW2023",
+    "year": 2023,
+    "page": 121,
+    "bucket": "management_report",
     "section_name": "OPERATING EXPENDITURE 2023",
     "title": "TABULAR PRESENTATION IN ACCORDANCE WITH THE EU TAXONOMY – OPEX",
     "headers": [
@@ -7600,6 +9689,26 @@
       "B. Taxonomy-non-eligible activities",
       "OpEx from activities that are not taxonomy-eligible (B)",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2023_P5d8341",
+        "page": 117,
+        "section_name": "OPERATING EXPENDITURE 2023",
+        "section_level": 1,
+        "text": "1 All percentages relate to the Group's total operating expenditure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Discusses operating expenditure in the context of the EU Taxonomy, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2023_Pfadeac",
+        "page": 120,
+        "section_name": "CAPITAL EXPENDITURE 2023",
+        "section_level": 4,
+        "text": "1 All percentages relate to the Group's total capital expenditure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "Mentions capital expenditure in relation to the EU Taxonomy, relevant to the financial metrics in the table."
+      }
     ]
   }
 ]

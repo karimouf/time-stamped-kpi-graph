@@ -1,6 +1,10 @@
 [
   {
     "table_id": "VW2022_Td85de9",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 4,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD",
     "title": "Key Figures by brand and business field",
     "headers": [
@@ -265,10 +269,106 @@
       "Commercial Vehicles Business Area",
       "Power Engineering Business Area",
       "Financial Services Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P272c0f",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The business of the Volkswagen Group and its brands was affected in 2022 by the difficult market environment worldwide, the limited availability of parts, and disruption in the logistics chain. The Volkswagen Group generated an operating result before special items of €22.5 (20.0) billion in the reporting period. Special items resulting from the diesel issue weighed on operating result in the amount of €–0.4 (–0.8) billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "It mentions the operating result and financial challenges, which are relevant to the financial data in the table."
+      },
+      {
+        "para_id": "VW2022_Pa84025",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 8.5 (8.6) million vehicles. Sales revenue increased by 11.6% to €279.2 billion. Improved price positioning and mix and exchange rate effects had a positive impact.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph provides specific sales revenue and unit sales figures, closely aligning with the data in the table."
+      },
+      {
+        "para_id": "VW2022_P88679e",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales decreased by 6.2% year-on-year to 3.5 million vehicles. However, positive mix effects and improved price positioning helped to lift sales revenue to €154.5 (145.6) billion.",
+        "relevance_score": 0.7,
+        "relevance_reason": "It discusses unit sales and sales revenue for a specific region, which is relevant to the table's financial data."
+      },
+      {
+        "para_id": "VW2022_P542ccc",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales in the North American markets increased by 7.8% to 868 thousand vehicles in 2022. Sales revenue increased to €60.1 (45.3) billion, due mainly to the inclusion of Navistar as of July 1, 2021, as well as exchange rate effects.",
+        "relevance_score": 0.7,
+        "relevance_reason": "This paragraph provides relevant unit sales and sales revenue figures for North America, which match the table's focus."
+      },
+      {
+        "para_id": "VW2022_P2166d3",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "On markets in the South America region, we sold 487 thousand vehicles in 2022, a decrease of 3.2% compared with 2021. Sales revenue increased by 40.2% to €15.5 billion due to mix and exchange rate effects.",
+        "relevance_score": 0.7,
+        "relevance_reason": "It discusses sales figures and revenue for South America, providing relevant data that corresponds with the table."
+      },
+      {
+        "para_id": "VW2022_P7d1991",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including the Chinese joint ventures – increased to 3.6 (3.5) million vehicles in 2022. Sales revenue improved to €51.4 (48.7) billion. Negative effects resulting from lower volumes – not including the Chinese Joint Ventures – were offset by positive exchange rate effects. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.7,
+        "relevance_reason": "This paragraph provides unit sales and sales revenue figures for the Asia-Pacific region, aligning with the table data."
+      },
+      {
+        "para_id": "VW2022_P2667e1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.6 million vehicles globally in fiscal year 2022. This was 6.8% fewer than in the previous year. The decline was mainly due to continued limited vehicle availability as a result of parts supply shortages.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Provides specific unit sales figures relevant to the table."
+      },
+      {
+        "para_id": "VW2022_Paabad1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 2.6 (2.7) million vehicles in the reporting year. ID. family models and the T-Roc were increasingly sought-after, and the new Taigo was also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions vehicle sales and differences in deliveries, providing relevant data related to the table."
+      },
+      {
+        "para_id": "VW2022_P91704d",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand produced 4.8 (4.6) million vehicles worldwide in 2022. In May 2022, Volkswagen Slovakia celebrated 20 years of Volkswagen Touareg production.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures, which are relevant but not directly aligned with the financial data in the table."
+      },
+      {
+        "para_id": "VW2022_P0d6d2b",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 8.7% year-on-year to €73.8 billion in 2022. The operating result before special items improved to €2.6 (2.2) billion, which was attributable above all to improved price positioning, positive mix effects and reduced sales incentives. Increased commodity prices adversely affected earnings. Upfront expenditure for new products and technologies increased. The operating return on sales before special items amounted to 3.6 (3.2)%. The diesel issue gave rise to negative special items.",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph provides specific sales revenue and operating results, closely aligning with the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T847afb",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 4,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY MARKET",
     "title": "Key Figures by market",
     "headers": [
@@ -345,10 +445,88 @@
       "Asia-Pacific ^1",
       "Hedges on sales revenue",
       "Volkswagen Group ^1"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pa84025",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The Volkswagen Group's unit sales in the reporting year stood at 8.5 (8.6) million vehicles. Sales revenue increased by 11.6% to €279.2 billion. Improved price positioning and mix and exchange rate effects had a positive impact.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall unit sales and sales revenue figures, which are relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P88679e",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales decreased by 6.2% year-on-year to 3.5 million vehicles. However, positive mix effects and improved price positioning helped to lift sales revenue to €154.5 (145.6) billion.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Discusses specific unit sales and sales revenue for the Europe/Other markets region, closely aligning with the table."
+      },
+      {
+        "para_id": "VW2022_P542ccc",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Unit sales in the North American markets increased by 7.8% to 868 thousand vehicles in 2022. Sales revenue increased to €60.1 (45.3) billion, due mainly to the inclusion of Navistar as of July 1, 2021, as well as exchange rate effects.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides specific unit sales and sales revenue figures for North America, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P2166d3",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "On markets in the South America region, we sold 487 thousand vehicles in 2022, a decrease of 3.2% compared with 2021. Sales revenue increased by 40.2% to €15.5 billion due to mix and exchange rate effects.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Discusses unit sales and revenue for South America, providing relevant data that corresponds with the table."
+      },
+      {
+        "para_id": "VW2022_P7d1991",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region, the Volkswagen Group's unit sales – including the Chinese joint ventures – increased to 3.6 (3.5) million vehicles in 2022. Sales revenue improved to €51.4 (48.7) billion. Negative effects resulting from lower volumes – not including the Chinese Joint Ventures – were offset by positive exchange rate effects. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Provides unit sales and sales revenue figures for the Asia-Pacific region, aligning with the table data."
+      },
+      {
+        "para_id": "VW2022_P44ca6c",
+        "page": 3,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "Hedging transactions relating to sales revenue in foreign currency had a negative impact of €–2.3 (–0.4) billion on the sales revenue of the Volkswagen Group in the reporting year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses hedging transactions impacting sales revenue, which is relevant but lacks specific figures."
+      },
+      {
+        "para_id": "VW2022_P2667e1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.6 million vehicles globally in fiscal year 2022. This was 6.8% fewer than in the previous year. The decline was mainly due to continued limited vehicle availability as a result of parts supply shortages.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides global delivery figures which are relevant but not directly aligned with the regional focus of the table."
+      },
+      {
+        "para_id": "VW2022_P0d6d2b",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 8.7% year-on-year to €73.8 billion in 2022. The operating result before special items improved to €2.6 (2.2) billion, which was attributable above all to improved price positioning, positive mix effects and reduced sales incentives. Increased commodity prices adversely affected earnings. Upfront expenditure for new products and technologies increased. The operating return on sales before special items amounted to 3.6 (3.2)%. The diesel issue gave rise to negative special items.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides specific sales revenue and operating results, which are somewhat relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tdbf847",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 6,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND PRODUCTION",
     "title": "Volkswagen Passenger Cars – Production",
     "headers": [
@@ -528,10 +706,25 @@
       "Phideon",
       "Fox/Suran",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Paabad1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 2.6 (2.7) million vehicles in the reporting year. ID. family models and the T-Roc were increasingly sought-after, and the new Taigo was also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions vehicle sales and popular models, which is somewhat relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tbaad9e",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 6,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND",
     "title": "Volkswagen Passenger Cars – Key Figures",
     "headers": [
@@ -593,10 +786,52 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P2667e1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand delivered 4.6 million vehicles globally in fiscal year 2022. This was 6.8% fewer than in the previous year. The decline was mainly due to continued limited vehicle availability as a result of parts supply shortages.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Provides relevant delivery figures and percentage change, closely aligning with the table data."
+      },
+      {
+        "para_id": "VW2022_Paabad1",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand sold 2.6 (2.7) million vehicles in the reporting year. ID. family models and the T-Roc were increasingly sought-after, and the new Taigo was also very popular. The difference between deliveries and unit sales is due mainly to the fact that the vehicle-producing joint ventures in China are not attributed to the companies in the Volkswagen Passenger Cars brand.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions vehicle sales figures and trends, which are relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P91704d",
+        "page": 5,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand produced 4.8 (4.6) million vehicles worldwide in 2022. In May 2022, Volkswagen Slovakia celebrated 20 years of Volkswagen Touareg production.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures, which are relevant to the table's focus on production."
+      },
+      {
+        "para_id": "VW2022_P0d6d2b",
+        "page": 5,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The Volkswagen Passenger Cars brand increased its sales revenue by 8.7% year-on-year to €73.8 billion in 2022. The operating result before special items improved to €2.6 (2.2) billion, which was attributable above all to improved price positioning, positive mix effects and reduced sales incentives. Increased commodity prices adversely affected earnings. Upfront expenditure for new products and technologies increased. The operating return on sales before special items amounted to 3.6 (3.2)%. The diesel issue gave rise to negative special items.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Provides sales revenue figures and percentage change, which are directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T1244f7",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 8,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "Škoda – Production",
     "headers": [
@@ -674,10 +909,34 @@
       "Kushaq",
       "Citigo",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P4937b3",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 0.7 (0.9) million vehicles worldwide in the reporting period. Sales in India more than doubled again.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for ŠKODA, which are relevant but not model-specific."
+      },
+      {
+        "para_id": "VW2022_Pcf54a6",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 0.9 (0.8) million vehicles in the past fiscal year. There was strong demand for the Kushaq SUV model, and the Enyaq iV was also very popular with customers.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions vehicle sales figures and trends, which are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T9f1dee",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 8,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "Škoda – Key Figures",
     "headers": [
@@ -739,10 +998,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P4937b3",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The ŠKODA brand delivered 0.7 (0.9) million vehicles worldwide in the reporting period. Sales in India more than doubled again.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Provides overall delivery figures for ŠKODA, which are relevant but not model-specific."
+      },
+      {
+        "para_id": "VW2022_Pcf54a6",
+        "page": 7,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA sold 0.9 (0.8) million vehicles in the past fiscal year. There was strong demand for the Kushaq SUV model, and the Enyaq iV was also very popular with customers.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions vehicle sales figures and trends, which are relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P0d599a",
+        "page": 7,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "The ŠKODA brand's sales revenue increased by 18.5% to €21.0 billion in fiscal year 2022 due to volume effects. The Russia-Ukraine conflict weighed on the operating result with an amount in the mid-three-digit millions, bringing it down to €0.6 (1.1) billion. Positive mix effects could not offset the impact from product costs and exchange rates. The operating return on sales fell to 3.0 (6.1)%.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions sales revenue figures and percentage increase, which are directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tb5c632",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 10,
+    "bucket": "divisions",
     "section_name": "SEAT",
     "title": "SEAT – Production",
     "headers": [
@@ -856,10 +1148,43 @@
       "Ateca",
       "",
       "SEAT and CUPRA"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P47e9e1",
+        "page": 9,
+        "section_name": "SEAT",
+        "section_level": 2,
+        "text": "<span id=\"page-8-0\"></span>SEAT is one company with two complementary brands: SEAT and CUPRA. In 2022, CUPRA cemented its position as Europe's fastest growing automotive brand and increased deliveries by 93%, driving the financial turnaround of the company.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions SEAT and CUPRA and discusses their performance, which is relevant to the table."
+      },
+      {
+        "para_id": "VW2022_Pd8410e",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries to customers from SEAT and CUPRA fell by 18.1% to 386 thousand vehicles in fiscal year 2022, mainly due to the challenges arising from the shortage of semiconductors. However, the CUPRA brand increased sales by 93% to 153 thousand vehicles, thereby driving the company's financial turnaround.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses overall deliveries and sales for SEAT and CUPRA, which is relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P8a3939",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT and CUPRA produced 420 thousand vehicles in the reporting period. This was 0.8% fewer than in the prior year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions production figures for SEAT and CUPRA, which are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tab01ef",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 10,
+    "bucket": "divisions",
     "section_name": "SEAT",
     "title": "SEAT – Key Figures",
     "headers": [
@@ -921,10 +1246,61 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P47e9e1",
+        "page": 9,
+        "section_name": "SEAT",
+        "section_level": 2,
+        "text": "<span id=\"page-8-0\"></span>SEAT is one company with two complementary brands: SEAT and CUPRA. In 2022, CUPRA cemented its position as Europe's fastest growing automotive brand and increased deliveries by 93%, driving the financial turnaround of the company.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions SEAT and CUPRA and discusses their performance, which is relevant to the table."
+      },
+      {
+        "para_id": "VW2022_Pd8410e",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries to customers from SEAT and CUPRA fell by 18.1% to 386 thousand vehicles in fiscal year 2022, mainly due to the challenges arising from the shortage of semiconductors. However, the CUPRA brand increased sales by 93% to 153 thousand vehicles, thereby driving the company's financial turnaround.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Discusses overall deliveries and sales for SEAT and CUPRA, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P519efd",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The company's unit sales amounted to 468 thousand units in the reporting year. This was 5.2% less than in the previous year. This figure also includes the A1 manufactured for Audi.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides unit sales figures that are relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P8a3939",
+        "page": 9,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT and CUPRA produced 420 thousand vehicles in the reporting period. This was 0.8% fewer than in the prior year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions production figures for SEAT and CUPRA, which are relevant to the table."
+      },
+      {
+        "para_id": "VW2022_Pb108af",
+        "page": 9,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "SEAT's sales revenue was up 13.8% to €10.9 billion in 2022. Positive mix effects, an improved price positioning and cost reductions drove SEAT's operating result significantly into the black, although oneoff expenses for restructuring measures of €247 million ultimately led to a result of €33 (–233) million. The operating return on sales amounted to 0.3 (–2.4)%.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Discusses SEAT's sales revenue and operating result, which are directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Td5ecb4",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 12,
+    "bucket": "divisions",
     "section_name": "Volkswagen Commercial Vehicles production",
     "title": "Volkswagen Commercial Vehicles – Production",
     "headers": [
@@ -990,10 +1366,52 @@
       "Caddy, Caddy California",
       "ID. Buzz",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pfbd1d6",
+        "page": 11,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "<span id=\"page-10-0\"></span>The highlight at the Volkswagen Commercial Vehicles brand in the reporting period was the presentation and market launch of the all-electric ID. Buzz and ID. Buzz Cargo models. A second, completely new generation of the versatile Amarok pickup was also launched.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions the ID. Buzz and its market launch, relevant to the table's focus on Volkswagen Commercial Vehicles."
+      },
+      {
+        "para_id": "VW2022_P4da870",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2022, the Volkswagen Commercial Vehicles brand brought the highly acclaimed ID. Buzz to the market. The vehicle symbolizes the core elements of tomorrow's mobility: e-mobility, digitalization, and connectivity. The ID. Buzz and ID. Buzz Cargo contain seven decades of \"Bulli\" know-how and also – thanks to the Volkswagen Group's MEB platform – an electric drivetrain. The ID. Buzz is agile, efficient and dynamic and combines the attributes of the legendary T1: from the design to the tight overhangs of the bodywork and the effective use of space. The popularity of the ID. Buzz is reflected in the many awards it received in its debut year, including \"German Car of the Year\" and the \"Golden Steering Wheel 2022\". The ID. Buzz Cargo impresses as a spacious and versatile zero-emission van and was named \"International Van of the Year 2023\". The new generation of the Amarok was also presented in the reporting period. Among other things, the versatile pickup offers optimized features, numerous assistance systems (some completely new to the pickup segment), mobile online services, two all-wheel-drive systems and an efficient range of engines.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Highlights the ID. Buzz and its significance, aligning with the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2022_P0570af",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by Volkswagen Commercial Vehicles amounted to 329 thousand units (–8.6%) in the reporting period. Sales in Germany developed particularly encouragingly (+8.3%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides overall delivery figures for Volkswagen Commercial Vehicles, which is relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P9f079b",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 340 thousand vehicles in the reporting period, representing an increase of 4.3% compared with the previous year. This was also thanks to the ID. Buzz, which was very positively received by the market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses vehicle sales figures, which are relevant to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T2cf63b",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 12,
+    "bucket": "divisions",
     "section_name": "Volkswagen Commercial Vehicles",
     "title": "Volkswagen Commercial Vehicles – Key Figures",
     "headers": [
@@ -1055,10 +1473,61 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pfbd1d6",
+        "page": 11,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "<span id=\"page-10-0\"></span>The highlight at the Volkswagen Commercial Vehicles brand in the reporting period was the presentation and market launch of the all-electric ID. Buzz and ID. Buzz Cargo models. A second, completely new generation of the versatile Amarok pickup was also launched.",
+        "relevance_score": 0.8,
+        "relevance_reason": "Mentions the ID. Buzz and its market launch, which is directly relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2022_P4da870",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2022, the Volkswagen Commercial Vehicles brand brought the highly acclaimed ID. Buzz to the market. The vehicle symbolizes the core elements of tomorrow's mobility: e-mobility, digitalization, and connectivity. The ID. Buzz and ID. Buzz Cargo contain seven decades of \"Bulli\" know-how and also – thanks to the Volkswagen Group's MEB platform – an electric drivetrain. The ID. Buzz is agile, efficient and dynamic and combines the attributes of the legendary T1: from the design to the tight overhangs of the bodywork and the effective use of space. The popularity of the ID. Buzz is reflected in the many awards it received in its debut year, including \"German Car of the Year\" and the \"Golden Steering Wheel 2022\". The ID. Buzz Cargo impresses as a spacious and versatile zero-emission van and was named \"International Van of the Year 2023\". The new generation of the Amarok was also presented in the reporting period. Among other things, the versatile pickup offers optimized features, numerous assistance systems (some completely new to the pickup segment), mobile online services, two all-wheel-drive systems and an efficient range of engines.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Highlights the ID. Buzz and its significance, aligning with the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2022_P0570af",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Deliveries by Volkswagen Commercial Vehicles amounted to 329 thousand units (–8.6%) in the reporting period. Sales in Germany developed particularly encouragingly (+8.3%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "Provides overall delivery figures for Volkswagen Commercial Vehicles, which is relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P9f079b",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 340 thousand vehicles in the reporting period, representing an increase of 4.3% compared with the previous year. This was also thanks to the ID. Buzz, which was very positively received by the market.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses vehicle sales figures, which are relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2022_P08da65",
+        "page": 11,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2022, the Volkswagen Commercial Vehicles brand produced 351 thousand vehicles, 4.9% more than in the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions production figures for the brand, which are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Te10619",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "AUDI PRODUCTION",
     "title": "Audi – Production",
     "headers": [
@@ -1196,10 +1665,52 @@
       "Q6",
       "R8",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P052cde",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the reporting period, the Audi brand presented the Audi Q8 e-tron, the successor to the successful Audi e-tron. The model impresses with its progressive design, optimized drive concept, improved aerodynamics, and higher charging and battery capacity. Audi also launched the new version of its Audi A8. The exterior impresses with even greater presence and athleticism. The feel-good interior offers passengers generous space. Audi gave a first preview of the Premium Platform Electric with the Audi A6 Avant e-tron concept. Furthermore, it outlined the mobility of the future with two further concept vehicles – the Audi urbansphere concept and Audi activesphere concept. The Bentley brand presented the Bentayga EWB and Flying Spur Speed in fiscal year 2022. The Bentayga EWB is 180 mm longer than the Bentayga. Its emphasis is on wellbeing and interior luxury. The dynamic Flying Spur Speed grand tourer rounds off the Bentley brand's new portfolio.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the Audi Q8 e-tron and other models but does not provide specific sales figures relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P87a644",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In a difficult market environment, Audi (Premium brand group) delivered a total of 1.6 (1.7) million vehicles to customers in 2022. Increases were recorded in Germany (+18.7%), Italy (+1.6%), Spain (+1.4%) and Canada (+1.2%).",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses overall deliveries for Audi, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2022_P68c1f9",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales at Audi (Premium brand group) amounted to 1.1 (1.0) million vehicles in the reporting period. There was particularly high demand for the all-electric Audi e-tron, Q4 e-tron and Audi e-tron GT models; the Audi A3 and Audi Q5 were also very popular. The Chinese joint ventures sold a further 599 (644) thousand locally produced Audi vehicles. Unit sales at the Lamborghini brand amounted to 9.2 (8.3) thousand vehicles. Bentley sold 15.5 (14.6) thousand vehicles and Ducati 65.0 (56.9) thousand motorcycles.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions unit sales figures for popular Audi models, which are directly relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P417266",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2022, Audi produced 1.7 (1.6) million units worldwide. Bentley produced 16.4 (14.8) thousand vehicles and Lamborghini 9.9 (8.3) thousand. Ducati produced 70.4 (59.2) thousand motorcycles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses production figures for Audi but does not specify model-level data relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T64063c",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "BENTLEY, LAMBORGHINI, DUCATI PRODUCTION",
     "title": "Bentley, Lamborghini, Ducati – Production",
     "headers": [
@@ -1283,10 +1794,15 @@
       "Aventador",
       "",
       "Ducati, motorcycles"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_Tc4f352",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 14,
+    "bucket": "divisions",
     "section_name": "AUDI (PREMIUM BRAND GROUP)",
     "title": "Audi – Key Figures",
     "headers": [
@@ -1369,10 +1885,43 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P87a644",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In a difficult market environment, Audi (Premium brand group) delivered a total of 1.6 (1.7) million vehicles to customers in 2022. Increases were recorded in Germany (+18.7%), Italy (+1.6%), Spain (+1.4%) and Canada (+1.2%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions unit sales figures for Audi but does not specify Bentley or Lamborghini."
+      },
+      {
+        "para_id": "VW2022_P68c1f9",
+        "page": 13,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Unit sales at Audi (Premium brand group) amounted to 1.1 (1.0) million vehicles in the reporting period. There was particularly high demand for the all-electric Audi e-tron, Q4 e-tron and Audi e-tron GT models; the Audi A3 and Audi Q5 were also very popular. The Chinese joint ventures sold a further 599 (644) thousand locally produced Audi vehicles. Unit sales at the Lamborghini brand amounted to 9.2 (8.3) thousand vehicles. Bentley sold 15.5 (14.6) thousand vehicles and Ducati 65.0 (56.9) thousand motorcycles.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses unit sales at Audi and mentions Lamborghini and Bentley, providing relevant context."
+      },
+      {
+        "para_id": "VW2022_Pc96eaf",
+        "page": 13,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Sales revenue at Audi (Premium brand group) climbed to €61.8 (55.9) billion in fiscal year 2022. The operating result before special items improved to €7.6 (5.9) billion, mainly attributable to a strong performance in the new and used car market and solid results from the Lamborghini, Bentley and Ducati brands. The operating return on sales before special items climbed to 12.3 (10.6)%. The diesel issue resulted in low negative special items. The figures for the Bentley, Lamborghini and Ducati brands are included in the key financial indicators for the Audi brand.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses sales revenue for Audi, mentioning Bentley and Lamborghini but lacks specific relevance to their sales figures."
+      }
     ]
   },
   {
     "table_id": "VW2022_T727164",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 16,
+    "bucket": "divisions",
     "section_name": "PORSCHE PRODUCTION",
     "title": "Porsche – Production",
     "headers": [
@@ -1420,10 +1969,34 @@
       "Taycan",
       "Panamera",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P270083",
+        "page": 15,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "<span id=\"page-14-0\"></span>Porsche added the versatile Taycan Sport Turismo to its all-electric Taycan model range in fiscal year 2022. Unit sales, sales revenue and profit increased year-on-year.",
+        "relevance_score": 0.7,
+        "relevance_reason": "Mentions the Taycan model and its sales increase, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2022_P5a68b1",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche delivered 310 thousand sports cars to customers in the reporting period; this represented an increase of 2.6% compared with the previous year. Growth was achieved in particular in Western Europe (+11.7%) and Asia-Pacific (+1.2%). China remained the largest single market for Porsche with deliveries of 93 thousand vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses overall deliveries for Porsche, which is relevant to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T0373b3",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 16,
+    "bucket": "divisions",
     "section_name": "PORSCHE AUTOMOTIVE1",
     "title": "Porsche – Key Figures",
     "headers": [
@@ -1485,10 +2058,43 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P270083",
+        "page": 15,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "<span id=\"page-14-0\"></span>Porsche added the versatile Taycan Sport Turismo to its all-electric Taycan model range in fiscal year 2022. Unit sales, sales revenue and profit increased year-on-year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the Taycan model and its sales increase, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2022_P5a68b1",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Porsche delivered 310 thousand sports cars to customers in the reporting period; this represented an increase of 2.6% compared with the previous year. Growth was achieved in particular in Western Europe (+11.7%) and Asia-Pacific (+1.2%). China remained the largest single market for Porsche with deliveries of 93 thousand vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses overall deliveries for Porsche, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2022_P0b365c",
+        "page": 15,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the reporting year, Porsche increased unit sales by 5.5% to 314 thousand vehicles. Demand for the 911, Panamera and Cayenne models was higher than in the previous year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions unit sales figures for popular Porsche models, which are directly relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T574273",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 18,
+    "bucket": "divisions",
     "section_name": "TRATON GROUP PRODUCTION",
     "title": "TRATON – Production",
     "headers": [
@@ -1590,10 +2196,34 @@
       "Trucks",
       "Buses",
       "TRATON"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pb40cad",
+        "page": 17,
+        "section_name": "RATON Group",
+        "section_level": 2,
+        "text": "<span id=\"page-16-0\"></span>The TRATON Group recorded successes in all areas of the \"TRATON Way Forward\" corporate strategy in fiscal year 2022.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the TRATON Group and its performance, which is relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2022_Pf67b59",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In 2022, Scania was the first TRATON brand to introduce the Group-wide 13-liter powertrain in its Scania Super, allowing a reduction in fuel consumption in comparison to the predecessor model. In addition, Scania has set itself ambitious targets for decarbonizing the supply chain: by 2030, supply chain emissions arising from batteries, steel, aluminum and cast iron are to be reduced by 60% to 85%. Road tests for automated driving were expanded. The self-driving Scania trucks that have been upgraded to level 4 may now drive on all routes between the cities of Södertälje and Jönköping. A driver remains on board for safety reasons.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Scania's new powertrain and its impact on production, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T2ddec5",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 18,
+    "bucket": "divisions",
     "section_name": "TRATON GROUP",
     "title": "TRATON – Deliveries",
     "headers": [
@@ -1655,10 +2285,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pb40cad",
+        "page": 17,
+        "section_name": "RATON Group",
+        "section_level": 2,
+        "text": "<span id=\"page-16-0\"></span>The TRATON Group recorded successes in all areas of the \"TRATON Way Forward\" corporate strategy in fiscal year 2022.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions the TRATON Group's performance, which relates to the data in the table."
+      },
+      {
+        "para_id": "VW2022_Pd03e7b",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The \"TRATON Way Forward\" strategy focuses on the following areas: being a responsible company, value creation and \"TRATON Accelerated!\". Successes were recorded in all areas of the corporate strategy in fiscal year 2022.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses the TRATON strategy but lacks specific sales figures relevant to the table."
+      },
+      {
+        "para_id": "VW2022_Pded4fb",
+        "page": 17,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Stronger internationalization as a result of integrating Navistar enabled TRATON to counteract the significant fluctuations in the market in 2022. Moreover, Scania is set to become the first Western truck manufacturer to produce its vehicles completely independently in China; an important step for TRATON. By creating a Group-wide integrated business unit for financial services, TRATON is aiming to provide comprehensive customer financing services in future in order to meet the demand for new technologies and business fields.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Discusses Scania's production capabilities, which relates to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T7b6ec3",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Volkswagen Group in China – Key Figures",
     "headers": [
@@ -1699,10 +2362,43 @@
       "Deliveries",
       "Vehicle sales ^1",
       "Production"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pcd32e3",
+        "page": 19,
+        "section_name": "Volkswagen Group China",
+        "section_level": 2,
+        "text": "<span id=\"page-18-0\"></span>In fiscal year 2022, the Volkswagen Group made further progress with its ambitious transformation in China, achieving significant growth in deliveries of all-electric vehicles.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions Volkswagen Group's progress and deliveries, which relates to the data in the table."
+      },
+      {
+        "para_id": "VW2022_Pa164c6",
+        "page": 19,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Despite the challenges arising from the Covid-19 pandemic and the shortage of semiconductors, Volkswagen Group China maintained its market leadership in China in 2022 with a market share of 15.1%, and continued to drive the ambitious transformation to fully connected e-mobility. With 206,500 vehicles delivered, sales of NEVs rose by 37.1% compared with the previous year, while BEV deliveries were up 68.2% year-on-year. The key driver of this electric momentum in China was the successful ID. family of the Volkswagen Passenger Cars brand. ID. family deliveries more than doubled compared with the previous year. Another family member, the ID. Aero concept car, is already in the starting blocks.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses market leadership and vehicle deliveries, relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2022_Pfa73a6",
+        "page": 19,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Together with the Chinese joint ventures, Volkswagen Group China delivered 3.2 (3.3) million vehicles (including imports) in the Chinese market in 2022 (–3.6%). The Volkswagen Passenger Cars brand, including JETTA, delivered 2.4 million vehicles (–1.3%) and, with a market share of 11.4 (11.7)%, remained number one with Chinese customers despite the challenging environment. This figure includes 180,600 NEV vehicles (+51.6%).",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions total deliveries in the Chinese market, which relates to the overall performance in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tcb079f",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "EARNINGS",
     "title": "Volkswagen Group in China – Earnings",
     "headers": [
@@ -1732,10 +2428,15 @@
     "stub_col": [
       "Operating result (100%)",
       "Operating result (proportionate)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_T083071",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 20,
+    "bucket": "divisions",
     "section_name": "LOCAL PRODUCTION",
     "title": "Volkswagen Group in China – Local Production",
     "headers": [
@@ -1777,10 +2478,15 @@
       "Audi",
       "ŠKODA",
       "Total"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_T62bce8",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
     "title": "Volkswagen Financial Services – Key Figures",
     "headers": [
@@ -1954,10 +2660,34 @@
       "Operating result",
       "Earnings before tax",
       "Employees at Dec. 31"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P656b82",
+        "page": 23,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In fiscal year 2022, the number of new financing, leasing, service and insurance contracts from Volkswagen Financial Services signed amounted to 7.8 (7.8) million and was therefore similar to the prior-year figure. At the end of the reporting period, the total number of contracts stood at 22.0 (22.0) million. The number of contracts in the Customer Financing/Leasing area fell by 5.3% to 10.3 million. The Service/ Insurance area accounted for 11.6 million contracts, 4.7% more than in the previous year. With credit eligibility criteria remaining unchanged, the penetration rate, expressed as the ratio of financed or leased vehicles to relevant Group delivery volumes – including the Chinese joint ventures – declined to 32.3 (35.8)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "Mentions the number of financing contracts and their changes, directly relevant to the table's focus."
+      },
+      {
+        "para_id": "VW2022_Pcfd367",
+        "page": 23,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 3,
+        "text": "Volkswagen Financial Services generated sales revenue of €44.2 billion in the reporting period, 6.0% more than in the previous year. The operating result stood at €5.6 (5.7) billion. Strong demand for used vehicles had a positive effect, as did derivatives. However, expenses relating to loss allowances and risk provisions as a consequence of the direct impact of the Russia-Ukraine conflict weighed on the operating result.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions sales revenue and operating results, which are directly relevant to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T07de88",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 3,
+    "bucket": "management_report",
     "section_name": "THE 12 GROUP INITIATIVES OF THE NEW AUTO STRATEGY",
     "title": "Comparative presentation of Supervisory Board remuneration",
     "headers": [
@@ -2167,10 +2897,15 @@
       "Earnings after tax of the Volkswagen Group",
       "Employees",
       "Volkswagen AG employees"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_T894e2d",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 7,
+    "bucket": "management_report",
     "section_name": "STRATEGIC FINANCIAL KEY PERFORMANCE INDICATORS1",
     "title": "Strategic KPIs – Competitive profitability",
     "headers": [
@@ -2239,10 +2974,25 @@
       "Distribution ratio",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pd1a162",
+        "page": 7,
+        "section_name": "FINANCING THE TRANSFORMATION",
+        "section_level": 1,
+        "text": "The transformation being driven by digitalization and electrification will require extensive investment. To meet this need for financing, the Financing the Transformation base initiative aims to leverage even more Group-wide synergies across all functional areas along the value chain, focusing on costs and efficiency. The Group has therefore set itself the objective of lasting improvements to its fixed-cost structure, plant productivity, procurement costs, distribution expenses and working capital management.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph mentions the need for financing due to transformation but does not directly discuss the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tddc4ce",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 26,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN GROUP DELIVERIES1",
     "title": "Volkswagen Group deliveries",
     "headers": [
@@ -2283,10 +3033,34 @@
       "Passenger Cars",
       "Commercial Vehicles",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P86c4c8",
+        "page": 26,
+        "section_name": "VOLKSWAGEN GROUP DELIVERIES",
+        "section_level": 2,
+        "text": "The Volkswagen Group delivered 8,262,776 vehicles to customers worldwide in fiscal year 2022. This was 7.0% or 619,116 units less than in the previous year. While sales figures for the Passenger Cars Business Area fell short of the prior-year figure, commercial vehicle deliveries to customers rose year-on-year, mainly due to the inclusion of Navistar as from July 1, 2021. The chart in this section shows the trend in deliveries worldwide for the individual months compared with the previous year. In the following, we report separately on deliveries in the Passenger Cars Business Area and the Commercial Vehicles Business Area.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly states the total vehicle deliveries and the percentage change from the previous year, making it highly relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P019ed5",
+        "page": 26,
+        "section_name": "GLOBAL DELIVERIES BY THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 1,
+        "text": "Sales of Volkswagen Group passenger cars and light commercial vehicles worldwide declined by 7.6% in fiscal year 2022 to 7,957,288 units. In the reporting period, limited vehicle availability as a result of the Covid-19 pandemic and bottlenecks in the supply of parts caused by the shortage of semiconductors and the Russia-Ukraine conflict had a negative impact. In addition, disruptions in logistics resulted in delays. While Porsche, Lamborghini and Bentley delivered a higher number of vehicles to customers, none of the other Volkswagen Group brands reached their prior-year figures. We registered a year-on-year decline in sales in all regions.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the decline in passenger car sales and provides specific figures, making it relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T543216",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 30,
+    "bucket": "management_report",
     "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET1",
     "title": "Passenger car deliveries to customers by market",
     "headers": [
@@ -2557,10 +3331,25 @@
       "Bentley",
       "Porsche",
       "Bugatti ^2"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P50e7c8",
+        "page": 31,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In fiscal year 2022, the Volkswagen Group delivered 12.6% more commercial vehicles to customers worldwide than in the previous year. We delivered a total of 305,488 commercial vehicles to customers. Trucks accounted for 254,313 units (+10.5%) and buses for 29,591 units (+56.8%). A total of 21,584 (–2.8%) vehicles from the MAN TGE van series were delivered. The American commercial vehicle manufacturer Navistar became a TRATON GROUP brand on July 1, 2021. Navistar's sales totaled 81,888 units in the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "The paragraph discusses the total number of commercial vehicles delivered, which is relevant to the overall delivery statistics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tecc11b",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 31,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLE DELIVERIES TO CUSTOMERS BY MARKET 1",
     "title": "Commercial vehicle deliveries to customers by market",
     "headers": [
@@ -2705,10 +3494,43 @@
       "MAN2",
       "Navistar",
       "Volkswagen Truck & Bus2"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P4d3e48",
+        "page": 31,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "In the 27 EU states excluding Malta, but plus the United Kingdom, Norway and Switzerland (EU27+3), sales in the reporting period were down by 2.9% on the previous year to a total of 115,532 units, of which 89,061 were trucks and 5,041 were buses. Here, the MAN brand delivered 21,430 vehicles from the MAN TGE van series.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph directly mentions the total deliveries in the EU27+3 region and the percentage change, making it highly relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P3e17b3",
+        "page": 31,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "As a result of the sanctions imposed in connection with the Russia-Ukraine conflict, sales in Russia fell year-on-year to 1,557 (11,293) units, comprising 1,550 trucks and 7 buses. Since the conflict began, no orders for new vehicles have been accepted in Russia.",
+        "relevance_score": 1.0,
+        "relevance_reason": "The paragraph discusses the significant decline in sales in Russia, providing specific figures and percentages that relate directly to the table."
+      },
+      {
+        "para_id": "VW2022_Pcc96f1",
+        "page": 31,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 4,
+        "text": "Sales in North America rose to 82,824 (31,869) vehicles in the reporting year; this included 68,903 trucks and 13,921 buses. From July 1, 2021, the figures also include Navistar's sales (78,988) whose vehicles were above all handed over to customers in the United States.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses sales in North America, providing specific figures that are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T334c64",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 36,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES AND MARKET INDICES FROM JANUARY 1 TO DECEMBER 31, 2022",
     "title": "Volkswagen key share figures and market indices",
     "headers": [
@@ -2794,10 +3616,52 @@
       "",
       "ESTX Auto & Parts",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pab6a99",
+        "page": 35,
+        "section_name": "Shares and Bonds",
+        "section_level": 1,
+        "text": "<span id=\"page-34-0\"></span>During the reporting period, Volkswagen AG's ordinary and preferred shares followed the negative trend on the stock markets, where some automotive stocks dropped at above-average rates.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the performance of Volkswagen's ordinary and preferred shares in relation to stock market trends, directly linking to the share prices presented in the table."
+      },
+      {
+        "para_id": "VW2022_Pe05395",
+        "page": 35,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "The trend in the international stock markets in fiscal year 2022 was initially overshadowed by investors' concerns about possible interest rate hikes in the face of rising inflation rates and about the spread of the Omicron variant of the SARS-CoV-2 virus. Following the outbreak of the Russia-Ukraine conflict in February 2022, the imposing of sanctions against Russia and the rise in commodity and energy prices that drove up inflation, the international stock markets came under pressure. In addition, the tight restrictions under the zero-Covid strategy being pursued in China placed further strain on international supply chains. The downward trend in stock prices intensified in the further course of the reporting period due to the continuing confrontations in Ukraine, increasing concerns about a sufficient supply of energy, rising material costs, persistently high inflation and the resulting tighter monetary policy of the central banks.",
+        "relevance_score": 1.0,
+        "relevance_reason": "The paragraph outlines the broader economic context affecting stock markets, which includes factors influencing Volkswagen's share prices, making it relevant to the table."
+      },
+      {
+        "para_id": "VW2022_P098a89",
+        "page": 35,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "The German stock market index (DAX) began the year marginally up on its previous record achieved in November 2021. After that, apprehension about the tightening of monetary policy in the USA dominated investor sentiment. The Russia-Ukraine conflict and the fears this triggered of an energy crisis and its economic fallout provoked uncertainty among market participants and strained the capital market. In view of high inflation, the European Central Bank initiated an interest rate turnaround that, combined with fears of recession, resulted in a further fall in the DAX. Stock prices rose significantly in the fourth quarter; however, the DAX ended 2022 12% below the previous year's level, primarily under the impact of the high coronavirus infection rates in China.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph describes the performance of the DAX index, which is relevant to understanding the market environment for Volkswagen shares as shown in the table."
+      },
+      {
+        "para_id": "VW2022_Pc86abe",
+        "page": 35,
+        "section_name": "EQUITY MARKETS AND PERFORMANCE OF THE PRICE OF VOLKSWAGEN'S SHARES",
+        "section_level": 4,
+        "text": "Volkswagen AG's preferred and ordinary shares followed the trend on the stock markets, where cyclical automotive stocks dropped at above-average rates in some cases. With the announcement of the IPO of Porsche AG, Volkswagen's shares managed to temporarily detach themselves from the general trend. Although the good operating results were received positively by the market, the 2022 year-end closing price – after correcting for the special dividend of €19.06 per share – was down 34% for the preferred share and 43% for the ordinary share compared with the prior year figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph specifically mentions Volkswagen's share performance in the context of market trends, including the impact of the Porsche IPO, making it directly relevant to the share price data."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tcf7d57",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 39,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
     "title": "Volkswagen share Key Figures – 5 year overview",
     "headers": [
@@ -3233,10 +4097,25 @@
       "Turnover of Volkswagen preferred shares",
       "",
       "Volkswagen share of total DAX turnover"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P0acca9",
+        "page": 39,
+        "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
+        "section_level": 4,
+        "text": "1 Figures for the years 2018 to 2021 relate to dividends paid in the following year. For 2021, the figures exclude the special dividend due to the Porsche IPO. For 2022, the figures relate to the proposed dividend.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph explains how the dividend figures for the years 2018 to 2021 relate to the table, making it directly relevant."
+      }
     ]
   },
   {
     "table_id": "VW2022_Td3fba5",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 41,
+    "bucket": "management_report",
     "section_name": "REFINANCING",
     "title": "Utilization of money and capital market programs",
     "headers": [
@@ -3278,10 +4157,52 @@
       "Bonds",
       "of which hybrid issues",
       "Asset-backed securities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pd5ac40",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "In March 2022, Volkswagen International Finance N.V. placed two hybrid notes with a total volume of €2.25 billion. Some of the proceeds from this transaction were used to refinance the hybrid note issued in 2017, which had been duly canceled in November with effect from December 14, 2022. A second green bond was issued in June 2022 under the Green Finance Framework presented in 2020. At €1.5 billion, this was sufficient to almost completely refinance the expenses arising from the Green Project Portfolio for the years 2017 to 2020. The Volkswagen Group unveiled a new Green Finance Framework in November 2022. This allows the Company to finance capital expenditures that are aligned with the EU Taxonomy, whereby Volkswagen will voluntarily limit itself to all-electric vehicles. On the basis of the new framework, an amount of €2.5 billion was placed in the same month by way of three green bonds.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the placement of hybrid notes and green bonds, which directly relates to the financial instruments listed in the table."
+      },
+      {
+        "para_id": "VW2022_Pfbe7f0",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Official euro benchmark bonds with an aggregate volume of €2 billion were issued for the Financial Services Division. In addition to this, securities were issued in various currencies and regions.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the issuance of euro benchmark bonds, which directly relates to the financial instruments listed in the table."
+      },
+      {
+        "para_id": "VW2022_P3235de",
+        "page": 40,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "Alongside the placement of senior, unsecured bonds, asset-backed securities (ABS) transactions were another element of our refinancing activities. In Europe, public ABS transactions with a total volume of €2.75 billion were placed. Public ABS transactions were also issued in Japan and China.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses asset-backed securities transactions, which are directly relevant to the financial instruments in the table."
+      },
+      {
+        "para_id": "VW2022_P20fa6a",
+        "page": 41,
+        "section_name": "REFINANCING",
+        "section_level": 4,
+        "text": "The following table shows which financial instruments were utilized on the money and capital markets as of December 31, 2022 and illustrates the financial flexibility of the Volkswagen Group:",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph introduces the table and summarizes the financial instruments utilized, making it directly relevant."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tbee31e",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 43,
+    "bucket": "management_report",
     "section_name": "<span id=\"page-42-0\"></span>Results of Operations, Financial Position and Net Assets",
     "title": "Key figures for 2021 by segment",
     "headers": [
@@ -3342,10 +4263,34 @@
       "Sales revenue",
       "Segment profit or loss (operating result)",
       "as a percentage of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P85378b",
+        "page": 43,
+        "section_name": "<span id=\"page-42-0\"></span>Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "Against the backdrop of the global market slowdown and continued limited vehicle availability due to parts supply shortages, the Volkswagen Group generated significantly higher sales revenue and a higher operating result in the reporting year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Volkswagen Group's sales revenue and operating results, which are directly relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pac3e38",
+        "page": 43,
+        "section_name": "<span id=\"page-42-0\"></span>Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group's segment reporting comprises the four reportable segments of Passenger Cars and Light Commercial Vehicles, Commercial Vehicles, Power Engineering and Financial Services, in compliance with IFRS 8 and in line with the Group's internal financial management and reporting structures.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph explains the segments included in Volkswagen's reporting, which relates directly to the financial data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T99930a",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 47,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT BY DIVISION",
     "title": "Income statement by division",
     "headers": [
@@ -3550,10 +4495,61 @@
       "Noncontrolling interests",
       "Earnings attributable to Volkswagen AG hybrid capital investors",
       "Earnings attributable to Volkswagen AG shareholders"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P546a42",
+        "page": 46,
+        "section_name": "RUSSIA-UKRAINE CONFLICT",
+        "section_level": 4,
+        "text": "Overall, total expenses of around €2 billion were recognized in the reporting year as a direct result of the Russia-Ukraine conflict, which are reported in cost of sales and in the other operating result. Of this amount, €1.5 billion was charged to the Automotive Division and €0.5 billion to the Financial Services Division.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph mentions total expenses recognized due to the Russia-Ukraine conflict, which are reported in cost of sales and operating results, directly relating to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P0df1cc",
+        "page": 47,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "In the period from January to December 2022, the Volkswagen Group generated sales revenue of €279.2 billion, up 11.6% on the prior-year figure. Improvements, above all in the price positioning, the product mix and exchange rate trends, as well as healthy business performance in the Financial Services Division had a positive effect, while lower vehicle sales due to parts supply shortages had an adverse impact. Navistar, which has been consolidated since July 1, 2021, is included in the Group's sales revenue in an amount of €10.7 (3.6) billion. In fiscal year 2022, 82.6 (82.3)% of the Volkswagen Group's sales revenue originated abroad. Gross profit improved by €5.0 billion to €52.2 billion. The gross margin was 18.7 (18.9)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Volkswagen Group's sales revenue and its increase, directly relating to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P5f6fcd",
+        "page": 48,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's operating result before special items increased by €2.5 billion to €22.5 billion in the reporting year. The operating return on sales before special items amounted to 8.1 (8.0)%. The rise in the operating result was mainly attributable to improved price positioning and the product mix. Positive effects amounting to €3.7 (2.7) billion from derivatives to which hedge accounting is not applied (in particular commodity, currency and interest rate hedges) boosted the Group's earnings. These factors were offset by increased product costs, especially for commodities, and expenses of around €2 billion relating to loss allowances and risk provisions as a consequence of the direct impact of the Russia-Ukraine conflict. In the reporting period, the Passenger Cars Business Area reported one-off expenses for restructuring measures at SEAT in an amount of €0.2 billion. In the previous year, one-off expenses had been incurred for restructuring measures in the Commercial Vehicles Business Area (€0.7 billion) as well as expenses in connection with the EU antitrust proceedings against Scania (€0.5 billion). An expense of €0.1 billion was recognized for transaction costs in connection with the IPO of Porsche AG. In addition, employees of Volkswagen AG, Volkswagen Sachsen GmbH and the Porsche AG Group participated in the economic success of the sale of shares in Porsche AG by way of a one-off payment; to this end, an amount of €0.5 billion was recognized in personnel costs.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in operating result and return on sales, which are directly relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pc841f9",
+        "page": 48,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "Special items in connection with the diesel issue reduced the operating result, which amounted to €–0.4 (–0.8) billion. In the period from January to December 2022, the Volkswagen Group's operating result amounted to €22.1 billion, up €2.8 billion on the prior-year figure. The operating return on sales increased to 7.9 (7.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides the operating result and return on sales figures, which are directly related to the data in the table."
+      },
+      {
+        "para_id": "VW2022_Pcae590",
+        "page": 48,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "The Automotive Division recorded sales revenue of €232.4 (206.2) billion in fiscal year 2022. Favourable price positioning, product mix and exchange rate trends were set against the fact that vehicle availability continued to be limited due to parts supply shortages. In the period from January to December 2022, sales revenue in the Passenger Cars Business Area went up noticeably, by 9.5%. In the Commercial Vehicles Business Area, sales revenue rose very sharply by 31.3% compared with the previous year; it should, however, be noted that the prior-year figure had included the Navistar business only from July 2021 onward. The Power Engineering Business Area's sales revenue was noticeably higher than in 2021. As our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is essentially reflected in the Group's sales revenue only through deliveries of vehicles and vehicle parts.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's sales revenue, which directly relates to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tcd5942",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 49,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
     "title": "Results of operations in the passenger cars, commercial vehicles and engineering business areas",
     "headers": [
@@ -3643,10 +4639,70 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P5f6fcd",
+        "page": 48,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "The Volkswagen Group's operating result before special items increased by €2.5 billion to €22.5 billion in the reporting year. The operating return on sales before special items amounted to 8.1 (8.0)%. The rise in the operating result was mainly attributable to improved price positioning and the product mix. Positive effects amounting to €3.7 (2.7) billion from derivatives to which hedge accounting is not applied (in particular commodity, currency and interest rate hedges) boosted the Group's earnings. These factors were offset by increased product costs, especially for commodities, and expenses of around €2 billion relating to loss allowances and risk provisions as a consequence of the direct impact of the Russia-Ukraine conflict. In the reporting period, the Passenger Cars Business Area reported one-off expenses for restructuring measures at SEAT in an amount of €0.2 billion. In the previous year, one-off expenses had been incurred for restructuring measures in the Commercial Vehicles Business Area (€0.7 billion) as well as expenses in connection with the EU antitrust proceedings against Scania (€0.5 billion). An expense of €0.1 billion was recognized for transaction costs in connection with the IPO of Porsche AG. In addition, employees of Volkswagen AG, Volkswagen Sachsen GmbH and the Porsche AG Group participated in the economic success of the sale of shares in Porsche AG by way of a one-off payment; to this end, an amount of €0.5 billion was recognized in personnel costs.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in the operating result and return on sales, which are directly relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pc841f9",
+        "page": 48,
+        "section_name": "Results of operations of the Group",
+        "section_level": 4,
+        "text": "Special items in connection with the diesel issue reduced the operating result, which amounted to €–0.4 (–0.8) billion. In the period from January to December 2022, the Volkswagen Group's operating result amounted to €22.1 billion, up €2.8 billion on the prior-year figure. The operating return on sales increased to 7.9 (7.7)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides the operating result for the Volkswagen Group and discusses the increase in the operating return on sales, which relates directly to the data in the table."
+      },
+      {
+        "para_id": "VW2022_Pcae590",
+        "page": 48,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 4,
+        "text": "The Automotive Division recorded sales revenue of €232.4 (206.2) billion in fiscal year 2022. Favourable price positioning, product mix and exchange rate trends were set against the fact that vehicle availability continued to be limited due to parts supply shortages. In the period from January to December 2022, sales revenue in the Passenger Cars Business Area went up noticeably, by 9.5%. In the Commercial Vehicles Business Area, sales revenue rose very sharply by 31.3% compared with the previous year; it should, however, be noted that the prior-year figure had included the Navistar business only from July 2021 onward. The Power Engineering Business Area's sales revenue was noticeably higher than in 2021. As our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is essentially reflected in the Group's sales revenue only through deliveries of vehicles and vehicle parts.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's sales revenue, which directly relates to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P110599",
+        "page": 49,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 4,
+        "text": "In the period from January to December 2022, the Automotive Division's operating result improved by €3.2 billion to €16.5 billion. The operating return on sales of the Automotive Division climbed to 7.1 (6.4)%. The main contributing factors were improvements in price positioning and in the product mix. Compared with the previous year, the decline in unit sales as a result of parts supply shortages, higher product costs (especially for commodities), charges incurred because of the Russia-Ukraine conflict, and expenses in connection with the IPO of Porsche AG had an adverse effect. The negative special items recognized in fiscal year 2022 were lower than in the year before.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result of the Automotive Division, which is directly relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P3ec073",
+        "page": 50,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "At €46.8 billion, the sales revenue reported by the Financial Services Division in 2022 was 6.6% higher than in the prior-year period. Cost of sales increased proportionately.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the sales revenue reported by the Financial Services Division, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pc797a7",
+        "page": 50,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 4,
+        "text": "The Financial Services Division's operating result of €5.7 billion was €0.4 billion down on the previous year. The decline was caused mainly by expenses relating to loss allowances and risk provisions due to the direct impact of the Russia-Ukraine conflict; they were recognized in the other operating result. Continued strong demand for used vehicles and positive effects from derivatives to which hedge accounting is not applied (interest rate hedges) had a beneficial effect. The operating return on sales decreased to 12.1 (13.8)%. The return on equity before tax was 14.0 (17.3)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Financial Services Division's operating result, which is directly relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T5d972b",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 52,
+    "bucket": "management_report",
     "section_name": "CASH FLOW STATEMENT BY DIVISION",
     "title": "Cash flow statement by division",
     "headers": [
@@ -4001,10 +5057,70 @@
       "Gross liquidity",
       "Total third-party borrowings",
       "Net liquidity ^6"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pc954a2",
+        "page": 51,
+        "section_name": "Financial position of the Group",
+        "section_level": 4,
+        "text": "In the reporting year, the Volkswagen Group's gross cash flow went up to €49.3 (43.7) billion for earningsrelated reasons. The change in working capital amounted to €–20.8 (–5.1) billion. A smaller rise in lease assets and a higher rise in liabilities were unable to offset an increase in inventories and receivables and a reduction in other provisions compared to the prior year. Cash outflows resulting from the diesel issue were higher than in 2021. The payment of the fine arising from the EU antitrust proceedings against Scania led to a cash outflow of €0.9 billion in fiscal year 2022. As a result, cash flows from operating activities went down by €10.1 billion to €28.5 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses gross cash flow and changes in working capital, which are directly relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2022_P1c9b6c",
+        "page": 51,
+        "section_name": "Financial position of the Group",
+        "section_level": 4,
+        "text": "At the end of December 2022, the Volkswagen Group's net liquidity stood at €–125.8 billion, compared with €–136.6 billion on December 31, 2021.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses net liquidity, which is relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2022_P02ad6f",
+        "page": 51,
+        "section_name": "Financial position of the Automotive Division",
+        "section_level": 4,
+        "text": "In the period from January to December 2022, the Automotive Division's gross cash flow of €33.2 billion exceeded the prior-year figure by €4.1 billion. The increase was mainly attributable to improved earnings. The change in working capital amounted to €–3.3 (3.4) billion, resulting mainly from higher inventories and lower other provisions, offset by a larger increase in liabilities compared to the prior year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses gross cash flow for the Automotive Division, which is directly relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2022_Pfce6e7",
+        "page": 51,
+        "section_name": "Financial position of the Automotive Division",
+        "section_level": 4,
+        "text": "Cash outflows resulting from the diesel issue were higher than in the prior-year period. The payment of the fine arising from the EU antitrust proceedings against Scania led to a cash outflow in fiscal year 2022. Consequently, cash flows from operating activities decreased by €2.5 billion to €29.9 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses cash outflows related to the diesel issue, impacting overall cash flows, which is relevant to the table."
+      },
+      {
+        "para_id": "VW2022_Pc09183",
+        "page": 53,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 1,
+        "text": "Investing activities attributable to operating activities increased by €1.3 billion to €25.1 billion. Within this figure, investments in property, plant and equipment, investment property and intangible assets, excluding capitalized development costs (capex) increased by €2.2 billion to €12.7 billion. The ratio of capex to sales revenue was 5.5 (5.1)%. A considerable portion of capex was above all allocated to our production facilities and to models that we launched in 2022 or are planning to launch in 2023, or for which production is set to start. This expenditure relates mainly to vehicles in the ID. family (ID. Buzz, ID.3, ID.7) and product upgrades for the T-Roc, Amarok and Tiguan. Other vehicles in the volume segment are the ŠKODA Enyaq Coupé and upgrades to the Scala, Kamiq and Superb Combi models. The Bentley Bentayga, the facelift of the Audi Q8 e-tron and the Q6 e-tron expand the range of models in the Premium segment, among others. In the sports segment, the Cayman, Panamera, Cayenne, 911 and Taycan are among the models being updated, and the Macan is being electrified. Other investment priorities include the electrification and digitalization of our products and enhancements to the modular and all-electric toolkits and platforms. Additions to capitalized development costs rose to €9.7 (7.8) billion in the reporting period. The \"Acquisition and disposal of equity investments\" (M&A) item amounted to €–3.0 (–5.9) billion. It included strategic investments in a variety of companies, especially Europcar. The sale of Sitech Sp. z o.o. in the fiscal year under review had an offsetting effect. The prior-year period had included, among other items, the acquisition of Navistar and the investment in the associate Gotion High-Tech.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses investing activities and capital expenditures, which are relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2022_P6296dd",
+        "page": 53,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 1,
+        "text": "In the period from January to December 2022, the Automotive Division's net cash flow of €4.8 billion was €3.8 billion down on the prior-year figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses net cash flow for the Automotive Division, which is directly relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T6b8984",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 53,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
     "title": "Financial position in the passenger cars, commercial vehicles and power engineering business areas",
     "headers": [
@@ -4130,10 +5246,43 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P6296dd",
+        "page": 53,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 1,
+        "text": "In the period from January to December 2022, the Automotive Division's net cash flow of €4.8 billion was €3.8 billion down on the prior-year figure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's net cash flow, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pc9dbbf",
+        "page": 53,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS FROM JANUARY 1 TO DECEMBER 31",
+        "section_level": 1,
+        "text": "In fiscal year 2022, the Automotive Division's financing activities led to a cash inflow of €8.6 billion, compared with a cash outflow of €7.4 billion in the previous year. Hybrid notes with a total nominal",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Financial Services Division's cash inflow and outflow, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pc12ce1",
+        "page": 54,
+        "section_name": "AUTOMOTIVE DIVISION NET CASH FLOW 2022 € billion",
+        "section_level": 4,
+        "text": "At the end of 2022, the Automotive Division's net liquidity stood at €43.0 billion, compared with €26.7 billion at the end of 2021. The Automotive Division's net liquidity as a proportion of consolidated sales revenue increased to 15.4 (10.7)% in the reporting year, mainly because of cash inflows from the IPO.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's net liquidity, which is relevant to the cash flow figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T624755",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 56,
+    "bucket": "management_report",
     "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -4478,10 +5627,52 @@
       "Other liabilities",
       "Liabilities associated with assets held for sale",
       "Total equity and liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pc1c6bd",
+        "page": 55,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "As of December 31, 2022, intangible assets in the Automotive Division were up on the previous year, driven primarily by a rise in capitalized development costs. Property, plant and equipment was on a level with the previous year. Equity-accounted investments were likewise virtually unchanged compared to the previous year's balance sheet date. The increase attributable to capital increases, in particular at Green Mobility Holding, and the positive results of the Chinese joint venture companies were offset by the dividends of the joint ventures resolved in fiscal year 2022 and the impairment loss recognized on the equity investment in Argo AI. Noncurrent other receivables and financial assets increased, due mainly to positive effects from the measurement of derivatives. In total, noncurrent assets ended the year at €178.7 (170.4) billion and therefore higher than at the end of 2021.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in intangible assets in the Automotive Division, which is relevant to the asset figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pbb47ad",
+        "page": 55,
+        "section_name": "Automotive Division balance sheet structure",
+        "section_level": 4,
+        "text": "Current assets rose by €21.2 billion compared with the figure at the end of 2021, to €122.8 billion. The inventories included in this figure increased, primarily for production-related reasons, and were attributable, among other factors, to disruptions in the logistics chain. Current other receivables and financial assets stood at €18.8 billion – €0.5 billion more than at the end of 2021. The figure included higher trade receivables and positive effects from the measurement of derivatives.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in current assets and inventories, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P8127f9",
+        "page": 57,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2022 in percent",
+        "section_level": 4,
+        "text": "At the end of December 2022, the Automotive Division's equity of €135.9 billion was 24.7% up on the end of 2021. The proceeds from the successful IPO of Porsche AG, healthy earnings performance, lower actuarial losses from the remeasurement of pension plans and the hybrid notes issued in March 2022 pushed equity higher. The dividend payment in May 2022 and the special dividend to shareholders of Volkswagen AG resolved by the extraordinary General Meeting as well as the redemption of the hybrid notes called in February and November 2022 reduced the Automotive Division's equity. Noncontrolling interests went up as a result of the sale of shares in Porsche AG. They are now primarily held by the noncontrolling interest shareholders of the Porsche AG Group and the TRATON Group. The equity ratio was 45.1 (40.1)%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's equity increase, which is relevant to the overall financial context in the table."
+      },
+      {
+        "para_id": "VW2022_P632f6e",
+        "page": 57,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2022 in percent",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division reported total assets of €301.4 billion, 10.8% more than at the end of 2021.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total assets of the Automotive Division, which directly relates to the figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T413f9a",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 58,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET STRUCTURE OF THE PASSENGER CARS, COMMERCIAL VEHICLES AND POWER ENGINEERING BUSINESS AREAS",
     "title": "unknown title",
     "headers": [
@@ -4625,10 +5816,70 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P627602",
+        "page": 57,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2022 in percent",
+        "section_level": 4,
+        "text": "Noncurrent liabilities decreased by €10.6 billion to €88.3 billion. The noncurrent financial liabilities included in this item were lower than at the end of 2021, mainly because of reclassifications from noncurrent to current liabilities reflecting shorter remaining maturities. Pension provisions decreased, driven primarily by actuarial remeasurement following a change in the discount rate. Noncurrent other liabilities went up, due among other things to the effects of the measurement of derivatives.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses noncurrent liabilities and their changes, which directly relates to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P56819d",
+        "page": 57,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2022 in percent",
+        "section_level": 4,
+        "text": "Current liabilities increased by €13.2 billion to €77.2 billion. Current financial liabilities amounted to €–11.0 (–10.2) billion. The figures for the Automotive Division also contain the elimination of intragroup transactions between the Automotive and Financial Services divisions. As the current financial liabilities for the primary Automotive Division were lower than the loans granted to the Financial Services Division, a negative amount was disclosed in both periods. Trade payables were up by 24.5% compared with the end of 2021. Current other liabilities exceeded the figure as of December 31, 2021, driven primarily by the special dividend, which was resolved in December 2022 and paid in January 2023. An offsetting transaction was the netting of the payment claim from the second tranche of the ordinary shares of Porsche AG.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses current liabilities and their increase, which is relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P632f6e",
+        "page": 57,
+        "section_name": "CONSOLIDATED BALANCE SHEET STRUCTURE 2022 in percent",
+        "section_level": 4,
+        "text": "At the end of the reporting year, the Automotive Division reported total assets of €301.4 billion, 10.8% more than at the end of 2021.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph provides the total assets of the Automotive Division, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pa86672",
+        "page": 58,
+        "section_name": "Financial Services Division balance sheet structure",
+        "section_level": 1,
+        "text": "At €263.4 billion, the Financial Services Division's total assets on December 31, 2022 were 2.6% higher than a year earlier.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total assets of the Financial Services Division, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pd885ad",
+        "page": 58,
+        "section_name": "Financial Services Division balance sheet structure",
+        "section_level": 1,
+        "text": "Noncurrent assets rose to €161.8 billion, up 2.5% compared with the end of 2021; the lease assets included in this item expanded mainly due to exchange rate movements. Noncurrent financial services receivables increased, driven by business growth; noncurrent other receivables were also up on the previous year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in noncurrent assets, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P3963ff",
+        "page": 58,
+        "section_name": "Financial Services Division balance sheet structure",
+        "section_level": 1,
+        "text": "Current assets climbed by 2.8% to €101.6 billion. The current financial services receivables included in this item went up, as did current other receivables and financial assets, buoyed among other factors by the rise in trade receivables. The Financial Services Division's cash and cash equivalents stood at €6.1 (14.2) billion on December 31, 2022. Total securities were €0.5 billion lower, at €4.3 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in current assets, which directly relates to the figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tc57f7f",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 60,
+    "bucket": "management_report",
     "section_name": "COST OF CAPITAL AFTER TAX IN THE AUTOMOTIVE DIVISION",
     "title": "Cost of capital after tax in the Automotive Division",
     "headers": [
@@ -4712,10 +5963,61 @@
       "Proportion of equity",
       "Proportion of debt",
       "Cost of capital after tax"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pf4a349",
+        "page": 59,
+        "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION",
+        "section_level": 1,
+        "text": "The central focus of the Volkswagen Group's financial target system is to continuously and sustainably increase the value of the Company. In order to make efficient use of resources in the Automotive Division and to measure the success of this, we have been using a value-based management system for a number of years, with return on investment (ROI) as a relative indicator and value contribution1, a key performance indicator linked to the cost of capital, as an absolute performance measure.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the cost of capital and its relationship to the value-based management system, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P1338c7",
+        "page": 59,
+        "section_name": "Components of value contribution",
+        "section_level": 4,
+        "text": "The cost of capital is multiplied by the average invested capital to give the opportunity cost of capital. Invested capital is calculated as total operating assets reported in the balance sheet (property, plant and equipment, intangible assets, lease assets, inventories and receivables) less non-interest-bearing liabilities (trade payables and payments on account received). Average invested capital is derived from the balance at the beginning and the end of the reporting period.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the calculation of invested capital and the opportunity cost of capital, which are relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pe54660",
+        "page": 60,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 4,
+        "text": "The cost of capital is the weighted average of the required rates of return on equity and debt.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the cost of capital as the weighted average of required rates of return, which is directly relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P0bfaac",
+        "page": 60,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 4,
+        "text": "The cost of equity is determined using the Capital Asset Pricing Model (CAPM). This model uses the yield on long-term risk-free Bunds, increased by the risk premium attaching to investments in the equity market. The risk premium comprises a general market risk and a specific business risk. The general risk premium of 7.5% reflects the general risk of a capital investment in the equity market. The specific business risk – price fluctuations in Volkswagen preferred shares – is modeled in comparison to the MSCI World Index when calculating the beta factor. The MSCI World Index is a global capital market benchmark for investors.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the cost of equity using the Capital Asset Pricing Model, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P22b7c0",
+        "page": 60,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 4,
+        "text": "The cost of debt is based on the average yield for long-term corporate bonds. As borrowing costs are taxdeductible, the cost of debt is adjusted to account for the tax rate of 30%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the cost of debt and its adjustment for tax, which is relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T4925b1",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 61,
+    "bucket": "management_report",
     "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
     "title": "Return on investment (ROI) and value contribution in the Automotive Division",
     "headers": [
@@ -4769,10 +6071,88 @@
       "Cost of capital in %",
       "Cost of invested capital",
       "Value contribution"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pe54660",
+        "page": 60,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 4,
+        "text": "The cost of capital is the weighted average of the required rates of return on equity and debt.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the cost of capital, which is directly relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P0bfaac",
+        "page": 60,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 4,
+        "text": "The cost of equity is determined using the Capital Asset Pricing Model (CAPM). This model uses the yield on long-term risk-free Bunds, increased by the risk premium attaching to investments in the equity market. The risk premium comprises a general market risk and a specific business risk. The general risk premium of 7.5% reflects the general risk of a capital investment in the equity market. The specific business risk – price fluctuations in Volkswagen preferred shares – is modeled in comparison to the MSCI World Index when calculating the beta factor. The MSCI World Index is a global capital market benchmark for investors.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph explains how the cost of equity is determined, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P22b7c0",
+        "page": 60,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 4,
+        "text": "The cost of debt is based on the average yield for long-term corporate bonds. As borrowing costs are taxdeductible, the cost of debt is adjusted to account for the tax rate of 30%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the cost of debt and its adjustment for tax, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P66f33e",
+        "page": 60,
+        "section_name": "Determining the current cost of capital",
+        "section_level": 4,
+        "text": "A weighting on the basis of a fixed ratio for the fair values of equity and debt results in an effective cost of capital for the Automotive Division of 8.3 (6.2)% for 2022.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the effective cost of capital for the Automotive Division, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2022_Pb53623",
+        "page": 61,
+        "section_name": "Return on investment (ROI) and value contribution in the reporting period",
+        "section_level": 1,
+        "text": "The operating result after tax for the Automotive Division, including the proportionate operating result of the equity-accounted Chinese joint ventures, increased to €14,078 (11,740) million in fiscal year 2022. The year-on-year improvement resulted primarily from favorable price positioning and positive changes in the product mix. Negative impacts during the reporting period arose primarily from a decline in unit sales as a result of parts supply shortages, higher product costs (especially for commodities), negative impacts from the Russia-Ukraine conflict, and the recognition of negative special items in the reporting period. The effect of purchase price allocation on earnings and assets is not taken into account as this cannot be influenced by management in the course of business operations.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result after tax, which is directly relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P565b0d",
+        "page": 61,
+        "section_name": "Return on investment (ROI) and value contribution in the reporting period",
+        "section_level": 1,
+        "text": "At €117,412 (113,386) million, invested capital increased slightly in the reporting year compared with the prior year.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses invested capital, which is directly relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P1b6371",
+        "page": 61,
+        "section_name": "Return on investment (ROI) and value contribution in the reporting period",
+        "section_level": 1,
+        "text": "The return on investment (ROI) is the return on invested capital for a particular period based on the operating result after tax. Due to the improved operating result, the ROI of 12.0 (10.4)% exceeded both the prior-year figure and our minimum required rate of return on invested capital of 9%.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the return on investment (ROI) based on the operating result after tax, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P2199a3",
+        "page": 61,
+        "section_name": "Return on investment (ROI) and value contribution in the reporting period",
+        "section_level": 1,
+        "text": "At €9,702 (6,984) million, the opportunity cost of capital – invested capital multiplied by the cost of capital – was strongly up on the previous year. Improvements in the operating result after tax, net of the opportunity cost of invested capital, led to a positive value contribution of €4,376 (4,756) million, which fell short of the prior-year figure, mainly because of the increased cost of capital.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the opportunity cost of capital, which is relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tc0a904",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 63,
+    "bucket": "management_report",
     "section_name": "FORECAST VERSUS ACTUAL FIGURES",
     "title": "Forecast versus actual figures",
     "headers": [
@@ -5018,10 +6398,52 @@
       "Net cash flow in the Automotive Division",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pd75c04",
+        "page": 62,
+        "section_name": "SUMMARY OF BUSINESS DEVELOPMENT AND ECONOMIC POSITION",
+        "section_level": 4,
+        "text": "In the reporting period, the Volkswagen Group's business was impacted by the global economic slowdown, the limited availability of parts and disruptions in the logistics chain. As a result, we had to adjust some aspects of our forecast. In this environment, we consequently delivered 8.3 million vehicles in the past fiscal year to customers and thereby fewer than planned.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the impact of the global economic slowdown and parts availability on deliveries, directly relating to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P45db03",
+        "page": 62,
+        "section_name": "SUMMARY OF BUSINESS DEVELOPMENT AND ECONOMIC POSITION",
+        "section_level": 4,
+        "text": "The Group's sales revenues rose – in line with our expectations – by 11.6%, which was primarily due to prices, product mix and exchange rate effects as well as the good performance in the Financial Services Division.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in sales revenues, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P4a6db6",
+        "page": 62,
+        "section_name": "SUMMARY OF BUSINESS DEVELOPMENT AND ECONOMIC POSITION",
+        "section_level": 4,
+        "text": "The operating result before special items increased to €22.5 billion. The operating return on sales before and after special items was 8.1% and 7.9% respectively, and thus within the forecast range.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the operating result before special items, which is directly relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P8a8458",
+        "page": 64,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Sales revenue increased by 12.1% year-on-year to €79.5 billion in the reporting year, driven mainly by higher sales volumes and a more favorable price-product mix. Sales generated abroad accounted for a share of €46.3 billion or 58.2%. Cost of sales increased faster than sales revenue, rising by 17.9% to €79.5 billion, mainly because of higher commodity prices for vehicle production.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in sales revenue and cost of sales, which is relevant to the figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Taa77d6",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 64,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
     "title": "Income statement of Volkswagen AG",
     "headers": [
@@ -5111,10 +6533,61 @@
       "Retained profits brought forward",
       "Release of/appropriation to revenue reserves",
       "Net retained profits"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P2f296e",
+        "page": 64,
+        "section_name": "<span id=\"page-63-0\"></span>Volkswagen AG",
+        "section_level": 1,
+        "text": "The year 2022 was impacted by the global market slowdown, the limited availability of parts and disruptions in the logistics chain.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the impact of the global market slowdown and parts availability on sales, which is relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P8a8458",
+        "page": 64,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Sales revenue increased by 12.1% year-on-year to €79.5 billion in the reporting year, driven mainly by higher sales volumes and a more favorable price-product mix. Sales generated abroad accounted for a share of €46.3 billion or 58.2%. Cost of sales increased faster than sales revenue, rising by 17.9% to €79.5 billion, mainly because of higher commodity prices for vehicle production.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in sales revenue and cost of sales, which is relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pb09587",
+        "page": 64,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Gross profit on sales fell accordingly to €–0.0 (3.5) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses gross profit on sales, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Peb5c6e",
+        "page": 65,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "The other operating result amounted to €2.0 billion, up €1.9 billion on the previous year, driven in particular by a decline in expenses for legal and litigation risks, positive effects from the measurement and settlement of hedging transactions and foreign currency translation.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the other operating result, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P7900c1",
+        "page": 65,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "Taxes on income amounted to €1.0 (–1.1) billion, particularly due to higher tax expenses for prior years. Net income for fiscal year 2022 thus amounted to €12.5 (4.0) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses taxes on income and net income for the fiscal year, which are relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Teaf6ee",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 65,
+    "bucket": "management_report",
     "section_name": "NET ASSETS AND FINANCIAL POSITION",
     "title": "unknown title",
     "headers": [
@@ -5192,10 +6665,52 @@
       "Long-term debt",
       "Medium-term debt",
       "Short-term debt"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P8a8458",
+        "page": 64,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Sales revenue increased by 12.1% year-on-year to €79.5 billion in the reporting year, driven mainly by higher sales volumes and a more favorable price-product mix. Sales generated abroad accounted for a share of €46.3 billion or 58.2%. Cost of sales increased faster than sales revenue, rising by 17.9% to €79.5 billion, mainly because of higher commodity prices for vehicle production.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the increase in sales revenue and cost of sales, which is relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pb09587",
+        "page": 64,
+        "section_name": "ANNUAL RESULT",
+        "section_level": 1,
+        "text": "Gross profit on sales fell accordingly to €–0.0 (3.5) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses gross profit on sales, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Peb5c6e",
+        "page": 65,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "The other operating result amounted to €2.0 billion, up €1.9 billion on the previous year, driven in particular by a decline in expenses for legal and litigation risks, positive effects from the measurement and settlement of hedging transactions and foreign currency translation.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the other operating result, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P7900c1",
+        "page": 65,
+        "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
+        "section_level": 1,
+        "text": "Taxes on income amounted to €1.0 (–1.1) billion, particularly due to higher tax expenses for prior years. Net income for fiscal year 2022 thus amounted to €12.5 (4.0) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses taxes on income and net income for the fiscal year, which are relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Teed6a9",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 67,
+    "bucket": "management_report",
     "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "title": "Proposal on the appropriation of net profit",
     "headers": [
@@ -5249,10 +6764,34 @@
       "Appropriation to other revenue reserves",
       "Balance (carried forward to new account)",
       "Net retained profits"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pf47f3c",
+        "page": 66,
+        "section_name": "SPECIAL DIVIDEND FOLLOWING PORSCHE AG IPO",
+        "section_level": 1,
+        "text": "The resolution of the extraordinary General Meeting of Volkswagen AG on December 16, 2022 gave rise to the obligation to pay a dividend, which was increased by €19.06 per ordinary and preferred share and led to a total obligation to the shareholders of Volkswagen AG amounting to €9.6 billion. A corresponding liability was recognized for this payment as of the balance sheet date. The cash outflow was scheduled for January 9, 2023 and occurred on that day.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses the obligation to pay a dividend, which is directly relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2022_P46bf97",
+        "page": 67,
+        "section_name": "DIVIDEND PROPOSAL",
+        "section_level": 1,
+        "text": "In fiscal year 2022, net retained profits amounted to €12.0 billion. The Board of Management and Supervisory Board are proposing to pay a total dividend of €4.4 billion, i.e. €8.70 per ordinary share and €8.76 per preferred share.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses net retained profits, which is relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Ta3210c",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 67,
+    "bucket": "management_report",
     "section_name": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
     "title": "Employee pay and benefits at Volkswagen AG",
     "headers": [
@@ -5306,10 +6845,34 @@
       "Compensated absence",
       "Retirement benefits",
       "Total expense"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_Pf47f3c",
+        "page": 66,
+        "section_name": "SPECIAL DIVIDEND FOLLOWING PORSCHE AG IPO",
+        "section_level": 1,
+        "text": "The resolution of the extraordinary General Meeting of Volkswagen AG on December 16, 2022 gave rise to the obligation to pay a dividend, which was increased by €19.06 per ordinary and preferred share and led to a total obligation to the shareholders of Volkswagen AG amounting to €9.6 billion. A corresponding liability was recognized for this payment as of the balance sheet date. The cash outflow was scheduled for January 9, 2023 and occurred on that day.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses the obligation to pay a dividend, which is directly relevant to the financial metrics in the table."
+      },
+      {
+        "para_id": "VW2022_P46bf97",
+        "page": 67,
+        "section_name": "DIVIDEND PROPOSAL",
+        "section_level": 1,
+        "text": "In fiscal year 2022, net retained profits amounted to €12.0 billion. The Board of Management and Supervisory Board are proposing to pay a total dividend of €4.4 billion, i.e. €8.70 per ordinary share and €8.76 per preferred share.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This discusses net retained profits, which is relevant to the financial metrics in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Te22531",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 85,
+    "bucket": "management_report",
     "section_name": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
     "title": "Research and development costs in the Automotive Division",
     "headers": [
@@ -5375,10 +6938,34 @@
       "Sales revenue",
       "Total research and development costs",
       "R&D ratio"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P9bc8f8",
+        "page": 85,
+        "section_name": "Key R&D figures",
+        "section_level": 1,
+        "text": "In fiscal year 2022, we filed 5,305 (5,638) patent applications worldwide for employee inventions, the majority of them in Germany. The fact that an ever-increasing share of these patents is for important cutting-edge fields underscores our Company's innovative power. These fields include driver assistance systems and automation, digitalization, connectivity, as well as alternative drive systems.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total research and development costs, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P8ffce1",
+        "page": 85,
+        "section_name": "Key R&D figures",
+        "section_level": 1,
+        "text": "The Automotive Division's total research and development costs in the reporting period amounted to €18.9 (15.6) billion and were 21.3% higher than in the previous year; their percentage of the Automotive Division's sales revenue – the R&D ratio – was 8.1 (7.6)%. In addition to new models, our activities focused above all on the electrification of our vehicle portfolio, digitalization, new technologies and enhancements of our modular and all-electric toolkits and platforms. The capitalization ratio was 51.4(50.3)%. Research and development expenditure recognized in profit or loss in accordance with the IFRSs increased to €14.3 (12.8) billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the Automotive Division's total research and development costs and the capitalization ratio, which are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tf67f2a",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 103,
+    "bucket": "management_report",
     "section_name": "PROPORTION OF WOMEN IN THE VOLKSWAGEN GROUP",
     "title": "Proportion of women",
     "headers": [
@@ -5432,10 +7019,15 @@
       "Management",
       "Senior management",
       "Top management"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_T964db2",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 110,
+    "bucket": "management_report",
     "section_name": "ECONOMIC ACTIVITIES OF THE VOLKSWAGEN GROUP",
     "title": "Economic activity in accordance with the EU taxonomy",
     "headers": [
@@ -5504,10 +7096,15 @@
       "3.6 Manufacture of other low-carbon technologies",
       "9. Professional, scientific and technical activities",
       "9.1 Close to market research, development and innovation"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_T62f1ae",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 115,
+    "bucket": "management_report",
     "section_name": "SALES REVENUE 2022",
     "title": "Sales revenue",
     "headers": [
@@ -5681,10 +7278,61 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P7191ed",
+        "page": 114,
+        "section_name": "Sales revenue",
+        "section_level": 3,
+        "text": "Of this total, €254.5 billion, or 91.1% of Group sales, was attributable to economic activity 3.3 Manufacture of low-carbon technologies for transport, and was classified as taxonomy-eligible. This includes sales revenue after sales allowances from the sale of new and used vehicles, including motorcycles, from genuine parts, from the rental and lease business, and from interest and similar income, as well as sales revenue directly related to the vehicles, such as workshop and other services.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the substantial contribution of sales revenue to climate change mitigation, directly relating to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P0f91db",
+        "page": 114,
+        "section_name": "Sales revenue",
+        "section_level": 3,
+        "text": "Of the taxonomy-eligible sales revenue, €26.1 billion meet the screening criteria used to measure the substantial contribution to climate change mitigation. This includes all of our all-electric vehicles, the majority of the plug-in hybrids, and the buses meeting the EURO VI standard (Stage E). In 2022, there were 596 thousand such vehicles, 6.5% more than in the previous year. Their share of the relevant sales volume – excluding the vehicles from the Chinese joint ventures – rose to 11.1 (10.1) %. Passenger cars and light commercial vehicles made up the bulk at 594 thousand vehicles; trucks and buses recorded a nine-fold increase year-on-year. Sales of all-electric vehicles were up significantly.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the taxonomy-aligned sales revenue, which is directly relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P49a70c",
+        "page": 114,
+        "section_name": "Sales revenue",
+        "section_level": 3,
+        "text": "Taking into account the DNSH criteria and minimum safeguards, €26.1 (21.1) billion of the sales revenue generated from our vehicle-related business, equating to 9.4 (8.5) % of consolidated sales revenue, was taxonomy-aligned. Of this amount, €19.6 billion, or 7.0% of consolidated sales revenue, was attributable to our all-electric models (BEVs). In 2022, compliance with the DNSH criteria was also demonstrated for truck and bus sites.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the alignment of sales revenue with the EU Taxonomy, which directly relates to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_Pc81a8f",
+        "page": 115,
+        "section_name": "Sales revenue",
+        "section_level": 3,
+        "text": "Of the Volkswagen Group's total sales revenue in fiscal year 2022,",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total sales revenue and its alignment with the EU Taxonomy, which is relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P987a32",
+        "page": 115,
+        "section_name": "Sales revenue",
+        "section_level": 3,
+        "text": "- > €257.0 (227.8) billion, or 92.1 (91.0)%, was taxonomy-eligible sales revenue and - > €26.1 (21.2) billion, or 9.4 (8.5)%, was taxonomy-aligned sales revenue.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph summarizes the taxonomy-eligible sales revenue, which is directly relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_Tc107a5",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 117,
+    "bucket": "management_report",
     "section_name": "CAPITAL EXPENDITURE 2022",
     "title": "Capital expenditure",
     "headers": [
@@ -5871,10 +7519,15 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_Tbd4324",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 119,
+    "bucket": "management_report",
     "section_name": "OPERATING EXPENDITURE 2022",
     "title": "Operating expenditure",
     "headers": [
@@ -6035,10 +7688,15 @@
       "9.1 Close to market research, development and innovation",
       "B. Taxonomy-non-eligible activities",
       "Total (A + B)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_Tee9b0a",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 121,
+    "bucket": "management_report",
     "section_name": "TABULAR PRESENTATION IN ACCORDANCEWITH THE EU TAXONOMY",
     "title": "Tabular presentation in accordance with the EU Taxonomy – Sales",
     "headers": [
@@ -6474,10 +8132,52 @@
       "B. Taxonomy-non-eligible activities",
       "Sales reve-nue from taxonomy-non-eligible activities (B)",
       "Total (A + B)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2022_P8d909d",
+        "page": 120,
+        "section_name": "CAPEX PLAN UNDER THE EU TAXONOMY",
+        "section_level": 4,
+        "text": "The EU Taxonomy requires the reporting to state the extent to which taxonomy-aligned capital and operating expenditures a) relate to assets or processes associated with environmentally sustainable economic activities or b) are part of a plan to expand taxonomy-aligned economic activities or to allow taxonomyeligible economic activities to become taxonomy-aligned (CapEx plan). A CapEx plan under the EU Taxonomy shows the total capital expense, i.e. the sum of capital and operating expenditures expected to be incurred in the reporting period and during the five-year medium-term planning to expand taxonomyaligned economic activities or allow taxonomy-eligible economic activities to become taxonomy-aligned.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the EU Taxonomy requirements for reporting capital and operating expenditures, which is directly relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P446d72",
+        "page": 120,
+        "section_name": "CAPEX PLAN UNDER THE EU TAXONOMY",
+        "section_level": 4,
+        "text": "For the vehicle-related business, the CapEx plan drawn up under the EU Taxonomy relates to economic activity 3.3 Manufacture of low-carbon technologies for transport within the climate change mitigation environmental objective.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the CapEx plan under the EU Taxonomy and its relation to low-carbon technologies, which is relevant to the financial figures in the table."
+      },
+      {
+        "para_id": "VW2022_P811395",
+        "page": 120,
+        "section_name": "CAPEX PLAN UNDER THE EU TAXONOMY",
+        "section_level": 4,
+        "text": "As a result, €9 billion of the taxonomy-aligned capital expenditure and €3 billion of the taxonomyaligned operating expenditure in the reporting period is attributable to the CapEx plan under the EU Taxonomy. The total capital expense from the CapEx plan under the EU Taxonomy that is expected to be incurred in the reporting period and during the five-year medium-term planning amounts to €100 billion.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the total taxonomy-aligned capital and operating expenditure, which is relevant to the figures in the table."
+      },
+      {
+        "para_id": "VW2022_P62029a",
+        "page": 120,
+        "section_name": "CAPEX PLAN UNDER THE EU TAXONOMY",
+        "section_level": 4,
+        "text": "In the Power Engineering Business Area, the CapEx plan under the EU Taxonomy relates to economic activity 3.2 Manufacture of equipment for the production and use of hydrogen listed in the climate change mitigation environmental objective. Based on the ratio of sales revenue in the reporting period to the average sales revenue envisaged in the medium-term planning, we allocated €26 million of the taxonomyaligned capital expenditure and €4 million of the taxonomy-aligned operating expenditure to the CapEx plan. The total capital expense from this CapEx plan under the EU Taxonomy that is expected to be incurred in the reporting period and during the medium-term planning amounts to approximately €300 million.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph discusses the CapEx plan related to hydrogen production, which is relevant to the financial figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2022_T7af7fb",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 122,
+    "bucket": "management_report",
     "section_name": "CAPITAL EXPENDITURE 2022",
     "title": "Tabular presentation in accordance with the EU Taxonomy – Capex",
     "headers": [
@@ -6913,10 +8613,15 @@
       "B. Taxonomy-non-eligible activities",
       "Capital expenditure for taxonomy-non-eligible activities (B)",
       "Total (A + B)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2022_T2be8b4",
+    "doc_id": "VW2022",
+    "year": 2022,
+    "page": 123,
+    "bucket": "management_report",
     "section_name": "OPERATING EXPENDITURE 2022",
     "title": "Tabular presentation in accordance with the EU Taxonomy – Opex",
     "headers": [
@@ -7352,6 +9057,7 @@
       "B. Taxonomy-non-eligible activities",
       "Operating expenditure for taxonomy-non-eligible activities (B)",
       "Total (A + B)"
-    ]
+    ],
+    "paragraphs": []
   }
 ]

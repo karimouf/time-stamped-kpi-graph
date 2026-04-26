@@ -1,0 +1,9 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+deliveries,Total,Worldwide,609836,2015,units,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json
+deliveries,Total,Worldwide,646486,2014,units,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,430801,2015,units,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,446616,2014,units,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json
+deliveries,Scania,Worldwide,76561,2015,units,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json
+deliveries,Scania,Worldwide,79782,2014,units,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json
+deliveries,MAN,Worldwide,102474,2015,units,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json
+deliveries,MAN,Worldwide,120088,2014,units,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_052_table_00_kpis.json

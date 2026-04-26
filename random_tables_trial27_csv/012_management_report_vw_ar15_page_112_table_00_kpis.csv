@@ -1,0 +1,9 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Ideas suggested,Volkswagen Group,Worldwide,536081,2015,number,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json
+Ideas suggested,Volkswagen Group,Worldwide,463042,2014,number,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json
+Suggestions implemented,Volkswagen Group,Worldwide,360454,2015,number,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json
+Suggestions implemented,Volkswagen Group,Worldwide,306432,2014,number,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json
+Savings,Volkswagen Group,Worldwide,374.9,2015,€ million,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json
+Savings,Volkswagen Group,Worldwide,324.4,2014,€ million,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json
+Bonuses,Volkswagen Group,Worldwide,38.7,2015,€ million,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json
+Bonuses,Volkswagen Group,Worldwide,35.2,2014,€ million,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar15_page_112_table_00_kpis.json

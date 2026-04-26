@@ -1,0 +1,13 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Operating result after tax,Automotive Division,Worldwide,7419,2016,€ million,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Operating result after tax,Automotive Division,Worldwide,-203,2015,€ million,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Invested capital (average),Automotive Division,Worldwide,91020,2016,€ million,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Invested capital (average),Automotive Division,Worldwide,84289,2015,€ million,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Return on investment (ROI),Automotive Division,Worldwide,8.2,2016,%,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Return on investment (ROI),Automotive Division,Worldwide,-0.2,2015,%,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Cost of capital,Automotive Division,Worldwide,6.2,2016,%,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Cost of capital,Automotive Division,Worldwide,6.8,2015,%,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Cost of invested capital,Automotive Division,Worldwide,5643,2016,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Cost of invested capital,Automotive Division,Worldwide,5732,2015,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Value contribution,Automotive Division,Worldwide,1775,2016,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json
+Value contribution,Automotive Division,Worldwide,-5935,2015,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar16_page_086_table_00_kpis.json

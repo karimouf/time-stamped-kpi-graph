@@ -8,24 +8,34 @@ from collections import defaultdict
 
 
 def load_all_tables_from_db(db_path: str) -> List[Dict[str, Any]]:
-    """Load all tables from the database."""
+    """Load all tables from the database with ALL available fields."""
     conn = sqlite3.connect(db_path)
     try:
         cur = conn.cursor()
-        cur.execute("SELECT table_id, section_name, title, headers, merged_headers, rows, stub_col, paragraphs FROM context_packs")
+        # Get ALL columns from context_packs table
+        cur.execute("""
+            SELECT table_id, doc_id, year, page, bucket, section_name, title, 
+                   headers, merged_headers, rows, stub_col, paragraphs 
+            FROM context_packs
+        """)
         
         tables = []
         for row in cur.fetchall():
-            table_id, section_name, title, headers, merged_headers, rows, stub_col, paragraphs = row
+            table_id, doc_id, year, page, bucket, section_name, title, headers, merged_headers, rows, stub_col, paragraphs = row
             
             table_data = {
                 "table_id": table_id,
+                "doc_id": doc_id if doc_id else "",
+                "year": year,
+                "page": page,
+                "bucket": bucket if bucket else "",
                 "section_name": section_name if section_name else "",
                 "title": title if title else "",
                 "headers": json.loads(headers) if headers else [],
                 "merged_headers": json.loads(merged_headers) if merged_headers else None,
                 "rows": json.loads(rows) if rows else [],
                 "stub_col": json.loads(stub_col) if stub_col else None,
+                "paragraphs": json.loads(paragraphs) if paragraphs else []
             }
             tables.append(table_data)
         
@@ -100,7 +110,7 @@ def export_tables_to_json_files(db_path: str, output_dir: str) -> None:
 
 
 if __name__ == "__main__":
-    DB_PATH = "data/pack_context.db"
+    DB_PATH = "kpi_extraction_project/data/pack_context.db"
     OUTPUT_DIR = "data/output/exported_tables"
     
     try:

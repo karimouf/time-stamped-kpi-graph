@@ -141,14 +141,15 @@ Each KPI must have these fields:
   - Extract from headers or infer from context
   - NEVER empty
 
-- **row_idx** (integer): Zero-based row index in the table
-  - ALWAYS start from 0 for the first data row (after headers)
-  - Header rows do NOT count in the index
-  - Increment by 1 for each subsequent row
-  - IMPORTANT: Skip completely empty rows (rows with no data in any column) but still count them for row_idx increment
-  - Example: If row 2 is completely empty, skip extracting KPIs from it but the next non-empty row becomes row_idx=3
-  - However, if a row has some empty values but contains at least one data value, extract KPIs from that row (using null for empty cells)
-  - IMPORTANT: First data row is ALWAYS row_idx=0
+- **row_idx** (integer): Zero-based row index counting ALL visible rows in the table body
+  - Start counting from 0 at the FIRST row of the table body (immediately after the column header row(s))
+  - COUNT every row in the table body regardless of its type: data rows, subheader/group label rows, separator rows, empty rows, footnote rows — all increment the index
+  - Many financial tables have subheader rows (e.g., "Standard & Poor's", "Moody's", a brand name, or a category label) that span all columns. These rows do NOT contain KPI values but MUST be counted in row_idx.
+  - Empty rows (no content in any cell) also MUST be counted — they still increment row_idx.
+  - Example: If the table body starts with a subheader row "Standard & Poor's" at row_idx=0, the first data row below it is row_idx=1, not row_idx=0.
+  - Example: If row_idx=3 is empty and row_idx=4 is a group label, the next data row is row_idx=5.
+  - Rule of thumb: row_idx is the physical row position in the table body, not the count of data-only rows.
+  - Do NOT reset row_idx after subheader rows — the index is always cumulative from the top of the table body.
 
 - **col_idx** (integer): One-based column index for data values
   - ALWAYS start from 1 for the first value column
@@ -206,7 +207,7 @@ Return ONLY valid JSON with this structure, no additional text:
       "value": number or null,
       "year": integer or null,
       "units": "string (measurement unit)",
-      "row_idx": integer (zero-based),
+      "row_idx": integer,
       "col_idx": integer (one-based, starts at 1)
     }
   ],
@@ -224,7 +225,8 @@ Before finalizing:
 6. ✓ All year columns processed (not just the first one)
 7. ✓ row_idx and col_idx are consistent across all KPIs
 8. ✓ Same row has same row_idx, same column has same col_idx
-9. ✓ Vehicle-category keys are fully disambiguated (not generic "Trucks"/"Buses" when parent entity is available)
+9. ✓ row_idx counts ALL table-body rows (data rows + subheader rows + empty rows) — subheaders and empty rows are never skipped in the count
+10. ✓ Vehicle-category keys are fully disambiguated (not generic "Trucks"/"Buses" when parent entity is available)
 
 Extract ALL data comprehensively and accurately."""
 
@@ -649,6 +651,105 @@ Set "is_complete" to true if you have extracted ALL remaining KPIs from the tabl
                                 bucket=bucket,
                                 table_idx=table_idx,
                             )
+
+                            # ── Duplicate-KPI retry loop ─────────────────────────────────
+                            max_dup_retries = 3
+                            dup_retry_count = 0
+                            while validation_output.get("has_duplicates") and dup_retry_count < max_dup_retries:
+                                dup_retry_count += 1
+                                dup_list = validation_output["duplicate_kpis_list"]
+                                logger.info(
+                                    f"    ⚠ {len(dup_list)} duplicate KPI(s) detected "
+                                    f"(same name/key/units/year). Retrying with disambiguation prompt "
+                                    f"(attempt {dup_retry_count}/{max_dup_retries})..."
+                                )
+
+                                # Build a summary of each duplicate for the prompt
+                                dup_lines = []
+                                for d in dup_list:
+                                    dup_lines.append(
+                                        f"  • name={d.get('name')!r}  key={d.get('key')!r}"
+                                        f"  units={d.get('units')!r}  year={d.get('year')}"
+                                        f"  row_idx={d.get('row_idx')}  col_idx={d.get('col_idx')}  value={d.get('value')}"
+                                    )
+                                dup_summary = "\n".join(dup_lines)
+
+                                # Compact summary of what was already extracted
+                                extracted_summary = json.dumps(
+                                    [{"name": k.get("name"), "key": k.get("key"),
+                                      "units": k.get("units"), "year": k.get("year"),
+                                      "value": k.get("value"),
+                                      "row_idx": k.get("row_idx"), "col_idx": k.get("col_idx")}
+                                     for k in result["kpis"]],
+                                    indent=2
+                                )
+
+                                retry_prompt = (
+                                    "## CONTEXT\n"
+                                    f"A vision model extracted {len(result['kpis'])} KPIs from a financial table "
+                                    f"(table_id={result.get('table_id', 'unknown')}, year={year}).\n"
+                                    "Here is the full extracted KPI list:\n"
+                                    f"{extracted_summary}\n\n"
+                                    "## ⚠ DUPLICATES DETECTED\n\n"
+                                    "The following entries share identical (name, key, units, year) — they are duplicates:\n\n"
+                                    + dup_summary
+                                    + "\n\nrow_idx/col_idx/value are provided so you can locate each row.\n\n"
+                                    + "## TASK\n"
+                                    + "Return a corrected version of the full KPI list with all duplicates resolved.\n"
+                                    + "For each duplicate group, differentiate the entries using these strategies:\n"
+                                    + "1. Check for **bold/prominent subheader rows** just above the duplicate rows — "
+                                    + "   include that text in the `key` to distinguish entities.\n"
+                                    + "2. Sequential rows with the same metric often belong to different entities "
+                                    + "   separated by a bold label row — use it to disambiguate.\n"
+                                    + "3. Use parenthetical qualifiers, footnote markers, or indentation.\n"
+                                    + "4. If two entries truly represent the same cell, keep only ONE.\n\n"
+                                    + "Respond with ONLY a JSON object: {\"kpis\": [...]} containing the complete corrected list."
+                                )
+
+                                try:
+                                    retry_start = time.time()
+                                    retry_output = self.model_manager.generate_text(
+                                        prompt=retry_prompt,
+                                    )
+                                    inference_time += time.time() - retry_start
+
+                                    retry_cleaned = clean_json_response(retry_output)
+                                    retry_result = json.loads(retry_cleaned)
+
+                                    if "kpis" in retry_result and isinstance(retry_result["kpis"], list):
+                                        logger.info(
+                                            f"    ✓ Retry {dup_retry_count} successful — {len(retry_result['kpis'])} KPIs returned"
+                                        )
+                                        for kpi in retry_result["kpis"]:
+                                            kpi["source_model"] = self.model_name
+                                            kpi["source_image"] = str(image_path_obj.name)
+
+                                        result["kpis"] = retry_result["kpis"]
+                                        result["num_kpis"] = len(retry_result["kpis"])
+                                        result["inference_time_seconds"] = round(inference_time, 2)
+                                        result["duplicate_retry"] = dup_retry_count
+
+                                        # Re-validate the corrected KPIs
+                                        validation_output = validate_kpis(
+                                            kpis=result["kpis"],
+                                            db_path=db_path,
+                                            year=year,
+                                            page=page,
+                                            bucket=bucket,
+                                            table_idx=table_idx,
+                                        )
+                                        if not validation_output.get("has_duplicates"):
+                                            logger.info(f"    ✓ No duplicates remaining after retry {dup_retry_count}")
+                                    else:
+                                        logger.warning(f"    ⚠ Duplicate retry {dup_retry_count} returned invalid JSON structure — stopping retries")
+                                        break
+                                except Exception as retry_exc:
+                                    logger.warning(f"    ⚠ Duplicate retry {dup_retry_count} failed: {retry_exc} — stopping retries")
+                                    break
+
+                            if dup_retry_count == max_dup_retries and validation_output.get("has_duplicates"):
+                                logger.warning(f"    ⚠ Duplicates persist after {max_dup_retries} retries — keeping best result")
+                            # ── end duplicate retry loop ──────────────────────────────────
                             
                             # Add validation statistics to result
                             result["validation_statistics"] = validation_output["statistics"]

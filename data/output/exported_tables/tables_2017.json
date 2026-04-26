@@ -1,6 +1,10 @@
 [
   {
     "table_id": "VW2017_T4e9153",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 3,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
     "title": "Volkswagen Group",
     "headers": [
@@ -60,10 +64,52 @@
       "Passenger Cars Business Area Volkswagen Passenger Cars Audi ŠKODA SEAT Bentley Porsche Others",
       "FINANCIAL SERVICES DIVISION",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pe602e6",
+        "page": 2,
+        "section_name": "DIVISIONS",
+        "section_level": 3,
+        "text": "- Brands and Business Fields - Volkswagen Passenger Cars - Audi - ŠKODA - SEAT - Bentley - Porsche - Volkswagen Commercial Vehicles - Volkswagen Truck & Bus - Scania - MAN - Volkswagen Group China - Volkswagen Financial Services",
+        "relevance_score": 0.8,
+        "relevance_reason": "This paragraph lists the brands and business fields under the Volkswagen Group, which relates directly to the reporting structure of the company."
+      },
+      {
+        "para_id": "VW2017_P12c4ba",
+        "page": 3,
+        "section_name": "GROUP STRUCTURE",
+        "section_level": 3,
+        "text": "The Volkswagen Group consists of two divisions: the Automotive Division and the Financial Services Division. The Automotive Division comprises the Passenger Cars, Commercial Vehicles and Power Engineering business areas. We report on the Passenger Cars segment and the reconciliation in the Passenger Cars Business Area. The Commercial Vehicles Business Area and Power Engineering Business Area correspond to the segments of the same name. Accordingly, the activities of the Automotive Division comprise the development of vehicles and engines, the production and sale of passenger cars, light commercial vehicles, trucks, buses and motorcycles, as well as the genuine parts, large-bore diesel engines, turbomachinery, special gear units, propulsion components and testing systems businesses. The Ducati brand is allocated to the Audi brand and thus to the Passenger Cars Business Area. The Financial Services Division, which corresponds to the Financial Services segment, combines dealer and customer financing, leasing, banking and insurance activities, fleet management and the mobility offerings.",
+        "relevance_score": 1.0,
+        "relevance_reason": "This paragraph explicitly describes the structure of the Volkswagen Group, detailing the Automotive Division and Financial Services Division, which aligns perfectly with the table's focus."
+      },
+      {
+        "para_id": "VW2017_Pa39bd6",
+        "page": 3,
+        "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "section_level": 3,
+        "text": "Dealer and customer financing Leasing Direct bank Insurance Fleet management Mobility offerings",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions financial services offerings, which are part of the Financial Services Division, but lacks detail on the overall structure."
+      },
+      {
+        "para_id": "VW2017_Pea88c8",
+        "page": 4,
+        "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "section_level": 3,
+        "text": "When realigning our Group structures, we have reclassified companies from the Volkswagen Passenger Cars brand to the Group starting in 2017. This will allow us to increase transparency and comparability. Along with cross-brand logistics and services, importers that also distribute vehicles from other Group brands have been separated out from the Volkswagen Passenger Cars brand. These will be disclosed in the line \"Other\" and will continue to be presented in the Passenger Cars Business Area. For the Volkswagen Passenger Cars brand, the reclassifications lead to reductions in unit sales, sales revenue and operating profit.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses the reclassification of companies within the Volkswagen Group, which relates to the structure but is more about operational changes."
+      }
     ]
   },
   {
     "table_id": "VW2017_T19a389",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 5,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY BRAND AND BUSINESS FIELD1",
     "title": "Key Figures by brand and business field",
     "headers": [
@@ -308,10 +354,52 @@
       "Commercial Vehicles Business Area",
       "Power Engineering Business Area",
       "Financial Services Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pa569d7",
+        "page": 4,
+        "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "section_level": 3,
+        "text": "The production figures and deliveries to customers are differentiated by brands and their models that carry the corresponding brand logo. Unit sales figures contain vehicles sold by respective brand companies, including models of other Group brands. In some cases, there are marked differences between delivery figures and unit sales as a result of our business development in China.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses production figures and deliveries, which are relevant to vehicle sales but does not provide specific financial data."
+      },
+      {
+        "para_id": "VW2017_P387e10",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Worldwide, the Volkswagen Passenger Cars brand delivered a record 6.2 million vehicles in 2017 (+4.2%). While sales slipped slightly in Germany due to the diesel issue, they rose in all other core regions of the world. The brand recorded strong growth above all in China (+5.9%), Brazil (+19.7%) and the USA (+5.2%). The Tiguan was especially popular. With 720,000 vehicles delivered in the reporting year, it was one of the world's most successful automobiles in 2017.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the number of vehicles delivered in 2017, which is relevant to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2017_P11535f",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Sales by the Volkswagen Passenger Cars brand in 2017 totaled 3.6 (4.3) million vehicles; the decline results from the reclassification of companies in the Group. The difference between deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to Volkswagen Passenger Cars brand companies.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sales figures for the Volkswagen Passenger Cars brand, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P6396cd",
+        "page": 6,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 4,
+        "text": "Sales revenue at the Volkswagen Passenger Cars brand in 2017 was down 24.3% year-on-year at €80.0 billion. This was due to the reclassification of companies. Operating profit before special items rose to €3.3 (1.9) billion. Volume-, mixand margin-related factors as well as product cost optimization had a positive effect, while higher fixed costs as a result of expansion and higher depreciation and amortization charges due to the large volume of capital expenditure had a negative impact. The operating return on sales before special items increased to 4.1 (1.8)%. The diesel issue gave rise to special items of €–2.8 (previous year's total –5.2) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides detailed financial results for the Volkswagen Passenger Cars brand, including sales revenue and operating profit, which are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Taf759f",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 5,
+    "bucket": "divisions",
     "section_name": "KEY FIGURES BY MARKET 1",
     "title": "Key Figures by market",
     "headers": [
@@ -380,10 +468,61 @@
       "South America",
       "Asia-Pacific ^2",
       "Volkswagen Group ^2"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pfa8643",
+        "page": 4,
+        "section_name": "VOLKSWAGEN GROUP REPORTING STRUCTURE",
+        "section_level": 3,
+        "text": "In addition, we explain unit sales and sales revenue in the Europe/Other markets, North America, South America and Asia-Pacific regions.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph explains unit sales and sales revenue in various markets, which is relevant to the table but lacks specific figures."
+      },
+      {
+        "para_id": "VW2017_Pe9e4cd",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Europe/Other markets region, unit sales rose by 2.1% year-on-year to 4.7 million vehicles. At €142.8 billion, sales revenue was 3.4% higher than in 2016, due among other things to higher volumes. Exchange rate effects had a negative impact.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses sales in the Europe/Other markets, providing specific figures that align well with the table."
+      },
+      {
+        "para_id": "VW2017_Pa1a645",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In North America, we sold 1.0 million vehicles, a 2.5% increase compared with the previous year, driven by stronger demand in the USA and Canada. Volume and mix effects lifted sales revenue by 9.5% to €38.8 billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph focuses on North American sales, providing specific figures that directly relate to the table."
+      },
+      {
+        "para_id": "VW2017_P4b403c",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "The economic environment in the markets of the South America region improved during the reporting year. The Volkswagen Group's sales there rose by 25.1% to 0.5 million vehicles. Sales revenue rose by 25.3% to €10.0 billion, which was due both to higher volumes and positive mix effects.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses sales in South America, providing relevant figures that match the table data."
+      },
+      {
+        "para_id": "VW2017_Pb4ebef",
+        "page": 4,
+        "section_name": "KEY FIGURES BY MARKET",
+        "section_level": 3,
+        "text": "In the Asia-Pacific region – including the Chinese joint ventures – we sold a total of 4.5 (4.4) million vehicles in fiscal year 2017. At €39.1 billion, sales revenue exceeded the prior year by 9.4%. This increase especially resulted from a higher import volume and an improved components business at our fully consolidated companies. This figure does not include the sales revenue of our equity-accounted Chinese joint ventures.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides sales figures in the Asia-Pacific region, which is relevant and aligns with the table data."
+      }
     ]
   },
   {
     "table_id": "VW2017_T09e057",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 7,
+    "bucket": "divisions",
     "section_name": "SALES REVENUE AND EARNINGS",
     "title": "Volkswagen Passenger Cars – Production",
     "headers": [
@@ -551,10 +690,25 @@
       "Scirocco",
       "Phaeton",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P387e10",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Worldwide, the Volkswagen Passenger Cars brand delivered a record 6.2 million vehicles in 2017 (+4.2%). While sales slipped slightly in Germany due to the diesel issue, they rose in all other core regions of the world. The brand recorded strong growth above all in China (+5.9%), Brazil (+19.7%) and the USA (+5.2%). The Tiguan was especially popular. With 720,000 vehicles delivered in the reporting year, it was one of the world's most successful automobiles in 2017.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions the Tiguan as one of the most successful vehicles and provides overall sales data, which is somewhat relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T219190",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 7,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN PASSENGER CARS BRAND1",
     "title": "Volkswagen Passenger Cars – Key Figures",
     "headers": [
@@ -616,10 +770,34 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P387e10",
+        "page": 6,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Worldwide, the Volkswagen Passenger Cars brand delivered a record 6.2 million vehicles in 2017 (+4.2%). While sales slipped slightly in Germany due to the diesel issue, they rose in all other core regions of the world. The brand recorded strong growth above all in China (+5.9%), Brazil (+19.7%) and the USA (+5.2%). The Tiguan was especially popular. With 720,000 vehicles delivered in the reporting year, it was one of the world's most successful automobiles in 2017.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions total deliveries and growth in various regions, which is relevant to the table's delivery figures."
+      },
+      {
+        "para_id": "VW2017_P6396cd",
+        "page": 6,
+        "section_name": "SALES REVENUE AND EARNINGS",
+        "section_level": 4,
+        "text": "Sales revenue at the Volkswagen Passenger Cars brand in 2017 was down 24.3% year-on-year at €80.0 billion. This was due to the reclassification of companies. Operating profit before special items rose to €3.3 (1.9) billion. Volume-, mixand margin-related factors as well as product cost optimization had a positive effect, while higher fixed costs as a result of expansion and higher depreciation and amortization charges due to the large volume of capital expenditure had a negative impact. The operating return on sales before special items increased to 4.1 (1.8)%. The diesel issue gave rise to special items of €–2.8 (previous year's total –5.2) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides specific sales revenue figures and discusses the decline, directly relating to the sales revenue data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T79d8d7",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 9,
+    "bucket": "divisions",
     "section_name": "AUDI BRAND",
     "title": "Audi – Production",
     "headers": [
@@ -787,10 +965,34 @@
       "",
       "Audi brand",
       "Ducati, motorcycles"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P7e3e10",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the 2017 fiscal year, the Audi brand set a new sales record, delivering 1.9 million vehicles (+0.6%). Sales increased in North America (+8.4%) and China (+1.1%), among other regions.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions overall vehicle deliveries for Audi, which is relevant to the sales data in the table."
+      },
+      {
+        "para_id": "VW2017_P6fe1ea",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Audi sold 1.5 (1.5) million vehicles in 2017. The Chinese joint venture FAW-Volkswagen sold a further 552 (536) thousand Audi vehicles. The Q2 and A5 models proved particularly popular with customers. Unit sales at Automobili Lamborghini S.p.A. amounted to 3,897 (3,465) vehicles.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides details about Audi's unit sales and mentions popular models, making it highly relevant to the model-specific data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tdd9d71",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 9,
+    "bucket": "divisions",
     "section_name": "DELIVERIES BY MARKET",
     "title": "Audi – Key Figures",
     "headers": [
@@ -866,10 +1068,34 @@
       "Sales revenue (€ million)",
       "Operating result before special items",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P7e3e10",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In the 2017 fiscal year, the Audi brand set a new sales record, delivering 1.9 million vehicles (+0.6%). Sales increased in North America (+8.4%) and China (+1.1%), among other regions.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions overall vehicle deliveries for Audi, which is relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2017_P6fe1ea",
+        "page": 8,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Audi sold 1.5 (1.5) million vehicles in 2017. The Chinese joint venture FAW-Volkswagen sold a further 552 (536) thousand Audi vehicles. The Q2 and A5 models proved particularly popular with customers. Unit sales at Automobili Lamborghini S.p.A. amounted to 3,897 (3,465) vehicles.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides details about Audi's unit sales and mentions popular models, making it highly relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T321e09",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 11,
+    "bucket": "divisions",
     "section_name": "ŠKODA BRAND",
     "title": "Škoda – Production",
     "headers": [
@@ -935,10 +1161,43 @@
       "Karoq/Yeti",
       "Citigo",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P06bfff",
+        "page": 10,
+        "section_name": "ŠKODA brand",
+        "section_level": 2,
+        "text": "The ŠKODA brand continued its SUV initiative in fiscal year 2017 with the new Karoq. The model helped ŠKODA achieve a new sales record, with 1.2 million vehicles delivered.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the new Karoq model and its impact on ŠKODA's sales, which is relevant to the overall sales data in the table."
+      },
+      {
+        "para_id": "VW2017_P646d4a",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Worldwide, the ŠKODA brand delivered 1.2 million vehicles to customers in the reporting year (+6.6%), thereby achieving a new sales record. China, where deliveries increased by 2.5%, was once again the brand's largest single market. Sales in Western Europe rose by 5.2%. They were up 13.3% in Central and Eastern Europe.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for ŠKODA, which directly relates to the delivery data in the table."
+      },
+      {
+        "para_id": "VW2017_Pd91140",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA's unit sales rose year-on-year to 937 (814) thousand vehicles in 2017. The new Kodiaq met with a very positive reception in the market and had a major part in boosting unit sales. The difference between figures for deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses unit sales for ŠKODA, providing relevant figures that align with the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tea5293",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 11,
+    "bucket": "divisions",
     "section_name": "DELIVERIES BY MARKET",
     "title": "Škoda – Key Figures",
     "headers": [
@@ -1000,10 +1259,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P06bfff",
+        "page": 10,
+        "section_name": "ŠKODA brand",
+        "section_level": 2,
+        "text": "The ŠKODA brand continued its SUV initiative in fiscal year 2017 with the new Karoq. The model helped ŠKODA achieve a new sales record, with 1.2 million vehicles delivered.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the new Karoq model and its impact on ŠKODA's sales, which is relevant to the overall sales data in the table."
+      },
+      {
+        "para_id": "VW2017_P646d4a",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Worldwide, the ŠKODA brand delivered 1.2 million vehicles to customers in the reporting year (+6.6%), thereby achieving a new sales record. China, where deliveries increased by 2.5%, was once again the brand's largest single market. Sales in Western Europe rose by 5.2%. They were up 13.3% in Central and Eastern Europe.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for ŠKODA, which directly relates to the delivery data in the table."
+      },
+      {
+        "para_id": "VW2017_Pd91140",
+        "page": 10,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "ŠKODA's unit sales rose year-on-year to 937 (814) thousand vehicles in 2017. The new Kodiaq met with a very positive reception in the market and had a major part in boosting unit sales. The difference between figures for deliveries and unit sales is mainly due to the fact that the vehicle-producing joint ventures in China are not attributed to ŠKODA brand companies.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses unit sales for ŠKODA, providing relevant figures that align with the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tb40d92",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 13,
+    "bucket": "divisions",
     "section_name": "SEAT BRAND",
     "title": "SEAT – Production",
     "headers": [
@@ -1069,10 +1361,34 @@
       "Mii",
       "Toledo",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pc2778a",
+        "page": 12,
+        "section_name": "SEAT brand",
+        "section_level": 2,
+        "text": "In addition to the fifth generation of the Ibiza, the SEAT brand also unveiled its compact Arona in the reporting year, expanding its range of SUVs. The previous year's positive performance continued in impressive fashion in the results for 2017.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Ibiza and the new Arona model, which are relevant to the sales data for SEAT in the table."
+      },
+      {
+        "para_id": "VW2017_P933ec2",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT increased its deliveries to customers by 14.6% in 2017 to 468 thousand vehicles. Almost all markets contributed to this rise, with the most significant increases achieved in Poland (+24.8%), Spain (+23.1%), the United Kingdom (+18.3%), France (+15.6%) and Germany (+13.4%). This made SEAT one of the fastest-growing brands in Europe. The Ibiza, Leon and Ateca models were particularly popular with customers, and the new Arona was positively received by the market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides insights into SEAT's delivery increases and mentions popular models like the Ibiza and Leon, which are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T25ff48",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 13,
+    "bucket": "divisions",
     "section_name": "DELIVERIES BY MARKET",
     "title": "SEAT – Key Figures",
     "headers": [
@@ -1134,10 +1450,34 @@
       "Sales revenue (€ million)",
       "Operating result",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pc2778a",
+        "page": 12,
+        "section_name": "SEAT brand",
+        "section_level": 2,
+        "text": "In addition to the fifth generation of the Ibiza, the SEAT brand also unveiled its compact Arona in the reporting year, expanding its range of SUVs. The previous year's positive performance continued in impressive fashion in the results for 2017.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Ibiza and the new Arona model, which are relevant to the sales data for SEAT in the table."
+      },
+      {
+        "para_id": "VW2017_P933ec2",
+        "page": 12,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "SEAT increased its deliveries to customers by 14.6% in 2017 to 468 thousand vehicles. Almost all markets contributed to this rise, with the most significant increases achieved in Poland (+24.8%), Spain (+23.1%), the United Kingdom (+18.3%), France (+15.6%) and Germany (+13.4%). This made SEAT one of the fastest-growing brands in Europe. The Ibiza, Leon and Ateca models were particularly popular with customers, and the new Arona was positively received by the market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides insights into SEAT's delivery increases and mentions popular models like the Ibiza and Leon, which are relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T370dd7",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 15,
+    "bucket": "divisions",
     "section_name": "BENTLEY BRAND",
     "title": "Bentley – Production",
     "headers": [
@@ -1191,10 +1531,52 @@
       "Continental GT Coupé",
       "Mulsanne",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pf78eba",
+        "page": 14,
+        "section_name": "Bentley brand",
+        "section_level": 2,
+        "text": "In 2017, Bentley celebrated the world premiere of the third generation of its best-selling Continental GT Coupé, which sets new standards in the luxury grand tourer segment.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the new generation of the Continental GT Coupé, which is relevant to the sales data for Bentley models in the table."
+      },
+      {
+        "para_id": "VW2017_Pf17f9d",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Bentley brand is defined by exclusivity, elegance and power. The third generation of the successful Continental GT debuted at the IAA in Frankfurt am Main in the reporting year. The vehicle sets new standards in the luxury grand tourer segment. Compared to its predecessor, it has a longer bonnet, a flatter front end and an extra-wide radiator grille. The exclusive interior features a virtual cockpit and a 12.3-inch foldaway touchscreen in the center console. The W12 engine puts an impressive 467 kW (635 PS) to the wheels. The Bentayga Diesel, launched in 2017, is the luxury brand's first model to be equipped with a diesel engine. A hybrid version will follow in 2018, marking Bentley's first step into the world of electric driving.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph describes Bentley's brand characteristics and the new Continental GT, which relates to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2017_P433383",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley delivered 11,089 (11,023) vehicles to customers in the reporting period, exceeding the previous year's record figure. While deliveries declined by 6.8% in the USA, the brand's largest single market, they rose by 15.7% in Asia-Pacific and 1.5% in Europe.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph mentions overall vehicle deliveries for Bentley, which directly relates to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2017_P5c44c6",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "At 10,566 (11,298) vehicles worldwide in 2017, the Bentley brand's unit sales were lower than in the previous year; this was above all attributable to the new generation of the Continental GT Coupé. The highest demand was recorded for the Bentayga.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses Bentley's unit sales and mentions the Bentayga, which is relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T7b0ff5",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 15,
+    "bucket": "divisions",
     "section_name": "DELIVERIES BY MARKET",
     "title": "Bentley – Key Figures",
     "headers": [
@@ -1256,10 +1638,52 @@
       "Sales revenue (€ million)",
       "Operating result",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pf78eba",
+        "page": 14,
+        "section_name": "Bentley brand",
+        "section_level": 2,
+        "text": "In 2017, Bentley celebrated the world premiere of the third generation of its best-selling Continental GT Coupé, which sets new standards in the luxury grand tourer segment.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the new Continental GT Coupé, which is relevant to Bentley's sales data in the table."
+      },
+      {
+        "para_id": "VW2017_Pf17f9d",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Bentley brand is defined by exclusivity, elegance and power. The third generation of the successful Continental GT debuted at the IAA in Frankfurt am Main in the reporting year. The vehicle sets new standards in the luxury grand tourer segment. Compared to its predecessor, it has a longer bonnet, a flatter front end and an extra-wide radiator grille. The exclusive interior features a virtual cockpit and a 12.3-inch foldaway touchscreen in the center console. The W12 engine puts an impressive 467 kW (635 PS) to the wheels. The Bentayga Diesel, launched in 2017, is the luxury brand's first model to be equipped with a diesel engine. A hybrid version will follow in 2018, marking Bentley's first step into the world of electric driving.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph describes Bentley's brand characteristics and the new Continental GT, which relates to the vehicle sales data in the table."
+      },
+      {
+        "para_id": "VW2017_P433383",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Bentley delivered 11,089 (11,023) vehicles to customers in the reporting period, exceeding the previous year's record figure. While deliveries declined by 6.8% in the USA, the brand's largest single market, they rose by 15.7% in Asia-Pacific and 1.5% in Europe.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph mentions overall vehicle deliveries for Bentley, which directly relates to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2017_P5c44c6",
+        "page": 14,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "At 10,566 (11,298) vehicles worldwide in 2017, the Bentley brand's unit sales were lower than in the previous year; this was above all attributable to the new generation of the Continental GT Coupé. The highest demand was recorded for the Bentayga.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses Bentley's unit sales and mentions the Bentayga, which is relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T704982",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 17,
+    "bucket": "divisions",
     "section_name": "PORSCHE AUTOMOTIVE 1",
     "title": "Porsche – Production",
     "headers": [
@@ -1301,10 +1725,15 @@
       "Cayenne",
       "Panamera",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Ta58de3",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 17,
+    "bucket": "divisions",
     "section_name": "DELIVERIES BY MARKET",
     "title": "Porsche – Key Figures",
     "headers": [
@@ -1366,10 +1795,43 @@
       "Sales revenue (€ million)",
       "Operating result",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pa09ff4",
+        "page": 16,
+        "section_name": "Porsche",
+        "section_level": 2,
+        "text": "The millionth Porsche 911 rolled off the production line in the past fiscal year. The sports car manufacturer entered a new segment with the Panamera Sport Turismo. The year brought new records in terms of unit sales, sales revenue and profit.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Porsche 911 and the Panamera, which are relevant to the sales data for Porsche models in the table."
+      },
+      {
+        "para_id": "VW2017_P605cc5",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "The Porsche brand delivered 246 thousand sports cars in the past fiscal year; this was 3.6% more than in the previous year. China remained the largest single market for Porsche with deliveries of 72 thousand vehicles (+9.6%). In North America, sales rose by 3.7%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions overall deliveries for Porsche, which is relevant to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2017_P98b572",
+        "page": 16,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "At 248 thousand vehicles, Porsche's unit sales exceeded the prior-year figure by 3.7% in 2017. Above all, the new Panamera saw marked sales growth.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses Porsche's unit sales and mentions the Panamera, which is relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tb49406",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 19,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN COMMERCIAL VEHICLES BRAND",
     "title": "Volkswagen Commercial Vehicles – Production",
     "headers": [
@@ -1429,10 +1891,43 @@
       "Caddy",
       "Crafter",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pde4330",
+        "page": 18,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "Volkswagen Commercial Vehicles continued to move towards emission-free urban mobility and logistics in fiscal year 2017; the e-Crafter is currently in the final stage of real-world testing. Deliveries and production hit new heights in the reporting year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Volkswagen Commercial Vehicles' focus on urban mobility and logistics, which is relevant to the overall performance of the models listed in the table."
+      },
+      {
+        "para_id": "VW2017_P40f429",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles delivered 498 thousand vehicles in the past fiscal year, an increase of 4.2% compared with 2016. Sales in Europe rose 2.6%, while in South America they climbed by 28.1%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for Volkswagen Commercial Vehicles, which directly relates to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2017_P35222b",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 498 thousand vehicles in the reporting year, a rise of 4.1%. The Multivan/Transporter and Caddy models were particularly popular.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses overall vehicle sales and mentions popular models like the Multivan/Transporter and Caddy, which are relevant to the sales figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tb99596",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 19,
+    "bucket": "divisions",
     "section_name": "DELIVERIES BY MARKET",
     "title": "Volkswagen Commercial Vehicles – Key Figures",
     "headers": [
@@ -1494,10 +1989,52 @@
       "Sales revenue (€ million)",
       "Operating result",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pde4330",
+        "page": 18,
+        "section_name": "Volkswagen Commercial Vehicles",
+        "section_level": 2,
+        "text": "Volkswagen Commercial Vehicles continued to move towards emission-free urban mobility and logistics in fiscal year 2017; the e-Crafter is currently in the final stage of real-world testing. Deliveries and production hit new heights in the reporting year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph discusses Volkswagen Commercial Vehicles' focus on urban mobility and logistics, which is relevant to the overall performance of the models listed in the table."
+      },
+      {
+        "para_id": "VW2017_Pc22605",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles stands for superior mobility with its three core values – reliability, profitability and partnership. The new Crafter celebrated a successful market launch in 2017. The vehicle has been completely redesigned based on customer requirements and offers customer-friendly functionality and practical, everyday solutions for the most diverse of transport needs in all areas of use. The e-Crafter, currently undergoing final real-world testing with major customers, is to be launched on the market in 2018, setting new standards for trade vehicles, municipal vehicle fleets and courier services in terms of emission-free urban logistics. The California XXL study also attracted attention in the reporting year. Based on the new Crafter and featuring a fixed, high panoramic roof, an extended rear end and user-friendly interior space, the concept demonstrates what a potential big brother for the California could look like in future. More than 15 thousand units of the current California, Europe's most popular campervan, were produced in 2017; this was approximately 20% more than in the previous record year 2016.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph highlights the successful market launch of the new Crafter and its redesign based on customer requirements, which relates to the vehicles listed in the table."
+      },
+      {
+        "para_id": "VW2017_P40f429",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles delivered 498 thousand vehicles in the past fiscal year, an increase of 4.2% compared with 2016. Sales in Europe rose 2.6%, while in South America they climbed by 28.1%.",
+        "relevance_score": 0.6,
+        "relevance_reason": "This paragraph provides overall delivery figures for Volkswagen Commercial Vehicles, which directly relates to the deliveries data in the table."
+      },
+      {
+        "para_id": "VW2017_P35222b",
+        "page": 18,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "Volkswagen Commercial Vehicles sold 498 thousand vehicles in the reporting year, a rise of 4.1%. The Multivan/Transporter and Caddy models were particularly popular.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses overall vehicle sales and mentions popular models like the Multivan/Transporter and Caddy, which are relevant to the sales figures in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tacc6db",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 21,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Volkswagen Truck & Bus – Production",
     "headers": [
@@ -1539,10 +2076,25 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P268f8b",
+        "page": 20,
+        "section_name": "VOLKSWAGEN TRUCK & BUS",
+        "section_level": 2,
+        "text": "Volkswagen Truck & Bus made further steps in 2017 towards its strategic objective of becoming a global industry champion. It was helped by innovative cooperation projects between the Volkswagen Truck & Bus brands and the strategic alliance partner Navistar.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Volkswagen Truck & Bus's strategic objectives and initiatives, which is relevant to the overall performance of the models listed in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Te8d0cf",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 21,
+    "bucket": "divisions",
     "section_name": "DELIVERIES",
     "title": "Volkswagen Truck & Bus – Deliveries",
     "headers": [
@@ -1584,10 +2136,25 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P268f8b",
+        "page": 20,
+        "section_name": "VOLKSWAGEN TRUCK & BUS",
+        "section_level": 2,
+        "text": "Volkswagen Truck & Bus made further steps in 2017 towards its strategic objective of becoming a global industry champion. It was helped by innovative cooperation projects between the Volkswagen Truck & Bus brands and the strategic alliance partner Navistar.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Volkswagen Truck & Bus's strategic objectives and initiatives, which is relevant to the overall performance of the models listed in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Ta8e5fa",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Scania – Production",
     "headers": [
@@ -1623,10 +2190,25 @@
       "Trucks",
       "Buses",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P102d42",
+        "page": 22,
+        "section_name": "Scania",
+        "section_level": 2,
+        "text": "Scania expanded its new generation of trucks with vehicles for the construction industry in 2017. New solutions were also presented for sustainable transport in cities.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Scania's expansion in the truck market, which is relevant to the overall performance of the models listed in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T407d3b",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 23,
+    "bucket": "divisions",
     "section_name": "SCANIA BRAND",
     "title": "Scania – Key Figures",
     "headers": [
@@ -1695,10 +2277,25 @@
       "Sales revenue (€ million)",
       "Operating result ^1",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P102d42",
+        "page": 22,
+        "section_name": "Scania",
+        "section_level": 2,
+        "text": "Scania expanded its new generation of trucks with vehicles for the construction industry in 2017. New solutions were also presented for sustainable transport in cities.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Scania's expansion in the truck market, which is relevant to the overall performance of the models listed in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T0c2e70",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 25,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "MAN – Production",
     "headers": [
@@ -1740,10 +2337,34 @@
       "Buses",
       "Light Commercial Vehicles",
       ""
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pa75d1e",
+        "page": 24,
+        "section_name": "MAN",
+        "section_level": 2,
+        "text": "MAN successfully launched the MAN TGE van in the 2017 fiscal year and is now a comprehensive provider for all transport needs. The future program continued to have a positive impact.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the successful launch of the MAN TGE van, which is relevant to the overall performance of the vehicles listed in the table."
+      },
+      {
+        "para_id": "VW2017_P77233b",
+        "page": 24,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In South America, MAN Commercial Vehicles recorded rising demand in fiscal year 2017 due to the improved economic environment. MAN also continued to expand in the European commercial vehicle market. Orders received increased by 13.9% in total to 120 thousand vehicles. Deliveries were up year-on-year at 114 (102) thousand commercial vehicles, including 11 (10) thousand buses.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses MAN's orders and deliveries, which are relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T8054e8",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 25,
+    "bucket": "divisions",
     "section_name": "MAN",
     "title": "MAN – Key Figures",
     "headers": [
@@ -1847,10 +2468,34 @@
       "Sales revenue (€ million)",
       "Operating result ^1",
       "as % of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pa75d1e",
+        "page": 24,
+        "section_name": "MAN",
+        "section_level": 2,
+        "text": "MAN successfully launched the MAN TGE van in the 2017 fiscal year and is now a comprehensive provider for all transport needs. The future program continued to have a positive impact.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the launch of the MAN TGE van, which is relevant to the overall performance of the vehicles listed in the table."
+      },
+      {
+        "para_id": "VW2017_P77233b",
+        "page": 24,
+        "section_name": "BUSINESS DEVELOPMENT",
+        "section_level": 3,
+        "text": "In South America, MAN Commercial Vehicles recorded rising demand in fiscal year 2017 due to the improved economic environment. MAN also continued to expand in the European commercial vehicle market. Orders received increased by 13.9% in total to 120 thousand vehicles. Deliveries were up year-on-year at 114 (102) thousand commercial vehicles, including 11 (10) thousand buses.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses MAN's orders and deliveries, which are relevant to the sales data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T3472c2",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "PRODUCTION",
     "title": "Volkswagen Group in China – Key Figures",
     "headers": [
@@ -1891,10 +2536,15 @@
       "Deliveries",
       "Vehicle sales ^1",
       "Production"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T59ce2c",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "EARNINGS",
     "title": "Volkswagen Group in China – Local Production",
     "headers": [
@@ -1936,10 +2586,15 @@
       "Audi",
       "ŠKODA",
       ""
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T1489e0",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 27,
+    "bucket": "divisions",
     "section_name": "LOCAL PRODUCTION",
     "title": "Volkswagen Group in China – Earnings",
     "headers": [
@@ -1969,10 +2624,15 @@
     "stub_col": [
       "Operating profit (100%)",
       "Operating profit (proportionate)"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T43218a",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 30,
+    "bucket": "divisions",
     "section_name": "VOLKSWAGEN FINANCIAL SERVICES",
     "title": "Volkswagen Financial Services – Key Figures",
     "headers": [
@@ -2146,10 +2806,15 @@
       "Operating result",
       "Earnings before tax",
       "Employees at Dec. 31"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Tc7190f",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 5,
+    "bucket": "management_report",
     "section_name": "STRATEGIC KPIS: COMPETITIVE PROFITABILITY",
     "title": "Strategic KPIS – Competitive profitability",
     "headers": [
@@ -2197,10 +2862,43 @@
       "Net cash flow in the Automotive Division",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P6ac484",
+        "page": 4,
+        "section_name": "FOUR BUILDING BLOCKS OF THE FUTURE PROGRAM TOGETHER – STRATEGY 2025",
+        "section_level": 1,
+        "text": "Becoming one of the world's leading providers of sustainable mobility calls for substantial capital expenditure. This will be financed in particular through efficiency gains along the entire value chain – from product development and procurement through to production and distribution as well as in the central supporting areas. Additional funds for future investments can also be generated by optimizing the existing portfolio of brands and equity investments. Through the fourth key building block of the Group strategy we will safeguard the financing of the Volkswagen Group and place it on a solid basis.",
+        "relevance_score": 0.5,
+        "relevance_reason": "It mentions substantial capital expenditure and financing, which could relate to profitability and return on sales indirectly."
+      },
+      {
+        "para_id": "VW2017_P8b6a17",
+        "page": 5,
+        "section_name": "Target dimension: competitive profitability",
+        "section_level": 1,
+        "text": "We make investments with a view to achieving profitable growth and strengthening our competitiveness, thus keeping the Volkswagen Group on a firm footing and ensuring it remains an attractive investment option.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph mentions investments aimed at achieving profitable growth, which relates to financial performance."
+      },
+      {
+        "para_id": "VW2017_P6594df",
+        "page": 6,
+        "section_name": "Internal Management System and Key Performance Indicators",
+        "section_level": 1,
+        "text": "The Volkswagen Group's performance and success can be measured by both financial and nonfinancial key performance indicators. With the operational excellence Group initiative, we aim to improve these indicators throughout all areas and along the entire value chain.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions improving performance indicators, which could relate to financial metrics indirectly."
+      }
     ]
   },
   {
     "table_id": "VW2017_T014fee",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 51,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN GROUP DELIVERIES 1",
     "title": "Volkswagen Group deliveries",
     "headers": [
@@ -2241,10 +2939,43 @@
       "Passenger Cars",
       "Commercial Vehicles",
       "Total"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Ped00e1",
+        "page": 51,
+        "section_name": "PASSENGER CAR DELIVERIES WORLDWIDE",
+        "section_level": 2,
+        "text": "During the reporting period, deliveries of passenger cars to Volkswagen Group customers worldwide rose to 10,038,650 units amid partly difficult conditions in some relevant markets such as the United Kingdom and the USA. This was an increase of 403,164 vehicles or 4.2% on the previous year. Since the passenger car market as a whole expanded by 2.9% in the same period, the Volkswagen Group's share of the global market rose slightly to 12.1 (11.9)%. The Group recorded the highest absolute growth in China. Sales figures in Germany and Mexico, among others, were down on the previous year. All Volkswagen Group brands lifted delivery volumes year-on-year. The Volkswagen Passenger Cars brand recorded the strongest growth in absolute terms, setting new records, as did Audi, ŠKODA, Porsche, Bentley and Lamborghini.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides specific delivery figures for passenger cars and growth percentages, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P5151f9",
+        "page": 52,
+        "section_name": "Deliveries in North America",
+        "section_level": 3,
+        "text": "The Volkswagen Group handed over 962,980 vehicles to customers in North America during the reporting period in a slightly declining overall market for passenger cars and light commercial vehicles. This was 3.8% more than in the previous year. The Group's market share was 4.7 (4.4)%. The Jetta remained the Group's best-selling model in North America.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides specific delivery figures for North America, which are relevant to the table."
+      },
+      {
+        "para_id": "VW2017_Pa9c15f",
+        "page": 52,
+        "section_name": "Deliveries in North America",
+        "section_level": 3,
+        "text": "In the US market, demand for Volkswagen Group models rose by 5.8% compared with the previous year. The market as a whole declined by 1.8% in this period. Models in the SUV and pickup segments remained particularly popular. The Golf Estate, Audi A5, Audi Q5, Audi Q7 and Porsche Macan models enjoyed an encouraging rise in demand. The new SUV Atlas, the Tiguan Allspace from the Volkswagen Passenger Cars brand and the Audi A5 Sportback were well received by the market.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph discusses demand and sales growth in the US market with specific figures, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Teeab2a",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 54,
+    "bucket": "management_report",
     "section_name": "PASSENGER CAR DELIVERIES TO CUSTOMERS BY MARKET 1",
     "title": "Passenger car deliveries to customers by market",
     "headers": [
@@ -2509,10 +3240,34 @@
       "Lamborghini",
       "Porsche",
       "Bugatti"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pcf4076",
+        "page": 55,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "In Western Europe, deliveries were up by 1.9% on the previous year at 426,774 vehicles as a result of the sustained economic recovery; of this total, 334,087 were light commercial vehicles, 87,258 were trucks and 5,429 were buses. The Transporter and Caddy were the most sought-after Group models in the Western European markets.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses deliveries in Western Europe, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P0db4aa",
+        "page": 55,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "We handed over 76,054 vehicles to customers in the markets in Central and Eastern Europe in the period from January to December 2017 (+16.3%); of this figure, 41,291 were light commercial vehicles, 33,613 were trucks and 1,150 were buses. The Transporter and the Caddy were the Group models experiencing the highest demand. In Russia, the region's largest market, sales climbed 61.9% year-on-year to 18,291 units on the back of the incipient economic recovery, demand for replacement vehicles and falling inflation rates.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph discusses deliveries in Central and Eastern Europe, relevant to the data in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T3fbe25",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 55,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLE DELIVERIES",
     "title": "Commercial vehicle deliveries to customers by market",
     "headers": [
@@ -2630,10 +3385,43 @@
       "Volkswagen Commercial Vehicles",
       "Scania",
       "MAN"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_Pcf4076",
+        "page": 55,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "In Western Europe, deliveries were up by 1.9% on the previous year at 426,774 vehicles as a result of the sustained economic recovery; of this total, 334,087 were light commercial vehicles, 87,258 were trucks and 5,429 were buses. The Transporter and Caddy were the most sought-after Group models in the Western European markets.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses deliveries in Western Europe, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P0db4aa",
+        "page": 55,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "We handed over 76,054 vehicles to customers in the markets in Central and Eastern Europe in the period from January to December 2017 (+16.3%); of this figure, 41,291 were light commercial vehicles, 33,613 were trucks and 1,150 were buses. The Transporter and the Caddy were the Group models experiencing the highest demand. In Russia, the region's largest market, sales climbed 61.9% year-on-year to 18,291 units on the back of the incipient economic recovery, demand for replacement vehicles and falling inflation rates.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph discusses deliveries in Central and Eastern Europe, relevant to the data in the table."
+      },
+      {
+        "para_id": "VW2017_Pda4a0b",
+        "page": 55,
+        "section_name": "COMMERCIAL VEHICLE DELIVERIES",
+        "section_level": 1,
+        "text": "Deliveries in North America amounted to 13,416 vehicles (+20.4%), which were handed over almost exclusively to customers in Mexico. In this region, we handed over 10,432 light commercial vehicles, 1,042 trucks and 1,942 buses to customers.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides specific delivery figures for North America, which are relevant to the overall market context."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tcf0d0c",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 60,
+    "bucket": "management_report",
     "section_name": "OUR INVESTOR RELATIONS TEAM IS AVAILABLE FOR QUERIES AND COMMENTS AT ALL TIMES:",
     "title": "Volkswagen share data",
     "headers": [
@@ -2693,10 +3481,61 @@
       "Reuters",
       "Primary market indices",
       "Exchanges"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P533a75",
+        "page": 59,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 3,
+        "text": "Our dividend policy matches our financial strategy. In the interests of all stakeholders, we aim for continuous dividend growth so that our shareholders can participate appropriately in our business success. The proposed dividend amount therefore reflects our financial management objectives – in particular, ensuring a solid financial foundation as part of the implementation of our strategy.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the dividend policy, which is relevant to shareholders and relates to share data."
+      },
+      {
+        "para_id": "VW2017_Pb132ca",
+        "page": 59,
+        "section_name": "DIVIDEND POLICY",
+        "section_level": 3,
+        "text": "The Board of Management and Supervisory Board of Volkswagen AG are proposing a dividend of €3.90 per ordinary share and €3.96 per preferred share. On this basis, the total dividend for fiscal year 2017 amounts to €2.0 (1.0) billion. The payout ratio is based on the Group's earnings after tax attributable to Volkswagen AG shareholders. This amounts to 17.3% for the reporting period and stood at 19.7% in the previous year. In our new Group strategy, we aim to achieve a payout ratio of 30%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "The paragraph details the proposed dividend amounts, which directly relates to the financial performance of the shares."
+      },
+      {
+        "para_id": "VW2017_P67c0fb",
+        "page": 59,
+        "section_name": "DIVIDEND YIELD",
+        "section_level": 1,
+        "text": "Based on the dividend proposal for the reporting period, the dividend yield on Volkswagen ordinary shares is 2.3 (1.5)%, measured by the closing price on the last trading day in 2017. The dividend yield on preferred shares is 2.4 (1.5)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the dividend yield for ordinary and preferred shares, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P50f196",
+        "page": 59,
+        "section_name": "EARNINGS PER SHARE",
+        "section_level": 1,
+        "text": "Basic earnings per ordinary share were €22.63 (10.24) in fiscal year 2017. Basic earnings per preferred share were €22.69 (10.30). In accordance with IAS 33, the calculation is based on the weighted average number of ordinary and preferred shares outstanding in the reporting period. Since the number of basic and diluted shares is identical, basic earnings per share correspond to diluted earnings per share.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph provides basic earnings per share for ordinary and preferred shares, which is relevant to the share data."
+      },
+      {
+        "para_id": "VW2017_Pa2efdb",
+        "page": 60,
+        "section_name": "SHAREHOLDER STRUCTURE AT DECEMBER 31, 2017 as a percentage of subscribed capital",
+        "section_level": 3,
+        "text": "The distribution of voting rights for the 295,089,818 ordinary shares was as follows at the reporting date: Porsche Automobil Holding SE, Stuttgart, held 52.2% of the voting rights. The second-largest shareholder was the State of Lower Saxony, which held 20.0% of the voting rights. Qatar Holding LLC was the third-largest shareholder, with 17.0%. The remaining 10.8% of ordinary shares were attributable to other shareholders.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the distribution of voting rights among shareholders, which is relevant to share data."
+      }
     ]
   },
   {
     "table_id": "VW2017_T1ab354",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 61,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN SHARE KEY FIGURES",
     "title": "Volkswagen share Key Figures",
     "headers": [
@@ -3142,10 +3981,15 @@
       "Turnover of Volkswagen preferred shares",
       "",
       "Volkswagen share of total DAX turnover"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Tc2357c",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 62,
+    "bucket": "management_report",
     "section_name": "REFINANCING",
     "title": "Utilization of the money and capital market programs",
     "headers": [
@@ -3192,10 +4036,52 @@
       "Bonds",
       "of which hybrid issues",
       "Asset-backed securities"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P3e25f7",
+        "page": 62,
+        "section_name": "REFINANCING",
+        "section_level": 3,
+        "text": "In the course of 2017, the Volkswagen Group was able to increase the number of bonds issued on various money and capital markets compared with the prior year. In particular, senior and unsecured bonds were issued again in Europe, where we successfully placed a benchmark bond for the Automotive Division for the first time since 2015. This had a volume of €8.0 billion. We were also active for the Financial Services Division in this market, issuing three benchmark bonds totaling €7.75 billion. In addition to this, we issued private placements.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses bond issuance, which is relevant to the bonds listed in the table."
+      },
+      {
+        "para_id": "VW2017_Pb5c449",
+        "page": 62,
+        "section_name": "REFINANCING",
+        "section_level": 3,
+        "text": "In June 2017, we boosted net liquidity by placing unsecured, subordinated hybrid notes with an aggregate principal amount of €3.5 billion. The perpetual notes were issued in two tranches and can only be called by the issuer. One tranche with a volume of €1.5 billion can only be called after five and a half years, while the other tranche of €2.0 billion can only be called after ten years.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the issuance of hybrid notes, which relates to the hybrid issues mentioned in the table."
+      },
+      {
+        "para_id": "VW2017_Pba0801",
+        "page": 62,
+        "section_name": "REFINANCING",
+        "section_level": 3,
+        "text": "A further focus of refinancing was the issue of commercial paper, especially in Europe and in euros.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses commercial paper issuance, which corresponds to the commercial paper program in the table."
+      },
+      {
+        "para_id": "VW2017_P62bf93",
+        "page": 62,
+        "section_name": "REFINANCING",
+        "section_level": 3,
+        "text": "Asset-backed security (ABS) transactions were another important element of our refinancing activities, amounting to over €4.1 billion in Europe.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses asset-backed securities transactions, which are relevant to the asset-backed securities program in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T198fe2",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 63,
+    "bucket": "management_report",
     "section_name": "RATINGS",
     "title": "Ratings",
     "headers": [
@@ -3357,10 +4243,43 @@
       "short-term",
       "long-term",
       "outlook"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P8af8d7",
+        "page": 63,
+        "section_name": "RATINGS",
+        "section_level": 1,
+        "text": "In 2017, the rating agencies Standard & Poor's and Moody's Investors Service conducted the regular update of their credit ratings for Volkswagen AG, Volkswagen Financial Services AG and Volkswagen Bank GmbH.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses credit ratings conducted by Standard & Poor's and Moody's, which is directly relevant to the ratings in the table."
+      },
+      {
+        "para_id": "VW2017_P703290",
+        "page": 63,
+        "section_name": "RATINGS",
+        "section_level": 1,
+        "text": "In November 2017, Standard & Poor's confirmed its short-term and long-term ratings of A–2 and BBB+ for Volkswagen AG and Volkswagen Financial Services AG, and of A–2 and A– for Volkswagen Bank GmbH. The outlook for Volkswagen AG and Volkswagen Financial Services AG improved from \"negative\" to \"stable\" due to the better than expected operating performance. The outlook for Volkswagen Bank GmbH was left unchanged at \"negative\".",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the confirmation of credit ratings by Standard & Poor's, relevant to the ratings in the table."
+      },
+      {
+        "para_id": "VW2017_P335b57",
+        "page": 63,
+        "section_name": "RATINGS",
+        "section_level": 1,
+        "text": "Moody's Investors Service left the short-term and longterm ratings of Volkswagen AG unchanged at P–2 and A3 respectively. In September 2017, the long-term rating for Volkswagen Financial Services AG was lowered by one notch from A2 to A3. The rating for Volkswagen Bank GmbH was downgraded by three notches from Aa3 to A3. The short-term rating of Volkswagen Financial Services AG was lowered by one notch from P–1 to P–2, while that of Volkswagen Bank GmbH remained unchanged at P–1. These changes were due to the completion of the reorganization at Financial Services AG: Volkswagen Bank GmbH is now a subsidiary of Volkswagen AG. This means that the financing structures of Volkswagen Bank GmbH and Volkswagen Financial Services AG are examined separately. The outlook for all three companies is still classed as negative.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses Moody's ratings for Volkswagen AG and its subsidiaries, which is relevant to the ratings in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Te2fbc1",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 64,
+    "bucket": "management_report",
     "section_name": "SALE OF THIRD-PARTY-BRAND DEALERSHIPS OF PORSCHE HOLDING SALZBURG",
     "title": "Key figures for 2017 by segment",
     "headers": [
@@ -3421,10 +4340,61 @@
       "Sales revenue",
       "Segment result (operating result)",
       "as a percentage of sales revenue"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P23388c",
+        "page": 64,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group generated significantly higher sales revenue in fiscal year 2017 than in 2016. Despite further charges and high cash outflows in connection with the diesel issue, operating profit exceeded the prior-year figure and net liquidity in the Automotive Division continued at a robust level.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph mentions higher sales revenue in fiscal year 2017, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_Pd7e149",
+        "page": 64,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group's segment reporting comprises the four reportable segments Passenger Cars, Commercial Vehicles, Power Engineering and Financial Services, in compliance with IFRS 8 and in line with the Group's internal management and reporting.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses segment reporting, which is relevant to the sales revenue and segment results in the table."
+      },
+      {
+        "para_id": "VW2017_P62424a",
+        "page": 65,
+        "section_name": "SPECIAL ITEMS",
+        "section_level": 1,
+        "text": "In fiscal year 2017, negative special items recognized in the operating profit amounted to €–3.2 (–7.5) billion. In the reporting period, these related exclusively to charges in the Passenger Cars Business Area in connection with the diesel issue, primarily due to higher expenses attributable to the buyback/retrofit programs for 2.0 l and 3.0 l TDI vehicles in North America and to higher legal risks. In fiscal year 2016, these items amounted to €–6.4 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses negative special items related to the diesel issue, which are relevant to the overall financial performance."
+      },
+      {
+        "para_id": "VW2017_P1643ca",
+        "page": 65,
+        "section_name": "Results of operations of the Group",
+        "section_level": 1,
+        "text": "In 2017, the Volkswagen Group's sales revenue increased by 6.2% year-on-year to €230.7 billion. In particular, higher volumes and the healthy business performance in the Financial Services Division had a positive effect, while exchange rates had a negative impact. At 80.8 (79.9)% the major share of sales revenue was recorded outside Germany.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph confirms the increase in sales revenue by 6.2%, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P47ae02",
+        "page": 65,
+        "section_name": "Results of operations of the Group",
+        "section_level": 1,
+        "text": "In the reporting period, the Volkswagen Group generated an operating profit before special items of €17.0 (14.6) billion; the operating return on sales before special items rose to 7.4 (6.7)%. The increase was mainly the result of positive volume-, mixand margin-related factors, as well as improvements in product costs, while higher fixed costs as a result of expansion and higher depreciation and amortization charges due to the large volume of capital expenditure had an offsetting effect. Negative special items weighed on operating",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses operating profit before special items, which relates to the performance of the segments."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tab1e2d",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 65,
+    "bucket": "management_report",
     "section_name": "Results of operations of the Group",
     "title": "Income statement by division",
     "headers": [
@@ -3620,10 +4590,52 @@
       "Noncontrolling interests",
       "Earnings attributable to Volkswagen AG hybrid capital investors",
       "Earnings attributable to Volkswagen AG shareholders"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P23388c",
+        "page": 64,
+        "section_name": "Results of Operations, Financial Position and Net Assets",
+        "section_level": 1,
+        "text": "The Volkswagen Group generated significantly higher sales revenue in fiscal year 2017 than in 2016. Despite further charges and high cash outflows in connection with the diesel issue, operating profit exceeded the prior-year figure and net liquidity in the Automotive Division continued at a robust level.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the increase in sales revenue in fiscal year 2017, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P1643ca",
+        "page": 65,
+        "section_name": "Results of operations of the Group",
+        "section_level": 1,
+        "text": "In 2017, the Volkswagen Group's sales revenue increased by 6.2% year-on-year to €230.7 billion. In particular, higher volumes and the healthy business performance in the Financial Services Division had a positive effect, while exchange rates had a negative impact. At 80.8 (79.9)% the major share of sales revenue was recorded outside Germany.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph confirms the increase in sales revenue by 6.2%, which is directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P47ae02",
+        "page": 65,
+        "section_name": "Results of operations of the Group",
+        "section_level": 1,
+        "text": "In the reporting period, the Volkswagen Group generated an operating profit before special items of €17.0 (14.6) billion; the operating return on sales before special items rose to 7.4 (6.7)%. The increase was mainly the result of positive volume-, mixand margin-related factors, as well as improvements in product costs, while higher fixed costs as a result of expansion and higher depreciation and amortization charges due to the large volume of capital expenditure had an offsetting effect. Negative special items weighed on operating",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses operating profit before special items, which relates to the performance of the segments."
+      },
+      {
+        "para_id": "VW2017_P10240b",
+        "page": 66,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 3,
+        "text": "The operating profit of the Automotive Division improved by €6.5 billion to €11.1 billion. The operating return on sales stood at 5.7 (2.5)%. Negative special items contained in operating profit totaled €–3.2 (–7.5) billion. These items were exclusively attributable to the Passenger Cars Business Area in the reporting period, reflecting charges in connection with the diesel issue. Excluding the special items, the Automotive",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the operating profit of the Automotive Division, which is relevant to the overall performance reflected in the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T7f7d12",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 67,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA",
     "title": "Results of operations in the Passenger Cars Business Area",
     "headers": [
@@ -3659,10 +4671,97 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P7478cc",
+        "page": 66,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2017 in percent",
+        "section_level": 2,
+        "text": "profit, reducing this item by a total of €–3.2 (–7.5) billion. At €13.8 billion, the Volkswagen Group's operating profit was up €6.7 billion on the previous year. The operating return on sales rose to 6.0 (3.3)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the operating profit of the Volkswagen Group, which is relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2017_P3de625",
+        "page": 66,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2017 in percent",
+        "section_level": 2,
+        "text": "The Volkswagen Group's profit before tax rose to €13.9 billion in the reporting period, up €6.6 billion on the prior-year figure. The return on sales before tax improved from 3.4% to 6.0%. Profit after tax amounted to €11.6 (5.4) billion. Although income taxes increased, the tax rate of 16.3 (26.2)% was considerably lower in the reporting period. This decline was due to the tax reform in the USA passed at the end of the year, which led to a non-recurring positive non-cash measurement effect on deferred taxes of €1.0 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses profit before tax and return on sales, which are relevant to the financial performance in the table."
+      },
+      {
+        "para_id": "VW2017_P3e977b",
+        "page": 66,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 3,
+        "text": "The Automotive Division's sales revenue amounted to €196.9 billion in fiscal year 2017, thus exceeding the prioryear figure by €10.9 billion. The improvement resulted primarily from higher vehicles sales, which were offset by negative exchange rate effects. As our Chinese joint ventures are accounted for using the equity method, the Group's business performance in the Chinese passenger car market is reflected in consolidated sales revenue primarily by deliveries of vehicles and vehicle parts.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Automotive Division's sales revenue, which is relevant to the overall sales figures in the table."
+      },
+      {
+        "para_id": "VW2017_P10240b",
+        "page": 66,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 3,
+        "text": "The operating profit of the Automotive Division improved by €6.5 billion to €11.1 billion. The operating return on sales stood at 5.7 (2.5)%. Negative special items contained in operating profit totaled €–3.2 (–7.5) billion. These items were exclusively attributable to the Passenger Cars Business Area in the reporting period, reflecting charges in connection with the diesel issue. Excluding the special items, the Automotive",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the operating profit of the Automotive Division, which is relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2017_P999db2",
+        "page": 67,
+        "section_name": "RESULTS OF OPERATIONS IN THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 1,
+        "text": "The Passenger Cars Business Area generated sales revenue of €158.5 billion in fiscal year 2017, thus exceeding the prioryear figure by 5.4%, mainly because of volume-related factors. Exchange rates had a negative effect. The operating profit of €9.3 billion generated in the Passenger Cars Business Area was up €5.1 billion on the previous year. Special items included in this item decreased significantly year-on-year to €–3.2 (–6.9) billion. Improvements in volumes, the mix and margins, and product cost optimization had a positive influence, while a rise in fixed costs and higher depreciation and amortization charges had a negative impact. The operating return on sales rose to 5.9 (2.8)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Passenger Cars Business Area's sales revenue and operating profit, which are relevant to the table."
+      },
+      {
+        "para_id": "VW2017_Padaef0",
+        "page": 67,
+        "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+        "section_level": 1,
+        "text": "The Commercial Vehicles Business Area recorded sales revenue of €35.2 billion in the reporting period, €3.1 billion more than in the previous year; this increase was driven mainly by larger volumes. The operating profit of the Commercial Vehicles Business Area improved by €1.2 billion to €1.9 billion; the operating return on sales climbed to 5.4 (2.2)%. The increase versus the previous year, which had been negatively impacted by special items, was mainly the result of positiv volumeand margin-related factors and the expansion of the service business.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Commercial Vehicles Business Area's sales revenue and operating profit, which are relevant to the table."
+      },
+      {
+        "para_id": "VW2017_Pf3b6b3",
+        "page": 67,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 3,
+        "text": "In the Financial Services Division, sales revenue increased by 7.9% year-on-year to €33.7 billion in fiscal year 2017, due mainly to the growth in business volumes.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Financial Services Division's sales revenue, which is relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P14eda1",
+        "page": 67,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 3,
+        "text": "The 9.8% year-on-year increase in operating profit to €2.7 billion reflects the Financial Services Division's sustained contribution to the Group's success. The operating return on sales improved to 7.9 (7.8)%. The return on equity before tax was 9.8%, compared with 10.8% in the previous year.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the operating profit of the Financial Services Division, which is relevant to the overall financial performance."
+      },
+      {
+        "para_id": "VW2017_P7c7ab3",
+        "page": 68,
+        "section_name": "Financial position of the Group",
+        "section_level": 1,
+        "text": "The Volkswagen Group's gross cash flow amounted to €32.7 billion in fiscal year 2017, 25.5% more than in the previous year. At €–33.8 (–16.6) billion, the change in working capital was significantly negative. As expected, there were high cash outflows in connection with the diesel issue in the reporting period, primarily resulting from vehicle recalls and legal risks. As a result, cash flows from operating activities decreased by €10.6 billion to €–1.2 billion. The new special items recognized in the reporting period had a negative impact on gross cash flow and a positive effect on the change in working capital.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses gross cash flow, which relates to the overall financial performance of the Group."
+      }
     ]
   },
   {
     "table_id": "VW2017_T69fe99",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 67,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE COMMERCIAL VEHICLES BUSINESS AREA",
     "title": "Results of operations in the Commercial Vehicles Business Area",
     "headers": [
@@ -3698,10 +4797,52 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P7478cc",
+        "page": 66,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2017 in percent",
+        "section_level": 2,
+        "text": "profit, reducing this item by a total of €–3.2 (–7.5) billion. At €13.8 billion, the Volkswagen Group's operating profit was up €6.7 billion on the previous year. The operating return on sales rose to 6.0 (3.3)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the operating profit of the Volkswagen Group, which is relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2017_P3de625",
+        "page": 66,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2017 in percent",
+        "section_level": 2,
+        "text": "The Volkswagen Group's profit before tax rose to €13.9 billion in the reporting period, up €6.6 billion on the prior-year figure. The return on sales before tax improved from 3.4% to 6.0%. Profit after tax amounted to €11.6 (5.4) billion. Although income taxes increased, the tax rate of 16.3 (26.2)% was considerably lower in the reporting period. This decline was due to the tax reform in the USA passed at the end of the year, which led to a non-recurring positive non-cash measurement effect on deferred taxes of €1.0 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses profit before tax and return on sales, which are relevant to the financial performance in the table."
+      },
+      {
+        "para_id": "VW2017_P10240b",
+        "page": 66,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 3,
+        "text": "The operating profit of the Automotive Division improved by €6.5 billion to €11.1 billion. The operating return on sales stood at 5.7 (2.5)%. Negative special items contained in operating profit totaled €–3.2 (–7.5) billion. These items were exclusively attributable to the Passenger Cars Business Area in the reporting period, reflecting charges in connection with the diesel issue. Excluding the special items, the Automotive",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the operating profit of the Automotive Division, which is relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2017_Pf3b6b3",
+        "page": 67,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 3,
+        "text": "In the Financial Services Division, sales revenue increased by 7.9% year-on-year to €33.7 billion in fiscal year 2017, due mainly to the growth in business volumes.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Financial Services Division's sales revenue, which is relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tbaea5e",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 67,
+    "bucket": "management_report",
     "section_name": "RESULTS OF OPERATIONS IN THE POWER ENGINEERING BUSINESS AREA",
     "title": "Results of operations in the Power Engineering Business Area",
     "headers": [
@@ -3737,10 +4878,52 @@
       "Sales revenue",
       "Operating result",
       "Operating return on sales (%)"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P7478cc",
+        "page": 66,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2017 in percent",
+        "section_level": 2,
+        "text": "profit, reducing this item by a total of €–3.2 (–7.5) billion. At €13.8 billion, the Volkswagen Group's operating profit was up €6.7 billion on the previous year. The operating return on sales rose to 6.0 (3.3)%.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the overall operating profit of the Volkswagen Group, which is relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2017_P3de625",
+        "page": 66,
+        "section_name": "SHARE OF SALES REVENUE BY MARKET 2017 in percent",
+        "section_level": 2,
+        "text": "The Volkswagen Group's profit before tax rose to €13.9 billion in the reporting period, up €6.6 billion on the prior-year figure. The return on sales before tax improved from 3.4% to 6.0%. Profit after tax amounted to €11.6 (5.4) billion. Although income taxes increased, the tax rate of 16.3 (26.2)% was considerably lower in the reporting period. This decline was due to the tax reform in the USA passed at the end of the year, which led to a non-recurring positive non-cash measurement effect on deferred taxes of €1.0 billion.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses profit before tax and return on sales, which are relevant to the financial performance in the table."
+      },
+      {
+        "para_id": "VW2017_P10240b",
+        "page": 66,
+        "section_name": "Results of operations in the Automotive Division",
+        "section_level": 3,
+        "text": "The operating profit of the Automotive Division improved by €6.5 billion to €11.1 billion. The operating return on sales stood at 5.7 (2.5)%. Negative special items contained in operating profit totaled €–3.2 (–7.5) billion. These items were exclusively attributable to the Passenger Cars Business Area in the reporting period, reflecting charges in connection with the diesel issue. Excluding the special items, the Automotive",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the operating profit of the Automotive Division, which is relevant to the operating result in the table."
+      },
+      {
+        "para_id": "VW2017_Pf3b6b3",
+        "page": 67,
+        "section_name": "Results of operations in the Financial Services Division",
+        "section_level": 3,
+        "text": "In the Financial Services Division, sales revenue increased by 7.9% year-on-year to €33.7 billion in fiscal year 2017, due mainly to the growth in business volumes.",
+        "relevance_score": 0.5,
+        "relevance_reason": "This paragraph discusses the Financial Services Division's sales revenue, which is relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_Tdbcd2f",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 69,
+    "bucket": "management_report",
     "section_name": "CASH FLOW STATEMENT BY DIVISION",
     "title": "Cash flow statement by division",
     "headers": [
@@ -4066,10 +5249,15 @@
       "Gross liquidity",
       "Total third-party borrowings",
       "Net liquidity ^6"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T36fdb3",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 71,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA",
     "title": "Financial position in the Passenger Cars Business Area",
     "headers": [
@@ -4117,10 +5305,15 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T661326",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 71,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA",
     "title": "Financial Position in the Commercial Vehicles Business Area",
     "headers": [
@@ -4168,10 +5361,52 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P9708f7",
+        "page": 70,
+        "section_name": "Financial position of the Automotive Division",
+        "section_level": 1,
+        "text": "The Automotive Division's gross cash flow was €23.4 billion in fiscal year 2017, thus exceeding the prior-year figure by €6.9 billion. The increase in operating profit before special items and the year-on-year decline in special items had a positive effect. At €–11.7 (3.8) billion, the change in working capital was significantly negative. As expected, there were high cash outflows in the reporting period related to the diesel issue, primarily for vehicle recalls and legal risks. As a result, cash flows from operating activities amounted to €11.7 billion, €8.6 billion less than in 2016. The new special items recognized in fiscal year 2017 had a negative impact on gross cash flow and a positive effect on the change in working capital.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses gross cash flow and change in working capital, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P2aed93",
+        "page": 71,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 1,
+        "text": "In the reporting period, the Passenger Cars Business Area recorded gross cash flow of €19.4 billion, up €5.5 billion on the prior-year figure, mainly due to earnings-related factors; a significant year-on-year decline in negative special items also had a positive effect. The change in working capital was significantly negative, decreasing by €13.6 billion year-on-year to €–10.1 billion. As expected, there were high cash outflows related to the diesel issue in fiscal year 2017, primarily for vehicle recalls and legal risks. Consequently, cash flows from operating activities decreased by 46.5% to €9.3 billion. The new special items recognized in the reporting period had a negative impact on gross cash flow and a positive effect on the change in working capital. Investing activities attributable to operating activities resulted in cash outflows of €15.3 (13.4) billion in the reporting period. The year-on-year increase in capex of €0.3 billion to €11.2 billion was more than offset by the €0.4 billion decline in capitalized development costs to €4.6 billion. The item included the sale of part of the PGA Group in the reporting period; in the prior-year period, the sale of the LeasePlan shares had a significantly positive impact. Net cash flow amounted to €–6.0 (4.0) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions gross cash flow and change in working capital for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2017_Pea834a",
+        "page": 71,
+        "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+        "section_level": 1,
+        "text": "The Commercial Vehicles Business Area generated gross cash flow of €3.7 billion in the reporting period, €1.2 billion above the prior-year figure due to earnings-related factors. At €–1.3 (0.2) billion, the change in working capital was significantly negative. In the prior-year period, the special items recognized had a negative impact on gross cash flow and a positive effect on the change in working capital. Cash flows from operating activities were slightly down on the 2016 figure, declining to €2.4 (2.7) billion. Despite the acquisition of shares in Navistar and investments in a new cab generation at Scania, investing activities attributable to operating activities were down year-on-year, amounting to €2.1 (2.4) billion; the previous year had been affected by investments in the new plant for light commercial vehicles in Wrzesnia in Poland. At €0.3 (0.3) billion, net cash flow was on a level with the previous year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses gross cash flow and cash flows from operating activities for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P77981f",
+        "page": 71,
+        "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 1,
+        "text": "In fiscal year 2017, the Power Engineering Business Area's gross cash flow improved to €0.3 (0.1) billion. Funds tied up in working capital increased by €0.4 billion to €–0.3 billion. The comparison with the prior-year period has to take special items into account. Cash flows from operating activities were down on the previous year, breaking even in the reporting period. At €0.2 (0.2) billion, investing activities attributable to operating activities were on a level with the previous year. Net cash flow declined to €–0.2 (0.0) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions gross cash flow and cash flows from operating activities for the Power Engineering Business Area, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T86fe8c",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 71,
+    "bucket": "management_report",
     "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
     "title": "Financial Position in the Power Engineering Business Area",
     "headers": [
@@ -4219,10 +5454,52 @@
       "Cash flows from operating activities",
       "Cash flows from investing activities attributable to operating activities",
       "Net cash flow"
+    ],
+    "paragraphs": [
+      {
+        "para_id": "VW2017_P9708f7",
+        "page": 70,
+        "section_name": "Financial position of the Automotive Division",
+        "section_level": 1,
+        "text": "The Automotive Division's gross cash flow was €23.4 billion in fiscal year 2017, thus exceeding the prior-year figure by €6.9 billion. The increase in operating profit before special items and the year-on-year decline in special items had a positive effect. At €–11.7 (3.8) billion, the change in working capital was significantly negative. As expected, there were high cash outflows in the reporting period related to the diesel issue, primarily for vehicle recalls and legal risks. As a result, cash flows from operating activities amounted to €11.7 billion, €8.6 billion less than in 2016. The new special items recognized in fiscal year 2017 had a negative impact on gross cash flow and a positive effect on the change in working capital.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses gross cash flow and change in working capital, directly relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P2aed93",
+        "page": 71,
+        "section_name": "FINANCIAL POSITION IN THE PASSENGER CARS BUSINESS AREA",
+        "section_level": 1,
+        "text": "In the reporting period, the Passenger Cars Business Area recorded gross cash flow of €19.4 billion, up €5.5 billion on the prior-year figure, mainly due to earnings-related factors; a significant year-on-year decline in negative special items also had a positive effect. The change in working capital was significantly negative, decreasing by €13.6 billion year-on-year to €–10.1 billion. As expected, there were high cash outflows related to the diesel issue in fiscal year 2017, primarily for vehicle recalls and legal risks. Consequently, cash flows from operating activities decreased by 46.5% to €9.3 billion. The new special items recognized in the reporting period had a negative impact on gross cash flow and a positive effect on the change in working capital. Investing activities attributable to operating activities resulted in cash outflows of €15.3 (13.4) billion in the reporting period. The year-on-year increase in capex of €0.3 billion to €11.2 billion was more than offset by the €0.4 billion decline in capitalized development costs to €4.6 billion. The item included the sale of part of the PGA Group in the reporting period; in the prior-year period, the sale of the LeasePlan shares had a significantly positive impact. Net cash flow amounted to €–6.0 (4.0) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions gross cash flow and change in working capital for the Passenger Cars Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2017_Pea834a",
+        "page": 71,
+        "section_name": "FINANCIAL POSITION IN THE COMMERCIAL VEHICLES BUSINESS AREA",
+        "section_level": 1,
+        "text": "The Commercial Vehicles Business Area generated gross cash flow of €3.7 billion in the reporting period, €1.2 billion above the prior-year figure due to earnings-related factors. At €–1.3 (0.2) billion, the change in working capital was significantly negative. In the prior-year period, the special items recognized had a negative impact on gross cash flow and a positive effect on the change in working capital. Cash flows from operating activities were slightly down on the 2016 figure, declining to €2.4 (2.7) billion. Despite the acquisition of shares in Navistar and investments in a new cab generation at Scania, investing activities attributable to operating activities were down year-on-year, amounting to €2.1 (2.4) billion; the previous year had been affected by investments in the new plant for light commercial vehicles in Wrzesnia in Poland. At €0.3 (0.3) billion, net cash flow was on a level with the previous year.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Discusses gross cash flow and cash flows from operating activities for the Commercial Vehicles Business Area, relevant to the table."
+      },
+      {
+        "para_id": "VW2017_P77981f",
+        "page": 71,
+        "section_name": "FINANCIAL POSITION IN THE POWER ENGINEERING BUSINESS AREA",
+        "section_level": 1,
+        "text": "In fiscal year 2017, the Power Engineering Business Area's gross cash flow improved to €0.3 (0.1) billion. Funds tied up in working capital increased by €0.4 billion to €–0.3 billion. The comparison with the prior-year period has to take special items into account. Cash flows from operating activities were down on the previous year, breaking even in the reporting period. At €0.2 (0.2) billion, investing activities attributable to operating activities were on a level with the previous year. Net cash flow declined to €–0.2 (0.0) billion.",
+        "relevance_score": 0.6,
+        "relevance_reason": "Mentions gross cash flow and cash flows from operating activities for the Power Engineering Business Area, relevant to the table."
+      }
     ]
   },
   {
     "table_id": "VW2017_T976a7e",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 72,
+    "bucket": "management_report",
     "section_name": "CONSOLIDATED BALANCE SHEET BY DIVISION AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -4558,10 +5835,15 @@
       "Trade payables",
       "Other liabilities",
       "Total equity and liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Te0fe8a",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 74,
+    "bucket": "management_report",
     "section_name": "PASSENGER CARS BUSINESS AREA BALANCE SHEET STRUCTURE",
     "title": "unknown title",
     "headers": [
@@ -4615,10 +5897,15 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Tb7cad2",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 75,
+    "bucket": "management_report",
     "section_name": "COMMERCIAL VEHICLES BUSINESS AREA BALANCE SHEET STRUCTURE",
     "title": "unknown title",
     "headers": [
@@ -4672,10 +5959,15 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T7e6872",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 75,
+    "bucket": "management_report",
     "section_name": "POWER ENGINEERING BUSINESS AREA BALANCE SHEET STRUCTURE",
     "title": "unknown title",
     "headers": [
@@ -4729,10 +6021,15 @@
       "Equity",
       "Noncurrent liabilities",
       "Current liabilities"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Tcb1b72",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 76,
+    "bucket": "management_report",
     "section_name": "VALUE ADDED GENERATED BY THE VOLKSWAGEN GROUP",
     "title": "Value added generated by the Volkswagen Group – Source of funds",
     "headers": [
@@ -4802,10 +6099,15 @@
       "Depreciation and amortization",
       "Other upfront expenditures",
       "Value added"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Tae3775",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 76,
+    "bucket": "management_report",
     "section_name": "VALUE ADDED GENERATED BY THE VOLKSWAGEN GROUP",
     "title": "Value added generated by the Volkswagen Group – Appropriation of funds",
     "headers": [
@@ -4875,10 +6177,15 @@
       "to creditors (interest expense)",
       "to the Company (reserves)",
       "Value added"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T14f25f",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 77,
+    "bucket": "management_report",
     "section_name": "COST OF CAPITAL AFTER TAX AUTOMOTIVE DIVISION",
     "title": "Cost of capital after tax automotive division",
     "headers": [
@@ -4962,10 +6269,15 @@
       "Proportion of equity",
       "Proportion of debt",
       "Cost of capital after tax"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T39f65d",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 78,
+    "bucket": "management_report",
     "section_name": "RETURN ON INVESTMENT (ROI) AND VALUE CONTRIBUTION IN THE AUTOMOTIVE DIVISION1",
     "title": "Return on Investment (ROI) and Value Contribution in the Automotive Division",
     "headers": [
@@ -5019,10 +6331,15 @@
       "Cost of capital in %",
       "Cost of invested capital",
       "Value contribution"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T2acd97",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 79,
+    "bucket": "management_report",
     "section_name": "FORECAST VERSUS ACTUAL FIGURES",
     "title": "Forecast versus actual figures",
     "headers": [
@@ -5260,10 +6577,15 @@
       "Net cash flow in the Automotive Division",
       "Net liquidity in the Automotive Division",
       "Return on investment (ROI) in the Automotive Division"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T03717c",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 80,
+    "bucket": "management_report",
     "section_name": "INCOME STATEMENT OF VOLKSWAGEN AG",
     "title": "Income statement of Volkswagen AG",
     "headers": [
@@ -5353,10 +6675,15 @@
       "Retained profits brought forward",
       "Appropriations to revenue reserves",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Ta35029",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 80,
+    "bucket": "management_report",
     "section_name": "BALANCE SHEET OF VOLKSWAGEN AG AS OF DECEMBER 31",
     "title": "unknown title",
     "headers": [
@@ -5434,10 +6761,15 @@
       "Long-term debt",
       "Medium-term debt",
       "Short-term debt"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Ta89551",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 81,
+    "bucket": "management_report",
     "section_name": "PROPOSAL ON THE APPROPRIATION OF NET PROFIT",
     "title": "Proposal on the appropriation of net profit",
     "headers": [
@@ -5485,10 +6817,15 @@
       "Appropriation to other revenue reserves",
       "Balance (carried forward to new account)",
       "Net retained profits"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T896b8e",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 81,
+    "bucket": "management_report",
     "section_name": "EMPLOYEE PAY AND BENEFITS AT VOLKSWAGEN AG",
     "title": "Employee pay and benefits at Volkswagen AG",
     "headers": [
@@ -5542,10 +6879,15 @@
       "Compensated absence",
       "Retirement benefits",
       "Total expense"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T4629af",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 82,
+    "bucket": "management_report",
     "section_name": "VOLKSWAGEN AG EXPENDITURE ON ENVIRONMENTAL PROTECTION",
     "title": "Volkswagen AG expenditure on environmental protection",
     "headers": [
@@ -5587,10 +6929,15 @@
     "stub_col": [
       "Investments",
       "Operating costs"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_T98362e",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 91,
+    "bucket": "management_report",
     "section_name": "RESEARCH AND DEVELOPMENT COSTS IN THE AUTOMOTIVE DIVISION",
     "title": "Research and development costs in the automotive division",
     "headers": [
@@ -5656,10 +7003,15 @@
       "Sales revenue",
       "Total research and development costs",
       "R&D ratio"
-    ]
+    ],
+    "paragraphs": []
   },
   {
     "table_id": "VW2017_Tac88d1",
+    "doc_id": "VW2017",
+    "year": 2017,
+    "page": 103,
+    "bucket": "management_report",
     "section_name": "PROPORTION OF WOMEN  as of December 31",
     "title": "Proportion of women Volkswagen Group in Germany",
     "headers": [
@@ -5719,6 +7071,7 @@
       "Management ^1",
       "Senior management ^1",
       "Top-Management ^1"
-    ]
+    ],
+    "paragraphs": []
   }
 ]

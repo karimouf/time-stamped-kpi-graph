@@ -1,0 +1,5 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Amount utilized,Commercial paper,Worldwide,8.2,2020,€ billion,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_032_table_00_kpis.json
+Amount utilized,Bonds,Worldwide,94.7,2020,€ billion,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_032_table_00_kpis.json
+Amount utilized,Hybrid issues,Worldwide,15.5,2020,€ billion,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_032_table_00_kpis.json
+Amount utilized,Asset-backed securities,Worldwide,41.1,2020,€ billion,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management-report-vw-ar20_page_032_table_00_kpis.json

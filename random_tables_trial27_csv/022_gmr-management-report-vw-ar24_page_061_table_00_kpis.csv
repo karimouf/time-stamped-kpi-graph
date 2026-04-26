@@ -1,0 +1,6 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+dividend payout on subscribed capital,Volkswagen AG,Worldwide,3170532483.6,2024,€,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_061_table_00_kpis.json
+dividend payout on ordinary shares,Volkswagen AG,Worldwide,1859065853.4,2024,€,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_061_table_00_kpis.json
+dividend payout on preferred shares,Volkswagen AG,Worldwide,1311466630.2,2024,€,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_061_table_00_kpis.json
+balance carried forward to new account,Volkswagen AG,Worldwide,4117761.47,2024,€,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_061_table_00_kpis.json
+net retained profits,Volkswagen AG,Worldwide,3174650245.07,2024,€,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar24_page_061_table_00_kpis.json

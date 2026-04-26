@@ -1,0 +1,156 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+Number of no-par value shares,Ordinary shares,Worldwide,295090,2022,thousands,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Ordinary shares,Worldwide,295090,2021,thousands,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Ordinary shares,Worldwide,295090,2020,thousands,0,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Ordinary shares,Worldwide,295090,2019,thousands,0,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Ordinary shares,Worldwide,295090,2018,thousands,0,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Preferred shares,Worldwide,206205,2022,thousands,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Preferred shares,Worldwide,206205,2021,thousands,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Preferred shares,Worldwide,206205,2020,thousands,1,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Preferred shares,Worldwide,206205,2019,thousands,1,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Number of no-par value shares,Preferred shares,Worldwide,206205,2018,thousands,1,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Ordinary shares,Worldwide,8.7,2022,€,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Ordinary shares,Worldwide,7.5,2021,€,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Ordinary shares,Worldwide,4.8,2020,€,2,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Ordinary shares,Worldwide,4.8,2019,€,2,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Ordinary shares,Worldwide,4.8,2018,€,2,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Preferred shares,Worldwide,8.76,2022,€,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Preferred shares,Worldwide,7.56,2021,€,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Preferred shares,Worldwide,4.86,2020,€,3,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Preferred shares,Worldwide,4.86,2019,€,3,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend per share,Preferred shares,Worldwide,4.86,2018,€,3,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Total,Worldwide,4374,2022,€ million,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Total,Worldwide,3772,2021,€ million,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Total,Worldwide,2419,2020,€ million,4,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Total,Worldwide,2419,2019,€ million,4,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Total,Worldwide,2419,2018,€ million,4,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Ordinary shares,Worldwide,2567,2022,€ million,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Ordinary shares,Worldwide,2213,2021,€ million,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Ordinary shares,Worldwide,1416,2020,€ million,5,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Ordinary shares,Worldwide,1416,2019,€ million,5,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Ordinary shares,Worldwide,1416,2018,€ million,5,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Preferred shares,Worldwide,1806,2022,€ million,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Preferred shares,Worldwide,1559,2021,€ million,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Preferred shares,Worldwide,1002,2020,€ million,6,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Preferred shares,Worldwide,1002,2019,€ million,6,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend paid,Preferred shares,Worldwide,1002,2018,€ million,6,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Ordinary shares,Worldwide,147.65,2022,€,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Ordinary shares,Worldwide,258.4,2021,€,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Ordinary shares,Worldwide,170.1,2020,€,7,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Ordinary shares,Worldwide,173.25,2019,€,7,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Ordinary shares,Worldwide,139.1,2018,€,7,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Ordinary shares,Worldwide,-42.9,2022,%,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Ordinary shares,Worldwide,51.9,2021,%,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Ordinary shares,Worldwide,-1.8,2020,%,8,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Ordinary shares,Worldwide,24.6,2019,%,8,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Ordinary shares,Worldwide,-17.5,2018,%,8,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Ordinary shares,Worldwide,279.4,2022,€,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Ordinary shares,Worldwide,327.2,2021,€,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Ordinary shares,Worldwide,183.1,2020,€,9,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Ordinary shares,Worldwide,182.5,2019,€,9,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Ordinary shares,Worldwide,188.0,2018,€,9,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Ordinary shares,Worldwide,145.0,2022,€,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Ordinary shares,Worldwide,165.7,2021,€,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Ordinary shares,Worldwide,101.5,2020,€,10,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Ordinary shares,Worldwide,135.6,2019,€,10,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Ordinary shares,Worldwide,131.1,2018,€,10,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Preferred shares,Worldwide,116.42,2022,€,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Preferred shares,Worldwide,177.48,2021,€,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Preferred shares,Worldwide,152.42,2020,€,11,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Preferred shares,Worldwide,176.24,2019,€,11,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Closing share price,Preferred shares,Worldwide,138.92,2018,€,11,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Preferred shares,Worldwide,-34.4,2022,%,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Preferred shares,Worldwide,16.4,2021,%,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Preferred shares,Worldwide,-13.5,2020,%,12,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Preferred shares,Worldwide,26.9,2019,%,12,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price performance,Preferred shares,Worldwide,-16.5,2018,%,12,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Preferred shares,Worldwide,193.1,2022,€,13,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Preferred shares,Worldwide,246.55,2021,€,13,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Preferred shares,Worldwide,185.52,2020,€,13,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Preferred shares,Worldwide,184.24,2019,€,13,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual high share price,Preferred shares,Worldwide,188.5,2018,€,13,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Preferred shares,Worldwide,114.88,2022,€,14,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Preferred shares,Worldwide,144.8,2021,€,14,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Preferred shares,Worldwide,87.2,2020,€,14,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Preferred shares,Worldwide,134.76,2019,€,14,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Annual low share price,Preferred shares,Worldwide,133.7,2018,€,14,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Beta factor,Total,Worldwide,1.55,2022,factor,15,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Beta factor,Total,Worldwide,1.16,2021,factor,15,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Beta factor,Total,Worldwide,1.26,2020,factor,15,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Beta factor,Total,Worldwide,1.17,2019,factor,15,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Beta factor,Total,Worldwide,1.17,2018,factor,15,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Market capitalization,Total,Worldwide,67.6,2022,€ billion,16,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Market capitalization,Total,Worldwide,112.8,2021,€ billion,16,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Market capitalization,Total,Worldwide,81.6,2020,€ billion,16,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Market capitalization,Total,Worldwide,87.5,2019,€ billion,16,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Market capitalization,Total,Worldwide,69.7,2018,€ billion,16,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,165.4,2022,€ billion,17,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,144.4,2021,€ billion,17,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,127.0,2020,€ billion,17,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,121.8,2019,€ billion,17,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,117.1,2018,€ billion,17,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Ratio of market capitalization to equity,Total,Worldwide,0.41,2022,factor,18,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Ratio of market capitalization to equity,Total,Worldwide,0.78,2021,factor,18,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Ratio of market capitalization to equity,Total,Worldwide,0.64,2020,factor,18,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Ratio of market capitalization to equity,Total,Worldwide,0.72,2019,factor,18,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Ratio of market capitalization to equity,Total,Worldwide,0.6,2018,factor,18,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (basic),Worldwide,29.63,2022,€,19,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (basic),Worldwide,29.59,2021,€,19,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (basic),Worldwide,16.6,2020,€,19,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (basic),Worldwide,26.6,2019,€,19,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (basic),Worldwide,23.57,2018,€,19,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (diluted),Worldwide,29.63,2022,€,20,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (diluted),Worldwide,29.59,2021,€,20,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (diluted),Worldwide,16.6,2020,€,20,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (diluted),Worldwide,26.6,2019,€,20,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Earnings per share,Ordinary shares (diluted),Worldwide,23.57,2018,€,20,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,329.9,2022,€,21,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,288.15,2021,€,21,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,253.44,2020,€,21,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,242.93,2019,€,21,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Equity attributable to Volkswagen AG shareholders and hybrid capital investors,Total,Worldwide,233.63,2018,€,21,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Ordinary shares,Worldwide,5.0,2022,factor,22,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Ordinary shares,Worldwide,8.7,2021,factor,22,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Ordinary shares,Worldwide,10.2,2020,factor,22,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Ordinary shares,Worldwide,6.5,2019,factor,22,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Ordinary shares,Worldwide,5.9,2018,factor,22,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Preferred shares,Worldwide,3.9,2022,factor,23,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Preferred shares,Worldwide,6.0,2021,factor,23,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Preferred shares,Worldwide,9.1,2020,factor,23,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Preferred shares,Worldwide,6.6,2019,factor,23,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Price/earnings ratio,Preferred shares,Worldwide,5.9,2018,factor,23,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Ordinary shares,Worldwide,5.9,2022,%,24,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Ordinary shares,Worldwide,2.9,2021,%,24,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Ordinary shares,Worldwide,2.8,2020,%,24,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Ordinary shares,Worldwide,2.8,2019,%,24,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Ordinary shares,Worldwide,3.5,2018,%,24,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Preferred shares,Worldwide,7.5,2022,%,25,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Preferred shares,Worldwide,4.3,2021,%,25,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Preferred shares,Worldwide,3.2,2020,%,25,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Preferred shares,Worldwide,2.8,2019,%,25,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Dividend yield,Preferred shares,Worldwide,3.5,2018,%,25,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,2.7,2022,€ billion,26,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,6.1,2021,€ billion,26,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,3.1,2020,€ billion,26,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,3.3,2019,€ billion,26,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,4.3,2018,€ billion,26,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,13.5,2022,million shares,27,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,23.3,2021,million shares,27,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,21.6,2020,million shares,27,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,20.9,2019,million shares,27,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen ordinary shares,Total,Worldwide,28.0,2018,million shares,27,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,44.9,2022,€ billion,28,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,58.8,2021,€ billion,28,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,49.8,2020,€ billion,28,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,41.0,2019,€ billion,28,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,54.1,2018,€ billion,28,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,302.2,2022,million shares,29,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,300.4,2021,million shares,29,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,361.2,2020,million shares,29,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,266.0,2019,million shares,29,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Turnover of Volkswagen preferred shares,Total,Worldwide,346.6,2018,million shares,29,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Volkswagen share of total DAX turnover,Total,Worldwide,4.7,2022,%,30,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Volkswagen share of total DAX turnover,Total,Worldwide,6.6,2021,%,30,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Volkswagen share of total DAX turnover,Total,Worldwide,4.7,2020,%,30,3,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Volkswagen share of total DAX turnover,Total,Worldwide,4.6,2019,%,30,4,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json
+Volkswagen share of total DAX turnover,Total,Worldwide,5.4,2018,%,30,5,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/gmr-management-report-vw-ar22_page_039_table_00_kpis.json

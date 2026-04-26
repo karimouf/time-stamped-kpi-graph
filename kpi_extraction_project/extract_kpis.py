@@ -27,45 +27,221 @@ from json_utils import clean_json_response
 from logger import logger
 from model import MODEL_CONFIGS, ModelManager
 from validate import validate_kpi_indexed
-from loader import load_tables_from_db, load_existing_results, save_checkpoint
+from loader import (
+    load_tables_from_db, 
+    load_existing_results, 
+    save_checkpoint,
+    get_latest_checkpoint_info,
+    get_checkpoint_for_year,
+    create_checkpoint_file
+)
 
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
 
 # System prompt for KPI extraction
+GENERIC_SYSTEM_PROMPT = """Extract Key Performance Indicators (KPIs) from the financial document as structured JSON.
+
+## DOCUMENT UNDERSTANDING
+
+First, analyze the document context:
+- **Document Type**: Is this an annual report, quarterly report, financial statement, sustainability report, or other?
+- **Entity/Organization**: What company, division, or entity does this data represent?
+- **Time Period**: What fiscal year, quarter, or reporting period is covered?
+- **Geographic Scope**: Does this data cover global operations, specific regions, or countries?
+- **Currency & Units**: What are the reporting currencies and measurement units?
+
+## EXTRACTION PRINCIPLES
+
+### 1. COMPREHENSIVE EXTRACTION
+- Extract ALL numerical metrics with clear business meaning
+- Include both primary metrics (revenue, profit) and secondary indicators (ratios, counts, percentages)
+- Process multi-year comparative data (e.g., current year vs. prior year)
+- Capture segment breakdowns (by business unit, geography, product line)
+
+### 2. CONTEXTUAL METADATA
+Each KPI must include sufficient context to be meaningful:
+- **Metric Name**: What is being measured (e.g., "Revenue", "Operating Margin", "Emissions")
+- **Entity/Segment**: What organizational unit this applies to (company, division, brand, region)
+- **Geographic Scope**: Country, region, or "Global"/"Worldwide"
+- **Time Period**: Specific year, quarter, or date range
+- **Units**: Measurement units (currency, percentage, physical units, counts)
+
+### 3. DATA QUALITY
+- **Accuracy**: Verify extracted values match source data exactly
+- **Completeness**: Don't skip partial data - include nulls where data is missing
+- **Consistency**: Use standardized naming for similar metrics across tables
+- **Validation**: Cross-check that indices/references point to correct source cells
+
+## FIELD DEFINITIONS
+
+### Required Fields:
+- **name** (string): The metric or KPI name
+  - Examples: "Revenue", "Net Income", "EBITDA", "Vehicle Deliveries", "CO2 Emissions"
+  - Use clear, standardized names; avoid abbreviations unless industry-standard
+  - For ratios: "Operating Margin", "Return on Equity", "Debt-to-Equity Ratio"
+
+- **key** (string): The entity, segment, or category
+  - Examples: "Volkswagen Group", "Audi Division", "North America", "Electric Vehicles"
+  - For totals: "Group Total", "Consolidated"
+  - For segments: use specific division/brand/product names
+
+- **value** (number or null): The numerical value
+  - Use decimal notation (comma as thousands separator not supported in JSON)
+  - European format conversions: "1.234,56" → 1234.56, "−2,5" → -2.5
+  - Percentages: store as decimal (15.5 for 15.5%, not 0.155)
+  - null for missing/not available data
+
+- **year** (integer or null): The reporting year or period
+  - Examples: 2023, 2024
+  - For quarters: use the year (Q1 2024 → 2024, specify quarter in metadata if needed)
+  - null if time period unclear
+
+- **units** (string): Measurement units
+  - Currency: "€ million", "$ billion", "USD", "EUR"
+  - Percentages: "%", "percentage points"
+  - Physical: "units", "vehicles", "tonnes", "kWh"
+  - Ratios: "ratio", "index", "score"
+
+- **country** (string): Geographic scope
+  - Specific country: "Germany", "United States", "China"
+  - Regional: "Europe", "Asia-Pacific", "Americas"
+  - Global: "Worldwide", "Global", "Total"
+
+## HANDLING SPECIAL CASES
+
+Extract a separate KPI for EACH year column.
+
+### Subtotals and Aggregates
+- Mark totals clearly: key="Total" or key="Group Total"
+- Include both detail and total rows if present
+- Maintain hierarchy information where possible
+
+### Missing/Not Applicable Data
+- Use null for genuinely missing values
+- Don't fabricate data or make assumptions
+- Note context if data is marked as N/A, -, or TBD in source
+
+### Footnotes and Annotations
+- Ignore footnote markers (^1, *, †) in extracted values
+- Don't include explanatory text in value fields
+- Can note significant caveats in metadata/comments field if available
+
+### Percentage vs Absolute Values
+- Be clear about whether value is percentage or absolute
+- "15.5%" with units="%" → value: 15.5
+- Growth rates, margins, and ratios typically use percentage units
+
+## OUTPUT FORMAT
+
+```json
+{
+  "kpis": [
+    {
+      "name": "Revenue",
+      "key": "Volkswagen Group",
+      "country": "Worldwide",
+      "value": 322300,
+      "year": 2024,
+      "units": "€ million"
+    },
+    {
+      "name": "Operating Margin",
+      "key": "Automotive Division",
+      "country": "Worldwide",
+      "value": 8.5,
+      "year": 2024,
+      "units": "%"
+    },
+    {
+      "name": "Vehicle Deliveries",
+      "key": "Electric Vehicles",
+      "country": "Europe",
+      "value": 425000,
+      "year": 2024,
+      "units": "units"
+    }
+  ],
+  "metadata": {
+    "document_type": "Annual Report",
+    "entity": "Volkswagen Group",
+    "reporting_period": "FY 2024",
+    "extraction_notes": "Extracted from consolidated financial statements"
+  }
+}
+```
+
+## QUALITY CHECKS
+
+Before finalizing extraction:
+1. ✓ All required fields present and non-empty (except nulls for missing data)
+2. ✓ Values match source data exactly
+3. ✓ Units are explicit and consistent
+4. ✓ Names are standardized and clear
+5. ✓ Multi-year data extracted completely
+6. ✓ Geographic and entity context preserved
+
+Extract comprehensively and accurately. It's better to include extra context than omit important details."""
+
 SYSTEM_PROMPT = """Extract ALL numerical KPIs from ALL years in the financial table as JSON.
 
+STEP 1: UNDERSTAND THE TABLE
+Before extracting, analyze:
+- What metrics are being measured? (check title, section_name, merged_headers)
+- What entities/segments are shown? (check stub_col rows)
+- What years are present? (check merged_headers columns)
+- Are there geographic breakdowns? (countries, regions in rows or title)
+- What are the units? (explicit in headers or infer from context)
+
+STEP 2: EXTRACT KPIs
 CRITICAL: Financial tables contain MULTIPLE years (typically current year and previous year).
 - Example: A 2015 table contains data for BOTH 2015 AND 2014
 - Example: A 2018 table contains data for BOTH 2018 AND 2017
 - You MUST extract KPIs from EVERY year column in the table
 - DO NOT skip any year columns - extract from ALL of them
 
-Think briefly (max 50 words), then output JSON immediately.
-
 FIELD RULES:
 - "name": KPI metric - check in this order merged_headers, title/section, stub_col or row, context
   Examples: "Sales Revenue", "Operating Result", "Vehicle Sales", "Production", "Deliveries" etc
-  EXCEPTION: Leave empty ("") ONLY if row is a subtotal/total row with empty row_name
+  NEVER empty - every KPI must have a name
   IMPORTANT RULE: If "Units" is found in merged_headers, then "name" MUST always be "Production (found in title and/or section_name)"
-- "key": Entity/segment from row or context
+  SPECIAL CASE - Total/Subtotal rows: If row is a total/subtotal with empty stub_col text:
+    → name = the metric being totaled (from title, section, or merged_headers)
+    → Examples: "Total Revenue", "Total Production", "Subtotal Sales"
+
+- "key": Entity/segment from row or context (CANNOT be a country name)
   Examples: "Scania", "Audi", "Volkswagen Group", "Core Brand", "Europe/Other markets"
-  EXCEPTION: Leave empty ("") ONLY if row is a subtotal/total row with empty row_name
+  NEVER empty - every KPI must have a key/entity
+  IMPORTANT: If the row represents a country (e.g., "Germany", "China", "USA"), DO NOT use the country as the key
+  Instead, use the broader entity from title/section or from context
+  SPECIAL CASE - Total/Subtotal rows: If row is a total/subtotal with empty stub_col text:
+    → key = "Total" or "Subtotal" or describe the scope (e.g., "Total Europe", "Group Total")
+    → DO NOT leave empty - use "Total" as minimum
+
 - "key" and "name" should NEVER both be the same
+
+- "country": Geographic location for this KPI
+  RULE 1: If the row represents a country (e.g., "Germany", "China", "USA"), use that country name
+  RULE 2: If no country in the row, check title, section_name, or merged_headers for country mentions
+  RULE 3: If no country found anywhere, default to "Worldwide"
+  Examples: "Germany", "China", "USA", "United Kingdom", "Worldwide"
+  ALWAYS required - never empty
+
 - "units": Measurement units - Examples: "€ million", "thousand units", "%", "Units", if not explicit infer from context
+
 - "value": Numeric value - Handle European format (comma as decimal): "1,4864" → 1.4864, "−2,5" → -2.5
   Examples: 92718, 30289.0, 16.5, 1.4864 (from "1,4864"), -2.5 (from "−2,5"), null
-- "year": Integer year from column - Examples: 2021, 2020, 2019, null
-- "row_name": Exact stub_col text at row_idx - Can be empty ("") for total rows
-- "col_name": Exact merged_headers text at col_idx - Examples: "2021", "2020", "%", "% change"
 
+- "year": Integer year from column - Examples: 2021, 2020, 2019, null
+
+IMPORTANT: Do NOT include markdown footnote markers (^1, ^2, ^3, etc.) in any JSON field values. These are irrelevant.
 
 INDEXING (ZERO-BASED):
 - row_idx: Position in stub_col array (first row = 0)
 - col_idx: Data column position starting from 1 (col_idx=0 is row labels, never extract from it)
 - All KPIs must have col_idx >= 1
-- Verify: stub_col[row_idx] == row_name AND merged_headers[col_idx] == col_name
+- VERIFY YOUR INDICES: The value at rows[row_idx][col_idx] MUST match the "value" you extract
 - IMPORTANT: For hierarchical tables (parent-child rows), use the ACTUAL row index where the data appears, not the parent row
 - IMPORTANT: Process ALL columns in merged_headers (except col_idx=0) - do not skip any year columns
 
@@ -93,45 +269,41 @@ Extract 4 KPIs (2 rows × 2 year columns):
     {
       "name": "Sales revenue",
       "key": "Company",
+      "country": "Worldwide",
       "units": "€ million",
       "value": 106240,
       "year": 2015,
-      "row_name": "Sales revenue (€ million)",
       "row_idx": 0,
-      "col_name": "2015",
       "col_idx": 1
     },
     {
       "name": "Sales revenue",
       "key": "Company",
+      "country": "Worldwide",
       "units": "€ million",
       "value": 99764,
       "year": 2014,
-      "row_name": "Sales revenue (€ million)",
       "row_idx": 0,
-      "col_name": "2014",
       "col_idx": 2
     },
     {
       "name": "Operating profit",
       "key": "Company",
+      "country": "Worldwide",
       "units": "€ million",
       "value": 2102,
       "year": 2015,
-      "row_name": "Operating profit (€ million)",
       "row_idx": 1,
-      "col_name": "2015",
       "col_idx": 1
     },
     {
       "name": "Operating profit",
       "key": "Company",
+      "country": "Worldwide",
       "units": "€ million",
       "value": 2476,
       "year": 2014,
-      "row_name": "Operating profit (€ million)",
       "row_idx": 1,
-      "col_name": "2014",
       "col_idx": 2
     }
   ]
@@ -142,17 +314,18 @@ OUTPUT FORMAT (JSON only, no extra text):
   "kpis": [
     {
       "name": "<metric, mostly from merged_headers, never empty>",
-      "key": "<entity from row, never empty>",
-      "units": "<units from header or infer fromcontext, never empty>",
+      "key": "<entity from row (NOT a country), never empty>",
+      "country": "<country name from row/title/section or 'Worldwide', never empty>",
+      "units": "<units from header or infer from context, never empty>",
       "value": <number or null>,
       "year": <integer or null>,
-      "row_name": "<exact stub_col text, can be empty>",
       "row_idx": <integer>,
-      "col_name": "<exact merged_headers text>",
       "col_idx": <integer, minimum 1>
     }
   ]
-}"""
+}
+
+VALIDATION: After extraction, verify that rows[row_idx][col_idx] matches the value you extracted."""
 
 # ============================================================================
 # MAIN EXTRACTOR CLASS
@@ -185,7 +358,7 @@ class KPIExtractor:
         self,
         table_data: Dict[str, Any],
         model_name: str,
-        max_correction_iterations: int = 3
+        max_correction_iterations: int = 0
     ) -> Dict[str, Any]:
         """
         Extract KPIs using a single model with validation-based correction.
@@ -210,7 +383,7 @@ class KPIExtractor:
         # Load model if not already loaded or if different model is loaded
         if self.model_manager.current_model_name != model_name:
             # Unload previous model if any
-            if self.model_manager.current_model is not None:
+            if self.model_manager.current_llm is not None:
                 self.model_manager.unload_model()
             
             # Load new model
@@ -224,7 +397,7 @@ class KPIExtractor:
         try:
             # Prepare the extraction prompt
             table_json = json.dumps(table_data, ensure_ascii=False)
-            prompt = f"{SYSTEM_PROMPT}\n\n### 📥 **Input Placeholder**\n\n```\n{table_json}\n```"
+            prompt = f"{GENERIC_SYSTEM_PROMPT}\n\n### 📥 **Input Placeholder**\n\n```\n{table_json}\n```"
 
             # Generate response
             config = MODEL_CONFIGS[model_name]
@@ -261,7 +434,7 @@ class KPIExtractor:
                     logger.info(f"    ✓ Extracted {len(result['kpis'])} KPIs from {model_name}")
                     
                     # Run validation loop if enabled
-                    if max_correction_iterations > 0 or result["num_kpis"] != 0:
+                    if max_correction_iterations > 0 and result["num_kpis"] > 0:
                         result = self._validate_and_correct(
                             table_data,
                             result,
@@ -350,7 +523,8 @@ class KPIExtractor:
             invalid_kpis = []
             
             for kpi in main_kpis:
-                validation = validate_kpi_indexed(kpi, table_data)
+                seen_nodes = set()
+                validation = validate_kpi_indexed(kpi, table_data, seen_nodes)
                 
                 if validation["is_valid"]:
                     valid_kpis.append(kpi)
@@ -494,13 +668,14 @@ OUTPUT FORMAT (JSON only, no extra text):
       "units": "<units from header or infer from context, never empty>",
       "value": <number or null>,
       "year": <integer or null>,
-      "row_name": "<exact stub_col text, can be empty>",
+      "country": "<country name from row/title/section or 'Worldwide', never empty>",
       "row_idx": <integer>,
-      "col_name": "<exact merged_headers text>",
       "col_idx": <integer, minimum 1>
     }, ...
   ]
-}"""
+}
+
+VALIDATION: Ensure rows[row_idx][col_idx] matches the value you extracted."""
         
         try:
             # Generate recovery
@@ -608,12 +783,10 @@ OUTPUT FORMAT (JSON only, no extra text):
             
             correction_prompt = f"""The following KPIs are INVALID. Fix them using validation errors.
 
-CRITICAL: The PRIMARY validation is based on row_idx and col_idx (the indices that access the cell).
-- row_name and col_name are SECONDARY validation only
-- If there's a mismatch, FIX THE INDICES (row_idx/col_idx), NOT the names
+CRITICAL: Validation is based on row_idx and col_idx (the indices that access the cell).
 - The correct cell is at: data[row_idx][col_idx] = rows[row_idx][col_idx]
-- After fixing indices, row_name MUST equal stub_col[row_idx]
-- After fixing indices, col_name MUST equal merged_headers[col_idx]
+- If there's a value mismatch, FIX THE INDICES (row_idx/col_idx)
+- The value at rows[row_idx][col_idx] MUST match the extracted value
 
 VALIDATION ERRORS:
 {''.join(error_details)}
@@ -644,24 +817,18 @@ HOW TO FIX ERRORS:
 2. VALUE MISMATCH: Adjust row_idx or col_idx to point to the cell with the correct value
    - Check if value appears in adjacent cells (row_idx±1 or col_idx±1)
    - Update row_idx/col_idx to the correct position
-   - Then update row_name = stub_col[row_idx] and col_name = merged_headers[col_idx]
+   - Verify: rows[row_idx][col_idx] matches your extracted value
 
-3. ROW_NAME MISMATCH: The row_idx is pointing to wrong row
-   - Find the correct row_idx where stub_col[row_idx] matches the intended row
-   - Update row_idx to the correct value
-   - Keep row_name as stub_col[row_idx] (don't change the name to match wrong index!)
+3. INDEX OUT OF BOUNDS: The row_idx or col_idx is beyond table dimensions
+   - Check table size: len(rows) for max row_idx, len(rows[0]) for max col_idx
+   - Adjust indices to be within valid range
 
-4. COL_NAME MISMATCH: The col_idx is pointing to wrong column
-   - Find the correct col_idx where merged_headers[col_idx] matches the intended year/column
-   - Update col_idx to the correct value
-   - Keep col_name as merged_headers[col_idx] (don't change the name to match wrong index!)
-
-5. EUROPEAN DECIMALS: Handle comma as decimal separator
+4. EUROPEAN DECIMALS: Handle comma as decimal separator
    - "1,4864" → 1.4864
    - "−2,5" → -2.5
 
 REMEMBER: 
-- Fix indices first, then names will automatically align with stub_col and merged_headers!
+- Fix indices so that rows[row_idx][col_idx] matches the extracted value
 - For key=name errors, determine the correct "name" (metric) and "key" (entity) from table context
 
 """
@@ -676,13 +843,13 @@ REMEMBER:
       "units": "measurement units",
       "value": 12345,
       "year": 2024,
-      "row_name": "exact text from stub_col",
       "row_idx": 0,
-      "col_name": "exact text from merged_headers",
       "col_idx": 1
     }}
   ]
-}}"""
+}}
+
+VALIDATION: Ensure rows[row_idx][col_idx] matches the value for each KPI."""
             
             correction_prompt = correction_prompt + "\n" + output_format_section
            
@@ -744,7 +911,7 @@ REMEMBER:
         year_filter: Optional[str] = None,
         max_tables: Optional[int] = None,
         job_id: Optional[str] = None,
-        max_correction_iterations: int = 3,
+        max_correction_iterations: int = 0,
         resume: bool = True
     ) -> None:
         """
@@ -776,6 +943,7 @@ REMEMBER:
         logger.info(f"Year filter: {year_filter if year_filter else 'Years 2015-2024'}")
         logger.info(f"Models: {', '.join(self.models_to_use)}")
         logger.info(f"Max tables: {max_tables if max_tables else 'All'}")
+        logger.info(f"Max correction iterations: {max_correction_iterations}")
         logger.info(f"Resume from checkpoint: {resume}")
         logger.info("=" * 70)
         
@@ -788,8 +956,6 @@ REMEMBER:
         logger.info(f"Years to process: {', '.join(years_to_process)}")
         
         # Process each model separately
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        
         for model_name in self.models_to_use:
             logger.info("")
             logger.info("#" * 70)
@@ -801,63 +967,67 @@ REMEMBER:
                 logger.error(f"Failed to load {model_name}, skipping")
                 continue
             
-            # Process each year separately
-            for year in years_to_process:
+            # Check for existing checkpoint to determine where to resume
+            start_year_idx = 0
+            resume_checkpoint_file = None
+            resume_results = []
+            resume_processed_ids = set()
+            
+            if resume:
+                checkpoint_year, resume_checkpoint_file, resume_results, resume_processed_ids = get_latest_checkpoint_info(
+                    output_path, model_name, job_id
+                )
+                if checkpoint_year and checkpoint_year in years_to_process:
+                    start_year_idx = years_to_process.index(checkpoint_year)
+                    logger.info(f"  Resuming from year {checkpoint_year} (skipping {start_year_idx} completed years)")
+            
+            # Process each year separately, starting from checkpoint year
+            for year_idx, year in enumerate(years_to_process[start_year_idx:]):
                 logger.info("")
-                logger.info(f"Loading tables for year: {year}")
+                logger.info(f"Processing year: {year}")
                 logger.info("-" * 50)
                 
-                # Load tables for this specific year from database
-                year_tables = load_tables_from_db(db_path, year_filter=year, max_tables=max_tables)
+                # Use the checkpoint from step 1 for the first year, otherwise check for year-specific checkpoint
+                if year_idx == 0 and resume_checkpoint_file is not None:
+                    # First year after resume - use the checkpoint we already loaded
+                    checkpoint_file = resume_checkpoint_file
+                    model_results = resume_results
+                    processed_ids = resume_processed_ids
+                    logger.info(f"  Using existing checkpoint: {checkpoint_file.name}")
+                else:
+                    # Subsequent years - check for checkpoint or create new
+                    checkpoint_file, model_results, processed_ids = get_checkpoint_for_year(
+                        output_path, model_name, year, job_id
+                    )
+                    
+                    if checkpoint_file is None:
+                        checkpoint_file = create_checkpoint_file(
+                            output_path, model_name, year, job_id
+                        )
+                        model_results = []
+                        processed_ids = set()
+                        logger.info(f"  Creating new checkpoint: {checkpoint_file.name}")
                 
-                if not year_tables:
-                    logger.warning(f"No tables found for year {year}, skipping")
+                # Load tables and filter out already processed
+                all_tables = load_tables_from_db(db_path, year_filter=year, max_tables=max_tables)
+                
+                if not all_tables:
+                    logger.warning(f"  No tables found for year {year}")
                     continue
                 
-                logger.info(f"Loaded {len(year_tables)} tables for year {year}")
-                
-                # Determine output file name for this year (with checkpoint prefix)
-                job_suffix = f"_{job_id}" if job_id else ""
-                checkpoint_file = output_path / f"checkpoint_{timestamp}{job_suffix}_{model_name}_year{year}_kpis.json"
-                output_file = checkpoint_file  # Start with checkpoint file
-                
-                # Check for existing checkpoint
-                processed_ids = set()
-                model_results = []
-                
-                if resume:
-                    # Try to find existing checkpoint file for this model/year combination
-                    # Look for any file matching the pattern (with checkpoint prefix)
-                    pattern = f"checkpoint_*_{model_name}_year{year}_kpis.json"
-                    existing_files = list(output_path.glob(pattern))
-                    
-                    if existing_files:
-                        # Use the most recent checkpoint file
-                        checkpoint_file = max(existing_files, key=lambda p: p.stat().st_mtime)
-                        logger.info(f"Found checkpoint file: {checkpoint_file.name}")
-                        model_results, processed_ids = load_existing_results(checkpoint_file)
-                        
-                        # Use the existing checkpoint file
-                        output_file = checkpoint_file
-                        
-                        if processed_ids:
-                            logger.info(f"  Resuming from checkpoint: {len(processed_ids)} tables already processed")
-                
-                # Filter out already processed tables
-                tables_to_process = [t for t in year_tables if t.get('table_id') not in processed_ids]
+                tables_to_process = [t for t in all_tables if t.get('table_id') not in processed_ids]
                 
                 if not tables_to_process:
-                    logger.info(f"All tables already processed for {model_name} year {year}, skipping")
+                    logger.info(f"  All {len(processed_ids)} tables already processed for year {year}")
                     continue
                 
-                logger.info(f"Tables to process: {len(tables_to_process)} (skipped: {len(processed_ids)})")
+                total_tables = len(all_tables)
+                logger.info(f"  Tables: {len(tables_to_process)} to process, {len(processed_ids)} already done")
                 
                 # Process tables incrementally with checkpointing
-                total_to_process = len(tables_to_process)
                 for idx, table_data in enumerate(tables_to_process, 1):
                     table_id = table_data.get('table_id', 'unknown')
                     overall_idx = len(processed_ids) + idx
-                    total_tables = len(year_tables)
                     
                     logger.info(f"[{overall_idx}/{total_tables}] Processing {table_id} with {model_name}")
                     
@@ -883,7 +1053,7 @@ REMEMBER:
                         logger.info(f"    → Extracted {num_kpis} KPIs")
                         
                         # Save checkpoint after each table
-                        save_checkpoint(output_file, model_results, model_name, year)
+                        save_checkpoint(checkpoint_file, model_results, model_name, year)
                         logger.info(f"    → Checkpoint saved ({len(model_results)} tables total)")
                         
                     except Exception as e:
@@ -898,12 +1068,12 @@ REMEMBER:
                         processed_ids.add(table_id)
                         
                         # Save checkpoint even with error
-                        save_checkpoint(output_file, model_results, model_name, year)
+                        save_checkpoint(checkpoint_file, model_results, model_name, year)
                         logger.info(f"    → Checkpoint saved (with error)")
                 
-                # Final save with complete metadata (remove checkpoint prefix)
+                # Final save with complete metadata
                 logger.info("")
-                logger.info(f"Finalizing results: {output_file.name}")
+                logger.info(f"Finalizing results: {checkpoint_file.name}")
                 final_data = {
                     "metadata": {
                         "model": model_name,
@@ -918,16 +1088,16 @@ REMEMBER:
                 }
                 
                 # Create final filename without checkpoint prefix
-                final_filename = output_file.name.replace("checkpoint_", "")
+                final_filename = checkpoint_file.name.replace("checkpoint_", "")
                 final_file = output_path / final_filename
                 
                 with open(final_file, 'w', encoding='utf-8') as f_out:
                     json.dump(final_data, f_out, indent=2, ensure_ascii=False)
                 
                 # Remove checkpoint file if it exists and is different from final
-                if output_file.exists() and output_file != final_file:
-                    output_file.unlink()
-                    logger.info(f"  Removed checkpoint file: {output_file.name}")
+                if checkpoint_file.exists() and checkpoint_file != final_file:
+                    checkpoint_file.unlink()
+                    logger.info(f"  Removed checkpoint file: {checkpoint_file.name}")
                 
                 logger.info(f"  Final file: {final_filename}")
                 logger.info(f"✓ Completed year {year}")
@@ -953,7 +1123,7 @@ REMEMBER:
         output_dir: str,
         max_tables: Optional[int] = None,
         job_id: Optional[str] = None,
-        max_correction_iterations: int = 3
+        max_correction_iterations: int = 0
     ) -> None:
         """
         Process multiple JSONL files containing tables.
@@ -997,6 +1167,7 @@ REMEMBER:
         logger.info(f"Output directory: {output_dir}")
         logger.info(f"Models: {', '.join(self.models_to_use)}")
         logger.info(f"Max tables per file: {max_tables if max_tables else 'All'}")
+        logger.info(f"Max correction iterations: {max_correction_iterations}")
         logger.info("=" * 70)
         
         # Load all tables from all JSONL files

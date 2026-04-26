@@ -158,3 +158,16 @@ ls /storage/ukp/shared/shared_model_weights/ | grep -E "gemma|deepseek|llama"
 - Script documentation: Read comments in `extract_kpis_multi_model.py`
 - SLURM help: https://wiki.ukp.informatik.tu-darmstadt.de/Services/Campus/ComputeCluster
 - Job logs: Check `kpi_extraction_<JOBID>.log` in this directory
+
+## Data Transfer (scp examples)
+
+```bash
+# Upload the project to the cluster
+scp -r kpi_extraction_project ouf@slurm.ukp.informatik.tu-darmstadt.de:/ukp-storage-1/ouf/
+
+# Download all JSON outputs to local Windows path (replace trial-N with trial number)
+scp "ouf@slurm.ukp.informatik.tu-darmstadt.de:/ukp-storage-1/ouf/kpi_extraction_project/data/output/*.json" "d:/Users/DELL/Masters Thesis/time-stamped-kpi-graph/data/output/trial-1"
+
+# Download SLURM log files to local Windows path
+scp "ouf@slurm.ukp.informatik.tu-darmstadt.de:/ukp-storage-1/ouf/kpi_extraction_*.log" "d:/Users/DELL/Masters Thesis/time-stamped-kpi-graph/data/logs"
+```

@@ -1,0 +1,71 @@
+﻿name,key,country,value,year,units,row_idx,col_idx,source_model,source_image,source
+deliveries,Europe/Other markets,Worldwide,4714997,2019,units,0,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Europe/Other markets,Worldwide,4575023,2018,units,0,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Western Europe,Worldwide,3627693,2019,units,1,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Western Europe,Worldwide,3475401,2018,units,1,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Germany,Germany,1324942,2019,units,2,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Germany,Germany,1248952,2018,units,2,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,United Kingdom,United Kingdom,544117,2019,units,3,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,United Kingdom,United Kingdom,540817,2018,units,3,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Italy,Italy,310944,2019,units,4,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Italy,Italy,286980,2018,units,4,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,France,France,307847,2019,units,5,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,France,France,280533,2018,units,5,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Spain,Spain,305494,2019,units,6,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Spain,Spain,309907,2018,units,6,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Central and Eastern Europe,Worldwide,769681,2019,units,7,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Central and Eastern Europe,Worldwide,757575,2018,units,7,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Russia,Russia,223452,2019,units,8,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Russia,Russia,216950,2018,units,8,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Poland,Poland,165530,2019,units,9,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Poland,Poland,164480,2018,units,9,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Czech Republic,Czech Republic,136377,2019,units,10,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Czech Republic,Czech Republic,138922,2018,units,10,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Other markets,Worldwide,317623,2019,units,11,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Other markets,Worldwide,342047,2018,units,11,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,South Africa,South Africa,90969,2019,units,12,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,South Africa,South Africa,91311,2018,units,12,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Turkey,Turkey,78251,2019,units,13,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Turkey,Turkey,110785,2018,units,13,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,North America,Worldwide,948309,2019,units,14,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,North America,Worldwide,953188,2018,units,14,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,USA,USA,654152,2019,units,15,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,USA,USA,638274,2018,units,15,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Mexico,Mexico,181910,2019,units,16,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Mexico,Mexico,196431,2018,units,16,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Canada,Canada,112247,2019,units,17,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Canada,Canada,118483,2018,units,17,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,South America,Worldwide,551734,2019,units,18,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,South America,Worldwide,542239,2018,units,18,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Brazil,Brazil,420880,2019,units,19,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Brazil,Brazil,363766,2018,units,19,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Argentina,Argentina,70496,2019,units,20,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Argentina,Argentina,115426,2018,units,20,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Asia-Pacific,Worldwide,4517375,2019,units,21,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Asia-Pacific,Worldwide,4530564,2018,units,21,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,China,China,4228840,2019,units,22,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,China,China,4202398,2018,units,22,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Japan,Japan,79268,2019,units,23,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Japan,Japan,86356,2018,units,23,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,India,India,51541,2019,units,24,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,India,India,61277,2018,units,24,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Worldwide,Worldwide,10732415,2019,units,25,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Worldwide,Worldwide,10601014,2018,units,25,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Volkswagen Passenger Cars,Worldwide,6278345,2019,units,26,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Volkswagen Passenger Cars,Worldwide,6244888,2018,units,26,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Audi,Worldwide,1845573,2019,units,27,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Audi,Worldwide,1812485,2018,units,27,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,ŠKODA,Worldwide,1242767,2019,units,28,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,ŠKODA,Worldwide,1253741,2018,units,28,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,SEAT,Worldwide,574078,2019,units,29,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,SEAT,Worldwide,517627,2018,units,29,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Bentley,Worldwide,11006,2019,units,30,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Bentley,Worldwide,10494,2018,units,30,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Lamborghini,Worldwide,8205,2019,units,31,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Lamborghini,Worldwide,5750,2018,units,31,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Porsche,Worldwide,280800,2019,units,32,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Porsche,Worldwide,256255,2018,units,32,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Bugatti,Worldwide,82,2019,units,33,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Bugatti,Worldwide,76,2018,units,33,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,491559,2019,units,34,1,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
+deliveries,Volkswagen Commercial Vehicles,Worldwide,499698,2018,units,34,2,Qwen2.5-VL-72B-Instruct,table_00.png,divisions-vw-ar23/management_report_vw_ar19_page_055_table_00_kpis.json
